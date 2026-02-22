@@ -29,7 +29,8 @@ For collaboration, seminar invitations, or research discussions, email is the pr
 :::
 
 <div class="visitor-counter">
-<img src="https://s01.flagcounter.com/count2/shunyuwu2026/bg_FFFFFF/txt_334155/border_CBD5E1/columns_4/maxflags_20/viewers_1/labels_1/pageviews_1/flags_0/percent_0/" alt="Visitor country distribution counter" />
+<div class="visitor-globe" id="visitor-globe-contact"></div>
+<p class="globe-note">Interactive 3D globe for visitor-region visualization.</p>
 </div>
 
 ## Privacy Notice

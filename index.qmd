@@ -149,19 +149,19 @@ Details: [Projects](/projects/)
 More: [Service](/service/)
 :::
 ::: {.feature-card}
-#### Talks and Updates
-- Talk topics on DFL stability, constrained PtO, and deployment.
-- Ongoing publication and deployment milestones.
-- Structured updates for collaborators and evaluators.
+#### News and Collaboration
+- Publication status updates and deployment milestones.
+- Ongoing collaborations in optimization, control, and industrial AI.
+- Research contact and profile links for quick reach-out.
 
-Browse: [Talks](/talks/) and [News](/news/)
+Browse: [News](/news/) and [Contact](/contact/)
 :::
 :::
 
 ## Visitor Insights
 
 ::: {.section-note}
-Visitor statistics below include total page views, unique visitors, and geographic-origin indicators.
+The module below shows total page views, unique visitors, current visitor region, and a 3D globe view.
 :::
 
 ::: {.visitor-grid}
@@ -171,12 +171,13 @@ Visitor statistics below include total page views, unique visitors, and geograph
 :::
 
 <div class="visitor-counter">
-<img src="https://s01.flagcounter.com/count2/shunyuwu2026/bg_FFFFFF/txt_334155/border_CBD5E1/columns_4/maxflags_20/viewers_1/labels_1/pageviews_1/flags_0/percent_0/" alt="Visitor country distribution counter" />
+<div class="visitor-globe" id="visitor-globe-home"></div>
+<p class="globe-note">3D globe shows the current visitor position and the research home base (Shanghai).</p>
 </div>
 
 ## Latest News
 
-- **2026-02**: Website visual refresh with visitor-insight module and extended academic sections.
+- **2026-02**: Visual refresh with a softer interface style and 3D visitor globe.
 - **2026-02**: Site migrated from legacy URL `shuanyuwu.github.io` to `shunyuwu-shaun.github.io`.
 - **2025-11**: IEEE Transactions on Smart Grid paper indexed with DOI.
 - **2025-08**: Two DFL manuscripts submitted (NeurIPS cycle).

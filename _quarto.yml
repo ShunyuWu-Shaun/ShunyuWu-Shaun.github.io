@@ -25,8 +25,6 @@ website:
         text: Publications
       - href: projects/index.qmd
         text: Projects
-      - href: talks/index.qmd
-        text: Talks
       - href: news/index.qmd
         text: News
       - href: service/index.qmd

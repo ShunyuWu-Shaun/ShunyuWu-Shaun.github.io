@@ -1,0 +1,23 @@
+---
+title: "Crossing the Separation Point: Stabilizing Decision-Focused Learning with Variational Free-Energy"
+authors:
+  - "Shunyu Wu"
+  - "J. Wang"
+  - "H. Geng"
+year: 2025
+venue: "NeurIPS"
+status: "under-review"
+type: "first-author"
+doi: ""
+url: ""
+keywords:
+  - "decision-focused learning"
+  - "training stability"
+  - "variational free-energy"
+selected: true
+toc: false
+---
+
+**Status:** Under Review (NeurIPS 2025)
+
+This manuscript studies unstable dynamics around separation boundaries in DFL and proposes variational free-energy regularization for stable end-to-end training.

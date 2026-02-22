@@ -1,0 +1,34 @@
+---
+title: "Thermal Power Plant Closed-loop Efficiency Optimization"
+domain: "power"
+period: "2024-Present"
+role: "Project Lead"
+problem: "Improve equivalent heat rate under volatile coal quality and load swings while enforcing strict NOx and hardware safety limits."
+method: "Robust optimization with hard constraints, condition-adaptive feasible-set tightening, surrogate-assisted online optimization, and rollback-ready release pipeline."
+outcome: "Fuel-specific consumption reduced (~1.5% in one deployment line and ~1-3 g/kWh across multi-unit settings), fewer violations, and sustained long-run operation."
+status: "deployed"
+confidentiality: "public-safe"
+selected: true
+toc: false
+---
+
+## Context
+
+This project targets coal-fired unit operation in fast-changing conditions (load transitions, coal blend shifts, and equipment limits), where manual tuning often trades efficiency for conservative operation.
+
+## Method
+
+- Built robust constrained optimization models for setpoint decisions.
+- Added condition-adaptive feasible-set tightening and two-layer protections.
+- Used local surrogate models to reduce cross-site distribution shift.
+- Adopted decoupled train/inference/optimization/release pipelines with rollback and replay checks.
+
+## Outcome
+
+- Improved efficiency and reduced fuel consumption under safety/environment constraints.
+- Reduced strategy switch latency and operator workload.
+- Enabled cross-site template reuse for faster deployment.
+
+## Role
+
+I led technical roadmap design, safety strategy, acceptance criteria definition, and cross-team coordination.

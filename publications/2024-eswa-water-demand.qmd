@@ -1,0 +1,25 @@
+---
+title: "Knowledge-based Bi-correction Model for Lag-free Daily Urban Water Demand Forecasting"
+authors:
+  - "Shunyu Wu"
+  - "J. Wang"
+  - "H. Xu"
+  - "et al."
+year: 2024
+venue: "Expert Systems with Applications"
+status: "published"
+type: "first-author"
+doi: "10.1016/j.eswa.2024.124508"
+url: "https://doi.org/10.1016/j.eswa.2024.124508"
+keywords:
+  - "time series forecasting"
+  - "urban water demand"
+  - "knowledge-augmented modeling"
+selected: true
+toc: false
+---
+
+**Status:** Published  
+**DOI:** [10.1016/j.eswa.2024.124508](https://doi.org/10.1016/j.eswa.2024.124508)
+
+This paper proposes a bi-correction strategy to reduce lag effects in urban water demand forecasting and improve downstream optimization quality.

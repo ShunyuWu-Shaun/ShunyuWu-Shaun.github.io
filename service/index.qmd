@@ -1,0 +1,29 @@
+---
+title: "Service"
+description: "Academic service, teaching, and mentoring activities."
+---
+
+## Reviewing
+
+### Conferences (selected)
+
+- ICLR (2025, 2026 cycles)
+- AAAI (2026 cycle)
+- CDC (2024, 2025)
+- IFAC-related venues (since 2023)
+
+### Journals (selected)
+
+- IEEE Transactions on Systems, Man, and Cybernetics: Systems
+- IEEE Transactions on Automation Science and Engineering
+- IEEE Transactions on Intelligent Vehicles
+
+## Teaching and Mentoring
+
+- Teaching Assistant, **Advanced Process Control** (2023-2024): lectures, assignments, recitations.
+- Co-mentoring support: **1 Ph.D.** and **13 M.Sc.** students (topic framing, reproducible pipelines, and engineering replication).
+
+## Collaboration Practice
+
+- Promote methodological clarity, reproducibility, and deployability.
+- Bridge research prototypes to production through acceptance tests, rollback plans, and post-mortem reviews.

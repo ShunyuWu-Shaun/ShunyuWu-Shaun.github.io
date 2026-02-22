@@ -1,0 +1,26 @@
+---
+title: "CritiCoder: End-to-End Uncertain Regression for Robust Macroscopic Pressure Models in Water Distribution Systems"
+authors:
+  - "Shunyu Wu"
+  - "J. Wang"
+  - "H. Xu"
+  - "S. Zhao"
+  - "J. Xu"
+year: 2023
+venue: "IEEE Transactions on Computational Social Systems"
+status: "published"
+type: "first-author"
+doi: "10.1109/TCSS.2023.3272330"
+url: "https://doi.org/10.1109/TCSS.2023.3272330"
+keywords:
+  - "uncertainty modeling"
+  - "water distribution networks"
+  - "robust regression"
+selected: true
+toc: false
+---
+
+**Status:** Published  
+**DOI:** [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
+
+This work introduces an uncertainty-aware end-to-end pressure modeling approach for water distribution systems to support robust anomaly-aware operations.

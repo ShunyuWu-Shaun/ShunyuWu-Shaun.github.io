@@ -1,0 +1,25 @@
+---
+title: "End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling"
+authors:
+  - "Shunyu Wu"
+  - "J. Wang"
+  - "H. Xu"
+  - "et al."
+year: 2025
+venue: "IEEE Transactions on Smart Grid"
+status: "published"
+type: "first-author"
+doi: "10.1109/TSG.2025.3601238"
+url: "https://doi.org/10.1109/TSG.2025.3601238"
+keywords:
+  - "decision-focused learning"
+  - "predict-then-optimize"
+  - "water-energy systems"
+selected: true
+toc: false
+---
+
+**Status:** Published  
+**DOI:** [10.1109/TSG.2025.3601238](https://doi.org/10.1109/TSG.2025.3601238)
+
+This work develops an end-to-end stochastic PtO framework for coupled water-energy scheduling with measurable cost and efficiency gains.

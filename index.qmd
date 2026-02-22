@@ -1,0 +1,123 @@
+---
+title: "Shunyu Wu"
+subtitle: "Decision-Focused Learning and Optimization for Reliable Real-World Systems"
+description: "Ph.D. candidate at Shanghai Jiao Tong University working on decision-focused learning, constrained optimization, and deployable AI systems for energy and water infrastructure."
+toc: false
+page-layout: full
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Shunyu Wu",
+  "url": "https://shunyuwu-shaun.github.io",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Shanghai Jiao Tong University"
+  },
+  "jobTitle": "Ph.D. Candidate",
+  "email": "mailto:shunyuwu@sjtu.edu.cn",
+  "sameAs": [
+    "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao",
+    "https://orcid.org/0000-0001-9856-2148",
+    "https://github.com/ShunyuWu-Shaun"
+  ]
+}
+</script>
+
+::: {.hero-card}
+## About
+
+I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao Tong University**, focusing on **decision-focused learning (DFL)**, **predict-then-optimize (PtO)**, and **constrained optimization** for safety-critical, real-time systems.
+
+::: {.hero-lead}
+My work bridges theory and deployment: from stable end-to-end training and uncertain constraints to long-running optimization pipelines in thermal power and urban water systems.
+:::
+
+::: {.hero-buttons}
+[Google Scholar](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao)
+[ORCID](https://orcid.org/0000-0001-9856-2148)
+[GitHub](https://github.com/ShunyuWu-Shaun)
+:::
+:::
+
+::: {.snapshot-grid}
+::: {.snapshot-item}
+<div class="snapshot-number">3+</div>
+<div class="snapshot-label">First-author publications</div>
+:::
+::: {.snapshot-item}
+<div class="snapshot-number">2</div>
+<div class="snapshot-label">Deployment domains (Power, Water)</div>
+:::
+::: {.snapshot-item}
+<div class="snapshot-number">14</div>
+<div class="snapshot-label">Students co-mentored (1 Ph.D. + 13 M.Sc.)</div>
+:::
+::: {.snapshot-item}
+<div class="snapshot-number">2026</div>
+<div class="snapshot-label">Expected Ph.D. graduation</div>
+:::
+:::
+
+## Research Highlights
+
+::: {.card-list}
+::: {.entry-card}
+#### Stable Dynamics for End-to-End DFL
+I study instability caused by piecewise-constant argmin maps and propose stabilization methods, including variational free-energy regularization and proximal updates with inexact surrogate gradients.
+:::
+::: {.entry-card}
+#### Constrained PtO with Learned Constraints
+I extend DFL beyond objective uncertainty by modeling uncertain constraints, introducing dual-gap regret objectives and feasibility-preserving solver ideas.
+:::
+::: {.entry-card}
+#### Deployable Decision Pipelines for Infrastructure
+I integrate graph/physics-informed surrogates with LP/MILP optimization and engineering safeguards (feasible-set tightening, rollback, monitoring) for long-running operation.
+:::
+:::
+
+## Selected Publications
+
+::: {.card-list}
+::: {.entry-card}
+#### End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling (IEEE TSG, 2025)
+DOI: [10.1109/TSG.2025.3601238](https://doi.org/10.1109/TSG.2025.3601238)
+:::
+::: {.entry-card}
+#### Knowledge-based Bi-correction Model for Lag-free Daily Urban Water Demand Forecasting (ESWA, 2024)
+DOI: [10.1016/j.eswa.2024.124508](https://doi.org/10.1016/j.eswa.2024.124508)
+:::
+::: {.entry-card}
+#### CritiCoder: End-to-End Uncertain Regression for Robust Macroscopic Pressure Models in WDN (IEEE TCSS, 2023)
+DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
+:::
+:::
+
+For the full list (published + preprints + collaborations), see [Publications](/publications/).
+
+## Selected Deployments
+
+::: {.card-list}
+::: {.entry-card}
+#### Thermal Power Plant Closed-loop Efficiency Optimization
+Cross-site deployment on 330 MW and 660 MW coal-fired units with stable operation and measurable energy gains under strict safety/environmental constraints.
+
+Details: [Projects](/projects/)
+:::
+::: {.entry-card}
+#### Urban Water Utility Pump Scheduling and Anomaly-Aware Control
+SCADA-integrated forecast-optimize pipeline for pump scheduling and pressure compliance in Shanghai demonstration settings.
+
+Details: [Projects](/projects/)
+:::
+:::
+
+## Latest News
+
+- **2026-02**: Site migrated from legacy URL `shuanyuwu.github.io` to `shunyuwu-shaun.github.io`.
+- **2026-02**: New academic website launched at `shunyuwu-shaun.github.io`.
+- **2025-11**: IEEE Transactions on Smart Grid paper indexed with DOI.
+- **2025-08**: Two DFL manuscripts submitted (NeurIPS cycle).
+- **2025-05**: Thermal power optimization system entered long-run production operation.

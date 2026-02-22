@@ -1,0 +1,32 @@
+---
+title: "Projects"
+description: "Selected deployment-oriented projects in thermal power and urban water systems."
+---
+
+::: {.section-note}
+Only public-safe content is shown (problem, method, and measurable outcomes).
+:::
+
+## Selected Deployments
+
+::: {.card-list}
+::: {.entry-card}
+#### [Thermal Power Plant Closed-loop Efficiency Optimization](power-closed-loop-efficiency.qmd)
+- Domain: Power
+- Role: Project Lead
+- Status: Deployed
+:::
+::: {.entry-card}
+#### [Urban Water Utility Pump Scheduling and Anomaly-Aware Control](water-pump-scheduling.qmd)
+- Domain: Water
+- Role: Algorithm Lead
+- Status: Deployed
+:::
+:::
+
+## Engineering Principles Across Projects
+
+- Hard-constraint safety first (feasible-set tightening + two-layer protections).
+- Decoupled train/inference/optimization/release architecture.
+- Configuration-driven deployment with rollback and replay validation.
+- Operator-facing observability (alerts, dashboards, audit logs).

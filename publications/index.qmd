@@ -1,0 +1,64 @@
+---
+title: "Publications"
+description: "Published papers, preprints, and collaborations by Shunyu Wu."
+toc: false
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling",
+      "datePublished": "2025",
+      "url": "https://doi.org/10.1109/TSG.2025.3601238"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting",
+      "datePublished": "2024",
+      "url": "https://doi.org/10.1016/j.eswa.2024.124508"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems",
+      "datePublished": "2023",
+      "url": "https://doi.org/10.1109/TCSS.2023.3272330"
+    }
+  ]
+}
+</script>
+
+::: {.section-note}
+Status is explicitly separated into **Published**, **Preprints**, and **Collaborations** to avoid ambiguity.
+:::
+
+## Published (First-Author)
+
+1. [End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling](2025-tsg-water-energy.qmd)  
+IEEE Transactions on Smart Grid, 2025. DOI: [10.1109/TSG.2025.3601238](https://doi.org/10.1109/TSG.2025.3601238)
+2. [Knowledge-based Bi-correction Model for Lag-free Daily Urban Water Demand Forecasting](2024-eswa-water-demand.qmd)  
+Expert Systems with Applications, 2024. DOI: [10.1016/j.eswa.2024.124508](https://doi.org/10.1016/j.eswa.2024.124508)
+3. [CritiCoder: End-to-End Uncertain Regression for Robust Macroscopic Pressure Models in WDN](2023-tcss-criticoder.qmd)  
+IEEE Transactions on Computational Social Systems, 2023. DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
+
+## Preprints (Under Review / In Preparation)
+
+1. [Crossing the Separation Point: Stabilizing Decision-Focused Learning with Variational Free-Energy](2025-neurips-vfe.qmd)  
+NeurIPS, under review (2025).
+2. [Proximal Descent for Stable Decision-Focused Training with Inexact Surrogate Gradients](2025-neurips-proximal.qmd)  
+NeurIPS, under review (2025).
+3. [Planning the Invisible: End-to-End Sensor Deployment Regret Minimization for Anomaly-Aware Water Networks](2026-aaai-sensor.qmd)  
+AAAI, under review (2026).
+4. [Beyond Objective Parameters: Parametric Dual-Gap Regret for Predict-then-Optimize under Unknown Constraint Parameters](2026-iclr-dual-gap.qmd)  
+ICLR, planned / in revision (2026).
+5. [Projection-to-Envelopes Solver for Constrained Optimization](2026-inprep-envelope.qmd)  
+In preparation (2026).
+
+## Collaborations (Selected Published)
+
+1. [Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method](2024-tsmc-rl-controller.qmd)  
+IEEE TSMC: Systems, 2024. DOI: [10.1109/TSMC.2023.3344883](https://doi.org/10.1109/TSMC.2023.3344883)
+2. [Prediction of Energy Consumption in Horizontal Roughing Process Based on TDADE Algorithm](2023-tase-tdade.qmd)  
+IEEE TASE, 2023. DOI: [10.1109/TASE.2023.3236306](https://doi.org/10.1109/TASE.2023.3236306)

@@ -1,0 +1,25 @@
+---
+title: "Planning the Invisible: End-to-End Sensor Deployment Regret Minimization for Anomaly-Aware Water Networks"
+authors:
+  - "Shunyu Wu"
+  - "J. Wang"
+  - "J. Rao"
+  - "H. Wang"
+  - "X. Xiao"
+year: 2026
+venue: "AAAI"
+status: "under-review"
+type: "first-author"
+doi: ""
+url: ""
+keywords:
+  - "sensor placement"
+  - "regret minimization"
+  - "water networks"
+selected: true
+toc: false
+---
+
+**Status:** Under Review (AAAI 2026)
+
+This paper links anomaly-aware forecasting quality with sensor deployment decisions through regret-aware end-to-end optimization.

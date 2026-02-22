@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Shunyu Wu"
+  site-url: "https://shunyuwu-shaun.github.io"
+  description: "Academic website of Shunyu Wu, Ph.D. candidate in decision-focused learning and optimization."
+  repo-url: "https://github.com/ShunyuWu-Shaun/ShunyuWu-Shaun.github.io"
+  favicon: "assets/icon.svg"
+  open-graph: true
+  twitter-card: true
+  page-navigation: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research/index.qmd
+        text: Research
+      - href: publications/index.qmd
+        text: Publications
+      - href: projects/index.qmd
+        text: Projects
+      - href: service/index.qmd
+        text: Service
+      - href: cv/index.qmd
+        text: CV
+      - href: contact/index.qmd
+        text: Contact
+    right:
+      - text: Scholar
+        href: "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao"
+      - text: ORCID
+        href: "https://orcid.org/0000-0001-9856-2148"
+      - text: GitHub
+        href: "https://github.com/ShunyuWu-Shaun"
+  page-footer:
+    border: true
+    left: "© 2026 Shunyu Wu"
+    right: "Built with Quarto · Updated monthly"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.scss
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: true
+    code-copy: true
+    code-overflow: wrap
+
+lang: en

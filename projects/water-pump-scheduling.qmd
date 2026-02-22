@@ -1,0 +1,34 @@
+---
+title: "Urban Water Utility Pump Scheduling and Anomaly-Aware Control"
+domain: "water"
+period: "2019-2024"
+role: "Algorithm Lead / Co-Algorithm Lead"
+problem: "Optimize pump scheduling and pressure compliance under demand uncertainty, sensor noise, and occasional data anomalies in SCADA-integrated environments."
+method: "Forecast-optimize pipeline with demand prediction + MILP scheduling; anomaly-aware thresholding and strategy templates; hot-update and rollback support in deployment."
+outcome: "Peak energy reduced (~10%), pump switching reduced (~20%), pressure compliance improved (~3%), and overflow risk reduced in resilience simulations."
+status: "deployed"
+confidentiality: "public-safe"
+selected: true
+toc: false
+---
+
+## Context
+
+This project focuses on operational scheduling in urban water systems where multiple objectives must be balanced: energy cost, pressure compliance, equipment wear, and resilience under anomalies.
+
+## Method
+
+- Built demand forecasting and mixed-integer scheduling pipeline.
+- Integrated pressure/flow constraints with deployment-oriented safeguards.
+- Added anomaly-aware strategy templates with replay and audit support.
+- Designed modular interfaces for SCADA integration and operator workflows.
+
+## Outcome
+
+- Reduced energy and switching costs while improving service-level metrics.
+- Improved robustness against sensing anomalies and inflow disturbances.
+- Produced reusable strategy templates for recurring operation patterns.
+
+## Role
+
+I led end-to-end algorithm design, deployment acceptance tests, and operator-facing runbook/training materials.

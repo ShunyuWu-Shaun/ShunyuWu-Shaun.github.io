@@ -1,0 +1,22 @@
+---
+title: "Beyond Objective Parameters: Parametric Dual-Gap Regret for Predict-then-Optimize under Unknown Constraint Parameters"
+authors:
+  - "Shunyu Wu"
+  - "J. Wang"
+year: 2026
+venue: "ICLR"
+status: "under-review"
+type: "first-author"
+doi: ""
+url: ""
+keywords:
+  - "predict-then-optimize"
+  - "constraint uncertainty"
+  - "regret"
+selected: true
+toc: false
+---
+
+**Status:** Planned / In Revision (ICLR 2026 cycle)
+
+This manuscript develops dual-gap regret objectives for constrained PtO with unknown constraint parameters.

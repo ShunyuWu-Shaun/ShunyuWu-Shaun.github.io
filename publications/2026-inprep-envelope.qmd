@@ -1,0 +1,21 @@
+---
+title: "Projection-to-Envelopes Solver for Constrained Optimization"
+authors:
+  - "Shunyu Wu"
+year: 2026
+venue: "In preparation"
+status: "in-preparation"
+type: "first-author"
+doi: ""
+url: ""
+keywords:
+  - "unsupervised solver"
+  - "differentiable optimization"
+  - "feasibility guarantees"
+selected: true
+toc: false
+---
+
+**Status:** In Preparation (2026)
+
+This work explores label-free, feasibility-preserving solver modules for differentiable constrained optimization.

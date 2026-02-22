@@ -1,0 +1,23 @@
+---
+title: "Prediction of Energy Consumption in Horizontal Roughing Process of Hot Rolling Strip Based on TDADE Algorithm"
+authors:
+  - "Y. Zhong"
+  - "Shunyu Wu"
+  - "et al."
+year: 2023
+venue: "IEEE Transactions on Automation Science and Engineering"
+status: "published"
+type: "co-author"
+doi: "10.1109/TASE.2023.3236306"
+url: "https://doi.org/10.1109/TASE.2023.3236306"
+keywords:
+  - "energy prediction"
+  - "industrial optimization"
+selected: true
+toc: false
+---
+
+**Status:** Published  
+**DOI:** [10.1109/TASE.2023.3236306](https://doi.org/10.1109/TASE.2023.3236306)
+
+Selected collaboration on energy consumption forecasting in industrial rolling processes.

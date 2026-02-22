@@ -1,0 +1,21 @@
+---
+title: "Contact"
+description: "Contact links and profiles for Shunyu Wu."
+toc: false
+---
+
+## Contact
+
+- Email: [shunyuwu@sjtu.edu.cn](mailto:shunyuwu@sjtu.edu.cn)
+- Google Scholar: [profile](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao)
+- ORCID: [0000-0001-9856-2148](https://orcid.org/0000-0001-9856-2148)
+- GitHub: [ShunyuWu-Shaun](https://github.com/ShunyuWu-Shaun)
+
+## Affiliation
+
+- Shanghai Jiao Tong University
+- Department of Control Science and Engineering
+
+## Privacy Notice
+
+This website intentionally omits sensitive personal information (phone number, date of birth, ID, and home address).

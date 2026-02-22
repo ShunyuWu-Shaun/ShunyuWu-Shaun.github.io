@@ -26,19 +26,40 @@ page-layout: full
 }
 </script>
 
-::: {.hero-card}
+::: {.hero-layout}
+::: {.hero-card .hero-main}
 ## About
 
-I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao Tong University**, focusing on **decision-focused learning (DFL)**, **predict-then-optimize (PtO)**, and **constrained optimization** for safety-critical, real-time systems.
+I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao Tong University**. My research focuses on **decision-focused learning (DFL)**, **predict-then-optimize (PtO)**, and **constrained optimization** for safety-critical, real-time systems.
 
 ::: {.hero-lead}
-My work bridges theory and deployment: from stable end-to-end training and uncertain constraints to long-running optimization pipelines in thermal power and urban water systems.
+I work on both method and deployment: stable end-to-end training, uncertain constraints, and long-running optimization pipelines in thermal power and urban water infrastructure.
 :::
 
 ::: {.hero-buttons}
 [Google Scholar](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao)
 [ORCID](https://orcid.org/0000-0001-9856-2148)
 [GitHub](https://github.com/ShunyuWu-Shaun)
+[Download CV](/cv/)
+:::
+
+::: {.interest-chips}
+<span class="interest-chip">Decision-Focused Learning</span>
+<span class="interest-chip">Constrained PtO</span>
+<span class="interest-chip">MILP + Surrogates</span>
+<span class="interest-chip">Infrastructure AI</span>
+<span class="interest-chip">Deployment Reliability</span>
+:::
+:::
+
+::: {.profile-card}
+![](/assets/images/shunyu-wu-avatar.jpg){.profile-photo alt="Shunyu Wu profile photo"}
+
+<div>
+<div class="profile-name">Shunyu Wu</div>
+<div class="profile-role">Ph.D. Candidate, Shanghai Jiao Tong University</div>
+<div class="profile-role">Decision-focused learning, optimization, and deployable AI systems</div>
+</div>
 :::
 :::
 
@@ -61,12 +82,14 @@ My work bridges theory and deployment: from stable end-to-end training and uncer
 :::
 :::
 
+<hr class="page-section-divider" />
+
 ## Research Highlights
 
 ::: {.card-list}
 ::: {.entry-card}
 #### Stable Dynamics for End-to-End DFL
-I study instability caused by piecewise-constant argmin maps and propose stabilization methods, including variational free-energy regularization and proximal updates with inexact surrogate gradients.
+I study instability caused by piecewise-constant argmin maps and propose stabilization methods including variational free-energy regularization and proximal updates with inexact surrogate gradients.
 :::
 ::: {.entry-card}
 #### Constrained PtO with Learned Constraints
@@ -95,14 +118,14 @@ DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
 :::
 :::
 
-For the full list (published + preprints + collaborations), see [Publications](/publications/).
+For complete records, see [Publications](/publications/).
 
 ## Selected Deployments
 
 ::: {.card-list}
 ::: {.entry-card}
 #### Thermal Power Plant Closed-loop Efficiency Optimization
-Cross-site deployment on 330 MW and 660 MW coal-fired units with stable operation and measurable energy gains under strict safety/environmental constraints.
+Cross-site deployment on 330 MW and 660 MW coal-fired units with stable operation and measurable energy gains under strict safety and environmental constraints.
 
 Details: [Projects](/projects/)
 :::
@@ -114,10 +137,47 @@ Details: [Projects](/projects/)
 :::
 :::
 
+## Common Academic Sections
+
+::: {.two-col-grid}
+::: {.feature-card}
+#### Academic Service
+- Conference reviewing: ICLR, AAAI, CDC, IFAC-related venues.
+- Journal reviewing: IEEE TSMC Systems, IEEE TASE, IEEE TIV.
+- Mentoring: 1 Ph.D. and 13 M.Sc. students co-mentored.
+
+More: [Service](/service/)
+:::
+::: {.feature-card}
+#### Talks and Updates
+- Talk topics on DFL stability, constrained PtO, and deployment.
+- Ongoing publication and deployment milestones.
+- Structured updates for collaborators and evaluators.
+
+Browse: [Talks](/talks/) and [News](/news/)
+:::
+:::
+
+## Visitor Insights
+
+::: {.section-note}
+Visitor statistics below include total page views, unique visitors, and geographic-origin indicators.
+:::
+
+::: {.visitor-grid}
+<div class="visitor-stat"><span class="label">Page Views</span><span class="value" id="visitor-pv">--</span></div>
+<div class="visitor-stat"><span class="label">Unique Visitors</span><span class="value" id="visitor-uv">--</span></div>
+<div class="visitor-stat"><span class="label">Current Visitor Region</span><span class="value" id="visitor-geo">Detecting...</span></div>
+:::
+
+<div class="visitor-counter">
+<img src="https://s01.flagcounter.com/count2/shunyuwu2026/bg_FFFFFF/txt_334155/border_CBD5E1/columns_4/maxflags_20/viewers_1/labels_1/pageviews_1/flags_0/percent_0/" alt="Visitor country distribution counter" />
+</div>
+
 ## Latest News
 
+- **2026-02**: Website visual refresh with visitor-insight module and extended academic sections.
 - **2026-02**: Site migrated from legacy URL `shuanyuwu.github.io` to `shunyuwu-shaun.github.io`.
-- **2026-02**: New academic website launched at `shunyuwu-shaun.github.io`.
 - **2025-11**: IEEE Transactions on Smart Grid paper indexed with DOI.
 - **2025-08**: Two DFL manuscripts submitted (NeurIPS cycle).
-- **2025-05**: Thermal power optimization system entered long-run production operation.
+- **2025-05**: Thermal-power optimization system entered long-run production operation.

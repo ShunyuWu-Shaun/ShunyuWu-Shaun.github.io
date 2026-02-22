@@ -25,6 +25,10 @@ website:
         text: Publications
       - href: projects/index.qmd
         text: Projects
+      - href: talks/index.qmd
+        text: Talks
+      - href: news/index.qmd
+        text: News
       - href: service/index.qmd
         text: Service
       - href: cv/index.qmd
@@ -47,6 +51,8 @@ format:
   html:
     theme: cosmo
     css: styles.scss
+    include-in-header:
+      - assets/scripts/header-analytics.html
     toc: true
     toc-depth: 3
     smooth-scroll: true

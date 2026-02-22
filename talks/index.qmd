@@ -1,0 +1,26 @@
+---
+title: "Talks"
+description: "Selected talks and presentation topics."
+toc: false
+---
+
+## Selected Talk Topics
+
+::: {.card-list}
+::: {.entry-card}
+#### Decision-Focused Learning Beyond Benchmark Settings
+From optimization-aware training to deployable decision pipelines in real industrial systems.
+:::
+::: {.entry-card}
+#### Constrained Predict-then-Optimize with Uncertain Constraints
+Dual-gap regret and feasibility-preserving solver direction for constrained decision systems.
+:::
+::: {.entry-card}
+#### Stable End-to-End Training Near Separation Boundaries
+Variational free-energy and proximal updates for robust DFL optimization.
+:::
+:::
+
+## Availability
+
+For invited talks, panel participation, or seminar exchanges, contact via [email](mailto:shunyuwu@sjtu.edu.cn).

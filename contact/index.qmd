@@ -1,8 +1,12 @@
 ---
 title: "Contact"
-description: "Contact links and profiles for Shunyu Wu."
+description: "Contact links, profiles, and visitor statistics for Shunyu Wu."
 toc: false
 ---
+
+::: {.section-note}
+For collaboration, seminar invitations, or research discussions, email is the preferred channel.
+:::
 
 ## Contact
 
@@ -15,6 +19,18 @@ toc: false
 
 - Shanghai Jiao Tong University
 - Department of Control Science and Engineering
+
+## Visitor Statistics
+
+::: {.visitor-grid}
+<div class="visitor-stat"><span class="label">Page Views</span><span class="value" id="visitor-pv">--</span></div>
+<div class="visitor-stat"><span class="label">Unique Visitors</span><span class="value" id="visitor-uv">--</span></div>
+<div class="visitor-stat"><span class="label">Current Visitor Region</span><span class="value" id="visitor-geo">Detecting...</span></div>
+:::
+
+<div class="visitor-counter">
+<img src="https://s01.flagcounter.com/count2/shunyuwu2026/bg_FFFFFF/txt_334155/border_CBD5E1/columns_4/maxflags_20/viewers_1/labels_1/pageviews_1/flags_0/percent_0/" alt="Visitor country distribution counter" />
+</div>
 
 ## Privacy Notice
 

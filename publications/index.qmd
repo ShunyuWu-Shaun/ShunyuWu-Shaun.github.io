@@ -34,6 +34,12 @@ toc: false
 Status is explicitly separated into **Published**, **Preprints**, and **Collaborations** to avoid ambiguity.
 :::
 
+## Citation Profiles
+
+- Google Scholar: [Shunyu Wu profile](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao)
+- ORCID record: [0000-0001-9856-2148](https://orcid.org/0000-0001-9856-2148)
+- CV bundle with publication list: [CV page](/cv/)
+
 ## Published (First-Author)
 
 1. [End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling](2025-tsg-water-energy.qmd)  

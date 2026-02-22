@@ -1,0 +1,32 @@
+---
+title: "News"
+description: "Research updates, publication milestones, and deployment progress."
+toc: false
+---
+
+## Updates
+
+::: {.card-list}
+::: {.entry-card}
+#### 2026-02 | Website upgrade and migration
+The academic website moved to **shunyuwu-shaun.github.io** with structured publication pages and deployment-focused project summaries.
+:::
+::: {.entry-card}
+#### 2025-11 | IEEE TSG paper officially indexed
+`End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling` is now online with DOI.
+:::
+::: {.entry-card}
+#### 2025-08 | New DFL manuscripts submitted
+Two manuscripts on DFL training stability and inexact surrogate gradients entered the NeurIPS review cycle.
+:::
+::: {.entry-card}
+#### 2025-05 | Thermal-power optimization system in long-run operation
+Field deployment continued with stable operation and measurable energy-efficiency gains.
+:::
+:::
+
+## What This Page Tracks
+
+- Publication status transitions (under review -> accepted -> published)
+- New talks and invited presentations
+- Deployment milestones in power/water domains

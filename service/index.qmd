@@ -27,3 +27,9 @@ description: "Academic service, teaching, and mentoring activities."
 
 - Promote methodological clarity, reproducibility, and deployability.
 - Bridge research prototypes to production through acceptance tests, rollback plans, and post-mortem reviews.
+
+## Open-Science Habits
+
+- Keep publication status explicit (published vs. under review vs. in preparation).
+- Prefer DOI-linked records and traceable artifacts.
+- Maintain deployment-oriented documentation for reproducibility in real systems.

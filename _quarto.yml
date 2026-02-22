@@ -48,7 +48,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.scss
+    css: styles.css
     include-in-header:
       - assets/scripts/header-analytics.html
     toc: true

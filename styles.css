@@ -1,24 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;600&family=Nunito:wght@400;600;700;800&display=swap");
 
 :root {
-  --sw-primary: #e85d8e;
-  --sw-primary-strong: #d9487d;
-  --sw-secondary: #22b8a7;
-  --sw-accent: #f59f64;
+  --sw-primary: #0f4c81;
+  --sw-primary-strong: #0b3a66;
+  --sw-secondary: #0f766e;
+  --sw-accent: #b7791f;
   --sw-bg-paper: #ffffff;
-  --sw-ink: #263248;
-  --sw-muted: #5e6678;
-  --sw-border: #e8d6df;
-  --sw-shadow: 0 14px 34px rgba(220, 107, 148, 0.12);
+  --sw-ink: #1f2937;
+  --sw-muted: #4b5563;
+  --sw-border: #d3dce8;
+  --sw-shadow: 0 14px 34px rgba(15, 76, 129, 0.13);
 }
 
 body {
   font-family: "Nunito", sans-serif;
   color: var(--sw-ink);
   background:
-    radial-gradient(circle at 12% 0%, rgba(232, 93, 142, 0.2), transparent 35%),
-    radial-gradient(circle at 90% 10%, rgba(34, 184, 167, 0.16), transparent 28%),
-    linear-gradient(180deg, #fff8fb 0%, #f8fbff 42%, #f9fffd 100%);
+    radial-gradient(circle at 12% 0%, rgba(15, 76, 129, 0.2), transparent 35%),
+    radial-gradient(circle at 90% 10%, rgba(15, 118, 110, 0.14), transparent 28%),
+    linear-gradient(180deg, #f3f7fc 0%, #f8fbff 42%, #f6fbfa 100%);
 }
 
 main h1,
@@ -40,9 +40,9 @@ samp {
 }
 
 .navbar {
-  border-bottom: 1px solid rgba(216, 145, 170, 0.35);
+  border-bottom: 1px solid rgba(15, 76, 129, 0.25);
   backdrop-filter: blur(11px);
-  background: rgba(255, 246, 250, 0.84);
+  background: rgba(244, 249, 255, 0.84);
 }
 
 .navbar-title {
@@ -63,16 +63,16 @@ samp {
 
 .hero-card {
   border: 1px solid var(--sw-border);
-  border-radius: 22px;
+  border-radius: 18px;
   padding: 1.42rem;
   background:
-    linear-gradient(135deg, rgba(232, 93, 142, 0.16), rgba(255, 220, 200, 0.18) 52%, rgba(34, 184, 167, 0.14));
+    linear-gradient(135deg, rgba(15, 76, 129, 0.17), rgba(180, 205, 230, 0.15) 52%, rgba(15, 118, 110, 0.13));
   box-shadow: var(--sw-shadow);
   animation: rise-in 0.62s ease-out both;
 }
 
 .hero-main .hero-lead {
-  color: #2f2f46;
+  color: #27374c;
   font-size: 1.08rem;
   line-height: 1.75;
   margin-bottom: 1rem;
@@ -98,23 +98,23 @@ samp {
 .hero-buttons a:nth-child(1),
 .hero-buttons a:nth-child(3) {
   color: #fff;
-  background: linear-gradient(120deg, var(--sw-primary), #e75480);
+  background: linear-gradient(120deg, var(--sw-primary), #1f67a2);
 }
 
 .hero-buttons a:nth-child(2),
 .hero-buttons a:nth-child(4) {
   color: #fff;
-  background: linear-gradient(120deg, #26b9a9, #1d9f91);
+  background: linear-gradient(120deg, #0f7f75, #166c96);
 }
 
 .hero-buttons a:hover {
   transform: translateY(-1px);
-  box-shadow: 0 10px 24px rgba(232, 93, 142, 0.25);
+  box-shadow: 0 10px 24px rgba(15, 76, 129, 0.25);
 }
 
 .profile-card {
   border: 1px solid var(--sw-border);
-  border-radius: 22px;
+  border-radius: 18px;
   background: var(--sw-bg-paper);
   padding: 1rem;
   box-shadow: var(--sw-shadow);
@@ -126,9 +126,9 @@ samp {
   max-width: 222px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 18px;
-  border: 2px solid rgba(232, 93, 142, 0.2);
-  box-shadow: 0 12px 26px rgba(232, 93, 142, 0.18);
+  border-radius: 14px;
+  border: 2px solid rgba(15, 76, 129, 0.2);
+  box-shadow: 0 12px 26px rgba(15, 76, 129, 0.18);
 }
 
 .profile-name {
@@ -153,10 +153,10 @@ samp {
 }
 
 .interest-chip {
-  border: 1px solid rgba(232, 93, 142, 0.35);
-  color: #a63b65;
+  border: 1px solid rgba(15, 76, 129, 0.35);
+  color: #0d406f;
   border-radius: 999px;
-  background: #fff0f6;
+  background: #eef5ff;
   padding: 0.25rem 0.62rem;
   font-size: 0.78rem;
   font-weight: 700;
@@ -171,7 +171,7 @@ samp {
 
 .snapshot-item {
   border: 1px solid var(--sw-border);
-  border-radius: 12px;
+  border-radius: 10px;
   background: var(--sw-bg-paper);
   padding: 0.82rem 0.9rem;
 }
@@ -197,17 +197,17 @@ samp {
 .entry-card {
   border: 1px solid var(--sw-border);
   border-left: 4px solid var(--sw-primary);
-  border-radius: 14px;
+  border-radius: 12px;
   padding: 0.95rem 1rem;
   background: var(--sw-bg-paper);
-  box-shadow: 0 10px 22px rgba(214, 114, 153, 0.08);
+  box-shadow: 0 10px 22px rgba(15, 76, 129, 0.09);
   animation: rise-in 0.55s ease-out both;
   transition: transform 140ms ease, box-shadow 140ms ease;
 }
 
 .entry-card:hover {
   transform: translateY(-1px);
-  box-shadow: 0 14px 25px rgba(214, 114, 153, 0.12);
+  box-shadow: 0 14px 25px rgba(15, 76, 129, 0.14);
 }
 
 .entry-card h4,
@@ -224,10 +224,10 @@ samp {
 
 .feature-card {
   border: 1px solid var(--sw-border);
-  border-radius: 14px;
-  background: linear-gradient(180deg, #ffffff 0%, #fff6fa 100%);
+  border-radius: 12px;
+  background: linear-gradient(180deg, #ffffff 0%, #f2f8ff 100%);
   padding: 0.92rem 1rem;
-  box-shadow: 0 8px 18px rgba(214, 114, 153, 0.08);
+  box-shadow: 0 8px 18px rgba(15, 76, 129, 0.09);
 }
 
 .feature-card h4 {
@@ -236,10 +236,10 @@ samp {
 
 .section-note {
   border-left: 4px solid var(--sw-accent);
-  background: #fff7ee;
+  background: #fff8ed;
   padding: 0.72rem 0.92rem;
   border-radius: 8px;
-  color: #8f4d1d;
+  color: #7c4f17;
   margin: 0.86rem 0 1.35rem;
 }
 
@@ -251,15 +251,15 @@ samp {
 }
 
 .visitor-stat {
-  border: 1px solid #e9dbe2;
-  border-radius: 12px;
-  background: #fff9fc;
+  border: 1px solid #d8e2ee;
+  border-radius: 10px;
+  background: #f6faff;
   padding: 0.65rem 0.75rem;
 }
 
 .visitor-stat .label {
   display: block;
-  color: #7b6170;
+  color: #52606d;
   font-size: 0.78rem;
 }
 
@@ -267,30 +267,30 @@ samp {
   font-family: "Fraunces", serif;
   font-weight: 700;
   font-size: 1.18rem;
-  color: #2f374c;
+  color: #24344d;
 }
 
 .visitor-counter {
   margin-top: 0.85rem;
-  border: 1px solid #e8dce3;
-  border-radius: 14px;
+  border: 1px solid #d7e1eb;
+  border-radius: 12px;
   background: #ffffff;
   padding: 0.72rem;
-  box-shadow: 0 8px 20px rgba(215, 122, 158, 0.08);
+  box-shadow: 0 8px 20px rgba(15, 76, 129, 0.1);
 }
 
 .visitor-globe {
   width: 100%;
   height: 340px;
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
-  border: 1px solid #f0d8e4;
+  border: 1px solid #d4e0ec;
   background: radial-gradient(circle at 35% 12%, #1c2957 0%, #111827 62%, #0d1324 100%);
 }
 
 .globe-note {
   margin: 0.55rem 0 0;
-  color: #6b6476;
+  color: #526174;
   font-size: 0.84rem;
 }
 
@@ -318,7 +318,7 @@ samp {
 .page-section-divider {
   height: 1px;
   border: 0;
-  background: linear-gradient(90deg, rgba(232, 93, 142, 0), rgba(232, 93, 142, 0.56), rgba(232, 93, 142, 0));
+  background: linear-gradient(90deg, rgba(15, 76, 129, 0), rgba(15, 76, 129, 0.56), rgba(15, 76, 129, 0));
   margin: 1.32rem 0;
 }
 

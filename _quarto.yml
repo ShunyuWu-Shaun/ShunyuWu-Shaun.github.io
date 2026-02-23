@@ -1,11 +1,13 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - c7d4984f38601437316bea01e3143bfe.txt
 
 website:
   title: "Shunyu Wu"
   site-url: "https://shunyuwu-shaun.github.io"
-  description: "Academic website of Shunyu Wu, Ph.D. candidate in decision-focused learning and optimization."
+  description: "Academic website of Shunyu Wu (吴舜宇 / 吴舜禹), Ph.D. candidate in decision-focused learning and optimization."
   repo-url: "https://github.com/ShunyuWu-Shaun/ShunyuWu-Shaun.github.io"
   favicon: "assets/icon.svg"
   open-graph: true
@@ -48,6 +50,7 @@ website:
 format:
   html:
     theme: cosmo
+    canonical-url: true
     css: styles.css
     include-in-header:
       - assets/scripts/header-analytics.html

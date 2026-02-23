@@ -42,3 +42,32 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  notify-indexnow:
+    runs-on: ubuntu-latest
+    needs: deploy
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Submit core URLs to IndexNow
+        run: |
+          cat > payload.json <<'JSON'
+          {
+            "host": "shunyuwu-shaun.github.io",
+            "key": "c7d4984f38601437316bea01e3143bfe",
+            "keyLocation": "https://shunyuwu-shaun.github.io/c7d4984f38601437316bea01e3143bfe.txt",
+            "urlList": [
+              "https://shunyuwu-shaun.github.io/",
+              "https://shunyuwu-shaun.github.io/research/",
+              "https://shunyuwu-shaun.github.io/publications/",
+              "https://shunyuwu-shaun.github.io/projects/",
+              "https://shunyuwu-shaun.github.io/service/",
+              "https://shunyuwu-shaun.github.io/cv/",
+              "https://shunyuwu-shaun.github.io/contact/",
+              "https://shunyuwu-shaun.github.io/news/"
+            ]
+          }
+          JSON
+
+          curl -fsS -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            --data @payload.json

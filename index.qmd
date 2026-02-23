@@ -1,7 +1,14 @@
 ---
-title: "Shunyu Wu"
+title: "Shunyu Wu (吴舜宇)"
 subtitle: "Decision-Focused Learning and Optimization for Reliable Real-World Systems"
 description: "Ph.D. candidate at Shanghai Jiao Tong University working on decision-focused learning, constrained optimization, and deployable AI systems for energy and water infrastructure."
+keywords:
+  - Shunyu Wu
+  - shunyuwu
+  - 吴舜宇
+  - 吴舜禹
+  - Decision-Focused Learning
+  - Predict-Then-Optimize
 toc: false
 page-layout: full
 ---
@@ -9,19 +16,53 @@ page-layout: full
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Shunyu Wu",
-  "url": "https://shunyuwu-shaun.github.io",
-  "affiliation": {
-    "@type": "CollegeOrUniversity",
-    "name": "Shanghai Jiao Tong University"
-  },
-  "jobTitle": "Ph.D. Candidate",
-  "email": "mailto:shunyuwu@sjtu.edu.cn",
-  "sameAs": [
-    "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao",
-    "https://orcid.org/0000-0001-9856-2148",
-    "https://github.com/ShunyuWu-Shaun"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://shunyuwu-shaun.github.io/#person",
+      "name": "Shunyu Wu",
+      "alternateName": ["shunyuwu", "Shaun Wu", "吴舜宇", "吴舜禹"],
+      "givenName": "Shunyu",
+      "familyName": "Wu",
+      "url": "https://shunyuwu-shaun.github.io/",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Shanghai Jiao Tong University"
+      },
+      "jobTitle": "Ph.D. Candidate",
+      "email": "mailto:shunyuwu@sjtu.edu.cn",
+      "sameAs": [
+        "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao",
+        "https://orcid.org/0000-0001-9856-2148",
+        "https://github.com/ShunyuWu-Shaun"
+      ],
+      "knowsAbout": [
+        "Decision-focused learning",
+        "Predict-then-optimize",
+        "Constrained optimization",
+        "AI for energy systems",
+        "AI for water systems"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://shunyuwu-shaun.github.io/#website",
+      "url": "https://shunyuwu-shaun.github.io/",
+      "name": "Shunyu Wu Academic Website",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://shunyuwu-shaun.github.io/#person"
+      }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://shunyuwu-shaun.github.io/#profile",
+      "url": "https://shunyuwu-shaun.github.io/",
+      "name": "Shunyu Wu Profile",
+      "mainEntity": {
+        "@id": "https://shunyuwu-shaun.github.io/#person"
+      }
+    }
   ]
 }
 </script>
@@ -34,6 +75,10 @@ I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao
 
 ::: {.hero-lead}
 I work on both method and deployment: stable end-to-end training, uncertain constraints, and long-running optimization pipelines in thermal power and urban water infrastructure.
+:::
+
+::: {.section-note}
+Name variants commonly used in search and profiles: **Shunyu Wu**, **shunyuwu**, **吴舜宇** (also written as **吴舜禹**).
 :::
 
 ::: {.hero-buttons}

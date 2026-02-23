@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - c7d4984f38601437316bea01e3143bfe.txt
+    - google60c018834eaa5cb7.html
 
 website:
   title: "Shunyu Wu"

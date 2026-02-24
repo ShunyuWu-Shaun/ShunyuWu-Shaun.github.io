@@ -4,7 +4,6 @@ description: "Published papers, preprints, and collaborations by Shunyu Wu."
 keywords:
   - Shunyu Wu publications
   - shunyuwu publications
-  - 吴舜宇 论文
   - 吴舜禹 论文
   - decision-focused learning
 toc: false

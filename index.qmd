@@ -1,11 +1,10 @@
 ---
-title: "Shunyu Wu (吴舜宇)"
+title: "Shunyu Wu (吴舜禹)"
 subtitle: "Decision-Focused Learning and Optimization for Reliable Real-World Systems"
 description: "Ph.D. candidate at Shanghai Jiao Tong University working on decision-focused learning, constrained optimization, and deployable AI systems for energy and water infrastructure."
 keywords:
   - Shunyu Wu
   - shunyuwu
-  - 吴舜宇
   - 吴舜禹
   - Decision-Focused Learning
   - Predict-Then-Optimize
@@ -21,7 +20,7 @@ page-layout: full
       "@type": "Person",
       "@id": "https://shunyuwu-shaun.github.io/#person",
       "name": "Shunyu Wu",
-      "alternateName": ["shunyuwu", "Shaun Wu", "吴舜宇", "吴舜禹"],
+      "alternateName": ["shunyuwu", "Shaun Wu", "吴舜禹"],
       "givenName": "Shunyu",
       "familyName": "Wu",
       "url": "https://shunyuwu-shaun.github.io/",
@@ -75,10 +74,6 @@ I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao
 
 ::: {.hero-lead}
 I work on both method and deployment: stable end-to-end training, uncertain constraints, and long-running optimization pipelines in thermal power and urban water infrastructure.
-:::
-
-::: {.section-note}
-Name variants commonly used in search and profiles: **Shunyu Wu**, **shunyuwu**, **吴舜宇** (also written as **吴舜禹**).
 :::
 
 ::: {.hero-buttons}

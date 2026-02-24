@@ -4,7 +4,6 @@ description: "Contact links, profiles, and visitor statistics for Shunyu Wu."
 keywords:
   - Shunyu Wu
   - shunyuwu
-  - 吴舜宇
   - 吴舜禹
   - contact
 toc: false
@@ -17,7 +16,7 @@ For collaboration, seminar invitations, or research discussions, email is the pr
 ## Contact
 
 - Email: [shunyuwu@sjtu.edu.cn](mailto:shunyuwu@sjtu.edu.cn)
-- Name variants: **Shunyu Wu** | **shunyuwu** | **吴舜宇** | **吴舜禹**
+- Name variants: **Shunyu Wu** | **shunyuwu** | **吴舜禹**
 - Google Scholar: [profile](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao)
 - ORCID: [0000-0001-9856-2148](https://orcid.org/0000-0001-9856-2148)
 - GitHub: [ShunyuWu-Shaun](https://github.com/ShunyuWu-Shaun)

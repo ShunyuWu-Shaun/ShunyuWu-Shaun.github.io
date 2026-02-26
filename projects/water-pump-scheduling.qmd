@@ -12,23 +12,67 @@ selected: true
 toc: false
 ---
 
-## Context
+::: {.project-safe-note}
+Public-safe evidence only: figures are selected from deployment and model outputs without sensitive operations records.
+:::
 
-This project focuses on operational scheduling in urban water systems where multiple objectives must be balanced: energy cost, pressure compliance, equipment wear, and resilience under anomalies.
+## System Context (One Plant + Two Stations)
 
-## Method
+The deployment focuses on a one-plant-two-stations urban water supply scenario where scheduling decisions must balance pressure service quality, energy cost, and operational stability.
 
-- Built demand forecasting and mixed-integer scheduling pipeline.
-- Integrated pressure/flow constraints with deployment-oriented safeguards.
-- Added anomaly-aware strategy templates with replay and audit support.
-- Designed modular interfaces for SCADA integration and operator workflows.
+<div class="project-figure-card">
+<img src="/assets/images/projects/water/water_demo_area_map.png" alt="Demonstration area map for one-plant-two-stations water dispatch">
+<p>Demonstration-area map for South City Water Plant with Fuxing and Renmin Square pumping stations.</p>
+<p class="project-figure-caption-cn">中文图注：黄浦示范区“一厂两站”供水区域示意图。</p>
+</div>
 
-## Outcome
+## Model & Scheduling Framework
 
-- Reduced energy and switching costs while improving service-level metrics.
-- Improved robustness against sensing anomalies and inflow disturbances.
-- Produced reusable strategy templates for recurring operation patterns.
+<div class="project-figure-card">
+<img src="/assets/images/projects/water/water_method_framework.png" alt="Water dispatch method framework from multi-source sensing to scheduling generation">
+<p>Framework from multi-source sensing and event triggers to robust dispatch-plan generation.</p>
+<p class="project-figure-caption-cn">中文图注：多源感知-事件触发-调度方案生成的方法框架。</p>
+</div>
 
-## Role
+- Forecast-optimize pipeline connecting demand/pressure prediction with scheduling decisions.
+- Constraint-aware scheduling with operator-configurable rule sets.
+- Deployment-ready integration with dashboard-based monitoring and fallback strategy control.
 
-I led end-to-end algorithm design, deployment acceptance tests, and operator-facing runbook/training materials.
+## Forecast Performance Evidence
+
+<div class="project-figure-card">
+<img src="/assets/images/projects/water/water_pressure_forecast_example.png" alt="Pressure forecasting example with MAPE shown on figure">
+<p>Pressure forecasting example with low MAPE under full-period operational data.</p>
+<p class="project-figure-caption-cn">中文图注：压力全时段预测示例图（图中包含 MAPE 指标）。</p>
+</div>
+
+## Dispatch Platform in Operation
+
+::: {.project-figure-grid-2}
+<div class="project-figure-card">
+<img src="/assets/images/projects/water/water_dispatch_dashboard.png" alt="Smart water dispatch platform dashboard">
+<p>Production dashboard for real-time dispatch status, pressure map, and execution tracking.</p>
+<p class="project-figure-caption-cn">中文图注：供水智能调度主界面，包含压力热力分布与执行日志。</p>
+</div>
+
+<div class="project-figure-card">
+<img src="/assets/images/projects/water/water_dispatch_scoring.png" alt="Dispatch scoring and adoption evaluation panel">
+<p>Dispatch-scoring panel supporting operation-quality assessment and strategy adoption review.</p>
+<p class="project-figure-caption-cn">中文图注：调度评分界面，用于评估指令准确性、压力达标率与能耗表现。</p>
+</div>
+:::
+
+## Measured Impact
+
+::: {.project-evidence-table}
+| Metric | Reported change |
+|---|---:|
+| Peak energy consumption | ~10% reduction |
+| Pump switching frequency | ~20% reduction |
+| Pressure compliance | ~3% improvement |
+| Operational mode | 7x24 continuous dispatch |
+:::
+
+- Improved service-level stability with lower actuation burden.
+- Better operator interpretability through dashboard and scoring modules.
+- Reusable strategy templates for recurring operating patterns.

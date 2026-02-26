@@ -1,10 +1,53 @@
 ---
 title: "Projects"
 description: "Selected deployment-oriented projects in thermal power and urban water systems."
+toc: false
 ---
 
-::: {.section-note}
-Only public-safe content is shown (problem, method, and measurable outcomes).
+::: {.project-safe-note}
+Only **public-safe** evidence is presented. Figures were curated from deployment reports and interfaces after removing sensitive materials (e.g., signatures, contract IDs, personal handwriting).
+:::
+
+## Deployment Evidence Snapshot
+
+::: {.project-hero-grid}
+<div class="project-figure-card">
+<img src="/assets/images/projects/power/thermal_process_overview.png" alt="Thermal power efficiency-loop interface overview">
+<p><strong>Thermal Power:</strong> Efficiency-loop operation interface for closed-loop optimization.</p>
+<p class="project-figure-caption-cn">中文图注：火电机组能效闭环主界面，展示关键工况、锅炉状态与执行量。</p>
+</div>
+
+<div class="project-figure-card">
+<img src="/assets/images/projects/water/water_dispatch_dashboard.png" alt="Smart water dispatch dashboard in operation">
+<p><strong>Water Utility:</strong> One-plant-two-stations dispatch dashboard in daily operation.</p>
+<p class="project-figure-caption-cn">中文图注：一厂两站智慧供水调度主界面，展示区域压力、指令执行与监测点状态。</p>
+</div>
+:::
+
+::: {.project-metric-chips}
+<div class="project-metric-chip"><span class="k">Power Result</span><span class="v">Coal use reduced by <strong>1.2 g/kWh</strong> at ~50% load</span></div>
+<div class="project-metric-chip"><span class="k">Power Result</span><span class="v">Coal use reduced by <strong>3-6 g/kWh</strong> at 20%/40% load</span></div>
+<div class="project-metric-chip"><span class="k">Water Result</span><span class="v">Peak energy reduction around <strong>10%</strong></span></div>
+<div class="project-metric-chip"><span class="k">Water Result</span><span class="v">Pump switching reduction around <strong>20%</strong></span></div>
+<div class="project-metric-chip"><span class="k">Water Result</span><span class="v">Pressure compliance improved by around <strong>3%</strong></span></div>
+<div class="project-metric-chip"><span class="k">Forecast Evidence</span><span class="v">Pressure forecasting examples with low MAPE</span></div>
+:::
+
+## Cross-domain Results at a Glance
+
+::: {.two-col-grid}
+::: {.feature-card}
+#### Thermal Power Deployment
+- Closed-loop optimization and intelligent sootblowing integrated into plant operation.
+- Multi-load evidence reported at 20%, 40%, and 50% operating points.
+- Interface-level diagnostics used for operator-facing traceability and rollback support.
+:::
+::: {.feature-card}
+#### Urban Water Deployment
+- One-plant-two-stations scheduling and monitoring in 7x24 operation mode.
+- Data-driven forecasting + dispatch framework deployed with constraint configuration workflow.
+- Score-based operation evaluation and dashboard-based decision support online.
+:::
 :::
 
 ## Selected Deployments

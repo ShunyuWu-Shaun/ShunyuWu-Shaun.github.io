@@ -12,23 +12,74 @@ selected: true
 toc: false
 ---
 
-## Context
+::: {.project-safe-note}
+Public-safe evidence only: no acceptance pages with signatures, contract numbers, or handwritten records are displayed.
+:::
 
-This project targets coal-fired unit operation in fast-changing conditions (load transitions, coal blend shifts, and equipment limits), where manual tuning often trades efficiency for conservative operation.
+## Operational Context
 
-## Method
+This deployment targets coal-fired units under rapid load variation, coal-quality drift, and strict environmental limits. The core operational requirement is to improve efficiency without violating hard safety boundaries.
 
-- Built robust constrained optimization models for setpoint decisions.
-- Added condition-adaptive feasible-set tightening and two-layer protections.
-- Used local surrogate models to reduce cross-site distribution shift.
-- Adopted decoupled train/inference/optimization/release pipelines with rollback and replay checks.
+- Typical deployment context: 330 MW / 660 MW unit environments.
+- Control objective: reduce coal consumption while maintaining stable operation.
+- Constraints: NOx-related operating limits, boiler boundary constraints, and actuator safety.
 
-## Outcome
+## Method Architecture
 
-- Improved efficiency and reduced fuel consumption under safety/environment constraints.
-- Reduced strategy switch latency and operator workload.
-- Enabled cross-site template reuse for faster deployment.
+<div class="project-figure-card">
+<img src="/assets/images/projects/power/thermal_process_overview.png" alt="Thermal power efficiency-loop main interface">
+<p>End-to-end efficiency-loop view integrating process state, key constraints, and actuator-side adjustments.</p>
+<p class="project-figure-caption-cn">中文图注：能效闭环总览界面，联动工况输入、锅炉状态与执行机构参数。</p>
+</div>
 
-## Role
+- Robust constrained optimization for setpoint recommendation.
+- Condition-adaptive feasible-set tightening for safe control under uncertainty.
+- Surrogate-assisted decision modules to reduce online latency.
+- Rollback-ready release workflow with replay validation.
 
-I led technical roadmap design, safety strategy, acceptance criteria definition, and cross-team coordination.
+## Interface Evidence
+
+::: {.project-figure-grid-3}
+<div class="project-figure-card">
+<img src="/assets/images/projects/power/thermal_consumption_gap_analysis.png" alt="Boiler efficiency loop coal-consumption gap analysis panel">
+<p>Real-time coal-consumption gap analysis for identifying controllable contributors.</p>
+<p class="project-figure-caption-cn">中文图注：锅炉能效闭环煤耗差分析界面，用于实时定位关键偏差项。</p>
+</div>
+
+<div class="project-figure-card">
+<img src="/assets/images/projects/power/thermal_sootblowing_strategy.png" alt="Intelligent sootblowing strategy matrix interface">
+<p>Intelligent sootblowing strategy panel with nozzle-level state and scheduling logic.</p>
+<p class="project-figure-caption-cn">中文图注：智能吹灰投切策略界面，展示吹灰器状态与策略执行。</p>
+</div>
+
+<div class="project-figure-card">
+<img src="/assets/images/projects/power/thermal_wall_temp_analysis.png" alt="Wall-temperature analysis panel in sootblowing module">
+<p>Wall-temperature analysis dashboard used for thermal-state monitoring during operation.</p>
+<p class="project-figure-caption-cn">中文图注：壁温分析界面，用于受热面状态监测与吹灰策略辅助决策。</p>
+</div>
+:::
+
+## Measured Impact
+
+<div class="project-figure-card">
+<img src="/assets/images/projects/power/thermal_result_table.png" alt="Result table comparing coal-consumption before and after deployment under multiple load conditions">
+<p>Before-vs-after result table across representative load scenarios.</p>
+<p class="project-figure-caption-cn">中文图注：多负荷工况下的投运前后结果对比表（示例）。</p>
+</div>
+
+::: {.project-evidence-table}
+| Scenario | Representative load | Reported coal-consumption change | Unit |
+|---|---:|---:|---:|
+| Continuous-operation example | ~50% load (~330 MW) | -1.2 | g/kWh |
+| Additional low-load cases | 20% / 40% load | -3 to -6 | g/kWh |
+:::
+
+- Measurable reduction in fuel-specific consumption under constrained operation.
+- Better diagnosis support for operators through gap-analysis and trend interfaces.
+- Stable deployment behavior under multi-condition operation.
+
+## Deployment Notes
+
+- Cross-site template reuse supported faster rollout in similar units.
+- Strategy release followed staged validation and rollback safeguards.
+- Reported values are scenario-based; exact gains vary by unit condition and dispatch profile.

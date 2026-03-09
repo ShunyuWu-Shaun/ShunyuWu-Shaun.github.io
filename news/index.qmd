@@ -16,8 +16,8 @@ The academic website moved to **shunyuwu-shaun.github.io** with structured publi
 `End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling` is now online with DOI.
 :::
 ::: {.entry-card}
-#### 2025-08 | New DFL manuscripts submitted
-Two manuscripts on DFL training stability and inexact surrogate gradients entered the NeurIPS review cycle.
+#### 2025-08 | New manuscripts entered active review
+Manuscripts on end-to-end optimization, decision-focused training, and constrained learning entered active submission and review cycles.
 :::
 ::: {.entry-card}
 #### 2025-05 | Thermal-power optimization system in long-run operation
@@ -28,5 +28,5 @@ Field deployment continued with stable operation and measurable energy-efficienc
 ## What This Page Tracks
 
 - Publication status transitions (under review -> accepted -> published)
-- New talks and invited presentations
+- Service and collaboration milestones
 - Deployment milestones in power/water domains

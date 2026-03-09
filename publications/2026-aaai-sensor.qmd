@@ -7,7 +7,7 @@ authors:
   - "H. Wang"
   - "X. Xiao"
 year: 2026
-venue: "AAAI"
+venue: "Water Research"
 status: "under-review"
 type: "first-author"
 doi: ""
@@ -16,10 +16,11 @@ keywords:
   - "sensor placement"
   - "regret minimization"
   - "water networks"
+  - "end-to-end optimization"
 selected: true
 toc: false
 ---
 
-**Status:** Under Review (AAAI 2026)
+**Status:** Submitted (Water Research, 2026)
 
-This paper links anomaly-aware forecasting quality with sensor deployment decisions through regret-aware end-to-end optimization.
+This manuscript links anomaly-aware forecasting quality with sensor deployment decisions through regret-aware end-to-end optimization in water networks.

@@ -2,8 +2,10 @@
 title: "Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method"
 authors:
   - "J. Xu"
+  - "J. Wang"
+  - "Y. Zhong"
+  - "J. Rao"
   - "Shunyu Wu"
-  - "et al."
 year: 2024
 venue: "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
 status: "published"
@@ -20,4 +22,4 @@ toc: false
 **Status:** Published  
 **DOI:** [10.1109/TSMC.2023.3344883](https://doi.org/10.1109/TSMC.2023.3344883)
 
-Selected collaboration on constrained nonlinear control and RL-based controller design.
+Selected collaboration on constrained nonlinear control and RL-based controller design with weight initialization.

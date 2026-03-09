@@ -1,11 +1,13 @@
 ---
 title: "Publications"
-description: "Published papers, preprints, and collaborations by Shunyu Wu."
+description: "Published papers, current manuscripts, and collaborations by Shunyu Wu across end-to-end optimization, physical AI, and infrastructure intelligence."
 keywords:
   - Shunyu Wu publications
   - shunyuwu publications
   - 吴舜禹 论文
+  - end-to-end optimization
   - decision-focused learning
+  - physical AI
 toc: false
 ---
 
@@ -36,14 +38,23 @@ toc: false
 </script>
 
 ::: {.section-note}
-Status is explicitly separated into **Published**, **Preprints**, and **Collaborations** to avoid ambiguity.
+This list is synchronized with the dissertation achievement section and public scholarly profiles. Status is explicitly separated into **Published**, **Current Manuscripts**, and **Collaborations** to avoid ambiguity.
 :::
+
+Recurring themes across these papers include **end-to-end optimization**, **decision-focused learning**, **forecasting and system modeling**, and **physical AI for infrastructure systems**.
 
 ## Citation Profiles
 
 - Google Scholar: [Shunyu Wu profile](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao)
+- ResearchGate: [Shunyu Wu profile](https://www.researchgate.net/profile/Shunyu-Wu?ev=hdr_xprf)
 - ORCID record: [0000-0001-9856-2148](https://orcid.org/0000-0001-9856-2148)
 - CV bundle with publication list: [CV page](/cv/)
+
+## At a Glance
+
+- 3 first-author published journal papers
+- 5 first-author manuscripts in submitted, under-review, or in-preparation stages
+- 6 selected collaboration papers across journals and conference proceedings
 
 ## Published (First-Author)
 
@@ -54,22 +65,30 @@ Expert Systems with Applications, 2024. DOI: [10.1016/j.eswa.2024.124508](https:
 3. [CritiCoder: End-to-End Uncertain Regression for Robust Macroscopic Pressure Models in WDN](2023-tcss-criticoder.qmd)  
 IEEE Transactions on Computational Social Systems, 2023. DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
 
-## Preprints (Under Review / In Preparation)
+## Current Manuscripts (Submitted / Under Review / In Preparation)
 
-1. [Crossing the Separation Point: Stabilizing Decision-Focused Learning with Variational Free-Energy](2025-neurips-vfe.qmd)  
-NeurIPS, under review (2025).
-2. [Proximal Descent for Stable Decision-Focused Training with Inexact Surrogate Gradients](2025-neurips-proximal.qmd)  
-NeurIPS, under review (2025).
-3. [Planning the Invisible: End-to-End Sensor Deployment Regret Minimization for Anomaly-Aware Water Networks](2026-aaai-sensor.qmd)  
-AAAI, under review (2026).
-4. [Beyond Objective Parameters: Parametric Dual-Gap Regret for Predict-then-Optimize under Unknown Constraint Parameters](2026-iclr-dual-gap.qmd)  
-ICLR, planned / in revision (2026).
-5. [Projection-to-Envelopes Solver for Constrained Optimization](2026-inprep-envelope.qmd)  
+1. [Planning the Invisible: End-to-End Sensor Deployment Regret Minimization for Anomaly-Aware Water Networks](2026-aaai-sensor.qmd)  
+Water Research, submitted (2026).
+2. [Learning as Energy Dissipation: Handling Inexact Surrogate Gradients in Decision-Focused Training](2025-neurips-proximal.qmd)  
+IEEE/CAA Journal of Automatica Sinica, submitted (2025).
+3. [Crossing the Separation Point: Stabilizing Decision-Focused Training with Recursive Variational Free-Energy](2025-neurips-vfe.qmd)  
+ICML, under review (2026).
+4. [FENCE: Feasibility-ENforced Constrained nEural Solver for End-to-End Constrained Optimization](2026-inprep-envelope.qmd)  
+ICML, under review (2026).
+5. [Beyond Objective Parameters: Parametric Dual-Gap Regret for Predict-then-Optimize under Unknown Constraint Parameters](2026-iclr-dual-gap.qmd)  
 In preparation (2026).
 
-## Collaborations (Selected Published)
+## Collaborations (Selected Published / Proceedings)
 
 1. [Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method](2024-tsmc-rl-controller.qmd)  
 IEEE TSMC: Systems, 2024. DOI: [10.1109/TSMC.2023.3344883](https://doi.org/10.1109/TSMC.2023.3344883)
-2. [Prediction of Energy Consumption in Horizontal Roughing Process Based on TDADE Algorithm](2023-tase-tdade.qmd)  
-IEEE TASE, 2023. DOI: [10.1109/TASE.2023.3236306](https://doi.org/10.1109/TASE.2023.3236306)
+2. [Adaptive Dynamic Programming for Optimal Control of Discrete-Time Nonlinear Systems With Trajectory-Based Initial Control Policy](2024-tsmc-adp-trajectory.qmd)  
+IEEE TSMC: Systems, 2024. DOI: [10.1109/TSMC.2023.3327450](https://doi.org/10.1109/TSMC.2023.3327450)
+3. [Prediction of Energy Consumption in Horizontal Roughing Process of Hot Rolling Strip Based on TDADE Algorithm](2023-tase-tdade.qmd)  
+IEEE TASE, 2024. DOI: [10.1109/TASE.2023.3236306](https://doi.org/10.1109/TASE.2023.3236306)
+4. [A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling](2024-tase-series-concat.qmd)  
+IEEE TASE, 2024. DOI: [10.1109/TASE.2023.3299185](https://doi.org/10.1109/TASE.2023.3299185)
+5. [Adaptive Optimal Control of Nonlinear Systems with Multiple Time-Scale Eligibility Traces](2023-cdc-eligibility-traces.qmd)  
+CDC, 2023. DOI: [10.1109/CDC49753.2023.10383316](https://doi.org/10.1109/CDC49753.2023.10383316)
+6. [The CEEMDAN-ps-gcGRU Model on Water Pressure Prediction With Strong Irregularity](2023-ifac-gcgru.qmd)  
+IFAC-PapersOnLine, 2023. DOI: [10.1016/j.ifacol.2023.10.581](https://doi.org/10.1016/j.ifacol.2023.10.581)

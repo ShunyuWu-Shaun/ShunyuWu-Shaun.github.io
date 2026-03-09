@@ -1,0 +1,26 @@
+---
+title: "Adaptive Dynamic Programming for Optimal Control of Discrete-Time Nonlinear Systems With Trajectory-Based Initial Control Policy"
+authors:
+  - "J. Xu"
+  - "J. Wang"
+  - "J. Rao"
+  - "Shunyu Wu"
+  - "Y. Zhong"
+year: 2024
+venue: "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+status: "published"
+type: "co-author"
+doi: "10.1109/TSMC.2023.3327450"
+url: "https://doi.org/10.1109/TSMC.2023.3327450"
+keywords:
+  - "adaptive dynamic programming"
+  - "optimal control"
+  - "nonlinear systems"
+selected: true
+toc: false
+---
+
+**Status:** Published  
+**DOI:** [10.1109/TSMC.2023.3327450](https://doi.org/10.1109/TSMC.2023.3327450)
+
+Selected collaboration on adaptive dynamic programming and nonlinear optimal control with trajectory-based initialization.

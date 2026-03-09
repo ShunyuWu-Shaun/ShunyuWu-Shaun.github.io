@@ -1,21 +1,25 @@
 ---
-title: "Projection-to-Envelopes Solver for Constrained Optimization"
+title: "FENCE: Feasibility-ENforced Constrained nEural Solver for End-to-End Constrained Optimization"
 authors:
   - "Shunyu Wu"
+  - "J. Wang"
+  - "H. Wang"
+  - "X. Xiao"
+  - "H. Xu"
 year: 2026
-venue: "In preparation"
-status: "in-preparation"
+venue: "ICML"
+status: "under-review"
 type: "first-author"
 doi: ""
 url: ""
 keywords:
-  - "unsupervised solver"
-  - "differentiable optimization"
+  - "end-to-end optimization"
+  - "constrained optimization"
   - "feasibility guarantees"
 selected: true
 toc: false
 ---
 
-**Status:** In Preparation (2026)
+**Status:** Under Review (ICML 2026)
 
-This work explores label-free, feasibility-preserving solver modules for differentiable constrained optimization.
+This manuscript develops a feasibility-enforced neural solver for end-to-end constrained optimization with explicit constraint handling.

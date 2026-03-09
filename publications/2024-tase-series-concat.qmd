@@ -1,0 +1,26 @@
+---
+title: "A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling"
+authors:
+  - "Y. Zhong"
+  - "J. Wang"
+  - "J. Rao"
+  - "J. Xu"
+  - "Shunyu Wu"
+year: 2024
+venue: "IEEE Transactions on Automation Science and Engineering"
+status: "published"
+type: "co-author"
+doi: "10.1109/TASE.2023.3299185"
+url: "https://doi.org/10.1109/TASE.2023.3299185"
+keywords:
+  - "energy prediction"
+  - "industrial AI"
+  - "multi-step rolling"
+selected: true
+toc: false
+---
+
+**Status:** Published  
+**DOI:** [10.1109/TASE.2023.3299185](https://doi.org/10.1109/TASE.2023.3299185)
+
+Selected collaboration on hybrid modeling of energy consumption in hot strip roughing processes with multi-step rolling structure.

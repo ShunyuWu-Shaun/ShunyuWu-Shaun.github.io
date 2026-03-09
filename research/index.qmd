@@ -1,37 +1,38 @@
 ---
 title: "Research"
-description: "Research agenda of Shunyu Wu: stable decision-focused learning, constrained predict-then-optimize, and deployable optimization pipelines."
+description: "Research agenda of Shunyu Wu: end-to-end optimization, physical AI, decision-focused learning, and reliable deployment for cyber-physical systems."
 ---
 
 ## Research Vision
 
-I build **reliable decision systems** that are both theoretically grounded and practically deployable. My core interest is in integrating learning, optimization, and deployment safeguards for real-time infrastructure.
+I study how **learning**, **optimization**, and **engineering constraints** can be combined into reliable decision systems. The common thread is **end-to-end optimization for cyber-physical systems**, with an emphasis on **physical AI**, **decision-focused learning**, and deployable infrastructure intelligence.
 
 ## Research Agenda
 
-### 1) Stable Training Dynamics in Decision-Focused Learning
+### 1) End-to-End Optimization and Decision-Focused Learning
 
-- Diagnose why end-to-end DFL becomes unstable near piecewise-constant argmin regions.
-- Use energy-based perspectives to design regularization and update rules with better deployment consistency.
-- Develop methods that maintain monotone progress under inexact surrogate gradients.
+- Train predictive models against downstream operational objectives rather than proxy accuracy alone.
+- Diagnose and stabilize training when decision maps are nonsmooth or surrogate gradients are inexact.
+- Develop regret-aware objectives that better align learned representations with deployment outcomes.
 
-### 2) Constrained PtO Under Uncertain Constraints
+### 2) Physical AI for Infrastructure Systems
 
-- Move beyond objective-only uncertainty and model uncertain constraints explicitly.
-- Develop regret formulations that align training with constrained deployment loss.
-- Explore feasibility-preserving unsupervised solver modules for differentiable constrained optimization.
+- Build forecasting and system-modeling modules that respect graph structure, process physics, and operator knowledge.
+- Couple learned surrogates with SCADA signals, engineering constraints, and safety rules.
+- Use AI as a decision module inside real scheduling and control loops, not only as a predictor.
 
-### 3) Deployable Optimization Pipelines in Energy and Water Systems
+### 3) Reliable Optimization for Deployment
 
-- Couple graph/physics-informed surrogates with LP/MILP optimization.
-- Integrate engineering controls: feasible-set tightening, two-layer protections, rollout/rollback, replay validation.
-- Build reusable templates for cross-site transfer and long-run operation.
+- Design constrained PtO and solver-in-the-loop methods with explicit feasibility handling.
+- Integrate engineering safeguards such as feasible-set tightening, rollback, replay validation, and human oversight.
+- Build reusable decision stacks for long-running operation in power and water systems.
 
 ## Current Focus (2025-2026)
 
-- Stabilization methods for end-to-end DFL near separation points.
-- Regret-aware constrained PtO with unknown constraint parameters.
-- Feasibility-preserving neural solver prototypes for constrained optimization.
+- Energy-dissipation views of decision-focused training and recursive variational free-energy stabilization.
+- End-to-end constrained optimization under unknown or learned constraints.
+- Physical-AI-style decision support for energy and water infrastructure.
+- Sensor deployment, pump scheduling, and efficiency optimization with deployment feedback.
 
 ## Domain Applications
 
@@ -40,6 +41,6 @@ I build **reliable decision systems** that are both theoretically grounded and p
 
 ## Method and Tool Stack
 
-- **Learning/Modeling**: PyTorch, scikit-learn, XGBoost/LightGBM, PyTorch Geometric.
-- **Optimization**: LP/MILP, robust and stochastic optimization, Gurobi, Pyomo.
-- **Deployment Engineering**: config-driven services, SCADA integration, rollback-ready release pipelines, monitoring and audit.
+- **Learning/Modeling**: PyTorch, scikit-learn, XGBoost/LightGBM, PyTorch Geometric, uncertainty-aware forecasting, graph and physics-informed modeling.
+- **Optimization**: LP/MILP, stochastic optimization, constrained predict-then-optimize, solver-in-the-loop learning, Gurobi, Pyomo.
+- **Deployment Engineering**: config-driven services, SCADA integration, rollback-ready release pipelines, monitoring, audit, and operator-in-the-loop safeguards.

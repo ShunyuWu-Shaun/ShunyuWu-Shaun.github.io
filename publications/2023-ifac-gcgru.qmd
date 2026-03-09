@@ -1,0 +1,24 @@
+---
+title: "The CEEMDAN-ps-gcGRU Model on Water Pressure Prediction With Strong Irregularity"
+authors:
+  - "T. Kan"
+  - "J. Wang"
+  - "Shunyu Wu"
+year: 2023
+venue: "IFAC-PapersOnLine"
+status: "published"
+type: "co-author"
+doi: "10.1016/j.ifacol.2023.10.581"
+url: "https://doi.org/10.1016/j.ifacol.2023.10.581"
+keywords:
+  - "water pressure forecasting"
+  - "irregular time series"
+  - "graph modeling"
+selected: true
+toc: false
+---
+
+**Status:** Published (Conference Proceedings)  
+**DOI:** [10.1016/j.ifacol.2023.10.581](https://doi.org/10.1016/j.ifacol.2023.10.581)
+
+Selected conference collaboration on irregular water-pressure forecasting with CEEMDAN and graph-convolutional recurrent modeling.

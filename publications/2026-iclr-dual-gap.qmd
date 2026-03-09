@@ -4,8 +4,8 @@ authors:
   - "Shunyu Wu"
   - "J. Wang"
 year: 2026
-venue: "ICLR"
-status: "under-review"
+venue: "In preparation"
+status: "in-preparation"
 type: "first-author"
 doi: ""
 url: ""
@@ -17,6 +17,6 @@ selected: true
 toc: false
 ---
 
-**Status:** Planned / In Revision (ICLR 2026 cycle)
+**Status:** In Preparation (2026)
 
 This manuscript develops dual-gap regret objectives for constrained PtO with unknown constraint parameters.

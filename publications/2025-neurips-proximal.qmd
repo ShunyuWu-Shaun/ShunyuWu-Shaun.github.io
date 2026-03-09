@@ -1,5 +1,5 @@
 ---
-title: "Proximal Descent for Stable Decision-Focused Training with Inexact Surrogate Gradients"
+title: "Learning as Energy Dissipation: Handling Inexact Surrogate Gradients in Decision-Focused Training"
 authors:
   - "Shunyu Wu"
   - "J. Wang"
@@ -7,19 +7,20 @@ authors:
   - "X. Xiao"
   - "H. Cai"
 year: 2025
-venue: "NeurIPS"
+venue: "IEEE/CAA Journal of Automatica Sinica"
 status: "under-review"
 type: "first-author"
 doi: ""
 url: ""
 keywords:
   - "decision-focused learning"
-  - "proximal descent"
+  - "end-to-end optimization"
+  - "energy dissipation"
   - "surrogate gradients"
 selected: true
 toc: false
 ---
 
-**Status:** Under Review (NeurIPS 2025)
+**Status:** Submitted (IEEE/CAA Journal of Automatica Sinica, 2025)
 
-This work introduces proximal update schemes to improve robustness of DFL optimization when surrogate gradients are inexact.
+This manuscript studies inexact surrogate gradients through an energy-dissipation perspective and develops more stable end-to-end decision-focused training dynamics.

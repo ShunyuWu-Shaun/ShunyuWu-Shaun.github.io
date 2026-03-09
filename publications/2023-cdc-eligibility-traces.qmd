@@ -1,0 +1,25 @@
+---
+title: "Adaptive Optimal Control of Nonlinear Systems with Multiple Time-Scale Eligibility Traces"
+authors:
+  - "J. Rao"
+  - "J. Wang"
+  - "J. Xu"
+  - "Shunyu Wu"
+year: 2023
+venue: "62nd IEEE Conference on Decision and Control (CDC)"
+status: "published"
+type: "co-author"
+doi: "10.1109/CDC49753.2023.10383316"
+url: "https://doi.org/10.1109/CDC49753.2023.10383316"
+keywords:
+  - "adaptive optimal control"
+  - "eligibility traces"
+  - "nonlinear systems"
+selected: true
+toc: false
+---
+
+**Status:** Published (Conference Proceedings)  
+**DOI:** [10.1109/CDC49753.2023.10383316](https://doi.org/10.1109/CDC49753.2023.10383316)
+
+Selected conference collaboration on adaptive optimal control with multiple time-scale eligibility traces.

@@ -8,7 +8,7 @@ project:
 website:
   title: "Shunyu Wu"
   site-url: "https://shunyuwu-shaun.github.io"
-  description: "Academic website of Shunyu Wu (吴舜禹), focusing on end-to-end optimization, physical AI, and reliable decision systems."
+  description: "Academic website of Shunyu Wu (吴舜禹), focusing on end-to-end optimization, decision-focused learning, and reliable decision systems."
   repo-url: "https://github.com/ShunyuWu-Shaun/ShunyuWu-Shaun.github.io"
   favicon: "assets/icon.svg"
   open-graph: true

@@ -1,13 +1,13 @@
 ---
 title: "Publications"
-description: "Published papers, current manuscripts, and collaborations by Shunyu Wu across end-to-end optimization, physical AI, and infrastructure intelligence."
+description: "Published papers, current manuscripts, and collaborations by Shunyu Wu across end-to-end optimization, decision-focused learning, and infrastructure intelligence."
 keywords:
   - Shunyu Wu publications
   - shunyuwu publications
   - 吴舜禹 论文
   - end-to-end optimization
   - decision-focused learning
-  - physical AI
+  - forecasting and modeling
 toc: false
 ---
 
@@ -41,7 +41,7 @@ toc: false
 This list is synchronized with the dissertation achievement section and public scholarly profiles. Status is explicitly separated into **Published**, **Current Manuscripts**, and **Collaborations** to avoid ambiguity.
 :::
 
-Recurring themes across these papers include **end-to-end optimization**, **decision-focused learning**, **forecasting and system modeling**, and **physical AI for infrastructure systems**.
+Recurring themes across these papers include **end-to-end optimization**, **decision-focused learning**, **forecasting and system modeling**, and **infrastructure intelligence**.
 
 ## Citation Profiles
 

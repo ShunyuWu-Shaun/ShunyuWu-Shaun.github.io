@@ -1,13 +1,13 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
-subtitle: "End-to-End Optimization, Physical AI, and Reliable Decision Systems"
-description: "Ph.D. candidate at Shanghai Jiao Tong University working on end-to-end optimization, physical AI, and deployable decision systems for energy and water infrastructure."
+subtitle: "End-to-End Optimization, Decision-Focused Learning, and Reliable Decision Systems"
+description: "Ph.D. candidate at Shanghai Jiao Tong University working on end-to-end optimization, decision-focused learning, and deployable decision systems for energy and water infrastructure."
 keywords:
   - Shunyu Wu
   - shunyuwu
   - 吴舜禹
   - End-to-End Optimization
-  - Physical AI
+  - Forecasting and Modeling
   - Decision-Focused Learning
   - Predict-Then-Optimize
 toc: false
@@ -42,7 +42,6 @@ page-layout: full
         "End-to-end optimization",
         "Decision-focused learning",
         "Predict-then-optimize",
-        "Physical AI",
         "Forecasting and system modeling",
         "Constrained optimization",
         "AI for cyber-physical systems",
@@ -76,7 +75,7 @@ page-layout: full
 ::: {.hero-card .hero-main}
 ## About
 
-I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao Tong University**. My research spans **end-to-end optimization**, **decision-focused learning**, **predict-then-optimize**, and **physical AI** for safety-critical cyber-physical systems.
+I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao Tong University**. My research spans **end-to-end optimization**, **decision-focused learning**, **predict-then-optimize**, and **constrained decision systems** for safety-critical cyber-physical systems.
 
 ::: {.hero-lead}
 I work across forecasting, system modeling, optimization, and deployment: from stable learning-to-decision pipelines to fielded decision-support systems in thermal power and urban water infrastructure.
@@ -91,9 +90,9 @@ I work across forecasting, system modeling, optimization, and deployment: from s
 
 ::: {.interest-chips}
 <span class="interest-chip">End-to-End Optimization</span>
-<span class="interest-chip">Physical AI</span>
 <span class="interest-chip">Decision-Focused Learning</span>
 <span class="interest-chip">Forecasting &amp; Modeling</span>
+<span class="interest-chip">Constrained Optimization</span>
 <span class="interest-chip">Cyber-Physical Systems</span>
 <span class="interest-chip">Deployment Reliability</span>
 :::
@@ -105,7 +104,7 @@ I work across forecasting, system modeling, optimization, and deployment: from s
 <div>
 <div class="profile-name">Shunyu Wu</div>
 <div class="profile-role">Ph.D. Candidate, Shanghai Jiao Tong University</div>
-<div class="profile-role">End-to-end optimization, physical AI, and deployable decision systems</div>
+<div class="profile-role">End-to-end optimization, decision-focused learning, and deployable decision systems</div>
 </div>
 :::
 :::
@@ -139,7 +138,7 @@ I work across forecasting, system modeling, optimization, and deployment: from s
 I study how predictors should be trained against downstream decisions, especially when optimization maps are nonsmooth or surrogate gradients are inexact.
 :::
 ::: {.entry-card}
-#### Physical AI for Infrastructure
+#### Forecasting and Infrastructure Intelligence
 I combine forecasting, system modeling, graph and physics-aware structure, and operator knowledge to build AI systems that respect engineering realities.
 :::
 ::: {.entry-card}

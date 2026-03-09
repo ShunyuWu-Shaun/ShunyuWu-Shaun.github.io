@@ -1,11 +1,11 @@
 ---
 title: "Research"
-description: "Research agenda of Shunyu Wu: end-to-end optimization, physical AI, decision-focused learning, and reliable deployment for cyber-physical systems."
+description: "Research agenda of Shunyu Wu: end-to-end optimization, decision-focused learning, forecasting and system modeling, and reliable deployment for cyber-physical systems."
 ---
 
 ## Research Vision
 
-I study how **learning**, **optimization**, and **engineering constraints** can be combined into reliable decision systems. The common thread is **end-to-end optimization for cyber-physical systems**, with an emphasis on **physical AI**, **decision-focused learning**, and deployable infrastructure intelligence.
+I study how **learning**, **optimization**, and **engineering constraints** can be combined into reliable decision systems. The common thread is **end-to-end optimization for cyber-physical systems**, with an emphasis on **decision-focused learning**, **forecasting and system modeling**, and deployable infrastructure intelligence.
 
 ## Research Agenda
 
@@ -15,7 +15,7 @@ I study how **learning**, **optimization**, and **engineering constraints** can 
 - Diagnose and stabilize training when decision maps are nonsmooth or surrogate gradients are inexact.
 - Develop regret-aware objectives that better align learned representations with deployment outcomes.
 
-### 2) Physical AI for Infrastructure Systems
+### 2) Forecasting, Modeling, and Infrastructure Intelligence
 
 - Build forecasting and system-modeling modules that respect graph structure, process physics, and operator knowledge.
 - Couple learned surrogates with SCADA signals, engineering constraints, and safety rules.
@@ -31,7 +31,7 @@ I study how **learning**, **optimization**, and **engineering constraints** can 
 
 - Energy-dissipation views of decision-focused training and recursive variational free-energy stabilization.
 - End-to-end constrained optimization under unknown or learned constraints.
-- Physical-AI-style decision support for energy and water infrastructure.
+- Decision support for energy and water infrastructure with deployable forecasting and optimization modules.
 - Sensor deployment, pump scheduling, and efficiency optimization with deployment feedback.
 
 ## Domain Applications

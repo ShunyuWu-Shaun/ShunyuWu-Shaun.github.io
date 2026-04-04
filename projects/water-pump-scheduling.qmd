@@ -1,11 +1,11 @@
 ---
-title: "Urban Water Utility Pump Scheduling and Anomaly-Aware Control"
+title: "Urban Operations Scheduling and Decision Support"
 domain: "water"
 period: "2019-2024"
 role: "Algorithm Lead / Co-Algorithm Lead"
-problem: "Optimize pump scheduling and pressure compliance under demand uncertainty, sensor noise, and occasional data anomalies in SCADA-integrated environments."
-method: "Forecast-optimize pipeline with demand prediction + MILP scheduling; anomaly-aware thresholding and strategy templates; hot-update and rollback support in deployment."
-outcome: "Peak energy reduced (~10%), pump switching reduced (~20%), pressure compliance improved (~3%), and overflow risk reduced in resilience simulations."
+problem: "Optimize scheduling and service-level compliance under demand uncertainty and noisy measurements in an operational data environment."
+method: "Forecast-optimize pipeline with demand prediction, mathematical scheduling, configurable rule sets, and staged update support."
+outcome: "Peak energy reduced (~10%), pump switching reduced (~20%), and pressure compliance improved (~3%)."
 status: "deployed"
 confidentiality: "public-safe"
 selected: true
@@ -18,7 +18,7 @@ Public-safe evidence only: figures are selected from deployment and model output
 
 ## System Context (One Plant + Two Stations)
 
-The deployment focuses on a one-plant-two-stations urban water supply scenario where scheduling decisions must balance pressure service quality, energy cost, and operational stability.
+The deployment focuses on a one-plant-two-stations urban service scenario where scheduling decisions must balance service quality, energy cost, and operational stability.
 
 <div class="project-figure-card">
 <img src="/assets/images/projects/water/water_demo_area_map.png" alt="Demonstration area map for one-plant-two-stations water dispatch">
@@ -34,9 +34,9 @@ The deployment focuses on a one-plant-two-stations urban water supply scenario w
 <p class="project-figure-caption-cn">中文图注：多源感知-事件触发-调度方案生成的方法框架。</p>
 </div>
 
-- Forecast-optimize pipeline connecting demand/pressure prediction with scheduling decisions.
+- Forecast-optimize pipeline connecting demand and pressure estimation with scheduling decisions.
 - Constraint-aware scheduling with operator-configurable rule sets.
-- Deployment-ready integration with dashboard-based monitoring and fallback strategy control.
+- Deployment-ready integration with dashboard-based review and fallback strategy options.
 
 ## Forecast Performance Evidence
 
@@ -50,8 +50,8 @@ The deployment focuses on a one-plant-two-stations urban water supply scenario w
 
 ::: {.project-figure-grid-2}
 <div class="project-figure-card">
-<img src="/assets/images/projects/water/water_dispatch_dashboard.png" alt="Smart water dispatch platform dashboard">
-<p>Production dashboard for real-time dispatch status, pressure map, and execution tracking.</p>
+<img src="/assets/images/projects/water/water_dispatch_dashboard.png" alt="Operational scheduling dashboard">
+<p>Production dashboard for real-time scheduling status, service map, and execution tracking.</p>
 <p class="project-figure-caption-cn">中文图注：供水智能调度主界面，包含压力热力分布与执行日志。</p>
 </div>
 

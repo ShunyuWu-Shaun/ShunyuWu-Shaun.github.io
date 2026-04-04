@@ -23,4 +23,4 @@ toc: false
 **Status:** Published  
 **DOI:** [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
 
-This work introduces an uncertainty-aware end-to-end pressure modeling approach for water distribution systems to support robust anomaly-aware operations.
+This work introduces an uncertainty-aware end-to-end pressure modeling approach for large-scale network operations and robust decision support.

@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-description: "Selected deployment-oriented projects in thermal power and urban water systems."
+description: "Selected applied optimization projects in energy systems and urban operations."
 toc: false
 ---
 
@@ -12,14 +12,14 @@ Only **public-safe** evidence is presented. Figures were curated from deployment
 
 ::: {.project-hero-grid}
 <div class="project-figure-card">
-<img src="/assets/images/projects/power/thermal_process_overview.png" alt="Thermal power efficiency-loop interface overview">
-<p><strong>Thermal Power:</strong> Efficiency-loop operation interface for closed-loop optimization.</p>
+<img src="/assets/images/projects/power/thermal_process_overview.png" alt="Energy-system optimization interface overview">
+<p><strong>Energy System:</strong> Operation interface for closed-loop optimization.</p>
 <p class="project-figure-caption-cn">中文图注：火电机组能效闭环主界面，展示关键工况、锅炉状态与执行量。</p>
 </div>
 
 <div class="project-figure-card">
-<img src="/assets/images/projects/water/water_dispatch_dashboard.png" alt="Smart water dispatch dashboard in operation">
-<p><strong>Water Utility:</strong> One-plant-two-stations dispatch dashboard in daily operation.</p>
+<img src="/assets/images/projects/water/water_dispatch_dashboard.png" alt="Urban operations scheduling dashboard in daily use">
+<p><strong>Urban Operations:</strong> Scheduling dashboard in daily operation.</p>
 <p class="project-figure-caption-cn">中文图注：一厂两站智慧供水调度主界面，展示区域压力、指令执行与监测点状态。</p>
 </div>
 :::
@@ -37,14 +37,14 @@ Only **public-safe** evidence is presented. Figures were curated from deployment
 
 ::: {.two-col-grid}
 ::: {.feature-card}
-#### Thermal Power Deployment
-- Closed-loop optimization and intelligent sootblowing integrated into plant operation.
+#### Energy-System Deployment
+- Closed-loop optimization and operating-strategy support integrated into daily operation.
 - Multi-load evidence reported at 20%, 40%, and 50% operating points.
-- Interface-level diagnostics used for operator-facing traceability and rollback support.
+- Interface-level diagnostics used for operator-facing review and staged validation.
 :::
 ::: {.feature-card}
-#### Urban Water Deployment
-- One-plant-two-stations scheduling and monitoring in 7x24 operation mode.
+#### Urban Operations Deployment
+- One-plant-two-stations scheduling and monitoring in continuous operation mode.
 - Data-driven forecasting + dispatch framework deployed with constraint configuration workflow.
 - Score-based operation evaluation and dashboard-based decision support online.
 :::
@@ -54,13 +54,13 @@ Only **public-safe** evidence is presented. Figures were curated from deployment
 
 ::: {.card-list}
 ::: {.entry-card}
-#### [Thermal Power Plant Closed-loop Efficiency Optimization](power-closed-loop-efficiency.qmd)
-- Domain: Power
+#### [Energy-System Efficiency Optimization](power-closed-loop-efficiency.qmd)
+- Domain: Energy
 - Role: Project Lead
 - Status: Deployed
 :::
 ::: {.entry-card}
-#### [Urban Water Utility Pump Scheduling and Anomaly-Aware Control](water-pump-scheduling.qmd)
+#### [Urban Operations Scheduling and Decision Support](water-pump-scheduling.qmd)
 - Domain: Water
 - Role: Algorithm Lead
 - Status: Deployed
@@ -69,7 +69,7 @@ Only **public-safe** evidence is presented. Figures were curated from deployment
 
 ## Engineering Principles Across Projects
 
-- Hard-constraint safety first (feasible-set tightening + two-layer protections).
+- Constraint-aware reliability first (feasible-set tightening + staged protection logic).
 - Decoupled train/inference/optimization/release architecture.
-- Configuration-driven deployment with rollback and replay validation.
-- Operator-facing observability (alerts, dashboards, audit logs).
+- Configuration-driven deployment with staged validation and replay checks.
+- Operator-facing observability (alerts, dashboards, and logs).

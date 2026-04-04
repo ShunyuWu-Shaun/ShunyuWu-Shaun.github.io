@@ -13,9 +13,9 @@ type: "first-author"
 doi: ""
 url: ""
 keywords:
-  - "sensor placement"
+  - "measurement design"
   - "regret minimization"
-  - "water networks"
+  - "network operations"
   - "end-to-end optimization"
 selected: true
 toc: false
@@ -23,4 +23,4 @@ toc: false
 
 **Status:** Submitted (Water Research, 2026)
 
-This manuscript links anomaly-aware forecasting quality with sensor deployment decisions through regret-aware end-to-end optimization in water networks.
+This manuscript links forecasting quality with measurement-design decisions through regret-aware end-to-end optimization in large-scale networked operations.

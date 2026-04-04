@@ -14,7 +14,7 @@ doi: "10.1109/TASE.2023.3299185"
 url: "https://doi.org/10.1109/TASE.2023.3299185"
 keywords:
   - "energy prediction"
-  - "industrial AI"
+  - "industrial modeling"
   - "multi-step rolling"
 selected: true
 toc: false

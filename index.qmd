@@ -1,7 +1,7 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
 subtitle: "End-to-End Optimization, Decision-Focused Learning, and Reliable Decision Systems"
-description: "Ph.D. candidate at Shanghai Jiao Tong University working on end-to-end optimization, decision-focused learning, and deployable decision systems for energy and water infrastructure."
+description: "Ph.D. candidate at Shanghai Jiao Tong University working on end-to-end optimization, forecasting, and data-driven decision systems for large-scale operational settings."
 keywords:
   - Shunyu Wu
   - shunyuwu
@@ -44,8 +44,8 @@ page-layout: full
         "Predict-then-optimize",
         "Forecasting and system modeling",
         "Constrained optimization",
-        "AI for cyber-physical systems",
-        "AI for energy and water systems"
+        "Data-driven decision systems",
+        "Applied optimization for large-scale operations"
       ]
     },
     {
@@ -75,10 +75,10 @@ page-layout: full
 ::: {.hero-card .hero-main}
 ## About
 
-I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao Tong University**. My research spans **end-to-end optimization**, **decision-focused learning**, **predict-then-optimize**, and **constrained decision systems** for safety-critical cyber-physical systems.
+I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao Tong University**. My research spans **end-to-end optimization**, **decision-focused learning**, **predict-then-optimize**, and **constrained decision systems** for large-scale real-world applications.
 
 ::: {.hero-lead}
-I work across forecasting, system modeling, optimization, and deployment: from stable learning-to-decision pipelines to fielded decision-support systems in thermal power and urban water infrastructure.
+I work across forecasting, system modeling, optimization, and deployment: from stable learning-to-decision pipelines to fielded decision-support workflows in large-scale operational settings.
 :::
 
 ::: {.hero-buttons}
@@ -93,7 +93,7 @@ I work across forecasting, system modeling, optimization, and deployment: from s
 <span class="interest-chip">Decision-Focused Learning</span>
 <span class="interest-chip">Forecasting &amp; Modeling</span>
 <span class="interest-chip">Constrained Optimization</span>
-<span class="interest-chip">Cyber-Physical Systems</span>
+<span class="interest-chip">Operational Systems</span>
 <span class="interest-chip">Deployment Reliability</span>
 :::
 :::
@@ -138,12 +138,12 @@ I work across forecasting, system modeling, optimization, and deployment: from s
 I study how predictors should be trained against downstream decisions, especially when optimization maps are nonsmooth or surrogate gradients are inexact.
 :::
 ::: {.entry-card}
-#### Forecasting and Infrastructure Intelligence
+#### Forecasting and Decision Analytics
 I combine forecasting, system modeling, graph and physics-aware structure, and operator knowledge to build AI systems that respect engineering realities.
 :::
 ::: {.entry-card}
 #### Reliable Deployment in Real Systems
-I design optimization pipelines with feasibility guards, monitoring, rollback, and operator-facing interfaces for long-running operation in power and water systems.
+I design optimization pipelines with validation checks, reliability safeguards, and operator-facing interfaces for long-running real-world applications.
 :::
 :::
 
@@ -170,14 +170,14 @@ For complete records, see [Publications](/publications/).
 
 ::: {.card-list}
 ::: {.entry-card}
-#### Thermal Power Plant Closed-loop Efficiency Optimization
-Cross-site deployment on 330 MW and 660 MW coal-fired units with stable operation and measurable energy gains under strict safety and environmental constraints.
+#### Energy-System Efficiency Optimization
+Applied optimization workflow with stable long-run operation and measurable efficiency gains across multiple operating scenarios.
 
 Details: [Projects](/projects/)
 :::
 ::: {.entry-card}
-#### Urban Water Utility Pump Scheduling and Anomaly-Aware Control
-SCADA-integrated forecast-optimize pipeline for pump scheduling and pressure compliance in Shanghai demonstration settings.
+#### Urban Operations Scheduling and Decision Support
+Forecast-optimize workflow for scheduling and service-level coordination in a real-world demonstration setting.
 
 Details: [Projects](/projects/)
 :::
@@ -197,7 +197,7 @@ More: [Service](/service/)
 ::: {.feature-card}
 #### News and Collaboration
 - Publication status updates and deployment milestones.
-- Ongoing collaborations in optimization, control, and industrial AI.
+- Ongoing collaborations in optimization, modeling, and applied machine learning.
 - Research contact and profile links for quick reach-out.
 
 Browse: [News](/news/) and [Contact](/contact/)

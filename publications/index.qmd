@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: "Published papers, current manuscripts, and collaborations by Shunyu Wu across end-to-end optimization, decision-focused learning, and infrastructure intelligence."
+description: "Published papers, current manuscripts, and collaborations by Shunyu Wu across end-to-end optimization, decision-focused learning, and applied decision systems."
 keywords:
   - Shunyu Wu publications
   - shunyuwu publications
@@ -41,7 +41,7 @@ toc: false
 This list is synchronized with the dissertation achievement section and public scholarly profiles. Status is explicitly separated into **Published**, **Current Manuscripts**, and **Collaborations** to avoid ambiguity.
 :::
 
-Recurring themes across these papers include **end-to-end optimization**, **decision-focused learning**, **forecasting and system modeling**, and **infrastructure intelligence**.
+Recurring themes across these papers include **end-to-end optimization**, **decision-focused learning**, **forecasting and system modeling**, and **applied decision systems**.
 
 ## Citation Profiles
 

@@ -1,11 +1,11 @@
 ---
-title: "Thermal Power Plant Closed-loop Efficiency Optimization"
+title: "Energy-System Efficiency Optimization"
 domain: "power"
 period: "2024-Present"
 role: "Project Lead"
-problem: "Improve equivalent heat rate under volatile coal quality and load swings while enforcing strict NOx and hardware safety limits."
-method: "Robust optimization with hard constraints, condition-adaptive feasible-set tightening, surrogate-assisted online optimization, and rollback-ready release pipeline."
-outcome: "Fuel-specific consumption reduced (~1.5% in one deployment line and ~1-3 g/kWh across multi-unit settings), fewer violations, and sustained long-run operation."
+problem: "Improve operating efficiency under changing input quality and load swings while respecting process and equipment limits."
+method: "Constraint-aware optimization with adaptive feasible regions, surrogate-assisted online recommendation, and staged validation workflow."
+outcome: "Efficiency improved across multiple operating scenarios with sustained long-run operation."
 status: "deployed"
 confidentiality: "public-safe"
 selected: true
@@ -18,24 +18,24 @@ Public-safe evidence only: no acceptance pages with signatures, contract numbers
 
 ## Operational Context
 
-This deployment targets coal-fired units under rapid load variation, coal-quality drift, and strict environmental limits. The core operational requirement is to improve efficiency without violating hard safety boundaries.
+This deployment targets large-scale energy-conversion units under rapid load variation and changing operating conditions. The core requirement is to improve efficiency while respecting process boundaries.
 
 - Typical deployment context: 330 MW / 660 MW unit environments.
-- Control objective: reduce coal consumption while maintaining stable operation.
-- Constraints: NOx-related operating limits, boiler boundary constraints, and actuator safety.
+- Primary objective: improve operating efficiency while maintaining stable operation.
+- Constraints: process limits, equipment boundaries, and actuator operating ranges.
 
 ## Method Architecture
 
 <div class="project-figure-card">
-<img src="/assets/images/projects/power/thermal_process_overview.png" alt="Thermal power efficiency-loop main interface">
+<img src="/assets/images/projects/power/thermal_process_overview.png" alt="Energy-system efficiency-loop main interface">
 <p>End-to-end efficiency-loop view integrating process state, key constraints, and actuator-side adjustments.</p>
 <p class="project-figure-caption-cn">中文图注：能效闭环总览界面，联动工况输入、锅炉状态与执行机构参数。</p>
 </div>
 
 - Robust constrained optimization for setpoint recommendation.
-- Condition-adaptive feasible-set tightening for safe control under uncertainty.
+- Condition-adaptive feasible-set tightening for robust operation under uncertainty.
 - Surrogate-assisted decision modules to reduce online latency.
-- Rollback-ready release workflow with replay validation.
+- Staged release workflow with replay validation.
 
 ## Interface Evidence
 
@@ -81,5 +81,5 @@ This deployment targets coal-fired units under rapid load variation, coal-qualit
 ## Deployment Notes
 
 - Cross-site template reuse supported faster rollout in similar units.
-- Strategy release followed staged validation and rollback safeguards.
+- Strategy release followed staged validation and review safeguards.
 - Reported values are scenario-based; exact gains vary by unit condition and dispatch profile.

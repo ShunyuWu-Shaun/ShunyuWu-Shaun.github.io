@@ -1,11 +1,11 @@
 ---
 title: "Research"
-description: "Research agenda of Shunyu Wu: end-to-end optimization, decision-focused learning, forecasting and system modeling, and reliable deployment for cyber-physical systems."
+description: "Research agenda of Shunyu Wu: end-to-end optimization, decision-focused learning, forecasting and system modeling, and reliable deployment for large-scale operational systems."
 ---
 
 ## Research Vision
 
-I study how **learning**, **optimization**, and **engineering constraints** can be combined into reliable decision systems. The common thread is **end-to-end optimization for cyber-physical systems**, with an emphasis on **decision-focused learning**, **forecasting and system modeling**, and deployable infrastructure intelligence.
+I study how **learning**, **optimization**, and **engineering constraints** can be combined into reliable decision systems. The common thread is **end-to-end optimization for large-scale operational systems**, with an emphasis on **decision-focused learning**, **forecasting and system modeling**, and deployable decision analytics.
 
 ## Research Agenda
 
@@ -15,32 +15,32 @@ I study how **learning**, **optimization**, and **engineering constraints** can 
 - Diagnose and stabilize training when decision maps are nonsmooth or surrogate gradients are inexact.
 - Develop regret-aware objectives that better align learned representations with deployment outcomes.
 
-### 2) Forecasting, Modeling, and Infrastructure Intelligence
+### 2) Forecasting, Modeling, and Decision Analytics
 
 - Build forecasting and system-modeling modules that respect graph structure, process physics, and operator knowledge.
-- Couple learned surrogates with SCADA signals, engineering constraints, and safety rules.
-- Use AI as a decision module inside real scheduling and control loops, not only as a predictor.
+- Couple learned surrogates with operational data streams, engineering constraints, and practical rules.
+- Use AI as a decision-support module inside scheduling workflows, not only as a predictor.
 
 ### 3) Reliable Optimization for Deployment
 
 - Design constrained PtO and solver-in-the-loop methods with explicit feasibility handling.
-- Integrate engineering safeguards such as feasible-set tightening, rollback, replay validation, and human oversight.
+- Integrate reliability mechanisms such as feasible-set tightening, staged validation, replay checks, and operator review.
 - Build reusable decision stacks for long-running operation in power and water systems.
 
 ## Current Focus (2025-2026)
 
 - Energy-dissipation views of decision-focused training and recursive variational free-energy stabilization.
 - End-to-end constrained optimization under unknown or learned constraints.
-- Decision support for energy and water infrastructure with deployable forecasting and optimization modules.
-- Sensor deployment, pump scheduling, and efficiency optimization with deployment feedback.
+- Decision support for operational planning with deployable forecasting and optimization modules.
+- Measurement design, scheduling, and efficiency optimization with deployment feedback.
 
 ## Domain Applications
 
-- **Thermal Power Stations**: efficiency optimization under NOx and safety limits.
-- **Urban Water Utilities**: pump scheduling, anomaly-aware control, and resilient operations.
+- **Energy-System Applications**: efficiency optimization under operational constraints.
+- **Urban Service Applications**: scheduling, planning, and resilient operations.
 
 ## Method and Tool Stack
 
 - **Learning/Modeling**: PyTorch, scikit-learn, XGBoost/LightGBM, PyTorch Geometric, uncertainty-aware forecasting, graph and physics-informed modeling.
 - **Optimization**: LP/MILP, stochastic optimization, constrained predict-then-optimize, solver-in-the-loop learning, Gurobi, Pyomo.
-- **Deployment Engineering**: config-driven services, SCADA integration, rollback-ready release pipelines, monitoring, audit, and operator-in-the-loop safeguards.
+- **Deployment Engineering**: config-driven services, operational data integration, staged release pipelines, monitoring, documentation, and operator-facing review workflows.

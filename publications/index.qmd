@@ -1,13 +1,13 @@
 ---
 title: "Publications"
-description: "Published papers, current manuscripts, and collaborations by Shunyu Wu across end-to-end optimization, decision-focused learning, and applied decision systems."
+description: "Published papers, ongoing work, and collaborations by Shunyu Wu across optimization, forecasting, and quantitative modeling."
 keywords:
   - Shunyu Wu publications
   - shunyuwu publications
   - 吴舜禹 论文
-  - end-to-end optimization
-  - decision-focused learning
-  - forecasting and modeling
+  - optimization
+  - forecasting
+  - quantitative modeling
 toc: false
 ---
 
@@ -41,7 +41,7 @@ toc: false
 This list is synchronized with the dissertation achievement section and public scholarly profiles. Status is explicitly separated into **Published**, **Current Manuscripts**, and **Collaborations** to avoid ambiguity.
 :::
 
-Recurring themes across these papers include **end-to-end optimization**, **decision-focused learning**, **forecasting and system modeling**, and **applied decision systems**.
+Recurring themes across these papers include **optimization**, **forecasting**, **system modeling**, and **quantitative decision methods**.
 
 ## Citation Profiles
 
@@ -65,7 +65,7 @@ Expert Systems with Applications, 2024. DOI: [10.1016/j.eswa.2024.124508](https:
 3. [CritiCoder: End-to-End Uncertain Regression for Robust Macroscopic Pressure Models in WDN](2023-tcss-criticoder.qmd)  
 IEEE Transactions on Computational Social Systems, 2023. DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
 
-## Current Manuscripts (Submitted / Under Review / In Preparation)
+## Ongoing Work (Submitted / Under Review / In Preparation)
 
 1. [Planning the Invisible: End-to-End Sensor Deployment Regret Minimization for Anomaly-Aware Water Networks](2026-aaai-sensor.qmd)  
 Water Research, submitted (2026).

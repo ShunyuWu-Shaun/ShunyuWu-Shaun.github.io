@@ -4,7 +4,7 @@ domain: "power"
 period: "2024-Present"
 role: "Project Lead"
 problem: "Improve operating efficiency under changing input quality and load swings while respecting process and equipment limits."
-method: "Constraint-aware optimization with adaptive feasible regions, surrogate-assisted online recommendation, and staged validation workflow."
+method: "Constraint-aware optimization with adaptive feasible regions, data-assisted online recommendation, and staged validation workflow."
 outcome: "Efficiency improved across multiple operating scenarios with sustained long-run operation."
 status: "deployed"
 confidentiality: "public-safe"
@@ -34,7 +34,7 @@ This deployment targets large-scale energy-conversion units under rapid load var
 
 - Robust constrained optimization for setpoint recommendation.
 - Condition-adaptive feasible-set tightening for robust operation under uncertainty.
-- Surrogate-assisted decision modules to reduce online latency.
+- Data-assisted recommendation modules to reduce online latency.
 - Staged release workflow with replay validation.
 
 ## Interface Evidence
@@ -47,8 +47,8 @@ This deployment targets large-scale energy-conversion units under rapid load var
 </div>
 
 <div class="project-figure-card">
-<img src="/assets/images/projects/power/thermal_sootblowing_strategy.png" alt="Intelligent sootblowing strategy matrix interface">
-<p>Intelligent sootblowing strategy panel with nozzle-level state and scheduling logic.</p>
+<img src="/assets/images/projects/power/thermal_sootblowing_strategy.png" alt="Operating-strategy matrix interface">
+<p>Operating-strategy panel with nozzle-level state and scheduling logic.</p>
 <p class="project-figure-caption-cn">中文图注：智能吹灰投切策略界面，展示吹灰器状态与策略执行。</p>
 </div>
 

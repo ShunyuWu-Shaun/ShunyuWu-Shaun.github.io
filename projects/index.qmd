@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-description: "Selected applied optimization projects in energy systems and urban operations."
+description: "Selected applied quantitative projects in energy systems and urban operations."
 toc: false
 ---
 
@@ -13,7 +13,7 @@ Only **public-safe** evidence is presented. Figures were curated from deployment
 ::: {.project-hero-grid}
 <div class="project-figure-card">
 <img src="/assets/images/projects/power/thermal_process_overview.png" alt="Energy-system optimization interface overview">
-<p><strong>Energy System:</strong> Operation interface for closed-loop optimization.</p>
+<p><strong>Energy System:</strong> Operational interface for quantitative workflow support.</p>
 <p class="project-figure-caption-cn">中文图注：火电机组能效闭环主界面，展示关键工况、锅炉状态与执行量。</p>
 </div>
 
@@ -38,14 +38,14 @@ Only **public-safe** evidence is presented. Figures were curated from deployment
 ::: {.two-col-grid}
 ::: {.feature-card}
 #### Energy-System Deployment
-- Closed-loop optimization and operating-strategy support integrated into daily operation.
+- Quantitative workflow support integrated into daily operation.
 - Multi-load evidence reported at 20%, 40%, and 50% operating points.
 - Interface-level diagnostics used for operator-facing review and staged validation.
 :::
 ::: {.feature-card}
 #### Urban Operations Deployment
 - One-plant-two-stations scheduling and monitoring in continuous operation mode.
-- Data-driven forecasting + dispatch framework deployed with constraint configuration workflow.
+- Forecasting and scheduling framework deployed with configurable workflow settings.
 - Score-based operation evaluation and dashboard-based decision support online.
 :::
 :::
@@ -70,6 +70,6 @@ Only **public-safe** evidence is presented. Figures were curated from deployment
 ## Engineering Principles Across Projects
 
 - Constraint-aware reliability first (feasible-set tightening + staged protection logic).
-- Decoupled train/inference/optimization/release architecture.
+- Decoupled modeling / evaluation / release architecture.
 - Configuration-driven deployment with staged validation and replay checks.
 - Operator-facing observability (alerts, dashboards, and logs).

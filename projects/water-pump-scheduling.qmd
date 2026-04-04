@@ -4,7 +4,7 @@ domain: "water"
 period: "2019-2024"
 role: "Algorithm Lead / Co-Algorithm Lead"
 problem: "Optimize scheduling and service-level compliance under demand uncertainty and noisy measurements in an operational data environment."
-method: "Forecast-optimize pipeline with demand prediction, mathematical scheduling, configurable rule sets, and staged update support."
+method: "Forecasting and scheduling workflow with demand prediction, mathematical scheduling, configurable rule sets, and staged update support."
 outcome: "Peak energy reduced (~10%), pump switching reduced (~20%), and pressure compliance improved (~3%)."
 status: "deployed"
 confidentiality: "public-safe"
@@ -34,7 +34,7 @@ The deployment focuses on a one-plant-two-stations urban service scenario where 
 <p class="project-figure-caption-cn">中文图注：多源感知-事件触发-调度方案生成的方法框架。</p>
 </div>
 
-- Forecast-optimize pipeline connecting demand and pressure estimation with scheduling decisions.
+- Forecasting and scheduling workflow connecting demand and pressure estimation with operational decisions.
 - Constraint-aware scheduling with operator-configurable rule sets.
 - Deployment-ready integration with dashboard-based review and fallback strategy options.
 

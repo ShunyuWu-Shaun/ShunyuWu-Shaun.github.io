@@ -1,38 +1,38 @@
 ---
 title: "Research"
-description: "Research agenda of Shunyu Wu: end-to-end optimization, decision-focused learning, forecasting and system modeling, and reliable deployment for large-scale operational systems."
+description: "Research agenda of Shunyu Wu: optimization, forecasting, quantitative modeling, and reliable implementation for large-scale operational systems."
 ---
 
 ## Research Vision
 
-I study how **learning**, **optimization**, and **engineering constraints** can be combined into reliable decision systems. The common thread is **end-to-end optimization for large-scale operational systems**, with an emphasis on **decision-focused learning**, **forecasting and system modeling**, and deployable decision analytics.
+I study how **forecasting**, **optimization**, and **engineering constraints** can be combined into reliable quantitative workflows. The common thread is **data-informed decision making for large-scale operational systems**, with an emphasis on **forecasting**, **system modeling**, and practical implementation.
 
 ## Research Agenda
 
-### 1) End-to-End Optimization and Decision-Focused Learning
+### 1) Optimization and Quantitative Decision Methods
 
 - Train predictive models against downstream operational objectives rather than proxy accuracy alone.
 - Diagnose and stabilize training when decision maps are nonsmooth or surrogate gradients are inexact.
 - Develop regret-aware objectives that better align learned representations with deployment outcomes.
 
-### 2) Forecasting, Modeling, and Decision Analytics
+### 2) Forecasting, Modeling, and Quantitative Analysis
 
-- Build forecasting and system-modeling modules that respect graph structure, process physics, and operator knowledge.
+- Build forecasting and system-modeling modules that respect domain structure, process understanding, and operator knowledge.
 - Couple learned surrogates with operational data streams, engineering constraints, and practical rules.
-- Use AI as a decision-support module inside scheduling workflows, not only as a predictor.
+- Use predictive models inside scheduling workflows, not only as standalone estimators.
 
-### 3) Reliable Optimization for Deployment
+### 3) Reliable Implementation in Practice
 
-- Design constrained PtO and solver-in-the-loop methods with explicit feasibility handling.
+- Design constrained optimization methods with explicit feasibility handling.
 - Integrate reliability mechanisms such as feasible-set tightening, staged validation, replay checks, and operator review.
 - Build reusable decision stacks for long-running operation in power and water systems.
 
 ## Current Focus (2025-2026)
 
-- Energy-dissipation views of decision-focused training and recursive variational free-energy stabilization.
-- End-to-end constrained optimization under unknown or learned constraints.
-- Decision support for operational planning with deployable forecasting and optimization modules.
-- Measurement design, scheduling, and efficiency optimization with deployment feedback.
+- Quantitative methods for linking forecasting quality with downstream decisions.
+- Constrained optimization under unknown or learned constraints.
+- Operational planning workflows with deployable forecasting and optimization modules.
+- Measurement design, scheduling, and efficiency improvement with deployment feedback.
 
 ## Domain Applications
 
@@ -41,6 +41,6 @@ I study how **learning**, **optimization**, and **engineering constraints** can 
 
 ## Method and Tool Stack
 
-- **Learning/Modeling**: PyTorch, scikit-learn, XGBoost/LightGBM, PyTorch Geometric, uncertainty-aware forecasting, graph and physics-informed modeling.
-- **Optimization**: LP/MILP, stochastic optimization, constrained predict-then-optimize, solver-in-the-loop learning, Gurobi, Pyomo.
-- **Deployment Engineering**: config-driven services, operational data integration, staged release pipelines, monitoring, documentation, and operator-facing review workflows.
+- **Modeling**: Python-based forecasting and quantitative modeling tools, uncertainty-aware estimation, and domain-informed modeling.
+- **Optimization**: LP/MILP, stochastic optimization, constrained optimization, and mathematical programming workflows.
+- **Implementation**: config-driven services, operational data integration, staged release pipelines, monitoring, documentation, and operator-facing review workflows.

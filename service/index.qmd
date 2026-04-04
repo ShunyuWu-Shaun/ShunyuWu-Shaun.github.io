@@ -14,13 +14,11 @@ description: "Academic service, teaching, and mentoring activities."
 
 ### Journals (selected)
 
-- IEEE Transactions on Systems, Man, and Cybernetics: Systems
-- IEEE Transactions on Automation Science and Engineering
-- IEEE Transactions on Intelligent Vehicles
+- Selected IEEE journals in systems, automation, and engineering applications
 
 ## Teaching and Mentoring
 
-- Teaching Assistant, **Advanced Process Control** (2023-2024): lectures, assignments, recitations.
+- Teaching Assistant for a graduate engineering course (2023-2024): lectures, assignments, recitations.
 - Co-mentoring support: **1 Ph.D.** and **13 M.Sc.** students (topic framing, reproducible pipelines, and engineering replication).
 
 ## Collaboration Practice

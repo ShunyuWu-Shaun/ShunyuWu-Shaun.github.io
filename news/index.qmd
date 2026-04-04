@@ -17,10 +17,10 @@ The academic website moved to **shunyuwu-shaun.github.io** with structured publi
 :::
 ::: {.entry-card}
 #### 2025-08 | New manuscripts entered active review
-Manuscripts on end-to-end optimization, decision-focused training, and constrained learning entered active submission and review cycles.
+Manuscripts on optimization, forecasting, and quantitative decision methods entered active submission and review cycles.
 :::
 ::: {.entry-card}
-#### 2025-05 | Thermal-power optimization system in long-run operation
+#### 2025-05 | Applied workflow in long-run operation
 Field deployment continued with stable operation and measurable energy-efficiency gains.
 :::
 :::

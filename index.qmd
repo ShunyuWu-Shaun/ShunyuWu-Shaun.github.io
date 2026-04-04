@@ -1,15 +1,14 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
-subtitle: "End-to-End Optimization, Decision-Focused Learning, and Reliable Decision Systems"
-description: "Ph.D. candidate at Shanghai Jiao Tong University working on end-to-end optimization, forecasting, and data-driven decision systems for large-scale operational settings."
+subtitle: "Optimization, Forecasting, and Quantitative Decision Methods"
+description: "Ph.D. candidate at Shanghai Jiao Tong University working on optimization, forecasting, and quantitative modeling for large-scale operational settings."
 keywords:
   - Shunyu Wu
   - shunyuwu
   - 吴舜禹
-  - End-to-End Optimization
-  - Forecasting and Modeling
-  - Decision-Focused Learning
-  - Predict-Then-Optimize
+  - Optimization
+  - Forecasting
+  - Quantitative Modeling
 toc: false
 page-layout: full
 ---
@@ -39,13 +38,12 @@ page-layout: full
         "https://www.researchgate.net/profile/Shunyu-Wu?ev=hdr_xprf"
       ],
       "knowsAbout": [
-        "End-to-end optimization",
-        "Decision-focused learning",
-        "Predict-then-optimize",
-        "Forecasting and system modeling",
-        "Constrained optimization",
-        "Data-driven decision systems",
-        "Applied optimization for large-scale operations"
+        "Optimization",
+        "Forecasting",
+        "Quantitative modeling",
+        "Operations research",
+        "Data analysis",
+        "Applied mathematics"
       ]
     },
     {
@@ -75,10 +73,10 @@ page-layout: full
 ::: {.hero-card .hero-main}
 ## About
 
-I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao Tong University**. My research spans **end-to-end optimization**, **decision-focused learning**, **predict-then-optimize**, and **constrained decision systems** for large-scale real-world applications.
+I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao Tong University**. My research spans **optimization**, **forecasting**, **quantitative modeling**, and **data-informed decision methods** for large-scale real-world applications.
 
 ::: {.hero-lead}
-I work across forecasting, system modeling, optimization, and deployment: from stable learning-to-decision pipelines to fielded decision-support workflows in large-scale operational settings.
+I work across forecasting, system modeling, optimization, and deployment: from quantitative analysis methods to fielded operational workflows in large-scale settings.
 :::
 
 ::: {.hero-buttons}
@@ -89,10 +87,10 @@ I work across forecasting, system modeling, optimization, and deployment: from s
 :::
 
 ::: {.interest-chips}
-<span class="interest-chip">End-to-End Optimization</span>
-<span class="interest-chip">Decision-Focused Learning</span>
-<span class="interest-chip">Forecasting &amp; Modeling</span>
-<span class="interest-chip">Constrained Optimization</span>
+<span class="interest-chip">Optimization</span>
+<span class="interest-chip">Forecasting</span>
+<span class="interest-chip">Quantitative Modeling</span>
+<span class="interest-chip">Decision Methods</span>
 <span class="interest-chip">Operational Systems</span>
 <span class="interest-chip">Deployment Reliability</span>
 :::
@@ -104,7 +102,7 @@ I work across forecasting, system modeling, optimization, and deployment: from s
 <div>
 <div class="profile-name">Shunyu Wu</div>
 <div class="profile-role">Ph.D. Candidate, Shanghai Jiao Tong University</div>
-<div class="profile-role">End-to-end optimization, decision-focused learning, and deployable decision systems</div>
+<div class="profile-role">Optimization, forecasting, and deployable quantitative methods</div>
 </div>
 :::
 :::
@@ -134,16 +132,16 @@ I work across forecasting, system modeling, optimization, and deployment: from s
 
 ::: {.card-list}
 ::: {.entry-card}
-#### End-to-End Optimization and Decision-Focused Learning
-I study how predictors should be trained against downstream decisions, especially when optimization maps are nonsmooth or surrogate gradients are inexact.
+#### Optimization and Decision Methods
+I study how predictive models and optimization procedures can be combined for better downstream decisions in practical settings.
 :::
 ::: {.entry-card}
-#### Forecasting and Decision Analytics
-I combine forecasting, system modeling, graph and physics-aware structure, and operator knowledge to build AI systems that respect engineering realities.
+#### Forecasting and Quantitative Modeling
+I combine forecasting, system modeling, domain-informed structure, and operator knowledge to build analytical methods that fit real operational settings.
 :::
 ::: {.entry-card}
-#### Reliable Deployment in Real Systems
-I design optimization pipelines with validation checks, reliability safeguards, and operator-facing interfaces for long-running real-world applications.
+#### Reliable Implementation
+I design quantitative workflows with validation checks, reliability safeguards, and operator-facing interfaces for long-running real-world applications.
 :::
 :::
 
@@ -151,15 +149,15 @@ I design optimization pipelines with validation checks, reliability safeguards, 
 
 ::: {.card-list}
 ::: {.entry-card}
-#### End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling (IEEE TSG, 2025)
+#### Journal article on resource scheduling and operational efficiency (IEEE TSG, 2025)
 DOI: [10.1109/TSG.2025.3601238](https://doi.org/10.1109/TSG.2025.3601238)
 :::
 ::: {.entry-card}
-#### Knowledge-based Bi-correction Model for Lag-free Daily Urban Water Demand Forecasting (ESWA, 2024)
+#### Journal article on urban demand forecasting (ESWA, 2024)
 DOI: [10.1016/j.eswa.2024.124508](https://doi.org/10.1016/j.eswa.2024.124508)
 :::
 ::: {.entry-card}
-#### CritiCoder: End-to-End Uncertain Regression for Robust Macroscopic Pressure Models in WDN (IEEE TCSS, 2023)
+#### Journal article on pressure modeling and uncertainty handling (IEEE TCSS, 2023)
 DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
 :::
 :::
@@ -197,7 +195,7 @@ More: [Service](/service/)
 ::: {.feature-card}
 #### News and Collaboration
 - Publication status updates and deployment milestones.
-- Ongoing collaborations in optimization, modeling, and applied machine learning.
+- Ongoing collaborations in optimization, modeling, and quantitative analysis.
 - Research contact and profile links for quick reach-out.
 
 Browse: [News](/news/) and [Contact](/contact/)
@@ -226,5 +224,5 @@ The module below shows total page views, unique visitors, current visitor region
 - **2026-02**: Visual refresh with a softer interface style and 3D visitor globe.
 - **2026-02**: Site migrated from legacy URL `shuanyuwu.github.io` to `shunyuwu-shaun.github.io`.
 - **2025-11**: IEEE Transactions on Smart Grid paper indexed with DOI.
-- **2025-08**: New manuscripts on end-to-end optimization and decision-focused training entered active submission and review cycles.
-- **2025-05**: Thermal-power optimization system entered long-run production operation.
+- **2025-08**: New manuscripts on optimization and quantitative decision methods entered active submission and review cycles.
+- **2025-05**: An applied optimization workflow entered long-run production operation.

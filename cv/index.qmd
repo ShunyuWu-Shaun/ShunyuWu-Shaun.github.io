@@ -13,8 +13,8 @@ toc: false
 - [General Academic CV](/assets/cv/ShunyuWu_CV.pdf)
 - [Industry CV (English)](/assets/cv/ShunyuWu_CV_Industry_English.pdf)
 - [Industry CV (Chinese)](/assets/cv/ShunyuWu_CV_Industry.pdf)
-- [AI CV (Chinese)](/assets/cv/ShunyuWu_CV_AI.pdf)
-- [AI + Internet CV (Chinese)](/assets/cv/ShunyuWu_CV_AI_Internet.pdf)
+- [Targeted CV (Chinese, Version A)](/assets/cv/ShunyuWu_CV_AI.pdf)
+- [Targeted CV (Chinese, Version B)](/assets/cv/ShunyuWu_CV_AI_Internet.pdf)
 
 ## Quick Profile
 
@@ -22,4 +22,3 @@ toc: false
 - Position: Ph.D. Candidate (expected graduation: Mar 2026)
 - Program: Control Science and Engineering, Shanghai Jiao Tong University
 - Email: [shunyuwu@sjtu.edu.cn](mailto:shunyuwu@sjtu.edu.cn)
-

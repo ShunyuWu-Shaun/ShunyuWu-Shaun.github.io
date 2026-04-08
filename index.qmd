@@ -1,14 +1,15 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
-subtitle: "Forecasting, Modeling, and Applied Quantitative Analysis"
-description: "Ph.D. candidate at Shanghai Jiao Tong University working on forecasting, modeling, and applied quantitative analysis."
+subtitle: "Optimization, Prediction, and Forecasting"
+description: "Ph.D. candidate at Shanghai Jiao Tong University working on optimization, prediction, forecasting, and modeling."
 keywords:
   - Shunyu Wu
   - shunyuwu
   - 吴舜禹
+  - Optimization
+  - Prediction
   - Forecasting
   - Modeling
-  - Quantitative Analysis
 toc: false
 page-layout: full
 ---
@@ -38,11 +39,11 @@ page-layout: full
         "https://www.researchgate.net/profile/Shunyu-Wu?ev=hdr_xprf"
       ],
       "knowsAbout": [
+        "Optimization",
+        "Prediction",
         "Forecasting",
         "System modeling",
-        "Quantitative analysis",
-        "Applied mathematics",
-        "Data analysis"
+        "Applied mathematics"
       ]
     },
     {
@@ -72,10 +73,10 @@ page-layout: full
 ::: {.hero-card .hero-main}
 ## About
 
-I am a Ph.D. candidate at **Shanghai Jiao Tong University**. My work centers on **forecasting**, **system modeling**, **quantitative analysis**, and **data-informed studies** for applied problems.
+I am a Ph.D. candidate at **Shanghai Jiao Tong University**. My work centers on **optimization**, **prediction**, **forecasting**, and **system modeling** for applied problems.
 
 ::: {.hero-lead}
-I work across data analysis, system modeling, and practical evaluation, with an emphasis on reliable and interpretable workflows for real-world studies.
+I work across optimization, prediction, forecasting, and practical evaluation, with an emphasis on reliable and interpretable workflows for real-world studies.
 :::
 
 ::: {.hero-buttons}
@@ -85,10 +86,10 @@ I work across data analysis, system modeling, and practical evaluation, with an 
 :::
 
 ::: {.interest-chips}
+<span class="interest-chip">Optimization</span>
+<span class="interest-chip">Prediction</span>
 <span class="interest-chip">Forecasting</span>
 <span class="interest-chip">Modeling</span>
-<span class="interest-chip">Quantitative Analysis</span>
-<span class="interest-chip">Data Analysis</span>
 <span class="interest-chip">Applied Mathematics</span>
 <span class="interest-chip">Practical Studies</span>
 :::
@@ -100,7 +101,7 @@ I work across data analysis, system modeling, and practical evaluation, with an 
 <div>
 <div class="profile-name">Shunyu Wu</div>
 <div class="profile-role">Ph.D. Candidate, Shanghai Jiao Tong University</div>
-<div class="profile-role">Forecasting, modeling, and quantitative analysis for applied studies</div>
+<div class="profile-role">Optimization, prediction, forecasting, and modeling for applied studies</div>
 </div>
 :::
 :::
@@ -130,12 +131,12 @@ I work across data analysis, system modeling, and practical evaluation, with an 
 
 ::: {.card-list}
 ::: {.entry-card}
-#### Quantitative Analysis and Evaluation
-I study how predictive models, empirical structure, and numerical procedures can be combined to support careful application-level evaluation.
+#### Optimization and Prediction
+I study how predictive models and optimization procedures can be combined to support careful application-level evaluation.
 :::
 ::: {.entry-card}
 #### Forecasting and Modeling
-I build forecasting and system-modeling workflows that integrate data, domain understanding, and interpretable analysis.
+I build forecasting and modeling workflows that integrate domain understanding, practical constraints, and interpretable methods.
 :::
 ::: {.entry-card}
 #### Reliable Applied Workflows
@@ -147,11 +148,11 @@ I design reusable workflows with staged checks, careful validation, and clear in
 
 ::: {.card-list}
 ::: {.entry-card}
-#### Journal article on resource planning and cost analysis (IEEE TSG, 2025)
+#### Journal article on coupled resource planning (IEEE TSG, 2025)
 DOI: [10.1109/TSG.2025.3601238](https://doi.org/10.1109/TSG.2025.3601238)
 :::
 ::: {.entry-card}
-#### Journal article on daily demand estimation and forecasting (ESWA, 2024)
+#### Journal article on daily demand prediction and forecasting (ESWA, 2024)
 DOI: [10.1016/j.eswa.2024.124508](https://doi.org/10.1016/j.eswa.2024.124508)
 :::
 ::: {.entry-card}
@@ -166,14 +167,14 @@ For complete records, see [Publications](/publications/).
 
 ::: {.card-list}
 ::: {.entry-card}
-#### Industrial Workflow Analysis
-Applied quantitative methods for efficiency review in representative industrial settings.
+#### Industrial Optimization Workflow
+Applied optimization and forecasting methods for efficiency review in representative industrial settings.
 
 Details: [Projects](/projects/)
 :::
 ::: {.entry-card}
 #### Service Operations Planning
-Applied quantitative workflow for planning and service-level coordination in a representative public-service setting.
+Applied prediction and planning workflow for service-level coordination in a representative public-service setting.
 
 Details: [Projects](/projects/)
 :::
@@ -193,7 +194,7 @@ More: [Service](/service/)
 ::: {.feature-card}
 #### News and Collaboration
 - Publication status updates and project milestones.
-- Ongoing collaborations in modeling, analysis, and applied studies.
+- Ongoing collaborations in optimization, modeling, and applied studies.
 - Research contact and profile links for quick reach-out.
 
 Browse: [News](/news/) and [Contact](/contact/)
@@ -205,5 +206,5 @@ Browse: [News](/news/) and [Contact](/contact/)
 - **2026-02**: Website visual refresh and navigation update.
 - **2026-02**: Site migrated from legacy URL `shuanyuwu.github.io` to `shunyuwu-shaun.github.io`.
 - **2025-11**: IEEE Transactions on Smart Grid paper indexed with DOI.
-- **2025-08**: New manuscripts on forecasting, modeling, and quantitative analysis entered active review.
-- **2025-05**: An applied analysis workflow reached stable routine use.
+- **2025-08**: New manuscripts on optimization, prediction, forecasting, and modeling entered active review.
+- **2025-05**: An applied planning workflow reached stable routine use.

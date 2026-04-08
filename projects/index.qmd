@@ -12,8 +12,8 @@ Only **public-safe** materials are shown. Figures were selected after removing s
 
 ::: {.project-hero-grid}
 <div class="project-figure-card">
-<img src="/assets/images/projects/industrial/overview.png" alt="Representative industrial-analysis interface">
-<p><strong>Industrial Setting:</strong> Representative interface for an applied analytical workflow.</p>
+<img src="/assets/images/projects/industrial/overview.png" alt="Representative industrial workflow interface">
+<p><strong>Industrial Setting:</strong> Representative interface for optimization and forecasting support.</p>
 <p class="project-figure-caption-cn">中文图注：工业场景分析主界面，展示关键状态、指标与建议量。</p>
 </div>
 
@@ -35,8 +35,8 @@ Only **public-safe** materials are shown. Figures were selected after removing s
 
 ::: {.two-col-grid}
 ::: {.feature-card}
-#### Industrial Workflow Analysis
-- Quantitative workflow support integrated into routine review.
+#### Industrial Optimization Workflow
+- Optimization and forecasting support integrated into routine review.
 - Evaluated under varying operating conditions in representative settings.
 - Interface-level diagnostics used for summary review and staged checks.
 :::
@@ -66,6 +66,6 @@ Only **public-safe** materials are shown. Figures were selected after removing s
 ## Common Workflow Characteristics
 
 - Quality checks and feasibility safeguards built in from the start.
-- Modular analysis / evaluation / release structure.
+- Modular prediction / evaluation / release structure.
 - Configuration-driven workflow with staged review.
 - Clear interfaces and records for recurring use.

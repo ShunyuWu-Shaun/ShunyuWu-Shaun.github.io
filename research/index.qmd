@@ -1,24 +1,24 @@
 ---
 title: "Research"
-description: "Research agenda of Shunyu Wu: forecasting, modeling, quantitative analysis, and reliable applied workflows."
+description: "Research agenda of Shunyu Wu: optimization, prediction, forecasting, modeling, and reliable applied workflows."
 ---
 
 ## Research Vision
 
-I study how **forecasting**, **system modeling**, and **quantitative analysis** can be combined into reliable workflows for applied problems. The common thread is **data-informed analysis for large-scale real-world studies**, with an emphasis on interpretable modeling, careful evaluation, and practical use.
+I study how **optimization**, **prediction**, **forecasting**, and **system modeling** can be combined into reliable workflows for applied problems. The common thread is **careful modeling and evaluation for large-scale real-world studies**, with an emphasis on interpretable methods, practical use, and stable workflows.
 
 ## Research Agenda
 
-### 1) Quantitative Analysis and Evaluation
+### 1) Optimization and Prediction
 
 - Link predictive models with application-level evaluation rather than proxy metrics alone.
-- Study stability, calibration, and numerical behavior in complex analytical workflows.
-- Develop objectives that better reflect the goals of applied studies.
+- Study stability and numerical behavior in complex workflows.
+- Develop formulations that better reflect the goals of applied studies.
 
-### 2) Forecasting, Modeling, and Statistical Analysis
+### 2) Forecasting and Modeling
 
-- Build forecasting and analysis modules that respect domain structure, process understanding, and contextual knowledge.
-- Combine data sources, empirical rules, and practical constraints.
+- Build forecasting and modeling modules that respect domain structure, process understanding, and contextual knowledge.
+- Combine domain knowledge, practical rules, and routine constraints.
 - Use predictive models within planning and evaluation workflows, not only as standalone estimators.
 
 ### 3) Reliable Applied Workflows
@@ -29,18 +29,18 @@ I study how **forecasting**, **system modeling**, and **quantitative analysis** 
 
 ## Current Focus (2025-2026)
 
-- Quantitative methods for linking predictive quality with downstream evaluation.
-- Methods under uncertainty and imperfect information.
-- Planning and efficiency analysis with application feedback.
+- Optimization and prediction for downstream evaluation.
+- Forecasting and modeling under uncertainty and imperfect information.
+- Planning and efficiency improvement with application feedback.
 - Reusable workflows for recurring applied studies.
 
 ## Application Areas
 
-- **Service and Industrial Applications**: forecasting, analysis, and planning.
-- **Large-Scale Applied Systems**: reliable and interpretable quantitative workflows.
+- **Service and Industrial Applications**: prediction, forecasting, and planning.
+- **Large-Scale Applied Systems**: reliable and interpretable forecasting and planning workflows.
 
 ## Method and Tool Stack
 
-- **Modeling**: forecasting, system identification, uncertainty-aware estimation, and domain-informed modeling.
-- **Quantitative Methods**: numerical methods, mathematical programming, and statistical analysis.
+- **Modeling**: forecasting, prediction, system identification, and uncertainty-aware modeling.
+- **Methods**: optimization, mathematical programming, and statistical methods.
 - **Implementation**: reproducible pipelines, staged evaluation, documentation, and review-friendly interfaces.

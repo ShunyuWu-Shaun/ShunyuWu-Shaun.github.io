@@ -3,8 +3,8 @@ title: "Service Operations Planning"
 domain: "service"
 period: "2019-2024"
 role: "Algorithm Lead / Co-Algorithm Lead"
-problem: "Support planning and service-level consistency under demand uncertainty and noisy measurements in a real data environment."
-method: "Forecasting and planning workflow with demand estimation, configurable rules, and staged update support."
+problem: "Support planning and service-level consistency under demand uncertainty and noisy measurements in routine operation."
+method: "Prediction and planning workflow with demand forecasting, configurable rules, and staged update support."
 outcome: "Observable quality and efficiency improvements were reported in routine use."
 status: "deployed"
 confidentiality: "public-safe"
@@ -34,7 +34,7 @@ This applied case focuses on a public-service scenario where planning decisions 
 <p class="project-figure-caption-cn">中文图注：多源输入、事件触发与方案生成的方法框架。</p>
 </div>
 
-- Forecasting and planning workflow connecting demand and state estimation with routine decisions.
+- Prediction and planning workflow connecting demand forecasting and routine decisions.
 - Rule-aware planning with configurable settings.
 - Integration with dashboard-based review and fallback options.
 
@@ -42,7 +42,7 @@ This applied case focuses on a public-service scenario where planning decisions 
 
 <div class="project-figure-card">
 <img src="/assets/images/projects/service/forecast-example.png" alt="Representative forecasting example with MAPE shown on figure">
-<p>Forecasting example with low MAPE under full-period operational data.</p>
+<p>Forecasting example with low MAPE across the full study period.</p>
 <p class="project-figure-caption-cn">中文图注：全时段预测示例图，图中保留 MAPE 指标作为结果摘要。</p>
 </div>
 

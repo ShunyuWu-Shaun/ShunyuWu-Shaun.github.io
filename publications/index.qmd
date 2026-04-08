@@ -5,9 +5,10 @@ keywords:
   - Shunyu Wu publications
   - shunyuwu publications
   - 吴舜禹 论文
+  - optimization
+  - prediction
   - forecasting
   - modeling
-  - quantitative analysis
 toc: false
 ---
 
@@ -15,7 +16,7 @@ toc: false
 This page uses concise topic descriptions and links to official records on DOI, Google Scholar, ResearchGate, and ORCID.
 :::
 
-Recurring themes across this work include **forecasting**, **modeling**, **quantitative analysis**, and **applied evaluation**.
+Recurring themes across this work include **optimization**, **prediction**, **forecasting**, and **modeling**.
 
 ## Citation Profiles
 
@@ -31,20 +32,20 @@ Recurring themes across this work include **forecasting**, **modeling**, **quant
 
 ## Published (First-Author)
 
-1. Article on coupled resource planning and cost analysis.  
+1. Article on coupled resource planning and optimization.  
 IEEE Transactions on Smart Grid, 2025. DOI: [10.1109/TSG.2025.3601238](https://doi.org/10.1109/TSG.2025.3601238)
-2. Article on daily demand estimation and forecasting.  
+2. Article on daily demand prediction and forecasting.  
 Expert Systems with Applications, 2024. DOI: [10.1016/j.eswa.2024.124508](https://doi.org/10.1016/j.eswa.2024.124508)
 3. Article on uncertainty-aware network state modeling.  
 IEEE Transactions on Computational Social Systems, 2023. DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
 
 ## Ongoing Work (Submitted / Under Review / In Preparation)
 
-1. Study on observation design and planning under uncertainty.  
+1. Study on planning under uncertainty.  
 Submitted, 2026.
-2. Study on numerical methods with approximate gradients.  
+2. Study on optimization with approximate gradients.  
 Submitted, 2025.
-3. Study on stability in integrated model-to-decision pipelines.  
+3. Study on stable optimization pipelines.  
 Under review, 2026.
 4. Study on feasibility-aware constrained methods.  
 Under review, 2026.
@@ -53,15 +54,15 @@ In preparation, 2026.
 
 ## Collaborations (Selected Published / Proceedings)
 
-1. Article on learning-based methods for nonlinear systems.  
+1. Article on iterative methods for nonlinear systems.  
 IEEE TSMC: Systems, 2024. DOI: [10.1109/TSMC.2023.3344883](https://doi.org/10.1109/TSMC.2023.3344883)
 2. Article on adaptive dynamic programming for nonlinear systems.  
 IEEE TSMC: Systems, 2024. DOI: [10.1109/TSMC.2023.3327450](https://doi.org/10.1109/TSMC.2023.3327450)
-3. Article on industrial energy-use prediction in rolling processes.  
+3. Article on industrial process prediction.  
 IEEE TASE, 2024. DOI: [10.1109/TASE.2023.3236306](https://doi.org/10.1109/TASE.2023.3236306)
-4. Article on hybrid prediction for industrial process energy use.  
+4. Article on hybrid prediction for industrial processes.  
 IEEE TASE, 2024. DOI: [10.1109/TASE.2023.3299185](https://doi.org/10.1109/TASE.2023.3299185)
 5. Conference paper on time-scale methods for nonlinear systems.  
 CDC, 2023. DOI: [10.1109/CDC49753.2023.10383316](https://doi.org/10.1109/CDC49753.2023.10383316)
-6. Conference paper on irregular pressure-series forecasting.  
+6. Conference paper on irregular forecasting.  
 IFAC-PapersOnLine, 2023. DOI: [10.1016/j.ifacol.2023.10.581](https://doi.org/10.1016/j.ifacol.2023.10.581)

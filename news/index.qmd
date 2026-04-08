@@ -13,11 +13,11 @@ The academic website moved to **shunyuwu-shaun.github.io** with streamlined publ
 :::
 ::: {.entry-card}
 #### 2025-11 | IEEE TSG paper officially indexed
-A first-author journal article on resource planning and cost analysis is now online with DOI.
+A first-author journal article on resource planning is now online with DOI.
 :::
 ::: {.entry-card}
 #### 2025-08 | New manuscripts entered active review
-Manuscripts on forecasting, modeling, and quantitative analysis entered active submission and review cycles.
+Manuscripts on optimization, prediction, forecasting, and modeling entered active submission and review cycles.
 :::
 ::: {.entry-card}
 #### 2025-05 | Applied workflow update

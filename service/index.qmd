@@ -24,7 +24,7 @@ description: "Academic service, teaching, and mentoring activities."
 ## Collaboration Practice
 
 - Promote methodological clarity, reproducibility, and careful evaluation.
-- Bridge exploratory analysis to stable deliverables through review checklists and retrospective notes.
+- Bridge exploratory work to stable deliverables through review checklists and retrospective notes.
 
 ## Open-Science Habits
 

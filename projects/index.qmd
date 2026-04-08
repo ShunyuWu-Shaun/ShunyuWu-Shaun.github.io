@@ -1,75 +1,73 @@
 ---
 title: "Projects"
-description: "Selected applied quantitative projects in energy systems and urban operations."
+description: "Representative applications of quantitative methods in industrial and utility settings."
 toc: false
 ---
 
 ::: {.project-safe-note}
-Only **public-safe** evidence is presented. Figures were curated from deployment reports and interfaces after removing sensitive materials (e.g., signatures, contract IDs, personal handwriting).
+Only **public-safe** evidence is presented. Figures were curated from project materials and interfaces after removing sensitive materials (e.g., signatures, contract IDs, personal handwriting).
 :::
 
-## Deployment Evidence Snapshot
+## Representative Applications
 
 ::: {.project-hero-grid}
 <div class="project-figure-card">
 <img src="/assets/images/projects/power/thermal_process_overview.png" alt="Energy-system optimization interface overview">
-<p><strong>Energy System:</strong> Operational interface for quantitative workflow support.</p>
+<p><strong>Industrial Energy:</strong> Operational interface for quantitative workflow support.</p>
 <p class="project-figure-caption-cn">中文图注：火电机组能效闭环主界面，展示关键工况、锅炉状态与执行量。</p>
 </div>
 
 <div class="project-figure-card">
 <img src="/assets/images/projects/water/water_dispatch_dashboard.png" alt="Urban operations scheduling dashboard in daily use">
-<p><strong>Urban Operations:</strong> Scheduling dashboard in daily operation.</p>
+<p><strong>Utility Services:</strong> Scheduling dashboard in daily operation.</p>
 <p class="project-figure-caption-cn">中文图注：一厂两站智慧供水调度主界面，展示区域压力、指令执行与监测点状态。</p>
 </div>
 :::
 
 ::: {.project-metric-chips}
-<div class="project-metric-chip"><span class="k">Power Result</span><span class="v">Coal use reduced by <strong>1.2 g/kWh</strong> at ~50% load</span></div>
-<div class="project-metric-chip"><span class="k">Power Result</span><span class="v">Coal use reduced by <strong>3-6 g/kWh</strong> at 20%/40% load</span></div>
-<div class="project-metric-chip"><span class="k">Water Result</span><span class="v">Peak energy reduction around <strong>10%</strong></span></div>
-<div class="project-metric-chip"><span class="k">Water Result</span><span class="v">Pump switching reduction around <strong>20%</strong></span></div>
-<div class="project-metric-chip"><span class="k">Water Result</span><span class="v">Pressure compliance improved by around <strong>3%</strong></span></div>
-<div class="project-metric-chip"><span class="k">Forecast Evidence</span><span class="v">Pressure forecasting examples with low MAPE</span></div>
+<div class="project-metric-chip"><span class="k">Industrial Setting</span><span class="v">Validated in representative operating environments</span></div>
+<div class="project-metric-chip"><span class="k">Utility Setting</span><span class="v">Scheduling and monitoring workflow in continuous operation</span></div>
+<div class="project-metric-chip"><span class="k">Observed Outcome</span><span class="v">Measurable efficiency and operational improvements were observed</span></div>
+<div class="project-metric-chip"><span class="k">Evidence Type</span><span class="v">Representative interfaces, workflow diagrams, and result summaries</span></div>
 :::
 
-## Cross-domain Results at a Glance
+## Application Highlights
 
 ::: {.two-col-grid}
 ::: {.feature-card}
-#### Energy-System Deployment
+#### Industrial Energy Application
 - Quantitative workflow support integrated into daily operation.
-- Multi-load evidence reported at 20%, 40%, and 50% operating points.
-- Interface-level diagnostics used for operator-facing review and staged validation.
+- Validated in industrial operating environments with varying operating conditions.
+- Interface-level diagnostics used for review and staged validation.
 :::
 ::: {.feature-card}
-#### Urban Operations Deployment
-- One-plant-two-stations scheduling and monitoring in continuous operation mode.
-- Forecasting and scheduling framework deployed with configurable workflow settings.
-- Score-based operation evaluation and dashboard-based decision support online.
+#### Utility Service Application
+- Scheduling and monitoring workflow in continuous operation.
+- Forecasting and scheduling framework with configurable workflow settings.
+- Dashboard-based review and evaluation for daily operations.
 :::
 :::
 
-## Selected Deployments
+## Selected Applications
 
 ::: {.card-list}
 ::: {.entry-card}
-#### [Energy-System Efficiency Optimization](power-closed-loop-efficiency.qmd)
+#### [Industrial Energy-Efficiency Optimization](power-closed-loop-efficiency.qmd)
 - Domain: Energy
 - Role: Project Lead
-- Status: Deployed
+- Type: Representative application
 :::
 ::: {.entry-card}
-#### [Urban Operations Scheduling and Decision Support](water-pump-scheduling.qmd)
+#### [Utility Scheduling and Monitoring Workflow](water-pump-scheduling.qmd)
 - Domain: Water
 - Role: Algorithm Lead
-- Status: Deployed
+- Type: Representative application
 :::
 :::
 
-## Engineering Principles Across Projects
+## Common Workflow Characteristics
 
 - Constraint-aware reliability first (feasible-set tightening + staged protection logic).
 - Decoupled modeling / evaluation / release architecture.
-- Configuration-driven deployment with staged validation and replay checks.
-- Operator-facing observability (alerts, dashboards, and logs).
+- Configuration-driven release workflow with staged validation and replay checks.
+- User-facing observability (alerts, dashboards, and logs).

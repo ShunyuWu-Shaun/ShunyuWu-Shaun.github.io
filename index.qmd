@@ -1,7 +1,7 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
-subtitle: "Optimization, Forecasting, and Quantitative Decision Methods"
-description: "Ph.D. candidate at Shanghai Jiao Tong University working on optimization, forecasting, and quantitative modeling for large-scale operational settings."
+subtitle: "Optimization, Forecasting, and Quantitative Modeling"
+description: "Ph.D. candidate at Shanghai Jiao Tong University working on optimization, forecasting, and quantitative modeling for civil infrastructure and operational applications."
 keywords:
   - Shunyu Wu
   - shunyuwu
@@ -42,8 +42,8 @@ page-layout: full
         "Forecasting",
         "Quantitative modeling",
         "Operations research",
-        "Data analysis",
-        "Applied mathematics"
+        "Applied mathematics",
+        "Civil infrastructure applications"
       ]
     },
     {
@@ -73,10 +73,10 @@ page-layout: full
 ::: {.hero-card .hero-main}
 ## About
 
-I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao Tong University**. My research spans **optimization**, **forecasting**, **quantitative modeling**, and **data-informed decision methods** for large-scale real-world applications.
+I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao Tong University**. My research focuses on **optimization**, **forecasting**, **quantitative modeling**, and **data-informed decision methods** for civil infrastructure and large-scale operational applications.
 
 ::: {.hero-lead}
-I work across forecasting, system modeling, optimization, and deployment: from quantitative analysis methods to fielded operational workflows in large-scale settings.
+I work across forecasting, system modeling, optimization, and practical implementation, with an emphasis on decision-support methods for energy and water applications.
 :::
 
 ::: {.hero-buttons}
@@ -91,8 +91,8 @@ I work across forecasting, system modeling, optimization, and deployment: from q
 <span class="interest-chip">Forecasting</span>
 <span class="interest-chip">Quantitative Modeling</span>
 <span class="interest-chip">Decision Methods</span>
-<span class="interest-chip">Operational Systems</span>
-<span class="interest-chip">Deployment Reliability</span>
+<span class="interest-chip">Civil Infrastructure</span>
+<span class="interest-chip">Applied Methods</span>
 :::
 :::
 
@@ -102,7 +102,7 @@ I work across forecasting, system modeling, optimization, and deployment: from q
 <div>
 <div class="profile-name">Shunyu Wu</div>
 <div class="profile-role">Ph.D. Candidate, Shanghai Jiao Tong University</div>
-<div class="profile-role">Optimization, forecasting, and deployable quantitative methods</div>
+<div class="profile-role">Optimization, forecasting, and quantitative methods for applied systems</div>
 </div>
 :::
 :::
@@ -114,7 +114,7 @@ I work across forecasting, system modeling, optimization, and deployment: from q
 :::
 ::: {.snapshot-item}
 <div class="snapshot-number">2</div>
-<div class="snapshot-label">Deployment domains (Power, Water)</div>
+<div class="snapshot-label">Application domains</div>
 :::
 ::: {.snapshot-item}
 <div class="snapshot-number">14</div>
@@ -122,7 +122,7 @@ I work across forecasting, system modeling, optimization, and deployment: from q
 :::
 ::: {.snapshot-item}
 <div class="snapshot-number">2026</div>
-<div class="snapshot-label">Expected Ph.D. graduation</div>
+<div class="snapshot-label">Ph.D. completion year</div>
 :::
 :::
 
@@ -133,15 +133,15 @@ I work across forecasting, system modeling, optimization, and deployment: from q
 ::: {.card-list}
 ::: {.entry-card}
 #### Optimization and Decision Methods
-I study how predictive models and optimization procedures can be combined for better downstream decisions in practical settings.
+I study how predictive models and optimization procedures can be combined to support better downstream decisions in practical settings.
 :::
 ::: {.entry-card}
 #### Forecasting and Quantitative Modeling
-I combine forecasting, system modeling, domain-informed structure, and operator knowledge to build analytical methods that fit real operational settings.
+I combine forecasting, system modeling, domain-informed structure, and operator knowledge to build analytical methods for real operational settings.
 :::
 ::: {.entry-card}
 #### Reliable Implementation
-I design quantitative workflows with validation checks, reliability safeguards, and operator-facing interfaces for long-running real-world applications.
+I design quantitative workflows with validation checks, careful evaluation, and user-facing interfaces for long-running real-world applications.
 :::
 :::
 
@@ -164,18 +164,18 @@ DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
 
 For complete records, see [Publications](/publications/).
 
-## Selected Deployments
+## Representative Applications
 
 ::: {.card-list}
 ::: {.entry-card}
-#### Energy-System Efficiency Optimization
-Applied optimization workflow with stable long-run operation and measurable efficiency gains across multiple operating scenarios.
+#### Industrial Energy-Efficiency Optimization
+Applied quantitative methods for efficiency improvement in industrial operating environments.
 
 Details: [Projects](/projects/)
 :::
 ::: {.entry-card}
-#### Urban Operations Scheduling and Decision Support
-Forecast-optimize workflow for scheduling and service-level coordination in a real-world demonstration setting.
+#### Utility Scheduling and Monitoring Workflow
+Quantitative workflow for scheduling and service-level coordination in a real-world utility setting.
 
 Details: [Projects](/projects/)
 :::
@@ -194,7 +194,7 @@ More: [Service](/service/)
 :::
 ::: {.feature-card}
 #### News and Collaboration
-- Publication status updates and deployment milestones.
+- Publication status updates and application milestones.
 - Ongoing collaborations in optimization, modeling, and quantitative analysis.
 - Research contact and profile links for quick reach-out.
 
@@ -202,26 +202,9 @@ Browse: [News](/news/) and [Contact](/contact/)
 :::
 :::
 
-## Visitor Insights
-
-::: {.section-note}
-The module below shows total page views, unique visitors, current visitor region, and a 3D globe view.
-:::
-
-::: {.visitor-grid}
-<div class="visitor-stat"><span class="label">Page Views</span><span class="value" id="visitor-pv">--</span></div>
-<div class="visitor-stat"><span class="label">Unique Visitors</span><span class="value" id="visitor-uv">--</span></div>
-<div class="visitor-stat"><span class="label">Current Visitor Region</span><span class="value" id="visitor-geo">Detecting...</span></div>
-:::
-
-<div class="visitor-counter">
-<div class="visitor-globe" id="visitor-globe-home"></div>
-<p class="globe-note">3D globe shows the current visitor position and the research home base (Shanghai).</p>
-</div>
-
 ## Latest News
 
-- **2026-02**: Visual refresh with a softer interface style and 3D visitor globe.
+- **2026-02**: Website visual refresh and navigation update.
 - **2026-02**: Site migrated from legacy URL `shuanyuwu.github.io` to `shunyuwu-shaun.github.io`.
 - **2025-11**: IEEE Transactions on Smart Grid paper indexed with DOI.
 - **2025-08**: New manuscripts on optimization and quantitative decision methods entered active submission and review cycles.

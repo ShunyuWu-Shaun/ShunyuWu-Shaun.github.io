@@ -1,11 +1,11 @@
 ---
-title: "Energy-System Efficiency Optimization"
+title: "Industrial Energy-Efficiency Optimization"
 domain: "power"
 period: "2024-Present"
 role: "Project Lead"
-problem: "Improve operating efficiency under changing input quality and load swings while respecting process and equipment limits."
-method: "Constraint-aware optimization with adaptive feasible regions, data-assisted online recommendation, and staged validation workflow."
-outcome: "Efficiency improved across multiple operating scenarios with sustained long-run operation."
+problem: "Improve operating efficiency under changing input quality and operating conditions while respecting process and equipment limits."
+method: "Constraint-aware optimization with adaptive feasible regions, data-assisted recommendation, and staged validation workflow."
+outcome: "Measurable efficiency and operational improvements were observed in representative industrial settings."
 status: "deployed"
 confidentiality: "public-safe"
 selected: true
@@ -18,9 +18,9 @@ Public-safe evidence only: no acceptance pages with signatures, contract numbers
 
 ## Operational Context
 
-This deployment targets large-scale energy-conversion units under rapid load variation and changing operating conditions. The core requirement is to improve efficiency while respecting process boundaries.
+This application targets industrial energy systems under changing operating conditions. The core requirement is to improve efficiency while respecting process boundaries.
 
-- Typical deployment context: 330 MW / 660 MW unit environments.
+- Representative application context: validated in industrial operating environments.
 - Primary objective: improve operating efficiency while maintaining stable operation.
 - Constraints: process limits, equipment boundaries, and actuator operating ranges.
 
@@ -28,7 +28,7 @@ This deployment targets large-scale energy-conversion units under rapid load var
 
 <div class="project-figure-card">
 <img src="/assets/images/projects/power/thermal_process_overview.png" alt="Energy-system efficiency-loop main interface">
-<p>End-to-end efficiency-loop view integrating process state, key constraints, and actuator-side adjustments.</p>
+<p>Operational workflow view integrating process state, key constraints, and adjustment recommendations.</p>
 <p class="project-figure-caption-cn">中文图注：能效闭环总览界面，联动工况输入、锅炉状态与执行机构参数。</p>
 </div>
 
@@ -61,25 +61,12 @@ This deployment targets large-scale energy-conversion units under rapid load var
 
 ## Measured Impact
 
-<div class="project-figure-card">
-<img src="/assets/images/projects/power/thermal_result_table.png" alt="Result table comparing coal-consumption before and after deployment under multiple load conditions">
-<p>Before-vs-after result table across representative load scenarios.</p>
-<p class="project-figure-caption-cn">中文图注：多负荷工况下的投运前后结果对比表（示例）。</p>
-</div>
+- Measurable efficiency improvement was observed across representative operating scenarios.
+- Better diagnosis support was available through gap-analysis and trend interfaces.
+- Stable workflow behavior was maintained under varied operating conditions.
 
-::: {.project-evidence-table}
-| Scenario | Representative load | Reported coal-consumption change | Unit |
-|---|---:|---:|---:|
-| Continuous-operation example | ~50% load (~330 MW) | -1.2 | g/kWh |
-| Additional low-load cases | 20% / 40% load | -3 to -6 | g/kWh |
-:::
+## Application Notes
 
-- Measurable reduction in fuel-specific consumption under constrained operation.
-- Better diagnosis support for operators through gap-analysis and trend interfaces.
-- Stable deployment behavior under multi-condition operation.
-
-## Deployment Notes
-
-- Cross-site template reuse supported faster rollout in similar units.
+- Template reuse supported faster adaptation in similar environments.
 - Strategy release followed staged validation and review safeguards.
-- Reported values are scenario-based; exact gains vary by unit condition and dispatch profile.
+- Reported gains were scenario-dependent and varied with operating conditions.

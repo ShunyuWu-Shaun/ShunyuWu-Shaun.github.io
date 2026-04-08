@@ -67,15 +67,15 @@ IEEE Transactions on Computational Social Systems, 2023. DOI: [10.1109/TCSS.2023
 
 ## Ongoing Work (Submitted / Under Review / In Preparation)
 
-1. [Planning the Invisible: End-to-End Sensor Deployment Regret Minimization for Anomaly-Aware Water Networks](2026-aaai-sensor.qmd)  
+1. [Work on observation design and operational planning](2026-aaai-sensor.qmd)  
 Water Research, submitted (2026).
-2. [Learning as Energy Dissipation: Handling Inexact Surrogate Gradients in Decision-Focused Training](2025-neurips-proximal.qmd)  
+2. [Work on optimization with inexact surrogate gradients](2025-neurips-proximal.qmd)  
 IEEE/CAA Journal of Automatica Sinica, submitted (2025).
-3. [Crossing the Separation Point: Stabilizing Decision-Focused Training with Recursive Variational Free-Energy](2025-neurips-vfe.qmd)  
+3. [Work on stable training dynamics for quantitative decision methods](2025-neurips-vfe.qmd)  
 ICML, under review (2026).
-4. [FENCE: Feasibility-ENforced Constrained nEural Solver for End-to-End Constrained Optimization](2026-inprep-envelope.qmd)  
+4. [Work on feasibility-aware constrained optimization methods](2026-inprep-envelope.qmd)  
 ICML, under review (2026).
-5. [Beyond Objective Parameters: Parametric Dual-Gap Regret for Predict-then-Optimize under Unknown Constraint Parameters](2026-iclr-dual-gap.qmd)  
+5. [Work on constrained planning under unknown parameters](2026-iclr-dual-gap.qmd)  
 In preparation (2026).
 
 ## Collaborations (Selected Published / Proceedings)

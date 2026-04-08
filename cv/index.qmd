@@ -19,6 +19,6 @@ toc: false
 ## Quick Profile
 
 - Name: Shunyu Wu
-- Position: Ph.D. Candidate (expected graduation: Mar 2026)
+- Position: Ph.D. Candidate (expected graduation: 2026)
 - Program: Control Science and Engineering, Shanghai Jiao Tong University
 - Email: [shunyuwu@sjtu.edu.cn](mailto:shunyuwu@sjtu.edu.cn)

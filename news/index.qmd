@@ -1,6 +1,6 @@
 ---
 title: "News"
-description: "Research updates, publication milestones, and deployment progress."
+description: "Research updates, publication milestones, and application progress."
 toc: false
 ---
 
@@ -9,11 +9,11 @@ toc: false
 ::: {.card-list}
 ::: {.entry-card}
 #### 2026-02 | Website upgrade and migration
-The academic website moved to **shunyuwu-shaun.github.io** with structured publication pages and deployment-focused project summaries.
+The academic website moved to **shunyuwu-shaun.github.io** with structured publication pages and representative application summaries.
 :::
 ::: {.entry-card}
 #### 2025-11 | IEEE TSG paper officially indexed
-`End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling` is now online with DOI.
+A first-author journal article on resource scheduling and operational efficiency is now online with DOI.
 :::
 ::: {.entry-card}
 #### 2025-08 | New manuscripts entered active review
@@ -21,7 +21,7 @@ Manuscripts on optimization, forecasting, and quantitative decision methods ente
 :::
 ::: {.entry-card}
 #### 2025-05 | Applied workflow in long-run operation
-Field deployment continued with stable operation and measurable energy-efficiency gains.
+The application workflow continued in stable operation with measurable efficiency gains.
 :::
 :::
 
@@ -29,4 +29,4 @@ Field deployment continued with stable operation and measurable energy-efficienc
 
 - Publication status transitions (under review -> accepted -> published)
 - Service and collaboration milestones
-- Deployment milestones in power/water domains
+- Application milestones in energy and water domains

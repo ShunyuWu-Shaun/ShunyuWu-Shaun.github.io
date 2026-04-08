@@ -1,11 +1,11 @@
 ---
-title: "Urban Operations Scheduling and Decision Support"
+title: "Utility Scheduling and Monitoring Workflow"
 domain: "water"
 period: "2019-2024"
 role: "Algorithm Lead / Co-Algorithm Lead"
-problem: "Optimize scheduling and service-level compliance under demand uncertainty and noisy measurements in an operational data environment."
+problem: "Support scheduling and service-level compliance under demand uncertainty and noisy measurements in an operational data environment."
 method: "Forecasting and scheduling workflow with demand prediction, mathematical scheduling, configurable rule sets, and staged update support."
-outcome: "Peak energy reduced (~10%), pump switching reduced (~20%), and pressure compliance improved (~3%)."
+outcome: "Measurable efficiency and service-level improvements were observed in continuous operation."
 status: "deployed"
 confidentiality: "public-safe"
 selected: true
@@ -13,17 +13,17 @@ toc: false
 ---
 
 ::: {.project-safe-note}
-Public-safe evidence only: figures are selected from deployment and model outputs without sensitive operations records.
+Public-safe evidence only: figures are selected from project materials and model outputs without sensitive operations records.
 :::
 
-## System Context (One Plant + Two Stations)
+## Application Context
 
-The deployment focuses on a one-plant-two-stations urban service scenario where scheduling decisions must balance service quality, energy cost, and operational stability.
+The application focuses on a utility-service scenario where scheduling decisions must balance service quality, energy cost, and operational stability.
 
 <div class="project-figure-card">
-<img src="/assets/images/projects/water/water_demo_area_map.png" alt="Demonstration area map for one-plant-two-stations water dispatch">
-<p>Demonstration-area map for South City Water Plant with Fuxing and Renmin Square pumping stations.</p>
-<p class="project-figure-caption-cn">中文图注：黄浦示范区“一厂两站”供水区域示意图。</p>
+<img src="/assets/images/projects/water/water_demo_area_map.png" alt="Demonstration area map for representative utility-service scenario">
+<p>Demonstration-area map for a representative utility-service scenario.</p>
+<p class="project-figure-caption-cn">中文图注：示范区供水服务区域示意图。</p>
 </div>
 
 ## Model & Scheduling Framework
@@ -36,7 +36,7 @@ The deployment focuses on a one-plant-two-stations urban service scenario where 
 
 - Forecasting and scheduling workflow connecting demand and pressure estimation with operational decisions.
 - Constraint-aware scheduling with operator-configurable rule sets.
-- Deployment-ready integration with dashboard-based review and fallback strategy options.
+- Implementation-ready integration with dashboard-based review and fallback strategy options.
 
 ## Forecast Performance Evidence
 
@@ -64,15 +64,6 @@ The deployment focuses on a one-plant-two-stations urban service scenario where 
 
 ## Measured Impact
 
-::: {.project-evidence-table}
-| Metric | Reported change |
-|---|---:|
-| Peak energy consumption | ~10% reduction |
-| Pump switching frequency | ~20% reduction |
-| Pressure compliance | ~3% improvement |
-| Operational mode | 7x24 continuous dispatch |
-:::
-
-- Improved service-level stability with lower actuation burden.
-- Better operator interpretability through dashboard and scoring modules.
-- Reusable strategy templates for recurring operating patterns.
+- Measurable efficiency and service-level improvements were observed in continuous operation.
+- Better operator interpretability was supported through dashboard and scoring modules.
+- Reusable strategy templates supported recurring operating patterns.

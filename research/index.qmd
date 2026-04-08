@@ -1,11 +1,11 @@
 ---
 title: "Research"
-description: "Research agenda of Shunyu Wu: optimization, forecasting, quantitative modeling, and reliable implementation for large-scale operational systems."
+description: "Research agenda of Shunyu Wu: optimization, forecasting, quantitative modeling, and practical implementation for civil infrastructure and large-scale operational systems."
 ---
 
 ## Research Vision
 
-I study how **forecasting**, **optimization**, and **engineering constraints** can be combined into reliable quantitative workflows. The common thread is **data-informed decision making for large-scale operational systems**, with an emphasis on **forecasting**, **system modeling**, and practical implementation.
+I study how **forecasting**, **optimization**, and **engineering constraints** can be combined into reliable quantitative workflows. The common thread is **data-informed decision making for civil infrastructure and other large-scale operational systems**, with an emphasis on **forecasting**, **system modeling**, and practical implementation.
 
 ## Research Agenda
 
@@ -13,7 +13,7 @@ I study how **forecasting**, **optimization**, and **engineering constraints** c
 
 - Train predictive models against downstream operational objectives rather than proxy accuracy alone.
 - Diagnose and stabilize training when decision maps are nonsmooth or surrogate gradients are inexact.
-- Develop regret-aware objectives that better align learned representations with deployment outcomes.
+- Develop regret-aware objectives that better align learned representations with application outcomes.
 
 ### 2) Forecasting, Modeling, and Quantitative Analysis
 
@@ -25,22 +25,22 @@ I study how **forecasting**, **optimization**, and **engineering constraints** c
 
 - Design constrained optimization methods with explicit feasibility handling.
 - Integrate reliability mechanisms such as feasible-set tightening, staged validation, replay checks, and operator review.
-- Build reusable decision stacks for long-running operation in power and water systems.
+- Build reusable quantitative workflows for long-running operation in energy and water applications.
 
 ## Current Focus (2025-2026)
 
 - Quantitative methods for linking forecasting quality with downstream decisions.
 - Constrained optimization under unknown or learned constraints.
-- Operational planning workflows with deployable forecasting and optimization modules.
-- Measurement design, scheduling, and efficiency improvement with deployment feedback.
+- Operational planning workflows with practical forecasting and optimization modules.
+- Planning, scheduling, and efficiency improvement with application feedback.
 
 ## Domain Applications
 
-- **Energy-System Applications**: efficiency optimization under operational constraints.
-- **Urban Service Applications**: scheduling, planning, and resilient operations.
+- **Energy and Water Applications**: optimization, forecasting, and operational planning.
+- **Large-Scale Operational Systems**: quantitative methods for stable and interpretable workflows.
 
 ## Method and Tool Stack
 
 - **Modeling**: Python-based forecasting and quantitative modeling tools, uncertainty-aware estimation, and domain-informed modeling.
 - **Optimization**: LP/MILP, stochastic optimization, constrained optimization, and mathematical programming workflows.
-- **Implementation**: config-driven services, operational data integration, staged release pipelines, monitoring, documentation, and operator-facing review workflows.
+- **Implementation**: config-driven services, operational data integration, staged release pipelines, monitoring, documentation, and user-facing review workflows.

@@ -32,8 +32,6 @@ website:
         text: News
       - href: service/index.qmd
         text: Service
-      - href: cv/index.qmd
-        text: CV
       - href: contact/index.qmd
         text: Contact
     right:

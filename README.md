@@ -28,7 +28,6 @@ quarto render
 - `/research/index.qmd`
 - `/publications/index.qmd` + publication entry files in `/publications/*.qmd`
 - `/projects/index.qmd` + project files in `/projects/*.qmd`
-- `/cv/index.qmd`
 - `/service/index.qmd`
 - `/contact/index.qmd`
 

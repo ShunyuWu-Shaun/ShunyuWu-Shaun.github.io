@@ -83,7 +83,6 @@ I work across forecasting, system modeling, optimization, and practical implemen
 [Google Scholar](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao)
 [ORCID](https://orcid.org/0000-0001-9856-2148)
 [GitHub](https://github.com/ShunyuWu-Shaun)
-[Download CV](/cv/)
 :::
 
 ::: {.interest-chips}

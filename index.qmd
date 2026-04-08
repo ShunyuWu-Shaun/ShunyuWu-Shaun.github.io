@@ -1,14 +1,14 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
-subtitle: "Optimization, Forecasting, and Quantitative Modeling"
-description: "Ph.D. candidate at Shanghai Jiao Tong University working on optimization, forecasting, and quantitative modeling for civil infrastructure and operational applications."
+subtitle: "Forecasting, Modeling, and Applied Quantitative Analysis"
+description: "Ph.D. candidate at Shanghai Jiao Tong University working on forecasting, modeling, and applied quantitative analysis."
 keywords:
   - Shunyu Wu
   - shunyuwu
   - 吴舜禹
-  - Optimization
   - Forecasting
-  - Quantitative Modeling
+  - Modeling
+  - Quantitative Analysis
 toc: false
 page-layout: full
 ---
@@ -38,12 +38,11 @@ page-layout: full
         "https://www.researchgate.net/profile/Shunyu-Wu?ev=hdr_xprf"
       ],
       "knowsAbout": [
-        "Optimization",
         "Forecasting",
-        "Quantitative modeling",
-        "Operations research",
+        "System modeling",
+        "Quantitative analysis",
         "Applied mathematics",
-        "Civil infrastructure applications"
+        "Data analysis"
       ]
     },
     {
@@ -73,10 +72,10 @@ page-layout: full
 ::: {.hero-card .hero-main}
 ## About
 
-I am a Ph.D. candidate in **Control Science and Engineering** at **Shanghai Jiao Tong University**. My research focuses on **optimization**, **forecasting**, **quantitative modeling**, and **data-informed decision methods** for civil infrastructure and large-scale operational applications.
+I am a Ph.D. candidate at **Shanghai Jiao Tong University**. My work centers on **forecasting**, **system modeling**, **quantitative analysis**, and **data-informed studies** for applied problems.
 
 ::: {.hero-lead}
-I work across forecasting, system modeling, optimization, and practical implementation, with an emphasis on decision-support methods for energy and water applications.
+I work across data analysis, system modeling, and practical evaluation, with an emphasis on reliable and interpretable workflows for real-world studies.
 :::
 
 ::: {.hero-buttons}
@@ -86,12 +85,12 @@ I work across forecasting, system modeling, optimization, and practical implemen
 :::
 
 ::: {.interest-chips}
-<span class="interest-chip">Optimization</span>
 <span class="interest-chip">Forecasting</span>
-<span class="interest-chip">Quantitative Modeling</span>
-<span class="interest-chip">Decision Methods</span>
-<span class="interest-chip">Civil Infrastructure</span>
-<span class="interest-chip">Applied Methods</span>
+<span class="interest-chip">Modeling</span>
+<span class="interest-chip">Quantitative Analysis</span>
+<span class="interest-chip">Data Analysis</span>
+<span class="interest-chip">Applied Mathematics</span>
+<span class="interest-chip">Practical Studies</span>
 :::
 :::
 
@@ -101,7 +100,7 @@ I work across forecasting, system modeling, optimization, and practical implemen
 <div>
 <div class="profile-name">Shunyu Wu</div>
 <div class="profile-role">Ph.D. Candidate, Shanghai Jiao Tong University</div>
-<div class="profile-role">Optimization, forecasting, and quantitative methods for applied systems</div>
+<div class="profile-role">Forecasting, modeling, and quantitative analysis for applied studies</div>
 </div>
 :::
 :::
@@ -113,7 +112,7 @@ I work across forecasting, system modeling, optimization, and practical implemen
 :::
 ::: {.snapshot-item}
 <div class="snapshot-number">2</div>
-<div class="snapshot-label">Application domains</div>
+<div class="snapshot-label">Representative application areas</div>
 :::
 ::: {.snapshot-item}
 <div class="snapshot-number">14</div>
@@ -131,16 +130,16 @@ I work across forecasting, system modeling, optimization, and practical implemen
 
 ::: {.card-list}
 ::: {.entry-card}
-#### Optimization and Decision Methods
-I study how predictive models and optimization procedures can be combined to support better downstream decisions in practical settings.
+#### Quantitative Analysis and Evaluation
+I study how predictive models, empirical structure, and numerical procedures can be combined to support careful application-level evaluation.
 :::
 ::: {.entry-card}
-#### Forecasting and Quantitative Modeling
-I combine forecasting, system modeling, domain-informed structure, and operator knowledge to build analytical methods for real operational settings.
+#### Forecasting and Modeling
+I build forecasting and system-modeling workflows that integrate data, domain understanding, and interpretable analysis.
 :::
 ::: {.entry-card}
-#### Reliable Implementation
-I design quantitative workflows with validation checks, careful evaluation, and user-facing interfaces for long-running real-world applications.
+#### Reliable Applied Workflows
+I design reusable workflows with staged checks, careful validation, and clear interfaces for recurring real-world studies.
 :::
 :::
 
@@ -148,33 +147,33 @@ I design quantitative workflows with validation checks, careful evaluation, and 
 
 ::: {.card-list}
 ::: {.entry-card}
-#### Journal article on resource scheduling and operational efficiency (IEEE TSG, 2025)
+#### Journal article on resource planning and cost analysis (IEEE TSG, 2025)
 DOI: [10.1109/TSG.2025.3601238](https://doi.org/10.1109/TSG.2025.3601238)
 :::
 ::: {.entry-card}
-#### Journal article on urban demand forecasting (ESWA, 2024)
+#### Journal article on daily demand estimation and forecasting (ESWA, 2024)
 DOI: [10.1016/j.eswa.2024.124508](https://doi.org/10.1016/j.eswa.2024.124508)
 :::
 ::: {.entry-card}
-#### Journal article on pressure modeling and uncertainty handling (IEEE TCSS, 2023)
+#### Journal article on uncertainty-aware network state modeling (IEEE TCSS, 2023)
 DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
 :::
 :::
 
 For complete records, see [Publications](/publications/).
 
-## Representative Applications
+## Representative Applied Work
 
 ::: {.card-list}
 ::: {.entry-card}
-#### Industrial Energy-Efficiency Optimization
-Applied quantitative methods for efficiency improvement in industrial operating environments.
+#### Industrial Workflow Analysis
+Applied quantitative methods for efficiency review in representative industrial settings.
 
 Details: [Projects](/projects/)
 :::
 ::: {.entry-card}
-#### Utility Scheduling and Monitoring Workflow
-Quantitative workflow for scheduling and service-level coordination in a real-world utility setting.
+#### Service Operations Planning
+Applied quantitative workflow for planning and service-level coordination in a representative public-service setting.
 
 Details: [Projects](/projects/)
 :::
@@ -193,8 +192,8 @@ More: [Service](/service/)
 :::
 ::: {.feature-card}
 #### News and Collaboration
-- Publication status updates and application milestones.
-- Ongoing collaborations in optimization, modeling, and quantitative analysis.
+- Publication status updates and project milestones.
+- Ongoing collaborations in modeling, analysis, and applied studies.
 - Research contact and profile links for quick reach-out.
 
 Browse: [News](/news/) and [Contact](/contact/)
@@ -206,5 +205,5 @@ Browse: [News](/news/) and [Contact](/contact/)
 - **2026-02**: Website visual refresh and navigation update.
 - **2026-02**: Site migrated from legacy URL `shuanyuwu.github.io` to `shunyuwu-shaun.github.io`.
 - **2025-11**: IEEE Transactions on Smart Grid paper indexed with DOI.
-- **2025-08**: New manuscripts on optimization and quantitative decision methods entered active submission and review cycles.
-- **2025-05**: An applied optimization workflow entered long-run production operation.
+- **2025-08**: New manuscripts on forecasting, modeling, and quantitative analysis entered active review.
+- **2025-05**: An applied analysis workflow reached stable routine use.

@@ -1,46 +1,46 @@
 ---
 title: "Research"
-description: "Research agenda of Shunyu Wu: optimization, forecasting, quantitative modeling, and practical implementation for civil infrastructure and large-scale operational systems."
+description: "Research agenda of Shunyu Wu: forecasting, modeling, quantitative analysis, and reliable applied workflows."
 ---
 
 ## Research Vision
 
-I study how **forecasting**, **optimization**, and **engineering constraints** can be combined into reliable quantitative workflows. The common thread is **data-informed decision making for civil infrastructure and other large-scale operational systems**, with an emphasis on **forecasting**, **system modeling**, and practical implementation.
+I study how **forecasting**, **system modeling**, and **quantitative analysis** can be combined into reliable workflows for applied problems. The common thread is **data-informed analysis for large-scale real-world studies**, with an emphasis on interpretable modeling, careful evaluation, and practical use.
 
 ## Research Agenda
 
-### 1) Optimization and Quantitative Decision Methods
+### 1) Quantitative Analysis and Evaluation
 
-- Train predictive models against downstream operational objectives rather than proxy accuracy alone.
-- Diagnose and stabilize training when decision maps are nonsmooth or surrogate gradients are inexact.
-- Develop regret-aware objectives that better align learned representations with application outcomes.
+- Link predictive models with application-level evaluation rather than proxy metrics alone.
+- Study stability, calibration, and numerical behavior in complex analytical workflows.
+- Develop objectives that better reflect the goals of applied studies.
 
-### 2) Forecasting, Modeling, and Quantitative Analysis
+### 2) Forecasting, Modeling, and Statistical Analysis
 
-- Build forecasting and system-modeling modules that respect domain structure, process understanding, and operator knowledge.
-- Couple learned surrogates with operational data streams, engineering constraints, and practical rules.
-- Use predictive models inside scheduling workflows, not only as standalone estimators.
+- Build forecasting and analysis modules that respect domain structure, process understanding, and contextual knowledge.
+- Combine data sources, empirical rules, and practical constraints.
+- Use predictive models within planning and evaluation workflows, not only as standalone estimators.
 
-### 3) Reliable Implementation in Practice
+### 3) Reliable Applied Workflows
 
-- Design constrained optimization methods with explicit feasibility handling.
-- Integrate reliability mechanisms such as feasible-set tightening, staged validation, replay checks, and operator review.
-- Build reusable quantitative workflows for long-running operation in energy and water applications.
+- Design methods with explicit quality checks and feasibility safeguards.
+- Integrate staged validation, retrospective review, and clear documentation.
+- Build reusable workflows for recurring studies in service and industrial settings.
 
 ## Current Focus (2025-2026)
 
-- Quantitative methods for linking forecasting quality with downstream decisions.
-- Constrained optimization under unknown or learned constraints.
-- Operational planning workflows with practical forecasting and optimization modules.
-- Planning, scheduling, and efficiency improvement with application feedback.
+- Quantitative methods for linking predictive quality with downstream evaluation.
+- Methods under uncertainty and imperfect information.
+- Planning and efficiency analysis with application feedback.
+- Reusable workflows for recurring applied studies.
 
-## Domain Applications
+## Application Areas
 
-- **Energy and Water Applications**: optimization, forecasting, and operational planning.
-- **Large-Scale Operational Systems**: quantitative methods for stable and interpretable workflows.
+- **Service and Industrial Applications**: forecasting, analysis, and planning.
+- **Large-Scale Applied Systems**: reliable and interpretable quantitative workflows.
 
 ## Method and Tool Stack
 
-- **Modeling**: Python-based forecasting and quantitative modeling tools, uncertainty-aware estimation, and domain-informed modeling.
-- **Optimization**: LP/MILP, stochastic optimization, constrained optimization, and mathematical programming workflows.
-- **Implementation**: config-driven services, operational data integration, staged release pipelines, monitoring, documentation, and user-facing review workflows.
+- **Modeling**: forecasting, system identification, uncertainty-aware estimation, and domain-informed modeling.
+- **Quantitative Methods**: numerical methods, mathematical programming, and statistical analysis.
+- **Implementation**: reproducible pipelines, staged evaluation, documentation, and review-friendly interfaces.

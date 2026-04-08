@@ -1,47 +1,21 @@
 ---
 title: "Publications"
-description: "Published papers, ongoing work, and collaborations by Shunyu Wu across optimization, forecasting, and quantitative modeling."
+description: "Selected publications and ongoing work by Shunyu Wu, presented with concise topic descriptions and official record links."
 keywords:
   - Shunyu Wu publications
   - shunyuwu publications
   - 吴舜禹 论文
-  - optimization
   - forecasting
-  - quantitative modeling
+  - modeling
+  - quantitative analysis
 toc: false
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "ScholarlyArticle",
-      "name": "End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling",
-      "datePublished": "2025",
-      "url": "https://doi.org/10.1109/TSG.2025.3601238"
-    },
-    {
-      "@type": "ScholarlyArticle",
-      "name": "Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting",
-      "datePublished": "2024",
-      "url": "https://doi.org/10.1016/j.eswa.2024.124508"
-    },
-    {
-      "@type": "ScholarlyArticle",
-      "name": "CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems",
-      "datePublished": "2023",
-      "url": "https://doi.org/10.1109/TCSS.2023.3272330"
-    }
-  ]
-}
-</script>
-
 ::: {.section-note}
-This list is synchronized with the dissertation achievement section and public scholarly profiles. Status is explicitly separated into **Published**, **Current Manuscripts**, and **Collaborations** to avoid ambiguity.
+This page uses concise topic descriptions and links to official records on DOI, Google Scholar, ResearchGate, and ORCID.
 :::
 
-Recurring themes across these papers include **optimization**, **forecasting**, **system modeling**, and **quantitative decision methods**.
+Recurring themes across this work include **forecasting**, **modeling**, **quantitative analysis**, and **applied evaluation**.
 
 ## Citation Profiles
 
@@ -57,37 +31,37 @@ Recurring themes across these papers include **optimization**, **forecasting**, 
 
 ## Published (First-Author)
 
-1. [End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling](2025-tsg-water-energy.qmd)  
+1. Article on coupled resource planning and cost analysis.  
 IEEE Transactions on Smart Grid, 2025. DOI: [10.1109/TSG.2025.3601238](https://doi.org/10.1109/TSG.2025.3601238)
-2. [Knowledge-based Bi-correction Model for Lag-free Daily Urban Water Demand Forecasting](2024-eswa-water-demand.qmd)  
+2. Article on daily demand estimation and forecasting.  
 Expert Systems with Applications, 2024. DOI: [10.1016/j.eswa.2024.124508](https://doi.org/10.1016/j.eswa.2024.124508)
-3. [CritiCoder: End-to-End Uncertain Regression for Robust Macroscopic Pressure Models in WDN](2023-tcss-criticoder.qmd)  
+3. Article on uncertainty-aware network state modeling.  
 IEEE Transactions on Computational Social Systems, 2023. DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
 
 ## Ongoing Work (Submitted / Under Review / In Preparation)
 
-1. [Work on observation design and operational planning](2026-aaai-sensor.qmd)  
-Water Research, submitted (2026).
-2. [Work on optimization with inexact surrogate gradients](2025-neurips-proximal.qmd)  
-IEEE/CAA Journal of Automatica Sinica, submitted (2025).
-3. [Work on stable training dynamics for quantitative decision methods](2025-neurips-vfe.qmd)  
-ICML, under review (2026).
-4. [Work on feasibility-aware constrained optimization methods](2026-inprep-envelope.qmd)  
-ICML, under review (2026).
-5. [Work on constrained planning under unknown parameters](2026-iclr-dual-gap.qmd)  
-In preparation (2026).
+1. Study on observation design and planning under uncertainty.  
+Submitted, 2026.
+2. Study on numerical methods with approximate gradients.  
+Submitted, 2025.
+3. Study on stability in integrated model-to-decision pipelines.  
+Under review, 2026.
+4. Study on feasibility-aware constrained methods.  
+Under review, 2026.
+5. Study on planning under uncertain parameters.  
+In preparation, 2026.
 
 ## Collaborations (Selected Published / Proceedings)
 
-1. [Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method](2024-tsmc-rl-controller.qmd)  
+1. Article on learning-based methods for nonlinear systems.  
 IEEE TSMC: Systems, 2024. DOI: [10.1109/TSMC.2023.3344883](https://doi.org/10.1109/TSMC.2023.3344883)
-2. [Adaptive Dynamic Programming for Optimal Control of Discrete-Time Nonlinear Systems With Trajectory-Based Initial Control Policy](2024-tsmc-adp-trajectory.qmd)  
+2. Article on adaptive dynamic programming for nonlinear systems.  
 IEEE TSMC: Systems, 2024. DOI: [10.1109/TSMC.2023.3327450](https://doi.org/10.1109/TSMC.2023.3327450)
-3. [Prediction of Energy Consumption in Horizontal Roughing Process of Hot Rolling Strip Based on TDADE Algorithm](2023-tase-tdade.qmd)  
+3. Article on industrial energy-use prediction in rolling processes.  
 IEEE TASE, 2024. DOI: [10.1109/TASE.2023.3236306](https://doi.org/10.1109/TASE.2023.3236306)
-4. [A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling](2024-tase-series-concat.qmd)  
+4. Article on hybrid prediction for industrial process energy use.  
 IEEE TASE, 2024. DOI: [10.1109/TASE.2023.3299185](https://doi.org/10.1109/TASE.2023.3299185)
-5. [Adaptive Optimal Control of Nonlinear Systems with Multiple Time-Scale Eligibility Traces](2023-cdc-eligibility-traces.qmd)  
+5. Conference paper on time-scale methods for nonlinear systems.  
 CDC, 2023. DOI: [10.1109/CDC49753.2023.10383316](https://doi.org/10.1109/CDC49753.2023.10383316)
-6. [The CEEMDAN-ps-gcGRU Model on Water Pressure Prediction With Strong Irregularity](2023-ifac-gcgru.qmd)  
+6. Conference paper on irregular pressure-series forecasting.  
 IFAC-PapersOnLine, 2023. DOI: [10.1016/j.ifacol.2023.10.581](https://doi.org/10.1016/j.ifacol.2023.10.581)

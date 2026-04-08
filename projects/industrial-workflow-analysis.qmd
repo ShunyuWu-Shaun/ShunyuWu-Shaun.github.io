@@ -1,0 +1,72 @@
+---
+title: "Industrial Workflow Analysis"
+domain: "industrial"
+period: "2024-Present"
+role: "Project Lead"
+problem: "Improve process quality and efficiency under changing operating conditions while respecting routine boundaries."
+method: "Quantitative analysis with constraint handling, recommendation support, and staged validation."
+outcome: "Observable quality and efficiency improvements were reported in representative industrial settings."
+status: "deployed"
+confidentiality: "public-safe"
+selected: true
+toc: false
+---
+
+::: {.project-safe-note}
+Public-safe materials only: no acceptance pages with signatures, contract numbers, or handwritten records are shown.
+:::
+
+## Application Context
+
+This applied case focuses on an industrial process setting with changing operating conditions. The goal is to improve quality and efficiency while staying within routine operating boundaries.
+
+- Representative application context: evaluated in routine industrial environments.
+- Primary objective: improve process quality and efficiency while maintaining stable operation.
+- Constraints: process limits, equipment boundaries, and routine operating ranges.
+
+## Analytical Workflow
+
+<div class="project-figure-card">
+<img src="/assets/images/projects/industrial/overview.png" alt="Representative industrial-analysis interface">
+<p>Representative workflow view integrating process state, key indicators, and suggested adjustments.</p>
+<p class="project-figure-caption-cn">中文图注：工业场景分析总览界面，联动输入条件、状态信息与建议量。</p>
+</div>
+
+- Quantitative recommendation workflow for adjustment support.
+- Condition-adaptive safeguards for stable operation under uncertainty.
+- Data-assisted modules for lower-latency review.
+- Staged release workflow with replay-style validation.
+
+## Representative Interfaces
+
+::: {.project-figure-grid-3}
+<div class="project-figure-card">
+<img src="/assets/images/projects/industrial/diagnostic-summary.png" alt="Representative diagnostic analysis panel">
+<p>Diagnostic analysis view for comparing baseline and current operating conditions.</p>
+<p class="project-figure-caption-cn">中文图注：诊断分析界面，用于定位关键偏差项。</p>
+</div>
+
+<div class="project-figure-card">
+<img src="/assets/images/projects/industrial/strategy-panel.png" alt="Representative strategy panel">
+<p>Strategy panel for reviewing local states and adjustment opportunities.</p>
+<p class="project-figure-caption-cn">中文图注：策略界面，展示局部状态与建议动作。</p>
+</div>
+
+<div class="project-figure-card">
+<img src="/assets/images/projects/industrial/status-analysis.png" alt="Representative status-analysis panel">
+<p>Status-analysis interface for reviewing condition changes across the process.</p>
+<p class="project-figure-caption-cn">中文图注：状态分析界面，用于辅助例行评估与复核。</p>
+</div>
+:::
+
+## Observed Outcomes
+
+- Observable quality and efficiency improvement was reported across representative operating scenarios.
+- Better diagnosis support was available through summary analysis and trend views.
+- Stable workflow behavior was maintained under varied operating conditions.
+
+## Notes
+
+- Template reuse supported faster adaptation in similar environments.
+- Workflow release followed staged validation and review safeguards.
+- Reported gains varied with scenario and operating conditions.

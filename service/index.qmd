@@ -23,11 +23,11 @@ description: "Academic service, teaching, and mentoring activities."
 
 ## Collaboration Practice
 
-- Promote methodological clarity, reproducibility, and deployability.
-- Bridge research prototypes to production through acceptance tests, release checklists, and retrospective reviews.
+- Promote methodological clarity, reproducibility, and careful evaluation.
+- Bridge exploratory analysis to stable deliverables through review checklists and retrospective notes.
 
 ## Open-Science Habits
 
 - Keep publication status explicit (published vs. under review vs. in preparation).
 - Prefer DOI-linked records and traceable artifacts.
-- Maintain implementation-oriented documentation for reproducibility in real systems.
+- Maintain concise documentation for reproducibility and future reuse.

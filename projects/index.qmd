@@ -1,50 +1,50 @@
 ---
 title: "Projects"
-description: "Representative applications of quantitative methods in industrial and utility settings."
+description: "Representative applied workflows and project summaries."
 toc: false
 ---
 
 ::: {.project-safe-note}
-Only **public-safe** evidence is presented. Figures were curated from project materials and interfaces after removing sensitive materials (e.g., signatures, contract IDs, personal handwriting).
+Only **public-safe** materials are shown. Figures were selected after removing signatures, contract identifiers, personal handwriting, and other sensitive records.
 :::
 
-## Representative Applications
+## Representative Applied Work
 
 ::: {.project-hero-grid}
 <div class="project-figure-card">
-<img src="/assets/images/projects/power/thermal_process_overview.png" alt="Energy-system optimization interface overview">
-<p><strong>Industrial Energy:</strong> Operational interface for quantitative workflow support.</p>
-<p class="project-figure-caption-cn">中文图注：火电机组能效闭环主界面，展示关键工况、锅炉状态与执行量。</p>
+<img src="/assets/images/projects/industrial/overview.png" alt="Representative industrial-analysis interface">
+<p><strong>Industrial Setting:</strong> Representative interface for an applied analytical workflow.</p>
+<p class="project-figure-caption-cn">中文图注：工业场景分析主界面，展示关键状态、指标与建议量。</p>
 </div>
 
 <div class="project-figure-card">
-<img src="/assets/images/projects/water/water_dispatch_dashboard.png" alt="Urban operations scheduling dashboard in daily use">
-<p><strong>Utility Services:</strong> Scheduling dashboard in daily operation.</p>
-<p class="project-figure-caption-cn">中文图注：一厂两站智慧供水调度主界面，展示区域压力、指令执行与监测点状态。</p>
+<img src="/assets/images/projects/service/dashboard.png" alt="Representative service-operations dashboard">
+<p><strong>Service Setting:</strong> Representative dashboard for a planning and review workflow.</p>
+<p class="project-figure-caption-cn">中文图注：公共服务场景运行总览界面，展示区域状态、执行信息与例行评估。</p>
 </div>
 :::
 
 ::: {.project-metric-chips}
-<div class="project-metric-chip"><span class="k">Industrial Setting</span><span class="v">Validated in representative operating environments</span></div>
-<div class="project-metric-chip"><span class="k">Utility Setting</span><span class="v">Scheduling and monitoring workflow in continuous operation</span></div>
-<div class="project-metric-chip"><span class="k">Observed Outcome</span><span class="v">Measurable efficiency and operational improvements were observed</span></div>
-<div class="project-metric-chip"><span class="k">Evidence Type</span><span class="v">Representative interfaces, workflow diagrams, and result summaries</span></div>
+<div class="project-metric-chip"><span class="k">Representative Settings</span><span class="v">Applied studies in industrial and public-service environments</span></div>
+<div class="project-metric-chip"><span class="k">Observed Outcome</span><span class="v">Observable quality and efficiency improvements were reported</span></div>
+<div class="project-metric-chip"><span class="k">Material Type</span><span class="v">Representative interfaces, workflow diagrams, and result summaries</span></div>
+<div class="project-metric-chip"><span class="k">Review Mode</span><span class="v">Staged evaluation with summary-level reporting</span></div>
 :::
 
 ## Application Highlights
 
 ::: {.two-col-grid}
 ::: {.feature-card}
-#### Industrial Energy Application
-- Quantitative workflow support integrated into daily operation.
-- Validated in industrial operating environments with varying operating conditions.
-- Interface-level diagnostics used for review and staged validation.
+#### Industrial Workflow Analysis
+- Quantitative workflow support integrated into routine review.
+- Evaluated under varying operating conditions in representative settings.
+- Interface-level diagnostics used for summary review and staged checks.
 :::
 ::: {.feature-card}
-#### Utility Service Application
-- Scheduling and monitoring workflow in continuous operation.
-- Forecasting and scheduling framework with configurable workflow settings.
-- Dashboard-based review and evaluation for daily operations.
+#### Service Operations Planning
+- Planning and review workflow used in routine operation.
+- Forecasting and planning framework with configurable workflow settings.
+- Dashboard-based review and summary evaluation for recurring tasks.
 :::
 :::
 
@@ -52,22 +52,20 @@ Only **public-safe** evidence is presented. Figures were curated from project ma
 
 ::: {.card-list}
 ::: {.entry-card}
-#### [Industrial Energy-Efficiency Optimization](power-closed-loop-efficiency.qmd)
-- Domain: Energy
+#### [Industrial Workflow Analysis](industrial-workflow-analysis.qmd)
 - Role: Project Lead
-- Type: Representative application
+- Type: Representative applied case
 :::
 ::: {.entry-card}
-#### [Utility Scheduling and Monitoring Workflow](water-pump-scheduling.qmd)
-- Domain: Water
+#### [Service Operations Planning](service-operations-planning.qmd)
 - Role: Algorithm Lead
-- Type: Representative application
+- Type: Representative applied case
 :::
 :::
 
 ## Common Workflow Characteristics
 
-- Constraint-aware reliability first (feasible-set tightening + staged protection logic).
-- Decoupled modeling / evaluation / release architecture.
-- Configuration-driven release workflow with staged validation and replay checks.
-- User-facing observability (alerts, dashboards, and logs).
+- Quality checks and feasibility safeguards built in from the start.
+- Modular analysis / evaluation / release structure.
+- Configuration-driven workflow with staged review.
+- Clear interfaces and records for recurring use.

@@ -1,0 +1,14 @@
+---
+title: "Page Not Found"
+description: "This page is unavailable."
+toc: false
+page-layout: full
+---
+
+::: {.hero-card .hero-main style="max-width: 720px; margin: 12vh auto; text-align: center;"}
+## Page unavailable
+
+This page is currently unavailable.
+
+[Return to the homepage](/)
+:::

@@ -1,62 +1,42 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - index.qmd
+    - 404.qmd
   resources:
     - c7d4984f38601437316bea01e3143bfe.txt
     - google60c018834eaa5cb7.html
 
 website:
-  title: "Shunyu Wu"
+  title: "Temporarily Unavailable"
   site-url: "https://shunyuwu-shaun.github.io"
-  description: "Academic website of Shunyu Wu (吴舜禹), focusing on optimization, prediction, forecasting, and modeling."
+  description: "This website is temporarily unavailable."
   repo-url: "https://github.com/ShunyuWu-Shaun/ShunyuWu-Shaun.github.io"
   favicon: "assets/icon.svg"
   open-graph: true
   twitter-card: true
   page-navigation: true
-  search:
-    location: navbar
-    type: overlay
-  navbar:
-    pinned: true
-    left:
-      - href: index.qmd
-        text: Home
-      - href: research/index.qmd
-        text: Research
-      - href: publications/index.qmd
-        text: Publications
-      - href: projects/index.qmd
-        text: Projects
-      - href: news/index.qmd
-        text: News
-      - href: service/index.qmd
-        text: Service
-      - href: contact/index.qmd
-        text: Contact
-    right:
-      - text: Scholar
-        href: "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao"
-      - text: ORCID
-        href: "https://orcid.org/0000-0001-9856-2148"
-      - text: GitHub
-        href: "https://github.com/ShunyuWu-Shaun"
+  search: false
+  navbar: false
   page-footer:
-    border: true
-    left: "© 2026 Shunyu Wu"
-    right: "Built with Quarto · Updated monthly"
+    border: false
+    left: ""
+    right: ""
 
 format:
   html:
     theme: cosmo
     canonical-url: true
     css: styles.css
-    toc: true
-    toc-depth: 3
+    toc: false
     smooth-scroll: true
     link-external-newwindow: true
     link-external-icon: true
     code-copy: true
     code-overflow: wrap
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 
 lang: en

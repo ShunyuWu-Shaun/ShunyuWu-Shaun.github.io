@@ -1,14 +1,14 @@
 ---
 title: "Page Not Found"
-description: "This page is unavailable."
+description: "The requested page could not be found."
 toc: false
 page-layout: full
 ---
 
 ::: {.hero-card .hero-main style="max-width: 720px; margin: 12vh auto; text-align: center;"}
-## Page unavailable
+## Page not found
 
-This page is currently unavailable.
+The page you requested could not be found.
 
 [Return to the homepage](/)
 :::

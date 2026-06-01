@@ -7,6 +7,8 @@ description: "Research agenda of Shunyu Wu: optimization, prediction, forecastin
 
 I study how **optimization**, **prediction**, **forecasting**, and **system modeling** can be combined into reliable workflows for applied problems. The common thread is **careful modeling and evaluation for large-scale real-world studies**, with an emphasis on interpretable methods, practical use, and stable workflows.
 
+From 2026 onward, I will continue this line of work as an **incoming Postdoctoral Associate at Cornell University**, collaborating with **Prof. Fengqi You**.
+
 ## Research Agenda
 
 ### 1) Optimization and Prediction

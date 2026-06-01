@@ -8,6 +8,10 @@ toc: false
 
 ::: {.card-list}
 ::: {.entry-card}
+#### 2026-06 | Cornell postdoctoral appointment
+I will join **Cornell University** as an **incoming Postdoctoral Associate** and work with **Prof. Fengqi You**.
+:::
+::: {.entry-card}
 #### 2026-02 | Website upgrade and migration
 The academic website moved to **shunyuwu-shaun.github.io** with streamlined publication pages and representative project summaries.
 :::

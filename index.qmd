@@ -1,14 +1,218 @@
 ---
-title: "Temporarily Unavailable"
-description: "This website is temporarily unavailable."
+title: "Shunyu Wu (吴舜禹)"
+subtitle: "Optimization, Prediction, and Forecasting"
+description: "Ph.D. candidate at Shanghai Jiao Tong University and incoming Postdoctoral Associate at Cornell University."
+keywords:
+  - Shunyu Wu
+  - shunyuwu
+  - 吴舜禹
+  - Cornell University
+  - Fengqi You
+  - Optimization
+  - Prediction
+  - Forecasting
+  - Modeling
 toc: false
 page-layout: full
 ---
 
-::: {.hero-card .hero-main style="max-width: 720px; margin: 12vh auto; text-align: center;"}
-## Temporarily unavailable
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://shunyuwu-shaun.github.io/#person",
+      "name": "Shunyu Wu",
+      "alternateName": ["shunyuwu", "Shaun Wu", "吴舜禹"],
+      "givenName": "Shunyu",
+      "familyName": "Wu",
+      "url": "https://shunyuwu-shaun.github.io/",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Shanghai Jiao Tong University"
+      },
+      "jobTitle": "Ph.D. Candidate",
+      "description": "Incoming Postdoctoral Associate at Cornell University, where he will work with Prof. Fengqi You.",
+      "email": "mailto:shunyuwu@sjtu.edu.cn",
+      "sameAs": [
+        "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao",
+        "https://orcid.org/0000-0001-9856-2148",
+        "https://github.com/ShunyuWu-Shaun",
+        "https://www.researchgate.net/profile/Shunyu-Wu?ev=hdr_xprf"
+      ],
+      "knowsAbout": [
+        "Optimization",
+        "Prediction",
+        "Forecasting",
+        "System modeling",
+        "Applied mathematics"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://shunyuwu-shaun.github.io/#website",
+      "url": "https://shunyuwu-shaun.github.io/",
+      "name": "Shunyu Wu Academic Website",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://shunyuwu-shaun.github.io/#person"
+      }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://shunyuwu-shaun.github.io/#profile",
+      "url": "https://shunyuwu-shaun.github.io/",
+      "name": "Shunyu Wu Profile",
+      "mainEntity": {
+        "@id": "https://shunyuwu-shaun.github.io/#person"
+      }
+    }
+  ]
+}
+</script>
 
-This website is currently unavailable.
+::: {.hero-layout}
+::: {.hero-card .hero-main}
+## About
 
-Please check back later.
+I am a Ph.D. candidate at **Shanghai Jiao Tong University** and an **incoming Postdoctoral Associate at Cornell University**, where I will work with **Prof. Fengqi You**.
+
+::: {.hero-lead}
+My work centers on **optimization**, **prediction**, **forecasting**, and **system modeling** for applied problems, with an emphasis on reliable and interpretable workflows.
 :::
+
+::: {.hero-buttons}
+[Google Scholar](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao)
+[ORCID](https://orcid.org/0000-0001-9856-2148)
+[GitHub](https://github.com/ShunyuWu-Shaun)
+:::
+
+::: {.interest-chips}
+<span class="interest-chip">Optimization</span>
+<span class="interest-chip">Prediction</span>
+<span class="interest-chip">Forecasting</span>
+<span class="interest-chip">Modeling</span>
+<span class="interest-chip">Applied Mathematics</span>
+<span class="interest-chip">Applied Studies</span>
+:::
+:::
+
+::: {.profile-card}
+![](/assets/images/shunyu-wu-avatar.jpg){.profile-photo alt="Shunyu Wu profile photo"}
+
+<div>
+<div class="profile-name">Shunyu Wu</div>
+<div class="profile-role">Ph.D. Candidate, Shanghai Jiao Tong University</div>
+<div class="profile-role">Incoming Postdoctoral Associate, Cornell University</div>
+<div class="profile-role">Incoming collaboration with Prof. Fengqi You</div>
+</div>
+:::
+:::
+
+::: {.snapshot-grid}
+::: {.snapshot-item}
+<div class="snapshot-number">3+</div>
+<div class="snapshot-label">First-author publications</div>
+:::
+::: {.snapshot-item}
+<div class="snapshot-number">2</div>
+<div class="snapshot-label">Representative application areas</div>
+:::
+::: {.snapshot-item}
+<div class="snapshot-number">14</div>
+<div class="snapshot-label">Students co-mentored (1 Ph.D. + 13 M.Sc.)</div>
+:::
+::: {.snapshot-item}
+<div class="snapshot-number">2026</div>
+<div class="snapshot-label">Ph.D. completion year</div>
+:::
+::: {.snapshot-item}
+<div class="snapshot-number">Cornell</div>
+<div class="snapshot-label">Incoming postdoctoral appointment</div>
+:::
+:::
+
+<hr class="page-section-divider" />
+
+## Research Highlights
+
+::: {.card-list}
+::: {.entry-card}
+#### Optimization and Prediction
+I study how predictive models and optimization procedures can be combined to support careful application-level evaluation.
+:::
+::: {.entry-card}
+#### Forecasting and Modeling
+I build forecasting and modeling workflows that integrate domain understanding, practical constraints, and interpretable methods.
+:::
+::: {.entry-card}
+#### Reliable Applied Workflows
+I design reusable workflows with staged checks, careful validation, and clear interfaces for recurring real-world studies.
+:::
+:::
+
+## Selected Publications
+
+::: {.card-list}
+::: {.entry-card}
+#### Journal article on coupled resource planning (IEEE TSG, 2025)
+DOI: [10.1109/TSG.2025.3601238](https://doi.org/10.1109/TSG.2025.3601238)
+:::
+::: {.entry-card}
+#### Journal article on daily demand prediction and forecasting (ESWA, 2024)
+DOI: [10.1016/j.eswa.2024.124508](https://doi.org/10.1016/j.eswa.2024.124508)
+:::
+::: {.entry-card}
+#### Journal article on uncertainty-aware network state modeling (IEEE TCSS, 2023)
+DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
+:::
+:::
+
+For complete records, see [Publications](/publications/).
+
+## Representative Applied Work
+
+::: {.card-list}
+::: {.entry-card}
+#### Industrial Optimization Workflow
+Applied optimization and forecasting methods for efficiency review in representative industrial settings.
+
+Details: [Projects](/projects/)
+:::
+::: {.entry-card}
+#### Service Operations Planning
+Applied prediction and planning workflow for service-level coordination in a representative public-service setting.
+
+Details: [Projects](/projects/)
+:::
+:::
+
+## Common Academic Sections
+
+::: {.two-col-grid}
+::: {.feature-card}
+#### Academic Service
+- Conference reviewing: ICLR, AAAI, CDC, IFAC-related venues.
+- Journal reviewing: IEEE TSMC Systems, IEEE TASE, IEEE TIV.
+- Mentoring: 1 Ph.D. and 13 M.Sc. students co-mentored.
+
+More: [Service](/service/)
+:::
+::: {.feature-card}
+#### News and Collaboration
+- Incoming postdoctoral appointment at Cornell University.
+- Ongoing collaborations in optimization, modeling, and applied studies.
+- Research contact and profile links for quick reach-out.
+
+Browse: [News](/news/) and [Contact](/contact/)
+:::
+:::
+
+## Latest News
+
+- **2026-06**: Incoming Postdoctoral Associate at Cornell University; I will work with Prof. Fengqi You.
+- **2026-02**: Website visual refresh and navigation update.
+- **2026-02**: Site migrated from legacy URL `shuanyuwu.github.io` to `shunyuwu-shaun.github.io`.
+- **2025-11**: IEEE Transactions on Smart Grid paper indexed with DOI.
+- **2025-08**: New manuscripts on optimization, prediction, forecasting, and modeling entered active review.

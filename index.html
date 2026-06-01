@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="keywords" content="Shunyu Wu, shunyuwu, 吴舜禹, Cornell University, Fengqi You, Optimization, Prediction, Forecasting, Modeling">
+<meta name="description" content="Ph.D.&nbsp;candidate at Shanghai Jiao Tong University and incoming Postdoctoral Associate at Cornell University.">
+
+<title>Shunyu Wu (吴舜禹) – Shunyu Wu</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./assets/icon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-6e10cf8e4f062d96e3edf476a5fc09c2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
+
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Shunyu Wu (吴舜禹) – Shunyu Wu">
+<meta property="og:description" content="Ph.D.&nbsp;candidate at Shanghai Jiao Tong University and incoming Postdoctoral Associate at Cornell University.">
+<meta property="og:image" content="https://shunyuwu-shaun.github.io/assets/images/shunyu-wu-avatar.jpg">
+<meta property="og:site_name" content="Shunyu Wu">
+<meta property="og:image:alt" content="Shunyu Wu profile photo">
+<meta name="twitter:title" content="Shunyu Wu (吴舜禹) – Shunyu Wu">
+<meta name="twitter:description" content="Ph.D.&nbsp;candidate at Shanghai Jiao Tong University and incoming Postdoctoral Associate at Cornell University.">
+<meta name="twitter:image" content="https://shunyuwu-shaun.github.io/assets/images/shunyu-wu-avatar.jpg">
+<meta name="twitter:image:alt" content="Shunyu Wu profile photo">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://shunyuwu-shaun.github.io/">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Shunyu Wu</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research/index.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications/index.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news/index.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./service/index.html"> 
+<span class="menu-text">Service</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact/index.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=zh-CN&amp;oi=ao"> 
+<span class="menu-text">Scholar</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0001-9856-2148"> 
+<span class="menu-text">ORCID</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/ShunyuWu-Shaun"> 
+<span class="menu-text">GitHub</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Shunyu Wu (吴舜禹)</h1>
+<p class="subtitle lead">Optimization, Prediction, and Forecasting</p>
+</div>
+
+<div>
+  <div class="description">
+    Ph.D.&nbsp;candidate at Shanghai Jiao Tong University and incoming Postdoctoral Associate at Cornell University.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>Shunyu Wu, shunyuwu, 吴舜禹, Cornell University, Fengqi You, Optimization, Prediction, Forecasting, Modeling</p>
+  </div>
+</div>
+
+</header>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://shunyuwu-shaun.github.io/#person",
+      "name": "Shunyu Wu",
+      "alternateName": ["shunyuwu", "Shaun Wu", "吴舜禹"],
+      "givenName": "Shunyu",
+      "familyName": "Wu",
+      "url": "https://shunyuwu-shaun.github.io/",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Shanghai Jiao Tong University"
+      },
+      "jobTitle": "Ph.D. Candidate",
+      "description": "Incoming Postdoctoral Associate at Cornell University, where he will work with Prof. Fengqi You.",
+      "email": "mailto:shunyuwu@sjtu.edu.cn",
+      "sameAs": [
+        "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao",
+        "https://orcid.org/0000-0001-9856-2148",
+        "https://github.com/ShunyuWu-Shaun",
+        "https://www.researchgate.net/profile/Shunyu-Wu?ev=hdr_xprf"
+      ],
+      "knowsAbout": [
+        "Optimization",
+        "Prediction",
+        "Forecasting",
+        "System modeling",
+        "Applied mathematics"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://shunyuwu-shaun.github.io/#website",
+      "url": "https://shunyuwu-shaun.github.io/",
+      "name": "Shunyu Wu Academic Website",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://shunyuwu-shaun.github.io/#person"
+      }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://shunyuwu-shaun.github.io/#profile",
+      "url": "https://shunyuwu-shaun.github.io/",
+      "name": "Shunyu Wu Profile",
+      "mainEntity": {
+        "@id": "https://shunyuwu-shaun.github.io/#person"
+      }
+    }
+  ]
+}
+</script>
+<div class="hero-layout">
+<section id="about" class="level2 hero-card hero-main">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>I am a Ph.D.&nbsp;candidate at <strong>Shanghai Jiao Tong University</strong> and an <strong>incoming Postdoctoral Associate at Cornell University</strong>, where I will work with <strong>Prof.&nbsp;Fengqi You</strong>.</p>
+<div class="hero-lead">
+<p>My work centers on <strong>optimization</strong>, <strong>prediction</strong>, <strong>forecasting</strong>, and <strong>system modeling</strong> for applied problems, with an emphasis on reliable and interpretable workflows.</p>
+</div>
+<div class="hero-buttons">
+<p><a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=zh-CN&amp;oi=ao">Google Scholar</a> <a href="https://orcid.org/0000-0001-9856-2148">ORCID</a> <a href="https://github.com/ShunyuWu-Shaun">GitHub</a></p>
+</div>
+<div class="interest-chips">
+<p><span class="interest-chip">Optimization</span> <span class="interest-chip">Prediction</span> <span class="interest-chip">Forecasting</span> <span class="interest-chip">Modeling</span> <span class="interest-chip">Applied Mathematics</span> <span class="interest-chip">Applied Studies</span></p>
+</div>
+</section>
+<div class="profile-card">
+<p><img src="./assets/images/shunyu-wu-avatar.jpg" class="profile-photo img-fluid" alt="Shunyu Wu profile photo"></p>
+<div>
+<div class="profile-name">
+Shunyu Wu
+</div>
+<div class="profile-role">
+Ph.D.&nbsp;Candidate, Shanghai Jiao Tong University
+</div>
+<div class="profile-role">
+Incoming Postdoctoral Associate, Cornell University
+</div>
+<div class="profile-role">
+Incoming collaboration with Prof.&nbsp;Fengqi You
+</div>
+</div>
+</div>
+</div>
+<div class="snapshot-grid">
+<div class="snapshot-item">
+<div class="snapshot-number">
+3+
+</div>
+<div class="snapshot-label">
+First-author publications
+</div>
+</div>
+<div class="snapshot-item">
+<div class="snapshot-number">
+2
+</div>
+<div class="snapshot-label">
+Representative application areas
+</div>
+</div>
+<div class="snapshot-item">
+<div class="snapshot-number">
+14
+</div>
+<div class="snapshot-label">
+Students co-mentored (1 Ph.D.&nbsp;+ 13 M.Sc.)
+</div>
+</div>
+<div class="snapshot-item">
+<div class="snapshot-number">
+2026
+</div>
+<div class="snapshot-label">
+Ph.D.&nbsp;completion year
+</div>
+</div>
+<div class="snapshot-item">
+<div class="snapshot-number">
+Cornell
+</div>
+<div class="snapshot-label">
+Incoming postdoctoral appointment
+</div>
+</div>
+</div>
+<hr class="page-section-divider">
+<section id="research-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="research-highlights">Research Highlights</h2>
+<div class="card-list">
+<section id="optimization-and-prediction" class="level4 entry-card">
+<h4 class="anchored" data-anchor-id="optimization-and-prediction">Optimization and Prediction</h4>
+<p>I study how predictive models and optimization procedures can be combined to support careful application-level evaluation.</p>
+</section>
+<section id="forecasting-and-modeling" class="level4 entry-card">
+<h4 class="anchored" data-anchor-id="forecasting-and-modeling">Forecasting and Modeling</h4>
+<p>I build forecasting and modeling workflows that integrate domain understanding, practical constraints, and interpretable methods.</p>
+</section>
+<section id="reliable-applied-workflows" class="level4 entry-card">
+<h4 class="anchored" data-anchor-id="reliable-applied-workflows">Reliable Applied Workflows</h4>
+<p>I design reusable workflows with staged checks, careful validation, and clear interfaces for recurring real-world studies.</p>
+</section>
+</div>
+</section>
+<section id="selected-publications" class="level2">
+<h2 class="anchored" data-anchor-id="selected-publications">Selected Publications</h2>
+<div class="card-list">
+<section id="journal-article-on-coupled-resource-planning-ieee-tsg-2025" class="level4 entry-card">
+<h4 class="anchored" data-anchor-id="journal-article-on-coupled-resource-planning-ieee-tsg-2025">Journal article on coupled resource planning (IEEE TSG, 2025)</h4>
+<p>DOI: <a href="https://doi.org/10.1109/TSG.2025.3601238">10.1109/TSG.2025.3601238</a></p>
+</section>
+<section id="journal-article-on-daily-demand-prediction-and-forecasting-eswa-2024" class="level4 entry-card">
+<h4 class="anchored" data-anchor-id="journal-article-on-daily-demand-prediction-and-forecasting-eswa-2024">Journal article on daily demand prediction and forecasting (ESWA, 2024)</h4>
+<p>DOI: <a href="https://doi.org/10.1016/j.eswa.2024.124508">10.1016/j.eswa.2024.124508</a></p>
+</section>
+<section id="journal-article-on-uncertainty-aware-network-state-modeling-ieee-tcss-2023" class="level4 entry-card">
+<h4 class="anchored" data-anchor-id="journal-article-on-uncertainty-aware-network-state-modeling-ieee-tcss-2023">Journal article on uncertainty-aware network state modeling (IEEE TCSS, 2023)</h4>
+<p>DOI: <a href="https://doi.org/10.1109/TCSS.2023.3272330">10.1109/TCSS.2023.3272330</a></p>
+</section>
+</div>
+<p>For complete records, see <a href="./publications/">Publications</a>.</p>
+</section>
+<section id="representative-applied-work" class="level2">
+<h2 class="anchored" data-anchor-id="representative-applied-work">Representative Applied Work</h2>
+<div class="card-list">
+<section id="industrial-optimization-workflow" class="level4 entry-card">
+<h4 class="anchored" data-anchor-id="industrial-optimization-workflow">Industrial Optimization Workflow</h4>
+<p>Applied optimization and forecasting methods for efficiency review in representative industrial settings.</p>
+<p>Details: <a href="./projects/">Projects</a></p>
+</section>
+<section id="service-operations-planning" class="level4 entry-card">
+<h4 class="anchored" data-anchor-id="service-operations-planning">Service Operations Planning</h4>
+<p>Applied prediction and planning workflow for service-level coordination in a representative public-service setting.</p>
+<p>Details: <a href="./projects/">Projects</a></p>
+</section>
+</div>
+</section>
+<section id="common-academic-sections" class="level2">
+<h2 class="anchored" data-anchor-id="common-academic-sections">Common Academic Sections</h2>
+<div class="two-col-grid">
+<section id="academic-service" class="level4 feature-card">
+<h4 class="anchored" data-anchor-id="academic-service">Academic Service</h4>
+<ul>
+<li>Conference reviewing: ICLR, AAAI, CDC, IFAC-related venues.</li>
+<li>Journal reviewing: IEEE TSMC Systems, IEEE TASE, IEEE TIV.</li>
+<li>Mentoring: 1 Ph.D.&nbsp;and 13 M.Sc. students co-mentored.</li>
+</ul>
+<p>More: <a href="./service/">Service</a></p>
+</section>
+<section id="news-and-collaboration" class="level4 feature-card">
+<h4 class="anchored" data-anchor-id="news-and-collaboration">News and Collaboration</h4>
+<ul>
+<li>Incoming postdoctoral appointment at Cornell University.</li>
+<li>Ongoing collaborations in optimization, modeling, and applied studies.</li>
+<li>Research contact and profile links for quick reach-out.</li>
+</ul>
+<p>Browse: <a href="./news/">News</a> and <a href="./contact/">Contact</a></p>
+</section>
+</div>
+</section>
+<section id="latest-news" class="level2">
+<h2 class="anchored" data-anchor-id="latest-news">Latest News</h2>
+<ul>
+<li><strong>2026-06</strong>: Incoming Postdoctoral Associate at Cornell University; I will work with Prof.&nbsp;Fengqi You.</li>
+<li><strong>2026-02</strong>: Website visual refresh and navigation update.</li>
+<li><strong>2026-02</strong>: Site migrated from legacy URL <code>shuanyuwu.github.io</code> to <code>shunyuwu-shaun.github.io</code>.</li>
+<li><strong>2025-11</strong>: IEEE Transactions on Smart Grid paper indexed with DOI.</li>
+<li><strong>2025-08</strong>: New manuscripts on optimization, prediction, forecasting, and modeling entered active review.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/shunyuwu-shaun\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Shunyu Wu</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with Quarto · Updated monthly</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

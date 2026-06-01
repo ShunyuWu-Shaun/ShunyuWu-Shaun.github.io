@@ -1,0 +1,338 @@
+[
+  {
+    "objectID": "service/index.html",
+    "href": "service/index.html",
+    "title": "Service",
+    "section": "",
+    "text": "ICLR (2025, 2026 cycles)\nAAAI (2026 cycle)\nCDC (2024, 2025)\nIFAC-related venues (since 2023)\n\n\n\n\n\nSelected IEEE journals in systems, automation, and engineering applications"
+  },
+  {
+    "objectID": "service/index.html#reviewing",
+    "href": "service/index.html#reviewing",
+    "title": "Service",
+    "section": "",
+    "text": "ICLR (2025, 2026 cycles)\nAAAI (2026 cycle)\nCDC (2024, 2025)\nIFAC-related venues (since 2023)\n\n\n\n\n\nSelected IEEE journals in systems, automation, and engineering applications"
+  },
+  {
+    "objectID": "service/index.html#teaching-and-mentoring",
+    "href": "service/index.html#teaching-and-mentoring",
+    "title": "Service",
+    "section": "Teaching and Mentoring",
+    "text": "Teaching and Mentoring\n\nTeaching Assistant for a graduate engineering course (2023-2024): lectures, assignments, recitations.\nCo-mentoring support: 1 Ph.D. and 13 M.Sc. students (topic framing, reproducible pipelines, and engineering replication)."
+  },
+  {
+    "objectID": "service/index.html#collaboration-practice",
+    "href": "service/index.html#collaboration-practice",
+    "title": "Service",
+    "section": "Collaboration Practice",
+    "text": "Collaboration Practice\n\nPromote methodological clarity, reproducibility, and careful evaluation.\nBridge exploratory work to stable deliverables through review checklists and retrospective notes."
+  },
+  {
+    "objectID": "service/index.html#open-science-habits",
+    "href": "service/index.html#open-science-habits",
+    "title": "Service",
+    "section": "Open-Science Habits",
+    "text": "Open-Science Habits\n\nKeep publication status explicit (published vs. under review vs. in preparation).\nPrefer DOI-linked records and traceable artifacts.\nMaintain concise documentation for reproducibility and future reuse."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Shunyu Wu (吴舜禹)",
+    "section": "",
+    "text": "I am a Ph.D. candidate at Shanghai Jiao Tong University and an incoming Postdoctoral Associate at Cornell University, where I will work with Prof. Fengqi You.\n\nMy work centers on optimization, prediction, forecasting, and system modeling for applied problems, with an emphasis on reliable and interpretable workflows.\n\n\nGoogle Scholar ORCID GitHub\n\n\nOptimization Prediction Forecasting Modeling Applied Mathematics Applied Studies\n\n\n\n\n\n\nShunyu Wu\n\n\nPh.D. Candidate, Shanghai Jiao Tong University\n\n\nIncoming Postdoctoral Associate, Cornell University\n\n\nIncoming collaboration with Prof. Fengqi You"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Shunyu Wu (吴舜禹)",
+    "section": "",
+    "text": "I am a Ph.D. candidate at Shanghai Jiao Tong University and an incoming Postdoctoral Associate at Cornell University, where I will work with Prof. Fengqi You.\n\nMy work centers on optimization, prediction, forecasting, and system modeling for applied problems, with an emphasis on reliable and interpretable workflows.\n\n\nGoogle Scholar ORCID GitHub\n\n\nOptimization Prediction Forecasting Modeling Applied Mathematics Applied Studies"
+  },
+  {
+    "objectID": "index.html#research-highlights",
+    "href": "index.html#research-highlights",
+    "title": "Shunyu Wu (吴舜禹)",
+    "section": "Research Highlights",
+    "text": "Research Highlights\n\n\nOptimization and Prediction\nI study how predictive models and optimization procedures can be combined to support careful application-level evaluation.\n\n\nForecasting and Modeling\nI build forecasting and modeling workflows that integrate domain understanding, practical constraints, and interpretable methods.\n\n\nReliable Applied Workflows\nI design reusable workflows with staged checks, careful validation, and clear interfaces for recurring real-world studies."
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Shunyu Wu (吴舜禹)",
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\n\nJournal article on coupled resource planning (IEEE TSG, 2025)\nDOI: 10.1109/TSG.2025.3601238\n\n\nJournal article on daily demand prediction and forecasting (ESWA, 2024)\nDOI: 10.1016/j.eswa.2024.124508\n\n\nJournal article on uncertainty-aware network state modeling (IEEE TCSS, 2023)\nDOI: 10.1109/TCSS.2023.3272330\n\n\nFor complete records, see Publications."
+  },
+  {
+    "objectID": "index.html#representative-applied-work",
+    "href": "index.html#representative-applied-work",
+    "title": "Shunyu Wu (吴舜禹)",
+    "section": "Representative Applied Work",
+    "text": "Representative Applied Work\n\n\nIndustrial Optimization Workflow\nApplied optimization and forecasting methods for efficiency review in representative industrial settings.\nDetails: Projects\n\n\nService Operations Planning\nApplied prediction and planning workflow for service-level coordination in a representative public-service setting.\nDetails: Projects"
+  },
+  {
+    "objectID": "index.html#common-academic-sections",
+    "href": "index.html#common-academic-sections",
+    "title": "Shunyu Wu (吴舜禹)",
+    "section": "Common Academic Sections",
+    "text": "Common Academic Sections\n\n\nAcademic Service\n\nConference reviewing: ICLR, AAAI, CDC, IFAC-related venues.\nJournal reviewing: IEEE TSMC Systems, IEEE TASE, IEEE TIV.\nMentoring: 1 Ph.D. and 13 M.Sc. students co-mentored.\n\nMore: Service\n\n\nNews and Collaboration\n\nIncoming postdoctoral appointment at Cornell University.\nOngoing collaborations in optimization, modeling, and applied studies.\nResearch contact and profile links for quick reach-out.\n\nBrowse: News and Contact"
+  },
+  {
+    "objectID": "index.html#latest-news",
+    "href": "index.html#latest-news",
+    "title": "Shunyu Wu (吴舜禹)",
+    "section": "Latest News",
+    "text": "Latest News\n\n2026-06: Incoming Postdoctoral Associate at Cornell University; I will work with Prof. Fengqi You.\n2026-02: Website visual refresh and navigation update.\n2026-02: Site migrated from legacy URL shuanyuwu.github.io to shunyuwu-shaun.github.io.\n2025-11: IEEE Transactions on Smart Grid paper indexed with DOI.\n2025-08: New manuscripts on optimization, prediction, forecasting, and modeling entered active review."
+  },
+  {
+    "objectID": "projects/service-operations-planning.html",
+    "href": "projects/service-operations-planning.html",
+    "title": "Service Operations Planning",
+    "section": "",
+    "text": "Public-safe materials only: figures are selected from project materials and model outputs without sensitive operations records."
+  },
+  {
+    "objectID": "projects/service-operations-planning.html#application-context",
+    "href": "projects/service-operations-planning.html#application-context",
+    "title": "Service Operations Planning",
+    "section": "Application Context",
+    "text": "Application Context\nThis applied case focuses on a public-service scenario where planning decisions must balance service quality, resource cost, and operational stability.\n\n\n\nRepresentative service-area map for a public-service planning scenario.\n\n\n中文图注：公共服务场景的示范区域示意图。"
+  },
+  {
+    "objectID": "projects/service-operations-planning.html#workflow-overview",
+    "href": "projects/service-operations-planning.html#workflow-overview",
+    "title": "Service Operations Planning",
+    "section": "Workflow Overview",
+    "text": "Workflow Overview\n\n\n\nWorkflow from multi-source inputs and event triggers to plan generation.\n\n\n中文图注：多源输入、事件触发与方案生成的方法框架。\n\n\n\nPrediction and planning workflow connecting demand forecasting and routine decisions.\nRule-aware planning with configurable settings.\nIntegration with dashboard-based review and fallback options."
+  },
+  {
+    "objectID": "projects/service-operations-planning.html#forecasting-example",
+    "href": "projects/service-operations-planning.html#forecasting-example",
+    "title": "Service Operations Planning",
+    "section": "Forecasting Example",
+    "text": "Forecasting Example\n\n\n\nForecasting example with low MAPE across the full study period.\n\n\n中文图注：全时段预测示例图，图中保留 MAPE 指标作为结果摘要。"
+  },
+  {
+    "objectID": "projects/service-operations-planning.html#review-interfaces",
+    "href": "projects/service-operations-planning.html#review-interfaces",
+    "title": "Service Operations Planning",
+    "section": "Review Interfaces",
+    "text": "Review Interfaces\n\n\n\n\nDashboard for routine planning status, area map, and execution review.\n\n\n中文图注：运行总览界面，包含区域状态分布与例行记录。\n\n\n\n\n\nEvaluation panel supporting routine review of plan quality and summary indicators.\n\n\n中文图注：评估界面，用于查看方案质量与汇总指标。"
+  },
+  {
+    "objectID": "projects/service-operations-planning.html#observed-outcomes",
+    "href": "projects/service-operations-planning.html#observed-outcomes",
+    "title": "Service Operations Planning",
+    "section": "Observed Outcomes",
+    "text": "Observed Outcomes\n\nObservable quality and efficiency improvements were reported in routine use.\nBetter interpretability was supported through dashboard and evaluation modules.\nReusable templates supported recurring operating patterns."
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "This page uses concise topic descriptions and links to official records on DOI, Google Scholar, ResearchGate, and ORCID.\nRecurring themes across this work include optimization, prediction, forecasting, and modeling."
+  },
+  {
+    "objectID": "publications/index.html#citation-profiles",
+    "href": "publications/index.html#citation-profiles",
+    "title": "Publications",
+    "section": "Citation Profiles",
+    "text": "Citation Profiles\n\nGoogle Scholar: Shunyu Wu profile\nResearchGate: Shunyu Wu profile\nORCID record: 0000-0001-9856-2148"
+  },
+  {
+    "objectID": "publications/index.html#at-a-glance",
+    "href": "publications/index.html#at-a-glance",
+    "title": "Publications",
+    "section": "At a Glance",
+    "text": "At a Glance\n\n3 first-author published journal papers\n5 first-author manuscripts in submitted, under-review, or in-preparation stages\n6 selected collaboration papers across journals and conference proceedings"
+  },
+  {
+    "objectID": "publications/index.html#published-first-author",
+    "href": "publications/index.html#published-first-author",
+    "title": "Publications",
+    "section": "Published (First-Author)",
+    "text": "Published (First-Author)\n\nArticle on coupled resource planning and optimization.\nIEEE Transactions on Smart Grid, 2025. DOI: 10.1109/TSG.2025.3601238\nArticle on daily demand prediction and forecasting.\nExpert Systems with Applications, 2024. DOI: 10.1016/j.eswa.2024.124508\nArticle on uncertainty-aware network state modeling.\nIEEE Transactions on Computational Social Systems, 2023. DOI: 10.1109/TCSS.2023.3272330"
+  },
+  {
+    "objectID": "publications/index.html#ongoing-work-submitted-under-review-in-preparation",
+    "href": "publications/index.html#ongoing-work-submitted-under-review-in-preparation",
+    "title": "Publications",
+    "section": "Ongoing Work (Submitted / Under Review / In Preparation)",
+    "text": "Ongoing Work (Submitted / Under Review / In Preparation)\n\nStudy on planning under uncertainty.\nSubmitted, 2026.\nStudy on optimization with approximate gradients.\nSubmitted, 2025.\nStudy on stable optimization pipelines.\nUnder review, 2026.\nStudy on feasibility-aware constrained methods.\nUnder review, 2026.\nStudy on planning under uncertain parameters.\nIn preparation, 2026."
+  },
+  {
+    "objectID": "publications/index.html#collaborations-selected-published-proceedings",
+    "href": "publications/index.html#collaborations-selected-published-proceedings",
+    "title": "Publications",
+    "section": "Collaborations (Selected Published / Proceedings)",
+    "text": "Collaborations (Selected Published / Proceedings)\n\nArticle on iterative methods for nonlinear systems.\nIEEE TSMC: Systems, 2024. DOI: 10.1109/TSMC.2023.3344883\nArticle on adaptive dynamic programming for nonlinear systems.\nIEEE TSMC: Systems, 2024. DOI: 10.1109/TSMC.2023.3327450\nArticle on industrial process prediction.\nIEEE TASE, 2024. DOI: 10.1109/TASE.2023.3236306\nArticle on hybrid prediction for industrial processes.\nIEEE TASE, 2024. DOI: 10.1109/TASE.2023.3299185\nConference paper on time-scale methods for nonlinear systems.\nCDC, 2023. DOI: 10.1109/CDC49753.2023.10383316\nConference paper on irregular forecasting.\nIFAC-PapersOnLine, 2023. DOI: 10.1016/j.ifacol.2023.10.581"
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "Contact",
+    "section": "",
+    "text": "For collaboration, seminar invitations, or research discussions, email is the preferred channel."
+  },
+  {
+    "objectID": "contact/index.html#contact",
+    "href": "contact/index.html#contact",
+    "title": "Contact",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: shunyuwu@sjtu.edu.cn\nName variants: Shunyu Wu | shunyuwu | 吴舜禹\nGoogle Scholar: profile\nResearchGate: profile\nORCID: 0000-0001-9856-2148\nGitHub: ShunyuWu-Shaun"
+  },
+  {
+    "objectID": "contact/index.html#affiliation",
+    "href": "contact/index.html#affiliation",
+    "title": "Contact",
+    "section": "Affiliation",
+    "text": "Affiliation\n\nShanghai Jiao Tong University\nIncoming Postdoctoral Associate, Cornell University\nIncoming collaboration with Prof. Fengqi You"
+  },
+  {
+    "objectID": "contact/index.html#privacy-notice",
+    "href": "contact/index.html#privacy-notice",
+    "title": "Contact",
+    "section": "Privacy Notice",
+    "text": "Privacy Notice\nThis website intentionally omits sensitive personal information (phone number, date of birth, ID, and home address)."
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "I study how optimization, prediction, forecasting, and system modeling can be combined into reliable workflows for applied problems. The common thread is careful modeling and evaluation for large-scale real-world studies, with an emphasis on interpretable methods, practical use, and stable workflows.\nFrom 2026 onward, I will continue this line of work as an incoming Postdoctoral Associate at Cornell University, collaborating with Prof. Fengqi You."
+  },
+  {
+    "objectID": "research/index.html#research-vision",
+    "href": "research/index.html#research-vision",
+    "title": "Research",
+    "section": "",
+    "text": "I study how optimization, prediction, forecasting, and system modeling can be combined into reliable workflows for applied problems. The common thread is careful modeling and evaluation for large-scale real-world studies, with an emphasis on interpretable methods, practical use, and stable workflows.\nFrom 2026 onward, I will continue this line of work as an incoming Postdoctoral Associate at Cornell University, collaborating with Prof. Fengqi You."
+  },
+  {
+    "objectID": "research/index.html#research-agenda",
+    "href": "research/index.html#research-agenda",
+    "title": "Research",
+    "section": "Research Agenda",
+    "text": "Research Agenda\n\n1) Optimization and Prediction\n\nLink predictive models with application-level evaluation rather than proxy metrics alone.\nStudy stability and numerical behavior in complex workflows.\nDevelop formulations that better reflect the goals of applied studies.\n\n\n\n2) Forecasting and Modeling\n\nBuild forecasting and modeling modules that respect domain structure, process understanding, and contextual knowledge.\nCombine domain knowledge, practical rules, and routine constraints.\nUse predictive models within planning and evaluation workflows, not only as standalone estimators.\n\n\n\n3) Reliable Applied Workflows\n\nDesign methods with explicit quality checks and feasibility safeguards.\nIntegrate staged validation, retrospective review, and clear documentation.\nBuild reusable workflows for recurring studies in service and industrial settings."
+  },
+  {
+    "objectID": "research/index.html#current-focus-2025-2026",
+    "href": "research/index.html#current-focus-2025-2026",
+    "title": "Research",
+    "section": "Current Focus (2025-2026)",
+    "text": "Current Focus (2025-2026)\n\nOptimization and prediction for downstream evaluation.\nForecasting and modeling under uncertainty and imperfect information.\nPlanning and efficiency improvement with application feedback.\nReusable workflows for recurring applied studies."
+  },
+  {
+    "objectID": "research/index.html#application-areas",
+    "href": "research/index.html#application-areas",
+    "title": "Research",
+    "section": "Application Areas",
+    "text": "Application Areas\n\nService and Industrial Applications: prediction, forecasting, and planning.\nLarge-Scale Applied Systems: reliable and interpretable forecasting and planning workflows."
+  },
+  {
+    "objectID": "research/index.html#method-and-tool-stack",
+    "href": "research/index.html#method-and-tool-stack",
+    "title": "Research",
+    "section": "Method and Tool Stack",
+    "text": "Method and Tool Stack\n\nModeling: forecasting, prediction, system identification, and uncertainty-aware modeling.\nMethods: optimization, mathematical programming, and statistical methods.\nImplementation: reproducible pipelines, staged evaluation, documentation, and review-friendly interfaces."
+  },
+  {
+    "objectID": "projects/industrial-workflow-analysis.html",
+    "href": "projects/industrial-workflow-analysis.html",
+    "title": "Industrial Optimization Workflow",
+    "section": "",
+    "text": "Public-safe materials only: no acceptance pages with signatures, contract numbers, or handwritten records are shown."
+  },
+  {
+    "objectID": "projects/industrial-workflow-analysis.html#application-context",
+    "href": "projects/industrial-workflow-analysis.html#application-context",
+    "title": "Industrial Optimization Workflow",
+    "section": "Application Context",
+    "text": "Application Context\nThis applied case focuses on an industrial process setting with changing operating conditions. The goal is to improve quality and efficiency while staying within routine operating boundaries.\n\nRepresentative application context: evaluated in routine industrial environments.\nPrimary objective: improve process quality and efficiency while maintaining stable operation.\nConstraints: process limits, equipment boundaries, and routine operating ranges."
+  },
+  {
+    "objectID": "projects/industrial-workflow-analysis.html#workflow-overview",
+    "href": "projects/industrial-workflow-analysis.html#workflow-overview",
+    "title": "Industrial Optimization Workflow",
+    "section": "Workflow Overview",
+    "text": "Workflow Overview\n\n\n\nRepresentative workflow view integrating process state, key indicators, and suggested adjustments.\n\n\n中文图注：工业场景分析总览界面，联动输入条件、状态信息与建议量。\n\n\n\nOptimization workflow for adjustment support.\nCondition-adaptive safeguards for stable operation under uncertainty.\nFast recommendation modules for lower-latency review.\nStaged release workflow with replay-style validation."
+  },
+  {
+    "objectID": "projects/industrial-workflow-analysis.html#representative-interfaces",
+    "href": "projects/industrial-workflow-analysis.html#representative-interfaces",
+    "title": "Industrial Optimization Workflow",
+    "section": "Representative Interfaces",
+    "text": "Representative Interfaces\n\n\n\n\nDiagnostic summary view for comparing baseline and current operating conditions.\n\n\n中文图注：诊断分析界面，用于定位关键偏差项。\n\n\n\n\n\nStrategy panel for reviewing local states and adjustment opportunities.\n\n\n中文图注：策略界面，展示局部状态与建议动作。\n\n\n\n\n\nStatus-summary interface for reviewing condition changes across the process.\n\n\n中文图注：状态分析界面，用于辅助例行评估与复核。"
+  },
+  {
+    "objectID": "projects/industrial-workflow-analysis.html#observed-outcomes",
+    "href": "projects/industrial-workflow-analysis.html#observed-outcomes",
+    "title": "Industrial Optimization Workflow",
+    "section": "Observed Outcomes",
+    "text": "Observed Outcomes\n\nObservable quality and efficiency improvement was reported across representative operating scenarios.\nBetter diagnosis support was available through summary and trend views.\nStable workflow behavior was maintained under varied operating conditions."
+  },
+  {
+    "objectID": "projects/industrial-workflow-analysis.html#notes",
+    "href": "projects/industrial-workflow-analysis.html#notes",
+    "title": "Industrial Optimization Workflow",
+    "section": "Notes",
+    "text": "Notes\n\nTemplate reuse supported faster adaptation in similar environments.\nWorkflow release followed staged validation and review safeguards.\nReported gains varied with scenario and operating conditions."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Only public-safe materials are shown. Figures were selected after removing signatures, contract identifiers, personal handwriting, and other sensitive records."
+  },
+  {
+    "objectID": "projects/index.html#representative-applied-work",
+    "href": "projects/index.html#representative-applied-work",
+    "title": "Projects",
+    "section": "Representative Applied Work",
+    "text": "Representative Applied Work\n\n\n\n\nIndustrial Setting: Representative interface for optimization and forecasting support.\n\n\n中文图注：工业场景分析主界面，展示关键状态、指标与建议量。\n\n\n\n\n\nService Setting: Representative dashboard for a planning and review workflow.\n\n\n中文图注：公共服务场景运行总览界面，展示区域状态、执行信息与例行评估。\n\n\n\n\n\nRepresentative SettingsApplied studies in industrial and public-service environments\n\n\nObserved OutcomeObservable quality and efficiency improvements were reported\n\n\nMaterial TypeRepresentative interfaces, workflow diagrams, and result summaries\n\n\nReview ModeStaged evaluation with summary-level reporting"
+  },
+  {
+    "objectID": "projects/index.html#application-highlights",
+    "href": "projects/index.html#application-highlights",
+    "title": "Projects",
+    "section": "Application Highlights",
+    "text": "Application Highlights\n\n\nIndustrial Optimization Workflow\n\nOptimization and forecasting support integrated into routine review.\nEvaluated under varying operating conditions in representative settings.\nInterface-level diagnostics used for summary review and staged checks.\n\n\n\nService Operations Planning\n\nPlanning and review workflow used in routine operation.\nForecasting and planning framework with configurable workflow settings.\nDashboard-based review and summary evaluation for recurring tasks."
+  },
+  {
+    "objectID": "projects/index.html#selected-applications",
+    "href": "projects/index.html#selected-applications",
+    "title": "Projects",
+    "section": "Selected Applications",
+    "text": "Selected Applications\n\n\nIndustrial Workflow Analysis\n\nRole: Project Lead\nType: Representative applied case\n\n\n\nService Operations Planning\n\nRole: Algorithm Lead\nType: Representative applied case"
+  },
+  {
+    "objectID": "projects/index.html#common-workflow-characteristics",
+    "href": "projects/index.html#common-workflow-characteristics",
+    "title": "Projects",
+    "section": "Common Workflow Characteristics",
+    "text": "Common Workflow Characteristics\n\nQuality checks and feasibility safeguards built in from the start.\nModular prediction / evaluation / release structure.\nConfiguration-driven workflow with staged review.\nClear interfaces and records for recurring use."
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "I will join Cornell University as an incoming Postdoctoral Associate and work with Prof. Fengqi You.\n\n\n\nThe academic website moved to shunyuwu-shaun.github.io with streamlined publication pages and representative project summaries.\n\n\n\nA first-author journal article on resource planning is now online with DOI.\n\n\n\nManuscripts on optimization, prediction, forecasting, and modeling entered active submission and review cycles.\n\n\n\nAn applied workflow continued in stable routine use with observable quality improvements."
+  },
+  {
+    "objectID": "news/index.html#updates",
+    "href": "news/index.html#updates",
+    "title": "News",
+    "section": "",
+    "text": "I will join Cornell University as an incoming Postdoctoral Associate and work with Prof. Fengqi You.\n\n\n\nThe academic website moved to shunyuwu-shaun.github.io with streamlined publication pages and representative project summaries.\n\n\n\nA first-author journal article on resource planning is now online with DOI.\n\n\n\nManuscripts on optimization, prediction, forecasting, and modeling entered active submission and review cycles.\n\n\n\nAn applied workflow continued in stable routine use with observable quality improvements."
+  },
+  {
+    "objectID": "news/index.html#what-this-page-tracks",
+    "href": "news/index.html#what-this-page-tracks",
+    "title": "News",
+    "section": "What This Page Tracks",
+    "text": "What This Page Tracks\n\nPublication status transitions (under review -&gt; accepted -&gt; published)\nService and collaboration milestones\nProject milestones in representative application settings"
+  }
+]

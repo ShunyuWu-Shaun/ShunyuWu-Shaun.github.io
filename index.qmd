@@ -1,13 +1,11 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
 subtitle: "Optimization, Prediction, and Forecasting"
-description: "Ph.D. candidate at Shanghai Jiao Tong University and incoming Postdoctoral Associate at Cornell University."
+description: "Ph.D. candidate at Shanghai Jiao Tong University and incoming postdoc."
 keywords:
   - Shunyu Wu
   - shunyuwu
   - 吴舜禹
-  - Cornell University
-  - Fengqi You
   - Optimization
   - Prediction
   - Forecasting
@@ -33,7 +31,7 @@ page-layout: full
         "name": "Shanghai Jiao Tong University"
       },
       "jobTitle": "Ph.D. Candidate",
-      "description": "Incoming Postdoctoral Associate at Cornell University, where he will work with Prof. Fengqi You.",
+      "description": "Incoming postdoc working on optimization, prediction, forecasting, and system modeling.",
       "email": "mailto:shunyuwu@sjtu.edu.cn",
       "sameAs": [
         "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao",
@@ -76,7 +74,7 @@ page-layout: full
 ::: {.hero-card .hero-main}
 ## About
 
-I am a Ph.D. candidate at **Shanghai Jiao Tong University** and an **incoming Postdoctoral Associate at Cornell University**, where I will work with **Prof. Fengqi You**.
+I am a Ph.D. candidate at **Shanghai Jiao Tong University** and an **incoming postdoc**.
 
 ::: {.hero-lead}
 My work centers on **optimization**, **prediction**, **forecasting**, and **system modeling** for applied problems, with an emphasis on reliable and interpretable workflows.
@@ -104,8 +102,7 @@ My work centers on **optimization**, **prediction**, **forecasting**, and **syst
 <div>
 <div class="profile-name">Shunyu Wu</div>
 <div class="profile-role">Ph.D. Candidate, Shanghai Jiao Tong University</div>
-<div class="profile-role">Incoming Postdoctoral Associate, Cornell University</div>
-<div class="profile-role">Incoming collaboration with Prof. Fengqi You</div>
+<div class="profile-role">Incoming postdoc</div>
 </div>
 :::
 :::
@@ -128,8 +125,8 @@ My work centers on **optimization**, **prediction**, **forecasting**, and **syst
 <div class="snapshot-label">Ph.D. completion year</div>
 :::
 ::: {.snapshot-item}
-<div class="snapshot-number">Cornell</div>
-<div class="snapshot-label">Incoming postdoctoral appointment</div>
+<div class="snapshot-number">Next</div>
+<div class="snapshot-label">Incoming postdoc</div>
 :::
 :::
 
@@ -201,7 +198,7 @@ More: [Service](/service/)
 :::
 ::: {.feature-card}
 #### News and Collaboration
-- Incoming postdoctoral appointment at Cornell University.
+- Incoming postdoc appointment.
 - Ongoing collaborations in optimization, modeling, and applied studies.
 - Research contact and profile links for quick reach-out.
 
@@ -211,7 +208,7 @@ Browse: [News](/news/) and [Contact](/contact/)
 
 ## Latest News
 
-- **2026-06**: Incoming Postdoctoral Associate at Cornell University; I will work with Prof. Fengqi You.
+- **2026-06**: Incoming postdoc appointment update.
 - **2026-02**: Website visual refresh and navigation update.
 - **2026-02**: Site migrated from legacy URL `shuanyuwu.github.io` to `shunyuwu-shaun.github.io`.
 - **2025-11**: IEEE Transactions on Smart Grid paper indexed with DOI.

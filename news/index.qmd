@@ -8,8 +8,8 @@ toc: false
 
 ::: {.card-list}
 ::: {.entry-card}
-#### 2026-06 | Cornell postdoctoral appointment
-I will join **Cornell University** as an **incoming Postdoctoral Associate** and work with **Prof. Fengqi You**.
+#### 2026-06 | Incoming postdoc appointment
+I will continue this research as an **incoming postdoc**.
 :::
 ::: {.entry-card}
 #### 2026-02 | Website upgrade and migration

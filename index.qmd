@@ -175,7 +175,8 @@ See [Publications](/publications/) for the complete record, including conference
 ::: {.feature-card}
 #### Reviewing and mentoring
 
-- Reviewer for ICLR in the 2025 and 2026 cycles, AAAI 2026, and CDC in 2024 and 2025.
+- Reviewer for ICML 2026, ICLR in the 2025 and 2026 cycles, and the NeurIPS 2026 Position Paper Track.
+- Reviewer for the AAAI-26 Main Technical Track and AI for Social Impact Track, and for CDC in 2024 and 2025.
 - Reviewer for IEEE journals in systems, automation, and intelligent vehicles.
 - Co-mentor of one Ph.D. student and 13 master's students.
 

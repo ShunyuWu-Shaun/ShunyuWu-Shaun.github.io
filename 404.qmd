@@ -1,5 +1,5 @@
 ---
-title: "Page Not Found"
+title: "Page not found"
 description: "The requested page could not be found."
 toc: false
 page-layout: full

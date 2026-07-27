@@ -1,48 +1,44 @@
 ---
 title: "Research"
-description: "Research agenda of Shunyu Wu: optimization, prediction, forecasting, modeling, and reliable applied workflows."
+description: "Research by Shunyu Wu on decision-focused learning, time-series forecasting, differentiable optimization, and learning-based decision rules."
 ---
 
-## Research Vision
+## Research questions
 
-I study how **optimization**, **prediction**, **forecasting**, and **system modeling** can be combined into reliable workflows for applied problems. The common thread is **careful modeling and evaluation for large-scale real-world studies**, with an emphasis on interpretable methods, practical use, and stable workflows.
+Forecasts with similar pointwise errors can lead to different schedules or control actions. I study how predictions change decisions when they parameterize an optimizer or rank a candidate action set. Evaluation depends on the application: operating cost and optimality gap for scheduling, demand-trend timing for forecasting, and pressure error for network models.
 
-From 2026 onward, I will continue this line of work as an **incoming postdoc**.
+## Decision-focused training for water-energy scheduling
 
-## Research Agenda
+[Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) addresses electricity-cost uncertainty in water-energy resource scheduling. The model combines probabilistic forecasting with a stochastic scheduling problem for urban water supply. Its training objective uses a differentiable convex upper bound on the optimality gap derived from Lagrangian duality, so forecast distributions are evaluated by the schedules they induce.
 
-### 1) Optimization and Prediction
+This line of work examines which forecast errors alter the optimal schedule and how a constrained solver can provide a training signal. It also tests whether lower operating cost or regret comes at the expense of forecast calibration.
 
-- Link predictive models with application-level evaluation rather than proxy metrics alone.
-- Study stability and numerical behavior in complex workflows.
-- Develop formulations that better reflect the goals of applied studies.
+## Time-series forecasting at turning points
 
-### 2) Forecasting and Modeling
+[The knowledge-based bi-correction model](https://doi.org/10.1016/j.eswa.2024.124508) targets lag in daily urban water-demand forecasts. Lag-penalty attention extracts sequence and feature information associated with timely changes. A stacked LSTM produces the initial forecast, and a masked weighted Markov chain corrects selected residuals using posterior error information.
 
-- Build forecasting and modeling modules that respect domain structure, process understanding, and contextual knowledge.
-- Combine domain knowledge, practical rules, and routine constraints.
-- Use predictive models within planning and evaluation workflows, not only as standalone estimators.
+The same study introduces mean prediction trend effectiveness to test whether a model follows the direction of demand changes more effectively than a naive forecast. This metric complements absolute-error measures because a low average error can conceal a delayed response near a turning point.
 
-### 3) Reliable Applied Workflows
+## Pressure modeling with unobserved disturbances
 
-- Design methods with explicit quality checks and feasibility safeguards.
-- Integrate staged validation, retrospective review, and clear documentation.
-- Build reusable workflows for recurring studies in service and industrial settings.
+[CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) models macroscopic pressure when measured inputs do not explain all disturbance-related variation. Its Coder estimates the response to observed variables, while the Critic modifies the training loss to represent residual variation as an uncertain disturbance. The study evaluates this separation across monitoring nodes with different exposure to unobserved disturbances.
 
-## Current Focus (2025-2026)
+## Explicit selection rules for learned decisions
 
-- Optimization and prediction for downstream evaluation.
-- Forecasting and modeling under uncertainty and imperfect information.
-- Planning and efficiency improvement with application feedback.
-- Reusable workflows for recurring applied studies.
+Two 2026 collaborations extend this interest beyond water systems. [GEM](https://arxiv.org/abs/2603.23232) uses a Gaussian-mixture actor to retain multiple action hypotheses in offline reinforcement learning. At inference, it ranks a candidate set with an ensemble lower-confidence bound and a behavior-support term standardized within the current state.
 
-## Application Areas
+[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) generates trajectories from local LiDAR observations. Structured Scene Perception stores local geometry as graph memory. During recurrent denoising, the model retrieves waypoint-specific geometry and conditions each update on the target.
 
-- **Service and Industrial Applications**: prediction, forecasting, and planning.
-- **Large-Scale Applied Systems**: reliable and interpretable forecasting and planning workflows.
+## Evaluation criteria by research question
 
-## Method and Tool Stack
+| Research question | Main technical object | Evaluation quantity |
+|---|---|---|
+| How does a forecast change a schedule? | Probabilistic forecast inside stochastic optimization | Scheduling cost and decision regret |
+| Does a forecast react at the right time? | Lag-penalty attention and posterior correction | Trend effectiveness and forecast error |
+| How should a model represent missing disturbances? | Uncertain regression with separated observed effects | Pressure error at monitoring nodes |
+| Which learned action should be executed? | Candidate generation and explicit reranking | D4RL score, support violations, and inference cost |
+| Does a generated trajectory fit local geometry? | Structured scene memory during denoising | Endpoint error, smoothness, clearance, and runtime |
 
-- **Modeling**: forecasting, prediction, system identification, and uncertainty-aware modeling.
-- **Methods**: optimization, mathematical programming, and statistical methods.
-- **Implementation**: reproducible pipelines, staged evaluation, documentation, and review-friendly interfaces.
+## Application scope
+
+My first-authored work focuses on urban water demand, pressure modeling, and water-energy scheduling. Collaborative work covers industrial energy-consumption prediction, nonlinear control, offline reinforcement learning, and local-sensing trajectory generation. The [Publications](/publications/) page separates first-authored articles from collaborative papers and conference proceedings.

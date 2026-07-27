@@ -1,15 +1,7 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
-subtitle: "Optimization, Prediction, and Forecasting"
-description: "Ph.D. candidate at Shanghai Jiao Tong University and incoming postdoc."
-keywords:
-  - Shunyu Wu
-  - shunyuwu
-  - 吴舜禹
-  - Optimization
-  - Prediction
-  - Forecasting
-  - Modeling
+subtitle: "Forecasting for downstream optimization"
+description-meta: "Ph.D. candidate at Shanghai Jiao Tong University studying decision-focused learning, time-series forecasting, and optimization for water-energy systems."
 toc: false
 page-layout: full
 ---
@@ -22,29 +14,34 @@ page-layout: full
       "@type": "Person",
       "@id": "https://shunyuwu-shaun.github.io/#person",
       "name": "Shunyu Wu",
-      "alternateName": ["shunyuwu", "Shaun Wu", "吴舜禹"],
+      "alternateName": ["Shaun Wu", "吴舜禹"],
       "givenName": "Shunyu",
       "familyName": "Wu",
       "url": "https://shunyuwu-shaun.github.io/",
       "affiliation": {
-        "@type": "CollegeOrUniversity",
-        "name": "Shanghai Jiao Tong University"
+        "@type": "Organization",
+        "name": "Department of Automation, Shanghai Jiao Tong University",
+        "parentOrganization": {
+          "@type": "CollegeOrUniversity",
+          "name": "Shanghai Jiao Tong University"
+        }
       },
       "jobTitle": "Ph.D. Candidate",
-      "description": "Incoming postdoc working on optimization, prediction, forecasting, and system modeling.",
+      "description": "Researcher in decision-focused learning, time-series forecasting, differentiable optimization, and water-energy resource scheduling.",
       "email": "mailto:shunyuwu@sjtu.edu.cn",
       "sameAs": [
-        "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao",
+        "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en",
         "https://orcid.org/0000-0001-9856-2148",
         "https://github.com/ShunyuWu-Shaun",
-        "https://www.researchgate.net/profile/Shunyu-Wu?ev=hdr_xprf"
+        "https://www.researchgate.net/profile/Shunyu-Wu"
       ],
       "knowsAbout": [
-        "Optimization",
-        "Prediction",
-        "Forecasting",
-        "System modeling",
-        "Applied mathematics"
+        "Decision-focused learning",
+        "Predict-then-optimize",
+        "Differentiable optimization",
+        "Time-series forecasting",
+        "Water-energy resource scheduling",
+        "Offline reinforcement learning"
       ]
     },
     {
@@ -61,7 +58,7 @@ page-layout: full
       "@type": "ProfilePage",
       "@id": "https://shunyuwu-shaun.github.io/#profile",
       "url": "https://shunyuwu-shaun.github.io/",
-      "name": "Shunyu Wu Profile",
+      "name": "Shunyu Wu Academic Profile",
       "mainEntity": {
         "@id": "https://shunyuwu-shaun.github.io/#person"
       }
@@ -74,142 +71,123 @@ page-layout: full
 ::: {.hero-card .hero-main}
 ## About
 
-I am a Ph.D. candidate at **Shanghai Jiao Tong University** and an **incoming postdoc**.
+I am a Ph.D. candidate in the Department of Automation at **Shanghai Jiao Tong University**. I study learning methods that connect prediction with downstream decisions, especially time-series forecasting and resource scheduling in urban water and water-energy systems.
 
 ::: {.hero-lead}
-My work centers on **optimization**, **prediction**, **forecasting**, and **system modeling** for applied problems, with an emphasis on reliable and interpretable workflows.
+I examine which forecast errors alter the selected action or schedule. Depending on the application, I evaluate the model by operating cost and optimality gap, demand-trend timing, or pressure error.
 :::
 
 ::: {.hero-buttons}
-[Google Scholar](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao)
+[Google Scholar](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en)
 [ORCID](https://orcid.org/0000-0001-9856-2148)
 [GitHub](https://github.com/ShunyuWu-Shaun)
 :::
 
 ::: {.interest-chips}
-<span class="interest-chip">Optimization</span>
-<span class="interest-chip">Prediction</span>
-<span class="interest-chip">Forecasting</span>
-<span class="interest-chip">Modeling</span>
-<span class="interest-chip">Applied Mathematics</span>
-<span class="interest-chip">Applied Studies</span>
+<span class="interest-chip">Decision-focused learning</span>
+<span class="interest-chip">Predict-then-optimize</span>
+<span class="interest-chip">Time-series forecasting</span>
+<span class="interest-chip">Differentiable optimization</span>
+<span class="interest-chip">Offline reinforcement learning</span>
 :::
 :::
 
 ::: {.profile-card}
-![](/assets/images/shunyu-wu-avatar.jpg){.profile-photo alt="Shunyu Wu profile photo"}
+![](/assets/images/shunyu-wu-avatar.jpg){.profile-photo alt="Portrait of Shunyu Wu"}
 
 <div>
 <div class="profile-name">Shunyu Wu</div>
-<div class="profile-role">Ph.D. Candidate, Shanghai Jiao Tong University</div>
-<div class="profile-role">Incoming postdoc</div>
+<div class="profile-role">Ph.D. Candidate</div>
+<div class="profile-role">Department of Automation</div>
+<div class="profile-role">Shanghai Jiao Tong University</div>
 </div>
 :::
 :::
 
 ::: {.snapshot-grid}
 ::: {.snapshot-item}
-<div class="snapshot-number">3+</div>
-<div class="snapshot-label">First-author publications</div>
+<div class="snapshot-number">61</div>
+<div class="snapshot-label">Google Scholar citations</div>
 :::
 ::: {.snapshot-item}
-<div class="snapshot-number">2</div>
-<div class="snapshot-label">Representative application areas</div>
+<div class="snapshot-number">5</div>
+<div class="snapshot-label">h-index</div>
 :::
 ::: {.snapshot-item}
-<div class="snapshot-number">14</div>
-<div class="snapshot-label">Students co-mentored (1 Ph.D. + 13 M.Sc.)</div>
+<div class="snapshot-number">13</div>
+<div class="snapshot-label">Works listed on Scholar</div>
 :::
 ::: {.snapshot-item}
-<div class="snapshot-number">2026</div>
-<div class="snapshot-label">Ph.D. completion year</div>
-:::
-::: {.snapshot-item}
-<div class="snapshot-number">Next</div>
-<div class="snapshot-label">Incoming postdoc</div>
+<div class="snapshot-number">3</div>
+<div class="snapshot-label">First-authored journal articles</div>
 :::
 :::
+
+<p class="section-note">Google Scholar metrics checked on July 27, 2026.</p>
 
 <hr class="page-section-divider" />
 
-## Research Highlights
+## Research
 
 ::: {.card-list}
 ::: {.entry-card}
-#### Optimization and Prediction
-I study how predictive models and optimization procedures can be combined to support careful application-level evaluation.
+#### Decision-focused learning for water-energy scheduling
+Stochastic Predict-Then-Optimize passes probabilistic electricity-cost forecasts to a stochastic scheduler for urban water supply. A convex upper bound on the resulting optimality gap, derived from Lagrangian duality, provides gradients for predictor training.
 :::
 ::: {.entry-card}
-#### Forecasting and Modeling
-I build forecasting and modeling workflows that integrate domain understanding, practical constraints, and interpretable methods.
+#### Forecasting under lag and unobserved disturbances
+The knowledge-based bi-correction model uses lag-penalty attention and a masked weighted Markov chain to correct delayed responses in daily water-demand forecasts. CritiCoder separates the modeled response to observed variables from residual pressure variation represented as an uncertain disturbance.
 :::
 ::: {.entry-card}
-#### Reliable Applied Workflows
-I design reusable workflows with staged checks, careful validation, and clear interfaces for recurring real-world studies.
+#### Learning-based action and trajectory selection
+Current collaborations study candidate-action selection in offline reinforcement learning and diffusion-based trajectory generation conditioned on local LiDAR geometry. GEM reranks sampled actions at inference, whereas DRIFT retrieves waypoint-specific scene context during recurrent denoising.
 :::
 :::
 
-## Selected Publications
+More detail is available on the [Research](/research/) page.
+
+## Selected publications
 
 ::: {.card-list}
 ::: {.entry-card}
-#### Journal article on coupled resource planning (IEEE TSG, 2025)
-DOI: [10.1109/TSG.2025.3601238](https://doi.org/10.1109/TSG.2025.3601238)
+#### [End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling](https://doi.org/10.1109/TSG.2025.3601238)
+Shunyu Wu, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao. *IEEE Transactions on Smart Grid*, 16(6), 4796-4807, 2025.
 :::
 ::: {.entry-card}
-#### Journal article on daily demand prediction and forecasting (ESWA, 2024)
-DOI: [10.1016/j.eswa.2024.124508](https://doi.org/10.1016/j.eswa.2024.124508)
+#### [Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508)
+Shunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. *Expert Systems with Applications*, 255, 124508, 2024.
 :::
 ::: {.entry-card}
-#### Journal article on uncertainty-aware network state modeling (IEEE TCSS, 2023)
-DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
-:::
-:::
-
-For complete records, see [Publications](/publications/).
-
-## Representative Applied Work
-
-::: {.card-list}
-::: {.entry-card}
-#### Industrial Optimization Workflow
-Applied optimization and forecasting methods for efficiency review in representative industrial settings.
-
-Details: [Projects](/projects/)
+#### [CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems](https://doi.org/10.1109/TCSS.2023.3272330)
+Shunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. *IEEE Transactions on Computational Social Systems*, 11(2), 2222-2233, 2024.
 :::
 ::: {.entry-card}
-#### Service Operations Planning
-Applied prediction and planning workflow for service-level coordination in a representative public-service setting.
-
-Details: [Projects](/projects/)
+#### [DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation](https://doi.org/10.1016/j.eswa.2026.133261)
+Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and Shunyu Wu. *Expert Systems with Applications*, 331, 133261, 2026.
 :::
 :::
 
-## Common Academic Sections
+See [Publications](/publications/) for the complete record, including conference papers and the 2026 GEM preprint.
+
+## Academic activities
 
 ::: {.two-col-grid}
 ::: {.feature-card}
-#### Academic Service
-- Conference reviewing: ICLR, AAAI, CDC, IFAC-related venues.
-- Journal reviewing: IEEE TSMC Systems, IEEE TASE, IEEE TIV.
-- Mentoring: 1 Ph.D. and 13 M.Sc. students co-mentored.
+#### Reviewing and mentoring
 
-More: [Service](/service/)
+- Reviewer for ICLR in the 2025 and 2026 cycles, AAAI 2026, and CDC in 2024 and 2025.
+- Reviewer for IEEE journals in systems, automation, and intelligent vehicles.
+- Co-mentor of one Ph.D. student and 13 master's students.
+
+More information is listed under [Service](/service/).
 :::
 ::: {.feature-card}
-#### News and Collaboration
-- Incoming postdoc appointment.
-- Ongoing collaborations in optimization, modeling, and applied studies.
-- Research contact and profile links for quick reach-out.
+#### Recent research updates
 
-Browse: [News](/news/) and [Contact](/contact/)
+- **July 2026.** DRIFT is available online and assigned to volume 331 of *Expert Systems with Applications*.
+- **March 2026.** GEM was released as arXiv:2603.23232.
+- **2025.** The SPTO paper appeared in *IEEE Transactions on Smart Grid*.
+
+See [News](/news/) for DOI and preprint links.
 :::
 :::
-
-## Latest News
-
-- **2026-06**: Incoming postdoc appointment update.
-- **2026-02**: Website visual refresh and navigation update.
-- **2026-02**: Site migrated from legacy URL `shuanyuwu.github.io` to `shunyuwu-shaun.github.io`.
-- **2025-11**: IEEE Transactions on Smart Grid paper indexed with DOI.
-- **2025-08**: New manuscripts on optimization, prediction, forecasting, and modeling entered active review.

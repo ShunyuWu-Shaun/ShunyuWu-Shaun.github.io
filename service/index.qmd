@@ -1,33 +1,26 @@
 ---
-title: "Service"
-description: "Academic service, teaching, and mentoring activities."
+title: "Academic service"
+description: "Reviewing, teaching, and research mentoring by Shunyu Wu."
 ---
 
 ## Reviewing
 
-### Conferences (selected)
+### Conferences
 
-- ICLR (2025, 2026 cycles)
-- AAAI (2026 cycle)
-- CDC (2024, 2025)
-- IFAC-related venues (since 2023)
+- International Conference on Learning Representations, 2025 and 2026 review cycles
+- AAAI Conference on Artificial Intelligence, 2026 review cycle
+- IEEE Conference on Decision and Control, 2024 and 2025
 
-### Journals (selected)
+### Journals
 
-- Selected IEEE journals in systems, automation, and engineering applications
+- *IEEE Transactions on Systems, Man, and Cybernetics: Systems*
+- *IEEE Transactions on Automation Science and Engineering*
+- *IEEE Transactions on Intelligent Vehicles*
 
-## Teaching and Mentoring
+## Teaching
 
-- Teaching Assistant for a graduate engineering course (2023-2024): lectures, assignments, recitations.
-- Co-mentoring support: **1 Ph.D.** and **13 M.Sc.** students (topic framing, reproducible pipelines, and engineering replication).
+I served as a teaching assistant for a graduate engineering course from 2023 to 2024, delivering lectures and recitations and preparing course assignments.
 
-## Collaboration Practice
+## Research mentoring
 
-- Promote methodological clarity, reproducibility, and careful evaluation.
-- Bridge exploratory work to stable deliverables through review checklists and retrospective notes.
-
-## Open-Science Habits
-
-- Keep publication status explicit (published vs. under review vs. in preparation).
-- Prefer DOI-linked records and traceable artifacts.
-- Maintain concise documentation for reproducibility and future reuse.
+I have co-mentored one Ph.D. student and 13 master's students. I helped them formulate research questions and conduct reproducible experiments, including reproductions of published methods.

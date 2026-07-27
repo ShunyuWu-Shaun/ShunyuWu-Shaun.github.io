@@ -1,69 +1,31 @@
 ---
-title: "Service Operations Planning"
-domain: "service"
-period: "2019-2024"
-role: "Algorithm Lead / Co-Algorithm Lead"
-problem: "Support planning and service-level consistency under demand uncertainty and noisy measurements in routine operation."
-method: "Prediction and planning workflow with demand forecasting, configurable rules, and staged update support."
-outcome: "Observable quality and efficiency improvements were reported in routine use."
-status: "deployed"
-confidentiality: "public-safe"
-selected: true
-toc: false
+title: "Urban water forecasting and pressure modeling"
+description: "Published methods for lag-aware demand forecasting and pressure modeling under unobserved disturbances."
+toc: true
 ---
 
 ::: {.project-safe-note}
-Public-safe materials only: figures are selected from project materials and model outputs without sensitive operations records.
+This page uses only information in publisher records. Operational maps, site identifiers, dashboard records, and client data are excluded.
 :::
 
-## Application Context
+## Daily demand near turning points
 
-This applied case focuses on a public-service scenario where planning decisions must balance service quality, resource cost, and operational stability.
+Daily urban water-demand forecasts can attain low average error while responding late when demand changes direction. This lag reduces their value for planning the next operating period.
 
-<div class="project-figure-card">
-<img src="/assets/images/projects/service/area-map.png" alt="Representative service-area map">
-<p>Representative service-area map for a public-service planning scenario.</p>
-<p class="project-figure-caption-cn">中文图注：公共服务场景的示范区域示意图。</p>
-</div>
+The [knowledge-based bi-correction model](https://doi.org/10.1016/j.eswa.2024.124508) addresses the problem in two stages. Lag-penalty attention extracts prior sequence and feature information associated with timely demand changes. A stacked LSTM produces the primary forecast. A masked weighted Markov chain then corrects selected residuals using posterior error information.
 
-## Workflow Overview
+## Trend-sensitive evaluation
 
-<div class="project-figure-card">
-<img src="/assets/images/projects/service/workflow-framework.png" alt="Representative planning workflow framework">
-<p>Workflow from multi-source inputs and event triggers to plan generation.</p>
-<p class="project-figure-caption-cn">中文图注：多源输入、事件触发与方案生成的方法框架。</p>
-</div>
+The study introduces mean prediction trend effectiveness to test whether a model follows changes in demand more closely than a naive forecast. Reporting this metric alongside absolute-error measures separates response timing from average numerical accuracy.
 
-- Prediction and planning workflow connecting demand forecasting and routine decisions.
-- Rule-aware planning with configurable settings.
-- Integration with dashboard-based review and fallback options.
+## Pressure under unobserved variation
 
-## Forecasting Example
+[CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) considers macroscopic pressure when measured inputs do not explain every disturbance in a water distribution system. The Coder models the pressure response associated with observed variables. The Critic changes the loss so that the remaining pressure variation can be represented as an uncertain disturbance.
 
-<div class="project-figure-card">
-<img src="/assets/images/projects/service/forecast-example.png" alt="Representative forecasting example with MAPE shown on figure">
-<p>Forecasting example with low MAPE across the full study period.</p>
-<p class="project-figure-caption-cn">中文图注：全时段预测示例图，图中保留 MAPE 指标作为结果摘要。</p>
-</div>
+The comparison tests whether CritiCoder's error increases less than conventional regression error at nodes more strongly affected by unobserved disturbances.
 
-## Review Interfaces
+## Publications
 
-::: {.project-figure-grid-2}
-<div class="project-figure-card">
-<img src="/assets/images/projects/service/dashboard.png" alt="Representative operations dashboard">
-<p>Dashboard for routine planning status, area map, and execution review.</p>
-<p class="project-figure-caption-cn">中文图注：运行总览界面，包含区域状态分布与例行记录。</p>
-</div>
+Shunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. [Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508). *Expert Systems with Applications*, 255, 124508, 2024.
 
-<div class="project-figure-card">
-<img src="/assets/images/projects/service/evaluation-panel.png" alt="Representative evaluation panel">
-<p>Evaluation panel supporting routine review of plan quality and summary indicators.</p>
-<p class="project-figure-caption-cn">中文图注：评估界面，用于查看方案质量与汇总指标。</p>
-</div>
-:::
-
-## Observed Outcomes
-
-- Observable quality and efficiency improvements were reported in routine use.
-- Better interpretability was supported through dashboard and evaluation modules.
-- Reusable templates supported recurring operating patterns.
+Shunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. [CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems](https://doi.org/10.1109/TCSS.2023.3272330). *IEEE Transactions on Computational Social Systems*, 11(2), 2222-2233, 2024.

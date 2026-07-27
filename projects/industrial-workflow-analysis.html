@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="A published case study on stochastic predict-then-optimize for urban water supply under electricity-cost uncertainty.">
 
-<title>Industrial Optimization Workflow – Shunyu Wu</title>
+<title>Water-energy resource scheduling – Shunyu Wu</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,7 +18,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
 </style>
@@ -72,24 +73,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Industrial Optimization Workflow – Shunyu Wu">
-<meta property="og:description" content="Academic website of Shunyu Wu (吴舜禹), focusing on optimization, prediction, forecasting, and modeling.">
-<meta property="og:image" content="https://shunyuwu-shaun.github.io/assets/images/projects/industrial/overview.png">
+<meta property="og:title" content="Water-energy resource scheduling – Shunyu Wu">
+<meta property="og:description" content="A published case study on stochastic predict-then-optimize for urban water supply under electricity-cost uncertainty.">
 <meta property="og:site_name" content="Shunyu Wu">
-<meta property="og:image:alt" content="Representative industrial workflow interface">
-<meta property="og:image:height" content="956">
-<meta property="og:image:width" content="1920">
-<meta name="twitter:title" content="Industrial Optimization Workflow – Shunyu Wu">
-<meta name="twitter:description" content="Academic website of Shunyu Wu (吴舜禹), focusing on optimization, prediction, forecasting, and modeling.">
-<meta name="twitter:image" content="https://shunyuwu-shaun.github.io/assets/images/projects/industrial/overview.png">
-<meta name="twitter:image:alt" content="Representative industrial workflow interface">
-<meta name="twitter:image-height" content="956">
-<meta name="twitter:image-width" content="1920">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Water-energy resource scheduling – Shunyu Wu">
+<meta name="twitter:description" content="A published case study on stochastic predict-then-optimize for urban water supply under electricity-cost uncertainty.">
+<meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://shunyuwu-shaun.github.io/projects/industrial-workflow-analysis.html">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -107,47 +100,47 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../index.html">
 <span class="menu-text">Home</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../research/index.html"> 
+    <a class="nav-link" href="../research/index.html">
 <span class="menu-text">Research</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../publications/index.html"> 
+    <a class="nav-link" href="../publications/index.html">
 <span class="menu-text">Publications</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
+    <a class="nav-link" href="../projects/index.html">
+<span class="menu-text">Case Studies</span></a>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../news/index.html"> 
+    <a class="nav-link" href="../news/index.html">
 <span class="menu-text">News</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../service/index.html"> 
+    <a class="nav-link" href="../service/index.html">
 <span class="menu-text">Service</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../contact/index.html"> 
+    <a class="nav-link" href="../contact/index.html">
 <span class="menu-text">Contact</span></a>
-  </li>  
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=zh-CN&amp;oi=ao"> 
+    <a class="nav-link" href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=en">
 <span class="menu-text">Scholar</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0001-9856-2148"> 
+    <a class="nav-link" href="https://orcid.org/0000-0001-9856-2148">
 <span class="menu-text">ORCID</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/ShunyuWu-Shaun"> 
+    <a class="nav-link" href="https://github.com/ShunyuWu-Shaun">
 <span class="menu-text">GitHub</span></a>
-  </li>  
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -159,106 +152,65 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+
+  <ul>
+  <li><a href="#decision-problem" id="toc-decision-problem" class="nav-link active" data-scroll-target="#decision-problem">Decision problem</a></li>
+  <li><a href="#stochastic-predict-then-optimize" id="toc-stochastic-predict-then-optimize" class="nav-link" data-scroll-target="#stochastic-predict-then-optimize">Stochastic Predict-Then-Optimize</a></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation">Evaluation</a></li>
+  <li><a href="#publication" id="toc-publication" class="nav-link" data-scroll-target="#publication">Publication</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Industrial Optimization Workflow</h1>
+<h1 class="title">Water-energy resource scheduling</h1>
 </div>
 
+<div>
+  <div class="description">
+    A published case study on stochastic predict-then-optimize for urban water supply under electricity-cost uncertainty.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
-    
-  
-    
+
+
+
   </div>
-  
+
 
 
 </header>
 
 
 <div class="project-safe-note">
-<p>Public-safe materials only: no acceptance pages with signatures, contract numbers, or handwritten records are shown.</p>
+<p>This page summarizes the peer-reviewed article and omits utility names, asset locations, internal screenshots, and operational records.</p>
 </div>
-<section id="application-context" class="level2">
-<h2 class="anchored" data-anchor-id="application-context">Application Context</h2>
-<p>This applied case focuses on an industrial process setting with changing operating conditions. The goal is to improve quality and efficiency while staying within routine operating boundaries.</p>
-<ul>
-<li>Representative application context: evaluated in routine industrial environments.</li>
-<li>Primary objective: improve process quality and efficiency while maintaining stable operation.</li>
-<li>Constraints: process limits, equipment boundaries, and routine operating ranges.</li>
-</ul>
+<section id="decision-problem" class="level2">
+<h2 class="anchored" data-anchor-id="decision-problem">Decision problem</h2>
+<p>Urban water supply consumes electricity throughout treatment, transport, and distribution. The resulting schedule depends on the expected electricity cost, while errors in that forecast can change operating cost and the selected schedule.</p>
+<p>The study models the full water-supply process as a stochastic scheduling problem with uncertain electricity prices. It evaluates forecast quality by pointwise prediction error and by the objective value of the induced schedule.</p>
 </section>
-<section id="workflow-overview" class="level2">
-<h2 class="anchored" data-anchor-id="workflow-overview">Workflow Overview</h2>
-<div class="project-figure-card">
-<img src="../assets/images/projects/industrial/overview.png" alt="Representative industrial workflow interface">
-<p>
-Representative workflow view integrating process state, key indicators, and suggested adjustments.
-</p>
-<p class="project-figure-caption-cn">
-中文图注：工业场景分析总览界面，联动输入条件、状态信息与建议量。
-</p>
-</div>
-<ul>
-<li>Optimization workflow for adjustment support.</li>
-<li>Condition-adaptive safeguards for stable operation under uncertainty.</li>
-<li>Fast recommendation modules for lower-latency review.</li>
-<li>Staged release workflow with replay-style validation.</li>
-</ul>
+<section id="stochastic-predict-then-optimize" class="level2">
+<h2 class="anchored" data-anchor-id="stochastic-predict-then-optimize">Stochastic Predict-Then-Optimize</h2>
+<p>Stochastic Predict-Then-Optimize combines a probabilistic forecasting model with the downstream stochastic program. The forecast distribution supplies uncertain cost parameters to the scheduler. The resulting schedule defines the decision loss used to update the predictor.</p>
+<p>Direct differentiation through this optimization problem is difficult. SPTO+ replaces the exact optimality gap with a differentiable convex upper bound derived from Lagrangian duality. The bound supplies a surrogate gradient while retaining the scheduling problem in the training objective.</p>
 </section>
-<section id="representative-interfaces" class="level2">
-<h2 class="anchored" data-anchor-id="representative-interfaces">Representative Interfaces</h2>
-<div class="project-figure-grid-3">
-<div class="project-figure-card">
-<img src="../assets/images/projects/industrial/diagnostic-summary.png" alt="Representative diagnostic summary panel">
-<p>
-Diagnostic summary view for comparing baseline and current operating conditions.
-</p>
-<p class="project-figure-caption-cn">
-中文图注：诊断分析界面，用于定位关键偏差项。
-</p>
-</div>
-<div class="project-figure-card">
-<img src="../assets/images/projects/industrial/strategy-panel.png" alt="Representative strategy panel">
-<p>
-Strategy panel for reviewing local states and adjustment opportunities.
-</p>
-<p class="project-figure-caption-cn">
-中文图注：策略界面，展示局部状态与建议动作。
-</p>
-</div>
-<div class="project-figure-card">
-<img src="../assets/images/projects/industrial/status-analysis.png" alt="Representative status summary panel">
-<p>
-Status-summary interface for reviewing condition changes across the process.
-</p>
-<p class="project-figure-caption-cn">
-中文图注：状态分析界面，用于辅助例行评估与复核。
-</p>
-</div>
-</div>
+<section id="evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
+<p>The experiments compare forecast quality, operating cost, and decision regret on real-world water-supply systems. The paper reports lower operating cost and regret than the tested two-stage forecasting and optimization baselines. The public article does not disclose the utility maps or operational dashboards previously stored in this repository.</p>
 </section>
-<section id="observed-outcomes" class="level2">
-<h2 class="anchored" data-anchor-id="observed-outcomes">Observed Outcomes</h2>
-<ul>
-<li>Observable quality and efficiency improvement was reported across representative operating scenarios.</li>
-<li>Better diagnosis support was available through summary and trend views.</li>
-<li>Stable workflow behavior was maintained under varied operating conditions.</li>
-</ul>
-</section>
-<section id="notes" class="level2">
-<h2 class="anchored" data-anchor-id="notes">Notes</h2>
-<ul>
-<li>Template reuse supported faster adaptation in similar environments.</li>
-<li>Workflow release followed staged validation and review safeguards.</li>
-<li>Reported gains varied with scenario and operating conditions.</li>
-</ul>
+<section id="publication" class="level2">
+<h2 class="anchored" data-anchor-id="publication">Publication</h2>
+<p>Shunyu Wu, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao. <a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a>. <em>IEEE Transactions on Smart Grid</em>, 16(6), 4796-4807, 2025.</p>
 
 
 </section>
@@ -275,7 +227,7 @@ Status-summary interface for reviewing condition changes across the process.
     anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
+        if (clz.startsWith('code-annotation-')) {
           return true;
         }
       }
@@ -295,11 +247,11 @@ Status-summary interface for reviewing condition changes across the process.
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();    
+        tooltip.show();
       }
       setTimeout(function() {
         if (tooltip) {
@@ -383,7 +335,7 @@ Status-summary interface for reviewing condition changes across the process.
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config); 
+      window.tippy(el, config);
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -458,7 +410,7 @@ Status-summary interface for reviewing condition changes across the process.
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined; 
+        let hash = undefined;
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -486,7 +438,7 @@ Status-summary interface for reviewing condition changes across the process.
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              } 
+              }
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -510,7 +462,7 @@ Status-summary interface for reviewing condition changes across the process.
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -550,7 +502,7 @@ Status-summary interface for reviewing condition changes across the process.
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
+              // cook up a div (if necessary) and position it
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
@@ -676,12 +628,12 @@ Status-summary interface for reviewing condition changes across the process.
   <div class="nav-footer">
     <div class="nav-footer-left">
 <p>© 2026 Shunyu Wu</p>
-</div>   
+</div>
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Built with Quarto · Updated monthly</p>
+<p>Built with Quarto | Content checked 27 July 2026</p>
 </div>
   </div>
 </footer>

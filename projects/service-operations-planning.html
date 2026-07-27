@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Published methods for lag-aware demand forecasting and pressure modeling under unobserved disturbances.">
 
-<title>Service Operations Planning – Shunyu Wu</title>
+<title>Urban water forecasting and pressure modeling – Shunyu Wu</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,7 +18,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
 </style>
@@ -72,24 +73,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Service Operations Planning – Shunyu Wu">
-<meta property="og:description" content="Academic website of Shunyu Wu (吴舜禹), focusing on optimization, prediction, forecasting, and modeling.">
-<meta property="og:image" content="https://shunyuwu-shaun.github.io/assets/images/projects/service/area-map.png">
+<meta property="og:title" content="Urban water forecasting and pressure modeling – Shunyu Wu">
+<meta property="og:description" content="Published methods for lag-aware demand forecasting and pressure modeling under unobserved disturbances.">
 <meta property="og:site_name" content="Shunyu Wu">
-<meta property="og:image:alt" content="Representative service-area map">
-<meta property="og:image:height" content="921">
-<meta property="og:image:width" content="1364">
-<meta name="twitter:title" content="Service Operations Planning – Shunyu Wu">
-<meta name="twitter:description" content="Academic website of Shunyu Wu (吴舜禹), focusing on optimization, prediction, forecasting, and modeling.">
-<meta name="twitter:image" content="https://shunyuwu-shaun.github.io/assets/images/projects/service/area-map.png">
-<meta name="twitter:image:alt" content="Representative service-area map">
-<meta name="twitter:image-height" content="921">
-<meta name="twitter:image-width" content="1364">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Urban water forecasting and pressure modeling – Shunyu Wu">
+<meta name="twitter:description" content="Published methods for lag-aware demand forecasting and pressure modeling under unobserved disturbances.">
+<meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://shunyuwu-shaun.github.io/projects/service-operations-planning.html">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -107,47 +100,47 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../index.html">
 <span class="menu-text">Home</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../research/index.html"> 
+    <a class="nav-link" href="../research/index.html">
 <span class="menu-text">Research</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../publications/index.html"> 
+    <a class="nav-link" href="../publications/index.html">
 <span class="menu-text">Publications</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
+    <a class="nav-link" href="../projects/index.html">
+<span class="menu-text">Case Studies</span></a>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../news/index.html"> 
+    <a class="nav-link" href="../news/index.html">
 <span class="menu-text">News</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../service/index.html"> 
+    <a class="nav-link" href="../service/index.html">
 <span class="menu-text">Service</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../contact/index.html"> 
+    <a class="nav-link" href="../contact/index.html">
 <span class="menu-text">Contact</span></a>
-  </li>  
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=zh-CN&amp;oi=ao"> 
+    <a class="nav-link" href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=en">
 <span class="menu-text">Scholar</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0001-9856-2148"> 
+    <a class="nav-link" href="https://orcid.org/0000-0001-9856-2148">
 <span class="menu-text">ORCID</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/ShunyuWu-Shaun"> 
+    <a class="nav-link" href="https://github.com/ShunyuWu-Shaun">
 <span class="menu-text">GitHub</span></a>
-  </li>  
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -159,104 +152,66 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+
+  <ul>
+  <li><a href="#daily-demand-near-turning-points" id="toc-daily-demand-near-turning-points" class="nav-link active" data-scroll-target="#daily-demand-near-turning-points">Daily demand near turning points</a></li>
+  <li><a href="#trend-sensitive-evaluation" id="toc-trend-sensitive-evaluation" class="nav-link" data-scroll-target="#trend-sensitive-evaluation">Trend-sensitive evaluation</a></li>
+  <li><a href="#pressure-under-unobserved-variation" id="toc-pressure-under-unobserved-variation" class="nav-link" data-scroll-target="#pressure-under-unobserved-variation">Pressure under unobserved variation</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Service Operations Planning</h1>
+<h1 class="title">Urban water forecasting and pressure modeling</h1>
 </div>
 
+<div>
+  <div class="description">
+    Published methods for lag-aware demand forecasting and pressure modeling under unobserved disturbances.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
-    
-  
-    
+
+
+
   </div>
-  
+
 
 
 </header>
 
 
 <div class="project-safe-note">
-<p>Public-safe materials only: figures are selected from project materials and model outputs without sensitive operations records.</p>
+<p>This page uses only information in publisher records. Operational maps, site identifiers, dashboard records, and client data are excluded.</p>
 </div>
-<section id="application-context" class="level2">
-<h2 class="anchored" data-anchor-id="application-context">Application Context</h2>
-<p>This applied case focuses on a public-service scenario where planning decisions must balance service quality, resource cost, and operational stability.</p>
-<div class="project-figure-card">
-<img src="../assets/images/projects/service/area-map.png" alt="Representative service-area map">
-<p>
-Representative service-area map for a public-service planning scenario.
-</p>
-<p class="project-figure-caption-cn">
-中文图注：公共服务场景的示范区域示意图。
-</p>
-</div>
+<section id="daily-demand-near-turning-points" class="level2">
+<h2 class="anchored" data-anchor-id="daily-demand-near-turning-points">Daily demand near turning points</h2>
+<p>Daily urban water-demand forecasts can attain low average error while responding late when demand changes direction. This lag reduces their value for planning the next operating period.</p>
+<p>The <a href="https://doi.org/10.1016/j.eswa.2024.124508">knowledge-based bi-correction model</a> addresses the problem in two stages. Lag-penalty attention extracts prior sequence and feature information associated with timely demand changes. A stacked LSTM produces the primary forecast. A masked weighted Markov chain then corrects selected residuals using posterior error information.</p>
 </section>
-<section id="workflow-overview" class="level2">
-<h2 class="anchored" data-anchor-id="workflow-overview">Workflow Overview</h2>
-<div class="project-figure-card">
-<img src="../assets/images/projects/service/workflow-framework.png" alt="Representative planning workflow framework">
-<p>
-Workflow from multi-source inputs and event triggers to plan generation.
-</p>
-<p class="project-figure-caption-cn">
-中文图注：多源输入、事件触发与方案生成的方法框架。
-</p>
-</div>
-<ul>
-<li>Prediction and planning workflow connecting demand forecasting and routine decisions.</li>
-<li>Rule-aware planning with configurable settings.</li>
-<li>Integration with dashboard-based review and fallback options.</li>
-</ul>
+<section id="trend-sensitive-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="trend-sensitive-evaluation">Trend-sensitive evaluation</h2>
+<p>The study introduces mean prediction trend effectiveness to test whether a model follows changes in demand more closely than a naive forecast. Reporting this metric alongside absolute-error measures separates response timing from average numerical accuracy.</p>
 </section>
-<section id="forecasting-example" class="level2">
-<h2 class="anchored" data-anchor-id="forecasting-example">Forecasting Example</h2>
-<div class="project-figure-card">
-<img src="../assets/images/projects/service/forecast-example.png" alt="Representative forecasting example with MAPE shown on figure">
-<p>
-Forecasting example with low MAPE across the full study period.
-</p>
-<p class="project-figure-caption-cn">
-中文图注：全时段预测示例图，图中保留 MAPE 指标作为结果摘要。
-</p>
-</div>
+<section id="pressure-under-unobserved-variation" class="level2">
+<h2 class="anchored" data-anchor-id="pressure-under-unobserved-variation">Pressure under unobserved variation</h2>
+<p><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder</a> considers macroscopic pressure when measured inputs do not explain every disturbance in a water distribution system. The Coder models the pressure response associated with observed variables. The Critic changes the loss so that the remaining pressure variation can be represented as an uncertain disturbance.</p>
+<p>The comparison tests whether CritiCoder’s error increases less than conventional regression error at nodes more strongly affected by unobserved disturbances.</p>
 </section>
-<section id="review-interfaces" class="level2">
-<h2 class="anchored" data-anchor-id="review-interfaces">Review Interfaces</h2>
-<div class="project-figure-grid-2">
-<div class="project-figure-card">
-<img src="../assets/images/projects/service/dashboard.png" alt="Representative operations dashboard">
-<p>
-Dashboard for routine planning status, area map, and execution review.
-</p>
-<p class="project-figure-caption-cn">
-中文图注：运行总览界面，包含区域状态分布与例行记录。
-</p>
-</div>
-<div class="project-figure-card">
-<img src="../assets/images/projects/service/evaluation-panel.png" alt="Representative evaluation panel">
-<p>
-Evaluation panel supporting routine review of plan quality and summary indicators.
-</p>
-<p class="project-figure-caption-cn">
-中文图注：评估界面，用于查看方案质量与汇总指标。
-</p>
-</div>
-</div>
-</section>
-<section id="observed-outcomes" class="level2">
-<h2 class="anchored" data-anchor-id="observed-outcomes">Observed Outcomes</h2>
-<ul>
-<li>Observable quality and efficiency improvements were reported in routine use.</li>
-<li>Better interpretability was supported through dashboard and evaluation modules.</li>
-<li>Reusable templates supported recurring operating patterns.</li>
-</ul>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<p>Shunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. <a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting</a>. <em>Expert Systems with Applications</em>, 255, 124508, 2024.</p>
+<p>Shunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. <a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems</a>. <em>IEEE Transactions on Computational Social Systems</em>, 11(2), 2222-2233, 2024.</p>
 
 
 </section>
@@ -273,7 +228,7 @@ Evaluation panel supporting routine review of plan quality and summary indicator
     anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
+        if (clz.startsWith('code-annotation-')) {
           return true;
         }
       }
@@ -293,11 +248,11 @@ Evaluation panel supporting routine review of plan quality and summary indicator
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();    
+        tooltip.show();
       }
       setTimeout(function() {
         if (tooltip) {
@@ -381,7 +336,7 @@ Evaluation panel supporting routine review of plan quality and summary indicator
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config); 
+      window.tippy(el, config);
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -456,7 +411,7 @@ Evaluation panel supporting routine review of plan quality and summary indicator
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined; 
+        let hash = undefined;
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -484,7 +439,7 @@ Evaluation panel supporting routine review of plan quality and summary indicator
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              } 
+              }
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -508,7 +463,7 @@ Evaluation panel supporting routine review of plan quality and summary indicator
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -548,7 +503,7 @@ Evaluation panel supporting routine review of plan quality and summary indicator
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
+              // cook up a div (if necessary) and position it
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
@@ -674,12 +629,12 @@ Evaluation panel supporting routine review of plan quality and summary indicator
   <div class="nav-footer">
     <div class="nav-footer-left">
 <p>© 2026 Shunyu Wu</p>
-</div>   
+</div>
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Built with Quarto · Updated monthly</p>
+<p>Built with Quarto | Content checked 27 July 2026</p>
 </div>
   </div>
 </footer>

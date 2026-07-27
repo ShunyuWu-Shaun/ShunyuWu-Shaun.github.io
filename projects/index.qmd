@@ -1,71 +1,40 @@
 ---
-title: "Projects"
-description: "Representative applied workflows and project summaries."
+title: "Research case studies"
+description: "Source-linked summaries of published work on water-energy scheduling, urban water forecasting, pressure modeling, and learned decision rules."
 toc: false
 ---
 
 ::: {.project-safe-note}
-Only **public-safe** materials are shown. Figures were selected after removing signatures, contract identifiers, personal handwriting, and other sensitive records.
+These summaries draw only on the linked publications. They contain no nonpublic operational data.
 :::
 
-## Representative Applied Work
+## Water-energy resource scheduling
 
-::: {.project-hero-grid}
-<div class="project-figure-card">
-<img src="/assets/images/projects/industrial/overview.png" alt="Representative industrial workflow interface">
-<p><strong>Industrial Setting:</strong> Representative interface for optimization and forecasting support.</p>
-<p class="project-figure-caption-cn">中文图注：工业场景分析主界面，展示关键状态、指标与建议量。</p>
-</div>
+::: {.entry-card}
+The [SPTO study](https://doi.org/10.1109/TSG.2025.3601238) models the full urban water-supply process under uncertain electricity prices. Probabilistic price forecasts parameterize a stochastic scheduling problem, and a convex upper bound on the optimality gap provides gradients for training. Experiments on real-world systems compare operating cost and decision regret with two-stage baselines.
 
-<div class="project-figure-card">
-<img src="/assets/images/projects/service/dashboard.png" alt="Representative service-operations dashboard">
-<p><strong>Service Setting:</strong> Representative dashboard for a planning and review workflow.</p>
-<p class="project-figure-caption-cn">中文图注：公共服务场景运行总览界面，展示区域状态、执行信息与例行评估。</p>
-</div>
+[Read the case study](industrial-workflow-analysis.qmd)
 :::
 
-::: {.project-metric-chips}
-<div class="project-metric-chip"><span class="k">Representative Settings</span><span class="v">Applied studies in industrial and public-service environments</span></div>
-<div class="project-metric-chip"><span class="k">Observed Outcome</span><span class="v">Observable quality and efficiency improvements were reported</span></div>
-<div class="project-metric-chip"><span class="k">Material Type</span><span class="v">Representative interfaces, workflow diagrams, and result summaries</span></div>
-<div class="project-metric-chip"><span class="k">Review Mode</span><span class="v">Staged evaluation with summary-level reporting</span></div>
+## Urban water forecasting and pressure modeling
+
+::: {.entry-card}
+Two first-authored studies address different sources of forecast error. [KbBcM](https://doi.org/10.1016/j.eswa.2024.124508) targets delayed responses near changes in daily demand. [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) represents pressure variation associated with unobserved disturbances.
+
+[Read the case study](service-operations-planning.qmd)
 :::
 
-## Application Highlights
+## Learned decision rules
 
 ::: {.two-col-grid}
 ::: {.feature-card}
-#### Industrial Optimization Workflow
-- Optimization and forecasting support integrated into routine review.
-- Evaluated under varying operating conditions in representative settings.
-- Interface-level diagnostics used for summary review and staged checks.
+### Candidate action selection
+
+[GEM](https://arxiv.org/abs/2603.23232) retains multiple action hypotheses with a Gaussian-mixture actor. Its inference rule ranks candidates by conservative value and behavior-model support.
 :::
 ::: {.feature-card}
-#### Service Operations Planning
-- Planning and review workflow used in routine operation.
-- Forecasting and planning framework with configurable workflow settings.
-- Dashboard-based review and summary evaluation for recurring tasks.
-:::
-:::
+### Local trajectory generation
 
-## Selected Applications
-
-::: {.card-list}
-::: {.entry-card}
-#### [Industrial Workflow Analysis](industrial-workflow-analysis.qmd)
-- Role: Project Lead
-- Type: Representative applied case
-:::
-::: {.entry-card}
-#### [Service Operations Planning](service-operations-planning.qmd)
-- Role: Algorithm Lead
-- Type: Representative applied case
+[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent denoising.
 :::
 :::
-
-## Common Workflow Characteristics
-
-- Quality checks and feasibility safeguards built in from the start.
-- Modular prediction / evaluation / release structure.
-- Configuration-driven workflow with staged review.
-- Clear interfaces and records for recurring use.

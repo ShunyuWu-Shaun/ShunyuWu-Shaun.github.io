@@ -1,72 +1,29 @@
 ---
-title: "Industrial Optimization Workflow"
-domain: "industrial"
-period: "2024-Present"
-role: "Project Lead"
-problem: "Improve process quality and efficiency under changing operating conditions while respecting routine boundaries."
-method: "Optimization and forecasting workflow with constraint handling, recommendation support, and staged validation."
-outcome: "Observable quality and efficiency improvements were reported in representative industrial settings."
-status: "deployed"
-confidentiality: "public-safe"
-selected: true
-toc: false
+title: "Water-energy resource scheduling"
+description: "A published case study on stochastic predict-then-optimize for urban water supply under electricity-cost uncertainty."
+toc: true
 ---
 
 ::: {.project-safe-note}
-Public-safe materials only: no acceptance pages with signatures, contract numbers, or handwritten records are shown.
+This page summarizes the peer-reviewed article and omits utility names, asset locations, internal screenshots, and operational records.
 :::
 
-## Application Context
+## Decision problem
 
-This applied case focuses on an industrial process setting with changing operating conditions. The goal is to improve quality and efficiency while staying within routine operating boundaries.
+Urban water supply consumes electricity throughout treatment, transport, and distribution. The resulting schedule depends on the expected electricity cost, while errors in that forecast can change operating cost and the selected schedule.
 
-- Representative application context: evaluated in routine industrial environments.
-- Primary objective: improve process quality and efficiency while maintaining stable operation.
-- Constraints: process limits, equipment boundaries, and routine operating ranges.
+The study models the full water-supply process as a stochastic scheduling problem with uncertain electricity prices. It evaluates forecast quality by pointwise prediction error and by the objective value of the induced schedule.
 
-## Workflow Overview
+## Stochastic Predict-Then-Optimize
 
-<div class="project-figure-card">
-<img src="/assets/images/projects/industrial/overview.png" alt="Representative industrial workflow interface">
-<p>Representative workflow view integrating process state, key indicators, and suggested adjustments.</p>
-<p class="project-figure-caption-cn">中文图注：工业场景分析总览界面，联动输入条件、状态信息与建议量。</p>
-</div>
+Stochastic Predict-Then-Optimize combines a probabilistic forecasting model with the downstream stochastic program. The forecast distribution supplies uncertain cost parameters to the scheduler. The resulting schedule defines the decision loss used to update the predictor.
 
-- Optimization workflow for adjustment support.
-- Condition-adaptive safeguards for stable operation under uncertainty.
-- Fast recommendation modules for lower-latency review.
-- Staged release workflow with replay-style validation.
+Direct differentiation through this optimization problem is difficult. SPTO+ replaces the exact optimality gap with a differentiable convex upper bound derived from Lagrangian duality. The bound supplies a surrogate gradient while retaining the scheduling problem in the training objective.
 
-## Representative Interfaces
+## Evaluation
 
-::: {.project-figure-grid-3}
-<div class="project-figure-card">
-<img src="/assets/images/projects/industrial/diagnostic-summary.png" alt="Representative diagnostic summary panel">
-<p>Diagnostic summary view for comparing baseline and current operating conditions.</p>
-<p class="project-figure-caption-cn">中文图注：诊断分析界面，用于定位关键偏差项。</p>
-</div>
+The experiments compare forecast quality, operating cost, and decision regret on real-world water-supply systems. The paper reports lower operating cost and regret than the tested two-stage forecasting and optimization baselines. The public article does not disclose the utility maps or operational dashboards previously stored in this repository.
 
-<div class="project-figure-card">
-<img src="/assets/images/projects/industrial/strategy-panel.png" alt="Representative strategy panel">
-<p>Strategy panel for reviewing local states and adjustment opportunities.</p>
-<p class="project-figure-caption-cn">中文图注：策略界面，展示局部状态与建议动作。</p>
-</div>
+## Publication
 
-<div class="project-figure-card">
-<img src="/assets/images/projects/industrial/status-analysis.png" alt="Representative status summary panel">
-<p>Status-summary interface for reviewing condition changes across the process.</p>
-<p class="project-figure-caption-cn">中文图注：状态分析界面，用于辅助例行评估与复核。</p>
-</div>
-:::
-
-## Observed Outcomes
-
-- Observable quality and efficiency improvement was reported across representative operating scenarios.
-- Better diagnosis support was available through summary and trend views.
-- Stable workflow behavior was maintained under varied operating conditions.
-
-## Notes
-
-- Template reuse supported faster adaptation in similar environments.
-- Workflow release followed staged validation and review safeguards.
-- Reported gains varied with scenario and operating conditions.
+Shunyu Wu, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao. [End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling](https://doi.org/10.1109/TSG.2025.3601238). *IEEE Transactions on Smart Grid*, 16(6), 4796-4807, 2025.

@@ -1,6 +1,6 @@
 ---
 title: "News"
-description: "Research updates, publication milestones, and project progress."
+description: "Publication and research updates from Shunyu Wu."
 toc: false
 ---
 
@@ -8,29 +8,23 @@ toc: false
 
 ::: {.card-list}
 ::: {.entry-card}
-#### 2026-06 | Incoming postdoc appointment
-I will continue this research as an **incoming postdoc**.
+#### July 2026 | DRIFT available online
+[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261), a collaboration on diffusion-based trajectory generation from local LiDAR observations, is available online and assigned to volume 331 of *Expert Systems with Applications*.
 :::
 ::: {.entry-card}
-#### 2026-02 | Website upgrade and migration
-The academic website moved to **shunyuwu-shaun.github.io** with streamlined publication pages and representative project summaries.
+#### March 2026 | GEM preprint released
+[GEM](https://arxiv.org/abs/2603.23232) samples candidate actions from a Gaussian-mixture actor, then ranks them using conservative value estimates and a behavior-support term normalized within each state.
 :::
 ::: {.entry-card}
-#### 2025-11 | IEEE TSG paper officially indexed
-A first-author journal article on resource planning is now online with DOI.
+#### 2025 | SPTO published in IEEE Transactions on Smart Grid
+[Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) connects probabilistic electricity-cost forecasting with stochastic scheduling for urban water supply.
 :::
 ::: {.entry-card}
-#### 2025-08 | New manuscripts entered active review
-Manuscripts on optimization, prediction, forecasting, and modeling entered active submission and review cycles.
+#### December 2024 | Bi-correction model published
+[The knowledge-based bi-correction model](https://doi.org/10.1016/j.eswa.2024.124508) combines lag-penalty attention with posterior error correction for daily urban water-demand forecasting.
 :::
 ::: {.entry-card}
-#### 2025-05 | Applied workflow update
-An applied workflow continued in stable routine use with observable quality improvements.
+#### April 2024 | CritiCoder published
+[CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) appeared in volume 11, issue 2 of *IEEE Transactions on Computational Social Systems*.
 :::
 :::
-
-## What This Page Tracks
-
-- Publication status transitions (under review -> accepted -> published)
-- Service and collaboration milestones
-- Project milestones in representative application settings

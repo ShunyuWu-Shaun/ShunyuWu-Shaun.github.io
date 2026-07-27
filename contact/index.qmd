@@ -1,32 +1,25 @@
 ---
 title: "Contact"
-description: "Contact links and academic profiles for Shunyu Wu."
-keywords:
-  - Shunyu Wu
-  - shunyuwu
-  - 吴舜禹
-  - contact
+description: "Email and academic profile links for Shunyu Wu."
 toc: false
 ---
 
-::: {.section-note}
-For collaboration, seminar invitations, or research discussions, email is the preferred channel.
-:::
+## Email
 
-## Contact
-
-- Email: [shunyuwu@sjtu.edu.cn](mailto:shunyuwu@sjtu.edu.cn)
-- Name variants: **Shunyu Wu** | **shunyuwu** | **吴舜禹**
-- Google Scholar: [profile](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao)
-- ResearchGate: [profile](https://www.researchgate.net/profile/Shunyu-Wu?ev=hdr_xprf)
-- ORCID: [0000-0001-9856-2148](https://orcid.org/0000-0001-9856-2148)
-- GitHub: [ShunyuWu-Shaun](https://github.com/ShunyuWu-Shaun)
+For research discussions, seminar invitations, or collaboration on decision-focused forecasting and stochastic scheduling for water systems, email [shunyuwu@sjtu.edu.cn](mailto:shunyuwu@sjtu.edu.cn).
 
 ## Affiliation
 
-- Shanghai Jiao Tong University
-- Incoming postdoc
+Department of Automation<br>
+Shanghai Jiao Tong University
 
-## Privacy Notice
+## Academic profiles
 
-This website intentionally omits sensitive personal information (phone number, date of birth, ID, and home address).
+- [Google Scholar](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en)
+- [ORCID 0000-0001-9856-2148](https://orcid.org/0000-0001-9856-2148)
+- [GitHub](https://github.com/ShunyuWu-Shaun)
+- [ResearchGate](https://www.researchgate.net/profile/Shunyu-Wu)
+
+## Privacy
+
+This site does not publish a phone number, home address, date of birth, or personal identification records.

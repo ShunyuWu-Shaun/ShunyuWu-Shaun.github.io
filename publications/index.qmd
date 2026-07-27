@@ -1,68 +1,49 @@
 ---
 title: "Publications"
-description: "Selected publications and ongoing work by Shunyu Wu, presented with concise topic descriptions and official record links."
-keywords:
-  - Shunyu Wu publications
-  - shunyuwu publications
-  - 吴舜禹 论文
-  - optimization
-  - prediction
-  - forecasting
-  - modeling
-toc: false
+description: "Journal articles, preprints, and conference papers by Shunyu Wu, with complete titles and persistent links."
+toc: true
 ---
 
-::: {.section-note}
-This page uses concise topic descriptions and links to official records on DOI, Google Scholar, ResearchGate, and ORCID.
-:::
+## Profile snapshot
 
-Recurring themes across this work include **optimization**, **prediction**, **forecasting**, and **modeling**.
+On July 27, 2026, Google Scholar listed 13 works, 61 citations, an h-index of 5, and an i10-index of 3. Current counts are available on the linked profile.
 
-## Citation Profiles
+- [Google Scholar](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en)
+- [ORCID 0000-0001-9856-2148](https://orcid.org/0000-0001-9856-2148)
+- [ResearchGate](https://www.researchgate.net/profile/Shunyu-Wu)
 
-- Google Scholar: [Shunyu Wu profile](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=zh-CN&oi=ao)
-- ResearchGate: [Shunyu Wu profile](https://www.researchgate.net/profile/Shunyu-Wu?ev=hdr_xprf)
-- ORCID record: [0000-0001-9856-2148](https://orcid.org/0000-0001-9856-2148)
+Publisher records and preprint pages determine the status shown below. Manuscripts without a public record are omitted.
 
-## At a Glance
+## 2026 articles and preprints
 
-- 3 first-author published journal papers
-- 5 first-author manuscripts in submitted, under-review, or in-preparation stages
-- 6 selected collaboration papers across journals and conference proceedings
+1. Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and **Shunyu Wu**. [DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation](https://doi.org/10.1016/j.eswa.2026.133261). *Expert Systems with Applications*, 331, 133261, 2026.
 
-## Published (First-Author)
+2. Haoyu Wang, Jingcheng Wang, **Shunyu Wu**, and Xinwei Xiao. [GEM: Guided Expectation-Maximization for Behavior-Normalized Candidate Action Selection in Offline RL](https://arxiv.org/abs/2603.23232). arXiv:2603.23232, 2026.
 
-1. Article on coupled resource planning and optimization.  
-IEEE Transactions on Smart Grid, 2025. DOI: [10.1109/TSG.2025.3601238](https://doi.org/10.1109/TSG.2025.3601238)
-2. Article on daily demand prediction and forecasting.  
-Expert Systems with Applications, 2024. DOI: [10.1016/j.eswa.2024.124508](https://doi.org/10.1016/j.eswa.2024.124508)
-3. Article on uncertainty-aware network state modeling.  
-IEEE Transactions on Computational Social Systems, 2023. DOI: [10.1109/TCSS.2023.3272330](https://doi.org/10.1109/TCSS.2023.3272330)
+## First-authored journal articles
 
-## Ongoing Work (Submitted / Under Review / In Preparation)
+1. **Shunyu Wu**, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao. [End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling](https://doi.org/10.1109/TSG.2025.3601238). *IEEE Transactions on Smart Grid*, 16(6), 4796-4807, 2025.
 
-1. Study on planning under uncertainty.  
-Submitted, 2026.
-2. Study on optimization with approximate gradients.  
-Submitted, 2025.
-3. Study on stable optimization pipelines.  
-Under review, 2026.
-4. Study on feasibility-aware constrained methods.  
-Under review, 2026.
-5. Study on planning under uncertain parameters.  
-In preparation, 2026.
+2. **Shunyu Wu**, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. [Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508). *Expert Systems with Applications*, 255, 124508, 2024.
 
-## Collaborations (Selected Published / Proceedings)
+3. **Shunyu Wu**, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. [CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems](https://doi.org/10.1109/TCSS.2023.3272330). *IEEE Transactions on Computational Social Systems*, 11(2), 2222-2233, 2024.
 
-1. Article on iterative methods for nonlinear systems.  
-IEEE TSMC: Systems, 2024. DOI: [10.1109/TSMC.2023.3344883](https://doi.org/10.1109/TSMC.2023.3344883)
-2. Article on adaptive dynamic programming for nonlinear systems.  
-IEEE TSMC: Systems, 2024. DOI: [10.1109/TSMC.2023.3327450](https://doi.org/10.1109/TSMC.2023.3327450)
-3. Article on industrial process prediction.  
-IEEE TASE, 2024. DOI: [10.1109/TASE.2023.3236306](https://doi.org/10.1109/TASE.2023.3236306)
-4. Article on hybrid prediction for industrial processes.  
-IEEE TASE, 2024. DOI: [10.1109/TASE.2023.3299185](https://doi.org/10.1109/TASE.2023.3299185)
-5. Conference paper on time-scale methods for nonlinear systems.  
-CDC, 2023. DOI: [10.1109/CDC49753.2023.10383316](https://doi.org/10.1109/CDC49753.2023.10383316)
-6. Conference paper on irregular forecasting.  
-IFAC-PapersOnLine, 2023. DOI: [10.1016/j.ifacol.2023.10.581](https://doi.org/10.1016/j.ifacol.2023.10.581)
+## Collaborative journal articles
+
+1. Yanjiu Zhong, Jingcheng Wang, Jiahui Xu, **Shunyu Wu**, Jun Rao, and Kangbo Dang. [Prediction of Energy Consumption in Horizontal Roughing Process of Hot Rolling Strip Based on TDADE Algorithm](https://doi.org/10.1109/TASE.2023.3236306). *IEEE Transactions on Automation Science and Engineering*, 21(1), 555-568, 2024.
+
+2. Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and **Shunyu Wu**. [Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method](https://doi.org/10.1109/TSMC.2023.3344883). *IEEE Transactions on Systems, Man, and Cybernetics: Systems*, 54(4), 2368-2378, 2024.
+
+3. Jiahui Xu, Jingcheng Wang, Jun Rao, **Shunyu Wu**, and Yanjiu Zhong. [Adaptive Dynamic Programming for Optimal Control of Discrete-Time Nonlinear Systems With Trajectory-Based Initial Control Policy](https://doi.org/10.1109/TSMC.2023.3327450). *IEEE Transactions on Systems, Man, and Cybernetics: Systems*, 54(3), 1489-1501, 2024.
+
+4. Yanjiu Zhong, Jingcheng Wang, Jun Rao, Jiahui Xu, and **Shunyu Wu**. [A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling](https://doi.org/10.1109/TASE.2023.3299185). *IEEE Transactions on Automation Science and Engineering*, 21(3), 4585-4598, 2024.
+
+## Conference papers
+
+1. Jun Rao, Jingcheng Wang, Jiahui Xu, and **Shunyu Wu**. [Adaptive Optimal Control of Nonlinear Systems With Multiple Time-Scale Eligibility Traces](https://doi.org/10.1109/CDC49753.2023.10383316). *2023 62nd IEEE Conference on Decision and Control (CDC)*, 2258-2263, 2023.
+
+2. Tzuyi Kan, Jingcheng Wang, and **Shunyu Wu**. [The CEEMDAN-ps-gcGRU Model On Water Pressure Prediction With Strong Irregularity](https://doi.org/10.1016/j.ifacol.2023.10.581). *IFAC-PapersOnLine*, 56(2), 7108-7113, 2023.
+
+3. **Shunyu Wu**, Pingwei Zhao, Miaoshun Bai, Jingcheng Wang, and Yang Lan. [A Fine Grained Forecasting Method for Minute-Level Urban Water Demand](https://doi.org/10.23919/CCC52363.2021.9550182). *2021 40th Chinese Control Conference (CCC)*, 8298-8303, 2021.
+
+4. Shuwei Zhang, Miaoshun Bai, Jingcheng Wang, Haotian Xu, and **Shunyu Wu**. [An Improved Ensemble Deep Learning Model for Water Leakage Detection](https://doi.org/10.23919/CCC52363.2021.9550267). *2021 40th Chinese Control Conference (CCC)*, 1762-1767, 2021.

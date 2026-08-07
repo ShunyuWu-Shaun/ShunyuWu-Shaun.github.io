@@ -65,26 +65,6 @@ body-classes: home-page
 </script>
 
 ```{=html}
-<div class="site-splash" data-site-splash aria-hidden="true">
-  <svg class="splash-lattice" viewBox="0 0 900 520" focusable="false">
-    <g class="splash-links">
-      <path d="M95 118L205 75L296 143L405 91L513 153L626 92L752 142"/>
-      <path d="M95 118L138 244L275 256L296 143L405 91L438 239L513 153L595 263L626 92L752 142L793 279"/>
-      <path d="M138 244L116 390L244 435L275 256L390 383L438 239L535 406L595 263L700 395L793 279"/>
-    </g>
-    <g class="splash-nodes">
-      <circle cx="95" cy="118" r="8"/><circle cx="205" cy="75" r="8"/><circle cx="296" cy="143" r="8"/><circle cx="405" cy="91" r="8"/><circle cx="513" cy="153" r="8"/><circle cx="626" cy="92" r="8"/><circle cx="752" cy="142" r="8"/><circle cx="138" cy="244" r="8"/><circle cx="275" cy="256" r="8"/><circle cx="438" cy="239" r="8"/><circle cx="595" cy="263" r="8"/><circle cx="793" cy="279" r="8"/><circle cx="116" cy="390" r="8"/><circle cx="244" cy="435" r="8"/><circle cx="390" cy="383" r="8"/><circle cx="535" cy="406" r="8"/><circle cx="700" cy="395" r="8"/>
-    </g>
-    <path class="splash-decision" d="M94 118C213 83 268 280 391 382S609 270 793 279"/>
-  </svg>
-  <div class="splash-wordmark">
-    <span>SW / PHYSICAL INTELLIGENCE</span>
-    <strong>OBSERVE. LEARN. DECIDE.</strong>
-  </div>
-</div>
-```
-
-```{=html}
 <div class="home-shell">
   <section class="home-hero" aria-labelledby="home-hero-title">
     <div class="hero-lattice" aria-hidden="true">
@@ -118,10 +98,9 @@ body-classes: home-page
 
     <aside class="hero-profile" aria-label="Shunyu Wu profile">
       <div class="portrait-frame">
-        <img src="/assets/images/shunyu-wu-avatar.jpg" width="256" height="256" alt="Portrait of Shunyu Wu">
-        <span class="portrait-corner portrait-corner-a"></span><span class="portrait-corner portrait-corner-b"></span>
+        <img src="/assets/images/shunyu-wu-avatar.jpg" width="112" height="112" alt="Portrait of Shunyu Wu">
       </div>
-      <p class="profile-index">RESEARCHER / 01</p>
+      <p class="profile-index">PROFILE</p>
       <h2>Shunyu Wu <span>吴舜禹</span></h2>
       <p>Ezra Systems Postdoctoral Associate<br>Systems Engineering Program<br>Cornell University<span class="profile-degree">Ph.D., Shanghai Jiao Tong University</span></p>
       <div class="profile-links"><a href="https://orcid.org/0000-0001-9856-2148">ORCID</a><a href="https://github.com/ShunyuWu-Shaun">GITHUB</a><a href="mailto:shunyuwu@sjtu.edu.cn">EMAIL</a></div>
@@ -130,7 +109,7 @@ body-classes: home-page
 
   <section class="home-section news-front" id="latest-news" data-reveal aria-labelledby="news-front-title">
     <header class="section-heading">
-      <p>01 / LATEST SIGNALS</p>
+      <p>NEWS</p>
       <h2 id="news-front-title">A new chapter at Cornell.</h2>
       <a href="/news/">All news <span aria-hidden="true">↗</span></a>
     </header>
@@ -161,7 +140,7 @@ body-classes: home-page
 
   <section class="home-section research-front" data-reveal aria-labelledby="research-front-title">
     <header class="section-heading section-heading-wide">
-      <p>02 / RESEARCH VECTORS</p>
+      <p>RESEARCH</p>
       <h2 id="research-front-title">AI that respects physics and earns its decisions.</h2>
       <p>My Ph.D. work established a methodological base in decision-focused forecasting and constrained optimization for water-energy systems. At Cornell, I am extending that base toward physics-aware AI for materials discovery.</p>
     </header>
@@ -197,7 +176,7 @@ body-classes: home-page
 
   <section class="home-section paper-front" id="featured-work" data-reveal aria-labelledby="featured-work-title">
     <header class="section-heading section-heading-wide">
-      <p>03 / FEATURED FIRST-AUTHOR WORK</p>
+      <p>SELECTED FIRST-AUTHOR WORK</p>
       <h2 id="featured-work-title">Methods built around the decision that follows.</h2>
       <p>Four lead-author methods connect probabilistic forecasts, uncertain representations, and the physical decisions they drive.</p>
     </header>
@@ -223,7 +202,7 @@ body-classes: home-page
 
   <section class="home-section last-author-front" data-reveal aria-labelledby="last-author-title">
     <header class="section-heading section-heading-wide">
-      <p>04 / SELECTED LAST-AUTHOR WORK</p>
+      <p>SELECTED LAST-AUTHOR WORK</p>
       <h2 id="last-author-title">From local geometry to constrained control.</h2>
       <p>Last-author collaborations extend this program into diffusion trajectories and safety-constrained control.</p>
     </header>
@@ -242,7 +221,7 @@ body-classes: home-page
 
   <section class="home-section service-front" data-reveal aria-labelledby="service-front-title">
     <div>
-      <p class="service-kicker">05 / ACADEMIC COMMUNITY</p>
+      <p class="service-kicker">ACADEMIC SERVICE</p>
       <h2 id="service-front-title">Research is sharper when the field argues back.</h2>
     </div>
     <div class="service-copy">

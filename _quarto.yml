@@ -63,9 +63,9 @@ format:
     include-in-header:
       text: |
         <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
-        <link rel="stylesheet" href="/styles.css?v=20260806b">
+        <link rel="stylesheet" href="/styles.css?v=20260806c">
     include-after-body:
       text: |
-        <script defer src="/assets/site.js"></script>
+        <script defer src="/assets/site.js?v=20260806c"></script>
 
 lang: en

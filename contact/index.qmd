@@ -6,7 +6,7 @@ toc: false
 
 ## Research conversations
 
-I welcome conversations on Physical AI for Science, AI for materials discovery, decision-focused learning, physics-aware generative modeling, and constrained scientific decision-making.
+I welcome conversations on neural operators, operator learning for downstream control, constrained optimization, Physical AI for materials systems, and decision-focused learning.
 
 [shunyuwu@sjtu.edu.cn](mailto:shunyuwu@sjtu.edu.cn)
 

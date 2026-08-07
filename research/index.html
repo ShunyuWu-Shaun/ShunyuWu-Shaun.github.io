@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Shunyu Wu develops physics-aware and decision-focused AI for materials discovery, scientific forecasting, constrained optimization, and control.">
+<meta name="description" content="Shunyu Wu studies neural operators for physical systems and their use in downstream control, constrained optimization, and materials processes.">
 
 <title>Research – Shunyu Wu</title>
 <style>
@@ -70,14 +70,14 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
-<link rel="stylesheet" href="../styles.css?v=20260806c">
+<link rel="stylesheet" href="../styles.css?v=20260806d">
 
 
 <meta property="og:title" content="Research – Shunyu Wu">
-<meta property="og:description" content="Shunyu Wu develops physics-aware and decision-focused AI for materials discovery, scientific forecasting, constrained optimization, and control.">
+<meta property="og:description" content="Shunyu Wu studies neural operators for physical systems and their use in downstream control, constrained optimization, and materials processes.">
 <meta property="og:site_name" content="Shunyu Wu">
 <meta name="twitter:title" content="Research – Shunyu Wu">
-<meta name="twitter:description" content="Shunyu Wu develops physics-aware and decision-focused AI for materials discovery, scientific forecasting, constrained optimization, and control.">
+<meta name="twitter:description" content="Shunyu Wu studies neural operators for physical systems and their use in downstream control, constrained optimization, and materials processes.">
 <meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://shunyuwu-shaun.github.io/research/">
 </head>
@@ -157,9 +157,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
 
   <ul>
-  <li><a href="#physical-ai-for-scientific-discovery" id="toc-physical-ai-for-scientific-discovery" class="nav-link active" data-scroll-target="#physical-ai-for-scientific-discovery">Physical AI for scientific discovery</a></li>
+  <li><a href="#neural-operators-for-physical-systems" id="toc-neural-operators-for-physical-systems" class="nav-link active" data-scroll-target="#neural-operators-for-physical-systems">Neural operators for physical systems</a></li>
+  <li><a href="#neural-operators-in-downstream-control" id="toc-neural-operators-in-downstream-control" class="nav-link" data-scroll-target="#neural-operators-in-downstream-control">Neural operators in downstream control</a></li>
+  <li><a href="#neural-operators-in-constrained-optimization" id="toc-neural-operators-in-constrained-optimization" class="nav-link" data-scroll-target="#neural-operators-in-constrained-optimization">Neural operators in constrained optimization</a></li>
+  <li><a href="#physical-ai-for-materials-processes" id="toc-physical-ai-for-materials-processes" class="nav-link" data-scroll-target="#physical-ai-for-materials-processes">Physical AI for materials processes</a></li>
   <li><a href="#decision-focused-learning" id="toc-decision-focused-learning" class="nav-link" data-scroll-target="#decision-focused-learning">Decision-focused learning</a></li>
-  <li><a href="#physics-aware-generative-modeling" id="toc-physics-aware-generative-modeling" class="nav-link" data-scroll-target="#physics-aware-generative-modeling">Physics-aware generative modeling</a></li>
   <li><a href="#scientific-forecasting-under-uncertainty" id="toc-scientific-forecasting-under-uncertainty" class="nav-link" data-scroll-target="#scientific-forecasting-under-uncertainty">Scientific forecasting under uncertainty</a></li>
   <li><a href="#generative-decisions-in-physical-environments" id="toc-generative-decisions-in-physical-environments" class="nav-link" data-scroll-target="#generative-decisions-in-physical-environments">Generative decisions in physical environments</a></li>
   <li><a href="#research-map" id="toc-research-map" class="nav-link" data-scroll-target="#research-map">Research map</a></li>
@@ -176,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Shunyu Wu develops physics-aware and decision-focused AI for materials discovery, scientific forecasting, constrained optimization, and control.
+    Shunyu Wu studies neural operators for physical systems and their use in downstream control, constrained optimization, and materials processes.
   </div>
 </div>
 
@@ -193,20 +195,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="physical-ai-for-scientific-discovery" class="level2">
-<h2 class="anchored" data-anchor-id="physical-ai-for-scientific-discovery">Physical AI for scientific discovery</h2>
-<p>My current research asks how an AI model can move from scientific observations to experimentally feasible decisions. At Cornell, I am extending decision-focused learning toward physics-aware AI for materials discovery. Prediction alone is insufficient: the learned representation must improve the choice of material candidate, experiment, schedule, or control action under physical constraints.</p>
-<p>Physical representations feed generative models, and constrained optimizers evaluate the resulting candidates to select the next experiment or design action. This chain exposes how each learned output changes a scientific decision.</p>
+<section id="neural-operators-for-physical-systems" class="level2">
+<h2 class="anchored" data-anchor-id="neural-operators-for-physical-systems">Neural operators for physical systems</h2>
+<p>At Cornell, my postdoctoral research examines neural operators and how their approximation errors propagate into downstream control and constrained optimization. A neural operator learns a map between functions, such as the map from an initial condition and a forcing field to a spatiotemporal solution. I evaluate the learned operator through both field error and the physical decisions it changes.</p>
+<p>Materials processes provide one target setting because their state evolves as a field over space and time. Geometry and boundary conditions define the operator input, while measured fields provide training targets. Downstream tests measure the control cost or optimized design produced from the predicted field.</p>
+</section>
+<section id="neural-operators-in-downstream-control" class="level2">
+<h2 class="anchored" data-anchor-id="neural-operators-in-downstream-control">Neural operators in downstream control</h2>
+<p>A learned solution operator can supply state rollouts to a controller without solving the governing equations from scratch at every control step. My research studies how local approximation error accumulates over a control horizon and changes the selected action. This relation motivates training objectives that account for closed-loop behavior as well as field reconstruction.</p>
+</section>
+<section id="neural-operators-in-constrained-optimization" class="level2">
+<h2 class="anchored" data-anchor-id="neural-operators-in-constrained-optimization">Neural operators in constrained optimization</h2>
+<p>Embedding a differentiable neural operator in an optimization problem links physical field prediction to design or operating decisions. Gradient accuracy and feasibility indicate whether the surrogate can be used inside the optimizer. Decision sensitivity shows when a small field error produces a materially different optimum.</p>
+</section>
+<section id="physical-ai-for-materials-processes" class="level2">
+<h2 class="anchored" data-anchor-id="physical-ai-for-materials-processes">Physical AI for materials processes</h2>
+<p>Materials processing often requires a map from process conditions and geometry to a field that evolves over space and time. I use neural operators to approximate this map across operating conditions. The predicted field then parameterizes experiment selection, process control, or constrained design.</p>
 </section>
 <section id="decision-focused-learning" class="level2">
 <h2 class="anchored" data-anchor-id="decision-focused-learning">Decision-focused learning</h2>
 <p><a href="https://doi.org/10.1109/TSG.2025.3601238">Stochastic Predict-Then-Optimize</a> trains a probabilistic electricity-cost forecast against the stochastic water-supply schedule that follows. A differentiable convex upper bound on optimality gap, derived from Lagrangian duality, passes a decision-relevant training signal back to the predictor.</p>
-<p>This formulation distinguishes prediction errors that change the selected schedule from errors that leave the decision unchanged. The same principle can support scientific decision problems in which a predictor parameterizes experiment selection or candidate screening.</p>
-</section>
-<section id="physics-aware-generative-modeling" class="level2">
-<h2 class="anchored" data-anchor-id="physics-aware-generative-modeling">Physics-aware generative modeling</h2>
-<p>Generative models can search large candidate spaces, but scientific candidates must satisfy structure and feasibility requirements. Physics-aware generation encodes these constraints and retains them during downstream ranking. For materials discovery, the constraint set may include symmetry, periodicity, composition, and experimental feasibility.</p>
-<p>Candidate quality is measured by constraint satisfaction and by the physical or experimental decisions a candidate supports, alongside sample fidelity.</p>
+<p>This formulation distinguishes prediction errors that change the selected schedule from errors that leave the decision unchanged. The same principle motivates operator-learning objectives that weight field errors by their effect on a controller or optimizer.</p>
 </section>
 <section id="scientific-forecasting-under-uncertainty" class="level2">
 <h2 class="anchored" data-anchor-id="scientific-forecasting-under-uncertainty">Scientific forecasting under uncertainty</h2>
@@ -236,10 +245,22 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Which candidate should be tested next?</td>
-<td>Physics-aware candidate representation</td>
-<td>Feasible material or experiment</td>
-<td>Constraint satisfaction and scientific utility</td>
+<td>What solution field follows from a new physical condition?</td>
+<td>Neural operator</td>
+<td>Spatiotemporal field</td>
+<td>Operator error and rollout error</td>
+</tr>
+<tr class="even">
+<td>How does surrogate error alter a controller?</td>
+<td>Operator-based rollout</td>
+<td>Control action</td>
+<td>Closed-loop cost and constraint violation</td>
+</tr>
+<tr class="odd">
+<td>Which physical design is feasible?</td>
+<td>Differentiable solution operator</td>
+<td>Optimized design or setting</td>
+<td>Objective value and feasibility</td>
 </tr>
 <tr class="even">
 <td>Which forecast errors matter?</td>
@@ -249,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>Does the model react at the right time?</td>
-<td>Lag-aware temporal representation</td>
+<td>Temporal representation with a lag penalty</td>
 <td>Demand response</td>
 <td>Turning-point timing and forecast error</td>
 </tr>
@@ -690,11 +711,11 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Physical AI for Science | Updated 6 August 2026</p>
+<p>Neural Operators | Physical AI | Updated 6 August 2026</p>
 </div>
   </div>
 </footer>
-<script defer="" src="../assets/site.js?v=20260806c"></script>
+<script defer="" src="../assets/site.js?v=20260806d"></script>
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
 subtitle: "Physical AI for scientific discovery"
-description-meta: "Shunyu Wu is an Ezra Systems Postdoctoral Associate at Cornell University working on Physical AI for Science, decision-focused learning, and physics-aware AI for materials discovery."
+description-meta: "Shunyu Wu is an Ezra Systems Postdoctoral Associate at Cornell University studying neural operators for physical systems, downstream control, and constrained optimization."
 toc: false
 page-layout: full
 body-classes: home-page
@@ -28,7 +28,7 @@ body-classes: home-page
         "name": "Shanghai Jiao Tong University"
       },
       "jobTitle": "Ezra Systems Postdoctoral Associate",
-      "description": "Researcher in Physical AI for Science, physics-aware AI for materials discovery, decision-focused learning, and differentiable optimization.",
+      "description": "Researcher studying neural operators for physical systems and their use in downstream control and constrained optimization.",
       "email": "mailto:shunyuwu@sjtu.edu.cn",
       "sameAs": [
         "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en",
@@ -38,11 +38,12 @@ body-classes: home-page
       ],
       "knowsAbout": [
         "Physical AI for Science",
-        "AI for materials discovery",
-        "Physics-aware generative modeling",
+        "Neural operators",
+        "Operator learning",
+        "Control-oriented surrogate modeling",
         "Decision-focused learning",
         "Differentiable optimization",
-        "Scientific decision-making under uncertainty"
+        "AI for materials systems"
       ]
     },
     {
@@ -85,20 +86,20 @@ body-classes: home-page
     <div class="hero-copy">
       <p class="eyebrow"><span class="status-dot"></span> Ezra Systems Postdoctoral Associate | Cornell University</p>
       <h1 id="home-hero-title"><span>Physical AI</span><span>for scientific</span><span class="spectral-text">discovery.</span></h1>
-      <p class="hero-slogan">From physical observations to decisions for materials design.</p>
-      <p class="hero-statement">Prediction is only the beginning. I develop AI models that are judged by the scientific decisions they enable, from constrained schedules to candidate materials and experiments.</p>
+      <p class="hero-slogan">Neural operators for scientific prediction, control, and optimization.</p>
+      <p class="hero-statement">At Cornell, I study neural operators that map initial conditions and forcing fields to spatiotemporal solutions. I then examine how approximation error changes downstream control actions and constrained optimization decisions.</p>
       <div class="hero-actions">
         <a class="button-primary" href="#featured-work">See selected work <span aria-hidden="true">↘</span></a>
         <a class="button-ghost" href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
       </div>
       <div class="hero-signals" aria-label="Research themes">
-        <span>PHYSICAL AI FOR SCIENCE</span><span>DECISION-FOCUSED LEARNING</span><span>DIFFERENTIABLE OPTIMIZATION</span>
+        <span>NEURAL OPERATORS</span><span>CONTROL AND OPTIMIZATION</span><span>PHYSICAL AI FOR SCIENCE</span>
       </div>
     </div>
 
     <aside class="hero-profile" aria-label="Shunyu Wu profile">
       <div class="portrait-frame">
-        <img src="/assets/images/shunyu-wu-avatar.jpg" width="112" height="112" alt="Portrait of Shunyu Wu">
+        <img src="/assets/images/shunyu-wu-avatar.jpg" width="128" height="128" alt="Portrait of Shunyu Wu">
       </div>
       <p class="profile-index">PROFILE</p>
       <h2>Shunyu Wu <span>吴舜禹</span></h2>
@@ -117,7 +118,7 @@ body-classes: home-page
       <article class="news-lead">
         <p class="news-date">AUG 2026 <span>NEW POSITION</span></p>
         <h3>Joined Cornell University as an Ezra Systems Postdoctoral Associate.</h3>
-        <p>I am beginning a postdoctoral research program on Physical AI for Science, with an initial focus on physics-aware AI and decision models for materials discovery.</p>
+        <p>My postdoctoral research studies neural operators for physical systems, with an emphasis on how learned solution maps affect downstream control and constrained optimization.</p>
         <div class="news-mark" aria-hidden="true">CORNELL / ITHACA</div>
       </article>
       <article class="news-compact">
@@ -141,33 +142,33 @@ body-classes: home-page
   <section class="home-section research-front" data-reveal aria-labelledby="research-front-title">
     <header class="section-heading section-heading-wide">
       <p>RESEARCH</p>
-      <h2 id="research-front-title">AI that respects physics and earns its decisions.</h2>
-      <p>My Ph.D. work established a methodological base in decision-focused forecasting and constrained optimization for water-energy systems. At Cornell, I am extending that base toward physics-aware AI for materials discovery.</p>
+      <h2 id="research-front-title">Neural operators for control and optimization.</h2>
+      <p>My Ph.D. work established a methodological base in decision-focused forecasting and constrained optimization for water-energy systems. At Cornell, I now study neural operators and use their learned solution maps in closed-loop control and constrained optimization.</p>
     </header>
     <div class="vector-grid">
       <article class="vector-card vector-featured">
         <span class="vector-number">01</span>
         <div class="material-orbit" aria-hidden="true"><i></i><i></i><i></i><i></i><b></b></div>
-        <h3>Physics-aware AI for materials discovery</h3>
-        <p>Models that encode scientific constraints, represent candidate structures, and rank experimentally feasible decisions.</p>
-        <span class="vector-tag">CURRENT POSTDOCTORAL AGENDA</span>
+        <h3>Neural operators for physical systems</h3>
+        <p>These models learn maps between input functions and physical solution fields while representing boundary conditions and forcing terms explicitly.</p>
+        <span class="vector-tag">CURRENT POSTDOCTORAL FOCUS</span>
       </article>
       <article class="vector-card">
         <span class="vector-number">02</span>
-        <h3>Decision-focused learning</h3>
-        <p>Predictors trained against downstream cost or regret, so their errors are weighted by the actions they change.</p>
-        <div class="mini-equation">x → ŷ → argmin<sub>z</sub> f(z, ŷ)</div>
+        <h3>Neural operators for control</h3>
+        <p>I study how operator rollout errors propagate through a closed-loop controller and how the control objective should shape model training.</p>
+        <div class="mini-equation">a → 𝒢<sub>θ</sub>(a) → u</div>
       </article>
       <article class="vector-card">
         <span class="vector-number">03</span>
-        <h3>Generative design under constraints</h3>
-        <p>Physics-aware generative models that search candidate structures while respecting symmetry, feasibility, and operational limits.</p>
+        <h3>Neural operators in constrained optimization</h3>
+        <p>I embed differentiable solution operators in constrained optimization and evaluate surrogate error through the decisions it changes.</p>
         <div class="mini-lattice" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
       </article>
       <article class="vector-card">
         <span class="vector-number">04</span>
-        <h3>Scientific decisions under uncertainty</h3>
-        <p>Probabilistic representations coupled to constrained optimizers for experiment selection, scheduling, and control.</p>
+        <h3>Physical AI for materials processes</h3>
+        <p>Operator-learning models connect process conditions to evolving material fields, which inform experiment or control decisions.</p>
         <div class="uncertainty-strip" aria-hidden="true"><i></i></div>
       </article>
     </div>
@@ -231,8 +232,8 @@ body-classes: home-page
   </section>
 
   <section class="home-cta" data-reveal>
-    <p>PHYSICAL AI / MATERIALS / DECISION INTELLIGENCE</p>
-    <h2>Let the model predict.<br><span>Then make it decide.</span></h2>
+    <p>NEURAL OPERATORS / PHYSICAL SYSTEMS / CONTROL + OPTIMIZATION</p>
+    <h2>Learn the operator.<br><span>Optimize the system.</span></h2>
     <div><a href="mailto:shunyuwu@sjtu.edu.cn">Start a research conversation <span aria-hidden="true">↗</span></a></div>
   </section>
 </div>

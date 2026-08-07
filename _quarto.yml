@@ -11,7 +11,7 @@ project:
 website:
   title: "Shunyu Wu"
   site-url: "https://shunyuwu-shaun.github.io"
-  description: "Academic website of Shunyu Wu (吴舜禹), Ezra Systems Postdoctoral Associate at Cornell University, working on Physical AI for Science, AI for materials discovery, decision-focused learning, and differentiable optimization."
+  description: "Academic website of Shunyu Wu (吴舜禹), Ezra Systems Postdoctoral Associate at Cornell University, studying neural operators for physical systems, downstream control, and constrained optimization."
   repo-url: "https://github.com/ShunyuWu-Shaun/ShunyuWu-Shaun.github.io"
   favicon: "assets/icon.svg"
   open-graph: true
@@ -47,7 +47,7 @@ website:
   page-footer:
     border: true
     left: "© 2026 Shunyu Wu"
-    right: "Physical AI for Science | Updated 6 August 2026"
+    right: "Neural Operators | Physical AI | Updated 6 August 2026"
 
 format:
   html:
@@ -63,9 +63,9 @@ format:
     include-in-header:
       text: |
         <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
-        <link rel="stylesheet" href="/styles.css?v=20260806c">
+        <link rel="stylesheet" href="/styles.css?v=20260806d">
     include-after-body:
       text: |
-        <script defer src="/assets/site.js?v=20260806c"></script>
+        <script defer src="/assets/site.js?v=20260806d"></script>
 
 lang: en

@@ -1,6 +1,6 @@
 ---
 title: "Urban water forecasting and pressure modeling"
-description: "Published methods for lag-aware demand forecasting and pressure modeling under unobserved disturbances."
+description: "Published methods for demand forecasting with explicit lag penalties and pressure modeling under unobserved disturbances."
 toc: true
 ---
 

@@ -1,18 +1,18 @@
 ---
 title: "Research"
-description: "Shunyu Wu studies neural operators for physical systems and their use in downstream control, constrained optimization, and materials processes."
+description: "Shunyu Wu develops neural operators for physical systems and evaluates their use in downstream control, constrained optimization, and materials processes."
 toc: true
 ---
 
 ## Neural operators for physical systems
 
-At Cornell, my postdoctoral research examines neural operators and how their approximation errors propagate into downstream control and constrained optimization. A neural operator learns a map between functions, such as the map from an initial condition and a forcing field to a spatiotemporal solution. I evaluate the learned operator through both field error and the physical decisions it changes.
+At Cornell, my postdoctoral work develops neural operators and examines how their approximation errors propagate into downstream control and constrained optimization. A neural operator learns a map between functions, such as the map from an initial condition and a forcing field to a spatiotemporal solution. I evaluate the learned operator through both field error and the physical decisions it changes.
 
 Materials processes provide one target setting because their state evolves as a field over space and time. Geometry and boundary conditions define the operator input, while measured fields provide training targets. Downstream tests measure the control cost or optimized design produced from the predicted field.
 
 ## Neural operators in downstream control
 
-A learned solution operator can supply state rollouts to a controller without solving the governing equations from scratch at every control step. My research studies how local approximation error accumulates over a control horizon and changes the selected action. This relation motivates training objectives that account for closed-loop behavior as well as field reconstruction.
+A learned solution operator can supply state rollouts to a controller without solving the governing equations from scratch at every control step. I quantify how local approximation error accumulates over a control horizon and changes the selected action. This relation motivates training objectives that account for closed-loop behavior as well as field reconstruction.
 
 ## Neural operators in constrained optimization
 
@@ -32,7 +32,7 @@ This formulation distinguishes prediction errors that change the selected schedu
 
 [The knowledge-based bi-correction model](https://doi.org/10.1016/j.eswa.2024.124508) targets delayed reactions near demand turning points through lag-penalty attention and posterior residual correction. [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) separates the response to measured inputs from pressure variation associated with unobserved disturbances.
 
-These studies provide tools for scientific time series in which timing, uncertainty, and unmeasured effects determine the value of a prediction. The relevant evaluation quantity depends on the downstream scientific action rather than a single aggregate error score.
+These methods provide tools for scientific time series in which timing, uncertainty, and unmeasured effects determine the value of a prediction. The relevant evaluation quantity depends on the downstream scientific action rather than a single aggregate error score.
 
 ## Generative decisions in physical environments
 

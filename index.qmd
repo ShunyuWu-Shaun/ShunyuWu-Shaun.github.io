@@ -1,7 +1,7 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
 subtitle: "Physical AI for scientific discovery"
-description-meta: "Shunyu Wu is an Ezra Systems Postdoctoral Associate at Cornell University studying neural operators for physical systems, downstream control, and constrained optimization."
+description-meta: "Shunyu Wu is an Ezra Systems Postdoctoral Associate at Cornell University, working on neural operators for physical systems and their use in downstream control and constrained optimization."
 toc: false
 page-layout: full
 body-classes: home-page
@@ -28,7 +28,7 @@ body-classes: home-page
         "name": "Shanghai Jiao Tong University"
       },
       "jobTitle": "Ezra Systems Postdoctoral Associate",
-      "description": "Researcher studying neural operators for physical systems and their use in downstream control and constrained optimization.",
+      "description": "Researcher developing neural operators for physical systems and evaluating their use in downstream control and constrained optimization.",
       "email": "mailto:shunyuwu@sjtu.edu.cn",
       "sameAs": [
         "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en",
@@ -87,7 +87,7 @@ body-classes: home-page
       <p class="eyebrow"><span class="status-dot"></span> Ezra Systems Postdoctoral Associate | Cornell University</p>
       <h1 id="home-hero-title"><span>Physical AI</span><span>for scientific</span><span class="spectral-text">discovery.</span></h1>
       <p class="hero-slogan">Neural operators for scientific prediction, control, and optimization.</p>
-      <p class="hero-statement">At Cornell, I study neural operators that map initial conditions and forcing fields to spatiotemporal solutions. I then examine how approximation error changes downstream control actions and constrained optimization decisions.</p>
+      <p class="hero-statement">At Cornell, I work on neural operators that map initial conditions and forcing fields to spatiotemporal solutions. I examine how approximation error changes downstream control actions and constrained optimization decisions.</p>
       <div class="hero-actions">
         <a class="button-primary" href="#featured-work">See selected work <span aria-hidden="true">↘</span></a>
         <a class="button-ghost" href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
@@ -118,13 +118,18 @@ body-classes: home-page
       <article class="news-lead">
         <p class="news-date">AUG 2026 <span>NEW POSITION</span></p>
         <h3>Joined Cornell University as an Ezra Systems Postdoctoral Associate.</h3>
-        <p>My postdoctoral research studies neural operators for physical systems, with an emphasis on how learned solution maps affect downstream control and constrained optimization.</p>
+        <p>My postdoctoral work develops neural operators for physical systems and examines how learned solution maps affect downstream control and constrained optimization.</p>
         <div class="news-mark" aria-hidden="true">CORNELL / ITHACA</div>
       </article>
       <article class="news-compact">
         <p class="news-date">JUL 2026 <span>PAPER</span></p>
         <h3><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT published in Expert Systems with Applications</a></h3>
         <p>Local LiDAR geometry guides recurrent diffusion toward target-consistent trajectories.</p>
+      </article>
+      <article class="news-compact">
+        <p class="news-date">JUN 2026 <span>GRADUATION</span></p>
+        <h3>Received my Ph.D. from Shanghai Jiao Tong University</h3>
+        <p>I am grateful to my advisor, Professor Jingcheng Wang, for his guidance. I also thank all my labmates for their collaboration and friendship throughout my doctoral years.</p>
       </article>
       <article class="news-compact">
         <p class="news-date">2026 <span>SERVICE</span></p>
@@ -143,7 +148,7 @@ body-classes: home-page
     <header class="section-heading section-heading-wide">
       <p>RESEARCH</p>
       <h2 id="research-front-title">Neural operators for control and optimization.</h2>
-      <p>My Ph.D. work established a methodological base in decision-focused forecasting and constrained optimization for water-energy systems. At Cornell, I now study neural operators and use their learned solution maps in closed-loop control and constrained optimization.</p>
+      <p>My Ph.D. work established a methodological base in decision-focused forecasting and constrained optimization for water-energy systems. At Cornell, I develop neural operators and use their learned solution maps in closed-loop control and constrained optimization.</p>
     </header>
     <div class="vector-grid">
       <article class="vector-card vector-featured">
@@ -156,7 +161,7 @@ body-classes: home-page
       <article class="vector-card">
         <span class="vector-number">02</span>
         <h3>Neural operators for control</h3>
-        <p>I study how operator rollout errors propagate through a closed-loop controller and how the control objective should shape model training.</p>
+        <p>I quantify how operator rollout errors propagate through a closed-loop controller and how the control objective shapes model training.</p>
         <div class="mini-equation">a → 𝒢<sub>θ</sub>(a) → u</div>
       </article>
       <article class="vector-card">

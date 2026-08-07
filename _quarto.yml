@@ -11,7 +11,7 @@ project:
 website:
   title: "Shunyu Wu"
   site-url: "https://shunyuwu-shaun.github.io"
-  description: "Academic website of Shunyu Wu (吴舜禹), Ezra Systems Postdoctoral Associate at Cornell University, studying neural operators for physical systems, downstream control, and constrained optimization."
+  description: "Academic website of Shunyu Wu (吴舜禹), Ezra Systems Postdoctoral Associate at Cornell University, working on neural operators for physical systems and their use in downstream control and constrained optimization."
   repo-url: "https://github.com/ShunyuWu-Shaun/ShunyuWu-Shaun.github.io"
   favicon: "assets/icon.svg"
   open-graph: true

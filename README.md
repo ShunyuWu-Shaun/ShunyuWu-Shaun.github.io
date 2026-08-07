@@ -26,7 +26,7 @@ quarto render
 
 - `/index.qmd` home page
 - `/research/index.qmd`
-- `/publications/index.qmd` complete publication list
+- `/publications/index.qmd` first- and last-author publication portfolio
 - `/projects/index.qmd` + source-linked case studies in `/projects/*.qmd`
 - `/news/index.qmd`
 - `/service/index.qmd`

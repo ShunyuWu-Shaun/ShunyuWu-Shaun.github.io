@@ -4,77 +4,56 @@
     "href": "service/index.html",
     "title": "Academic service",
     "section": "",
-    "text": "International Conference on Machine Learning (ICML), 2026\nInternational Conference on Learning Representations, 2025 and 2026 review cycles\nConference on Neural Information Processing Systems (NeurIPS), Position Paper Track, 2026\nAAAI Conference on Artificial Intelligence, Main Technical Track and AI for Social Impact Track, 2026\nIEEE Conference on Decision and Control, 2024 and 2025\n\n\n\n\n\nIEEE Transactions on Systems, Man, and Cybernetics: Systems\nIEEE Transactions on Automation Science and Engineering\nIEEE Transactions on Intelligent Vehicles"
+    "text": "International Conference on Machine Learning (ICML), 2026\nInternational Conference on Learning Representations (ICLR), 2025 and 2026 review cycles\nConference on Neural Information Processing Systems (NeurIPS), Position Paper Track, 2026\nAAAI Conference on Artificial Intelligence, Main Technical Track, 2026\nAAAI Conference on Artificial Intelligence, AI for Social Impact Track, 2026\nIEEE Conference on Decision and Control (CDC), 2024 and 2025"
   },
   {
-    "objectID": "service/index.html#reviewing",
-    "href": "service/index.html#reviewing",
+    "objectID": "service/index.html#conference-reviewing",
+    "href": "service/index.html#conference-reviewing",
     "title": "Academic service",
     "section": "",
-    "text": "International Conference on Machine Learning (ICML), 2026\nInternational Conference on Learning Representations, 2025 and 2026 review cycles\nConference on Neural Information Processing Systems (NeurIPS), Position Paper Track, 2026\nAAAI Conference on Artificial Intelligence, Main Technical Track and AI for Social Impact Track, 2026\nIEEE Conference on Decision and Control, 2024 and 2025\n\n\n\n\n\nIEEE Transactions on Systems, Man, and Cybernetics: Systems\nIEEE Transactions on Automation Science and Engineering\nIEEE Transactions on Intelligent Vehicles"
+    "text": "International Conference on Machine Learning (ICML), 2026\nInternational Conference on Learning Representations (ICLR), 2025 and 2026 review cycles\nConference on Neural Information Processing Systems (NeurIPS), Position Paper Track, 2026\nAAAI Conference on Artificial Intelligence, Main Technical Track, 2026\nAAAI Conference on Artificial Intelligence, AI for Social Impact Track, 2026\nIEEE Conference on Decision and Control (CDC), 2024 and 2025"
+  },
+  {
+    "objectID": "service/index.html#journal-reviewing",
+    "href": "service/index.html#journal-reviewing",
+    "title": "Academic service",
+    "section": "Journal reviewing",
+    "text": "Journal reviewing\n\nIEEE Transactions on Systems, Man, and Cybernetics: Systems\nIEEE Transactions on Automation Science and Engineering\nIEEE Transactions on Intelligent Vehicles"
   },
   {
     "objectID": "service/index.html#teaching",
     "href": "service/index.html#teaching",
     "title": "Academic service",
     "section": "Teaching",
-    "text": "Teaching\nI served as a teaching assistant for a graduate engineering course from 2023 to 2024, delivering lectures and recitations and preparing course assignments."
+    "text": "Teaching\nI served as a teaching assistant for a graduate engineering course from 2023 to 2024. I delivered lectures and recitations and prepared course assignments."
   },
   {
     "objectID": "service/index.html#research-mentoring",
     "href": "service/index.html#research-mentoring",
     "title": "Academic service",
     "section": "Research mentoring",
-    "text": "Research mentoring\nI have co-mentored one Ph.D. student and 13 master’s students. I helped them formulate research questions and conduct reproducible experiments, including reproductions of published methods."
+    "text": "Research mentoring\nI have co-mentored one Ph.D. student and 13 master’s students. My mentoring focuses on research-question formulation, experiment design, reproducibility, and technical writing."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Shunyu Wu (吴舜禹)",
     "section": "",
-    "text": "I am a Ph.D. candidate in the Department of Automation at Shanghai Jiao Tong University. I study learning methods that connect prediction with downstream decisions, especially time-series forecasting and resource scheduling in urban water and water-energy systems.\n\nI examine which forecast errors alter the selected action or schedule. Depending on the application, I evaluate the model by operating cost and optimality gap, demand-trend timing, or pressure error.\n\n\nGoogle Scholar ORCID GitHub\n\n\nDecision-focused learning Predict-then-optimize Time-series forecasting Differentiable optimization Offline reinforcement learning\n\n\n\n\n\n\nShunyu Wu\n\n\nPh.D. Candidate\n\n\nDepartment of Automation\n\n\nShanghai Jiao Tong University\nGoogle Scholar metrics checked on July 27, 2026."
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Shunyu Wu (吴舜禹)",
-    "section": "",
-    "text": "I am a Ph.D. candidate in the Department of Automation at Shanghai Jiao Tong University. I study learning methods that connect prediction with downstream decisions, especially time-series forecasting and resource scheduling in urban water and water-energy systems.\n\nI examine which forecast errors alter the selected action or schedule. Depending on the application, I evaluate the model by operating cost and optimality gap, demand-trend timing, or pressure error.\n\n\nGoogle Scholar ORCID GitHub\n\n\nDecision-focused learning Predict-then-optimize Time-series forecasting Differentiable optimization Offline reinforcement learning"
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "Shunyu Wu (吴舜禹)",
-    "section": "Research",
-    "text": "Research\n\n\nDecision-focused learning for water-energy scheduling\nStochastic Predict-Then-Optimize passes probabilistic electricity-cost forecasts to a stochastic scheduler for urban water supply. A convex upper bound on the resulting optimality gap, derived from Lagrangian duality, provides gradients for predictor training.\n\n\nForecasting under lag and unobserved disturbances\nThe knowledge-based bi-correction model uses lag-penalty attention and a masked weighted Markov chain to correct delayed responses in daily water-demand forecasts. CritiCoder separates the modeled response to observed variables from residual pressure variation represented as an uncertain disturbance.\n\n\nLearning-based action and trajectory selection\nCurrent collaborations study candidate-action selection in offline reinforcement learning and diffusion-based trajectory generation conditioned on local LiDAR geometry. GEM reranks sampled actions at inference, whereas DRIFT retrieves waypoint-specific scene context during recurrent denoising.\n\n\nMore detail is available on the Research page."
-  },
-  {
-    "objectID": "index.html#selected-publications",
-    "href": "index.html#selected-publications",
-    "title": "Shunyu Wu (吴舜禹)",
-    "section": "Selected publications",
-    "text": "Selected publications\n\n\nEnd-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling\nShunyu Wu, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao. IEEE Transactions on Smart Grid, 16(6), 4796-4807, 2025.\n\n\nKnowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting\nShunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. Expert Systems with Applications, 255, 124508, 2024.\n\n\nCritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems\nShunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. IEEE Transactions on Computational Social Systems, 11(2), 2222-2233, 2024.\n\n\nDRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation\nJinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and Shunyu Wu. Expert Systems with Applications, 331, 133261, 2026.\n\n\nSee Publications for the complete record, including conference papers and the 2026 GEM preprint."
-  },
-  {
-    "objectID": "index.html#academic-activities",
-    "href": "index.html#academic-activities",
-    "title": "Shunyu Wu (吴舜禹)",
-    "section": "Academic activities",
-    "text": "Academic activities\n\n\nReviewing and mentoring\n\nReviewer for ICML 2026, ICLR in the 2025 and 2026 cycles, and the NeurIPS 2026 Position Paper Track.\nReviewer for the AAAI-26 Main Technical Track and AI for Social Impact Track, and for CDC in 2024 and 2025.\nReviewer for IEEE journals in systems, automation, and intelligent vehicles.\nCo-mentor of one Ph.D. student and 13 master’s students.\n\nMore information is listed under Service.\n\n\nRecent research updates\n\nJuly 2026. DRIFT is available online and assigned to volume 331 of Expert Systems with Applications.\nMarch 2026. GEM was released as arXiv:2603.23232.\n2025. The SPTO paper appeared in IEEE Transactions on Smart Grid.\n\nSee News for DOI and preprint links."
+    "text": "SW / PHYSICAL INTELLIGENCE\n    OBSERVE. LEARN. DECIDE.\n  \n\n\n  \n    \n      \n        \n          \n          \n          \n          \n        \n        \n          \n        \n        \n      \n    \n\n    \n       Ezra Systems Postdoctoral Associate | Cornell University\n      Physical AIfor scientificdiscovery.\n      From physical observations to decisions for materials design.\n      Prediction is only the beginning. I develop AI models that are judged by the scientific decisions they enable, from constrained schedules to candidate materials and experiments.\n      \n        See selected work ↘\n        Google Scholar ↗\n      \n      \n        PHYSICAL AI FOR SCIENCEDECISION-FOCUSED LEARNINGDIFFERENTIABLE OPTIMIZATION\n      \n    \n\n    \n      \n        \n        \n      \n      RESEARCHER / 01\n      Shunyu Wu 吴舜禹\n      Ezra Systems Postdoctoral AssociateSystems Engineering ProgramCornell UniversityPh.D., Shanghai Jiao Tong University\n      ORCIDGITHUBEMAIL\n    \n  \n\n  \n    \n      01 / LATEST SIGNALS\n      A new chapter at Cornell.\n      All news ↗\n    \n    \n      \n        AUG 2026 NEW POSITION\n        Joined Cornell University as an Ezra Systems Postdoctoral Associate.\n        I am beginning a postdoctoral research program on Physical AI for Science, with an initial focus on physics-aware AI and decision models for materials discovery.\n        CORNELL / ITHACA\n      \n      \n        JUL 2026 PAPER\n        DRIFT published in Expert Systems with Applications\n        Local LiDAR geometry guides recurrent diffusion toward target-consistent trajectories.\n      \n      \n        2026 SERVICE\n        Reviewing across the machine learning community\n        ICML, NeurIPS Position Paper Track, and the AAAI Main Technical and AI for Social Impact tracks.\n      \n      \n        2025 FLAGSHIP WORK\n        SPTO in IEEE Transactions on Smart Grid\n        Probabilistic forecasts are trained against the scheduling costs and regret they induce.\n      \n    \n  \n\n  \n    \n      02 / RESEARCH VECTORS\n      AI that respects physics and earns its decisions.\n      My Ph.D. work established a methodological base in decision-focused forecasting and constrained optimization for water-energy systems. At Cornell, I am extending that base toward physics-aware AI for materials discovery.\n    \n    \n      \n        01\n        \n        Physics-aware AI for materials discovery\n        Models that encode scientific constraints, represent candidate structures, and rank experimentally feasible decisions.\n        CURRENT POSTDOCTORAL AGENDA\n      \n      \n        02\n        Decision-focused learning\n        Predictors trained against downstream cost or regret, so their errors are weighted by the actions they change.\n        x → ŷ → argminz f(z, ŷ)\n      \n      \n        03\n        Generative design under constraints\n        Physics-aware generative models that search candidate structures while respecting symmetry, feasibility, and operational limits.\n        \n      \n      \n        04\n        Scientific decisions under uncertainty\n        Probabilistic representations coupled to constrained optimizers for experiment selection, scheduling, and control.\n        \n      \n    \n    Read the research agenda ↗\n  \n\n  \n    \n      03 / FEATURED FIRST-AUTHOR WORK\n      Methods built around the decision that follows.\n      Four lead-author methods connect probabilistic forecasts, uncertain representations, and the physical decisions they drive.\n    \n    \n      \n        \n        FIRST AUTHORIEEE TSG · 2025End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource SchedulingShunyu Wu, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun RaoSPTO trains a probabilistic forecast with a differentiable upper bound on downstream optimality gap, placing scheduling cost inside the learning objective.\n      \n      \n        \n        FIRST AUTHORESWA · 2024Knowledge-based Bi-correction model for lag-free urban water-demand forecastingShunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui XuLag-penalty attention and posterior residual correction target delayed reactions near demand turning points.\n      \n      \n        \n        FIRST AUTHORIEEE TCSS · 2024CritiCoder: Uncertain regression for robust pressure modelsShunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui XuThe Coder learns measured effects, while the Critic represents residual pressure variation associated with unobserved disturbances.\n      \n      \n        \n        FIRST AUTHORCCC · 2021A Fine Grained Forecasting Method for Minute-Level Urban Water DemandShunyu Wu, Pingwei Zhao, Miaoshun Bai, Jingcheng Wang, and Yang LanA coarse daily forecast is decomposed into reusable fine-grained patterns to recover minute-level demand variation.\n      \n    \n  \n\n  \n    \n      04 / SELECTED LAST-AUTHOR WORK\n      From local geometry to constrained control.\n      Last-author collaborations extend this program into diffusion trajectories and safety-constrained control.\n    \n    \n      \n        \n        LAST AUTHORESWA · 2026DRIFT: Coordinating target intent and local geometryJinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and Shunyu Wu\n      \n      \n        \n        LAST AUTHORIEEE TSMC · 2024Reinforcement Learning Controller Design for Constrained Nonlinear SystemsJiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and Shunyu Wu\n      \n    \n    View all first- and last-author papers ↗\n  \n\n  \n    \n      05 / ACADEMIC COMMUNITY\n      Research is sharper when the field argues back.\n    \n    \n      I review for ICML 2026, the NeurIPS 2026 Position Paper Track, and the AAAI-26 Main Technical and AI for Social Impact tracks, alongside ICLR, CDC, and IEEE journals.\n      Academic service ↗\n    \n  \n\n  \n    PHYSICAL AI / MATERIALS / DECISION INTELLIGENCE\n    Let the model predict.Then make it decide.\n    Start a research conversation ↗"
   },
   {
     "objectID": "projects/service-operations-planning.html",
     "href": "projects/service-operations-planning.html",
     "title": "Urban water forecasting and pressure modeling",
     "section": "",
-    "text": "This page uses only information in publisher records. Operational maps, site identifiers, dashboard records, and client data are excluded."
+    "text": "Daily urban water-demand forecasts can attain low average error while responding late when demand changes direction. This lag reduces their value for planning the next operating period.\nThe knowledge-based bi-correction model addresses the problem in two stages. Lag-penalty attention extracts prior sequence and feature information associated with timely demand changes. A stacked LSTM produces the primary forecast. A masked weighted Markov chain then corrects selected residuals using posterior error information."
   },
   {
     "objectID": "projects/service-operations-planning.html#daily-demand-near-turning-points",
     "href": "projects/service-operations-planning.html#daily-demand-near-turning-points",
     "title": "Urban water forecasting and pressure modeling",
-    "section": "Daily demand near turning points",
-    "text": "Daily demand near turning points\nDaily urban water-demand forecasts can attain low average error while responding late when demand changes direction. This lag reduces their value for planning the next operating period.\nThe knowledge-based bi-correction model addresses the problem in two stages. Lag-penalty attention extracts prior sequence and feature information associated with timely demand changes. A stacked LSTM produces the primary forecast. A masked weighted Markov chain then corrects selected residuals using posterior error information."
+    "section": "",
+    "text": "Daily urban water-demand forecasts can attain low average error while responding late when demand changes direction. This lag reduces their value for planning the next operating period.\nThe knowledge-based bi-correction model addresses the problem in two stages. Lag-penalty attention extracts prior sequence and feature information associated with timely demand changes. A stacked LSTM produces the primary forecast. A masked weighted Markov chain then corrects selected residuals using posterior error information."
   },
   {
     "objectID": "projects/service-operations-planning.html#trend-sensitive-evaluation",
@@ -88,7 +67,7 @@
     "href": "projects/service-operations-planning.html#pressure-under-unobserved-variation",
     "title": "Urban water forecasting and pressure modeling",
     "section": "Pressure under unobserved variation",
-    "text": "Pressure under unobserved variation\nCritiCoder considers macroscopic pressure when measured inputs do not explain every disturbance in a water distribution system. The Coder models the pressure response associated with observed variables. The Critic changes the loss so that the remaining pressure variation can be represented as an uncertain disturbance.\nThe comparison tests whether CritiCoder’s error increases less than conventional regression error at nodes more strongly affected by unobserved disturbances."
+    "text": "Pressure under unobserved variation\nCritiCoder considers macroscopic pressure when measured inputs do not explain every disturbance in a water distribution system. Its Coder models the response associated with observed variables, while the Critic changes the loss so that the remaining pressure variation can be represented as an uncertain disturbance.\nThe comparison tests whether CritiCoder’s error increases less than conventional regression error at nodes more strongly affected by unobserved disturbances."
   },
   {
     "objectID": "projects/service-operations-planning.html#publications",
@@ -102,63 +81,35 @@
     "href": "publications/index.html",
     "title": "Publications",
     "section": "",
-    "text": "On July 27, 2026, Google Scholar listed 13 works, 61 citations, an h-index of 5, and an i10-index of 3. Current counts are available on the linked profile.\n\nGoogle Scholar\nORCID 0000-0001-9856-2148\nResearchGate\n\nPublisher records and preprint pages determine the status shown below. Manuscripts without a public record are omitted."
-  },
-  {
-    "objectID": "publications/index.html#profile-snapshot",
-    "href": "publications/index.html#profile-snapshot",
-    "title": "Publications",
-    "section": "",
-    "text": "On July 27, 2026, Google Scholar listed 13 works, 61 citations, an h-index of 5, and an i10-index of 3. Current counts are available on the linked profile.\n\nGoogle Scholar\nORCID 0000-0001-9856-2148\nResearchGate\n\nPublisher records and preprint pages determine the status shown below. Manuscripts without a public record are omitted."
-  },
-  {
-    "objectID": "publications/index.html#articles-and-preprints",
-    "href": "publications/index.html#articles-and-preprints",
-    "title": "Publications",
-    "section": "2026 articles and preprints",
-    "text": "2026 articles and preprints\n\nJinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and Shunyu Wu. DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation. Expert Systems with Applications, 331, 133261, 2026.\nHaoyu Wang, Jingcheng Wang, Shunyu Wu, and Xinwei Xiao. GEM: Guided Expectation-Maximization for Behavior-Normalized Candidate Action Selection in Offline RL. arXiv:2603.23232, 2026."
-  },
-  {
-    "objectID": "publications/index.html#first-authored-journal-articles",
-    "href": "publications/index.html#first-authored-journal-articles",
-    "title": "Publications",
-    "section": "First-authored journal articles",
-    "text": "First-authored journal articles\n\nShunyu Wu, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao. End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling. IEEE Transactions on Smart Grid, 16(6), 4796-4807, 2025.\nShunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting. Expert Systems with Applications, 255, 124508, 2024.\nShunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems. IEEE Transactions on Computational Social Systems, 11(2), 2222-2233, 2024."
-  },
-  {
-    "objectID": "publications/index.html#collaborative-journal-articles",
-    "href": "publications/index.html#collaborative-journal-articles",
-    "title": "Publications",
-    "section": "Collaborative journal articles",
-    "text": "Collaborative journal articles\n\nYanjiu Zhong, Jingcheng Wang, Jiahui Xu, Shunyu Wu, Jun Rao, and Kangbo Dang. Prediction of Energy Consumption in Horizontal Roughing Process of Hot Rolling Strip Based on TDADE Algorithm. IEEE Transactions on Automation Science and Engineering, 21(1), 555-568, 2024.\nJiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and Shunyu Wu. Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 54(4), 2368-2378, 2024.\nJiahui Xu, Jingcheng Wang, Jun Rao, Shunyu Wu, and Yanjiu Zhong. Adaptive Dynamic Programming for Optimal Control of Discrete-Time Nonlinear Systems With Trajectory-Based Initial Control Policy. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 54(3), 1489-1501, 2024.\nYanjiu Zhong, Jingcheng Wang, Jun Rao, Jiahui Xu, and Shunyu Wu. A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling. IEEE Transactions on Automation Science and Engineering, 21(3), 4585-4598, 2024."
-  },
-  {
-    "objectID": "publications/index.html#conference-papers",
-    "href": "publications/index.html#conference-papers",
-    "title": "Publications",
-    "section": "Conference papers",
-    "text": "Conference papers\n\nJun Rao, Jingcheng Wang, Jiahui Xu, and Shunyu Wu. Adaptive Optimal Control of Nonlinear Systems With Multiple Time-Scale Eligibility Traces. 2023 62nd IEEE Conference on Decision and Control (CDC), 2258-2263, 2023.\nTzuyi Kan, Jingcheng Wang, and Shunyu Wu. The CEEMDAN-ps-gcGRU Model On Water Pressure Prediction With Strong Irregularity. IFAC-PapersOnLine, 56(2), 7108-7113, 2023.\nShunyu Wu, Pingwei Zhao, Miaoshun Bai, Jingcheng Wang, and Yang Lan. A Fine Grained Forecasting Method for Minute-Level Urban Water Demand. 2021 40th Chinese Control Conference (CCC), 8298-8303, 2021.\nShuwei Zhang, Miaoshun Bai, Jingcheng Wang, Haotian Xu, and Shunyu Wu. An Improved Ensemble Deep Learning Model for Water Leakage Detection. 2021 40th Chinese Control Conference (CCC), 1762-1767, 2021."
+    "text": "4 FIRST-AUTHOR / 6 LAST-AUTHOR PAPERS\n  \n    Lead-author methods establish the decision-focused core; last-author collaborations extend it across generative trajectories, constrained control, industrial energy prediction, and water-system monitoring.\n    Google Scholar · ORCID · ResearchGate\n  \n\n01 / FIRST-AUTHOR PAPERS\n\n\n  \n    \n    \n      FIRST AUTHORIEEE TSG · 2025\n      End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling\n      Shunyu Wu, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao\n      A probabilistic forecast is trained with a differentiable convex upper bound on downstream optimality gap, connecting forecast distributions to stochastic scheduling cost.\n      DOI ↗\n    \n  \n\n  \n    \n    \n      FIRST AUTHORESWA · 2024\n      Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting\n      Shunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu\n      Lag-penalty attention and a masked weighted Markov chain correct delayed responses and selected residuals near demand turning points.\n      DOI ↗\n    \n  \n\n  \n    \n    \n      FIRST AUTHORIEEE TCSS · 2024\n      CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems\n      Shunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu\n      The Coder learns the pressure response to measured variables, while the Critic represents residual variation associated with unobserved disturbances.\n      DOI ↗\n    \n  \n\n  \n    \n    \n      FIRST AUTHORCCC · 2021\n      A Fine Grained Forecasting Method for Minute-Level Urban Water Demand\n      Shunyu Wu, Pingwei Zhao, Miaoshun Bai, Jingcheng Wang, and Yang Lan\n      The method forecasts cumulative daily demand, then uses fine-grained division, search, and prediction to reconstruct an approximately 300-step minute-level profile.\n      DOI ↗Author copy ↗\n    \n  \n\n02 / LAST-AUTHOR PAPERS\n\n\n  \n    \n    \n      LAST AUTHORESWA · 2026\n      DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation\n      Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and Shunyu Wu\n      A graph memory stores local LiDAR geometry and retrieves waypoint-specific context during recurrent diffusion denoising.\n      DOI ↗\n    \n  \n\n  \n    \n    \n      LAST AUTHORIEEE TSMC · 2024\n      Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method\n      Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and Shunyu Wu\n      Nonlinear model predictive control initializes the controller network, while a control barrier function and nonquadratic loss enforce state and input constraints.\n      DOI ↗\n    \n  \n\n  \n    \n    \n      LAST AUTHORIEEE TASE · 2024\n      A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling\n      Yanjiu Zhong, Jingcheng Wang, Jun Rao, Jiahui Xu, and Shunyu Wu\n      A DCLS-Net models each rolling step, and series concatenation suppresses accumulated prediction error across the multi-step process.\n      DOI ↗\n    \n  \n\n  \n    \n    \n      LAST AUTHORIEEE CDC · 2023\n      Adaptive Optimal Control of Nonlinear Systems With Multiple Time-Scale Eligibility Traces\n      Jun Rao, Jingcheng Wang, Jiahui Xu, and Shunyu Wu\n      Multiple eligibility-trace time scales supply the critic with complementary temporal credit signals for adaptive optimal control.\n      DOI ↗\n    \n  \n\n  \n    \n    \n      LAST AUTHORIFAC · 2023\n      The CEEMDAN-ps-gcGRU Model On Water Pressure Prediction With Strong Irregularity\n      Tzuyi Kan, Jingcheng Wang, and Shunyu Wu\n      CEEMDAN reduces sensor noise, pump-state signals add operating context, and gradient correction supports longer-horizon GRU prediction.\n      DOI ↗\n    \n  \n\n  \n    \n    \n      LAST AUTHORCCC · 2021\n      An Improved Ensemble Deep Learning Model for Water Leakage Detection\n      Shuwei Zhang, Miaoshun Bai, Jingcheng Wang, Haotian Xu, and Shunyu Wu\n      An improved multi-model weighted voting mechanism combines deep classifiers to locate leakage events in a simulated water-distribution network.\n      DOI ↗Author copy ↗"
   },
   {
     "objectID": "contact/index.html",
     "href": "contact/index.html",
     "title": "Contact",
     "section": "",
-    "text": "For research discussions, seminar invitations, or collaboration on decision-focused forecasting and stochastic scheduling for water systems, email shunyuwu@sjtu.edu.cn."
+    "text": "I welcome conversations on Physical AI for Science, AI for materials discovery, decision-focused learning, physics-aware generative modeling, and constrained scientific decision-making.\nshunyuwu@sjtu.edu.cn"
   },
   {
-    "objectID": "contact/index.html#email",
-    "href": "contact/index.html#email",
+    "objectID": "contact/index.html#research-conversations",
+    "href": "contact/index.html#research-conversations",
     "title": "Contact",
     "section": "",
-    "text": "For research discussions, seminar invitations, or collaboration on decision-focused forecasting and stochastic scheduling for water systems, email shunyuwu@sjtu.edu.cn."
+    "text": "I welcome conversations on Physical AI for Science, AI for materials discovery, decision-focused learning, physics-aware generative modeling, and constrained scientific decision-making.\nshunyuwu@sjtu.edu.cn"
   },
   {
-    "objectID": "contact/index.html#affiliation",
-    "href": "contact/index.html#affiliation",
+    "objectID": "contact/index.html#current-appointment",
+    "href": "contact/index.html#current-appointment",
     "title": "Contact",
-    "section": "Affiliation",
-    "text": "Affiliation\nDepartment of Automation Shanghai Jiao Tong University"
+    "section": "Current appointment",
+    "text": "Current appointment\nEzra Systems Postdoctoral Associate Systems Engineering Program Cornell University"
+  },
+  {
+    "objectID": "contact/index.html#education",
+    "href": "contact/index.html#education",
+    "title": "Contact",
+    "section": "Education",
+    "text": "Education\nPh.D., Shanghai Jiao Tong University"
   },
   {
     "objectID": "contact/index.html#academic-profiles",
@@ -168,95 +119,81 @@
     "text": "Academic profiles\n\nGoogle Scholar\nORCID 0000-0001-9856-2148\nGitHub\nResearchGate"
   },
   {
-    "objectID": "contact/index.html#privacy",
-    "href": "contact/index.html#privacy",
-    "title": "Contact",
-    "section": "Privacy",
-    "text": "Privacy\nThis site does not publish a phone number, home address, date of birth, or personal identification records."
-  },
-  {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "Research",
     "section": "",
-    "text": "Forecasts with similar pointwise errors can lead to different schedules or control actions. I study how predictions change decisions when they parameterize an optimizer or rank a candidate action set. Evaluation depends on the application: operating cost and optimality gap for scheduling, demand-trend timing for forecasting, and pressure error for network models."
+    "text": "My current research asks how an AI model can move from scientific observations to experimentally feasible decisions. At Cornell, I am extending decision-focused learning toward physics-aware AI for materials discovery. Prediction alone is insufficient: the learned representation must improve the choice of material candidate, experiment, schedule, or control action under physical constraints.\nPhysical representations feed generative models, and constrained optimizers evaluate the resulting candidates to select the next experiment or design action. This chain exposes how each learned output changes a scientific decision."
   },
   {
-    "objectID": "research/index.html#research-questions",
-    "href": "research/index.html#research-questions",
+    "objectID": "research/index.html#physical-ai-for-scientific-discovery",
+    "href": "research/index.html#physical-ai-for-scientific-discovery",
     "title": "Research",
     "section": "",
-    "text": "Forecasts with similar pointwise errors can lead to different schedules or control actions. I study how predictions change decisions when they parameterize an optimizer or rank a candidate action set. Evaluation depends on the application: operating cost and optimality gap for scheduling, demand-trend timing for forecasting, and pressure error for network models."
+    "text": "My current research asks how an AI model can move from scientific observations to experimentally feasible decisions. At Cornell, I am extending decision-focused learning toward physics-aware AI for materials discovery. Prediction alone is insufficient: the learned representation must improve the choice of material candidate, experiment, schedule, or control action under physical constraints.\nPhysical representations feed generative models, and constrained optimizers evaluate the resulting candidates to select the next experiment or design action. This chain exposes how each learned output changes a scientific decision."
   },
   {
-    "objectID": "research/index.html#decision-focused-training-for-water-energy-scheduling",
-    "href": "research/index.html#decision-focused-training-for-water-energy-scheduling",
+    "objectID": "research/index.html#decision-focused-learning",
+    "href": "research/index.html#decision-focused-learning",
     "title": "Research",
-    "section": "Decision-focused training for water-energy scheduling",
-    "text": "Decision-focused training for water-energy scheduling\nStochastic Predict-Then-Optimize addresses electricity-cost uncertainty in water-energy resource scheduling. The model combines probabilistic forecasting with a stochastic scheduling problem for urban water supply. Its training objective uses a differentiable convex upper bound on the optimality gap derived from Lagrangian duality, so forecast distributions are evaluated by the schedules they induce.\nThis line of work examines which forecast errors alter the optimal schedule and how a constrained solver can provide a training signal. It also tests whether lower operating cost or regret comes at the expense of forecast calibration."
+    "section": "Decision-focused learning",
+    "text": "Decision-focused learning\nStochastic Predict-Then-Optimize trains a probabilistic electricity-cost forecast against the stochastic water-supply schedule that follows. A differentiable convex upper bound on optimality gap, derived from Lagrangian duality, passes a decision-relevant training signal back to the predictor.\nThis formulation distinguishes prediction errors that change the selected schedule from errors that leave the decision unchanged. The same principle can support scientific decision problems in which a predictor parameterizes experiment selection or candidate screening."
   },
   {
-    "objectID": "research/index.html#time-series-forecasting-at-turning-points",
-    "href": "research/index.html#time-series-forecasting-at-turning-points",
+    "objectID": "research/index.html#physics-aware-generative-modeling",
+    "href": "research/index.html#physics-aware-generative-modeling",
     "title": "Research",
-    "section": "Time-series forecasting at turning points",
-    "text": "Time-series forecasting at turning points\nThe knowledge-based bi-correction model targets lag in daily urban water-demand forecasts. Lag-penalty attention extracts sequence and feature information associated with timely changes. A stacked LSTM produces the initial forecast, and a masked weighted Markov chain corrects selected residuals using posterior error information.\nThe same study introduces mean prediction trend effectiveness to test whether a model follows the direction of demand changes more effectively than a naive forecast. This metric complements absolute-error measures because a low average error can conceal a delayed response near a turning point."
+    "section": "Physics-aware generative modeling",
+    "text": "Physics-aware generative modeling\nGenerative models can search large candidate spaces, but scientific candidates must satisfy structure and feasibility requirements. Physics-aware generation encodes these constraints and retains them during downstream ranking. For materials discovery, the constraint set may include symmetry, periodicity, composition, and experimental feasibility.\nCandidate quality is measured by constraint satisfaction and by the physical or experimental decisions a candidate supports, alongside sample fidelity."
   },
   {
-    "objectID": "research/index.html#pressure-modeling-with-unobserved-disturbances",
-    "href": "research/index.html#pressure-modeling-with-unobserved-disturbances",
+    "objectID": "research/index.html#scientific-forecasting-under-uncertainty",
+    "href": "research/index.html#scientific-forecasting-under-uncertainty",
     "title": "Research",
-    "section": "Pressure modeling with unobserved disturbances",
-    "text": "Pressure modeling with unobserved disturbances\nCritiCoder models macroscopic pressure when measured inputs do not explain all disturbance-related variation. Its Coder estimates the response to observed variables, while the Critic modifies the training loss to represent residual variation as an uncertain disturbance. The study evaluates this separation across monitoring nodes with different exposure to unobserved disturbances."
+    "section": "Scientific forecasting under uncertainty",
+    "text": "Scientific forecasting under uncertainty\nThe knowledge-based bi-correction model targets delayed reactions near demand turning points through lag-penalty attention and posterior residual correction. CritiCoder separates the response to measured inputs from pressure variation associated with unobserved disturbances.\nThese studies provide tools for scientific time series in which timing, uncertainty, and unmeasured effects determine the value of a prediction. The relevant evaluation quantity depends on the downstream scientific action rather than a single aggregate error score."
   },
   {
-    "objectID": "research/index.html#explicit-selection-rules-for-learned-decisions",
-    "href": "research/index.html#explicit-selection-rules-for-learned-decisions",
+    "objectID": "research/index.html#generative-decisions-in-physical-environments",
+    "href": "research/index.html#generative-decisions-in-physical-environments",
     "title": "Research",
-    "section": "Explicit selection rules for learned decisions",
-    "text": "Explicit selection rules for learned decisions\nTwo 2026 collaborations extend this interest beyond water systems. GEM uses a Gaussian-mixture actor to retain multiple action hypotheses in offline reinforcement learning. At inference, it ranks a candidate set with an ensemble lower-confidence bound and a behavior-support term standardized within the current state.\nDRIFT generates trajectories from local LiDAR observations. Structured Scene Perception stores local geometry as graph memory. During recurrent denoising, the model retrieves waypoint-specific geometry and conditions each update on the target."
+    "section": "Generative decisions in physical environments",
+    "text": "Generative decisions in physical environments\nDRIFT stores local LiDAR geometry as graph memory. During recurrent diffusion denoising, the model retrieves waypoint-specific context and coordinates the trajectory with a target. This work connects generative modeling with local physical structure and explicit action generation."
   },
   {
-    "objectID": "research/index.html#evaluation-criteria-by-research-question",
-    "href": "research/index.html#evaluation-criteria-by-research-question",
+    "objectID": "research/index.html#research-map",
+    "href": "research/index.html#research-map",
     "title": "Research",
-    "section": "Evaluation criteria by research question",
-    "text": "Evaluation criteria by research question\n\n\n\n\n\n\n\n\nResearch question\nMain technical object\nEvaluation quantity\n\n\n\n\nHow does a forecast change a schedule?\nProbabilistic forecast inside stochastic optimization\nScheduling cost and decision regret\n\n\nDoes a forecast react at the right time?\nLag-penalty attention and posterior correction\nTrend effectiveness and forecast error\n\n\nHow should a model represent missing disturbances?\nUncertain regression with separated observed effects\nPressure error at monitoring nodes\n\n\nWhich learned action should be executed?\nCandidate generation and explicit reranking\nD4RL score, support violations, and inference cost\n\n\nDoes a generated trajectory fit local geometry?\nStructured scene memory during denoising\nEndpoint error, smoothness, clearance, and runtime"
-  },
-  {
-    "objectID": "research/index.html#application-scope",
-    "href": "research/index.html#application-scope",
-    "title": "Research",
-    "section": "Application scope",
-    "text": "Application scope\nMy first-authored work focuses on urban water demand, pressure modeling, and water-energy scheduling. Collaborative work covers industrial energy-consumption prediction, nonlinear control, offline reinforcement learning, and local-sensing trajectory generation. The Publications page separates first-authored articles from collaborative papers and conference proceedings."
+    "section": "Research map",
+    "text": "Research map\n\n\n\n\n\n\n\n\n\nResearch question\nLearned object\nPhysical or decision object\nEvaluation target\n\n\n\n\nWhich candidate should be tested next?\nPhysics-aware candidate representation\nFeasible material or experiment\nConstraint satisfaction and scientific utility\n\n\nWhich forecast errors matter?\nProbabilistic prediction\nStochastic schedule\nOperating cost and decision regret\n\n\nDoes the model react at the right time?\nLag-aware temporal representation\nDemand response\nTurning-point timing and forecast error\n\n\nHow should missing effects be represented?\nUncertain regression\nPressure state\nError across monitored nodes\n\n\nDoes a generated action fit its surroundings?\nDiffusion trajectory\nTarget-directed motion\nEndpoint error, clearance, smoothness, and runtime\n\n\n\nFirst- and last-author publications provide the evidence base for these research threads."
   },
   {
     "objectID": "projects/industrial-workflow-analysis.html",
     "href": "projects/industrial-workflow-analysis.html",
     "title": "Water-energy resource scheduling",
     "section": "",
-    "text": "This page summarizes the peer-reviewed article and omits utility names, asset locations, internal screenshots, and operational records."
+    "text": "Urban water supply consumes electricity throughout treatment, transport, and distribution. The resulting schedule depends on the expected electricity cost, while errors in that forecast can change operating cost and the selected schedule.\nThe study models the full water-supply process as a stochastic scheduling problem with uncertain electricity prices. Forecast quality is evaluated both by pointwise prediction error and by the objective value of the induced schedule."
   },
   {
     "objectID": "projects/industrial-workflow-analysis.html#decision-problem",
     "href": "projects/industrial-workflow-analysis.html#decision-problem",
     "title": "Water-energy resource scheduling",
-    "section": "Decision problem",
-    "text": "Decision problem\nUrban water supply consumes electricity throughout treatment, transport, and distribution. The resulting schedule depends on the expected electricity cost, while errors in that forecast can change operating cost and the selected schedule.\nThe study models the full water-supply process as a stochastic scheduling problem with uncertain electricity prices. It evaluates forecast quality by pointwise prediction error and by the objective value of the induced schedule."
+    "section": "",
+    "text": "Urban water supply consumes electricity throughout treatment, transport, and distribution. The resulting schedule depends on the expected electricity cost, while errors in that forecast can change operating cost and the selected schedule.\nThe study models the full water-supply process as a stochastic scheduling problem with uncertain electricity prices. Forecast quality is evaluated both by pointwise prediction error and by the objective value of the induced schedule."
   },
   {
     "objectID": "projects/industrial-workflow-analysis.html#stochastic-predict-then-optimize",
     "href": "projects/industrial-workflow-analysis.html#stochastic-predict-then-optimize",
     "title": "Water-energy resource scheduling",
     "section": "Stochastic Predict-Then-Optimize",
-    "text": "Stochastic Predict-Then-Optimize\nStochastic Predict-Then-Optimize combines a probabilistic forecasting model with the downstream stochastic program. The forecast distribution supplies uncertain cost parameters to the scheduler. The resulting schedule defines the decision loss used to update the predictor.\nDirect differentiation through this optimization problem is difficult. SPTO+ replaces the exact optimality gap with a differentiable convex upper bound derived from Lagrangian duality. The bound supplies a surrogate gradient while retaining the scheduling problem in the training objective."
+    "text": "Stochastic Predict-Then-Optimize\nStochastic Predict-Then-Optimize combines a probabilistic forecasting model with the downstream stochastic program. Its forecast distribution supplies uncertain cost parameters to the scheduler, and the resulting schedule defines the decision loss used to update the predictor.\nDirect differentiation through this optimization problem is difficult. SPTO+ replaces the exact optimality gap with a differentiable convex upper bound derived from Lagrangian duality. The bound supplies a surrogate gradient while retaining the scheduling problem in the training objective."
   },
   {
     "objectID": "projects/industrial-workflow-analysis.html#evaluation",
     "href": "projects/industrial-workflow-analysis.html#evaluation",
     "title": "Water-energy resource scheduling",
     "section": "Evaluation",
-    "text": "Evaluation\nThe experiments compare forecast quality, operating cost, and decision regret on real-world water-supply systems. The paper reports lower operating cost and regret than the tested two-stage forecasting and optimization baselines. The public article does not disclose the utility maps or operational dashboards previously stored in this repository."
+    "text": "Evaluation\nExperiments on real-world water-supply systems compare forecast quality, operating cost, and decision regret. SPTO reports lower operating cost and regret than the tested two-stage forecasting and optimization baselines."
   },
   {
     "objectID": "projects/industrial-workflow-analysis.html#publication",
@@ -270,14 +207,14 @@
     "href": "projects/index.html",
     "title": "Research case studies",
     "section": "",
-    "text": "These summaries draw only on the linked publications. They contain no nonpublic operational data."
+    "text": "The SPTO study models the full urban water-supply process under uncertain electricity prices. Probabilistic price forecasts parameterize a stochastic scheduling problem, and a convex upper bound on the optimality gap provides gradients for training. Experiments on real-world systems compare operating cost and decision regret with two-stage baselines.\nRead the case study"
   },
   {
     "objectID": "projects/index.html#water-energy-resource-scheduling",
     "href": "projects/index.html#water-energy-resource-scheduling",
     "title": "Research case studies",
-    "section": "Water-energy resource scheduling",
-    "text": "Water-energy resource scheduling\n\nThe SPTO study models the full urban water-supply process under uncertain electricity prices. Probabilistic price forecasts parameterize a stochastic scheduling problem, and a convex upper bound on the optimality gap provides gradients for training. Experiments on real-world systems compare operating cost and decision regret with two-stage baselines.\nRead the case study"
+    "section": "",
+    "text": "The SPTO study models the full urban water-supply process under uncertain electricity prices. Probabilistic price forecasts parameterize a stochastic scheduling problem, and a convex upper bound on the optimality gap provides gradients for training. Experiments on real-world systems compare operating cost and decision regret with two-stage baselines.\nRead the case study"
   },
   {
     "objectID": "projects/index.html#urban-water-forecasting-and-pressure-modeling",
@@ -287,24 +224,17 @@
     "text": "Urban water forecasting and pressure modeling\n\nTwo first-authored studies address different sources of forecast error. KbBcM targets delayed responses near changes in daily demand. CritiCoder represents pressure variation associated with unobserved disturbances.\nRead the case study"
   },
   {
-    "objectID": "projects/index.html#learned-decision-rules",
-    "href": "projects/index.html#learned-decision-rules",
+    "objectID": "projects/index.html#generative-decisions-in-physical-environments",
+    "href": "projects/index.html#generative-decisions-in-physical-environments",
     "title": "Research case studies",
-    "section": "Learned decision rules",
-    "text": "Learned decision rules\n\n\nCandidate action selection\nGEM retains multiple action hypotheses with a Gaussian-mixture actor. Its inference rule ranks candidates by conservative value and behavior-model support.\n\n\nLocal trajectory generation\nDRIFT stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent denoising."
+    "section": "Generative decisions in physical environments",
+    "text": "Generative decisions in physical environments\n\nLocal trajectory generation\nDRIFT stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent denoising."
   },
   {
     "objectID": "news/index.html",
     "href": "news/index.html",
     "title": "News",
     "section": "",
-    "text": "DRIFT, a collaboration on diffusion-based trajectory generation from local LiDAR observations, is available online and assigned to volume 331 of Expert Systems with Applications.\n\n\n\nGEM samples candidate actions from a Gaussian-mixture actor, then ranks them using conservative value estimates and a behavior-support term normalized within each state.\n\n\n\nStochastic Predict-Then-Optimize connects probabilistic electricity-cost forecasting with stochastic scheduling for urban water supply.\n\n\n\nThe knowledge-based bi-correction model combines lag-penalty attention with posterior error correction for daily urban water-demand forecasting.\n\n\n\nCritiCoder appeared in volume 11, issue 2 of IEEE Transactions on Computational Social Systems."
-  },
-  {
-    "objectID": "news/index.html#updates",
-    "href": "news/index.html#updates",
-    "title": "News",
-    "section": "",
-    "text": "DRIFT, a collaboration on diffusion-based trajectory generation from local LiDAR observations, is available online and assigned to volume 331 of Expert Systems with Applications.\n\n\n\nGEM samples candidate actions from a Gaussian-mixture actor, then ranks them using conservative value estimates and a behavior-support term normalized within each state.\n\n\n\nStochastic Predict-Then-Optimize connects probabilistic electricity-cost forecasting with stochastic scheduling for urban water supply.\n\n\n\nThe knowledge-based bi-correction model combines lag-penalty attention with posterior error correction for daily urban water-demand forecasting.\n\n\n\nCritiCoder appeared in volume 11, issue 2 of IEEE Transactions on Computational Social Systems."
+    "text": "AUG 2026\n    Cornell postdoctoral appointmentI joined Cornell University as an Ezra Systems Postdoctoral Associate in the Systems Engineering Program. My postdoctoral research extends decision-focused learning toward physics-aware AI for materials discovery.\n  \n  \n    JUL 2026\n    DRIFT published in Expert Systems with ApplicationsDRIFT coordinates target intent with local LiDAR geometry during recurrent diffusion-based trajectory generation.\n  \n  \n    2026\n    Machine learning conference reviewingI reviewed for ICML, the NeurIPS Position Paper Track, and the AAAI Main Technical and AI for Social Impact tracks.\n  \n  \n    2025\n    SPTO published in IEEE Transactions on Smart GridSPTO couples probabilistic electricity-cost forecasting with stochastic water-supply scheduling and trains the forecast against downstream decision quality.\n  \n  \n    DEC 2024\n    Bi-correction model publishedThe model combines lag-penalty attention with posterior error correction for daily urban water-demand forecasting.\n  \n  \n    APR 2024\n    CritiCoder published in IEEE TCSSCritiCoder separates modeled responses to observed inputs from residual pressure variation associated with unobserved disturbances."
   }
 ]

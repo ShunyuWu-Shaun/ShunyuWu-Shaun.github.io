@@ -1,12 +1,8 @@
 ---
 title: "Research case studies"
-description: "Source-linked summaries of published work on water-energy scheduling, urban water forecasting, pressure modeling, and learned decision rules."
+description: "Source-linked case studies of first- and last-author work by Shunyu Wu."
 toc: false
 ---
-
-::: {.project-safe-note}
-These summaries draw only on the linked publications. They contain no nonpublic operational data.
-:::
 
 ## Water-energy resource scheduling
 
@@ -24,17 +20,10 @@ Two first-authored studies address different sources of forecast error. [KbBcM](
 [Read the case study](service-operations-planning.qmd)
 :::
 
-## Learned decision rules
+## Generative decisions in physical environments
 
-::: {.two-col-grid}
-::: {.feature-card}
-### Candidate action selection
-
-[GEM](https://arxiv.org/abs/2603.23232) retains multiple action hypotheses with a Gaussian-mixture actor. Its inference rule ranks candidates by conservative value and behavior-model support.
-:::
 ::: {.feature-card}
 ### Local trajectory generation
 
 [DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent denoising.
-:::
 :::

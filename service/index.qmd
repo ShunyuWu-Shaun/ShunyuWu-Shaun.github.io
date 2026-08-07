@@ -1,19 +1,18 @@
 ---
 title: "Academic service"
-description: "Reviewing, teaching, and research mentoring by Shunyu Wu."
+description: "Conference reviewing, journal reviewing, teaching, and research mentoring by Shunyu Wu."
 ---
 
-## Reviewing
-
-### Conferences
+## Conference reviewing
 
 - International Conference on Machine Learning (ICML), 2026
-- International Conference on Learning Representations, 2025 and 2026 review cycles
+- International Conference on Learning Representations (ICLR), 2025 and 2026 review cycles
 - Conference on Neural Information Processing Systems (NeurIPS), Position Paper Track, 2026
-- AAAI Conference on Artificial Intelligence, Main Technical Track and AI for Social Impact Track, 2026
-- IEEE Conference on Decision and Control, 2024 and 2025
+- AAAI Conference on Artificial Intelligence, Main Technical Track, 2026
+- AAAI Conference on Artificial Intelligence, AI for Social Impact Track, 2026
+- IEEE Conference on Decision and Control (CDC), 2024 and 2025
 
-### Journals
+## Journal reviewing
 
 - *IEEE Transactions on Systems, Man, and Cybernetics: Systems*
 - *IEEE Transactions on Automation Science and Engineering*
@@ -21,8 +20,8 @@ description: "Reviewing, teaching, and research mentoring by Shunyu Wu."
 
 ## Teaching
 
-I served as a teaching assistant for a graduate engineering course from 2023 to 2024, delivering lectures and recitations and preparing course assignments.
+I served as a teaching assistant for a graduate engineering course from 2023 to 2024. I delivered lectures and recitations and prepared course assignments.
 
 ## Research mentoring
 
-I have co-mentored one Ph.D. student and 13 master's students. I helped them formulate research questions and conduct reproducible experiments, including reproductions of published methods.
+I have co-mentored one Ph.D. student and 13 master's students. My mentoring focuses on research-question formulation, experiment design, reproducibility, and technical writing.

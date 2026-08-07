@@ -4,11 +4,14 @@ project:
   resources:
     - c7d4984f38601437316bea01e3143bfe.txt
     - google60c018834eaa5cb7.html
+    - styles.css
+    - assets/site.js
+    - assets/images/publications/**
 
 website:
   title: "Shunyu Wu"
   site-url: "https://shunyuwu-shaun.github.io"
-  description: "Academic website of Shunyu Wu (吴舜禹), with research on decision-focused learning, time-series forecasting, differentiable optimization, and water-energy systems."
+  description: "Academic website of Shunyu Wu (吴舜禹), Ezra Systems Postdoctoral Associate at Cornell University, working on Physical AI for Science, AI for materials discovery, decision-focused learning, and differentiable optimization."
   repo-url: "https://github.com/ShunyuWu-Shaun/ShunyuWu-Shaun.github.io"
   favicon: "assets/icon.svg"
   open-graph: true
@@ -22,14 +25,14 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: news/index.qmd
+        text: News
       - href: research/index.qmd
         text: Research
       - href: publications/index.qmd
         text: Publications
       - href: projects/index.qmd
         text: Case Studies
-      - href: news/index.qmd
-        text: News
       - href: service/index.qmd
         text: Service
       - href: contact/index.qmd
@@ -44,13 +47,12 @@ website:
   page-footer:
     border: true
     left: "© 2026 Shunyu Wu"
-    right: "Built with Quarto | Content checked 27 July 2026"
+    right: "Physical AI for Science | Updated 6 August 2026"
 
 format:
   html:
     theme: cosmo
     canonical-url: true
-    css: styles.css
     toc: true
     toc-depth: 3
     smooth-scroll: true
@@ -61,5 +63,9 @@ format:
     include-in-header:
       text: |
         <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
+        <link rel="stylesheet" href="/styles.css?v=20260806b">
+    include-after-body:
+      text: |
+        <script defer src="/assets/site.js"></script>
 
 lang: en

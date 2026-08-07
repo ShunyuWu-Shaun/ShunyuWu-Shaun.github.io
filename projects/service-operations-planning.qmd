@@ -4,10 +4,6 @@ description: "Published methods for lag-aware demand forecasting and pressure mo
 toc: true
 ---
 
-::: {.project-safe-note}
-This page uses only information in publisher records. Operational maps, site identifiers, dashboard records, and client data are excluded.
-:::
-
 ## Daily demand near turning points
 
 Daily urban water-demand forecasts can attain low average error while responding late when demand changes direction. This lag reduces their value for planning the next operating period.
@@ -20,12 +16,12 @@ The study introduces mean prediction trend effectiveness to test whether a model
 
 ## Pressure under unobserved variation
 
-[CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) considers macroscopic pressure when measured inputs do not explain every disturbance in a water distribution system. The Coder models the pressure response associated with observed variables. The Critic changes the loss so that the remaining pressure variation can be represented as an uncertain disturbance.
+[CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) considers macroscopic pressure when measured inputs do not explain every disturbance in a water distribution system. Its Coder models the response associated with observed variables, while the Critic changes the loss so that the remaining pressure variation can be represented as an uncertain disturbance.
 
 The comparison tests whether CritiCoder's error increases less than conventional regression error at nodes more strongly affected by unobserved disturbances.
 
 ## Publications
 
-Shunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. [Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508). *Expert Systems with Applications*, 255, 124508, 2024.
+**Shunyu Wu**, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. [Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508). *Expert Systems with Applications*, 255, 124508, 2024.
 
-Shunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. [CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems](https://doi.org/10.1109/TCSS.2023.3272330). *IEEE Transactions on Computational Social Systems*, 11(2), 2222-2233, 2024.
+**Shunyu Wu**, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. [CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems](https://doi.org/10.1109/TCSS.2023.3272330). *IEEE Transactions on Computational Social Systems*, 11(2), 2222-2233, 2024.

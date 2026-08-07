@@ -1,30 +1,35 @@
 ---
 title: "News"
-description: "Publication and research updates from Shunyu Wu."
+description: "Research, publication, appointment, and academic-service updates from Shunyu Wu."
 toc: false
+body-classes: news-page
 ---
 
-## Updates
-
-::: {.card-list}
-::: {.entry-card}
-#### July 2026 | DRIFT available online
-[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261), a collaboration on diffusion-based trajectory generation from local LiDAR observations, is available online and assigned to volume 331 of *Expert Systems with Applications*.
-:::
-::: {.entry-card}
-#### March 2026 | GEM preprint released
-[GEM](https://arxiv.org/abs/2603.23232) samples candidate actions from a Gaussian-mixture actor, then ranks them using conservative value estimates and a behavior-support term normalized within each state.
-:::
-::: {.entry-card}
-#### 2025 | SPTO published in IEEE Transactions on Smart Grid
-[Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) connects probabilistic electricity-cost forecasting with stochastic scheduling for urban water supply.
-:::
-::: {.entry-card}
-#### December 2024 | Bi-correction model published
-[The knowledge-based bi-correction model](https://doi.org/10.1016/j.eswa.2024.124508) combines lag-penalty attention with posterior error correction for daily urban water-demand forecasting.
-:::
-::: {.entry-card}
-#### April 2024 | CritiCoder published
-[CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) appeared in volume 11, issue 2 of *IEEE Transactions on Computational Social Systems*.
-:::
-:::
+```{=html}
+<div class="news-timeline">
+  <article class="news-item">
+    <time datetime="2026-08">AUG 2026</time>
+    <div><h2>Cornell postdoctoral appointment</h2><p>I joined Cornell University as an <strong>Ezra Systems Postdoctoral Associate</strong> in the Systems Engineering Program. My postdoctoral research extends decision-focused learning toward physics-aware AI for materials discovery.</p></div>
+  </article>
+  <article class="news-item">
+    <time datetime="2026-07">JUL 2026</time>
+    <div><h2><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT published in Expert Systems with Applications</a></h2><p>DRIFT coordinates target intent with local LiDAR geometry during recurrent diffusion-based trajectory generation.</p></div>
+  </article>
+  <article class="news-item">
+    <time datetime="2026">2026</time>
+    <div><h2>Machine learning conference reviewing</h2><p>I reviewed for ICML, the NeurIPS Position Paper Track, and the AAAI Main Technical and AI for Social Impact tracks.</p></div>
+  </article>
+  <article class="news-item">
+    <time datetime="2025">2025</time>
+    <div><h2><a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO published in IEEE Transactions on Smart Grid</a></h2><p>SPTO couples probabilistic electricity-cost forecasting with stochastic water-supply scheduling and trains the forecast against downstream decision quality.</p></div>
+  </article>
+  <article class="news-item">
+    <time datetime="2024-12">DEC 2024</time>
+    <div><h2><a href="https://doi.org/10.1016/j.eswa.2024.124508">Bi-correction model published</a></h2><p>The model combines lag-penalty attention with posterior error correction for daily urban water-demand forecasting.</p></div>
+  </article>
+  <article class="news-item">
+    <time datetime="2024-04">APR 2024</time>
+    <div><h2><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder published in IEEE TCSS</a></h2><p>CritiCoder separates modeled responses to observed inputs from residual pressure variation associated with unobserved disturbances.</p></div>
+  </article>
+</div>
+```

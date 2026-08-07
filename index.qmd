@@ -1,9 +1,10 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
-subtitle: "Forecasting for downstream optimization"
-description-meta: "Ph.D. candidate at Shanghai Jiao Tong University studying decision-focused learning, time-series forecasting, and optimization for water-energy systems."
+subtitle: "Physical AI for scientific discovery"
+description-meta: "Shunyu Wu is an Ezra Systems Postdoctoral Associate at Cornell University working on Physical AI for Science, decision-focused learning, and physics-aware AI for materials discovery."
 toc: false
 page-layout: full
+body-classes: home-page
 ---
 
 <script type="application/ld+json">
@@ -19,15 +20,15 @@ page-layout: full
       "familyName": "Wu",
       "url": "https://shunyuwu-shaun.github.io/",
       "affiliation": {
-        "@type": "Organization",
-        "name": "Department of Automation, Shanghai Jiao Tong University",
-        "parentOrganization": {
-          "@type": "CollegeOrUniversity",
-          "name": "Shanghai Jiao Tong University"
-        }
+        "@type": "CollegeOrUniversity",
+        "name": "Cornell University"
       },
-      "jobTitle": "Ph.D. Candidate",
-      "description": "Researcher in decision-focused learning, time-series forecasting, differentiable optimization, and water-energy resource scheduling.",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Shanghai Jiao Tong University"
+      },
+      "jobTitle": "Ezra Systems Postdoctoral Associate",
+      "description": "Researcher in Physical AI for Science, physics-aware AI for materials discovery, decision-focused learning, and differentiable optimization.",
       "email": "mailto:shunyuwu@sjtu.edu.cn",
       "sameAs": [
         "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en",
@@ -36,12 +37,12 @@ page-layout: full
         "https://www.researchgate.net/profile/Shunyu-Wu"
       ],
       "knowsAbout": [
+        "Physical AI for Science",
+        "AI for materials discovery",
+        "Physics-aware generative modeling",
         "Decision-focused learning",
-        "Predict-then-optimize",
         "Differentiable optimization",
-        "Time-series forecasting",
-        "Water-energy resource scheduling",
-        "Offline reinforcement learning"
+        "Scientific decision-making under uncertainty"
       ]
     },
     {
@@ -50,145 +51,210 @@ page-layout: full
       "url": "https://shunyuwu-shaun.github.io/",
       "name": "Shunyu Wu Academic Website",
       "inLanguage": "en",
-      "publisher": {
-        "@id": "https://shunyuwu-shaun.github.io/#person"
-      }
+      "publisher": { "@id": "https://shunyuwu-shaun.github.io/#person" }
     },
     {
       "@type": "ProfilePage",
       "@id": "https://shunyuwu-shaun.github.io/#profile",
       "url": "https://shunyuwu-shaun.github.io/",
       "name": "Shunyu Wu Academic Profile",
-      "mainEntity": {
-        "@id": "https://shunyuwu-shaun.github.io/#person"
-      }
+      "mainEntity": { "@id": "https://shunyuwu-shaun.github.io/#person" }
     }
   ]
 }
 </script>
 
-::: {.hero-layout}
-::: {.hero-card .hero-main}
-## About
-
-I am a Ph.D. candidate in the Department of Automation at **Shanghai Jiao Tong University**. I study learning methods that connect prediction with downstream decisions, especially time-series forecasting and resource scheduling in urban water and water-energy systems.
-
-::: {.hero-lead}
-I examine which forecast errors alter the selected action or schedule. Depending on the application, I evaluate the model by operating cost and optimality gap, demand-trend timing, or pressure error.
-:::
-
-::: {.hero-buttons}
-[Google Scholar](https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en)
-[ORCID](https://orcid.org/0000-0001-9856-2148)
-[GitHub](https://github.com/ShunyuWu-Shaun)
-:::
-
-::: {.interest-chips}
-<span class="interest-chip">Decision-focused learning</span>
-<span class="interest-chip">Predict-then-optimize</span>
-<span class="interest-chip">Time-series forecasting</span>
-<span class="interest-chip">Differentiable optimization</span>
-<span class="interest-chip">Offline reinforcement learning</span>
-:::
-:::
-
-::: {.profile-card}
-![](/assets/images/shunyu-wu-avatar.jpg){.profile-photo alt="Portrait of Shunyu Wu"}
-
-<div>
-<div class="profile-name">Shunyu Wu</div>
-<div class="profile-role">Ph.D. Candidate</div>
-<div class="profile-role">Department of Automation</div>
-<div class="profile-role">Shanghai Jiao Tong University</div>
+```{=html}
+<div class="site-splash" data-site-splash aria-hidden="true">
+  <svg class="splash-lattice" viewBox="0 0 900 520" focusable="false">
+    <g class="splash-links">
+      <path d="M95 118L205 75L296 143L405 91L513 153L626 92L752 142"/>
+      <path d="M95 118L138 244L275 256L296 143L405 91L438 239L513 153L595 263L626 92L752 142L793 279"/>
+      <path d="M138 244L116 390L244 435L275 256L390 383L438 239L535 406L595 263L700 395L793 279"/>
+    </g>
+    <g class="splash-nodes">
+      <circle cx="95" cy="118" r="8"/><circle cx="205" cy="75" r="8"/><circle cx="296" cy="143" r="8"/><circle cx="405" cy="91" r="8"/><circle cx="513" cy="153" r="8"/><circle cx="626" cy="92" r="8"/><circle cx="752" cy="142" r="8"/><circle cx="138" cy="244" r="8"/><circle cx="275" cy="256" r="8"/><circle cx="438" cy="239" r="8"/><circle cx="595" cy="263" r="8"/><circle cx="793" cy="279" r="8"/><circle cx="116" cy="390" r="8"/><circle cx="244" cy="435" r="8"/><circle cx="390" cy="383" r="8"/><circle cx="535" cy="406" r="8"/><circle cx="700" cy="395" r="8"/>
+    </g>
+    <path class="splash-decision" d="M94 118C213 83 268 280 391 382S609 270 793 279"/>
+  </svg>
+  <div class="splash-wordmark">
+    <span>SW / PHYSICAL INTELLIGENCE</span>
+    <strong>OBSERVE. LEARN. DECIDE.</strong>
+  </div>
 </div>
-:::
-:::
+```
 
-::: {.snapshot-grid}
-::: {.snapshot-item}
-<div class="snapshot-number">61</div>
-<div class="snapshot-label">Google Scholar citations</div>
-:::
-::: {.snapshot-item}
-<div class="snapshot-number">5</div>
-<div class="snapshot-label">h-index</div>
-:::
-::: {.snapshot-item}
-<div class="snapshot-number">13</div>
-<div class="snapshot-label">Works listed on Scholar</div>
-:::
-::: {.snapshot-item}
-<div class="snapshot-number">3</div>
-<div class="snapshot-label">First-authored journal articles</div>
-:::
-:::
+```{=html}
+<div class="home-shell">
+  <section class="home-hero" aria-labelledby="home-hero-title">
+    <div class="hero-lattice" aria-hidden="true">
+      <svg viewBox="0 0 860 720" focusable="false">
+        <g class="lattice-links">
+          <path d="M88 112L202 62L300 131L420 71L536 144L650 79L774 139"/>
+          <path d="M88 112L130 251L267 265L300 131L420 71L450 246L536 144L610 278L650 79L774 139L811 294"/>
+          <path d="M130 251L102 424L235 481L267 265L402 424L450 246L561 462L610 278L728 432L811 294"/>
+          <path d="M102 424L184 624L335 571L402 424L548 622L561 462L728 432L765 615"/>
+        </g>
+        <g class="lattice-nodes">
+          <circle cx="88" cy="112" r="7"/><circle cx="202" cy="62" r="7"/><circle cx="300" cy="131" r="7"/><circle cx="420" cy="71" r="7"/><circle cx="536" cy="144" r="7"/><circle cx="650" cy="79" r="7"/><circle cx="774" cy="139" r="7"/><circle cx="130" cy="251" r="7"/><circle cx="267" cy="265" r="7"/><circle cx="450" cy="246" r="7"/><circle cx="610" cy="278" r="7"/><circle cx="811" cy="294" r="7"/><circle cx="102" cy="424" r="7"/><circle cx="235" cy="481" r="7"/><circle cx="402" cy="424" r="7"/><circle cx="561" cy="462" r="7"/><circle cx="728" cy="432" r="7"/><circle cx="184" cy="624" r="7"/><circle cx="335" cy="571" r="7"/><circle cx="548" cy="622" r="7"/><circle cx="765" cy="615" r="7"/>
+        </g>
+        <path class="decision-path" d="M88 112C189 136 178 270 267 265S335 411 402 424S506 332 610 278S725 376 811 294"/>
+      </svg>
+    </div>
 
-<p class="section-note">Google Scholar metrics checked on July 27, 2026.</p>
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="status-dot"></span> Ezra Systems Postdoctoral Associate | Cornell University</p>
+      <h1 id="home-hero-title"><span>Physical AI</span><span>for scientific</span><span class="spectral-text">discovery.</span></h1>
+      <p class="hero-slogan">From physical observations to decisions for materials design.</p>
+      <p class="hero-statement">Prediction is only the beginning. I develop AI models that are judged by the scientific decisions they enable, from constrained schedules to candidate materials and experiments.</p>
+      <div class="hero-actions">
+        <a class="button-primary" href="#featured-work">See selected work <span aria-hidden="true">↘</span></a>
+        <a class="button-ghost" href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-signals" aria-label="Research themes">
+        <span>PHYSICAL AI FOR SCIENCE</span><span>DECISION-FOCUSED LEARNING</span><span>DIFFERENTIABLE OPTIMIZATION</span>
+      </div>
+    </div>
 
-<hr class="page-section-divider" />
+    <aside class="hero-profile" aria-label="Shunyu Wu profile">
+      <div class="portrait-frame">
+        <img src="/assets/images/shunyu-wu-avatar.jpg" width="256" height="256" alt="Portrait of Shunyu Wu">
+        <span class="portrait-corner portrait-corner-a"></span><span class="portrait-corner portrait-corner-b"></span>
+      </div>
+      <p class="profile-index">RESEARCHER / 01</p>
+      <h2>Shunyu Wu <span>吴舜禹</span></h2>
+      <p>Ezra Systems Postdoctoral Associate<br>Systems Engineering Program<br>Cornell University<span class="profile-degree">Ph.D., Shanghai Jiao Tong University</span></p>
+      <div class="profile-links"><a href="https://orcid.org/0000-0001-9856-2148">ORCID</a><a href="https://github.com/ShunyuWu-Shaun">GITHUB</a><a href="mailto:shunyuwu@sjtu.edu.cn">EMAIL</a></div>
+    </aside>
+  </section>
 
-## Research
+  <section class="home-section news-front" id="latest-news" data-reveal aria-labelledby="news-front-title">
+    <header class="section-heading">
+      <p>01 / LATEST SIGNALS</p>
+      <h2 id="news-front-title">A new chapter at Cornell.</h2>
+      <a href="/news/">All news <span aria-hidden="true">↗</span></a>
+    </header>
+    <div class="news-grid">
+      <article class="news-lead">
+        <p class="news-date">AUG 2026 <span>NEW POSITION</span></p>
+        <h3>Joined Cornell University as an Ezra Systems Postdoctoral Associate.</h3>
+        <p>I am beginning a postdoctoral research program on Physical AI for Science, with an initial focus on physics-aware AI and decision models for materials discovery.</p>
+        <div class="news-mark" aria-hidden="true">CORNELL / ITHACA</div>
+      </article>
+      <article class="news-compact">
+        <p class="news-date">JUL 2026 <span>PAPER</span></p>
+        <h3><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT published in Expert Systems with Applications</a></h3>
+        <p>Local LiDAR geometry guides recurrent diffusion toward target-consistent trajectories.</p>
+      </article>
+      <article class="news-compact">
+        <p class="news-date">2026 <span>SERVICE</span></p>
+        <h3>Reviewing across the machine learning community</h3>
+        <p>ICML, NeurIPS Position Paper Track, and the AAAI Main Technical and AI for Social Impact tracks.</p>
+      </article>
+      <article class="news-compact news-dark">
+        <p class="news-date">2025 <span>FLAGSHIP WORK</span></p>
+        <h3><a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO in IEEE Transactions on Smart Grid</a></h3>
+        <p>Probabilistic forecasts are trained against the scheduling costs and regret they induce.</p>
+      </article>
+    </div>
+  </section>
 
-::: {.card-list}
-::: {.entry-card}
-#### Decision-focused learning for water-energy scheduling
-Stochastic Predict-Then-Optimize passes probabilistic electricity-cost forecasts to a stochastic scheduler for urban water supply. A convex upper bound on the resulting optimality gap, derived from Lagrangian duality, provides gradients for predictor training.
-:::
-::: {.entry-card}
-#### Forecasting under lag and unobserved disturbances
-The knowledge-based bi-correction model uses lag-penalty attention and a masked weighted Markov chain to correct delayed responses in daily water-demand forecasts. CritiCoder separates the modeled response to observed variables from residual pressure variation represented as an uncertain disturbance.
-:::
-::: {.entry-card}
-#### Learning-based action and trajectory selection
-Current collaborations study candidate-action selection in offline reinforcement learning and diffusion-based trajectory generation conditioned on local LiDAR geometry. GEM reranks sampled actions at inference, whereas DRIFT retrieves waypoint-specific scene context during recurrent denoising.
-:::
-:::
+  <section class="home-section research-front" data-reveal aria-labelledby="research-front-title">
+    <header class="section-heading section-heading-wide">
+      <p>02 / RESEARCH VECTORS</p>
+      <h2 id="research-front-title">AI that respects physics and earns its decisions.</h2>
+      <p>My Ph.D. work established a methodological base in decision-focused forecasting and constrained optimization for water-energy systems. At Cornell, I am extending that base toward physics-aware AI for materials discovery.</p>
+    </header>
+    <div class="vector-grid">
+      <article class="vector-card vector-featured">
+        <span class="vector-number">01</span>
+        <div class="material-orbit" aria-hidden="true"><i></i><i></i><i></i><i></i><b></b></div>
+        <h3>Physics-aware AI for materials discovery</h3>
+        <p>Models that encode scientific constraints, represent candidate structures, and rank experimentally feasible decisions.</p>
+        <span class="vector-tag">CURRENT POSTDOCTORAL AGENDA</span>
+      </article>
+      <article class="vector-card">
+        <span class="vector-number">02</span>
+        <h3>Decision-focused learning</h3>
+        <p>Predictors trained against downstream cost or regret, so their errors are weighted by the actions they change.</p>
+        <div class="mini-equation">x → ŷ → argmin<sub>z</sub> f(z, ŷ)</div>
+      </article>
+      <article class="vector-card">
+        <span class="vector-number">03</span>
+        <h3>Generative design under constraints</h3>
+        <p>Physics-aware generative models that search candidate structures while respecting symmetry, feasibility, and operational limits.</p>
+        <div class="mini-lattice" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </article>
+      <article class="vector-card">
+        <span class="vector-number">04</span>
+        <h3>Scientific decisions under uncertainty</h3>
+        <p>Probabilistic representations coupled to constrained optimizers for experiment selection, scheduling, and control.</p>
+        <div class="uncertainty-strip" aria-hidden="true"><i></i></div>
+      </article>
+    </div>
+    <p class="section-link"><a href="/research/">Read the research agenda <span aria-hidden="true">↗</span></a></p>
+  </section>
 
-More detail is available on the [Research](/research/) page.
+  <section class="home-section paper-front" id="featured-work" data-reveal aria-labelledby="featured-work-title">
+    <header class="section-heading section-heading-wide">
+      <p>03 / FEATURED FIRST-AUTHOR WORK</p>
+      <h2 id="featured-work-title">Methods built around the decision that follows.</h2>
+      <p>Four lead-author methods connect probabilistic forecasts, uncertain representations, and the physical decisions they drive.</p>
+    </header>
+    <div class="paper-grid paper-grid-home">
+      <article class="paper-card paper-flagship">
+        <a class="paper-visual" href="https://doi.org/10.1109/TSG.2025.3601238"><img src="/assets/images/publications/spto.svg" width="800" height="500" alt="SPTO visual abstract linking a forecast distribution, differentiable optimality-gap surrogate, and stochastic schedule"></a>
+        <div class="paper-body"><p class="paper-meta"><span class="author-role">FIRST AUTHOR</span><span>IEEE TSG · 2025</span></p><h3><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></h3><p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p><p class="paper-claim">SPTO trains a probabilistic forecast with a differentiable upper bound on downstream optimality gap, placing scheduling cost inside the learning objective.</p></div>
+      </article>
+      <article class="paper-card">
+        <a class="paper-visual" href="https://doi.org/10.1016/j.eswa.2024.124508"><img loading="lazy" src="/assets/images/publications/kbbcm.svg" width="800" height="500" alt="Bi-correction model visual abstract showing lag-penalty attention and posterior error correction"></a>
+        <div class="paper-body"><p class="paper-meta"><span class="author-role">FIRST AUTHOR</span><span>ESWA · 2024</span></p><h3><a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for lag-free urban water-demand forecasting</a></h3><p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p><p class="paper-claim">Lag-penalty attention and posterior residual correction target delayed reactions near demand turning points.</p></div>
+      </article>
+      <article class="paper-card">
+        <a class="paper-visual" href="https://doi.org/10.1109/TCSS.2023.3272330"><img loading="lazy" src="/assets/images/publications/criticoder.svg" width="800" height="500" alt="CritiCoder visual abstract separating measured effects from unobserved disturbances"></a>
+        <div class="paper-body"><p class="paper-meta"><span class="author-role">FIRST AUTHOR</span><span>IEEE TCSS · 2024</span></p><h3><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: Uncertain regression for robust pressure models</a></h3><p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p><p class="paper-claim">The Coder learns measured effects, while the Critic represents residual pressure variation associated with unobserved disturbances.</p></div>
+      </article>
+      <article class="paper-card">
+        <a class="paper-visual" href="https://doi.org/10.23919/CCC52363.2021.9550182"><img loading="lazy" src="/assets/images/publications/fine-grained.svg" width="800" height="500" alt="Fine-grained forecasting visual abstract converting a daily demand curve into minute-level patterns"></a>
+        <div class="paper-body"><p class="paper-meta"><span class="author-role">FIRST AUTHOR</span><span>CCC · 2021</span></p><h3><a href="https://doi.org/10.23919/CCC52363.2021.9550182">A Fine Grained Forecasting Method for Minute-Level Urban Water Demand</a></h3><p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Pingwei Zhao, Miaoshun Bai, Jingcheng Wang, and Yang Lan</p><p class="paper-claim">A coarse daily forecast is decomposed into reusable fine-grained patterns to recover minute-level demand variation.</p></div>
+      </article>
+    </div>
+  </section>
 
-## Selected publications
+  <section class="home-section last-author-front" data-reveal aria-labelledby="last-author-title">
+    <header class="section-heading section-heading-wide">
+      <p>04 / SELECTED LAST-AUTHOR WORK</p>
+      <h2 id="last-author-title">From local geometry to constrained control.</h2>
+      <p>Last-author collaborations extend this program into diffusion trajectories and safety-constrained control.</p>
+    </header>
+    <div class="paper-grid paper-grid-two">
+      <article class="paper-card paper-card-horizontal">
+        <a class="paper-visual" href="https://doi.org/10.1016/j.eswa.2026.133261"><img loading="lazy" src="/assets/images/publications/drift.svg" width="800" height="500" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed diffusion"></a>
+        <div class="paper-body"><p class="paper-meta"><span class="author-role author-role-last">LAST AUTHOR</span><span>ESWA · 2026</span></p><h3><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry</a></h3><p class="paper-authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong class="author-self">Shunyu Wu</strong></p></div>
+      </article>
+      <article class="paper-card paper-card-horizontal">
+        <a class="paper-visual" href="https://doi.org/10.1109/TSMC.2023.3344883"><img loading="lazy" src="/assets/images/publications/rl-controller.svg" width="800" height="500" alt="Constrained reinforcement learning controller visual abstract"></a>
+        <div class="paper-body"><p class="paper-meta"><span class="author-role author-role-last">LAST AUTHOR</span><span>IEEE TSMC · 2024</span></p><h3><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Constrained Nonlinear Systems</a></h3><p class="paper-authors">Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and <strong class="author-self">Shunyu Wu</strong></p></div>
+      </article>
+    </div>
+    <p class="section-link"><a href="/publications/">View all first- and last-author papers <span aria-hidden="true">↗</span></a></p>
+  </section>
 
-::: {.card-list}
-::: {.entry-card}
-#### [End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling](https://doi.org/10.1109/TSG.2025.3601238)
-Shunyu Wu, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao. *IEEE Transactions on Smart Grid*, 16(6), 4796-4807, 2025.
-:::
-::: {.entry-card}
-#### [Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508)
-Shunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. *Expert Systems with Applications*, 255, 124508, 2024.
-:::
-::: {.entry-card}
-#### [CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems](https://doi.org/10.1109/TCSS.2023.3272330)
-Shunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. *IEEE Transactions on Computational Social Systems*, 11(2), 2222-2233, 2024.
-:::
-::: {.entry-card}
-#### [DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation](https://doi.org/10.1016/j.eswa.2026.133261)
-Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and Shunyu Wu. *Expert Systems with Applications*, 331, 133261, 2026.
-:::
-:::
+  <section class="home-section service-front" data-reveal aria-labelledby="service-front-title">
+    <div>
+      <p class="service-kicker">05 / ACADEMIC COMMUNITY</p>
+      <h2 id="service-front-title">Research is sharper when the field argues back.</h2>
+    </div>
+    <div class="service-copy">
+      <p>I review for ICML 2026, the NeurIPS 2026 Position Paper Track, and the AAAI-26 Main Technical and AI for Social Impact tracks, alongside ICLR, CDC, and IEEE journals.</p>
+      <a href="/service/">Academic service <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
 
-See [Publications](/publications/) for the complete record, including conference papers and the 2026 GEM preprint.
-
-## Academic activities
-
-::: {.two-col-grid}
-::: {.feature-card}
-#### Reviewing and mentoring
-
-- Reviewer for ICML 2026, ICLR in the 2025 and 2026 cycles, and the NeurIPS 2026 Position Paper Track.
-- Reviewer for the AAAI-26 Main Technical Track and AI for Social Impact Track, and for CDC in 2024 and 2025.
-- Reviewer for IEEE journals in systems, automation, and intelligent vehicles.
-- Co-mentor of one Ph.D. student and 13 master's students.
-
-More information is listed under [Service](/service/).
-:::
-::: {.feature-card}
-#### Recent research updates
-
-- **July 2026.** DRIFT is available online and assigned to volume 331 of *Expert Systems with Applications*.
-- **March 2026.** GEM was released as arXiv:2603.23232.
-- **2025.** The SPTO paper appeared in *IEEE Transactions on Smart Grid*.
-
-See [News](/news/) for DOI and preprint links.
-:::
-:::
+  <section class="home-cta" data-reveal>
+    <p>PHYSICAL AI / MATERIALS / DECISION INTELLIGENCE</p>
+    <h2>Let the model predict.<br><span>Then make it decide.</span></h2>
+    <div><a href="mailto:shunyuwu@sjtu.edu.cn">Start a research conversation <span aria-hidden="true">↗</span></a></div>
+  </section>
+</div>
+```

@@ -4,26 +4,22 @@ description: "A published case study on stochastic predict-then-optimize for urb
 toc: true
 ---
 
-::: {.project-safe-note}
-This page summarizes the peer-reviewed article and omits utility names, asset locations, internal screenshots, and operational records.
-:::
-
 ## Decision problem
 
 Urban water supply consumes electricity throughout treatment, transport, and distribution. The resulting schedule depends on the expected electricity cost, while errors in that forecast can change operating cost and the selected schedule.
 
-The study models the full water-supply process as a stochastic scheduling problem with uncertain electricity prices. It evaluates forecast quality by pointwise prediction error and by the objective value of the induced schedule.
+The study models the full water-supply process as a stochastic scheduling problem with uncertain electricity prices. Forecast quality is evaluated both by pointwise prediction error and by the objective value of the induced schedule.
 
 ## Stochastic Predict-Then-Optimize
 
-Stochastic Predict-Then-Optimize combines a probabilistic forecasting model with the downstream stochastic program. The forecast distribution supplies uncertain cost parameters to the scheduler. The resulting schedule defines the decision loss used to update the predictor.
+Stochastic Predict-Then-Optimize combines a probabilistic forecasting model with the downstream stochastic program. Its forecast distribution supplies uncertain cost parameters to the scheduler, and the resulting schedule defines the decision loss used to update the predictor.
 
 Direct differentiation through this optimization problem is difficult. SPTO+ replaces the exact optimality gap with a differentiable convex upper bound derived from Lagrangian duality. The bound supplies a surrogate gradient while retaining the scheduling problem in the training objective.
 
 ## Evaluation
 
-The experiments compare forecast quality, operating cost, and decision regret on real-world water-supply systems. The paper reports lower operating cost and regret than the tested two-stage forecasting and optimization baselines. The public article does not disclose the utility maps or operational dashboards previously stored in this repository.
+Experiments on real-world water-supply systems compare forecast quality, operating cost, and decision regret. SPTO reports lower operating cost and regret than the tested two-stage forecasting and optimization baselines.
 
 ## Publication
 
-Shunyu Wu, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao. [End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling](https://doi.org/10.1109/TSG.2025.3601238). *IEEE Transactions on Smart Grid*, 16(6), 4796-4807, 2025.
+**Shunyu Wu**, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao. [End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling](https://doi.org/10.1109/TSG.2025.3601238). *IEEE Transactions on Smart Grid*, 16(6), 4796-4807, 2025.

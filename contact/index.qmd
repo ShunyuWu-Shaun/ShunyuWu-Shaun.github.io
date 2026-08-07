@@ -1,17 +1,24 @@
 ---
 title: "Contact"
-description: "Email and academic profile links for Shunyu Wu."
+description: "Contact details and academic profiles for Shunyu Wu at Cornell University."
 toc: false
 ---
 
-## Email
+## Research conversations
 
-For research discussions, seminar invitations, or collaboration on decision-focused forecasting and stochastic scheduling for water systems, email [shunyuwu@sjtu.edu.cn](mailto:shunyuwu@sjtu.edu.cn).
+I welcome conversations on Physical AI for Science, AI for materials discovery, decision-focused learning, physics-aware generative modeling, and constrained scientific decision-making.
 
-## Affiliation
+[shunyuwu@sjtu.edu.cn](mailto:shunyuwu@sjtu.edu.cn)
 
-Department of Automation<br>
-Shanghai Jiao Tong University
+## Current appointment
+
+**Ezra Systems Postdoctoral Associate**<br>
+Systems Engineering Program<br>
+Cornell University
+
+## Education
+
+Ph.D., Shanghai Jiao Tong University
 
 ## Academic profiles
 
@@ -19,7 +26,3 @@ Shanghai Jiao Tong University
 - [ORCID 0000-0001-9856-2148](https://orcid.org/0000-0001-9856-2148)
 - [GitHub](https://github.com/ShunyuWu-Shaun)
 - [ResearchGate](https://www.researchgate.net/profile/Shunyu-Wu)
-
-## Privacy
-
-This site does not publish a phone number, home address, date of birth, or personal identification records.

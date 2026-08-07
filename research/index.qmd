@@ -1,44 +1,45 @@
 ---
 title: "Research"
-description: "Research by Shunyu Wu on decision-focused learning, time-series forecasting, differentiable optimization, and learning-based decision rules."
+description: "Shunyu Wu develops physics-aware and decision-focused AI for materials discovery, scientific forecasting, constrained optimization, and control."
+toc: true
 ---
 
-## Research questions
+## Physical AI for scientific discovery
 
-Forecasts with similar pointwise errors can lead to different schedules or control actions. I study how predictions change decisions when they parameterize an optimizer or rank a candidate action set. Evaluation depends on the application: operating cost and optimality gap for scheduling, demand-trend timing for forecasting, and pressure error for network models.
+My current research asks how an AI model can move from scientific observations to experimentally feasible decisions. At Cornell, I am extending decision-focused learning toward physics-aware AI for materials discovery. Prediction alone is insufficient: the learned representation must improve the choice of material candidate, experiment, schedule, or control action under physical constraints.
 
-## Decision-focused training for water-energy scheduling
+Physical representations feed generative models, and constrained optimizers evaluate the resulting candidates to select the next experiment or design action. This chain exposes how each learned output changes a scientific decision.
 
-[Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) addresses electricity-cost uncertainty in water-energy resource scheduling. The model combines probabilistic forecasting with a stochastic scheduling problem for urban water supply. Its training objective uses a differentiable convex upper bound on the optimality gap derived from Lagrangian duality, so forecast distributions are evaluated by the schedules they induce.
+## Decision-focused learning
 
-This line of work examines which forecast errors alter the optimal schedule and how a constrained solver can provide a training signal. It also tests whether lower operating cost or regret comes at the expense of forecast calibration.
+[Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) trains a probabilistic electricity-cost forecast against the stochastic water-supply schedule that follows. A differentiable convex upper bound on optimality gap, derived from Lagrangian duality, passes a decision-relevant training signal back to the predictor.
 
-## Time-series forecasting at turning points
+This formulation distinguishes prediction errors that change the selected schedule from errors that leave the decision unchanged. The same principle can support scientific decision problems in which a predictor parameterizes experiment selection or candidate screening.
 
-[The knowledge-based bi-correction model](https://doi.org/10.1016/j.eswa.2024.124508) targets lag in daily urban water-demand forecasts. Lag-penalty attention extracts sequence and feature information associated with timely changes. A stacked LSTM produces the initial forecast, and a masked weighted Markov chain corrects selected residuals using posterior error information.
+## Physics-aware generative modeling
 
-The same study introduces mean prediction trend effectiveness to test whether a model follows the direction of demand changes more effectively than a naive forecast. This metric complements absolute-error measures because a low average error can conceal a delayed response near a turning point.
+Generative models can search large candidate spaces, but scientific candidates must satisfy structure and feasibility requirements. Physics-aware generation encodes these constraints and retains them during downstream ranking. For materials discovery, the constraint set may include symmetry, periodicity, composition, and experimental feasibility.
 
-## Pressure modeling with unobserved disturbances
+Candidate quality is measured by constraint satisfaction and by the physical or experimental decisions a candidate supports, alongside sample fidelity.
 
-[CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) models macroscopic pressure when measured inputs do not explain all disturbance-related variation. Its Coder estimates the response to observed variables, while the Critic modifies the training loss to represent residual variation as an uncertain disturbance. The study evaluates this separation across monitoring nodes with different exposure to unobserved disturbances.
+## Scientific forecasting under uncertainty
 
-## Explicit selection rules for learned decisions
+[The knowledge-based bi-correction model](https://doi.org/10.1016/j.eswa.2024.124508) targets delayed reactions near demand turning points through lag-penalty attention and posterior residual correction. [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) separates the response to measured inputs from pressure variation associated with unobserved disturbances.
 
-Two 2026 collaborations extend this interest beyond water systems. [GEM](https://arxiv.org/abs/2603.23232) uses a Gaussian-mixture actor to retain multiple action hypotheses in offline reinforcement learning. At inference, it ranks a candidate set with an ensemble lower-confidence bound and a behavior-support term standardized within the current state.
+These studies provide tools for scientific time series in which timing, uncertainty, and unmeasured effects determine the value of a prediction. The relevant evaluation quantity depends on the downstream scientific action rather than a single aggregate error score.
 
-[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) generates trajectories from local LiDAR observations. Structured Scene Perception stores local geometry as graph memory. During recurrent denoising, the model retrieves waypoint-specific geometry and conditions each update on the target.
+## Generative decisions in physical environments
 
-## Evaluation criteria by research question
+[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory. During recurrent diffusion denoising, the model retrieves waypoint-specific context and coordinates the trajectory with a target. This work connects generative modeling with local physical structure and explicit action generation.
 
-| Research question | Main technical object | Evaluation quantity |
-|---|---|---|
-| How does a forecast change a schedule? | Probabilistic forecast inside stochastic optimization | Scheduling cost and decision regret |
-| Does a forecast react at the right time? | Lag-penalty attention and posterior correction | Trend effectiveness and forecast error |
-| How should a model represent missing disturbances? | Uncertain regression with separated observed effects | Pressure error at monitoring nodes |
-| Which learned action should be executed? | Candidate generation and explicit reranking | D4RL score, support violations, and inference cost |
-| Does a generated trajectory fit local geometry? | Structured scene memory during denoising | Endpoint error, smoothness, clearance, and runtime |
+## Research map
 
-## Application scope
+| Research question | Learned object | Physical or decision object | Evaluation target |
+|---|---|---|---|
+| Which candidate should be tested next? | Physics-aware candidate representation | Feasible material or experiment | Constraint satisfaction and scientific utility |
+| Which forecast errors matter? | Probabilistic prediction | Stochastic schedule | Operating cost and decision regret |
+| Does the model react at the right time? | Lag-aware temporal representation | Demand response | Turning-point timing and forecast error |
+| How should missing effects be represented? | Uncertain regression | Pressure state | Error across monitored nodes |
+| Does a generated action fit its surroundings? | Diffusion trajectory | Target-directed motion | Endpoint error, clearance, smoothness, and runtime |
 
-My first-authored work focuses on urban water demand, pressure modeling, and water-energy scheduling. Collaborative work covers industrial energy-consumption prediction, nonlinear control, offline reinforcement learning, and local-sensing trajectory generation. The [Publications](/publications/) page separates first-authored articles from collaborative papers and conference proceedings.
+[First- and last-author publications](/publications/) provide the evidence base for these research threads.

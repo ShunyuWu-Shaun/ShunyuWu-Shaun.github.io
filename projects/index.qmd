@@ -1,6 +1,6 @@
 ---
-title: "Research case studies"
-description: "Source-linked case studies of first- and last-author work by Shunyu Wu."
+title: "Research projects"
+description: "Source-linked research projects based on first- and last-author work by Shunyu Wu."
 toc: false
 ---
 
@@ -9,7 +9,7 @@ toc: false
 ::: {.entry-card}
 The [SPTO study](https://doi.org/10.1109/TSG.2025.3601238) models the full urban water-supply process under uncertain electricity prices. Probabilistic price forecasts parameterize a stochastic scheduling problem, and a convex upper bound on the optimality gap provides gradients for training. Experiments on real-world systems compare operating cost and decision regret with two-stage baselines.
 
-[Read the case study](industrial-workflow-analysis.qmd)
+[Read the research summary](industrial-workflow-analysis.qmd)
 :::
 
 ## Urban water forecasting and pressure modeling
@@ -17,7 +17,7 @@ The [SPTO study](https://doi.org/10.1109/TSG.2025.3601238) models the full urban
 ::: {.entry-card}
 Two first-authored studies address different sources of forecast error. [KbBcM](https://doi.org/10.1016/j.eswa.2024.124508) targets delayed responses near changes in daily demand. [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) represents pressure variation associated with unobserved disturbances.
 
-[Read the case study](service-operations-planning.qmd)
+[Read the research summary](service-operations-planning.qmd)
 :::
 
 ## Generative decisions in physical environments

@@ -1,14 +1,24 @@
 ---
 title: "Research"
-description: "Shunyu Wu develops neural operators for physical systems and evaluates their use in downstream control, constrained optimization, and materials processes."
+description: "Shunyu Wu connects decision-focused forecasting and constrained optimization with neural operators for distributed physical dynamics, control, and materials processes."
 toc: true
 ---
 
-## Neural operators for physical systems
+## Research program
 
-At Cornell, my postdoctoral work develops neural operators and examines how their approximation errors propagate into downstream control and constrained optimization. A neural operator learns a map between functions, such as the map from an initial condition and a forcing field to a spatiotemporal solution. I evaluate the learned operator through both field error and the physical decisions it changes.
+My research asks how learned models of physical systems can support decisions under dynamics, uncertainty, and constraints. The program began with decision-focused forecasting and constrained optimization for coupled water–energy systems and now extends to neural operators for distributed dynamics, control, and materials processes.
 
-Materials processes provide one target setting because their state evolves as a field over space and time. Geometry and boundary conditions define the operator input, while measured fields provide training targets. Downstream tests measure the control cost or optimized design produced from the predicted field.
+## Decision-focused forecasting and constrained optimization
+
+During my doctoral research, I treated a predictor as part of a decision pipeline rather than an endpoint. [Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) trains probabilistic electricity-cost forecasts through the stochastic water-supply schedules they induce. A differentiable upper bound on downstream optimality gap passes a decision-relevant signal back to the predictor.
+
+Companion work on [lag-free demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508) and [uncertain pressure regression](https://doi.org/10.1109/TCSS.2023.3272330) addressed when a prediction error occurs and which unobserved effects it represents. Together, these studies shifted evaluation from aggregate forecast accuracy to decision sensitivity, operating cost, and constraint satisfaction.
+
+## From predictors to neural operators
+
+Neural operators extend this question from finite-dimensional time series to maps between physical fields. The model class changes, but the research criterion remains the same: a surrogate is useful when it preserves the control or optimization decision that matters.
+
+I study operators that map initial conditions, geometry, boundary conditions, and forcing fields to spatiotemporal solutions. Field error is one diagnostic; rollout stability, gradient quality, control cost, and feasibility determine whether the learned map is suitable for downstream use.
 
 ## Neural operators in downstream control
 
@@ -18,36 +28,24 @@ A learned solution operator can supply state rollouts to a controller without so
 
 Embedding a differentiable neural operator in an optimization problem links physical field prediction to design or operating decisions. Gradient accuracy and feasibility indicate whether the surrogate can be used inside the optimizer. Decision sensitivity shows when a small field error produces a materially different optimum.
 
-## Physical AI for materials processes
+## Materials processes as a physical testbed
 
-Materials processing often requires a map from process conditions and geometry to a field that evolves over space and time. I use neural operators to approximate this map across operating conditions. The predicted field then parameterizes experiment selection, process control, or constrained design.
+I am extending this framework to materials processes, where the state evolves as a field over space and time. These systems provide a concrete setting for testing whether learned solution maps can support experiment selection, process control, and constrained design.
 
-## Decision-focused learning
+## Related work on generated actions
 
-[Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) trains a probabilistic electricity-cost forecast against the stochastic water-supply schedule that follows. A differentiable convex upper bound on optimality gap, derived from Lagrangian duality, passes a decision-relevant training signal back to the predictor.
-
-This formulation distinguishes prediction errors that change the selected schedule from errors that leave the decision unchanged. The same principle motivates operator-learning objectives that weight field errors by their effect on a controller or optimizer.
-
-## Scientific forecasting under uncertainty
-
-[The knowledge-based bi-correction model](https://doi.org/10.1016/j.eswa.2024.124508) targets delayed reactions near demand turning points through lag-penalty attention and posterior residual correction. [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) separates the response to measured inputs from pressure variation associated with unobserved disturbances.
-
-These methods provide tools for scientific time series in which timing, uncertainty, and unmeasured effects determine the value of a prediction. The relevant evaluation quantity depends on the downstream scientific action rather than a single aggregate error score.
-
-## Generative decisions in physical environments
-
-[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory. During recurrent diffusion denoising, the model retrieves waypoint-specific context and coordinates the trajectory with a target. This work connects generative modeling with local physical structure and explicit action generation.
+A related collaborative thread examines learned action generation in physical environments. [DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory during recurrent diffusion, extending the broader interest in models whose outputs must satisfy geometric and decision constraints.
 
 ## Research map
 
 | Research question | Learned object | Physical or decision object | Evaluation target |
 |---|---|---|---|
-| What solution field follows from a new physical condition? | Neural operator | Spatiotemporal field | Operator error and rollout error |
-| How does surrogate error alter a controller? | Operator-based rollout | Control action | Closed-loop cost and constraint violation |
-| Which physical design is feasible? | Differentiable solution operator | Optimized design or setting | Objective value and feasibility |
 | Which forecast errors matter? | Probabilistic prediction | Stochastic schedule | Operating cost and decision regret |
 | Does the model react at the right time? | Temporal representation with a lag penalty | Demand response | Turning-point timing and forecast error |
 | How should missing effects be represented? | Uncertain regression | Pressure state | Error across monitored nodes |
+| What solution field follows from a new physical condition? | Neural operator | Spatiotemporal field | Operator error and rollout error |
+| How does surrogate error alter a controller? | Operator-based rollout | Control action | Closed-loop cost and constraint violation |
+| Which physical design is feasible? | Differentiable solution operator | Optimized design or setting | Objective value and feasibility |
 | Does a generated action fit its surroundings? | Diffusion trajectory | Target-directed motion | Endpoint error, clearance, smoothness, and runtime |
 
 [First- and last-author publications](/publications/) provide the evidence base for these research threads.

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Shunyu Wu develops neural operators for physical systems and evaluates their use in downstream control, constrained optimization, and materials processes.">
+<meta name="description" content="Shunyu Wu connects decision-focused forecasting and constrained optimization with neural operators for distributed physical dynamics, control, and materials processes.">
 
 <title>Research – Shunyu Wu</title>
 <style>
@@ -70,14 +70,15 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
-<link rel="stylesheet" href="../styles.css?v=20260806d">
+<link rel="stylesheet" href="../styles.css?v=20260807a">
+<link rel="stylesheet" href="../academic.css?v=20260807a">
 
 
 <meta property="og:title" content="Research – Shunyu Wu">
-<meta property="og:description" content="Shunyu Wu develops neural operators for physical systems and evaluates their use in downstream control, constrained optimization, and materials processes.">
+<meta property="og:description" content="Shunyu Wu connects decision-focused forecasting and constrained optimization with neural operators for distributed physical dynamics, control, and materials processes.">
 <meta property="og:site_name" content="Shunyu Wu">
 <meta name="twitter:title" content="Research – Shunyu Wu">
-<meta name="twitter:description" content="Shunyu Wu develops neural operators for physical systems and evaluates their use in downstream control, constrained optimization, and materials processes.">
+<meta name="twitter:description" content="Shunyu Wu connects decision-focused forecasting and constrained optimization with neural operators for distributed physical dynamics, control, and materials processes.">
 <meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://shunyuwu-shaun.github.io/research/">
 </head>
@@ -117,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
   <li class="nav-item">
     <a class="nav-link" href="../projects/index.html">
-<span class="menu-text">Case Studies</span></a>
+<span class="menu-text">Research Projects</span></a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="../service/index.html">
@@ -157,13 +158,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
 
   <ul>
-  <li><a href="#neural-operators-for-physical-systems" id="toc-neural-operators-for-physical-systems" class="nav-link active" data-scroll-target="#neural-operators-for-physical-systems">Neural operators for physical systems</a></li>
+  <li><a href="#research-program" id="toc-research-program" class="nav-link active" data-scroll-target="#research-program">Research program</a></li>
+  <li><a href="#decision-focused-forecasting-and-constrained-optimization" id="toc-decision-focused-forecasting-and-constrained-optimization" class="nav-link" data-scroll-target="#decision-focused-forecasting-and-constrained-optimization">Decision-focused forecasting and constrained optimization</a></li>
+  <li><a href="#from-predictors-to-neural-operators" id="toc-from-predictors-to-neural-operators" class="nav-link" data-scroll-target="#from-predictors-to-neural-operators">From predictors to neural operators</a></li>
   <li><a href="#neural-operators-in-downstream-control" id="toc-neural-operators-in-downstream-control" class="nav-link" data-scroll-target="#neural-operators-in-downstream-control">Neural operators in downstream control</a></li>
   <li><a href="#neural-operators-in-constrained-optimization" id="toc-neural-operators-in-constrained-optimization" class="nav-link" data-scroll-target="#neural-operators-in-constrained-optimization">Neural operators in constrained optimization</a></li>
-  <li><a href="#physical-ai-for-materials-processes" id="toc-physical-ai-for-materials-processes" class="nav-link" data-scroll-target="#physical-ai-for-materials-processes">Physical AI for materials processes</a></li>
-  <li><a href="#decision-focused-learning" id="toc-decision-focused-learning" class="nav-link" data-scroll-target="#decision-focused-learning">Decision-focused learning</a></li>
-  <li><a href="#scientific-forecasting-under-uncertainty" id="toc-scientific-forecasting-under-uncertainty" class="nav-link" data-scroll-target="#scientific-forecasting-under-uncertainty">Scientific forecasting under uncertainty</a></li>
-  <li><a href="#generative-decisions-in-physical-environments" id="toc-generative-decisions-in-physical-environments" class="nav-link" data-scroll-target="#generative-decisions-in-physical-environments">Generative decisions in physical environments</a></li>
+  <li><a href="#materials-processes-as-a-physical-testbed" id="toc-materials-processes-as-a-physical-testbed" class="nav-link" data-scroll-target="#materials-processes-as-a-physical-testbed">Materials processes as a physical testbed</a></li>
+  <li><a href="#related-work-on-generated-actions" id="toc-related-work-on-generated-actions" class="nav-link" data-scroll-target="#related-work-on-generated-actions">Related work on generated actions</a></li>
   <li><a href="#research-map" id="toc-research-map" class="nav-link" data-scroll-target="#research-map">Research map</a></li>
   </ul>
 </nav>
@@ -178,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Shunyu Wu develops neural operators for physical systems and evaluates their use in downstream control, constrained optimization, and materials processes.
+    Shunyu Wu connects decision-focused forecasting and constrained optimization with neural operators for distributed physical dynamics, control, and materials processes.
   </div>
 </div>
 
@@ -195,10 +196,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="neural-operators-for-physical-systems" class="level2">
-<h2 class="anchored" data-anchor-id="neural-operators-for-physical-systems">Neural operators for physical systems</h2>
-<p>At Cornell, my postdoctoral work develops neural operators and examines how their approximation errors propagate into downstream control and constrained optimization. A neural operator learns a map between functions, such as the map from an initial condition and a forcing field to a spatiotemporal solution. I evaluate the learned operator through both field error and the physical decisions it changes.</p>
-<p>Materials processes provide one target setting because their state evolves as a field over space and time. Geometry and boundary conditions define the operator input, while measured fields provide training targets. Downstream tests measure the control cost or optimized design produced from the predicted field.</p>
+<section id="research-program" class="level2">
+<h2 class="anchored" data-anchor-id="research-program">Research program</h2>
+<p>My research asks how learned models of physical systems can support decisions under dynamics, uncertainty, and constraints. The program began with decision-focused forecasting and constrained optimization for coupled water–energy systems and now extends to neural operators for distributed dynamics, control, and materials processes.</p>
+</section>
+<section id="decision-focused-forecasting-and-constrained-optimization" class="level2">
+<h2 class="anchored" data-anchor-id="decision-focused-forecasting-and-constrained-optimization">Decision-focused forecasting and constrained optimization</h2>
+<p>During my doctoral research, I treated a predictor as part of a decision pipeline rather than an endpoint. <a href="https://doi.org/10.1109/TSG.2025.3601238">Stochastic Predict-Then-Optimize</a> trains probabilistic electricity-cost forecasts through the stochastic water-supply schedules they induce. A differentiable upper bound on downstream optimality gap passes a decision-relevant signal back to the predictor.</p>
+<p>Companion work on <a href="https://doi.org/10.1016/j.eswa.2024.124508">lag-free demand forecasting</a> and <a href="https://doi.org/10.1109/TCSS.2023.3272330">uncertain pressure regression</a> addressed when a prediction error occurs and which unobserved effects it represents. Together, these studies shifted evaluation from aggregate forecast accuracy to decision sensitivity, operating cost, and constraint satisfaction.</p>
+</section>
+<section id="from-predictors-to-neural-operators" class="level2">
+<h2 class="anchored" data-anchor-id="from-predictors-to-neural-operators">From predictors to neural operators</h2>
+<p>Neural operators extend this question from finite-dimensional time series to maps between physical fields. The model class changes, but the research criterion remains the same: a surrogate is useful when it preserves the control or optimization decision that matters.</p>
+<p>I study operators that map initial conditions, geometry, boundary conditions, and forcing fields to spatiotemporal solutions. Field error is one diagnostic; rollout stability, gradient quality, control cost, and feasibility determine whether the learned map is suitable for downstream use.</p>
 </section>
 <section id="neural-operators-in-downstream-control" class="level2">
 <h2 class="anchored" data-anchor-id="neural-operators-in-downstream-control">Neural operators in downstream control</h2>
@@ -208,23 +218,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="neural-operators-in-constrained-optimization">Neural operators in constrained optimization</h2>
 <p>Embedding a differentiable neural operator in an optimization problem links physical field prediction to design or operating decisions. Gradient accuracy and feasibility indicate whether the surrogate can be used inside the optimizer. Decision sensitivity shows when a small field error produces a materially different optimum.</p>
 </section>
-<section id="physical-ai-for-materials-processes" class="level2">
-<h2 class="anchored" data-anchor-id="physical-ai-for-materials-processes">Physical AI for materials processes</h2>
-<p>Materials processing often requires a map from process conditions and geometry to a field that evolves over space and time. I use neural operators to approximate this map across operating conditions. The predicted field then parameterizes experiment selection, process control, or constrained design.</p>
+<section id="materials-processes-as-a-physical-testbed" class="level2">
+<h2 class="anchored" data-anchor-id="materials-processes-as-a-physical-testbed">Materials processes as a physical testbed</h2>
+<p>I am extending this framework to materials processes, where the state evolves as a field over space and time. These systems provide a concrete setting for testing whether learned solution maps can support experiment selection, process control, and constrained design.</p>
 </section>
-<section id="decision-focused-learning" class="level2">
-<h2 class="anchored" data-anchor-id="decision-focused-learning">Decision-focused learning</h2>
-<p><a href="https://doi.org/10.1109/TSG.2025.3601238">Stochastic Predict-Then-Optimize</a> trains a probabilistic electricity-cost forecast against the stochastic water-supply schedule that follows. A differentiable convex upper bound on optimality gap, derived from Lagrangian duality, passes a decision-relevant training signal back to the predictor.</p>
-<p>This formulation distinguishes prediction errors that change the selected schedule from errors that leave the decision unchanged. The same principle motivates operator-learning objectives that weight field errors by their effect on a controller or optimizer.</p>
-</section>
-<section id="scientific-forecasting-under-uncertainty" class="level2">
-<h2 class="anchored" data-anchor-id="scientific-forecasting-under-uncertainty">Scientific forecasting under uncertainty</h2>
-<p><a href="https://doi.org/10.1016/j.eswa.2024.124508">The knowledge-based bi-correction model</a> targets delayed reactions near demand turning points through lag-penalty attention and posterior residual correction. <a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder</a> separates the response to measured inputs from pressure variation associated with unobserved disturbances.</p>
-<p>These methods provide tools for scientific time series in which timing, uncertainty, and unmeasured effects determine the value of a prediction. The relevant evaluation quantity depends on the downstream scientific action rather than a single aggregate error score.</p>
-</section>
-<section id="generative-decisions-in-physical-environments" class="level2">
-<h2 class="anchored" data-anchor-id="generative-decisions-in-physical-environments">Generative decisions in physical environments</h2>
-<p><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT</a> stores local LiDAR geometry as graph memory. During recurrent diffusion denoising, the model retrieves waypoint-specific context and coordinates the trajectory with a target. This work connects generative modeling with local physical structure and explicit action generation.</p>
+<section id="related-work-on-generated-actions" class="level2">
+<h2 class="anchored" data-anchor-id="related-work-on-generated-actions">Related work on generated actions</h2>
+<p>A related collaborative thread examines learned action generation in physical environments. <a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT</a> stores local LiDAR geometry as graph memory during recurrent diffusion, extending the broader interest in models whose outputs must satisfy geometric and decision constraints.</p>
 </section>
 <section id="research-map" class="level2">
 <h2 class="anchored" data-anchor-id="research-map">Research map</h2>
@@ -245,40 +245,40 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>What solution field follows from a new physical condition?</td>
-<td>Neural operator</td>
-<td>Spatiotemporal field</td>
-<td>Operator error and rollout error</td>
-</tr>
-<tr class="even">
-<td>How does surrogate error alter a controller?</td>
-<td>Operator-based rollout</td>
-<td>Control action</td>
-<td>Closed-loop cost and constraint violation</td>
-</tr>
-<tr class="odd">
-<td>Which physical design is feasible?</td>
-<td>Differentiable solution operator</td>
-<td>Optimized design or setting</td>
-<td>Objective value and feasibility</td>
-</tr>
-<tr class="even">
 <td>Which forecast errors matter?</td>
 <td>Probabilistic prediction</td>
 <td>Stochastic schedule</td>
 <td>Operating cost and decision regret</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Does the model react at the right time?</td>
 <td>Temporal representation with a lag penalty</td>
 <td>Demand response</td>
 <td>Turning-point timing and forecast error</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>How should missing effects be represented?</td>
 <td>Uncertain regression</td>
 <td>Pressure state</td>
 <td>Error across monitored nodes</td>
+</tr>
+<tr class="even">
+<td>What solution field follows from a new physical condition?</td>
+<td>Neural operator</td>
+<td>Spatiotemporal field</td>
+<td>Operator error and rollout error</td>
+</tr>
+<tr class="odd">
+<td>How does surrogate error alter a controller?</td>
+<td>Operator-based rollout</td>
+<td>Control action</td>
+<td>Closed-loop cost and constraint violation</td>
+</tr>
+<tr class="even">
+<td>Which physical design is feasible?</td>
+<td>Differentiable solution operator</td>
+<td>Optimized design or setting</td>
+<td>Objective value and feasibility</td>
 </tr>
 <tr class="odd">
 <td>Does a generated action fit its surroundings?</td>
@@ -711,11 +711,11 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Neural Operators | Physical AI | Updated 6 August 2026</p>
+<p>Decision-focused learning, neural operators, and control for physical systems · Updated 7 August 2026</p>
 </div>
   </div>
 </footer>
-<script defer="" src="../assets/site.js?v=20260806d"></script>
+<script defer="" src="../assets/site.js?v=20260807a"></script>
 
 
 

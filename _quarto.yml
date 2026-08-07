@@ -5,13 +5,14 @@ project:
     - c7d4984f38601437316bea01e3143bfe.txt
     - google60c018834eaa5cb7.html
     - styles.css
+    - academic.css
     - assets/site.js
     - assets/images/publications/**
 
 website:
   title: "Shunyu Wu"
   site-url: "https://shunyuwu-shaun.github.io"
-  description: "Academic website of Shunyu Wu (吴舜禹), Ezra Systems Postdoctoral Associate at Cornell University, working on neural operators for physical systems and their use in downstream control and constrained optimization."
+  description: "Academic website of Shunyu Wu (吴舜禹), whose research connects decision-focused forecasting and constrained optimization with neural operators for physical dynamics, control, and materials processes."
   repo-url: "https://github.com/ShunyuWu-Shaun/ShunyuWu-Shaun.github.io"
   favicon: "assets/icon.svg"
   open-graph: true
@@ -32,7 +33,7 @@ website:
       - href: publications/index.qmd
         text: Publications
       - href: projects/index.qmd
-        text: Case Studies
+        text: Research Projects
       - href: service/index.qmd
         text: Service
       - href: contact/index.qmd
@@ -47,7 +48,7 @@ website:
   page-footer:
     border: true
     left: "© 2026 Shunyu Wu"
-    right: "Neural Operators | Physical AI | Updated 6 August 2026"
+    right: "Decision-focused learning, neural operators, and control for physical systems · Updated 7 August 2026"
 
 format:
   html:
@@ -63,9 +64,10 @@ format:
     include-in-header:
       text: |
         <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
-        <link rel="stylesheet" href="/styles.css?v=20260806d">
+        <link rel="stylesheet" href="/styles.css?v=20260807a">
+        <link rel="stylesheet" href="/academic.css?v=20260807a">
     include-after-body:
       text: |
-        <script defer src="/assets/site.js?v=20260806d"></script>
+        <script defer src="/assets/site.js?v=20260807a"></script>
 
 lang: en

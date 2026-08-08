@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Shunyu Wu connects decision-focused forecasting and constrained optimization with neural operators for distributed physical dynamics, control, and materials processes.">
+<meta name="description" content="Shunyu Wu studies decision-focused forecasting, neural operators, learning-based control, and constrained optimization for physical systems.">
 
 <title>Research – Shunyu Wu</title>
 <style>
@@ -70,15 +70,15 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
-<link rel="stylesheet" href="../styles.css?v=20260807a">
-<link rel="stylesheet" href="../academic.css?v=20260807a">
+<link rel="stylesheet" href="../styles.css?v=20260808a">
+<link rel="stylesheet" href="../academic.css?v=20260808a">
 
 
 <meta property="og:title" content="Research – Shunyu Wu">
-<meta property="og:description" content="Shunyu Wu connects decision-focused forecasting and constrained optimization with neural operators for distributed physical dynamics, control, and materials processes.">
+<meta property="og:description" content="Shunyu Wu studies decision-focused forecasting, neural operators, learning-based control, and constrained optimization for physical systems.">
 <meta property="og:site_name" content="Shunyu Wu">
 <meta name="twitter:title" content="Research – Shunyu Wu">
-<meta name="twitter:description" content="Shunyu Wu connects decision-focused forecasting and constrained optimization with neural operators for distributed physical dynamics, control, and materials processes.">
+<meta name="twitter:description" content="Shunyu Wu studies decision-focused forecasting, neural operators, learning-based control, and constrained optimization for physical systems.">
 <meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://shunyuwu-shaun.github.io/research/">
 </head>
@@ -158,13 +158,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
 
   <ul>
-  <li><a href="#research-program" id="toc-research-program" class="nav-link active" data-scroll-target="#research-program">Research program</a></li>
-  <li><a href="#decision-focused-forecasting-and-constrained-optimization" id="toc-decision-focused-forecasting-and-constrained-optimization" class="nav-link" data-scroll-target="#decision-focused-forecasting-and-constrained-optimization">Decision-focused forecasting and constrained optimization</a></li>
-  <li><a href="#from-predictors-to-neural-operators" id="toc-from-predictors-to-neural-operators" class="nav-link" data-scroll-target="#from-predictors-to-neural-operators">From predictors to neural operators</a></li>
-  <li><a href="#neural-operators-in-downstream-control" id="toc-neural-operators-in-downstream-control" class="nav-link" data-scroll-target="#neural-operators-in-downstream-control">Neural operators in downstream control</a></li>
-  <li><a href="#neural-operators-in-constrained-optimization" id="toc-neural-operators-in-constrained-optimization" class="nav-link" data-scroll-target="#neural-operators-in-constrained-optimization">Neural operators in constrained optimization</a></li>
-  <li><a href="#materials-processes-as-a-physical-testbed" id="toc-materials-processes-as-a-physical-testbed" class="nav-link" data-scroll-target="#materials-processes-as-a-physical-testbed">Materials processes as a physical testbed</a></li>
-  <li><a href="#related-work-on-generated-actions" id="toc-related-work-on-generated-actions" class="nav-link" data-scroll-target="#related-work-on-generated-actions">Related work on generated actions</a></li>
+  <li><a href="#learning-physical-systems-for-control-and-optimization" id="toc-learning-physical-systems-for-control-and-optimization" class="nav-link active" data-scroll-target="#learning-physical-systems-for-control-and-optimization">Learning physical systems for control and optimization</a></li>
+  <li><a href="#decision-focused-forecasting-under-uncertainty" id="toc-decision-focused-forecasting-under-uncertainty" class="nav-link" data-scroll-target="#decision-focused-forecasting-under-uncertainty">Decision-focused forecasting under uncertainty</a></li>
+  <li><a href="#neural-operators-for-distributed-dynamics" id="toc-neural-operators-for-distributed-dynamics" class="nav-link" data-scroll-target="#neural-operators-for-distributed-dynamics">Neural operators for distributed dynamics</a></li>
+  <li><a href="#learning-based-control" id="toc-learning-based-control" class="nav-link" data-scroll-target="#learning-based-control">Learning-based control</a></li>
+  <li><a href="#constrained-optimization-and-materials-processes" id="toc-constrained-optimization-and-materials-processes" class="nav-link" data-scroll-target="#constrained-optimization-and-materials-processes">Constrained optimization and materials processes</a></li>
+  <li><a href="#related-collaborative-work" id="toc-related-collaborative-work" class="nav-link" data-scroll-target="#related-collaborative-work">Related collaborative work</a></li>
   <li><a href="#research-map" id="toc-research-map" class="nav-link" data-scroll-target="#research-map">Research map</a></li>
   </ul>
 </nav>
@@ -179,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Shunyu Wu connects decision-focused forecasting and constrained optimization with neural operators for distributed physical dynamics, control, and materials processes.
+    Shunyu Wu studies decision-focused forecasting, neural operators, learning-based control, and constrained optimization for physical systems.
   </div>
 </div>
 
@@ -196,95 +195,68 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="research-program" class="level2">
-<h2 class="anchored" data-anchor-id="research-program">Research program</h2>
-<p>My research asks how learned models of physical systems can support decisions under dynamics, uncertainty, and constraints. The program began with decision-focused forecasting and constrained optimization for coupled water–energy systems and now extends to neural operators for distributed dynamics, control, and materials processes.</p>
+<section id="learning-physical-systems-for-control-and-optimization" class="level2">
+<h2 class="anchored" data-anchor-id="learning-physical-systems-for-control-and-optimization">Learning physical systems for control and optimization</h2>
+<p>My research asks how learned models of physical systems can support control and optimization under dynamics, uncertainty, and constraints. Across coupled water–energy systems and materials processes, I evaluate predictive models through the schedules, actions, and physical designs they inform.</p>
+<p>This topic includes four closely related directions. Decision-focused forecasting identifies which predictive errors change operating decisions. Neural operators learn maps between physical conditions and distributed state trajectories. Learning-based control examines how model error affects actions over a control horizon. Constrained physical optimization studies whether learned solution maps preserve useful gradients and feasible decisions. These directions share one criterion. The learned model should represent the physical quantities that determine the downstream decision.</p>
 </section>
-<section id="decision-focused-forecasting-and-constrained-optimization" class="level2">
-<h2 class="anchored" data-anchor-id="decision-focused-forecasting-and-constrained-optimization">Decision-focused forecasting and constrained optimization</h2>
-<p>During my doctoral research, I treated a predictor as part of a decision pipeline rather than an endpoint. <a href="https://doi.org/10.1109/TSG.2025.3601238">Stochastic Predict-Then-Optimize</a> trains probabilistic electricity-cost forecasts through the stochastic water-supply schedules they induce. A differentiable upper bound on downstream optimality gap passes a decision-relevant signal back to the predictor.</p>
-<p>Companion work on <a href="https://doi.org/10.1016/j.eswa.2024.124508">lag-free demand forecasting</a> and <a href="https://doi.org/10.1109/TCSS.2023.3272330">uncertain pressure regression</a> addressed when a prediction error occurs and which unobserved effects it represents. Together, these studies shifted evaluation from aggregate forecast accuracy to decision sensitivity, operating cost, and constraint satisfaction.</p>
+<section id="decision-focused-forecasting-under-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="decision-focused-forecasting-under-uncertainty">Decision-focused forecasting under uncertainty</h2>
+<p>Forecast errors matter differently when predictions determine an operating schedule. In coupled water–energy systems, <a href="https://doi.org/10.1109/TSG.2025.3601238">Stochastic Predict-Then-Optimize</a> trains probabilistic electricity-cost forecasts through the stochastic water-supply schedules they induce. A differentiable upper bound on optimality gap passes changes in scheduling cost back to the predictor.</p>
+<p>Work on <a href="https://doi.org/10.1016/j.eswa.2024.124508">lag-free demand forecasting</a> and <a href="https://doi.org/10.1109/TCSS.2023.3272330">uncertain pressure regression</a> examines two additional sources of prediction error. Lag-penalty attention targets delayed reactions near demand turning points, while uncertain regression separates modeled responses to observed inputs from residual pressure variation associated with unobserved disturbances. These studies relate forecast accuracy to operating cost, decision sensitivity, and constraint satisfaction.</p>
 </section>
-<section id="from-predictors-to-neural-operators" class="level2">
-<h2 class="anchored" data-anchor-id="from-predictors-to-neural-operators">From predictors to neural operators</h2>
-<p>Neural operators extend this question from finite-dimensional time series to maps between physical fields. The model class changes, but the research criterion remains the same: a surrogate is useful when it preserves the control or optimization decision that matters.</p>
-<p>I study operators that map initial conditions, geometry, boundary conditions, and forcing fields to spatiotemporal solutions. Field error is one diagnostic; rollout stability, gradient quality, control cost, and feasibility determine whether the learned map is suitable for downstream use.</p>
+<section id="neural-operators-for-distributed-dynamics" class="level2">
+<h2 class="anchored" data-anchor-id="neural-operators-for-distributed-dynamics">Neural operators for distributed dynamics</h2>
+<p>Many control and design problems depend on physical fields that evolve across space and time. I study neural operators that map initial conditions, geometry, boundary conditions, and forcing fields to spatiotemporal solution fields. Their evaluation includes field error, rollout error, and the sensitivities used by control and optimization.</p>
 </section>
-<section id="neural-operators-in-downstream-control" class="level2">
-<h2 class="anchored" data-anchor-id="neural-operators-in-downstream-control">Neural operators in downstream control</h2>
-<p>A learned solution operator can supply state rollouts to a controller without solving the governing equations from scratch at every control step. I quantify how local approximation error accumulates over a control horizon and changes the selected action. This relation motivates training objectives that account for closed-loop behavior as well as field reconstruction.</p>
+<section id="learning-based-control" class="level2">
+<h2 class="anchored" data-anchor-id="learning-based-control">Learning-based control</h2>
+<p>A learned solution operator can supply state rollouts without solving the governing equations from scratch at every control step. I study how approximation error accumulates over a control horizon and changes the selected action, closed-loop cost, and constraint violation. These quantities provide control-specific criteria for training and evaluating learned physical dynamics.</p>
 </section>
-<section id="neural-operators-in-constrained-optimization" class="level2">
-<h2 class="anchored" data-anchor-id="neural-operators-in-constrained-optimization">Neural operators in constrained optimization</h2>
-<p>Embedding a differentiable neural operator in an optimization problem links physical field prediction to design or operating decisions. Gradient accuracy and feasibility indicate whether the surrogate can be used inside the optimizer. Decision sensitivity shows when a small field error produces a materially different optimum.</p>
+<section id="constrained-optimization-and-materials-processes" class="level2">
+<h2 class="anchored" data-anchor-id="constrained-optimization-and-materials-processes">Constrained optimization and materials processes</h2>
+<p>Constrained optimization depends on accurate state trajectories, local sensitivities, and feasible decisions. I study differentiable solution operators inside design and operating problems, with attention to whether surrogate gradients preserve the selected decision. Objective value, feasibility, and decision sensitivity provide the main evaluation quantities.</p>
+<p>Materials processes provide a field-evolving setting for this work. Learned solution maps can support experiment selection, process control, and constrained design when the physical state evolves across space and time.</p>
 </section>
-<section id="materials-processes-as-a-physical-testbed" class="level2">
-<h2 class="anchored" data-anchor-id="materials-processes-as-a-physical-testbed">Materials processes as a physical testbed</h2>
-<p>I am extending this framework to materials processes, where the state evolves as a field over space and time. These systems provide a concrete setting for testing whether learned solution maps can support experiment selection, process control, and constrained design.</p>
-</section>
-<section id="related-work-on-generated-actions" class="level2">
-<h2 class="anchored" data-anchor-id="related-work-on-generated-actions">Related work on generated actions</h2>
-<p>A related collaborative thread examines learned action generation in physical environments. <a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT</a> stores local LiDAR geometry as graph memory during recurrent diffusion, extending the broader interest in models whose outputs must satisfy geometric and decision constraints.</p>
+<section id="related-collaborative-work" class="level2">
+<h2 class="anchored" data-anchor-id="related-collaborative-work">Related collaborative work</h2>
+<p>Collaborative work on generated actions examines how learned trajectories satisfy geometric and decision constraints. <a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT</a> stores local LiDAR geometry as graph memory during recurrent diffusion and evaluates the generated motion through endpoint error, clearance, smoothness, and runtime.</p>
 </section>
 <section id="research-map" class="level2">
 <h2 class="anchored" data-anchor-id="research-map">Research map</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Research question</th>
-<th>Learned object</th>
-<th>Physical or decision object</th>
-<th>Evaluation target</th>
+<th>Research direction</th>
+<th>Main question</th>
+<th>Evaluation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Which forecast errors matter?</td>
-<td>Probabilistic prediction</td>
-<td>Stochastic schedule</td>
-<td>Operating cost and decision regret</td>
+<td>Decision-focused forecasting under uncertainty</td>
+<td>Which prediction errors change an operating decision?</td>
+<td>Optimality gap, operating cost, and constraint satisfaction</td>
 </tr>
 <tr class="even">
-<td>Does the model react at the right time?</td>
-<td>Temporal representation with a lag penalty</td>
-<td>Demand response</td>
-<td>Turning-point timing and forecast error</td>
+<td>Neural operators for distributed dynamics</td>
+<td>What solution field follows from new physical conditions?</td>
+<td>Field error, rollout error, and sensitivity error</td>
 </tr>
 <tr class="odd">
-<td>How should missing effects be represented?</td>
-<td>Uncertain regression</td>
-<td>Pressure state</td>
-<td>Error across monitored nodes</td>
+<td>Learning-based control</td>
+<td>How does model error change a control action?</td>
+<td>Closed-loop cost and state constraint violation</td>
 </tr>
 <tr class="even">
-<td>What solution field follows from a new physical condition?</td>
-<td>Neural operator</td>
-<td>Spatiotemporal field</td>
-<td>Operator error and rollout error</td>
-</tr>
-<tr class="odd">
-<td>How does surrogate error alter a controller?</td>
-<td>Operator-based rollout</td>
-<td>Control action</td>
-<td>Closed-loop cost and constraint violation</td>
-</tr>
-<tr class="even">
-<td>Which physical design is feasible?</td>
-<td>Differentiable solution operator</td>
-<td>Optimized design or setting</td>
-<td>Objective value and feasibility</td>
-</tr>
-<tr class="odd">
-<td>Does a generated action fit its surroundings?</td>
-<td>Diffusion trajectory</td>
-<td>Target-directed motion</td>
-<td>Endpoint error, clearance, smoothness, and runtime</td>
+<td>Constrained optimization of physical systems</td>
+<td>Does the learned solution map preserve the optimized decision?</td>
+<td>Objective value, feasibility, and decision sensitivity</td>
 </tr>
 </tbody>
 </table>
@@ -711,11 +683,11 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Decision-focused learning, neural operators, and control for physical systems · Updated 7 August 2026</p>
+<p>Learning physical systems for control and optimization · Updated 8 August 2026</p>
 </div>
   </div>
 </footer>
-<script defer="" src="../assets/site.js?v=20260807a"></script>
+<script defer="" src="../assets/site.js?v=20260808a"></script>
 
 
 

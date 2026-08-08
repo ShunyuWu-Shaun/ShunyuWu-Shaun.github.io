@@ -9,7 +9,7 @@ body-classes: publication-page
 <div class="publication-intro">
   <div class="publication-rule">4 FIRST-AUTHOR / 6 LAST-AUTHOR PAPERS</div>
   <div>
-    <p>Lead-author methods establish the decision-focused core; last-author collaborations extend it across generative trajectories, constrained control, industrial energy prediction, and water-system monitoring.</p>
+    <p>These papers examine how learned predictions, state representations, and generated actions interact with operating cost, physical constraints, and closed-loop behavior across water–energy, industrial energy, and motion systems.</p>
     <p><a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0001-9856-2148">ORCID</a> · <a href="https://www.researchgate.net/profile/Shunyu-Wu">ResearchGate</a></p>
   </div>
 </div>

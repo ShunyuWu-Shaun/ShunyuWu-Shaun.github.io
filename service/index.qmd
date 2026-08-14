@@ -1,6 +1,6 @@
 ---
 title: "Academic service"
-description: "Conference reviewing, journal reviewing, teaching, and research mentoring by Shunyu Wu."
+description: "Conference and journal peer review, teaching, and research mentoring by Shunyu Wu."
 ---
 
 ## Conference reviewing
@@ -12,11 +12,13 @@ description: "Conference reviewing, journal reviewing, teaching, and research me
 - AAAI Conference on Artificial Intelligence, AI for Social Impact Track, 2026
 - IEEE Conference on Decision and Control (CDC), 2024 and 2025
 
-## Journal reviewing
+## Journal peer review
 
+- *IEEE Transactions on Automatic Control*
 - *IEEE Transactions on Systems, Man, and Cybernetics: Systems*
 - *IEEE Transactions on Automation Science and Engineering*
-- *IEEE Transactions on Intelligent Vehicles*
+- *IEEE Transactions on Smart Grid*
+- *Scientific Reports*
 
 ## Teaching
 

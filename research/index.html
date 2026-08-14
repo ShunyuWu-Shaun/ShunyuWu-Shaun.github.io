@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Shunyu Wu studies decision-focused forecasting, neural operators, learning-based control, and constrained optimization for physical systems.">
+<meta name="description" content="Shunyu Wu connects learned physical dynamics to control and optimization across coupled water-energy systems and materials processing.">
 
 <title>Research – Shunyu Wu</title>
 <style>
@@ -75,10 +75,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Research – Shunyu Wu">
-<meta property="og:description" content="Shunyu Wu studies decision-focused forecasting, neural operators, learning-based control, and constrained optimization for physical systems.">
+<meta property="og:description" content="Shunyu Wu connects learned physical dynamics to control and optimization across coupled water-energy systems and materials processing.">
 <meta property="og:site_name" content="Shunyu Wu">
 <meta name="twitter:title" content="Research – Shunyu Wu">
-<meta name="twitter:description" content="Shunyu Wu studies decision-focused forecasting, neural operators, learning-based control, and constrained optimization for physical systems.">
+<meta name="twitter:description" content="Shunyu Wu connects learned physical dynamics to control and optimization across coupled water-energy systems and materials processing.">
 <meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://shunyuwu-shaun.github.io/research/">
 </head>
@@ -162,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#decision-focused-forecasting-under-uncertainty" id="toc-decision-focused-forecasting-under-uncertainty" class="nav-link" data-scroll-target="#decision-focused-forecasting-under-uncertainty">Decision-focused forecasting under uncertainty</a></li>
   <li><a href="#neural-operators-for-distributed-dynamics" id="toc-neural-operators-for-distributed-dynamics" class="nav-link" data-scroll-target="#neural-operators-for-distributed-dynamics">Neural operators for distributed dynamics</a></li>
   <li><a href="#learning-based-control" id="toc-learning-based-control" class="nav-link" data-scroll-target="#learning-based-control">Learning-based control</a></li>
-  <li><a href="#constrained-optimization-and-materials-processes" id="toc-constrained-optimization-and-materials-processes" class="nav-link" data-scroll-target="#constrained-optimization-and-materials-processes">Constrained optimization and materials processes</a></li>
+  <li><a href="#ai-for-materials-processing" id="toc-ai-for-materials-processing" class="nav-link" data-scroll-target="#ai-for-materials-processing">AI for materials processing</a></li>
   <li><a href="#related-collaborative-work" id="toc-related-collaborative-work" class="nav-link" data-scroll-target="#related-collaborative-work">Related collaborative work</a></li>
   <li><a href="#research-map" id="toc-research-map" class="nav-link" data-scroll-target="#research-map">Research map</a></li>
   </ul>
@@ -178,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Shunyu Wu studies decision-focused forecasting, neural operators, learning-based control, and constrained optimization for physical systems.
+    Shunyu Wu connects learned physical dynamics to control and optimization across coupled water-energy systems and materials processing.
   </div>
 </div>
 
@@ -198,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="learning-physical-systems-for-control-and-optimization" class="level2">
 <h2 class="anchored" data-anchor-id="learning-physical-systems-for-control-and-optimization">Learning physical systems for control and optimization</h2>
 <p>My research in Physical AI for Science examines how learned models represent state evolution under physical constraints and incomplete information. The state may be a temporal quantity such as demand or pressure, or a distributed field defined by initial conditions, geometry, boundary conditions, and external forcing. I evaluate a learned representation through the operating schedule, control action, or physical design computed from it.</p>
-<p>The same research question appears in four settings. Decision-focused forecasting links temporal uncertainty to operating cost. Neural operators approximate maps from physical conditions to spatiotemporal state fields. Learning-based control measures how rollout error changes closed-loop behavior. Constrained optimization tests whether the learned solution map supplies accurate sensitivities and feasible designs. Each direction traces the same relation among physical dynamics, learned representation, and downstream decision.</p>
+<p>Across coupled water-energy systems and materials processing, the same criterion applies: whether a learned representation preserves the physical response that determines the downstream operating decision. Decision-focused forecasting links temporal uncertainty to operating cost, while neural operators map process conditions to spatiotemporal state fields. Control and constrained optimization then test whether those fields retain the rollouts and sensitivities needed for a process decision.</p>
 </section>
 <section id="decision-focused-forecasting-under-uncertainty" class="level2">
 <h2 class="anchored" data-anchor-id="decision-focused-forecasting-under-uncertainty">Decision-focused forecasting under uncertainty</h2>
@@ -213,10 +213,10 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="learning-based-control">Learning-based control</h2>
 <p>A learned solution operator can supply state rollouts without solving the governing equations from scratch at every control step. I study how approximation error accumulates over a control horizon and changes the selected action, closed-loop cost, and constraint violation. These quantities provide control-specific criteria for training and evaluating learned physical dynamics.</p>
 </section>
-<section id="constrained-optimization-and-materials-processes" class="level2">
-<h2 class="anchored" data-anchor-id="constrained-optimization-and-materials-processes">Constrained optimization and materials processes</h2>
-<p>Constrained optimization depends on accurate state trajectories, local sensitivities, and feasible decisions. I study differentiable solution operators inside design and operating problems, with attention to whether surrogate gradients preserve the selected decision. Objective value, feasibility, and decision sensitivity provide the main evaluation quantities.</p>
-<p>Materials processes provide a field-evolving setting for this work. Learned solution maps can support experiment selection, process control, and constrained design when the physical state evolves across space and time.</p>
+<section id="ai-for-materials-processing" class="level2">
+<h2 class="anchored" data-anchor-id="ai-for-materials-processing">AI for materials processing</h2>
+<p>In collaboration with Professor Fengqi You, I develop neural operators that map process conditions, geometry, boundary inputs, and external forcing to evolving material state fields. The resulting rollouts and local sensitivities are used in process control and constrained optimization.</p>
+<p>Feasibility, objective value, and decision sensitivity test whether approximation error changes the selected operating condition or physical design. This follows the same criterion as my work on water-energy systems: a learned representation must preserve the physical response that determines the downstream decision.</p>
 </section>
 <section id="related-collaborative-work" class="level2">
 <h2 class="anchored" data-anchor-id="related-collaborative-work">Related collaborative work</h2>
@@ -254,8 +254,8 @@ ul.task-list li input[type="checkbox"] {
 <td>Closed-loop cost and state constraint violation</td>
 </tr>
 <tr class="even">
-<td>Constrained optimization of physical systems</td>
-<td>Does the learned solution map preserve the optimized decision?</td>
+<td>AI for materials processing</td>
+<td>Does the learned solution map preserve the process decision?</td>
 <td>Objective value, feasibility, and decision sensitivity</td>
 </tr>
 </tbody>

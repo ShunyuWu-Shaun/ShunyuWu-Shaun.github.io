@@ -1,6 +1,6 @@
 ---
 title: "Research"
-description: "Shunyu Wu studies decision-focused forecasting, neural operators, learning-based control, and constrained optimization for physical systems."
+description: "Shunyu Wu connects learned physical dynamics to control and optimization across coupled water-energy systems and materials processing."
 toc: true
 ---
 
@@ -8,7 +8,7 @@ toc: true
 
 My research in Physical AI for Science examines how learned models represent state evolution under physical constraints and incomplete information. The state may be a temporal quantity such as demand or pressure, or a distributed field defined by initial conditions, geometry, boundary conditions, and external forcing. I evaluate a learned representation through the operating schedule, control action, or physical design computed from it.
 
-The same research question appears in four settings. Decision-focused forecasting links temporal uncertainty to operating cost. Neural operators approximate maps from physical conditions to spatiotemporal state fields. Learning-based control measures how rollout error changes closed-loop behavior. Constrained optimization tests whether the learned solution map supplies accurate sensitivities and feasible designs. Each direction traces the same relation among physical dynamics, learned representation, and downstream decision.
+Across coupled water-energy systems and materials processing, the same criterion applies: whether a learned representation preserves the physical response that determines the downstream operating decision. Decision-focused forecasting links temporal uncertainty to operating cost, while neural operators map process conditions to spatiotemporal state fields. Control and constrained optimization then test whether those fields retain the rollouts and sensitivities needed for a process decision.
 
 ## Decision-focused forecasting under uncertainty
 
@@ -24,11 +24,11 @@ Many control and design problems depend on physical fields that evolve across sp
 
 A learned solution operator can supply state rollouts without solving the governing equations from scratch at every control step. I study how approximation error accumulates over a control horizon and changes the selected action, closed-loop cost, and constraint violation. These quantities provide control-specific criteria for training and evaluating learned physical dynamics.
 
-## Constrained optimization and materials processes
+## AI for materials processing
 
-Constrained optimization depends on accurate state trajectories, local sensitivities, and feasible decisions. I study differentiable solution operators inside design and operating problems, with attention to whether surrogate gradients preserve the selected decision. Objective value, feasibility, and decision sensitivity provide the main evaluation quantities.
+In collaboration with Professor Fengqi You, I develop neural operators that map process conditions, geometry, boundary inputs, and external forcing to evolving material state fields. The resulting rollouts and local sensitivities are used in process control and constrained optimization.
 
-Materials processes provide a field-evolving setting for this work. Learned solution maps can support experiment selection, process control, and constrained design when the physical state evolves across space and time.
+Feasibility, objective value, and decision sensitivity test whether approximation error changes the selected operating condition or physical design. This follows the same criterion as my work on water-energy systems: a learned representation must preserve the physical response that determines the downstream decision.
 
 ## Related collaborative work
 
@@ -41,6 +41,6 @@ Collaborative work on generated actions examines how learned trajectories satisf
 | Decision-focused forecasting under uncertainty | Which prediction errors change an operating decision? | Optimality gap, operating cost, response timing, and disturbance sensitivity |
 | Neural operators for distributed dynamics | What solution field follows from new physical conditions? | Field error, rollout error, and sensitivity error |
 | Learning-based control | How does model error change a control action? | Closed-loop cost and state constraint violation |
-| Constrained optimization of physical systems | Does the learned solution map preserve the optimized decision? | Objective value, feasibility, and decision sensitivity |
+| AI for materials processing | Does the learned solution map preserve the process decision? | Objective value, feasibility, and decision sensitivity |
 
 [First- and last-author publications](/publications/) provide the evidence base for these research threads.

@@ -6,7 +6,7 @@ toc: false
 
 ## Research conversations
 
-I welcome conversations on neural operators, operator learning for downstream control, constrained optimization, Physical AI for materials systems, and decision-focused learning.
+I welcome conversations on AI for materials processing, neural operators for distributed dynamics, downstream control, constrained optimization, and decision-focused learning.
 
 [shunyuwu@sjtu.edu.cn](mailto:shunyuwu@sjtu.edu.cn)
 
@@ -16,7 +16,7 @@ I welcome conversations on neural operators, operator learning for downstream co
 Systems Engineering Program<br>
 Cornell University
 
-I work with **Professor Fengqi You** on neural operators for control and constrained optimization of distributed physical systems.
+I work with **Professor Fengqi You** on AI for materials processing. My research uses neural operators to model distributed process dynamics for control and constrained optimization.
 
 ## Education
 

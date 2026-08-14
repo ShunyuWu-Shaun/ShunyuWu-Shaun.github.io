@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Published methods for demand forecasting with explicit lag penalties and pressure modeling under unobserved disturbances.">
+<meta name="description" content="Studies of delayed demand response and pressure variation associated with unobserved disturbances in urban water systems.">
 
-<title>Urban water forecasting and pressure modeling – Shunyu Wu</title>
+<title>Temporal response and uncertain pressure states – Shunyu Wu</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,15 +70,15 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
-<link rel="stylesheet" href="../styles.css?v=20260808a">
-<link rel="stylesheet" href="../academic.css?v=20260808a">
+<link rel="stylesheet" href="../styles.css?v=20260814a">
+<link rel="stylesheet" href="../academic.css?v=20260814a">
 
 
-<meta property="og:title" content="Urban water forecasting and pressure modeling – Shunyu Wu">
-<meta property="og:description" content="Published methods for demand forecasting with explicit lag penalties and pressure modeling under unobserved disturbances.">
+<meta property="og:title" content="Temporal response and uncertain pressure states – Shunyu Wu">
+<meta property="og:description" content="Studies of delayed demand response and pressure variation associated with unobserved disturbances in urban water systems.">
 <meta property="og:site_name" content="Shunyu Wu">
-<meta name="twitter:title" content="Urban water forecasting and pressure modeling – Shunyu Wu">
-<meta name="twitter:description" content="Published methods for demand forecasting with explicit lag penalties and pressure modeling under unobserved disturbances.">
+<meta name="twitter:title" content="Temporal response and uncertain pressure states – Shunyu Wu">
+<meta name="twitter:description" content="Studies of delayed demand response and pressure variation associated with unobserved disturbances in urban water systems.">
 <meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://shunyuwu-shaun.github.io/projects/service-operations-planning.html">
 </head>
@@ -158,9 +158,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
 
   <ul>
-  <li><a href="#daily-demand-near-turning-points" id="toc-daily-demand-near-turning-points" class="nav-link active" data-scroll-target="#daily-demand-near-turning-points">Daily demand near turning points</a></li>
-  <li><a href="#trend-sensitive-evaluation" id="toc-trend-sensitive-evaluation" class="nav-link" data-scroll-target="#trend-sensitive-evaluation">Trend-sensitive evaluation</a></li>
-  <li><a href="#pressure-under-unobserved-variation" id="toc-pressure-under-unobserved-variation" class="nav-link" data-scroll-target="#pressure-under-unobserved-variation">Pressure under unobserved variation</a></li>
+  <li><a href="#physical-quantities-under-incomplete-observation" id="toc-physical-quantities-under-incomplete-observation" class="nav-link active" data-scroll-target="#physical-quantities-under-incomplete-observation">Physical quantities under incomplete observation</a></li>
+  <li><a href="#demand-dynamics-near-turning-points" id="toc-demand-dynamics-near-turning-points" class="nav-link" data-scroll-target="#demand-dynamics-near-turning-points">Demand dynamics near turning points</a></li>
+  <li><a href="#evaluation-of-response-timing" id="toc-evaluation-of-response-timing" class="nav-link" data-scroll-target="#evaluation-of-response-timing">Evaluation of response timing</a></li>
+  <li><a href="#pressure-response-under-unobserved-disturbances" id="toc-pressure-response-under-unobserved-disturbances" class="nav-link" data-scroll-target="#pressure-response-under-unobserved-disturbances">Pressure response under unobserved disturbances</a></li>
+  <li><a href="#evaluation-of-disturbance-sensitivity" id="toc-evaluation-of-disturbance-sensitivity" class="nav-link" data-scroll-target="#evaluation-of-disturbance-sensitivity">Evaluation of disturbance sensitivity</a></li>
+  <li><a href="#relation-to-physical-ai-for-science" id="toc-relation-to-physical-ai-for-science" class="nav-link" data-scroll-target="#relation-to-physical-ai-for-science">Relation to Physical AI for Science</a></li>
   <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   </ul>
 </nav>
@@ -170,12 +173,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Urban water forecasting and pressure modeling</h1>
+<h1 class="title">Temporal response and uncertain pressure states</h1>
 </div>
 
 <div>
   <div class="description">
-    Published methods for demand forecasting with explicit lag penalties and pressure modeling under unobserved disturbances.
+    Studies of delayed demand response and pressure variation associated with unobserved disturbances in urban water systems.
   </div>
 </div>
 
@@ -192,19 +195,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="daily-demand-near-turning-points" class="level2">
-<h2 class="anchored" data-anchor-id="daily-demand-near-turning-points">Daily demand near turning points</h2>
-<p>Daily urban water-demand forecasts can attain low average error while responding late when demand changes direction. This lag reduces their value for planning the next operating period.</p>
-<p>The <a href="https://doi.org/10.1016/j.eswa.2024.124508">knowledge-based bi-correction model</a> addresses the problem in two stages. Lag-penalty attention extracts prior sequence and feature information associated with timely demand changes. A stacked LSTM produces the primary forecast. A masked weighted Markov chain then corrects selected residuals using posterior error information.</p>
+<section id="physical-quantities-under-incomplete-observation" class="level2">
+<h2 class="anchored" data-anchor-id="physical-quantities-under-incomplete-observation">Physical quantities under incomplete observation</h2>
+<p>Urban water systems are observed through demand and pressure time series. Average prediction error does not reveal whether a model responds late to a changing demand trajectory or misses pressure variation associated with an unobserved disturbance. The two studies below isolate these sources of error.</p>
 </section>
-<section id="trend-sensitive-evaluation" class="level2">
-<h2 class="anchored" data-anchor-id="trend-sensitive-evaluation">Trend-sensitive evaluation</h2>
-<p>The study introduces mean prediction trend effectiveness to test whether a model follows changes in demand more closely than a naive forecast. Reporting this metric alongside absolute-error measures separates response timing from average numerical accuracy.</p>
+<section id="demand-dynamics-near-turning-points" class="level2">
+<h2 class="anchored" data-anchor-id="demand-dynamics-near-turning-points">Demand dynamics near turning points</h2>
+<p>Daily urban water demand is nonlinear and nonstationary. The <a href="https://doi.org/10.1016/j.eswa.2024.124508">knowledge-based bi-correction model</a> focuses on forecast lag near turning points, where the predicted response follows a change in demand too late. Lag-penalty attention extracts sequence and feature information associated with timely demand changes. A stacked LSTM produces the primary forecast, after which a masked weighted Markov chain corrects selected residuals using posterior error information.</p>
 </section>
-<section id="pressure-under-unobserved-variation" class="level2">
-<h2 class="anchored" data-anchor-id="pressure-under-unobserved-variation">Pressure under unobserved variation</h2>
-<p><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder</a> considers macroscopic pressure when measured inputs do not explain every disturbance in a water distribution system. Its Coder models the response associated with observed variables, while the Critic changes the loss so that the remaining pressure variation can be represented as an uncertain disturbance.</p>
-<p>The comparison tests whether CritiCoder’s error increases less than conventional regression error at nodes more strongly affected by unobserved disturbances.</p>
+<section id="evaluation-of-response-timing" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-of-response-timing">Evaluation of response timing</h2>
+<p>The study introduces mean prediction trend effectiveness to test whether the predicted trend improves on a naive forecast. Reporting this quantity with absolute-error metrics distinguishes delayed response near a turning point from numerical error in demand magnitude.</p>
+</section>
+<section id="pressure-response-under-unobserved-disturbances" class="level2">
+<h2 class="anchored" data-anchor-id="pressure-response-under-unobserved-disturbances">Pressure response under unobserved disturbances</h2>
+<p><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder</a> models macroscopic pressure when measured variables do not explain every disturbance in a water distribution system. The Coder approximates the pressure response associated with observed variables. By changing the loss, the Critic represents the remaining variation as a distribution of uncertain disturbances associated with unobserved variables.</p>
+</section>
+<section id="evaluation-of-disturbance-sensitivity" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-of-disturbance-sensitivity">Evaluation of disturbance sensitivity</h2>
+<p>The node-level comparison tests pressure monitors with different disturbance strengths. At nodes more strongly affected by unobserved disturbances, CritiCoder shows a smaller decline in predictive performance than the tested regression baselines.</p>
+</section>
+<section id="relation-to-physical-ai-for-science" class="level2">
+<h2 class="anchored" data-anchor-id="relation-to-physical-ai-for-science">Relation to Physical AI for Science</h2>
+<p>The studies resolve two properties of the state information supplied to later scheduling or control. KbBcM tests whether a sequence model follows the direction of demand change at the correct time. CritiCoder tests how pressure prediction behaves when measured inputs leave part of the variation unresolved. Together, they represent response timing and residual state uncertainty at the level of the urban water system.</p>
 </section>
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
@@ -632,11 +645,11 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Learning physical systems for control and optimization · Updated 8 August 2026</p>
+<p>Learning physical systems for control and optimization · Updated 14 August 2026</p>
 </div>
   </div>
 </footer>
-<script defer="" src="../assets/site.js?v=20260808a"></script>
+<script defer="" src="../assets/site.js?v=20260814a"></script>
 
 
 

@@ -39,40 +39,61 @@
     "href": "index.html",
     "title": "Shunyu Wu (吴舜禹)",
     "section": "",
-    "text": "Shunyu Wu吴舜禹\n      Learning physical systems for control and optimization.\n      I develop learning methods for physical systems that support control and optimization under uncertainty and constraints. Across water–energy systems and materials processes, my research spans decision-focused forecasting, neural operators for distributed dynamics, learning-based control, and constrained physical optimization.\n      \n        Research program\n        Selected publications\n        Google Scholar\n      \n      \n        Research directions\n        \n          Decision-focused forecasting under uncertainty\n          Neural operators for distributed dynamics\n          Learning-based control\n          Constrained optimization of physical systems\n        \n      \n    \n\n    \n      \n        \n      \n      \n        Ezra Systems Postdoctoral AssociateSystems Engineering · Cornell University\n        Ph.D., Shanghai Jiao Tong University · 2026\n      \n      ORCIDGITHUBEMAIL\n    \n  \n\n  \n    \n      NEWS\n      Recent news and milestones.\n      All news\n    \n    \n      \n        AUG 2026 APPOINTMENT\n        Joined Cornell University as an Ezra Systems Postdoctoral Associate\n        I work on neural operators for control and constrained optimization of distributed physical systems.\n      \n      \n        JUL 2026 PAPER\n        DRIFT published in Expert Systems with Applications\n        Local LiDAR geometry guides recurrent diffusion toward target-consistent trajectories.\n      \n      \n        JUN 2026 GRADUATION\n        Received my Ph.D. from Shanghai Jiao Tong University\n        I am grateful to my advisor, Professor Jingcheng Wang, for his guidance. I also thank all my labmates for their collaboration and friendship throughout my doctoral years.\n      \n      \n        2026 SERVICE\n        Reviewing across the machine learning community\n        ICML, NeurIPS Position Paper Track, and the AAAI Main Technical and AI for Social Impact tracks.\n      \n      \n        2025 FIRST-AUTHOR PAPER\n        SPTO in IEEE Transactions on Smart Grid\n        Probabilistic forecasts are trained against the scheduling costs and regret they induce.\n      \n    \n  \n\n  \n    \n      RESEARCH\n      Learning physical systems for control and optimization.\n      My research asks how a learned model should represent dynamics and uncertainty when its outputs determine a schedule, control action, or physical design. I study this question through probabilistic prediction, operator learning, closed-loop analysis, and constrained physical optimization.\n    \n    \n      \n        Decision-focused forecasting under uncertainty\n        Probabilistic forecasts are trained and evaluated through the schedules, costs, and constraints they induce. Work on water-demand timing and uncertain pressure regression further identifies when prediction errors occur and which unobserved effects they represent.\n      \n      \n        Neural operators for distributed dynamics\n        I study maps from initial conditions, geometry, boundary conditions, and forcing fields to spatiotemporal solutions. Field error, rollout error, and sensitivity error measure how accurately the learned operator represents the dynamics used in control and optimization.\n      \n      \n        Learning-based control\n        I examine how approximation error accumulates over a control horizon and changes the selected action, closed-loop cost, and constraint violation. These quantities provide control-specific criteria for training and evaluating learned physical dynamics.\n      \n      \n        Constrained optimization of physical systems\n        I study differentiable solution operators inside constrained design and operating problems, including experiment selection, process control, and materials design. Gradient accuracy and feasibility determine whether the learned model preserves the optimized decision.\n      \n    \n    Methods and research questions\n  \n\n  \n    \n      SELECTED FIRST-AUTHOR WORK\n      Methods built around the decision that follows.\n      These papers examine how prediction timing, uncertainty, and physical constraints affect operating and control decisions in water–energy systems.\n    \n    \n      \n        \n        FIRST AUTHORIEEE TSG · 2025End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource SchedulingShunyu Wu, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun RaoSPTO trains a probabilistic forecast with a differentiable upper bound on downstream optimality gap, placing scheduling cost inside the learning objective.\n      \n      \n        \n        FIRST AUTHORESWA · 2024Knowledge-based Bi-correction model for lag-free urban water-demand forecastingShunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui XuLag-penalty attention and posterior residual correction target delayed reactions near demand turning points.\n      \n      \n        \n        FIRST AUTHORIEEE TCSS · 2024CritiCoder: Uncertain regression for robust pressure modelsShunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui XuThe Coder learns measured effects, while the Critic represents residual pressure variation associated with unobserved disturbances.\n      \n      \n        \n        FIRST AUTHORCCC · 2021A Fine Grained Forecasting Method for Minute-Level Urban Water DemandShunyu Wu, Pingwei Zhao, Miaoshun Bai, Jingcheng Wang, and Yang LanA coarse daily forecast is decomposed into reusable fine-grained patterns to recover minute-level demand variation.\n      \n    \n  \n\n  \n    \n      SELECTED LAST-AUTHOR WORK\n      Related collaborative work.\n      These projects examine whether learned actions respect physical and decision constraints in trajectory generation and nonlinear control.\n    \n    \n      \n        \n        LAST AUTHORESWA · 2026DRIFT: Coordinating target intent and local geometryJinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and Shunyu Wu\n      \n      \n        \n        LAST AUTHORIEEE TSMC · 2024Reinforcement Learning Controller Design for Constrained Nonlinear SystemsJiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and Shunyu Wu\n      \n    \n    View all first- and last-author papers\n  \n\n  \n    \n      ACADEMIC SERVICE\n      Peer review across machine learning and control.\n    \n    \n      I review for ICML 2026, the NeurIPS 2026 Position Paper Track, and the AAAI-26 Main Technical and AI for Social Impact tracks, alongside ICLR, CDC, and IEEE journals.\n      Academic service\n    \n  \n\n  \n    RESEARCH COLLABORATION\n    Neural operators, decision-focused learning, and control for physical systems.\n    shunyuwu@sjtu.edu.cn"
+    "text": "Shunyu Wu吴舜禹\n      Learning physical systems for control and optimization.\n      I develop learning methods for physical systems that support control and optimization under uncertainty and constraints. Across water–energy systems and materials processes, my research spans decision-focused forecasting, neural operators for distributed dynamics, learning-based control, and constrained physical optimization.\n      \n        Research program\n        Selected publications\n        Google Scholar\n      \n      \n        Research directions\n        \n          Decision-focused forecasting under uncertainty\n          Neural operators for distributed dynamics\n          Learning-based control\n          Constrained optimization of physical systems\n        \n      \n    \n\n    \n      \n        \n      \n      \n        Ezra Systems Postdoctoral AssociateSystems Engineering · Cornell University\n        Ph.D., Shanghai Jiao Tong University · 2026\n      \n      ORCIDGITHUBEMAIL\n    \n  \n\n  \n    \n      NEWS\n      Recent news and milestones.\n      All news\n    \n    \n      \n        AUG 2026 APPOINTMENT\n        Joined Cornell University as an Ezra Systems Postdoctoral Associate\n        I work on neural operators for control and constrained optimization of distributed physical systems.\n      \n      \n        JUL 2026 PAPER\n        DRIFT published in Expert Systems with Applications\n        Local LiDAR geometry guides recurrent diffusion toward target-consistent trajectories.\n      \n      \n        JUN 2026 GRADUATION\n        Received my Ph.D. from Shanghai Jiao Tong University\n        I am grateful to my advisor, Professor Jingcheng Wang, for his guidance. I also thank all my labmates for their collaboration and friendship throughout my doctoral years.\n      \n      \n        2026 SERVICE\n        Reviewing across the machine learning community\n        ICML, NeurIPS Position Paper Track, and the AAAI Main Technical and AI for Social Impact tracks.\n      \n      \n        2025 FIRST-AUTHOR PAPER\n        SPTO in IEEE Transactions on Smart Grid\n        Probabilistic forecasts are trained against the scheduling costs and regret they induce.\n      \n    \n  \n\n  \n    \n      RESEARCH\n      Learning physical systems for control and optimization.\n      My research asks which physical variables a learned model must represent, how those states evolve under external forcing and incomplete observation, and which approximation errors change the resulting schedule, control action, or design. I study this question through probabilistic prediction, neural operators, closed-loop analysis, and constrained optimization.\n    \n    \n      \n        Decision-focused forecasting under uncertainty\n        Probabilistic forecasts are trained and evaluated through the schedules, costs, and constraints they induce. Work on water-demand timing and uncertain pressure regression further identifies when prediction errors occur and which unobserved effects they represent.\n      \n      \n        Neural operators for distributed dynamics\n        I study maps from initial conditions, geometry, boundary conditions, and forcing fields to spatiotemporal solutions. Field error, rollout error, and sensitivity error measure how accurately the learned operator represents the dynamics used in control and optimization.\n      \n      \n        Learning-based control\n        I examine how approximation error accumulates over a control horizon and changes the selected action, closed-loop cost, and constraint violation. These quantities provide control-specific criteria for training and evaluating learned physical dynamics.\n      \n      \n        Constrained optimization of physical systems\n        I study differentiable solution operators inside constrained design and operating problems, including experiment selection, process control, and materials design. Gradient accuracy and feasibility determine whether the learned model preserves the optimized decision.\n      \n    \n    Methods and research questions\n  \n\n  \n    \n      SELECTED FIRST-AUTHOR WORK\n      Methods built around the decision that follows.\n      These papers examine how prediction timing, uncertainty, and physical constraints affect operating and control decisions in water–energy systems.\n    \n    \n      \n        \n        FIRST AUTHORIEEE TSG · 2025End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource SchedulingShunyu Wu, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun RaoSPTO trains a probabilistic forecast with a differentiable upper bound on downstream optimality gap, placing scheduling cost inside the learning objective.\n      \n      \n        \n        FIRST AUTHORESWA · 2024Knowledge-based Bi-correction model for lag-free urban water-demand forecastingShunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui XuLag-penalty attention and posterior residual correction target delayed reactions near demand turning points.\n      \n      \n        \n        FIRST AUTHORIEEE TCSS · 2024CritiCoder: Uncertain regression for robust pressure modelsShunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui XuThe Coder learns measured effects, while the Critic represents residual pressure variation associated with unobserved disturbances.\n      \n      \n        \n        FIRST AUTHORCCC · 2021A Fine Grained Forecasting Method for Minute-Level Urban Water DemandShunyu Wu, Pingwei Zhao, Miaoshun Bai, Jingcheng Wang, and Yang LanA coarse daily forecast is decomposed into reusable fine-grained patterns to recover minute-level demand variation.\n      \n    \n  \n\n  \n    \n      SELECTED LAST-AUTHOR WORK\n      Related collaborative work.\n      These projects examine whether learned actions respect physical and decision constraints in trajectory generation and nonlinear control.\n    \n    \n      \n        \n        LAST AUTHORESWA · 2026DRIFT: Coordinating target intent and local geometryJinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and Shunyu Wu\n      \n      \n        \n        LAST AUTHORIEEE TSMC · 2024Reinforcement Learning Controller Design for Constrained Nonlinear SystemsJiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and Shunyu Wu\n      \n    \n    View all first- and last-author papers\n  \n\n  \n    \n      ACADEMIC SERVICE\n      Peer review across machine learning and control.\n    \n    \n      I review for ICML 2026, the NeurIPS 2026 Position Paper Track, and the AAAI-26 Main Technical and AI for Social Impact tracks, alongside ICLR, CDC, and IEEE journals.\n      Academic service\n    \n  \n\n  \n    RESEARCH COLLABORATION\n    Neural operators, decision-focused learning, and control for physical systems.\n    shunyuwu@sjtu.edu.cn"
   },
   {
     "objectID": "projects/service-operations-planning.html",
     "href": "projects/service-operations-planning.html",
-    "title": "Urban water forecasting and pressure modeling",
+    "title": "Temporal response and uncertain pressure states",
     "section": "",
-    "text": "Daily urban water-demand forecasts can attain low average error while responding late when demand changes direction. This lag reduces their value for planning the next operating period.\nThe knowledge-based bi-correction model addresses the problem in two stages. Lag-penalty attention extracts prior sequence and feature information associated with timely demand changes. A stacked LSTM produces the primary forecast. A masked weighted Markov chain then corrects selected residuals using posterior error information."
+    "text": "Urban water systems are observed through demand and pressure time series. Average prediction error does not reveal whether a model responds late to a changing demand trajectory or misses pressure variation associated with an unobserved disturbance. The two studies below isolate these sources of error."
   },
   {
-    "objectID": "projects/service-operations-planning.html#daily-demand-near-turning-points",
-    "href": "projects/service-operations-planning.html#daily-demand-near-turning-points",
-    "title": "Urban water forecasting and pressure modeling",
+    "objectID": "projects/service-operations-planning.html#physical-quantities-under-incomplete-observation",
+    "href": "projects/service-operations-planning.html#physical-quantities-under-incomplete-observation",
+    "title": "Temporal response and uncertain pressure states",
     "section": "",
-    "text": "Daily urban water-demand forecasts can attain low average error while responding late when demand changes direction. This lag reduces their value for planning the next operating period.\nThe knowledge-based bi-correction model addresses the problem in two stages. Lag-penalty attention extracts prior sequence and feature information associated with timely demand changes. A stacked LSTM produces the primary forecast. A masked weighted Markov chain then corrects selected residuals using posterior error information."
+    "text": "Urban water systems are observed through demand and pressure time series. Average prediction error does not reveal whether a model responds late to a changing demand trajectory or misses pressure variation associated with an unobserved disturbance. The two studies below isolate these sources of error."
   },
   {
-    "objectID": "projects/service-operations-planning.html#trend-sensitive-evaluation",
-    "href": "projects/service-operations-planning.html#trend-sensitive-evaluation",
-    "title": "Urban water forecasting and pressure modeling",
-    "section": "Trend-sensitive evaluation",
-    "text": "Trend-sensitive evaluation\nThe study introduces mean prediction trend effectiveness to test whether a model follows changes in demand more closely than a naive forecast. Reporting this metric alongside absolute-error measures separates response timing from average numerical accuracy."
+    "objectID": "projects/service-operations-planning.html#demand-dynamics-near-turning-points",
+    "href": "projects/service-operations-planning.html#demand-dynamics-near-turning-points",
+    "title": "Temporal response and uncertain pressure states",
+    "section": "Demand dynamics near turning points",
+    "text": "Demand dynamics near turning points\nDaily urban water demand is nonlinear and nonstationary. The knowledge-based bi-correction model focuses on forecast lag near turning points, where the predicted response follows a change in demand too late. Lag-penalty attention extracts sequence and feature information associated with timely demand changes. A stacked LSTM produces the primary forecast, after which a masked weighted Markov chain corrects selected residuals using posterior error information."
   },
   {
-    "objectID": "projects/service-operations-planning.html#pressure-under-unobserved-variation",
-    "href": "projects/service-operations-planning.html#pressure-under-unobserved-variation",
-    "title": "Urban water forecasting and pressure modeling",
-    "section": "Pressure under unobserved variation",
-    "text": "Pressure under unobserved variation\nCritiCoder considers macroscopic pressure when measured inputs do not explain every disturbance in a water distribution system. Its Coder models the response associated with observed variables, while the Critic changes the loss so that the remaining pressure variation can be represented as an uncertain disturbance.\nThe comparison tests whether CritiCoder’s error increases less than conventional regression error at nodes more strongly affected by unobserved disturbances."
+    "objectID": "projects/service-operations-planning.html#evaluation-of-response-timing",
+    "href": "projects/service-operations-planning.html#evaluation-of-response-timing",
+    "title": "Temporal response and uncertain pressure states",
+    "section": "Evaluation of response timing",
+    "text": "Evaluation of response timing\nThe study introduces mean prediction trend effectiveness to test whether the predicted trend improves on a naive forecast. Reporting this quantity with absolute-error metrics distinguishes delayed response near a turning point from numerical error in demand magnitude."
+  },
+  {
+    "objectID": "projects/service-operations-planning.html#pressure-response-under-unobserved-disturbances",
+    "href": "projects/service-operations-planning.html#pressure-response-under-unobserved-disturbances",
+    "title": "Temporal response and uncertain pressure states",
+    "section": "Pressure response under unobserved disturbances",
+    "text": "Pressure response under unobserved disturbances\nCritiCoder models macroscopic pressure when measured variables do not explain every disturbance in a water distribution system. The Coder approximates the pressure response associated with observed variables. By changing the loss, the Critic represents the remaining variation as a distribution of uncertain disturbances associated with unobserved variables."
+  },
+  {
+    "objectID": "projects/service-operations-planning.html#evaluation-of-disturbance-sensitivity",
+    "href": "projects/service-operations-planning.html#evaluation-of-disturbance-sensitivity",
+    "title": "Temporal response and uncertain pressure states",
+    "section": "Evaluation of disturbance sensitivity",
+    "text": "Evaluation of disturbance sensitivity\nThe node-level comparison tests pressure monitors with different disturbance strengths. At nodes more strongly affected by unobserved disturbances, CritiCoder shows a smaller decline in predictive performance than the tested regression baselines."
+  },
+  {
+    "objectID": "projects/service-operations-planning.html#relation-to-physical-ai-for-science",
+    "href": "projects/service-operations-planning.html#relation-to-physical-ai-for-science",
+    "title": "Temporal response and uncertain pressure states",
+    "section": "Relation to Physical AI for Science",
+    "text": "Relation to Physical AI for Science\nThe studies resolve two properties of the state information supplied to later scheduling or control. KbBcM tests whether a sequence model follows the direction of demand change at the correct time. CritiCoder tests how pressure prediction behaves when measured inputs leave part of the variation unresolved. Together, they represent response timing and residual state uncertainty at the level of the urban water system."
   },
   {
     "objectID": "projects/service-operations-planning.html#publications",
     "href": "projects/service-operations-planning.html#publications",
-    "title": "Urban water forecasting and pressure modeling",
+    "title": "Temporal response and uncertain pressure states",
     "section": "Publications",
     "text": "Publications\nShunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting. Expert Systems with Applications, 255, 124508, 2024.\nShunyu Wu, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu. CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems. IEEE Transactions on Computational Social Systems, 11(2), 2222-2233, 2024."
   },
@@ -123,21 +144,21 @@
     "href": "research/index.html",
     "title": "Research",
     "section": "",
-    "text": "My research asks how learned models of physical systems can support control and optimization under dynamics, uncertainty, and constraints. Across coupled water–energy systems and materials processes, I evaluate predictive models through the schedules, actions, and physical designs they inform.\nThis topic includes four closely related directions. Decision-focused forecasting identifies which predictive errors change operating decisions. Neural operators learn maps between physical conditions and distributed state trajectories. Learning-based control examines how model error affects actions over a control horizon. Constrained physical optimization studies whether learned solution maps preserve useful gradients and feasible decisions. These directions share one criterion. The learned model should represent the physical quantities that determine the downstream decision."
+    "text": "My research in Physical AI for Science examines how learned models represent state evolution under physical constraints and incomplete information. The state may be a temporal quantity such as demand or pressure, or a distributed field defined by initial conditions, geometry, boundary conditions, and external forcing. I evaluate a learned representation through the operating schedule, control action, or physical design computed from it.\nThe same research question appears in four settings. Decision-focused forecasting links temporal uncertainty to operating cost. Neural operators approximate maps from physical conditions to spatiotemporal state fields. Learning-based control measures how rollout error changes closed-loop behavior. Constrained optimization tests whether the learned solution map supplies accurate sensitivities and feasible designs. Each direction traces the same relation among physical dynamics, learned representation, and downstream decision."
   },
   {
     "objectID": "research/index.html#learning-physical-systems-for-control-and-optimization",
     "href": "research/index.html#learning-physical-systems-for-control-and-optimization",
     "title": "Research",
     "section": "",
-    "text": "My research asks how learned models of physical systems can support control and optimization under dynamics, uncertainty, and constraints. Across coupled water–energy systems and materials processes, I evaluate predictive models through the schedules, actions, and physical designs they inform.\nThis topic includes four closely related directions. Decision-focused forecasting identifies which predictive errors change operating decisions. Neural operators learn maps between physical conditions and distributed state trajectories. Learning-based control examines how model error affects actions over a control horizon. Constrained physical optimization studies whether learned solution maps preserve useful gradients and feasible decisions. These directions share one criterion. The learned model should represent the physical quantities that determine the downstream decision."
+    "text": "My research in Physical AI for Science examines how learned models represent state evolution under physical constraints and incomplete information. The state may be a temporal quantity such as demand or pressure, or a distributed field defined by initial conditions, geometry, boundary conditions, and external forcing. I evaluate a learned representation through the operating schedule, control action, or physical design computed from it.\nThe same research question appears in four settings. Decision-focused forecasting links temporal uncertainty to operating cost. Neural operators approximate maps from physical conditions to spatiotemporal state fields. Learning-based control measures how rollout error changes closed-loop behavior. Constrained optimization tests whether the learned solution map supplies accurate sensitivities and feasible designs. Each direction traces the same relation among physical dynamics, learned representation, and downstream decision."
   },
   {
     "objectID": "research/index.html#decision-focused-forecasting-under-uncertainty",
     "href": "research/index.html#decision-focused-forecasting-under-uncertainty",
     "title": "Research",
     "section": "Decision-focused forecasting under uncertainty",
-    "text": "Decision-focused forecasting under uncertainty\nForecast errors matter differently when predictions determine an operating schedule. In coupled water–energy systems, Stochastic Predict-Then-Optimize trains probabilistic electricity-cost forecasts through the stochastic water-supply schedules they induce. A differentiable upper bound on optimality gap passes changes in scheduling cost back to the predictor.\nWork on lag-free demand forecasting and uncertain pressure regression examines two additional sources of prediction error. Lag-penalty attention targets delayed reactions near demand turning points, while uncertain regression separates modeled responses to observed inputs from residual pressure variation associated with unobserved disturbances. These studies relate forecast accuracy to operating cost, decision sensitivity, and constraint satisfaction."
+    "text": "Decision-focused forecasting under uncertainty\nForecast errors matter differently when predictions determine an operating schedule. In coupled water–energy systems, Stochastic Predict-Then-Optimize trains probabilistic electricity-cost forecasts through the stochastic water-supply schedules they induce. A differentiable upper bound on optimality gap passes changes in scheduling cost back to the predictor.\nWork on lag-free demand forecasting and uncertain pressure regression examines two additional sources of prediction error. Lag-penalty attention targets delayed reactions near demand turning points, while uncertain regression separates modeled responses to observed inputs from residual pressure variation associated with unobserved disturbances. Their metrics distinguish response timing and disturbance sensitivity from average numerical error."
   },
   {
     "objectID": "research/index.html#neural-operators-for-distributed-dynamics",
@@ -172,40 +193,54 @@
     "href": "research/index.html#research-map",
     "title": "Research",
     "section": "Research map",
-    "text": "Research map\n\n\n\n\n\n\n\n\nResearch direction\nMain question\nEvaluation\n\n\n\n\nDecision-focused forecasting under uncertainty\nWhich prediction errors change an operating decision?\nOptimality gap, operating cost, and constraint satisfaction\n\n\nNeural operators for distributed dynamics\nWhat solution field follows from new physical conditions?\nField error, rollout error, and sensitivity error\n\n\nLearning-based control\nHow does model error change a control action?\nClosed-loop cost and state constraint violation\n\n\nConstrained optimization of physical systems\nDoes the learned solution map preserve the optimized decision?\nObjective value, feasibility, and decision sensitivity\n\n\n\nFirst- and last-author publications provide the evidence base for these research threads."
+    "text": "Research map\n\n\n\n\n\n\n\n\nResearch direction\nMain question\nEvaluation\n\n\n\n\nDecision-focused forecasting under uncertainty\nWhich prediction errors change an operating decision?\nOptimality gap, operating cost, response timing, and disturbance sensitivity\n\n\nNeural operators for distributed dynamics\nWhat solution field follows from new physical conditions?\nField error, rollout error, and sensitivity error\n\n\nLearning-based control\nHow does model error change a control action?\nClosed-loop cost and state constraint violation\n\n\nConstrained optimization of physical systems\nDoes the learned solution map preserve the optimized decision?\nObjective value, feasibility, and decision sensitivity\n\n\n\nFirst- and last-author publications provide the evidence base for these research threads."
   },
   {
     "objectID": "projects/industrial-workflow-analysis.html",
     "href": "projects/industrial-workflow-analysis.html",
-    "title": "Water-energy resource scheduling",
+    "title": "Coupled water-energy operation under forecast uncertainty",
     "section": "",
-    "text": "Urban water supply consumes electricity throughout treatment, transport, and distribution. The resulting schedule depends on the expected electricity cost, while errors in that forecast can change operating cost and the selected schedule.\nThe study models the full water-supply process as a stochastic scheduling problem with uncertain electricity prices. Forecast quality is evaluated both by pointwise prediction error and by the objective value of the induced schedule."
+    "text": "Urban water supply coordinates treatment, transport, and distribution over an operating horizon. Each stage consumes electricity, so the schedule determines when the system serves demand and purchases energy. Because electricity prices are uncertain, a forecast error can alter both operating cost and the selected schedule.\nThe study represents the full water-supply process as a stochastic scheduling problem. Within this formulation, a probabilistic electricity-cost forecast supplies the uncertain cost parameters, while the scheduling model retains the operating variables and constraints. Optimizing the schedule returns a decision loss to the predictor. Training focuses on errors that change when the system operates, rather than treating every price error as equally consequential."
   },
   {
-    "objectID": "projects/industrial-workflow-analysis.html#decision-problem",
-    "href": "projects/industrial-workflow-analysis.html#decision-problem",
-    "title": "Water-energy resource scheduling",
+    "objectID": "projects/industrial-workflow-analysis.html#physical-process-and-operating-decision",
+    "href": "projects/industrial-workflow-analysis.html#physical-process-and-operating-decision",
+    "title": "Coupled water-energy operation under forecast uncertainty",
     "section": "",
-    "text": "Urban water supply consumes electricity throughout treatment, transport, and distribution. The resulting schedule depends on the expected electricity cost, while errors in that forecast can change operating cost and the selected schedule.\nThe study models the full water-supply process as a stochastic scheduling problem with uncertain electricity prices. Forecast quality is evaluated both by pointwise prediction error and by the objective value of the induced schedule."
+    "text": "Urban water supply coordinates treatment, transport, and distribution over an operating horizon. Each stage consumes electricity, so the schedule determines when the system serves demand and purchases energy. Because electricity prices are uncertain, a forecast error can alter both operating cost and the selected schedule.\nThe study represents the full water-supply process as a stochastic scheduling problem. Within this formulation, a probabilistic electricity-cost forecast supplies the uncertain cost parameters, while the scheduling model retains the operating variables and constraints. Optimizing the schedule returns a decision loss to the predictor. Training focuses on errors that change when the system operates, rather than treating every price error as equally consequential."
   },
   {
-    "objectID": "projects/industrial-workflow-analysis.html#stochastic-predict-then-optimize",
-    "href": "projects/industrial-workflow-analysis.html#stochastic-predict-then-optimize",
-    "title": "Water-energy resource scheduling",
-    "section": "Stochastic Predict-Then-Optimize",
-    "text": "Stochastic Predict-Then-Optimize\nStochastic Predict-Then-Optimize combines a probabilistic forecasting model with the downstream stochastic program. Its forecast distribution supplies uncertain cost parameters to the scheduler, and the resulting schedule defines the decision loss used to update the predictor.\nDirect differentiation through this optimization problem is difficult. SPTO+ replaces the exact optimality gap with a differentiable convex upper bound derived from Lagrangian duality. The bound supplies a surrogate gradient while retaining the scheduling problem in the training objective."
+    "objectID": "projects/industrial-workflow-analysis.html#learning-through-the-induced-schedule",
+    "href": "projects/industrial-workflow-analysis.html#learning-through-the-induced-schedule",
+    "title": "Coupled water-energy operation under forecast uncertainty",
+    "section": "Learning through the induced schedule",
+    "text": "Learning through the induced schedule\nStochastic Predict-Then-Optimize trains the forecast distribution through the optimality gap of the induced schedule. Its training signal depends on how an error changes the selected operating periods and their cost. This decision loss ties the predictor to the temporal coupling between water operation and grid conditions."
   },
   {
-    "objectID": "projects/industrial-workflow-analysis.html#evaluation",
-    "href": "projects/industrial-workflow-analysis.html#evaluation",
-    "title": "Water-energy resource scheduling",
-    "section": "Evaluation",
-    "text": "Evaluation\nExperiments on real-world water-supply systems compare forecast quality, operating cost, and decision regret. SPTO reports lower operating cost and regret than the tested two-stage forecasting and optimization baselines."
+    "objectID": "projects/industrial-workflow-analysis.html#differentiable-optimality-gap",
+    "href": "projects/industrial-workflow-analysis.html#differentiable-optimality-gap",
+    "title": "Coupled water-energy operation under forecast uncertainty",
+    "section": "Differentiable optimality gap",
+    "text": "Differentiable optimality gap\nDirect differentiation through stochastic scheduling is difficult. SPTO+ derives a differentiable convex upper bound on the optimality gap from Lagrangian duality. The bound supplies a surrogate gradient while the scheduling problem remains the source of the learning signal."
+  },
+  {
+    "objectID": "projects/industrial-workflow-analysis.html#system-level-evaluation",
+    "href": "projects/industrial-workflow-analysis.html#system-level-evaluation",
+    "title": "Coupled water-energy operation under forecast uncertainty",
+    "section": "System-level evaluation",
+    "text": "System-level evaluation\nExperiments on real-world water-supply systems compare pointwise forecast error, operating cost, and decision regret with tested two-stage forecasting and optimization baselines. SPTO reports lower operating cost and regret in these experiments."
+  },
+  {
+    "objectID": "projects/industrial-workflow-analysis.html#relation-to-physical-ai-for-science",
+    "href": "projects/industrial-workflow-analysis.html#relation-to-physical-ai-for-science",
+    "title": "Coupled water-energy operation under forecast uncertainty",
+    "section": "Relation to Physical AI for Science",
+    "text": "Relation to Physical AI for Science\nIn the coupled system, the learned distribution parameterizes the uncertain energy cost acting on a temporally coordinated water process. A constrained optimizer converts those parameters into a feasible operating schedule. Decision regret then measures the consequence of forecast error at the system level."
   },
   {
     "objectID": "projects/industrial-workflow-analysis.html#publication",
     "href": "projects/industrial-workflow-analysis.html#publication",
-    "title": "Water-energy resource scheduling",
+    "title": "Coupled water-energy operation under forecast uncertainty",
     "section": "Publication",
     "text": "Publication\nShunyu Wu, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao. End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling. IEEE Transactions on Smart Grid, 16(6), 4796-4807, 2025."
   },
@@ -214,28 +249,56 @@
     "href": "projects/index.html",
     "title": "Research projects",
     "section": "",
-    "text": "The SPTO study models the full urban water-supply process under uncertain electricity prices. Probabilistic price forecasts parameterize a stochastic scheduling problem, and a convex upper bound on the optimality gap provides gradients for training. Experiments on real-world systems compare operating cost and decision regret with two-stage baselines.\nRead the research summary"
+    "text": "My research examines how a learned model should represent the state and evolution of a physical system when its output is used in control or optimization. The starting point is the physical quantity to be predicted or reconstructed, together with the inputs, geometry, constraints, and unresolved disturbances that shape its evolution. I then ask which approximation errors alter the resulting schedule, feedback action, trajectory, or design.\nAcross these projects, the physical system defines admissible states and decisions. Learning estimates a quantity that is uncertain or costly to obtain, and control or optimization converts that estimate into an action. Evaluation includes the error that matters at the decision level, such as optimality gap, operating cost, constraint violation, or trajectory geometry.\n\n\nPhysical state and inputs\n\n\nDynamics and uncertainty\n\n\nLearned solution or forecast\n\n\nControl or optimization\n\n\nDecision-level evaluation"
   },
   {
-    "objectID": "projects/index.html#water-energy-resource-scheduling",
-    "href": "projects/index.html#water-energy-resource-scheduling",
+    "objectID": "projects/index.html#physical-ai-for-science-through-states-dynamics-and-decisions",
+    "href": "projects/index.html#physical-ai-for-science-through-states-dynamics-and-decisions",
     "title": "Research projects",
     "section": "",
-    "text": "The SPTO study models the full urban water-supply process under uncertain electricity prices. Probabilistic price forecasts parameterize a stochastic scheduling problem, and a convex upper bound on the optimality gap provides gradients for training. Experiments on real-world systems compare operating cost and decision regret with two-stage baselines.\nRead the research summary"
+    "text": "My research examines how a learned model should represent the state and evolution of a physical system when its output is used in control or optimization. The starting point is the physical quantity to be predicted or reconstructed, together with the inputs, geometry, constraints, and unresolved disturbances that shape its evolution. I then ask which approximation errors alter the resulting schedule, feedback action, trajectory, or design.\nAcross these projects, the physical system defines admissible states and decisions. Learning estimates a quantity that is uncertain or costly to obtain, and control or optimization converts that estimate into an action. Evaluation includes the error that matters at the decision level, such as optimality gap, operating cost, constraint violation, or trajectory geometry.\n\n\nPhysical state and inputs\n\n\nDynamics and uncertainty\n\n\nLearned solution or forecast\n\n\nControl or optimization\n\n\nDecision-level evaluation"
   },
   {
-    "objectID": "projects/index.html#urban-water-forecasting-and-pressure-modeling",
-    "href": "projects/index.html#urban-water-forecasting-and-pressure-modeling",
+    "objectID": "projects/index.html#neural-operators-for-distributed-physical-dynamics",
+    "href": "projects/index.html#neural-operators-for-distributed-physical-dynamics",
     "title": "Research projects",
-    "section": "Urban water forecasting and pressure modeling",
-    "text": "Urban water forecasting and pressure modeling\n\nTwo first-authored studies address different sources of forecast error. KbBcM targets delayed responses near changes in daily demand. CritiCoder represents pressure variation associated with unobserved disturbances.\nRead the research summary"
+    "section": "Neural operators for distributed physical dynamics",
+    "text": "Neural operators for distributed physical dynamics\nMy current work studies neural operators that map initial conditions, geometry, boundary conditions, and external forcing to spatiotemporal state fields. This formulation treats the target as a solution map rather than a single operating point. I evaluate field reconstruction, rollout accuracy, and local sensitivities because each quantity affects a downstream control or constrained optimization problem.\nMaterials processes provide a field-evolving scientific setting for this work. Their states change across space and time, while process inputs determine the trajectory and the resulting operating or design decision. The scientific question is whether a learned operator preserves the field evolution and response derivatives required to select that decision.\nResearch questions and evaluation criteria"
   },
   {
-    "objectID": "projects/index.html#generative-decisions-in-physical-environments",
-    "href": "projects/index.html#generative-decisions-in-physical-environments",
+    "objectID": "projects/index.html#coupled-water-energy-operation-under-forecast-uncertainty",
+    "href": "projects/index.html#coupled-water-energy-operation-under-forecast-uncertainty",
     "title": "Research projects",
-    "section": "Generative decisions in physical environments",
-    "text": "Generative decisions in physical environments\n\nLocal trajectory generation\nDRIFT stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent denoising."
+    "section": "Coupled water-energy operation under forecast uncertainty",
+    "text": "Coupled water-energy operation under forecast uncertainty\n\n\n\n\n\nUrban water treatment, transport, and distribution consume electricity, so uncertain electricity prices can change the preferred operating schedule. SPTO supplies a forecast distribution to a stochastic water-supply model and trains the predictor through a duality-derived upper bound on the schedule’s optimality gap. Operating cost and regret measure whether forecast error changes the induced decision.\nRead the research summary"
+  },
+  {
+    "objectID": "projects/index.html#temporal-response-and-uncertain-pressure-states",
+    "href": "projects/index.html#temporal-response-and-uncertain-pressure-states",
+    "title": "Research projects",
+    "section": "Temporal response and uncertain pressure states",
+    "text": "Temporal response and uncertain pressure states\n\n\n \n\n\nDaily demand and network pressure expose different errors in a learned dynamical representation. KbBcM treats delayed reaction near demand turning points as a timing error. CritiCoder separates the pressure response associated with measured inputs from residual variation associated with unobserved disturbances. Their evaluation distinguishes temporal misalignment and disturbance sensitivity from average numerical error.\nRead the research summary"
+  },
+  {
+    "objectID": "projects/index.html#feedback-laws-for-constrained-nonlinear-dynamics",
+    "href": "projects/index.html#feedback-laws-for-constrained-nonlinear-dynamics",
+    "title": "Research projects",
+    "section": "Feedback laws for constrained nonlinear dynamics",
+    "text": "Feedback laws for constrained nonlinear dynamics\n\n\n \n\n\nTwo last-author studies examine learned feedback laws for nonlinear dynamics. For discrete-time constrained systems, nonlinear model predictive control supplies initial weights for a controller network, while a control barrier function and a nonquadratic loss impose state and input constraints during learning. Related adaptive optimal-control work uses eligibility traces at several time scales so that the critic receives temporal credit over different horizons.\nConstrained controller · Multiple time-scale eligibility traces"
+  },
+  {
+    "objectID": "projects/index.html#multi-step-energy-dynamics-in-industrial-rolling",
+    "href": "projects/index.html#multi-step-energy-dynamics-in-industrial-rolling",
+    "title": "Research projects",
+    "section": "Multi-step energy dynamics in industrial rolling",
+    "text": "Multi-step energy dynamics in industrial rolling\n\n\n\n\n\nHot-strip roughing unfolds through an ordered sequence of rolling passes in which prediction error can accumulate. A DCLS-Net study models the energy consumption of each pass, while series concatenation propagates information through the rolling order to reduce accumulated multi-step error. The process trajectory, rather than an isolated sample, is the relevant prediction object."
+  },
+  {
+    "objectID": "projects/index.html#geometry-conditioned-motion-in-physical-environments",
+    "href": "projects/index.html#geometry-conditioned-motion-in-physical-environments",
+    "title": "Research projects",
+    "section": "Geometry-conditioned motion in physical environments",
+    "text": "Geometry-conditioned motion in physical environments\n\n\n\n\n\nDRIFT stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent diffusion. Endpoint error, clearance, smoothness, and runtime test how the generated trajectory relates to target intent and local spatial structure. This collaborative project asks how an action generator should retain the geometry that constrains motion, a related question in Physical AI.\n\n\nFirst- and last-author publications provide the full publication record for these projects."
   },
   {
     "objectID": "news/index.html",

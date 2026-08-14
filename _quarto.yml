@@ -48,7 +48,7 @@ website:
   page-footer:
     border: true
     left: "© 2026 Shunyu Wu"
-    right: "Learning physical systems for control and optimization · Updated 8 August 2026"
+    right: "Learning physical systems for control and optimization · Updated 14 August 2026"
 
 format:
   html:
@@ -64,10 +64,10 @@ format:
     include-in-header:
       text: |
         <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
-        <link rel="stylesheet" href="/styles.css?v=20260808a">
-        <link rel="stylesheet" href="/academic.css?v=20260808a">
+        <link rel="stylesheet" href="/styles.css?v=20260814a">
+        <link rel="stylesheet" href="/academic.css?v=20260814a">
     include-after-body:
       text: |
-        <script defer src="/assets/site.js?v=20260808a"></script>
+        <script defer src="/assets/site.js?v=20260814a"></script>
 
 lang: en

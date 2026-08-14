@@ -70,8 +70,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
-<link rel="stylesheet" href="../styles.css?v=20260808a">
-<link rel="stylesheet" href="../academic.css?v=20260808a">
+<link rel="stylesheet" href="../styles.css?v=20260814a">
+<link rel="stylesheet" href="../academic.css?v=20260814a">
 
 
 <meta property="og:title" content="Research – Shunyu Wu">
@@ -197,13 +197,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="learning-physical-systems-for-control-and-optimization" class="level2">
 <h2 class="anchored" data-anchor-id="learning-physical-systems-for-control-and-optimization">Learning physical systems for control and optimization</h2>
-<p>My research asks how learned models of physical systems can support control and optimization under dynamics, uncertainty, and constraints. Across coupled water–energy systems and materials processes, I evaluate predictive models through the schedules, actions, and physical designs they inform.</p>
-<p>This topic includes four closely related directions. Decision-focused forecasting identifies which predictive errors change operating decisions. Neural operators learn maps between physical conditions and distributed state trajectories. Learning-based control examines how model error affects actions over a control horizon. Constrained physical optimization studies whether learned solution maps preserve useful gradients and feasible decisions. These directions share one criterion. The learned model should represent the physical quantities that determine the downstream decision.</p>
+<p>My research in Physical AI for Science examines how learned models represent state evolution under physical constraints and incomplete information. The state may be a temporal quantity such as demand or pressure, or a distributed field defined by initial conditions, geometry, boundary conditions, and external forcing. I evaluate a learned representation through the operating schedule, control action, or physical design computed from it.</p>
+<p>The same research question appears in four settings. Decision-focused forecasting links temporal uncertainty to operating cost. Neural operators approximate maps from physical conditions to spatiotemporal state fields. Learning-based control measures how rollout error changes closed-loop behavior. Constrained optimization tests whether the learned solution map supplies accurate sensitivities and feasible designs. Each direction traces the same relation among physical dynamics, learned representation, and downstream decision.</p>
 </section>
 <section id="decision-focused-forecasting-under-uncertainty" class="level2">
 <h2 class="anchored" data-anchor-id="decision-focused-forecasting-under-uncertainty">Decision-focused forecasting under uncertainty</h2>
 <p>Forecast errors matter differently when predictions determine an operating schedule. In coupled water–energy systems, <a href="https://doi.org/10.1109/TSG.2025.3601238">Stochastic Predict-Then-Optimize</a> trains probabilistic electricity-cost forecasts through the stochastic water-supply schedules they induce. A differentiable upper bound on optimality gap passes changes in scheduling cost back to the predictor.</p>
-<p>Work on <a href="https://doi.org/10.1016/j.eswa.2024.124508">lag-free demand forecasting</a> and <a href="https://doi.org/10.1109/TCSS.2023.3272330">uncertain pressure regression</a> examines two additional sources of prediction error. Lag-penalty attention targets delayed reactions near demand turning points, while uncertain regression separates modeled responses to observed inputs from residual pressure variation associated with unobserved disturbances. These studies relate forecast accuracy to operating cost, decision sensitivity, and constraint satisfaction.</p>
+<p>Work on <a href="https://doi.org/10.1016/j.eswa.2024.124508">lag-free demand forecasting</a> and <a href="https://doi.org/10.1109/TCSS.2023.3272330">uncertain pressure regression</a> examines two additional sources of prediction error. Lag-penalty attention targets delayed reactions near demand turning points, while uncertain regression separates modeled responses to observed inputs from residual pressure variation associated with unobserved disturbances. Their metrics distinguish response timing and disturbance sensitivity from average numerical error.</p>
 </section>
 <section id="neural-operators-for-distributed-dynamics" class="level2">
 <h2 class="anchored" data-anchor-id="neural-operators-for-distributed-dynamics">Neural operators for distributed dynamics</h2>
@@ -241,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>Decision-focused forecasting under uncertainty</td>
 <td>Which prediction errors change an operating decision?</td>
-<td>Optimality gap, operating cost, and constraint satisfaction</td>
+<td>Optimality gap, operating cost, response timing, and disturbance sensitivity</td>
 </tr>
 <tr class="even">
 <td>Neural operators for distributed dynamics</td>
@@ -683,11 +683,11 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Learning physical systems for control and optimization · Updated 8 August 2026</p>
+<p>Learning physical systems for control and optimization · Updated 14 August 2026</p>
 </div>
   </div>
 </footer>
-<script defer="" src="../assets/site.js?v=20260808a"></script>
+<script defer="" src="../assets/site.js?v=20260814a"></script>
 
 
 

@@ -6,15 +6,15 @@ toc: true
 
 ## Learning physical systems for control and optimization
 
-My research asks how learned models of physical systems can support control and optimization under dynamics, uncertainty, and constraints. Across coupled water–energy systems and materials processes, I evaluate predictive models through the schedules, actions, and physical designs they inform.
+My research in Physical AI for Science examines how learned models represent state evolution under physical constraints and incomplete information. The state may be a temporal quantity such as demand or pressure, or a distributed field defined by initial conditions, geometry, boundary conditions, and external forcing. I evaluate a learned representation through the operating schedule, control action, or physical design computed from it.
 
-This topic includes four closely related directions. Decision-focused forecasting identifies which predictive errors change operating decisions. Neural operators learn maps between physical conditions and distributed state trajectories. Learning-based control examines how model error affects actions over a control horizon. Constrained physical optimization studies whether learned solution maps preserve useful gradients and feasible decisions. These directions share one criterion. The learned model should represent the physical quantities that determine the downstream decision.
+The same research question appears in four settings. Decision-focused forecasting links temporal uncertainty to operating cost. Neural operators approximate maps from physical conditions to spatiotemporal state fields. Learning-based control measures how rollout error changes closed-loop behavior. Constrained optimization tests whether the learned solution map supplies accurate sensitivities and feasible designs. Each direction traces the same relation among physical dynamics, learned representation, and downstream decision.
 
 ## Decision-focused forecasting under uncertainty
 
 Forecast errors matter differently when predictions determine an operating schedule. In coupled water–energy systems, [Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) trains probabilistic electricity-cost forecasts through the stochastic water-supply schedules they induce. A differentiable upper bound on optimality gap passes changes in scheduling cost back to the predictor.
 
-Work on [lag-free demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508) and [uncertain pressure regression](https://doi.org/10.1109/TCSS.2023.3272330) examines two additional sources of prediction error. Lag-penalty attention targets delayed reactions near demand turning points, while uncertain regression separates modeled responses to observed inputs from residual pressure variation associated with unobserved disturbances. These studies relate forecast accuracy to operating cost, decision sensitivity, and constraint satisfaction.
+Work on [lag-free demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508) and [uncertain pressure regression](https://doi.org/10.1109/TCSS.2023.3272330) examines two additional sources of prediction error. Lag-penalty attention targets delayed reactions near demand turning points, while uncertain regression separates modeled responses to observed inputs from residual pressure variation associated with unobserved disturbances. Their metrics distinguish response timing and disturbance sensitivity from average numerical error.
 
 ## Neural operators for distributed dynamics
 
@@ -38,7 +38,7 @@ Collaborative work on generated actions examines how learned trajectories satisf
 
 | Research direction | Main question | Evaluation |
 |---|---|---|
-| Decision-focused forecasting under uncertainty | Which prediction errors change an operating decision? | Optimality gap, operating cost, and constraint satisfaction |
+| Decision-focused forecasting under uncertainty | Which prediction errors change an operating decision? | Optimality gap, operating cost, response timing, and disturbance sensitivity |
 | Neural operators for distributed dynamics | What solution field follows from new physical conditions? | Field error, rollout error, and sensitivity error |
 | Learning-based control | How does model error change a control action? | Closed-loop cost and state constraint violation |
 | Constrained optimization of physical systems | Does the learned solution map preserve the optimized decision? | Objective value, feasibility, and decision sensitivity |

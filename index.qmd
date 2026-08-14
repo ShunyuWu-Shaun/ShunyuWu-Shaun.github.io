@@ -154,7 +154,7 @@ body-classes: home-page
     <header class="section-heading section-heading-wide">
       <p>RESEARCH</p>
       <h2 id="research-front-title">Learning physical systems for control and optimization.</h2>
-      <p>My research asks how a learned model should represent dynamics and uncertainty when its outputs determine a schedule, control action, or physical design. I study this question through probabilistic prediction, operator learning, closed-loop analysis, and constrained physical optimization.</p>
+      <p>My research asks which physical variables a learned model must represent, how those states evolve under external forcing and incomplete observation, and which approximation errors change the resulting schedule, control action, or design. I study this question through probabilistic prediction, neural operators, closed-loop analysis, and constrained optimization.</p>
     </header>
     <div class="research-program-grid">
       <article class="research-thread theme-decision">

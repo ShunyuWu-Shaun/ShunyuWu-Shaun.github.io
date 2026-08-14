@@ -777,6 +777,163 @@ body:not(.home-page) main table.table {
   border-left: 1px solid var(--sw-line);
 }
 
+/* Research projects: one scientific argument, expressed as project records. */
+
+.projects-page .project-relation {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 2rem;
+  margin: 2rem 0 3.4rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--sw-line);
+  border-bottom: 1px solid var(--sw-line);
+  list-style: none;
+}
+
+.projects-page .project-relation li {
+  position: relative;
+  min-width: 0;
+  padding-left: 0.9rem;
+  color: var(--sw-ink);
+  font-family: var(--sw-display);
+  font-size: clamp(1rem, 1.25vw, 1.16rem);
+  font-weight: 500;
+  line-height: 1.28;
+}
+
+.projects-page .project-relation li::before {
+  position: absolute;
+  top: 0.47em;
+  left: 0;
+  width: 0.4rem;
+  height: 0.4rem;
+  content: "";
+  border-radius: 50%;
+  background: var(--sw-cobalt);
+}
+
+.projects-page .project-relation li:not(:last-child)::after {
+  position: absolute;
+  top: 0.05em;
+  right: -1.35rem;
+  color: #9aa6ad;
+  content: "→";
+  font-family: var(--sw-body);
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.projects-page .project-relation .relation-dynamics::before {
+  background: var(--sw-spectral);
+}
+
+.projects-page .project-relation .relation-learning::before {
+  background: var(--sw-cobalt);
+}
+
+.projects-page .project-relation .relation-decision::before {
+  background: var(--sw-amber);
+}
+
+.projects-page .project-relation .relation-evaluation::before {
+  background: var(--sw-thermal);
+}
+
+.projects-page main h2.project-heading {
+  position: relative;
+  padding-left: 1.05rem;
+}
+
+.projects-page main h2.project-heading::before {
+  position: absolute;
+  top: 0.55em;
+  left: 0;
+  width: 0.43rem;
+  height: 0.43rem;
+  content: "";
+  border-radius: 50%;
+  background: var(--sw-cobalt);
+}
+
+.projects-page main h2.theme-dynamics::before,
+.projects-page main h2.theme-process::before {
+  background: var(--sw-spectral);
+}
+
+.projects-page main h2.theme-decision::before {
+  background: var(--sw-amber);
+}
+
+.projects-page main h2.theme-control::before {
+  background: var(--sw-thermal);
+}
+
+.projects-page main h2.theme-geometry::before {
+  background: var(--sw-cobalt);
+}
+
+.projects-page .project-study {
+  display: grid;
+  grid-template-columns: minmax(230px, 0.36fr) minmax(0, 1fr);
+  gap: clamp(1.6rem, 3.2vw, 3rem);
+  align-items: start;
+  margin: 0 0 3.1rem;
+  padding: 0.35rem 0 2.75rem;
+  border-bottom: 1px solid var(--sw-line);
+}
+
+.projects-page .project-study-visual {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.projects-page .project-study-visual a {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--sw-line);
+  background: var(--sw-paper);
+}
+
+.projects-page .project-study-visual a.external::after {
+  display: none;
+}
+
+.projects-page .project-study-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.projects-page .project-study-copy > :first-child {
+  margin-top: 0;
+}
+
+.projects-page .project-study-copy > :last-child {
+  margin-bottom: 0;
+}
+
+.projects-page .project-study-copy a {
+  font-weight: 600;
+}
+
+.projects-page .project-study.theme-decision .project-study-copy a {
+  color: var(--sw-amber);
+}
+
+.projects-page .project-study.theme-dynamics .project-study-copy a,
+.projects-page .project-study.theme-process .project-study-copy a {
+  color: var(--sw-spectral);
+}
+
+.projects-page .project-study.theme-control .project-study-copy a {
+  color: var(--sw-thermal);
+}
+
+.projects-page .project-study.theme-geometry .project-study-copy a {
+  color: var(--sw-cobalt);
+}
+
 .publication-rule {
   padding: 0;
   color: var(--sw-thermal);
@@ -904,6 +1061,33 @@ body:not(.home-page) main table.table {
 }
 
 @media (max-width: 720px) {
+  .projects-page .project-relation {
+    grid-template-columns: 1fr;
+    gap: 1.55rem;
+    margin-bottom: 2.8rem;
+  }
+
+  .projects-page .project-relation li:not(:last-child)::after {
+    top: auto;
+    right: auto;
+    bottom: -1.25rem;
+    left: 0.05rem;
+    content: "↓";
+  }
+
+  .projects-page .project-study {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .projects-page .project-study-visual {
+    width: min(100%, 440px);
+  }
+
+  .projects-page .project-study-visual-pair {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .paper-grid,
   .paper-grid-home,
   .paper-grid-two {
@@ -915,6 +1099,12 @@ body:not(.home-page) main table.table {
   }
 
   .paper-card-horizontal {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-page .project-study-visual-pair {
     grid-template-columns: 1fr;
   }
 }

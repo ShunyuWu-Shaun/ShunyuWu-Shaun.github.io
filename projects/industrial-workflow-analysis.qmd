@@ -1,24 +1,30 @@
 ---
-title: "Water-energy resource scheduling"
-description: "A published case study on stochastic predict-then-optimize for urban water supply under electricity-cost uncertainty."
+title: "Coupled water-energy operation under forecast uncertainty"
+description: "A decision-focused study of probabilistic electricity-cost forecasts and whole-process urban water-supply scheduling."
 toc: true
 ---
 
-## Decision problem
+## Physical process and operating decision
 
-Urban water supply consumes electricity throughout treatment, transport, and distribution. The resulting schedule depends on the expected electricity cost, while errors in that forecast can change operating cost and the selected schedule.
+Urban water supply coordinates treatment, transport, and distribution over an operating horizon. Each stage consumes electricity, so the schedule determines when the system serves demand and purchases energy. Because electricity prices are uncertain, a forecast error can alter both operating cost and the selected schedule.
 
-The study models the full water-supply process as a stochastic scheduling problem with uncertain electricity prices. Forecast quality is evaluated both by pointwise prediction error and by the objective value of the induced schedule.
+The study represents the full water-supply process as a stochastic scheduling problem. Within this formulation, a probabilistic electricity-cost forecast supplies the uncertain cost parameters, while the scheduling model retains the operating variables and constraints. Optimizing the schedule returns a decision loss to the predictor. Training focuses on errors that change when the system operates, rather than treating every price error as equally consequential.
 
-## Stochastic Predict-Then-Optimize
+## Learning through the induced schedule
 
-Stochastic Predict-Then-Optimize combines a probabilistic forecasting model with the downstream stochastic program. Its forecast distribution supplies uncertain cost parameters to the scheduler, and the resulting schedule defines the decision loss used to update the predictor.
+Stochastic Predict-Then-Optimize trains the forecast distribution through the optimality gap of the induced schedule. Its training signal depends on how an error changes the selected operating periods and their cost. This decision loss ties the predictor to the temporal coupling between water operation and grid conditions.
 
-Direct differentiation through this optimization problem is difficult. SPTO+ replaces the exact optimality gap with a differentiable convex upper bound derived from Lagrangian duality. The bound supplies a surrogate gradient while retaining the scheduling problem in the training objective.
+## Differentiable optimality gap
 
-## Evaluation
+Direct differentiation through stochastic scheduling is difficult. SPTO+ derives a differentiable convex upper bound on the optimality gap from Lagrangian duality. The bound supplies a surrogate gradient while the scheduling problem remains the source of the learning signal.
 
-Experiments on real-world water-supply systems compare forecast quality, operating cost, and decision regret. SPTO reports lower operating cost and regret than the tested two-stage forecasting and optimization baselines.
+## System-level evaluation
+
+Experiments on real-world water-supply systems compare pointwise forecast error, operating cost, and decision regret with tested two-stage forecasting and optimization baselines. SPTO reports lower operating cost and regret in these experiments.
+
+## Relation to Physical AI for Science
+
+In the coupled system, the learned distribution parameterizes the uncertain energy cost acting on a temporally coordinated water process. A constrained optimizer converts those parameters into a feasible operating schedule. Decision regret then measures the consequence of forecast error at the system level.
 
 ## Publication
 

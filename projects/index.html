@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Source-linked research projects based on first- and last-author work by Shunyu Wu.">
+<meta name="description" content="Research projects in Physical AI for Science, focused on physical states, dynamics, uncertainty, control, and constrained optimization.">
 
 <title>Research projects – Shunyu Wu</title>
 <style>
@@ -70,20 +70,24 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
-<link rel="stylesheet" href="../styles.css?v=20260808a">
-<link rel="stylesheet" href="../academic.css?v=20260808a">
+<link rel="stylesheet" href="../styles.css?v=20260814a">
+<link rel="stylesheet" href="../academic.css?v=20260814a">
 
 
 <meta property="og:title" content="Research projects – Shunyu Wu">
-<meta property="og:description" content="Source-linked research projects based on first- and last-author work by Shunyu Wu.">
+<meta property="og:description" content="Research projects in Physical AI for Science, focused on physical states, dynamics, uncertainty, control, and constrained optimization.">
+<meta property="og:image" content="https://shunyuwu-shaun.github.io/assets/images/publications/spto.svg">
 <meta property="og:site_name" content="Shunyu Wu">
+<meta property="og:image:alt" content="SPTO visual abstract linking a probabilistic electricity-cost forecast to a stochastic water-supply schedule">
 <meta name="twitter:title" content="Research projects – Shunyu Wu">
-<meta name="twitter:description" content="Source-linked research projects based on first- and last-author work by Shunyu Wu.">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="Research projects in Physical AI for Science, focused on physical states, dynamics, uncertainty, control, and constrained optimization.">
+<meta name="twitter:image" content="https://shunyuwu-shaun.github.io/assets/images/publications/spto.svg">
+<meta name="twitter:image:alt" content="SPTO visual abstract linking a probabilistic electricity-cost forecast to a stochastic water-supply schedule">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://shunyuwu-shaun.github.io/projects/">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed projects-page fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -164,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Source-linked research projects based on first- and last-author work by Shunyu Wu.
+    Research projects in Physical AI for Science, focused on physical states, dynamics, uncertainty, control, and constrained optimization.
   </div>
 </div>
 
@@ -181,26 +185,92 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="water-energy-resource-scheduling" class="level2">
-<h2 class="anchored" data-anchor-id="water-energy-resource-scheduling">Water-energy resource scheduling</h2>
-<div class="entry-card">
-<p>The <a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO study</a> models the full urban water-supply process under uncertain electricity prices. Probabilistic price forecasts parameterize a stochastic scheduling problem, and a convex upper bound on the optimality gap provides gradients for training. Experiments on real-world systems compare operating cost and decision regret with two-stage baselines.</p>
+<section id="physical-ai-for-science-through-states-dynamics-and-decisions" class="level2">
+<h2 class="anchored" data-anchor-id="physical-ai-for-science-through-states-dynamics-and-decisions">Physical AI for Science through states, dynamics, and decisions</h2>
+<p>My research examines how a learned model should represent the state and evolution of a physical system when its output is used in control or optimization. The starting point is the physical quantity to be predicted or reconstructed, together with the inputs, geometry, constraints, and unresolved disturbances that shape its evolution. I then ask which approximation errors alter the resulting schedule, feedback action, trajectory, or design.</p>
+<p>Across these projects, the physical system defines admissible states and decisions. Learning estimates a quantity that is uncertain or costly to obtain, and control or optimization converts that estimate into an action. Evaluation includes the error that matters at the decision level, such as optimality gap, operating cost, constraint violation, or trajectory geometry.</p>
+<ol class="project-relation" aria-label="Shared research logic">
+<li class="relation-state">
+Physical state and inputs
+</li>
+<li class="relation-dynamics">
+Dynamics and uncertainty
+</li>
+<li class="relation-learning">
+Learned solution or forecast
+</li>
+<li class="relation-decision">
+Control or optimization
+</li>
+<li class="relation-evaluation">
+Decision-level evaluation
+</li>
+</ol>
+</section>
+<section id="neural-operators-for-distributed-physical-dynamics" class="level2 project-heading theme-operator">
+<h2 class="project-heading theme-operator anchored" data-anchor-id="neural-operators-for-distributed-physical-dynamics">Neural operators for distributed physical dynamics</h2>
+<p>My current work studies neural operators that map initial conditions, geometry, boundary conditions, and external forcing to spatiotemporal state fields. This formulation treats the target as a solution map rather than a single operating point. I evaluate field reconstruction, rollout accuracy, and local sensitivities because each quantity affects a downstream control or constrained optimization problem.</p>
+<p>Materials processes provide a field-evolving scientific setting for this work. Their states change across space and time, while process inputs determine the trajectory and the resulting operating or design decision. The scientific question is whether a learned operator preserves the field evolution and response derivatives required to select that decision.</p>
+<p><a href="../research/index.html">Research questions and evaluation criteria</a></p>
+</section>
+<section id="coupled-water-energy-operation-under-forecast-uncertainty" class="level2 project-heading theme-decision">
+<h2 class="project-heading theme-decision anchored" data-anchor-id="coupled-water-energy-operation-under-forecast-uncertainty">Coupled water-energy operation under forecast uncertainty</h2>
+<div class="project-study theme-decision">
+<div class="project-study-visual">
+<p><a href="https://doi.org/10.1109/TSG.2025.3601238"><img src="../assets/images/publications/spto.svg" width="800" height="500" loading="lazy" alt="SPTO visual abstract linking a probabilistic electricity-cost forecast to a stochastic water-supply schedule"></a></p>
+</div>
+<div class="project-study-copy">
+<p>Urban water treatment, transport, and distribution consume electricity, so uncertain electricity prices can change the preferred operating schedule. <a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO</a> supplies a forecast distribution to a stochastic water-supply model and trains the predictor through a duality-derived upper bound on the schedule’s optimality gap. Operating cost and regret measure whether forecast error changes the induced decision.</p>
 <p><a href="../projects/industrial-workflow-analysis.html">Read the research summary</a></p>
 </div>
-</section>
-<section id="urban-water-forecasting-and-pressure-modeling" class="level2">
-<h2 class="anchored" data-anchor-id="urban-water-forecasting-and-pressure-modeling">Urban water forecasting and pressure modeling</h2>
-<div class="entry-card">
-<p>Two first-authored studies address different sources of forecast error. <a href="https://doi.org/10.1016/j.eswa.2024.124508">KbBcM</a> targets delayed responses near changes in daily demand. <a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder</a> represents pressure variation associated with unobserved disturbances.</p>
-<p><a href="../projects/service-operations-planning.html">Read the research summary</a></p>
 </div>
 </section>
-<section id="generative-decisions-in-physical-environments" class="level2">
-<h2 class="anchored" data-anchor-id="generative-decisions-in-physical-environments">Generative decisions in physical environments</h2>
-<section id="local-trajectory-generation" class="level3 feature-card">
-<h3 class="anchored" data-anchor-id="local-trajectory-generation">Local trajectory generation</h3>
-<p><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT</a> stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent denoising.</p>
+<section id="temporal-response-and-uncertain-pressure-states" class="level2 project-heading theme-dynamics">
+<h2 class="project-heading theme-dynamics anchored" data-anchor-id="temporal-response-and-uncertain-pressure-states">Temporal response and uncertain pressure states</h2>
+<div class="project-study theme-dynamics">
+<div class="project-study-visual project-study-visual-pair">
+<p><a href="https://doi.org/10.1016/j.eswa.2024.124508"><img src="../assets/images/publications/kbbcm.svg" width="800" height="500" loading="lazy" alt="KbBcM visual abstract showing lag-penalty attention and posterior residual correction"></a> <a href="https://doi.org/10.1109/TCSS.2023.3272330"><img src="../assets/images/publications/criticoder.svg" width="800" height="500" loading="lazy" alt="CritiCoder visual abstract separating measured pressure effects from unobserved disturbances"></a></p>
+</div>
+<div class="project-study-copy">
+<p>Daily demand and network pressure expose different errors in a learned dynamical representation. <a href="https://doi.org/10.1016/j.eswa.2024.124508">KbBcM</a> treats delayed reaction near demand turning points as a timing error. <a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder</a> separates the pressure response associated with measured inputs from residual variation associated with unobserved disturbances. Their evaluation distinguishes temporal misalignment and disturbance sensitivity from average numerical error.</p>
+<p><a href="../projects/service-operations-planning.html">Read the research summary</a></p>
+</div>
+</div>
 </section>
+<section id="feedback-laws-for-constrained-nonlinear-dynamics" class="level2 project-heading theme-control">
+<h2 class="project-heading theme-control anchored" data-anchor-id="feedback-laws-for-constrained-nonlinear-dynamics">Feedback laws for constrained nonlinear dynamics</h2>
+<div class="project-study theme-control">
+<div class="project-study-visual project-study-visual-pair">
+<p><a href="https://doi.org/10.1109/TSMC.2023.3344883"><img src="../assets/images/publications/rl-controller.svg" width="800" height="500" loading="lazy" alt="Constrained reinforcement-learning controller visual abstract"></a> <a href="https://doi.org/10.1109/CDC49753.2023.10383316"><img src="../assets/images/publications/eligibility-traces.svg" width="800" height="500" loading="lazy" alt="Multiple time-scale eligibility traces visual abstract"></a></p>
+</div>
+<div class="project-study-copy">
+<p>Two last-author studies examine learned feedback laws for nonlinear dynamics. For discrete-time constrained systems, nonlinear model predictive control supplies initial weights for a controller network, while a control barrier function and a nonquadratic loss impose state and input constraints during learning. Related adaptive optimal-control work uses eligibility traces at several time scales so that the critic receives temporal credit over different horizons.</p>
+<p><a href="https://doi.org/10.1109/TSMC.2023.3344883">Constrained controller</a> · <a href="https://doi.org/10.1109/CDC49753.2023.10383316">Multiple time-scale eligibility traces</a></p>
+</div>
+</div>
+</section>
+<section id="multi-step-energy-dynamics-in-industrial-rolling" class="level2 project-heading theme-process">
+<h2 class="project-heading theme-process anchored" data-anchor-id="multi-step-energy-dynamics-in-industrial-rolling">Multi-step energy dynamics in industrial rolling</h2>
+<div class="project-study theme-process">
+<div class="project-study-visual">
+<p><a href="https://doi.org/10.1109/TASE.2023.3299185"><img src="../assets/images/publications/series-concat.svg" width="800" height="500" loading="lazy" alt="Series-concatenation visual abstract for energy prediction across multi-step rolling"></a></p>
+</div>
+<div class="project-study-copy">
+<p>Hot-strip roughing unfolds through an ordered sequence of rolling passes in which prediction error can accumulate. A <a href="https://doi.org/10.1109/TASE.2023.3299185">DCLS-Net study</a> models the energy consumption of each pass, while series concatenation propagates information through the rolling order to reduce accumulated multi-step error. The process trajectory, rather than an isolated sample, is the relevant prediction object.</p>
+</div>
+</div>
+</section>
+<section id="geometry-conditioned-motion-in-physical-environments" class="level2 project-heading theme-geometry">
+<h2 class="project-heading theme-geometry anchored" data-anchor-id="geometry-conditioned-motion-in-physical-environments">Geometry-conditioned motion in physical environments</h2>
+<div class="project-study theme-geometry">
+<div class="project-study-visual">
+<p><a href="https://doi.org/10.1016/j.eswa.2026.133261"><img src="../assets/images/publications/drift.svg" width="800" height="500" loading="lazy" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed recurrent diffusion"></a></p>
+</div>
+<div class="project-study-copy">
+<p><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT</a> stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent diffusion. Endpoint error, clearance, smoothness, and runtime test how the generated trajectory relates to target intent and local spatial structure. This collaborative project asks how an action generator should retain the geometry that constrains motion, a related question in Physical AI.</p>
+</div>
+</div>
+<p><a href="../publications/index.html">First- and last-author publications</a> provide the full publication record for these projects.</p>
 
 
 </section>
@@ -623,11 +693,11 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Learning physical systems for control and optimization · Updated 8 August 2026</p>
+<p>Learning physical systems for control and optimization · Updated 14 August 2026</p>
 </div>
   </div>
 </footer>
-<script defer="" src="../assets/site.js?v=20260808a"></script>
+<script defer="" src="../assets/site.js?v=20260814a"></script>
 
 
 

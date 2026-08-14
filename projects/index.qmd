@@ -1,29 +1,93 @@
 ---
 title: "Research projects"
-description: "Source-linked research projects based on first- and last-author work by Shunyu Wu."
+description: "Research projects in Physical AI for Science, focused on physical states, dynamics, uncertainty, control, and constrained optimization."
 toc: false
+body-classes: projects-page
 ---
 
-## Water-energy resource scheduling
+## Physical AI for Science through states, dynamics, and decisions
 
-::: {.entry-card}
-The [SPTO study](https://doi.org/10.1109/TSG.2025.3601238) models the full urban water-supply process under uncertain electricity prices. Probabilistic price forecasts parameterize a stochastic scheduling problem, and a convex upper bound on the optimality gap provides gradients for training. Experiments on real-world systems compare operating cost and decision regret with two-stage baselines.
+My research examines how a learned model should represent the state and evolution of a physical system when its output is used in control or optimization. The starting point is the physical quantity to be predicted or reconstructed, together with the inputs, geometry, constraints, and unresolved disturbances that shape its evolution. I then ask which approximation errors alter the resulting schedule, feedback action, trajectory, or design.
+
+Across these projects, the physical system defines admissible states and decisions. Learning estimates a quantity that is uncertain or costly to obtain, and control or optimization converts that estimate into an action. Evaluation includes the error that matters at the decision level, such as optimality gap, operating cost, constraint violation, or trajectory geometry.
+
+<ol class="project-relation" aria-label="Shared research logic">
+  <li class="relation-state">Physical state and inputs</li>
+  <li class="relation-dynamics">Dynamics and uncertainty</li>
+  <li class="relation-learning">Learned solution or forecast</li>
+  <li class="relation-decision">Control or optimization</li>
+  <li class="relation-evaluation">Decision-level evaluation</li>
+</ol>
+
+## Neural operators for distributed physical dynamics {.project-heading .theme-operator}
+
+My current work studies neural operators that map initial conditions, geometry, boundary conditions, and external forcing to spatiotemporal state fields. This formulation treats the target as a solution map rather than a single operating point. I evaluate field reconstruction, rollout accuracy, and local sensitivities because each quantity affects a downstream control or constrained optimization problem.
+
+Materials processes provide a field-evolving scientific setting for this work. Their states change across space and time, while process inputs determine the trajectory and the resulting operating or design decision. The scientific question is whether a learned operator preserves the field evolution and response derivatives required to select that decision.
+
+[Research questions and evaluation criteria](../research/index.qmd)
+
+## Coupled water-energy operation under forecast uncertainty {.project-heading .theme-decision}
+
+:::: {.project-study .theme-decision}
+::: {.project-study-visual}
+<a href="https://doi.org/10.1109/TSG.2025.3601238"><img src="/assets/images/publications/spto.svg" width="800" height="500" loading="lazy" alt="SPTO visual abstract linking a probabilistic electricity-cost forecast to a stochastic water-supply schedule"></a>
+:::
+::: {.project-study-copy}
+Urban water treatment, transport, and distribution consume electricity, so uncertain electricity prices can change the preferred operating schedule. [SPTO](https://doi.org/10.1109/TSG.2025.3601238) supplies a forecast distribution to a stochastic water-supply model and trains the predictor through a duality-derived upper bound on the schedule's optimality gap. Operating cost and regret measure whether forecast error changes the induced decision.
 
 [Read the research summary](industrial-workflow-analysis.qmd)
 :::
+::::
 
-## Urban water forecasting and pressure modeling
+## Temporal response and uncertain pressure states {.project-heading .theme-dynamics}
 
-::: {.entry-card}
-Two first-authored studies address different sources of forecast error. [KbBcM](https://doi.org/10.1016/j.eswa.2024.124508) targets delayed responses near changes in daily demand. [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) represents pressure variation associated with unobserved disturbances.
+:::: {.project-study .theme-dynamics}
+::: {.project-study-visual .project-study-visual-pair}
+<a href="https://doi.org/10.1016/j.eswa.2024.124508"><img src="/assets/images/publications/kbbcm.svg" width="800" height="500" loading="lazy" alt="KbBcM visual abstract showing lag-penalty attention and posterior residual correction"></a>
+<a href="https://doi.org/10.1109/TCSS.2023.3272330"><img src="/assets/images/publications/criticoder.svg" width="800" height="500" loading="lazy" alt="CritiCoder visual abstract separating measured pressure effects from unobserved disturbances"></a>
+:::
+::: {.project-study-copy}
+Daily demand and network pressure expose different errors in a learned dynamical representation. [KbBcM](https://doi.org/10.1016/j.eswa.2024.124508) treats delayed reaction near demand turning points as a timing error. [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) separates the pressure response associated with measured inputs from residual variation associated with unobserved disturbances. Their evaluation distinguishes temporal misalignment and disturbance sensitivity from average numerical error.
 
 [Read the research summary](service-operations-planning.qmd)
 :::
+::::
 
-## Generative decisions in physical environments
+## Feedback laws for constrained nonlinear dynamics {.project-heading .theme-control}
 
-::: {.feature-card}
-### Local trajectory generation
-
-[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent denoising.
+:::: {.project-study .theme-control}
+::: {.project-study-visual .project-study-visual-pair}
+<a href="https://doi.org/10.1109/TSMC.2023.3344883"><img src="/assets/images/publications/rl-controller.svg" width="800" height="500" loading="lazy" alt="Constrained reinforcement-learning controller visual abstract"></a>
+<a href="https://doi.org/10.1109/CDC49753.2023.10383316"><img src="/assets/images/publications/eligibility-traces.svg" width="800" height="500" loading="lazy" alt="Multiple time-scale eligibility traces visual abstract"></a>
 :::
+::: {.project-study-copy}
+Two last-author studies examine learned feedback laws for nonlinear dynamics. For discrete-time constrained systems, nonlinear model predictive control supplies initial weights for a controller network, while a control barrier function and a nonquadratic loss impose state and input constraints during learning. Related adaptive optimal-control work uses eligibility traces at several time scales so that the critic receives temporal credit over different horizons.
+
+[Constrained controller](https://doi.org/10.1109/TSMC.2023.3344883) · [Multiple time-scale eligibility traces](https://doi.org/10.1109/CDC49753.2023.10383316)
+:::
+::::
+
+## Multi-step energy dynamics in industrial rolling {.project-heading .theme-process}
+
+:::: {.project-study .theme-process}
+::: {.project-study-visual}
+<a href="https://doi.org/10.1109/TASE.2023.3299185"><img src="/assets/images/publications/series-concat.svg" width="800" height="500" loading="lazy" alt="Series-concatenation visual abstract for energy prediction across multi-step rolling"></a>
+:::
+::: {.project-study-copy}
+Hot-strip roughing unfolds through an ordered sequence of rolling passes in which prediction error can accumulate. A [DCLS-Net study](https://doi.org/10.1109/TASE.2023.3299185) models the energy consumption of each pass, while series concatenation propagates information through the rolling order to reduce accumulated multi-step error. The process trajectory, rather than an isolated sample, is the relevant prediction object.
+:::
+::::
+
+## Geometry-conditioned motion in physical environments {.project-heading .theme-geometry}
+
+:::: {.project-study .theme-geometry}
+::: {.project-study-visual}
+<a href="https://doi.org/10.1016/j.eswa.2026.133261"><img src="/assets/images/publications/drift.svg" width="800" height="500" loading="lazy" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed recurrent diffusion"></a>
+:::
+::: {.project-study-copy}
+[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent diffusion. Endpoint error, clearance, smoothness, and runtime test how the generated trajectory relates to target intent and local spatial structure. This collaborative project asks how an action generator should retain the geometry that constrains motion, a related question in Physical AI.
+:::
+::::
+
+[First- and last-author publications](../publications/index.qmd) provide the full publication record for these projects.

@@ -16,6 +16,8 @@ I welcome conversations on neural operators, operator learning for downstream co
 Systems Engineering Program<br>
 Cornell University
 
+I work with **Professor Fengqi You** on neural operators for control and constrained optimization of distributed physical systems.
+
 ## Education
 
 Ph.D., Shanghai Jiao Tong University

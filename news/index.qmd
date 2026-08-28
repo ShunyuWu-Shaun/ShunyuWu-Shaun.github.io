@@ -9,6 +9,10 @@ body-classes: news-page
 <div class="news-timeline">
   <article class="news-item">
     <time datetime="2026-08">AUG 2026</time>
+    <div><h2>Invited to serve as a reviewer for ICLR 2027!</h2><p>I reviewed for the International Conference on Learning Representations (ICLR) in the 2025 and 2026 review cycles.</p></div>
+  </article>
+  <article class="news-item">
+    <time datetime="2026-08">AUG 2026</time>
     <div><h2>Ezra Systems Postdoctoral Associate at Cornell University!</h2><p>I joined Cornell University as an <strong>Ezra Systems Postdoctoral Associate</strong> in Systems Engineering. I work with <strong>Professor Fengqi You</strong> on AI for materials processing, using neural operators to model distributed process dynamics for control and constrained optimization.</p></div>
   </article>
   <article class="news-item">

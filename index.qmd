@@ -127,6 +127,11 @@ body-classes: home-page
         <h3>Joined Cornell University as an Ezra Systems Postdoctoral Associate!</h3>
         <p>I work with Professor Fengqi You on AI for materials processing, using neural operators to model distributed process dynamics for control and constrained optimization.</p>
       </article>
+      <article class="news-compact news-service">
+        <p class="news-date">AUG 2026 <span>SERVICE</span></p>
+        <h3>Invited to serve as a reviewer for ICLR 2027!</h3>
+        <p>I reviewed for ICLR in the 2025 and 2026 review cycles.</p>
+      </article>
       <article class="news-compact news-paper">
         <p class="news-date">JUL 2026 <span>PAPER</span></p>
         <h3><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT published in Expert Systems with Applications</a></h3>
@@ -136,11 +141,6 @@ body-classes: home-page
         <p class="news-date">JUN 2026 <span>GRADUATION</span></p>
         <h3>Received my Ph.D. from Shanghai Jiao Tong University!</h3>
         <p>I am grateful to my advisor, Professor Jingcheng Wang, for his guidance. I also thank all my labmates for their collaboration and friendship throughout my doctoral years.</p>
-      </article>
-      <article class="news-compact news-service">
-        <p class="news-date">2026 <span>SERVICE</span></p>
-        <h3>Reviewing across the machine learning community</h3>
-        <p>ICML, NeurIPS Position Paper Track, and the AAAI Main Technical and AI for Social Impact tracks.</p>
       </article>
       <article class="news-compact news-decision">
         <p class="news-date">2025 <span>FIRST-AUTHOR PAPER</span></p>
@@ -228,7 +228,7 @@ body-classes: home-page
       <h2 id="service-front-title">Peer review across machine learning, control, automation, and energy systems.</h2>
     </div>
     <div class="service-copy">
-      <p>I review for ICML 2026, the NeurIPS 2026 Position Paper Track, and the AAAI-26 Main Technical and AI for Social Impact tracks, alongside ICLR and CDC. I also review for four IEEE Transactions journals and <em>Scientific Reports</em>.</p>
+      <p>I reviewed for the ICLR 2025 and 2026 cycles and have been invited to review for ICLR 2027. My other conference service includes ICML, NeurIPS, AAAI, and CDC. I also review for four IEEE Transactions journals and <em>Scientific Reports</em>.</p>
       <a href="/service/">Academic service</a>
     </div>
   </section>

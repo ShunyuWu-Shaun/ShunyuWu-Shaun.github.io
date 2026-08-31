@@ -8,6 +8,8 @@ project:
     - academic.css
     - assets/site.js
     - assets/images/publications/**
+    - assets/images/citation-geography.svg
+    - assets/data/citation-geography.json
 
 website:
   title: "Shunyu Wu"
@@ -48,7 +50,7 @@ website:
   page-footer:
     border: true
     left: "© 2026 Shunyu Wu"
-    right: "Learning physical systems for control and optimization · Updated 28 August 2026"
+    right: "Learning physical systems for control and optimization · Updated 30 August 2026"
 
 format:
   html:
@@ -65,7 +67,7 @@ format:
       text: |
         <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
         <link rel="stylesheet" href="/styles.css?v=20260814a">
-        <link rel="stylesheet" href="/academic.css?v=20260814a">
+        <link rel="stylesheet" href="/academic.css?v=20260830a">
     include-after-body:
       text: |
         <script defer src="/assets/site.js?v=20260814a"></script>

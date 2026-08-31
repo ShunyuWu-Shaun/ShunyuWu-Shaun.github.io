@@ -22,6 +22,16 @@ quarto preview
 quarto render
 ```
 
+## Citation geography
+
+The homepage map is a dated OpenAlex snapshot generated before deployment. Refresh the JSON and SVG together with:
+
+```bash
+python3 scripts/build_citation_geography.py --retrieved-on YYYY-MM-DD
+```
+
+The generator validates the displayed date, totals, and country table in `index.qmd`; it stops if the homepage and snapshot differ. The published page does not request citation data or visitor data at runtime.
+
 ## Content Structure
 
 - `/index.qmd` home page

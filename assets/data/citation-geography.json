@@ -1,0 +1,201 @@
+{
+  "title": "Citation geography",
+  "retrieved_on": "2026-08-30",
+  "source": {
+    "citation_metadata": "OpenAlex core corpus",
+    "citation_url": "https://openalex.org/",
+    "map_geometry": "Natural Earth v5.1.2",
+    "map_url": "https://www.naturalearthdata.com/downloads/"
+  },
+  "scope": {
+    "publication_count": 10,
+    "publication_selection": "First- and last-author papers listed on the website",
+    "openalex_author_id": "A5087893108"
+  },
+  "method": {
+    "citing_work_deduplication": "Canonical OpenAlex work ID across all target papers",
+    "direct_self_citation_rule": "Exclude a citing work when its authorships include Shunyu Wu",
+    "geography_field": "Distinct authorship country codes for each citing work",
+    "country_assignment": "A work with k country codes contributes 1/k to each country",
+    "missing_country_rule": "Keep the record unmapped and do not infer a country"
+  },
+  "totals": {
+    "citation_edges": 34,
+    "unique_citing_works_before_self_exclusion": 33,
+    "direct_self_citing_works_excluded": 2,
+    "external_citing_works": 31,
+    "geocoded_external_citing_works": 30,
+    "unmapped_external_citing_works": 1,
+    "multi_country_external_citing_works": 6,
+    "country_or_region_codes": 14,
+    "fractional_count_total": 30.0
+  },
+  "countries": [
+    {
+      "code": "CN",
+      "name": "China",
+      "full_count": 23,
+      "fractional_count": 20.166667
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "full_count": 2,
+      "fractional_count": 2.0
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "full_count": 1,
+      "fractional_count": 1.0
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "full_count": 1,
+      "fractional_count": 1.0
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "full_count": 1,
+      "fractional_count": 1.0
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "full_count": 1,
+      "fractional_count": 1.0
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "full_count": 2,
+      "fractional_count": 0.833333
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "full_count": 1,
+      "fractional_count": 0.5
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "full_count": 1,
+      "fractional_count": 0.5
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "full_count": 1,
+      "fractional_count": 0.5
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "full_count": 1,
+      "fractional_count": 0.5
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "full_count": 1,
+      "fractional_count": 0.333333
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "full_count": 1,
+      "fractional_count": 0.333333
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "full_count": 1,
+      "fractional_count": 0.333333
+    }
+  ],
+  "targets": [
+    {
+      "doi": "10.1109/TSG.2025.3601238",
+      "openalex_id": "W4413754711",
+      "title": "End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling",
+      "publication_year": 2025,
+      "openalex_cited_by_count": 3
+    },
+    {
+      "doi": "10.1016/j.eswa.2024.124508",
+      "openalex_id": "W4399709078",
+      "title": "Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting",
+      "publication_year": 2024,
+      "openalex_cited_by_count": 11
+    },
+    {
+      "doi": "10.1109/TCSS.2023.3272330",
+      "openalex_id": "W4376479136",
+      "title": "CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems",
+      "publication_year": 2023,
+      "openalex_cited_by_count": 2
+    },
+    {
+      "doi": "10.23919/CCC52363.2021.9550182",
+      "openalex_id": "W3202625584",
+      "title": "A Fine Grained Forecasting Method for Minute-Level Urban Water Demand",
+      "publication_year": 2021,
+      "openalex_cited_by_count": 3
+    },
+    {
+      "doi": "10.1016/j.eswa.2026.133261",
+      "openalex_id": "W7165130889",
+      "title": "DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation",
+      "publication_year": 2026,
+      "openalex_cited_by_count": 0
+    },
+    {
+      "doi": "10.1109/TSMC.2023.3344883",
+      "openalex_id": "W4390829281",
+      "title": "Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method",
+      "publication_year": 2024,
+      "openalex_cited_by_count": 9
+    },
+    {
+      "doi": "10.1109/TASE.2023.3299185",
+      "openalex_id": "W4388740257",
+      "title": "A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling",
+      "publication_year": 2023,
+      "openalex_cited_by_count": 6
+    },
+    {
+      "doi": "10.1109/CDC49753.2023.10383316",
+      "openalex_id": "W4391020081",
+      "title": "Adaptive Optimal Control of Nonlinear Systems with Multiple Time-Scale Eligibility Traces",
+      "publication_year": 2023,
+      "openalex_cited_by_count": 0
+    },
+    {
+      "doi": "10.1016/j.ifacol.2023.10.581",
+      "openalex_id": "W4388904509",
+      "title": "The CEEMDAN-ps-gcGRU Model On Water Pressure Prediction With Strong Irregularity",
+      "publication_year": 2023,
+      "openalex_cited_by_count": 0
+    },
+    {
+      "doi": "10.23919/CCC52363.2021.9550267",
+      "openalex_id": "W3204859870",
+      "title": "An Improved Ensemble Deep Learning Model for Water Leakage Detection",
+      "publication_year": 2021,
+      "openalex_cited_by_count": 0
+    }
+  ],
+  "excluded_direct_self_citing_work_ids": [
+    "W4393188243",
+    "W4413754711"
+  ],
+  "unmapped_external_citing_works": [
+    {
+      "openalex_id": "W7114924552",
+      "title": "Theory and construction of machine learning-driven CFD agent model: a bayesian-optimized CNN-LSTM framework"
+    }
+  ]
+}

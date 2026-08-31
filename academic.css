@@ -686,6 +686,204 @@ body {
   line-height: 1.02;
 }
 
+.reach-front {
+  border-top: 1px solid var(--sw-line);
+  background: var(--sw-quartz);
+}
+
+.reach-front .section-heading > p:first-child {
+  color: var(--sw-cobalt);
+}
+
+body.home-page .reach-figure.page-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(310px, 0.72fr);
+  gap: 1.5rem clamp(1.7rem, 3.5vw, 3.6rem);
+  margin: 0;
+}
+
+body.home-page .reach-figure.page-columns > .reach-map-panel {
+  grid-column: 1 !important;
+}
+
+body.home-page .reach-figure.page-columns > .reach-notes {
+  grid-column: 2 !important;
+}
+
+.reach-map-panel {
+  min-width: 0;
+  align-self: start;
+  border-top: 1px solid var(--sw-line);
+  border-bottom: 1px solid var(--sw-line);
+  background: #fbfcfc;
+}
+
+.reach-map-panel img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.reach-notes {
+  align-self: stretch;
+  padding-left: clamp(1.35rem, 2.2vw, 2.25rem);
+  border-left: 1px solid var(--sw-line);
+}
+
+.reach-summary {
+  margin: 0;
+  color: var(--sw-ink);
+  font-family: var(--sw-display);
+  font-size: clamp(1.7rem, 2.25vw, 2.25rem);
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+}
+
+.reach-summary strong {
+  color: var(--sw-cobalt);
+  font-weight: 500;
+}
+
+.reach-reading,
+.reach-method {
+  color: var(--sw-muted);
+  line-height: 1.55;
+}
+
+.reach-reading {
+  margin: 1.1rem 0 0;
+}
+
+.reach-legend {
+  margin-top: 1.55rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--sw-line);
+}
+
+.reach-legend > p {
+  margin: 0 0 0.8rem;
+  color: var(--sw-ink-soft);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.035em;
+}
+
+.reach-legend > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem 1.3rem;
+  min-height: 2.7rem;
+}
+
+.reach-legend span {
+  display: inline-flex;
+  gap: 0.48rem;
+  align-items: center;
+  color: var(--sw-muted);
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.reach-dot {
+  display: inline-block;
+  flex: 0 0 auto;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background: rgba(83, 102, 166, 0.86);
+  box-shadow: 0 0 0 1px rgba(83, 102, 166, 0.12);
+}
+
+.reach-dot-small {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+
+.reach-dot-medium {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.reach-dot-large {
+  width: 2.53rem;
+  height: 2.53rem;
+}
+
+.reach-method {
+  margin: 1.35rem 0 0;
+  font-size: 0.9rem;
+}
+
+.reach-data,
+.reach-figure figcaption {
+  grid-column: 1 / -1 !important;
+}
+
+.reach-data {
+  min-width: 0;
+  margin-top: 0.35rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--sw-line);
+}
+
+.reach-data summary {
+  width: fit-content;
+  color: var(--sw-cobalt);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reach-table-wrap {
+  width: 100%;
+  max-width: 760px;
+  margin-top: 1rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.reach-table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.reach-table th,
+.reach-table td {
+  padding: 0.58rem 0.8rem 0.58rem 0;
+  border-bottom: 1px solid var(--sw-line);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.reach-table th {
+  color: var(--sw-ink-soft);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.reach-table td {
+  color: var(--sw-muted);
+  font-size: 0.9rem;
+}
+
+.reach-table th:not(:first-child),
+.reach-table td:not(:first-child) {
+  text-align: right;
+}
+
+.reach-figure figcaption {
+  max-width: 900px;
+  color: var(--sw-muted);
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.reach-figure figcaption a {
+  color: var(--sw-cobalt);
+}
+
 .home-contact {
   display: grid;
   grid-template-columns: minmax(130px, 0.24fr) minmax(0, 1fr) auto;
@@ -1055,6 +1253,22 @@ body:not(.home-page) main table.table {
     grid-template-columns: 1fr;
   }
 
+  body.home-page .reach-figure.page-columns {
+    grid-template-columns: 1fr !important;
+  }
+
+  body.home-page .reach-figure.page-columns > .reach-map-panel,
+  body.home-page .reach-figure.page-columns > .reach-notes {
+    grid-column: 1 !important;
+  }
+
+  .reach-notes {
+    padding-top: 1.5rem;
+    padding-left: 0;
+    border-top: 1px solid var(--sw-line);
+    border-left: 0;
+  }
+
   .home-contact div {
     align-self: auto;
   }
@@ -1180,6 +1394,12 @@ body:not(.home-page) main table.table {
   .section-heading,
   .section-heading-wide {
     gap: 0.7rem;
+  }
+
+  .reach-table th,
+  .reach-table td {
+    padding-right: 0.62rem;
+    font-size: 0.8rem;
   }
 }
 

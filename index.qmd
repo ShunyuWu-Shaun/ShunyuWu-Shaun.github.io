@@ -233,6 +233,57 @@ body-classes: home-page
     </div>
   </section>
 
+  <section class="home-section reach-front" data-reveal data-retrieved-on="2026-08-30" data-publication-count="10" data-external-works="31" data-geocoded-works="30" data-unmapped-works="1" data-country-count="14" aria-labelledby="reach-front-title">
+    <header class="section-heading section-heading-wide">
+      <p>CITATION GEOGRAPHY</p>
+      <h2 id="reach-front-title">Where this work is being cited.</h2>
+      <p>The map shows the countries or regions recorded in author affiliations for external works that cite the 10 first- and last-author papers listed on this site. In the OpenAlex snapshot retrieved on 30 August 2026, 30 of 31 external citing works contain country metadata.</p>
+    </header>
+    <figure class="reach-figure" aria-describedby="reach-caption">
+      <div class="reach-map-panel">
+        <img loading="lazy" decoding="async" src="/assets/images/citation-geography.svg" width="980" height="460" alt="Equal Earth world map with proportional circles at affiliation countries represented among external works citing Shunyu Wu's selected publications. China has the largest fractional count, followed by Italy. Additional countries or regions are represented.">
+      </div>
+      <aside class="reach-notes" aria-label="Citation geography summary">
+        <p class="reach-summary"><strong>30 of 31</strong> external citing works have country metadata. Their affiliations cover <strong>14 countries or regions</strong>.</p>
+        <p class="reach-reading">China has the largest fractional count. The remaining records include affiliations in Europe, East Asia, North Africa, South Asia, and the United States.</p>
+        <div class="reach-legend" aria-label="Map legend">
+          <p>Circle area represents fractional citing works</p>
+          <div>
+            <span><i class="reach-dot reach-dot-small" aria-hidden="true"></i>0.5</span>
+            <span><i class="reach-dot reach-dot-medium" aria-hidden="true"></i>2</span>
+            <span><i class="reach-dot reach-dot-large" aria-hidden="true"></i>20</span>
+          </div>
+        </div>
+        <p class="reach-method">A citing work with affiliations in <em>k</em> countries contributes 1/<em>k</em> to each country. Works coauthored by Shunyu Wu are excluded, and one record without country metadata remains unmapped.</p>
+      </aside>
+      <details class="reach-data">
+        <summary>View exact country counts and method</summary>
+        <div class="reach-table-wrap">
+          <table class="reach-table">
+            <thead><tr><th scope="col">Country or region</th><th scope="col">Unique citing works</th><th scope="col">Fractional count</th></tr></thead>
+            <tbody>
+              <tr data-code="CN"><td>China</td><td>23</td><td>20.17</td></tr>
+              <tr data-code="IT"><td>Italy</td><td>2</td><td>2.00</td></tr>
+              <tr data-code="CZ"><td>Czechia</td><td>1</td><td>1.00</td></tr>
+              <tr data-code="HK"><td>Hong Kong</td><td>1</td><td>1.00</td></tr>
+              <tr data-code="KR"><td>South Korea</td><td>1</td><td>1.00</td></tr>
+              <tr data-code="VN"><td>Vietnam</td><td>1</td><td>1.00</td></tr>
+              <tr data-code="IL"><td>Israel</td><td>2</td><td>0.83</td></tr>
+              <tr data-code="FR"><td>France</td><td>1</td><td>0.50</td></tr>
+              <tr data-code="MA"><td>Morocco</td><td>1</td><td>0.50</td></tr>
+              <tr data-code="PK"><td>Pakistan</td><td>1</td><td>0.50</td></tr>
+              <tr data-code="GB"><td>United Kingdom</td><td>1</td><td>0.50</td></tr>
+              <tr data-code="FI"><td>Finland</td><td>1</td><td>0.33</td></tr>
+              <tr data-code="SE"><td>Sweden</td><td>1</td><td>0.33</td></tr>
+              <tr data-code="US"><td>United States</td><td>1</td><td>0.33</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+      <figcaption id="reach-caption">Citation metadata comes from the <a href="https://help.openalex.org/data/works/citations/">OpenAlex core corpus</a>. <a href="https://www.naturalearthdata.com/downloads/">Natural Earth</a> supplies the map geometry. The <a href="/assets/data/citation-geography.json">data snapshot</a> was retrieved on 30 August 2026. These counts describe affiliation geography, not author nationality or website traffic. OpenAlex coverage differs from Google Scholar and changes as records are updated.</figcaption>
+    </figure>
+  </section>
+
   <section class="home-contact" data-reveal aria-labelledby="home-contact-title">
     <p>RESEARCH COLLABORATION</p>
     <h2 id="home-contact-title">Neural operators, decision-focused learning, and control for physical systems.</h2>

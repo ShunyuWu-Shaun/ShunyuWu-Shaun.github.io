@@ -592,6 +592,16 @@ body {
   color: var(--sw-spectral);
 }
 
+.last-author-front .paper-grid-two {
+  grid-template-columns: 1fr;
+}
+
+.last-author-front .paper-card-horizontal .paper-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .paper-grid,
 .paper-grid-home,
 .paper-grid-two {

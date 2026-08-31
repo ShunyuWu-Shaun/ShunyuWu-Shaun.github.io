@@ -592,8 +592,10 @@ body {
   color: var(--sw-spectral);
 }
 
-.last-author-front .paper-grid-two {
-  grid-template-columns: 1fr;
+@media (min-width: 1081px) {
+  .last-author-front .paper-grid-two {
+    grid-template-columns: 1fr;
+  }
 }
 
 .last-author-front .paper-card-horizontal .paper-body {

@@ -24,13 +24,13 @@ quarto render
 
 ## Citation geography
 
-The homepage map is a dated OpenAlex snapshot generated before deployment. Refresh the JSON and SVG together with:
+The homepage map covers the publications listed in the public Google Scholar profile. OpenAlex authorship metadata supplies the affiliation geography. Refresh the SVG with:
 
 ```bash
-python3 scripts/build_citation_geography.py --retrieved-on YYYY-MM-DD
+python3 scripts/build_citation_geography.py
 ```
 
-The generator validates the displayed date, totals, and country table in `index.qmd`; it stops if the homepage and snapshot differ. The published page does not request citation data or visitor data at runtime.
+The published page displays only the map and its relative-frequency legend.
 
 ## Content Structure
 

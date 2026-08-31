@@ -9,7 +9,6 @@ project:
     - assets/site.js
     - assets/images/publications/**
     - assets/images/citation-geography.svg
-    - assets/data/citation-geography.json
 
 website:
   title: "Shunyu Wu"
@@ -67,7 +66,7 @@ format:
       text: |
         <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
         <link rel="stylesheet" href="/styles.css?v=20260814a">
-        <link rel="stylesheet" href="/academic.css?v=20260830a">
+        <link rel="stylesheet" href="/academic.css?v=20260830b">
     include-after-body:
       text: |
         <script defer src="/assets/site.js?v=20260814a"></script>

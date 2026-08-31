@@ -1,19 +1,16 @@
 #!/usr/bin/env python3
-"""Build the homepage citation-geography snapshot and static SVG map."""
+"""Build the static citation-geography map for the homepage."""
 
 from __future__ import annotations
 
-import argparse
 import html
 import json
 import math
-import re
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 from collections import defaultdict
-from datetime import date
 from fractions import Fraction
 from pathlib import Path
 
@@ -42,6 +39,9 @@ TARGET_DOIS = [
     "10.1109/CDC49753.2023.10383316",
     "10.1016/j.ifacol.2023.10.581",
     "10.23919/CCC52363.2021.9550267",
+    "10.1109/TASE.2023.3236306",
+    "10.1109/TSMC.2023.3327450",
+    "10.48550/arXiv.2603.23232",
 ]
 
 
@@ -100,7 +100,6 @@ def citing_works(work_id: str) -> list[dict]:
             openalex_url(
                 "/works",
                 filter=f"cites:{work_id}",
-                corpus="core",
                 per_page=100,
                 cursor=cursor,
                 select="id,doi,title,publication_year,authorships",
@@ -135,7 +134,7 @@ def country_name(code: str) -> str:
     return record.get("display_name") or code
 
 
-def collect_snapshot(retrieved_on: str) -> dict:
+def collect_snapshot() -> dict:
     targets = resolve_targets()
     unique_citing_works: dict[str, dict] = {}
     citation_edges = 0
@@ -193,30 +192,6 @@ def collect_snapshot(retrieved_on: str) -> dict:
     geocoded_count = len(external_works) - len(unmapped)
     fractional_total = round(float(sum(fractional_counts.values(), Fraction())), 6)
     return {
-        "title": "Citation geography",
-        "retrieved_on": retrieved_on,
-        "source": {
-            "citation_metadata": "OpenAlex core corpus",
-            "citation_url": "https://openalex.org/",
-            "map_geometry": f"Natural Earth {NATURAL_EARTH_VERSION}",
-            "map_url": "https://www.naturalearthdata.com/downloads/",
-        },
-        "scope": {
-            "publication_count": len(targets),
-            "publication_selection": "First- and last-author papers listed on the website",
-            "openalex_author_id": OPENALEX_AUTHOR_ID,
-        },
-        "method": {
-            "citing_work_deduplication": "Canonical OpenAlex work ID across all target papers",
-            "direct_self_citation_rule": (
-                "Exclude a citing work when its authorships include Shunyu Wu"
-            ),
-            "geography_field": "Distinct authorship country codes for each citing work",
-            "country_assignment": (
-                "A work with k country codes contributes 1/k to each country"
-            ),
-            "missing_country_rule": "Keep the record unmapped and do not infer a country",
-        },
         "totals": {
             "citation_edges": citation_edges,
             "unique_citing_works_before_self_exclusion": len(unique_citing_works),
@@ -229,11 +204,6 @@ def collect_snapshot(retrieved_on: str) -> dict:
             "fractional_count_total": fractional_total,
         },
         "countries": countries,
-        "targets": targets,
-        "excluded_direct_self_citing_work_ids": sorted(excluded_self),
-        "unmapped_external_citing_works": sorted(
-            unmapped, key=lambda item: item["openalex_id"]
-        ),
     }
 
 
@@ -356,23 +326,16 @@ def build_svg(snapshot: dict) -> str:
         longitude, latitude = label_points[code]
         x_value, y_value = screen(longitude, latitude)
         radius = 3.9 * math.sqrt(country["fractional_count"])
-        label = html.escape(
-            f'{country["name"]}: {country["fractional_count"]:.2f} fractional '
-            f'citing works from {country["full_count"]} unique works'
-        )
         citation_points.append(
-            f'<circle cx="{x_value:.1f}" cy="{y_value:.1f}" r="{radius:.1f}" '
-            f'data-code="{html.escape(code)}"><title>{label}</title></circle>'
+            f'<circle cx="{x_value:.1f}" cy="{y_value:.1f}" r="{radius:.1f}"/>'
         )
 
     graticules = "".join(f'<path d="{path}"/>' for path in graticule_paths)
     land = "".join(land_paths)
     points = "".join(citation_points)
-    country_count = snapshot["totals"]["country_or_region_codes"]
-    geocoded_count = snapshot["totals"]["geocoded_external_citing_works"]
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 460" role="img" aria-labelledby="map-title map-desc">
-  <title id="map-title">Citation geography for Shunyu Wu's selected publications</title>
-  <desc id="map-desc">An Equal Earth map with proportional circles for {country_count} affiliation countries or regions represented among {geocoded_count} country-coded external citing works.</desc>
+  <title id="map-title">Citation geography for Shunyu Wu's publications</title>
+  <desc id="map-desc">An Equal Earth map with proportional circles indicating relative citation frequency by citing-author affiliation country.</desc>
   <style>
     .graticule path {{ fill: none; stroke: #e7ecef; stroke-width: 0.7; vector-effect: non-scaling-stroke; }}
     .land path {{ fill: #eef2f4; stroke: #d7e0e4; stroke-width: 0.65; vector-effect: non-scaling-stroke; }}
@@ -386,138 +349,11 @@ def build_svg(snapshot: dict) -> str:
 '''
 
 
-def validate_homepage(snapshot: dict, homepage_source: Path) -> None:
-    if not homepage_source.exists():
-        raise RuntimeError(f"Homepage source does not exist: {homepage_source}")
-
-    source = homepage_source.read_text(encoding="utf-8")
-    section_match = re.search(
-        r'<section class="home-section reach-front"(?P<attributes>[^>]*)>'
-        r'(?P<body>.*?)</section>',
-        source,
-        flags=re.DOTALL,
-    )
-    if not section_match:
-        raise RuntimeError("Homepage citation-geography section was not found")
-
-    attributes = section_match.group("attributes")
-    body = section_match.group("body")
-    totals = snapshot["totals"]
-    expected_attributes = {
-        "retrieved-on": snapshot["retrieved_on"],
-        "publication-count": str(snapshot["scope"]["publication_count"]),
-        "external-works": str(totals["external_citing_works"]),
-        "geocoded-works": str(totals["geocoded_external_citing_works"]),
-        "unmapped-works": str(totals["unmapped_external_citing_works"]),
-        "country-count": str(totals["country_or_region_codes"]),
-    }
-    issues = []
-    for name, expected in expected_attributes.items():
-        match = re.search(rf'data-{re.escape(name)}="([^"]+)"', attributes)
-        actual = match.group(1) if match else None
-        if actual != expected:
-            issues.append(f'data-{name} is {actual!r}; expected {expected!r}')
-
-    retrieved_date = date.fromisoformat(snapshot["retrieved_on"])
-    display_date = f"{retrieved_date.day} {retrieved_date.strftime('%B %Y')}"
-    geocoded_text = (
-        f'{totals["geocoded_external_citing_works"]} of '
-        f'{totals["external_citing_works"]}'
-    )
-    country_text = f'{totals["country_or_region_codes"]} countries or regions'
-    publication_text = (
-        f'the {snapshot["scope"]["publication_count"]} first- and last-author papers'
-    )
-    ranked_text = (
-        f'{snapshot["countries"][0]["name"]} has the largest fractional count, '
-        f'followed by {snapshot["countries"][1]["name"]}.'
-    )
-    unmapped_count = totals["unmapped_external_citing_works"]
-    unmapped_text = (
-        'one record without country metadata remains unmapped'
-        if unmapped_count == 1
-        else f'{unmapped_count} records without country metadata remain unmapped'
-    )
-    if body.count(display_date) < 2:
-        issues.append(f'visible retrieval date must appear twice as {display_date!r}')
-    if body.count(geocoded_text) < 2:
-        issues.append(f'geocoded total must appear twice as {geocoded_text!r}')
-    if country_text not in body:
-        issues.append(f'country total is missing as {country_text!r}')
-    if publication_text not in body:
-        issues.append(f'publication scope is missing as {publication_text!r}')
-    if ranked_text not in body:
-        issues.append(f'ranked-country statement is missing as {ranked_text!r}')
-    if unmapped_text not in body:
-        issues.append(f'unmapped total is missing as {unmapped_text!r}')
-
-    row_matches = re.findall(
-        r'<tr data-code="([A-Z]{2})">\s*'
-        r'<td>([^<]+)</td>\s*<td>(\d+)</td>\s*<td>(\d+\.\d{2})</td>\s*'
-        r'</tr>',
-        body,
-    )
-    actual_rows = {
-        code: (html.unescape(name), int(full_count), float(fractional_count))
-        for code, name, full_count, fractional_count in row_matches
-    }
-    expected_rows = {
-        country["code"]: (
-            country["name"],
-            country["full_count"],
-            round(country["fractional_count"], 2),
-        )
-        for country in snapshot["countries"]
-    }
-    if actual_rows != expected_rows:
-        missing = sorted(set(expected_rows) - set(actual_rows))
-        extra = sorted(set(actual_rows) - set(expected_rows))
-        changed = sorted(
-            code
-            for code in set(actual_rows) & set(expected_rows)
-            if actual_rows[code] != expected_rows[code]
-        )
-        issues.append(
-            "country table differs from the snapshot "
-            f"(missing={missing}, extra={extra}, changed={changed})"
-        )
-
-    if issues:
-        details = "\n".join(f"  - {issue}" for issue in issues)
-        raise RuntimeError(
-            "Homepage citation-geography copy is stale. Update index.qmd and "
-            f"rerun the generator:\n{details}"
-        )
-
-
 def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--retrieved-on", default=date.today().isoformat())
-    parser.add_argument(
-        "--json-output",
-        type=Path,
-        default=Path("assets/data/citation-geography.json"),
-    )
-    parser.add_argument(
-        "--svg-output",
-        type=Path,
-        default=Path("assets/images/citation-geography.svg"),
-    )
-    parser.add_argument(
-        "--homepage-source",
-        type=Path,
-        default=Path("index.qmd"),
-    )
-    args = parser.parse_args()
-
-    snapshot = collect_snapshot(args.retrieved_on)
-    validate_homepage(snapshot, args.homepage_source)
-    args.json_output.parent.mkdir(parents=True, exist_ok=True)
-    args.svg_output.parent.mkdir(parents=True, exist_ok=True)
-    args.json_output.write_text(
-        json.dumps(snapshot, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
-    )
-    args.svg_output.write_text(build_svg(snapshot), encoding="utf-8")
+    svg_output = Path("assets/images/citation-geography.svg")
+    snapshot = collect_snapshot()
+    svg_output.parent.mkdir(parents=True, exist_ok=True)
+    svg_output.write_text(build_svg(snapshot), encoding="utf-8")
     print(json.dumps(snapshot["totals"], indent=2))
 
 

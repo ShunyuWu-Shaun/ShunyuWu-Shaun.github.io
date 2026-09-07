@@ -66,194 +66,247 @@ body-classes: home-page
 </script>
 
 ```{=html}
-<div class="home-shell">
-  <section class="home-hero" aria-labelledby="home-hero-title">
-    <div class="hero-lattice" aria-hidden="true">
-      <svg viewBox="0 0 860 720" focusable="false">
-        <g class="lattice-links">
-          <path d="M88 112L202 62L300 131L420 71L536 144L650 79L774 139"/>
-          <path d="M88 112L130 251L267 265L300 131L420 71L450 246L536 144L610 278L650 79L774 139L811 294"/>
-          <path d="M130 251L102 424L235 481L267 265L402 424L450 246L561 462L610 278L728 432L811 294"/>
-          <path d="M102 424L184 624L335 571L402 424L548 622L561 462L728 432L765 615"/>
-        </g>
-        <g class="lattice-nodes">
-          <circle cx="88" cy="112" r="7"/><circle cx="202" cy="62" r="7"/><circle cx="300" cy="131" r="7"/><circle cx="420" cy="71" r="7"/><circle cx="536" cy="144" r="7"/><circle cx="650" cy="79" r="7"/><circle cx="774" cy="139" r="7"/><circle cx="130" cy="251" r="7"/><circle cx="267" cy="265" r="7"/><circle cx="450" cy="246" r="7"/><circle cx="610" cy="278" r="7"/><circle cx="811" cy="294" r="7"/><circle cx="102" cy="424" r="7"/><circle cx="235" cy="481" r="7"/><circle cx="402" cy="424" r="7"/><circle cx="561" cy="462" r="7"/><circle cx="728" cy="432" r="7"/><circle cx="184" cy="624" r="7"/><circle cx="335" cy="571" r="7"/><circle cx="548" cy="622" r="7"/><circle cx="765" cy="615" r="7"/>
-        </g>
-        <path class="decision-path" d="M88 112C189 136 178 270 267 265S335 411 402 424S506 332 610 278S725 376 811 294"/>
-      </svg>
+<div class="home">
+  <header class="masthead">
+    <figure class="masthead__portrait">
+      <img src="/assets/images/shunyu-wu-avatar.jpg" width="256" height="256" alt="Portrait of Shunyu Wu">
+    </figure>
+    <div class="masthead__text">
+      <p class="eyebrow">Physical AI for science</p>
+      <h1 class="masthead__name">Shunyu Wu <span lang="zh-Hans">吴舜禹</span></h1>
+      <p class="masthead__role">Ezra Systems Postdoctoral Associate<br>Systems Engineering, Cornell University</p>
+      <ul class="masthead__links" aria-label="Profile links">
+        <li><a href="mailto:shunyuwu@sjtu.edu.cn">Email</a></li>
+        <li><a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=en">Google Scholar</a></li>
+        <li><a href="https://orcid.org/0000-0001-9856-2148">ORCID</a></li>
+        <li><a href="https://github.com/ShunyuWu-Shaun">GitHub</a></li>
+        <li><a href="https://www.researchgate.net/profile/Shunyu-Wu">ResearchGate</a></li>
+      </ul>
     </div>
+    <svg class="masthead__motif" viewBox="0 0 120 120" fill="none" aria-hidden="true" focusable="false">
+      <g stroke="#c9c1ad" stroke-width="1">
+        <path d="M12 24h96M12 48h96M12 72h96M12 96h96" opacity=".55"/>
+        <path d="M24 12v96M48 12v96M72 12v96M96 12v96" opacity=".55"/>
+      </g>
+      <path d="M14 92C34 92 34 44 58 44s24 34 48 20" stroke="#a3372a" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="14" cy="92" r="3.4" fill="#b3701a"/>
+      <circle cx="58" cy="44" r="3.4" fill="#2c6f68"/>
+      <circle cx="106" cy="64" r="3.4" fill="#41519a"/>
+    </svg>
+  </header>
 
-    <div class="hero-copy">
-      <h1 id="home-hero-title"><span>Shunyu Wu</span><span class="hero-name-cn">吴舜禹</span></h1>
-      <p class="hero-thesis">Learning physical systems for control and optimization.</p>
-      <p class="hero-statement">I develop learning methods for physical systems that support control and optimization under uncertainty and constraints. Across water–energy systems and materials processing, my research spans decision-focused forecasting, neural operators for distributed dynamics, learning-based control, and constrained physical optimization.</p>
-      <div class="hero-actions" aria-label="Primary links">
-        <a href="/research/">Research program</a>
-        <a href="#featured-work">Selected publications</a>
-        <a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en">Google Scholar</a>
-      </div>
-      <div class="research-directions" aria-label="Research directions">
-        <p>Research directions</p>
-        <ul>
-          <li class="direction-decision"><strong>Decision-focused forecasting under uncertainty</strong></li>
-          <li class="direction-operator"><strong>Neural operators for distributed dynamics</strong></li>
-          <li class="direction-control"><strong>Learning-based control</strong></li>
-          <li class="direction-optimization"><strong>Constrained optimization of physical systems</strong></li>
-        </ul>
-      </div>
-    </div>
+  <p class="lede">I am an Ezra Systems Postdoctoral Associate at Cornell University, where I work with Professor Fengqi You on AI for materials processing. I received my Ph.D. from Shanghai Jiao Tong University in 2026, advised by Professor Jingcheng Wang.</p>
 
-    <aside class="hero-profile" aria-label="Current appointment and academic profile">
-      <div class="portrait-frame">
-        <img src="/assets/images/shunyu-wu-avatar.jpg" width="128" height="128" alt="Portrait of Shunyu Wu">
-      </div>
-      <div class="profile-facts">
-        <p class="profile-role"><strong>Ezra Systems Postdoctoral Associate</strong><br>Systems Engineering · Cornell University<br>AI for materials processing with Prof. Fengqi You</p>
-        <p class="profile-degree">Ph.D., Shanghai Jiao Tong University · 2026</p>
-      </div>
-      <div class="profile-links"><a href="https://orcid.org/0000-0001-9856-2148">ORCID</a><a href="https://github.com/ShunyuWu-Shaun">GITHUB</a><a href="mailto:shunyuwu@sjtu.edu.cn">EMAIL</a></div>
-    </aside>
-  </section>
+  <p>My research develops learning methods for physical systems whose outputs feed control and optimization under uncertainty and constraints. It spans decision-focused forecasting, neural operators for distributed dynamics, learning-based control, and constrained physical optimization, with applications in coupled water–energy systems and materials processing.</p>
 
-  <section class="home-section news-front" id="latest-news" data-reveal aria-labelledby="news-front-title">
-    <header class="section-heading">
-      <p>NEWS</p>
-      <h2 id="news-front-title">Recent news and milestones.</h2>
-      <a href="/news/">All news</a>
-    </header>
-    <div class="news-grid">
-      <article class="news-lead news-position">
-        <p class="news-date">AUG 2026 <span>APPOINTMENT</span></p>
-        <h3>Joined Cornell University as an Ezra Systems Postdoctoral Associate!</h3>
-        <p>I work with Professor Fengqi You on AI for materials processing, using neural operators to model distributed process dynamics for control and constrained optimization.</p>
-      </article>
-      <article class="news-compact news-service">
-        <p class="news-date">AUG 2026 <span>SERVICE</span></p>
-        <h3>Invited to serve as a reviewer for ICLR 2027!</h3>
-        <p>I reviewed for ICLR in the 2025 and 2026 review cycles.</p>
-      </article>
-      <article class="news-compact news-paper">
-        <p class="news-date">JUL 2026 <span>PAPER</span></p>
-        <h3><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT published in Expert Systems with Applications</a></h3>
-        <p>Local LiDAR geometry guides recurrent diffusion toward target-consistent trajectories.</p>
-      </article>
-      <article class="news-compact news-graduation">
-        <p class="news-date">JUN 2026 <span>GRADUATION</span></p>
-        <h3>Received my Ph.D. from Shanghai Jiao Tong University!</h3>
-        <p>I am grateful to my advisor, Professor Jingcheng Wang, for his guidance. I also thank all my labmates for their collaboration and friendship throughout my doctoral years.</p>
-      </article>
-      <article class="news-compact news-decision">
-        <p class="news-date">2025 <span>FIRST-AUTHOR PAPER</span></p>
-        <h3><a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO in IEEE Transactions on Smart Grid</a></h3>
-        <p>Probabilistic forecasts are trained against the scheduling costs and regret they induce.</p>
-      </article>
-    </div>
-  </section>
+  <figure class="programme">
+    <svg viewBox="0 0 800 224" role="img" aria-labelledby="programme-title programme-desc">
+      <title id="programme-title">From physical state to decision</title>
+      <desc id="programme-desc">A physical state is learned as an operator, the operator produces a decision, and the decision is used to evaluate the learned model.</desc>
+      <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 1L9 5L0 9z" fill="#6f6b61"/>
+        </marker>
+        <marker id="arrow-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 1L9 5L0 9z" fill="#a3372a"/>
+        </marker>
+      </defs>
 
-  <section class="home-section research-front" data-reveal aria-labelledby="research-front-title">
-    <header class="section-heading section-heading-wide">
-      <p>RESEARCH</p>
-      <h2 id="research-front-title">Learning physical systems for control and optimization.</h2>
-      <p>My research asks which physical variables a learned model must represent, how those states evolve under external forcing and incomplete observation, and whether approximation error changes the resulting schedule, control action, or design. Across coupled water-energy systems and AI for materials processing, this question connects decision-focused forecasting with neural operators, learning-based control, and constrained optimization.</p>
-    </header>
-    <div class="research-program-grid">
-      <article class="research-thread theme-decision">
+      <text class="diagram-label" x="8" y="16" fill="#b3701a">Physical state</text>
+      <text class="diagram-label" x="290" y="16" fill="#2c6f68">Learned operator</text>
+      <text class="diagram-label" x="572" y="16" fill="#a3372a">Decision</text>
+
+      <rect class="diagram-frame" x="8" y="26" width="220" height="110" rx="2"/>
+      <rect class="diagram-frame" x="290" y="26" width="220" height="110" rx="2"/>
+      <rect class="diagram-frame" x="572" y="26" width="220" height="110" rx="2"/>
+
+      <!-- Physical state: a field on a grid -->
+      <g class="diagram-faint" opacity=".7">
+        <path d="M30 44v74M74 44v74M118 44v74M162 44v74M206 44v74"/>
+        <path d="M30 62h176M30 88h176M30 114h116"/>
+      </g>
+      <path d="M30 108C56 108 60 60 88 60s30 42 60 30 40-30 58-24" stroke="#b3701a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+      <circle cx="30" cy="108" r="3.6" fill="#b3701a"/>
+      <circle cx="118" cy="79" r="3.6" fill="#b3701a"/>
+      <circle cx="206" cy="66" r="3.6" fill="#b3701a"/>
+
+      <!-- Learned operator: a small layered map -->
+      <g stroke="#2c6f68" stroke-width="1" opacity=".5">
+        <path d="M330 60L400 52M330 60L400 81M330 81L400 52M330 81L400 81M330 81L400 110M330 102L400 81M330 102L400 110"/>
+        <path d="M400 52L470 66M400 81L470 66M400 81L470 96M400 110L470 96"/>
+      </g>
+      <g fill="#2c6f68">
+        <circle cx="330" cy="60" r="4.6"/><circle cx="330" cy="81" r="4.6"/><circle cx="330" cy="102" r="4.6"/>
+        <circle cx="400" cy="52" r="4.6"/><circle cx="400" cy="81" r="4.6"/><circle cx="400" cy="110" r="4.6"/>
+        <circle cx="470" cy="66" r="4.6"/><circle cx="470" cy="96" r="4.6"/>
+      </g>
+
+      <!-- Decision: a schedule under a constraint -->
+      <g fill="#a3372a" opacity=".75">
+        <rect x="596" y="86" width="22" height="32"/>
+        <rect x="626" y="66" width="22" height="52"/>
+        <rect x="656" y="98" width="22" height="20"/>
+        <rect x="686" y="58" width="22" height="60"/>
+        <rect x="716" y="80" width="22" height="38"/>
+        <rect x="746" y="94" width="22" height="24"/>
+      </g>
+      <path d="M590 52h184" stroke="#41519a" stroke-width="1.6" stroke-dasharray="5 4"/>
+      <text class="diagram-sub" x="590" y="46" fill="#41519a">constraint</text>
+      <path d="M590 118h184" stroke="#c9c1ad" stroke-width="1"/>
+
+      <path d="M240 81h38" stroke="#6f6b61" stroke-width="1.4" marker-end="url(#arrow)"/>
+      <path d="M522 81h38" stroke="#6f6b61" stroke-width="1.4" marker-end="url(#arrow)"/>
+      <text class="diagram-sub" x="242" y="72" fill="#6f6b61">learn</text>
+      <text class="diagram-sub" x="524" y="72" fill="#6f6b61">optimize</text>
+
+      <path d="M682 148v26a10 10 0 01-10 10H128a10 10 0 01-10-10v-26" stroke="#a3372a" stroke-width="1.4" stroke-dasharray="6 4" fill="none" marker-end="url(#arrow-back)"/>
+      <text class="diagram-label" x="400" y="212" fill="#a3372a" text-anchor="middle">Decision-level evaluation</text>
+    </svg>
+    <figcaption>The question I keep asking: does the approximation error of the learned model change the schedule, the control action, or the design that follows from it? Optimality gap, closed-loop cost, and constraint violation are the metrics that answer it.</figcaption>
+  </figure>
+
+  <section class="home-section home-section--teal" id="research" aria-labelledby="research-title">
+    <h2 class="section__title" id="research-title"><span class="section__index">I</span> Research</h2>
+    <ul class="directions">
+      <li class="direction direction--forecasting">
+        <svg class="direction__glyph" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+          <path d="M5 33C13 33 13 12 22 12s9 21 17 21" />
+          <path d="M4 37h36" opacity=".4"/>
+          <path d="M27 8v29" stroke-dasharray="3 3"/>
+          <circle cx="27" cy="20" r="2.6" fill="currentColor" stroke="none"/>
+        </svg>
         <h3>Decision-focused forecasting under uncertainty</h3>
-        <p>Probabilistic forecasts are trained and evaluated through the schedules, costs, and constraints they induce. Work on water-demand timing and uncertain pressure regression further identifies when prediction errors occur and which unobserved effects they represent.</p>
-      </article>
-      <article class="research-thread theme-operator">
+        <p>Probabilistic forecasts trained and judged through the schedules, costs, and constraints they induce.</p>
+      </li>
+      <li class="direction direction--operators">
+        <svg class="direction__glyph" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+          <g opacity=".4">
+            <path d="M7 12h30M7 22h30M7 32h30"/>
+            <path d="M12 7v30M22 7v30M32 7v30"/>
+          </g>
+          <path d="M7 30c6-15 11 7 15-6s7 3 15-4" stroke-width="2.1"/>
+          <circle cx="7" cy="30" r="2.2" fill="currentColor" stroke="none"/>
+          <circle cx="37" cy="20" r="2.2" fill="currentColor" stroke="none"/>
+        </svg>
         <h3>Neural operators for distributed dynamics</h3>
-        <p>I study maps from initial conditions, geometry, boundary conditions, and forcing fields to spatiotemporal solutions. Field error, rollout error, and sensitivity error measure how accurately the learned operator represents the dynamics used in control and optimization.</p>
-      </article>
-      <article class="research-thread theme-physical">
+        <p>Maps from initial conditions, geometry, and forcing to spatiotemporal fields, judged by field, rollout, and sensitivity error.</p>
+      </li>
+      <li class="direction direction--control">
+        <svg class="direction__glyph" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+          <path d="M34 12a15 15 0 10 3 9" />
+          <path d="M31 6.5L37.5 12L31 17" />
+          <rect x="16" y="16" width="12" height="12" rx="2"/>
+        </svg>
         <h3>Learning-based control</h3>
-        <p>I examine how approximation error accumulates over a control horizon and changes the selected action, closed-loop cost, and constraint violation. These quantities provide control-specific criteria for training and evaluating learned physical dynamics.</p>
-      </article>
-      <article class="research-thread theme-materials">
+        <p>How approximation error accumulates over a horizon and changes the action, the closed-loop cost, and constraint violation.</p>
+      </li>
+      <li class="direction direction--materials">
+        <svg class="direction__glyph" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+          <rect x="6" y="13" width="32" height="18" rx="2"/>
+          <path d="M11 31c0-9 5-13 11-13s11 4 11 13" opacity=".45"/>
+          <path d="M16 31c0-5 2.6-8 6-8s6 3 6 8" opacity=".8"/>
+          <circle cx="22" cy="31" r="1.8" fill="currentColor" stroke="none"/>
+        </svg>
         <h3>AI for materials processing</h3>
-        <p>In collaboration with Professor Fengqi You, I develop neural operators that map process conditions and boundary inputs to evolving material state fields. Their rollouts and sensitivities support process control and constrained optimization, where feasibility and objective value test whether model error changes the selected decision.</p>
-      </article>
-    </div>
-    <p class="section-link"><a href="/research/">Methods and research questions</a></p>
+        <p>Operators from process conditions and boundary inputs to material state fields, used for process control and constrained optimization.</p>
+      </li>
+    </ul>
+    <p class="section__more"><a href="/research/">The research programme in full</a></p>
   </section>
 
-  <section class="home-section paper-front" id="featured-work" data-reveal aria-labelledby="featured-work-title">
-    <header class="section-heading section-heading-wide">
-      <p>SELECTED FIRST-AUTHOR WORK</p>
-      <h2 id="featured-work-title">Methods built around the decision that follows.</h2>
-      <p>These papers examine how prediction timing, uncertainty, and physical constraints affect operating and control decisions in water–energy systems.</p>
-    </header>
-    <div class="paper-grid paper-grid-home">
-      <article class="paper-card paper-flagship">
-        <a class="paper-visual" href="https://doi.org/10.1109/TSG.2025.3601238"><img src="/assets/images/publications/spto.svg" width="800" height="500" alt="SPTO visual abstract linking a forecast distribution, differentiable optimality-gap surrogate, and stochastic schedule"></a>
-        <div class="paper-body"><p class="paper-meta"><span class="author-role">FIRST AUTHOR</span><span>IEEE TSG · 2025</span></p><h3><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></h3><p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p><p class="paper-claim">SPTO trains a probabilistic forecast with a differentiable upper bound on downstream optimality gap, placing scheduling cost inside the learning objective.</p></div>
-      </article>
-      <article class="paper-card">
-        <a class="paper-visual" href="https://doi.org/10.1016/j.eswa.2024.124508"><img loading="lazy" src="/assets/images/publications/kbbcm.svg" width="800" height="500" alt="Bi-correction model visual abstract showing lag-penalty attention and posterior error correction"></a>
-        <div class="paper-body"><p class="paper-meta"><span class="author-role">FIRST AUTHOR</span><span>ESWA · 2024</span></p><h3><a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for lag-free urban water-demand forecasting</a></h3><p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p><p class="paper-claim">Lag-penalty attention and posterior residual correction target delayed reactions near demand turning points.</p></div>
-      </article>
-      <article class="paper-card">
-        <a class="paper-visual" href="https://doi.org/10.1109/TCSS.2023.3272330"><img loading="lazy" src="/assets/images/publications/criticoder.svg" width="800" height="500" alt="CritiCoder visual abstract separating measured effects from unobserved disturbances"></a>
-        <div class="paper-body"><p class="paper-meta"><span class="author-role">FIRST AUTHOR</span><span>IEEE TCSS · 2024</span></p><h3><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: Uncertain regression for robust pressure models</a></h3><p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p><p class="paper-claim">The Coder learns measured effects, while the Critic represents residual pressure variation associated with unobserved disturbances.</p></div>
-      </article>
-      <article class="paper-card">
-        <a class="paper-visual" href="https://doi.org/10.23919/CCC52363.2021.9550182"><img loading="lazy" src="/assets/images/publications/fine-grained.svg" width="800" height="500" alt="Fine-grained forecasting visual abstract converting a daily demand curve into minute-level patterns"></a>
-        <div class="paper-body"><p class="paper-meta"><span class="author-role">FIRST AUTHOR</span><span>CCC · 2021</span></p><h3><a href="https://doi.org/10.23919/CCC52363.2021.9550182">A Fine Grained Forecasting Method for Minute-Level Urban Water Demand</a></h3><p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Pingwei Zhao, Miaoshun Bai, Jingcheng Wang, and Yang Lan</p><p class="paper-claim">A coarse daily forecast is decomposed into reusable fine-grained patterns to recover minute-level demand variation.</p></div>
-      </article>
-    </div>
+  <section class="home-section home-section--crimson" id="thinking" aria-labelledby="thinking-title">
+    <h2 class="section__title" id="thinking-title"><span class="section__index">II</span> Thinking</h2>
+    <p>Notes I write when a question will not settle. They are positions in progress, not results.</p>
+    <a class="note-preview" href="/thinking/#emergence-and-physical-intelligence">
+      <p class="note-preview__meta">Latest note · 7 September 2026 · Ithaca, New York</p>
+      <p class="note-preview__title">Physical intelligence should not emerge the way language models do</p>
+      <p class="note-preview__claim">Even if a mechanism for effective generalization exists, it will not be emergence produced by piling up parameters, because the laws of physics have always been simple.</p>
+    </a>
+    <p class="section__more"><a href="/thinking/">All notes</a></p>
   </section>
 
-  <section class="home-section last-author-front" data-reveal aria-labelledby="last-author-title">
-    <header class="section-heading section-heading-wide">
-      <p>SELECTED LAST-AUTHOR WORK</p>
-      <h2 id="last-author-title">Related collaborative work.</h2>
-      <p>These projects examine whether learned actions respect physical and decision constraints in trajectory generation and nonlinear control.</p>
-    </header>
-    <div class="paper-grid paper-grid-two">
-      <article class="paper-card paper-card-horizontal">
-        <a class="paper-visual" href="https://doi.org/10.1016/j.eswa.2026.133261"><img loading="lazy" src="/assets/images/publications/drift.svg" width="800" height="500" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed diffusion"></a>
-        <div class="paper-body"><p class="paper-meta"><span class="author-role author-role-last">LAST AUTHOR</span><span>ESWA · 2026</span></p><h3><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry</a></h3><p class="paper-authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong class="author-self">Shunyu Wu</strong></p></div>
-      </article>
-      <article class="paper-card paper-card-horizontal">
-        <a class="paper-visual" href="https://doi.org/10.1109/TSMC.2023.3344883"><img loading="lazy" src="/assets/images/publications/rl-controller.svg" width="800" height="500" alt="Constrained reinforcement learning controller visual abstract"></a>
-        <div class="paper-body"><p class="paper-meta"><span class="author-role author-role-last">LAST AUTHOR</span><span>IEEE TSMC · 2024</span></p><h3><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Constrained Nonlinear Systems</a></h3><p class="paper-authors">Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and <strong class="author-self">Shunyu Wu</strong></p></div>
-      </article>
-    </div>
-    <p class="section-link"><a href="/publications/">View all first- and last-author papers</a></p>
+  <section class="home-section home-section--indigo" id="news" aria-labelledby="news-title">
+    <h2 class="section__title" id="news-title"><span class="section__index">III</span> News</h2>
+    <ol class="news-list">
+      <li class="is-new"><time datetime="2026-08">Aug 2026</time><div>Joined Cornell University as an Ezra Systems Postdoctoral Associate, working with Professor Fengqi You on AI for materials processing.</div></li>
+      <li class="is-service"><time datetime="2026-08">Aug 2026</time><div>Invited to serve as a reviewer for ICLR 2027, after reviewing in the 2025 and 2026 cycles.</div></li>
+      <li class="is-paper"><time datetime="2026-07">Jul 2026</time><div><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT</a> was published in <em>Expert Systems with Applications</em>.</div></li>
+      <li class="is-milestone"><time datetime="2026-06">Jun 2026</time><div>Received my Ph.D. from Shanghai Jiao Tong University, advised by Professor Jingcheng Wang.</div></li>
+      <li class="is-paper"><time datetime="2025">2025</time><div><a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO</a> was published in <em>IEEE Transactions on Smart Grid</em>.</div></li>
+    </ol>
+    <p class="section__more"><a href="/news/">All news</a></p>
   </section>
 
-  <section class="home-section service-front" data-reveal aria-labelledby="service-front-title">
-    <div>
-      <p class="service-kicker">ACADEMIC SERVICE</p>
-      <h2 id="service-front-title">Peer review across machine learning, control, automation, and energy systems.</h2>
-    </div>
-    <div class="service-copy">
-      <p>I reviewed for the ICLR 2025 and 2026 cycles and have been invited to review for ICLR 2027. My other conference service includes ICML, NeurIPS, AAAI, and CDC. I also review for four IEEE Transactions journals and <em>Scientific Reports</em>.</p>
-      <a href="/service/">Academic service</a>
-    </div>
+  <section class="home-section home-section--amber" id="publications" aria-labelledby="publications-title">
+    <h2 class="section__title" id="publications-title"><span class="section__index">IV</span> Selected publications</h2>
+    <ol class="pub-list">
+      <li class="pub">
+        <a class="pub__thumb" href="https://doi.org/10.1109/TSG.2025.3601238"><img src="/assets/images/publications/spto.svg" width="800" height="500" alt="SPTO visual abstract linking a forecast distribution, a differentiable optimality-gap surrogate, and a stochastic schedule"></a>
+        <div class="pub__body">
+          <p class="pub__title"><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></p>
+          <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p>
+          <p class="pub__venue"><em>IEEE Transactions on Smart Grid</em>, 2025 <span class="pub__role">First author</span></p>
+          <p class="pub__note">A probabilistic forecast is trained with a differentiable upper bound on the downstream optimality gap, so scheduling cost enters the learning objective.</p>
+        </div>
+      </li>
+      <li class="pub">
+        <a class="pub__thumb" href="https://doi.org/10.1016/j.eswa.2024.124508"><img loading="lazy" src="/assets/images/publications/kbbcm.svg" width="800" height="500" alt="Bi-correction model visual abstract showing lag-penalty attention and posterior error correction"></a>
+        <div class="pub__body">
+          <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting</a></p>
+          <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
+          <p class="pub__venue"><em>Expert Systems with Applications</em>, 2024 <span class="pub__role">First author</span></p>
+          <p class="pub__note">Lag-penalty attention and posterior residual correction target delayed reactions near demand turning points.</p>
+        </div>
+      </li>
+      <li class="pub">
+        <a class="pub__thumb" href="https://doi.org/10.1109/TCSS.2023.3272330"><img loading="lazy" src="/assets/images/publications/criticoder.svg" width="800" height="500" alt="CritiCoder visual abstract separating measured effects from unobserved disturbances"></a>
+        <div class="pub__body">
+          <p class="pub__title"><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems</a></p>
+          <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
+          <p class="pub__venue"><em>IEEE Transactions on Computational Social Systems</em>, 2024 <span class="pub__role">First author</span></p>
+          <p class="pub__note">The Coder learns the pressure response to measured variables, while the Critic represents residual variation associated with unobserved disturbances.</p>
+        </div>
+      </li>
+      <li class="pub">
+        <a class="pub__thumb" href="https://doi.org/10.1016/j.eswa.2026.133261"><img loading="lazy" src="/assets/images/publications/drift.svg" width="800" height="500" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed diffusion"></a>
+        <div class="pub__body">
+          <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></p>
+          <p class="pub__authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong>Shunyu Wu</strong></p>
+          <p class="pub__venue"><em>Expert Systems with Applications</em>, 2026 <span class="pub__role pub__role--last">Last author</span></p>
+          <p class="pub__note">A graph memory stores local LiDAR geometry and retrieves waypoint-specific context during recurrent diffusion denoising.</p>
+        </div>
+      </li>
+      <li class="pub">
+        <a class="pub__thumb" href="https://doi.org/10.1109/TSMC.2023.3344883"><img loading="lazy" src="/assets/images/publications/rl-controller.svg" width="800" height="500" alt="Constrained reinforcement learning controller visual abstract"></a>
+        <div class="pub__body">
+          <p class="pub__title"><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method</a></p>
+          <p class="pub__authors">Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and <strong>Shunyu Wu</strong></p>
+          <p class="pub__venue"><em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>, 2024 <span class="pub__role pub__role--last">Last author</span></p>
+          <p class="pub__note">Nonlinear model predictive control initializes the controller network, while a control barrier function and nonquadratic loss enforce state and input constraints.</p>
+        </div>
+      </li>
+    </ol>
+    <p class="section__more"><a href="/publications/">All first- and last-author publications</a></p>
   </section>
 
-  <section class="home-section reach-front" data-reveal aria-labelledby="reach-front-title">
-    <header class="section-heading">
-      <p>CITATION GEOGRAPHY</p>
-      <h2 id="reach-front-title">Where this work is cited.</h2>
-    </header>
-    <figure class="reach-figure">
-      <div class="reach-map-panel">
-        <img loading="lazy" decoding="async" src="/assets/images/citation-geography.svg" width="980" height="460" alt="World map showing the relative geographic distribution of citations to publications in Shunyu Wu's Google Scholar profile.">
-      </div>
-      <figcaption class="reach-legend" aria-label="Map legend">
-        <span class="reach-legend-label">Relative citation frequency</span>
-        <span class="reach-legend-scale"><span>Lower</span><i class="reach-dot reach-dot-small" aria-hidden="true"></i><i class="reach-dot reach-dot-medium" aria-hidden="true"></i><i class="reach-dot reach-dot-large" aria-hidden="true"></i><span>Higher</span></span>
-        <span class="reach-legend-source"><a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=en">Google Scholar profile</a> · affiliation geography from <a href="https://openalex.org/">OpenAlex</a></span>
-      </figcaption>
+  <section class="home-section home-section--teal" id="service" aria-labelledby="service-title">
+    <h2 class="section__title" id="service-title"><span class="section__index">V</span> Academic service</h2>
+    <p>I review for ICLR (2025 and 2026 cycles, and invited for 2027), ICML, NeurIPS, AAAI, and CDC, and for <em>IEEE Transactions on Automatic Control</em>, <em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>, <em>IEEE Transactions on Automation Science and Engineering</em>, <em>IEEE Transactions on Smart Grid</em>, and <em>Scientific Reports</em>.</p>
+    <p class="section__more"><a href="/service/">Reviewing, teaching, and mentoring</a></p>
+  </section>
+
+  <section class="home-section home-section--indigo" id="reach" aria-labelledby="reach-title">
+    <h2 class="section__title" id="reach-title"><span class="section__index">VI</span> Citation geography</h2>
+    <figure class="reach">
+      <img loading="lazy" decoding="async" src="/assets/images/citation-geography.svg" width="980" height="460" alt="World map showing the relative geographic distribution of citations to publications in Shunyu Wu's Google Scholar profile.">
+      <figcaption>Where the publications in my <a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=en">Google Scholar profile</a> are cited. Larger marks indicate higher relative citation frequency; affiliation geography from <a href="https://openalex.org/">OpenAlex</a>.</figcaption>
     </figure>
   </section>
 
-  <section class="home-contact" data-reveal aria-labelledby="home-contact-title">
-    <p>RESEARCH COLLABORATION</p>
-    <h2 id="home-contact-title">Neural operators, decision-focused learning, and control for physical systems.</h2>
-    <div><a href="mailto:shunyuwu@sjtu.edu.cn">shunyuwu@sjtu.edu.cn</a></div>
+  <section class="home-section home-section--crimson contact-block" id="contact" aria-labelledby="contact-title">
+    <h2 class="section__title" id="contact-title"><span class="section__index">VII</span> Contact</h2>
+    <p>Systems Engineering, Cornell University, Ithaca, New York</p>
+    <p><a href="mailto:shunyuwu@sjtu.edu.cn">shunyuwu@sjtu.edu.cn</a></p>
   </section>
 </div>
 ```

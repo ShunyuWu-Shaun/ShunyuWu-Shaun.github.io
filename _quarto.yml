@@ -4,11 +4,10 @@ project:
   resources:
     - c7d4984f38601437316bea01e3143bfe.txt
     - google60c018834eaa5cb7.html
-    - styles.css
-    - academic.css
-    - assets/site.js
     - assets/images/publications/**
     - assets/images/citation-geography.svg
+    - "!_site/**"
+    - "!README.md"
 
 website:
   title: "Shunyu Wu"
@@ -29,12 +28,14 @@ website:
         text: Home
       - href: news/index.qmd
         text: News
+      - href: thinking/index.qmd
+        text: Thinking
       - href: research/index.qmd
         text: Research
       - href: publications/index.qmd
         text: Publications
       - href: projects/index.qmd
-        text: Research Projects
+        text: Projects
       - href: service/index.qmd
         text: Service
       - href: contact/index.qmd
@@ -49,26 +50,25 @@ website:
   page-footer:
     border: true
     left: "© 2026 Shunyu Wu"
-    right: "Learning physical systems for control and optimization · Updated 30 August 2026"
+    right: "Learning physical systems for control and optimization · Updated 7 September 2026"
 
 format:
   html:
     theme: cosmo
+    css: assets/css/site.css
     canonical-url: true
     toc: true
     toc-depth: 3
     smooth-scroll: true
     link-external-newwindow: true
-    link-external-icon: true
+    link-external-icon: false
     code-copy: true
     code-overflow: wrap
     include-in-header:
       text: |
         <meta name="google-site-verification" content="fFWZDxpcP9Rgfh1-YxNaLD_i46dd1dsZXCi7jEbh9YI">
-        <link rel="stylesheet" href="/styles.css?v=20260814a">
-        <link rel="stylesheet" href="/academic.css?v=20260831b">
-    include-after-body:
-      text: |
-        <script defer src="/assets/site.js?v=20260814a"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap">
 
 lang: en

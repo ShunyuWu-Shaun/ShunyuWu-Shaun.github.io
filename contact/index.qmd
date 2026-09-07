@@ -4,23 +4,23 @@ description: "Contact details and academic profiles for Shunyu Wu at Cornell Uni
 toc: false
 ---
 
-## Research conversations
+## Write to me
 
-I welcome conversations on AI for materials processing, neural operators for distributed dynamics, downstream control, constrained optimization, and decision-focused learning.
+[shunyu.wu@cornell.edu](mailto:shunyu.wu@cornell.edu)
 
-[shunyuwu@sjtu.edu.cn](mailto:shunyuwu@sjtu.edu.cn)
+I am glad to hear from people working on neural operators for process dynamics, on decision-focused learning, or on control and optimization that has to respect a physical limit.
 
 ## Current appointment
 
 **Ezra Systems Postdoctoral Associate**<br>
 Systems Engineering Program<br>
-Cornell University
+Cornell University, Ithaca, New York
 
-I work with **Professor Fengqi You** on AI for materials processing. My research uses neural operators to model distributed process dynamics for control and constrained optimization.
+I work with **Professor Fengqi You** on AI for materials processing, where neural operators model distributed process dynamics for control and constrained optimization.
 
 ## Education
 
-Ph.D., Shanghai Jiao Tong University
+Ph.D., Shanghai Jiao Tong University, 2026, advised by Professor Jingcheng Wang.
 
 ## Academic profiles
 

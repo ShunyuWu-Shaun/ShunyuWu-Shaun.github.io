@@ -17,39 +17,44 @@ GitHub Actions workflow deploys. Nothing in `_site/` is committed.
 
 | Path | Page |
 |---|---|
-| `index.qmd` | Home: masthead, research programme diagram, latest note, news, selected papers |
+| `index.qmd` | Home: profile column, research figure, news, selected papers, latest note |
 | `news/index.qmd` | News timeline |
-| `thinking/index.qmd` | Working notes, newest first |
-| `research/index.qmd` | Research programme |
+| `research/index.qmd` | Research program |
 | `publications/index.qmd` | First- and last-author publications |
 | `projects/` | Research projects and source-linked summaries |
+| `thinking/index.qmd` | Short working notes, newest first |
 | `service/index.qmd`, `contact/index.qmd` | Service, contact |
 
 ## Adding a note to Thinking
 
 Copy an `<article class="note">` block to the **top** of the `.notes`
-container in `thinking/index.qmd` and edit it. Two rules:
+container in `thinking/index.qmd` and edit it. Three rules:
 
+- Two or three sentences. A note states a position, not a defense of it.
 - Give the article a stable `id`; the home page links to the newest one.
 - Date it in the time zone you were in, both machine-readable and in words:
 
 ```html
-<time datetime="2026-09-07T11:40:00-04:00">7 September 2026, 11:40 EDT (UTC−04:00)</time>
+<time datetime="2026-09-07T11:40:00-04:00">7 September 2026, EDT (UTC−04:00)</time>
 ```
 
-Accent options are `note--forecasting` (amber), `note--operators` (teal) and
-`note--control` (indigo); omit the modifier for crimson. After adding a note,
-update the `.note-preview` block in the Thinking section of `index.qmd` so the
-home page shows the newest one.
+Then update the note shown in the Thinking section of `index.qmd`, which is
+the last section on the home page, so it carries the newest one.
 
 ## Design
 
 One stylesheet, `assets/css/site.css`, organised in numbered sections and
-driven by custom properties at the top. The four accent colours are semantic:
-amber for decision-focused forecasting, teal for neural operators, indigo for
-learning-based control, crimson for materials processing. They recur in the
-home-page diagram, the research cards, the news timeline and the navbar spine.
-Type is EB Garamond throughout, loaded from Google Fonts.
+driven by custom properties at the top. A sticky profile column on the left
+holds the portrait, appointment and links; the right column holds the prose.
+Body text is IBM Plex Sans and headings are IBM Plex Serif, both loaded from
+Google Fonts. Four accent colours mark the four research directions and are
+reused in the home-page figure: blue for decision-focused forecasting, teal
+for neural operators, indigo for learning-based control, and rust for
+materials processing.
+
+The home-page figure is hand-written SVG inside `index.qmd`. Its three panels
+are drawn to scale from real quantities, so edits should keep the axes, the
+capacity limit and the return path consistent with the key below the figure.
 
 ## Citation geography
 

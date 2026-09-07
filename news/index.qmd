@@ -8,36 +8,36 @@ body-classes: news-page
 ```{=html}
 <div class="news-timeline">
   <article class="news-item">
-    <time datetime="2026-08">AUG 2026</time>
-    <div><h2>Invited to serve as a reviewer for ICLR 2027!</h2><p>I reviewed for the International Conference on Learning Representations (ICLR) in the 2025 and 2026 review cycles.</p></div>
+    <time datetime="2026-08">Aug 2026</time>
+    <div><h2>Invited to review for ICLR 2027!</h2><p>I reviewed for the International Conference on Learning Representations in the 2025 and 2026 cycles.</p></div>
   </article>
   <article class="news-item">
-    <time datetime="2026-08">AUG 2026</time>
-    <div><h2>Ezra Systems Postdoctoral Associate at Cornell University!</h2><p>I joined Cornell University as an <strong>Ezra Systems Postdoctoral Associate</strong> in Systems Engineering. I work with <strong>Professor Fengqi You</strong> on AI for materials processing, using neural operators to model distributed process dynamics for control and constrained optimization.</p></div>
+    <time datetime="2026-08">Aug 2026</time>
+    <div><h2>Joined Cornell University as an Ezra Systems Postdoctoral Associate!</h2><p>I am in the Systems Engineering Program, working with <strong>Professor Fengqi You</strong> on AI for materials processing. Neural operators model the distributed process dynamics, and their rollouts feed control and constrained optimization.</p></div>
   </article>
   <article class="news-item">
-    <time datetime="2026-07">JUL 2026</time>
-    <div><h2><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT published in Expert Systems with Applications</a></h2><p>DRIFT coordinates target intent with local LiDAR geometry during recurrent diffusion-based trajectory generation.</p></div>
+    <time datetime="2026-07">Jul 2026</time>
+    <div><h2><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT appeared in Expert Systems with Applications</a></h2><p>DRIFT keeps target intent and local LiDAR geometry together during recurrent diffusion-based trajectory generation.</p></div>
   </article>
   <article class="news-item">
-    <time datetime="2026-06">JUN 2026</time>
-    <div><h2>Ph.D. graduation from Shanghai Jiao Tong University!</h2><p>I received my Ph.D. from Shanghai Jiao Tong University. I am grateful to my advisor, <strong>Professor Jingcheng Wang</strong>, for his guidance. I also thank all my labmates for their collaboration and friendship throughout my doctoral years.</p></div>
+    <time datetime="2026-06">Jun 2026</time>
+    <div><h2>Received my Ph.D. from Shanghai Jiao Tong University!</h2><p>I thank my advisor, <strong>Professor Jingcheng Wang</strong>, for six years of guidance, and my labmates for the arguments and the company.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2026">2026</time>
-    <div><h2>Machine learning conference reviewing</h2><p>I reviewed for ICML, the NeurIPS Position Paper Track, and the AAAI Main Technical and AI for Social Impact tracks.</p></div>
+    <div><h2>Reviewing for the machine learning conferences</h2><p>I reviewed for ICML, the NeurIPS Position Paper Track, and the AAAI Main Technical and AI for Social Impact tracks.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2025">2025</time>
-    <div><h2><a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO published in IEEE Transactions on Smart Grid</a></h2><p>SPTO couples probabilistic electricity-cost forecasting with stochastic water-supply scheduling and trains the forecast against downstream decision quality.</p></div>
+    <div><h2><a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO appeared in IEEE Transactions on Smart Grid</a></h2><p>SPTO trains a probabilistic electricity-cost forecast against the quality of the water-supply schedule it induces.</p></div>
   </article>
   <article class="news-item">
-    <time datetime="2024-12">DEC 2024</time>
-    <div><h2><a href="https://doi.org/10.1016/j.eswa.2024.124508">Bi-correction model published</a></h2><p>The model combines lag-penalty attention with posterior error correction for daily urban water-demand forecasting.</p></div>
+    <time datetime="2024-12">Dec 2024</time>
+    <div><h2><a href="https://doi.org/10.1016/j.eswa.2024.124508">The Bi-correction model appeared in Expert Systems with Applications</a></h2><p>Lag-penalty attention and posterior error correction address the delayed response in daily urban water-demand forecasting.</p></div>
   </article>
   <article class="news-item">
-    <time datetime="2024-04">APR 2024</time>
-    <div><h2><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder published in IEEE TCSS</a></h2><p>CritiCoder separates modeled responses to observed inputs from residual pressure variation associated with unobserved disturbances.</p></div>
+    <time datetime="2024-04">Apr 2024</time>
+    <div><h2><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder appeared in IEEE TCSS</a></h2><p>CritiCoder separates the modeled response to observed inputs from the residual pressure variation left by disturbances no sensor reports.</p></div>
   </article>
 </div>
 ```

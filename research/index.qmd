@@ -6,33 +6,33 @@ toc: true
 
 ## Learning physical systems for control and optimization
 
-My research in Physical AI for Science examines how learned models represent state evolution under physical constraints and incomplete information. The state may be a temporal quantity such as demand or pressure, or a distributed field defined by initial conditions, geometry, boundary conditions, and external forcing. I evaluate a learned representation through the operating schedule, control action, or physical design computed from it.
+A learned model of a physical system is usually fitted to answer a numerical question and then used to answer an operational one. The state may be a temporal quantity such as urban water demand or network pressure, or a distributed field fixed by initial conditions, geometry, boundary conditions, and external forcing. In both cases I judge the learned representation by the schedule, the control action, or the design computed from it.
 
-Across coupled water-energy systems and materials processing, the same criterion applies: whether a learned representation preserves the physical response that determines the downstream operating decision. Decision-focused forecasting links temporal uncertainty to operating cost, while neural operators map process conditions to spatiotemporal state fields. Control and constrained optimization then test whether those fields retain the rollouts and sensitivities needed for a process decision.
+The same test carries across coupled water-energy operation and materials processing. Decision-focused forecasting connects temporal uncertainty to operating cost, while a neural operator maps process conditions to a spatiotemporal field. Control and constrained optimization then check whether that field still carries the rollouts and sensitivities a process decision needs.
 
 ## Decision-focused forecasting under uncertainty
 
-Forecast errors matter differently when predictions determine an operating schedule. In coupled water–energy systems, [Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) trains probabilistic electricity-cost forecasts through the stochastic water-supply schedules they induce. A differentiable upper bound on optimality gap passes changes in scheduling cost back to the predictor.
+Forecast error matters differently once a prediction fixes an operating schedule. In coupled water-energy systems, [Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) trains a probabilistic electricity-cost forecast through the stochastic water-supply schedules it induces, and a differentiable upper bound on the optimality gap returns the change in scheduling cost to the predictor.
 
-Work on [lag-free demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508) and [uncertain pressure regression](https://doi.org/10.1109/TCSS.2023.3272330) examines two additional sources of prediction error. Lag-penalty attention targets delayed reactions near demand turning points, while uncertain regression separates modeled responses to observed inputs from residual pressure variation associated with unobserved disturbances. Their metrics distinguish response timing and disturbance sensitivity from average numerical error.
+Two further studies ask where the prediction error comes from. [Lag-free demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508) treats the delayed reaction near a demand turning point as a timing error, and [uncertain pressure regression](https://doi.org/10.1109/TCSS.2023.3272330) separates the response to observed inputs from the residual variation left by disturbances no sensor reports. Both are measured on response timing and disturbance sensitivity rather than on average numerical error.
 
 ## Neural operators for distributed dynamics
 
-Many control and design problems depend on physical fields that evolve across space and time. I study neural operators that map initial conditions, geometry, boundary conditions, and forcing fields to spatiotemporal solution fields. Their evaluation includes field error, rollout error, and the sensitivities used by control and optimization.
+Many control and design problems depend on a field that evolves in space and time. I study neural operators that map initial conditions, geometry, boundary conditions, and forcing fields to the solution field, and I evaluate them on field error, rollout error, and the sensitivities that control and optimization read.
 
 ## Learning-based control
 
-A learned solution operator can supply state rollouts without solving the governing equations from scratch at every control step. I study how approximation error accumulates over a control horizon and changes the selected action, closed-loop cost, and constraint violation. These quantities provide control-specific criteria for training and evaluating learned physical dynamics.
+A learned solution operator supplies state rollouts without solving the governing equations again at every control step, which raises the question of how far its error travels. I study how approximation error accumulates over a control horizon and how much of it reaches the selected action, the closed-loop cost, and the constraint violation. Those quantities give training and evaluation criteria a control engineer can act on.
 
 ## AI for materials processing
 
-In collaboration with Professor Fengqi You, I develop neural operators that map process conditions, geometry, boundary inputs, and external forcing to evolving material state fields. The resulting rollouts and local sensitivities are used in process control and constrained optimization.
+With Professor Fengqi You, I develop neural operators that map process conditions, geometry, boundary inputs, and external forcing to evolving material state fields. Their rollouts and local sensitivities are then used in process control and constrained optimization.
 
-Feasibility, objective value, and decision sensitivity test whether approximation error changes the selected operating condition or physical design. This follows the same criterion as my work on water-energy systems: a learned representation must preserve the physical response that determines the downstream decision.
+Feasibility, objective value, and decision sensitivity test whether approximation error changes the selected operating condition or the physical design. This repeats the test I apply to water-energy systems, where a learned representation is worth only as much as the decision it supports.
 
 ## Related collaborative work
 
-Collaborative work on generated actions examines how learned trajectories satisfy geometric and decision constraints. [DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory during recurrent diffusion and evaluates the generated motion through endpoint error, clearance, smoothness, and runtime.
+Collaborative work on generated actions asks how a learned trajectory satisfies geometric and decision constraints. [DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory during recurrent diffusion and evaluates the generated motion on endpoint error, clearance, smoothness, and runtime.
 
 ## Research map
 
@@ -43,4 +43,4 @@ Collaborative work on generated actions examines how learned trajectories satisf
 | Learning-based control | How does model error change a control action? | Closed-loop cost and state constraint violation |
 | AI for materials processing | Does the learned solution map preserve the process decision? | Objective value, feasibility, and decision sensitivity |
 
-[First- and last-author publications](/publications/) provide the evidence base for these research threads.
+[First- and last-author publications](/publications/) carry the evidence behind these directions.

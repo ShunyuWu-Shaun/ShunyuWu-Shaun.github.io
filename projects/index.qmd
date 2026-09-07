@@ -5,11 +5,11 @@ toc: false
 body-classes: projects-page
 ---
 
-## Physical AI for Science through states, dynamics, and decisions
+## What a learned model has to preserve to support a decision
 
-My research examines how a learned model should represent the state and evolution of a physical system when its output is used in control or optimization. The starting point is the physical quantity to be predicted or reconstructed, together with the inputs, geometry, constraints, and unresolved disturbances that shape its evolution. I then ask which approximation errors alter the resulting schedule, feedback action, trajectory, or design.
+Every project here starts from a physical quantity that has to be predicted or reconstructed, together with the inputs, geometry, constraints, and unresolved disturbances that shape how it evolves. The question that follows is narrower than accuracy. I ask which approximation errors survive as far as the schedule, the feedback action, the trajectory, or the design.
 
-Across these projects, the physical system defines admissible states and decisions. Learning estimates a quantity that is uncertain or costly to obtain, and control or optimization converts that estimate into an action. Evaluation includes the error that matters at the decision level, such as optimality gap, operating cost, constraint violation, or trajectory geometry.
+The physical system fixes which states and decisions are admissible. Learning supplies a quantity that is uncertain or expensive to obtain, control or optimization turns that quantity into an action, and the evaluation reports the error that shows up at the decision level, such as optimality gap, operating cost, constraint violation, or trajectory geometry.
 
 <ol class="project-relation" aria-label="Shared research logic">
   <li class="relation-state">Physical state and inputs</li>

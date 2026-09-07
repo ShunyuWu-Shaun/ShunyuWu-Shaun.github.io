@@ -5,10 +5,10 @@ description: "Conference and journal peer review, teaching, and research mentori
 
 ## Conference reviewing
 
-I have been invited to serve as a reviewer for ICLR 2027.
+I have been invited to review for ICLR 2027.
 
 - International Conference on Machine Learning (ICML), 2026
-- International Conference on Learning Representations (ICLR), 2025 and 2026 review cycles
+- International Conference on Learning Representations (ICLR), 2025 and 2026 cycles
 - Conference on Neural Information Processing Systems (NeurIPS), Position Paper Track, 2026
 - AAAI Conference on Artificial Intelligence, Main Technical Track, 2026
 - AAAI Conference on Artificial Intelligence, AI for Social Impact Track, 2026
@@ -24,8 +24,8 @@ I have been invited to serve as a reviewer for ICLR 2027.
 
 ## Teaching
 
-I served as a teaching assistant for a graduate engineering course from 2023 to 2024. I delivered lectures and recitations and prepared course assignments.
+I was a teaching assistant for a graduate engineering course from 2023 to 2024, where I gave lectures and recitations and wrote the course assignments.
 
 ## Research mentoring
 
-I have co-mentored one Ph.D. student and 13 master's students. My mentoring focuses on research-question formulation, experiment design, reproducibility, and technical writing.
+I have co-mentored one Ph.D. student and 13 master's students. Most of that work went into turning a vague idea into a question an experiment can answer, and then into writing the answer down so that someone else can reproduce it.

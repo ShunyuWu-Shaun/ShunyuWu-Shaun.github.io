@@ -1,34 +1,26 @@
 ---
 title: "Thinking"
-description: "Working notes by Shunyu Wu on physical intelligence, learning for physical systems, control, and the limits of scale."
+description: "Short working notes by Shunyu Wu on physical intelligence, learning for physical systems, and control."
 toc: false
 body-classes: thinking-page
 ---
 
-Notes I write when a question will not settle, revisited on no fixed schedule. Each one is dated in the time zone I was in when I wrote it. They are positions in progress rather than results, and I expect to argue with some of them later.
+Short notes on questions I keep returning to, written whenever one of them will not settle. Each carries the date and time zone of the place I wrote it in.
 
 ```{=html}
 <!-- To add a note, copy one <article class="note"> block to the top of .notes.
      Keep the machine-readable timestamp with its UTC offset in datetime=""
-     and repeat it in words, with the zone, in the visible text.
-     Accent options: note--forecasting (amber), note--operators (teal),
-     note--control (indigo); omit the modifier for crimson. -->
+     and repeat the date and zone in the visible text. Two or three sentences
+     is the intended length. Update the note shown in the Thinking section of
+     index.qmd so the home page carries the newest one. -->
 <div class="notes">
   <article class="note" id="emergence-and-physical-intelligence">
     <p class="note__meta">
-      <time datetime="2026-09-07T11:40:00-04:00">7 September 2026, 11:40 EDT (UTC−04:00)</time>
+      <time datetime="2026-09-07T11:40:00-04:00">7 September 2026, EDT (UTC−04:00)</time>
       <span>Ithaca, New York</span>
     </p>
-    <h2 class="note__title">Physical intelligence should not emerge the way language models do</h2>
-    <p class="note__claim">Physical intelligence should not show the emergence that large language models show. Even if a mechanism for effective generalization exists, it will not be emergence produced by piling up parameters, because the laws of physics have always been simple.</p>
-    <p>Scaling a language model buys coverage of a symbol system that is vast, redundant, and largely conventional. New behaviour appears once enough of that convention has been absorbed, and the threshold is a fact about the corpus rather than about the world. A physical system is not a convention. The regularities that govern a flow, a lattice, or a thermal field have always turned out to be compact: a conservation statement, a symmetry, a handful of dimensionless groups. A model that recovers such a regularity is recovering something short.</p>
-    <p>This does not deny generalization. There may well be a mechanism that lets a learned operator transfer across geometries, boundary conditions, and forcing regimes, and finding it is most of what I work on. My claim is narrower. If that mechanism exists, it will come from structure, from invariance, locality, and the right conditioning on the physics, and not from parameter count crossing a threshold. Emergence by accumulation is a property of the symbol system, not of the world it describes.</p>
-    <p>The version of this I can test: for a learned physical operator, returns to scale should flatten once the model is expressive enough to represent the governing structure, and the error that remains should be dominated by conditioning, resolution, and data coverage rather than by capacity. If instead a physical operator showed a genuine capability jump at some parameter count, with the training distribution held fixed, I would have to give this up.</p>
-    <ul class="note__tags" aria-label="Topics">
-      <li class="tag">Physical intelligence</li>
-      <li class="tag">Scaling</li>
-      <li class="tag">Neural operators</li>
-    </ul>
+    <h2 class="note__title">Emergence and physical intelligence</h2>
+    <p>I do not expect physical intelligence to show the emergence reported for large language models. If a mechanism for wide transfer exists, it should come from structure rather than from parameter count, because the laws that govern a physical system have always turned out to be short.</p>
   </article>
 </div>
 ```

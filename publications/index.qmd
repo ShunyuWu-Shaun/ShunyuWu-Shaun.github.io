@@ -9,7 +9,7 @@ body-classes: publication-page
 <div class="publication-intro">
   <div class="publication-rule">4 first-author / 6 last-author papers</div>
   <div>
-    <p>These papers examine how learned predictions, state representations, and generated actions interact with operating cost, physical constraints, and closed-loop behavior across water–energy, industrial energy, and motion systems.</p>
+    <p>These papers ask what a learned prediction, state representation, or generated action does to the decision that follows it. The systems are urban water supply coupled to the grid, industrial rolling, and motion planning under local geometry.</p>
     <p><a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0001-9856-2148">ORCID</a> · <a href="https://www.researchgate.net/profile/Shunyu-Wu">ResearchGate</a></p>
   </div>
 </div>

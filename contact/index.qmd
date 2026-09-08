@@ -16,11 +16,11 @@ I am glad to hear from people working on neural operators for process dynamics, 
 Systems Engineering Program<br>
 Cornell University, Ithaca, New York
 
-I work with **Professor Fengqi You** on AI for materials processing, where neural operators model distributed process dynamics for control and constrained optimization.
+I work with [Professor Fengqi You](https://www.peese.org/professor/) on AI for materials processing, where neural operators solve distributed process dynamics for control and constrained optimization.
 
 ## Education
 
-Ph.D., Shanghai Jiao Tong University, 2026, advised by Professor Jingcheng Wang.
+Ph.D., Shanghai Jiao Tong University, 2026, advised by [Professor Jingcheng Wang](https://ieeexplore.ieee.org/author/37280547200).
 
 ## Academic profiles
 

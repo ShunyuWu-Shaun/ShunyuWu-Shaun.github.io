@@ -1,46 +1,41 @@
 ---
 title: "Research"
-description: "Shunyu Wu connects learned physical dynamics to control and optimization across coupled water-energy systems and materials processing."
+description: "Neural solvers for the governing dynamics of physical systems, the model-to-decision gap, and the science and engineering systems on which both are tested."
 toc: true
 ---
 
-## Learning physical systems for control and optimization
+## From Physical AI to one substrate
 
-A learned model of a physical system is usually fitted to answer a numerical question and then used to answer an operational one. The state may be a temporal quantity such as urban water demand or network pressure, or a distributed field fixed by initial conditions, geometry, boundary conditions, and external forcing. In both cases I judge the learned representation by the schedule, the control action, or the design computed from it.
+Physical AI is the study of learning systems that observe, model, and act on physical systems. Its questions in science and engineering differ in scale and object, but they rest on one substrate. A material during processing, a water network under pumping, and a power plant following its load are each governed by ordinary or partial differential equations with initial conditions, boundary conditions, and external forcing. Predicting how such a system evolves and choosing how to act on it both come down to solving those equations under the conditions that matter, fast enough for the decision to be made in time.
 
-The same test carries across coupled water-energy operation and materials processing. Decision-focused forecasting connects temporal uncertainty to operating cost, while a neural operator maps process conditions to a spatiotemporal field. Control and constrained optimization then check whether that field still carries the rollouts and sensitivities a process decision needs.
+My work narrows Physical AI to that substrate and asks two questions about it. The first is whether a neural network can solve the governing dynamics, returning the solution field for conditions it has not seen fast enough for design and control to use it, rather than only approximating one fixed simulation as a surrogate. The second is what happens when the learned solution is used to decide. A learned model is wrong by a small amount everywhere, and the decision built on it inherits that error unevenly. I call the distance between the decision computed from the learned model and the decision the true dynamics would support the **model-to-decision gap**. Both questions are tested on two branches of physical systems, one in science and one in engineering.
 
-## Decision-focused forecasting under uncertainty
+## A. Learning to solve the dynamics
 
-Forecast error matters differently once a prediction fixes an operating schedule. In coupled water-energy systems, [Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) trains a probabilistic electricity-cost forecast through the stochastic water-supply schedules it induces, and a differentiable upper bound on the optimality gap returns the change in scheduling cost to the predictor.
+The object of the first question is the solution operator of a physical system, the map from initial conditions, boundary conditions, geometry, and forcing to the solution field over space and time. A neural operator approximates that map directly, so a trained model returns the field for a new set of conditions in one forward pass instead of a new simulation. I study how to train such operators so that their autoregressive rollouts stay accurate over the horizons a controller needs, when their sensitivities to boundary inputs and process settings can be trusted by an optimizer, and how physics-constrained training and hybrid schemes that keep part of the numerical solver reduce the data they need. The criterion throughout is that the operator solves rather than imitates. It has to return the field for conditions outside the training set at a cost that leaves room for the optimization or control loop around it.
 
-Two further studies ask where the prediction error comes from. [Lag-free demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508) treats the delayed reaction near a demand turning point as a timing error, and [uncertain pressure regression](https://doi.org/10.1109/TCSS.2023.3272330) separates the response to observed inputs from the residual variation left by disturbances no sensor reports. Both are measured on response timing and disturbance sensitivity rather than on average numerical error.
+The engineering branch of this question began with learned temporal dynamics. [Lag-free demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508) treats the delayed reaction of a learned model near a demand turning point as a timing error and corrects it with lag-penalty attention and a posterior residual step. [Uncertain pressure regression](https://doi.org/10.1109/TCSS.2023.3272330) separates the pressure response to observed inputs from the residual variation left by disturbances no sensor reports. A [series-concatenation model](https://doi.org/10.1109/TASE.2023.3299185) of hot-strip rolling passes the state of each pass to the next so that multi-step error stops accumulating. Each of these learns a dynamical map and is evaluated on the timing and sensitivity errors that a later decision would see.
 
-## Neural operators for distributed dynamics
+## B. The model-to-decision gap
 
-Many control and design problems depend on a field that evolves in space and time. I study neural operators that map initial conditions, geometry, boundary conditions, and forcing fields to the solution field, and I evaluate them on field error, rollout error, and the sensitivities that control and optimization read.
+The second question starts where the first stops. Once a learned model feeds an optimizer or a controller, the quantity that matters is no longer prediction error but the change in the decision. Over most of the state space the map from model to decision is smooth, and a small model error moves the schedule or the control action by a proportionally small amount. Near a critical point it is not smooth. At a bifurcation, a regime boundary, or an active constraint the decision changes qualitatively with the state, and the same model error can move an operating point across a fold or a schedule across a capacity limit. I measure the gap as regret, closed-loop cost, and constraint violation, locate where in the state space it is large, and use it as the training signal for the model.
 
-## Learning-based control
+[Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) is the clearest instance. A probabilistic electricity-cost forecast is trained through the stochastic water-supply schedule it induces, with a differentiable upper bound on the optimality gap carrying the change in scheduling cost back to the predictor, so the forecast is judged by the decision it produces. On the control side, a [reinforcement learning controller for constrained nonlinear systems](https://doi.org/10.1109/TSMC.2023.3344883) keeps state and input constraints active during learning through a control barrier function, and [adaptive optimal control with multiple time-scale eligibility traces](https://doi.org/10.1109/CDC49753.2023.10383316) studies how credit for a decision propagates over different horizons. [DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) asks the same question of a generated trajectory, testing whether a diffusion model's output respects the local LiDAR geometry it must move through.
 
-A learned solution operator supplies state rollouts without solving the governing equations again at every control step, which raises the question of how far its error travels. I study how approximation error accumulates over a control horizon and how much of it reaches the selected action, the closed-loop cost, and the constraint violation. Those quantities give training and evaluation criteria a control engineer can act on.
+## C. Two branches of physical systems
 
-## AI for materials processing
+Both questions are tested on the same physical systems, split by the kind of decision the system asks for.
 
-With Professor Fengqi You, I develop neural operators that map process conditions, geometry, boundary inputs, and external forcing to evolving material state fields. Their rollouts and local sensitivities are then used in process control and constrained optimization.
+**Science: materials processing.** With [Professor Fengqi You](https://www.peese.org/professor/) at Cornell, the state is the temperature and composition field of a processing step and the decision is a process set-point or a trajectory of settings. Neural operators map process conditions, geometry, boundary inputs, and external forcing to the evolving field, and their rollouts and local sensitivities are used for process control and constrained optimization. Feasibility, objective value, and decision sensitivity test whether the operator's error changes the selected condition.
 
-Feasibility, objective value, and decision sensitivity test whether approximation error changes the selected operating condition or the physical design. This repeats the test I apply to water-energy systems, where a learned representation is worth only as much as the decision it supports.
-
-## Related collaborative work
-
-Collaborative work on generated actions asks how a learned trajectory satisfies geometric and decision constraints. [DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory during recurrent diffusion and evaluates the generated motion on endpoint error, clearance, smoothness, and runtime.
+**Engineering: water and energy systems.** From my Ph.D. with [Professor Jingcheng Wang](https://ieeexplore.ieee.org/author/37280547200) at Shanghai Jiao Tong University, the states are urban water demand and network pressure, day-ahead electricity price, and the energy consumption of hot-strip rolling, and the decisions are pump schedules, energy purchases, and controller actions. These systems supplied the first measurements of the model-to-decision gap and remain the reference cases for it.
 
 ## Research map
 
-| Research direction | Main question | Evaluation |
+| Direction | Question | Evaluated by |
 |---|---|---|
-| Decision-focused forecasting under uncertainty | Which prediction errors change an operating decision? | Optimality gap, operating cost, response timing, and disturbance sensitivity |
-| Neural operators for distributed dynamics | What solution field follows from new physical conditions? | Field error, rollout error, and sensitivity error |
-| Learning-based control | How does model error change a control action? | Closed-loop cost and state constraint violation |
-| AI for materials processing | Does the learned solution map preserve the process decision? | Objective value, feasibility, and decision sensitivity |
+| A. Learning to solve the dynamics | Does the learned operator return the solution field for new conditions, fast enough for design and control? | Field error, rollout error, and sensitivity error |
+| B. The model-to-decision gap | Where in the state space does a learned model's error change the decision, and by how much? | Regret, closed-loop cost, and constraint violation |
+| C. Two branches of physical systems | Do A and B hold on materials processing and on water and energy systems? | Objective value, feasibility, and decision sensitivity on each system |
 
-[First- and last-author publications](/publications/) carry the evidence behind these directions.
+[Publications](/publications/) and [research projects](/projects/) are grouped by these three directions.

@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: "First- and last-author publications by Shunyu Wu in decision-focused learning, forecasting, optimization, control, and generative trajectory modeling."
+description: "First- and last-author publications by Shunyu Wu, grouped by research direction: learning to solve physical dynamics, the model-to-decision gap, and the two branches of physical systems they are tested on."
 toc: false
 body-classes: publication-page
 ---
@@ -9,34 +9,23 @@ body-classes: publication-page
 <div class="publication-intro">
   <div class="publication-rule">4 first-author / 6 last-author papers</div>
   <div>
-    <p>These papers ask what a learned prediction, state representation, or generated action does to the decision that follows it. The systems are urban water supply coupled to the grid, industrial rolling, and motion planning under local geometry.</p>
+    <p>The papers are grouped by the <a href="/research/">three directions</a> of the research program. Direction A learns a dynamical map and is judged by the timing and sensitivity errors a later decision would see. Direction B measures what a learned model's error does to the decision itself. Direction C is the engineering branch on which both were first tested; the science branch, materials processing, is in progress.</p>
     <p><a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0001-9856-2148">ORCID</a> · <a href="https://www.researchgate.net/profile/Shunyu-Wu">ResearchGate</a></p>
   </div>
 </div>
 ```
 
 ```{=html}
-<p class="publication-section-label">01 / First-author papers</p>
+<p class="publication-section-label">A. Learning to solve the dynamics</p>
 
 <div class="publication-grid">
   <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1109/TSG.2025.3601238"><img src="/assets/images/publications/spto.svg" width="800" height="500" alt="SPTO visual abstract linking probabilistic forecasting, a differentiable optimality-gap surrogate, and stochastic scheduling"></a>
-    <div class="paper-body">
-      <p class="paper-meta"><span class="author-role">First author</span><span>IEEE TSG · 2025</span></p>
-      <h3><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></h3>
-      <p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p>
-      <p class="paper-claim">A probabilistic forecast is trained with a differentiable convex upper bound on downstream optimality gap, connecting forecast distributions to stochastic scheduling cost.</p>
-      <div class="paper-links"><a href="https://doi.org/10.1109/TSG.2025.3601238">DOI</a></div>
-    </div>
-  </article>
-
-  <article class="paper-card">
     <a class="paper-visual" href="https://doi.org/10.1016/j.eswa.2024.124508"><img src="/assets/images/publications/kbbcm.svg" width="800" height="500" alt="Bi-correction model visual abstract showing lag-penalty attention and posterior error correction"></a>
     <div class="paper-body">
-      <p class="paper-meta"><span class="author-role">First author</span><span>ESWA · 2024</span></p>
+      <p class="paper-meta"><span class="author-role">First author</span><span>ESWA · 2024</span><span class="branch">Engineering</span></p>
       <h3><a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting</a></h3>
       <p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
-      <p class="paper-claim">Lag-penalty attention and a masked weighted Markov chain correct delayed responses and selected residuals near demand turning points.</p>
+      <p class="paper-claim">Lag-penalty attention and a masked weighted Markov chain correct the delayed response of a learned temporal model near demand turning points.</p>
       <div class="paper-links"><a href="https://doi.org/10.1016/j.eswa.2024.124508">DOI</a></div>
     </div>
   </article>
@@ -44,10 +33,10 @@ body-classes: publication-page
   <article class="paper-card">
     <a class="paper-visual" href="https://doi.org/10.1109/TCSS.2023.3272330"><img loading="lazy" src="/assets/images/publications/criticoder.svg" width="800" height="500" alt="CritiCoder visual abstract separating measured pressure effects from unobserved disturbances"></a>
     <div class="paper-body">
-      <p class="paper-meta"><span class="author-role">First author</span><span>IEEE TCSS · 2024</span></p>
+      <p class="paper-meta"><span class="author-role">First author</span><span>IEEE TCSS · 2024</span><span class="branch">Engineering</span></p>
       <h3><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems</a></h3>
       <p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
-      <p class="paper-claim">The Coder learns the pressure response to measured variables, while the Critic represents residual variation associated with unobserved disturbances.</p>
+      <p class="paper-claim">The Coder learns the pressure response to measured variables, while the Critic carries the residual variation left by disturbances no sensor reports.</p>
       <div class="paper-links"><a href="https://doi.org/10.1109/TCSS.2023.3272330">DOI</a></div>
     </div>
   </article>
@@ -55,84 +44,103 @@ body-classes: publication-page
   <article class="paper-card">
     <a class="paper-visual" href="https://doi.org/10.23919/CCC52363.2021.9550182"><img loading="lazy" src="/assets/images/publications/fine-grained.svg" width="800" height="500" alt="Fine-grained forecasting visual abstract converting a daily demand curve into minute-level demand patterns"></a>
     <div class="paper-body">
-      <p class="paper-meta"><span class="author-role">First author</span><span>CCC · 2021</span></p>
+      <p class="paper-meta"><span class="author-role">First author</span><span>CCC · 2021</span><span class="branch">Engineering</span></p>
       <h3><a href="https://doi.org/10.23919/CCC52363.2021.9550182">A Fine Grained Forecasting Method for Minute-Level Urban Water Demand</a></h3>
       <p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Pingwei Zhao, Miaoshun Bai, Jingcheng Wang, and Yang Lan</p>
-      <p class="paper-claim">The method forecasts cumulative daily demand, then uses fine-grained division, search, and prediction to reconstruct an approximately 300-step minute-level profile.</p>
+      <p class="paper-claim">A daily demand forecast is decomposed into reusable fine-grained patterns that reconstruct an approximately 300-step minute-level profile.</p>
       <div class="paper-links"><a href="https://doi.org/10.23919/CCC52363.2021.9550182">DOI</a><a href="https://www.researchgate.net/publication/355159950_A_Fine_Grained_Forecasting_Method_for_Minute-Level_Urban_Water_Demand">Author copy</a></div>
-    </div>
-  </article>
-</div>
-```
-
-```{=html}
-<p class="publication-section-label">02 / Last-author papers</p>
-
-<div class="publication-grid">
-  <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1016/j.eswa.2026.133261"><img loading="lazy" src="/assets/images/publications/drift.svg" width="800" height="500" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed diffusion"></a>
-    <div class="paper-body">
-      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>ESWA · 2026</span></p>
-      <h3><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></h3>
-      <p class="paper-authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong class="author-self">Shunyu Wu</strong></p>
-      <p class="paper-claim">A graph memory stores local LiDAR geometry and retrieves waypoint-specific context during recurrent diffusion denoising.</p>
-      <div class="paper-links"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DOI</a></div>
-    </div>
-  </article>
-
-  <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1109/TSMC.2023.3344883"><img loading="lazy" src="/assets/images/publications/rl-controller.svg" width="800" height="500" alt="Constrained reinforcement learning controller visual abstract"></a>
-    <div class="paper-body">
-      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IEEE TSMC · 2024</span></p>
-      <h3><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method</a></h3>
-      <p class="paper-authors">Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and <strong class="author-self">Shunyu Wu</strong></p>
-      <p class="paper-claim">Nonlinear model predictive control initializes the controller network, while a control barrier function and nonquadratic loss enforce state and input constraints.</p>
-      <div class="paper-links"><a href="https://doi.org/10.1109/TSMC.2023.3344883">DOI</a></div>
     </div>
   </article>
 
   <article class="paper-card">
     <a class="paper-visual" href="https://doi.org/10.1109/TASE.2023.3299185"><img loading="lazy" src="/assets/images/publications/series-concat.svg" width="800" height="500" alt="Series-concatenation energy prediction visual abstract for multi-step rolling"></a>
     <div class="paper-body">
-      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IEEE TASE · 2024</span></p>
+      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IEEE TASE · 2024</span><span class="branch">Engineering</span></p>
       <h3><a href="https://doi.org/10.1109/TASE.2023.3299185">A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling</a></h3>
       <p class="paper-authors">Yanjiu Zhong, Jingcheng Wang, Jun Rao, Jiahui Xu, and <strong class="author-self">Shunyu Wu</strong></p>
-      <p class="paper-claim">A DCLS-Net models each rolling step, and series concatenation suppresses accumulated prediction error across the multi-step process.</p>
+      <p class="paper-claim">A DCLS-Net models each rolling pass, and series concatenation passes the state of one pass to the next so that multi-step error stops accumulating.</p>
       <div class="paper-links"><a href="https://doi.org/10.1109/TASE.2023.3299185">DOI</a></div>
-    </div>
-  </article>
-
-  <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1109/CDC49753.2023.10383316"><img loading="lazy" src="/assets/images/publications/eligibility-traces.svg" width="800" height="500" alt="Multiple time-scale eligibility traces visual abstract"></a>
-    <div class="paper-body">
-      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IEEE CDC · 2023</span></p>
-      <h3><a href="https://doi.org/10.1109/CDC49753.2023.10383316">Adaptive Optimal Control of Nonlinear Systems With Multiple Time-Scale Eligibility Traces</a></h3>
-      <p class="paper-authors">Jun Rao, Jingcheng Wang, Jiahui Xu, and <strong class="author-self">Shunyu Wu</strong></p>
-      <p class="paper-claim">Multiple eligibility-trace time scales supply the critic with complementary temporal credit signals for adaptive optimal control.</p>
-      <div class="paper-links"><a href="https://doi.org/10.1109/CDC49753.2023.10383316">DOI</a></div>
     </div>
   </article>
 
   <article class="paper-card">
     <a class="paper-visual" href="https://doi.org/10.1016/j.ifacol.2023.10.581"><img loading="lazy" src="/assets/images/publications/ceemdan-gcgru.svg" width="800" height="500" alt="CEEMDAN-ps-gcGRU visual abstract decomposing irregular pressure signals before recurrent prediction"></a>
     <div class="paper-body">
-      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IFAC · 2023</span></p>
+      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IFAC · 2023</span><span class="branch">Engineering</span></p>
       <h3><a href="https://doi.org/10.1016/j.ifacol.2023.10.581">The CEEMDAN-ps-gcGRU Model On Water Pressure Prediction With Strong Irregularity</a></h3>
       <p class="paper-authors">Tzuyi Kan, Jingcheng Wang, and <strong class="author-self">Shunyu Wu</strong></p>
-      <p class="paper-claim">CEEMDAN reduces sensor noise, pump-state signals add operating context, and gradient correction supports longer-horizon GRU prediction.</p>
+      <p class="paper-claim">CEEMDAN reduces sensor noise, pump-state signals add operating context, and gradient correction extends the horizon of the recurrent pressure model.</p>
       <div class="paper-links"><a href="https://doi.org/10.1016/j.ifacol.2023.10.581">DOI</a></div>
+    </div>
+  </article>
+</div>
+```
+
+```{=html}
+<p class="publication-section-label">B. The model-to-decision gap</p>
+
+<div class="publication-grid">
+  <article class="paper-card">
+    <a class="paper-visual" href="https://doi.org/10.1109/TSG.2025.3601238"><img loading="lazy" src="/assets/images/publications/spto.svg" width="800" height="500" alt="SPTO visual abstract linking probabilistic forecasting, a differentiable optimality-gap surrogate, and stochastic scheduling"></a>
+    <div class="paper-body">
+      <p class="paper-meta"><span class="author-role">First author</span><span>IEEE TSG · 2025</span><span class="branch">Engineering</span></p>
+      <h3><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></h3>
+      <p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p>
+      <p class="paper-claim">A probabilistic forecast is trained through the stochastic schedule it induces, with a differentiable convex upper bound on the optimality gap carrying scheduling cost back to the predictor.</p>
+      <div class="paper-links"><a href="https://doi.org/10.1109/TSG.2025.3601238">DOI</a></div>
     </div>
   </article>
 
   <article class="paper-card">
+    <a class="paper-visual" href="https://doi.org/10.1109/TSMC.2023.3344883"><img loading="lazy" src="/assets/images/publications/rl-controller.svg" width="800" height="500" alt="Constrained reinforcement learning controller visual abstract"></a>
+    <div class="paper-body">
+      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IEEE TSMC · 2024</span><span class="branch">Engineering</span></p>
+      <h3><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method</a></h3>
+      <p class="paper-authors">Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and <strong class="author-self">Shunyu Wu</strong></p>
+      <p class="paper-claim">Nonlinear model predictive control supplies the initial weights, and a control barrier function with a nonquadratic loss keeps state and input constraints active during learning.</p>
+      <div class="paper-links"><a href="https://doi.org/10.1109/TSMC.2023.3344883">DOI</a></div>
+    </div>
+  </article>
+
+  <article class="paper-card">
+    <a class="paper-visual" href="https://doi.org/10.1109/CDC49753.2023.10383316"><img loading="lazy" src="/assets/images/publications/eligibility-traces.svg" width="800" height="500" alt="Multiple time-scale eligibility traces visual abstract"></a>
+    <div class="paper-body">
+      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IEEE CDC · 2023</span><span class="branch">Engineering</span></p>
+      <h3><a href="https://doi.org/10.1109/CDC49753.2023.10383316">Adaptive Optimal Control of Nonlinear Systems With Multiple Time-Scale Eligibility Traces</a></h3>
+      <p class="paper-authors">Jun Rao, Jingcheng Wang, Jiahui Xu, and <strong class="author-self">Shunyu Wu</strong></p>
+      <p class="paper-claim">Eligibility traces at several time scales give the critic complementary credit signals, so the effect of a decision is followed over different horizons.</p>
+      <div class="paper-links"><a href="https://doi.org/10.1109/CDC49753.2023.10383316">DOI</a></div>
+    </div>
+  </article>
+
+  <article class="paper-card">
+    <a class="paper-visual" href="https://doi.org/10.1016/j.eswa.2026.133261"><img loading="lazy" src="/assets/images/publications/drift.svg" width="800" height="500" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed diffusion"></a>
+    <div class="paper-body">
+      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>ESWA · 2026</span><span class="branch">Robotics</span></p>
+      <h3><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></h3>
+      <p class="paper-authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong class="author-self">Shunyu Wu</strong></p>
+      <p class="paper-claim">A graph memory holds local LiDAR geometry and returns waypoint-specific context at each step of recurrent diffusion denoising, so a generated trajectory is tested against the geometry it must move through.</p>
+      <div class="paper-links"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DOI</a></div>
+    </div>
+  </article>
+</div>
+```
+
+```{=html}
+<p class="publication-section-label">C. Two branches of physical systems</p>
+
+<div class="publication-grid">
+  <article class="paper-card">
     <a class="paper-visual" href="https://doi.org/10.23919/CCC52363.2021.9550267"><img loading="lazy" src="/assets/images/publications/leakage-ensemble.svg" width="800" height="500" alt="Improved multi-model ensemble visual abstract for water leakage detection"></a>
     <div class="paper-body">
-      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>CCC · 2021</span></p>
+      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>CCC · 2021</span><span class="branch">Engineering</span></p>
       <h3><a href="https://doi.org/10.23919/CCC52363.2021.9550267">An Improved Ensemble Deep Learning Model for Water Leakage Detection</a></h3>
       <p class="paper-authors">Shuwei Zhang, Miaoshun Bai, Jingcheng Wang, Haotian Xu, and <strong class="author-self">Shunyu Wu</strong></p>
-      <p class="paper-claim">An improved multi-model weighted voting mechanism combines deep classifiers to locate leakage events in a simulated water-distribution network.</p>
+      <p class="paper-claim">A weighted-voting ensemble of deep classifiers locates leakage events in a simulated water-distribution network, the monitoring side of the engineering branch.</p>
       <div class="paper-links"><a href="https://doi.org/10.23919/CCC52363.2021.9550267">DOI</a><a href="https://www.researchgate.net/publication/355120915_An_Improved_Ensemble_Deep_Learning_Model_for_Water_Leakage_Detection">Author copy</a></div>
     </div>
   </article>
 </div>
+
+<p class="publication-branch-note">The science branch, neural operators for materials processing with <a href="https://www.peese.org/professor/">Professor Fengqi You</a>, is described under <a href="/projects/">research projects</a>.</p>
 ```

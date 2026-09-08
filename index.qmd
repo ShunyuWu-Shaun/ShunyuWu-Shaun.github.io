@@ -1,7 +1,7 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
-subtitle: "Learning physical systems for control and optimization"
-description-meta: "Shunyu Wu develops learning methods that connect physical dynamics to control and optimization, with applications in coupled water-energy systems and AI for materials processing."
+subtitle: "Learning to solve physical dynamics, and what a learned model does to a decision"
+description-meta: "Shunyu Wu works on neural solvers for the governing dynamics of physical systems and on the model-to-decision gap, tested on materials processing and on water and energy systems."
 toc: false
 page-layout: full
 body-classes: home-page
@@ -28,7 +28,7 @@ body-classes: home-page
         "name": "Shanghai Jiao Tong University"
       },
       "jobTitle": "Ezra Systems Postdoctoral Associate",
-      "description": "Shunyu Wu is an Ezra Systems Postdoctoral Associate at Cornell University. He works with Professor Fengqi You on AI for materials processing, using neural operators to model distributed process dynamics for control and constrained optimization.",
+      "description": "Shunyu Wu is an Ezra Systems Postdoctoral Associate at Cornell University. He works with Professor Fengqi You on AI for materials processing, using neural operators to solve distributed process dynamics for control and constrained optimization.",
       "email": "mailto:shunyu.wu@cornell.edu",
       "sameAs": [
         "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en",
@@ -37,13 +37,15 @@ body-classes: home-page
         "https://www.researchgate.net/profile/Shunyu-Wu"
       ],
       "knowsAbout": [
-        "Decision-focused learning",
+        "Physical AI",
         "Neural operators",
         "Operator learning",
+        "Neural PDE solvers",
+        "Decision-focused learning",
+        "Learning-based control",
         "Constrained optimization",
-        "Control-oriented surrogate modeling",
-        "Coupled water-energy systems",
-        "AI for materials processing"
+        "Materials processing",
+        "Coupled water-energy systems"
       ]
     },
     {
@@ -87,111 +89,23 @@ body-classes: home-page
   <div class="main">
     <section class="home-section" id="about" aria-labelledby="about-title">
       <h2 class="section__title" id="about-title">About</h2>
-      <p>I am an Ezra Systems Postdoctoral Associate in Systems Engineering at Cornell University, where I work with Professor Fengqi You on AI for materials processing. I completed my Ph.D. at Shanghai Jiao Tong University in 2026 under the supervision of Professor Jingcheng Wang.</p>
-      <p>I develop learning methods for physical systems whose predictions are used to make an operating decision. The recurring question is whether the approximation error of a learned model changes the decision that follows from it, so I score a model by the operating cost, regret, and constraint violation it produces, not by prediction error alone.</p>
+      <p>I am an Ezra Systems Postdoctoral Associate in Systems Engineering at Cornell University, where I work with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on AI for materials processing. I completed my Ph.D. at Shanghai Jiao Tong University in 2026 under <a href="https://ieeexplore.ieee.org/author/37280547200">Professor Jingcheng Wang</a>.</p>
+      <p>Physical AI is the study of learning systems that observe, model, and act on physical systems. Its questions in science and engineering rest on one substrate, the governing dynamics of the system, and that substrate is where my work sits. I ask whether a neural network can solve those dynamics fast enough for design and control to use it, and what happens to a decision when the learned solution is slightly wrong. The second question has a name on this site, the model-to-decision gap, and an answer that depends on where the system is. Over most of the state space the gap is small. Near a critical point it is not.</p>
     </section>
 
     <section class="home-section" id="research" aria-labelledby="research-title">
       <h2 class="section__title" id="research-title">Research</h2>
 
       <figure class="program">
-        <svg viewBox="0 0 820 284" role="img" aria-labelledby="fig1-title fig1-desc">
-          <title id="fig1-title">From measured signals to an operating decision</title>
-          <desc id="fig1-desc">Measured signals and fields train a model of the dynamics. The model is used to compute an operating decision under a capacity limit. Regret and constraint violation return from the decision to the model.</desc>
-          <defs>
-            <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-              <path d="M0 1L9 5L0 9z" fill="#66717d"/>
-            </marker>
-            <marker id="ah-eval" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-              <path d="M0 1L9 5L0 9z" fill="#a3562a"/>
-            </marker>
-          </defs>
-
-          <rect class="diagram-frame" x="0.5" y="0.5" width="819" height="252"/>
-
-          <text class="diagram-label" x="146" y="32" text-anchor="middle">Signals and fields</text>
-          <text class="diagram-label" x="429" y="32" text-anchor="middle">Learned dynamics</text>
-          <text class="diagram-label" x="693" y="32" text-anchor="middle">Operating decision</text>
-
-          <!-- Zone A: two measured series over a day -->
-          <path class="diagram-axis" d="M52 54V152H250"/>
-          <path class="diagram-axis" d="M52 152v4M151 152v4M250 152v4"/>
-          <text class="diagram-tick" x="52" y="168" text-anchor="middle">0</text>
-          <text class="diagram-tick" x="151" y="168" text-anchor="middle">12</text>
-          <text class="diagram-tick" x="250" y="168" text-anchor="middle">24</text>
-          <text class="diagram-tick" x="151" y="185" text-anchor="middle">hour of day</text>
-          <path d="M60 66h16" stroke="#2a5a8c" stroke-width="2"/>
-          <text class="diagram-tick" x="80" y="70">demand</text>
-          <path d="M140 66h16" stroke="#a3562a" stroke-width="1.8" stroke-dasharray="5 4"/>
-          <text class="diagram-tick" x="160" y="70">price</text>
-          <path d="M52 140C68 138 82 96 100 94s28 26 46 26 34-32 54-32 38 34 50 40" fill="none" stroke="#2a5a8c" stroke-width="2" stroke-linecap="round"/>
-          <path d="M52 132c24 2 40-2 58-8s34-24 54-26 32 12 48 20 26 10 38 12" fill="none" stroke="#a3562a" stroke-width="1.8" stroke-dasharray="5 4" stroke-linecap="round"/>
-
-          <path d="M266 108H300" stroke="#66717d" stroke-width="1.4" marker-end="url(#ah)"/>
-          <text class="diagram-tick" x="283" y="100" text-anchor="middle">train</text>
-
-          <!-- Zone B: an initial field mapped to a predicted rollout -->
-          <rect class="diagram-frame" x="318" y="76" width="64" height="64"/>
-          <g fill="none" stroke="#2f6f66" stroke-width="1.2">
-            <ellipse cx="350" cy="108" rx="18" ry="13.5" opacity=".45"/>
-            <ellipse cx="350" cy="108" rx="12" ry="9" opacity=".7"/>
-            <ellipse cx="350" cy="108" rx="6" ry="4.5"/>
-          </g>
-          <text class="diagram-tick" x="350" y="158" text-anchor="middle">initial field</text>
-
-          <path d="M392 108H452" stroke="#66717d" stroke-width="1.4" marker-end="url(#ah)"/>
-          <text class="diagram-math" x="422" y="100" text-anchor="middle">G<tspan dx="1" dy="4">θ</tspan></text>
-
-          <rect class="diagram-frame" x="478" y="60" width="64" height="64" opacity=".45"/>
-          <rect class="diagram-frame" x="470" y="68" width="64" height="64" opacity=".7"/>
-          <rect class="diagram-frame" x="462" y="76" width="64" height="64" fill="#ffffff"/>
-          <g fill="none" stroke="#2f6f66" stroke-width="1.2" transform="rotate(-14 494 108)">
-            <ellipse cx="494" cy="108" rx="29" ry="20" opacity=".45"/>
-            <ellipse cx="494" cy="108" rx="20" ry="14" opacity=".7"/>
-            <ellipse cx="494" cy="108" rx="10" ry="7"/>
-          </g>
-          <text class="diagram-tick" x="498" y="158" text-anchor="middle">predicted rollout</text>
-
-          <path d="M556 108H588" stroke="#66717d" stroke-width="1.4" marker-end="url(#ah)"/>
-          <text class="diagram-tick" x="572" y="100" text-anchor="middle">solve</text>
-
-          <!-- Zone C: a schedule against a capacity limit -->
-          <g fill="#4b4a8f" opacity=".85">
-            <rect x="600" y="130" width="14" height="22"/>
-            <rect x="619" y="118" width="14" height="34"/>
-            <rect x="638" y="102" width="14" height="50"/>
-            <rect x="657" y="92" width="14" height="60"/>
-            <rect x="676" y="110" width="14" height="42"/>
-            <rect x="695" y="124" width="14" height="28"/>
-            <rect x="714" y="98" width="14" height="54"/>
-            <rect x="733" y="92" width="14" height="60"/>
-            <rect x="752" y="116" width="14" height="36"/>
-            <rect x="771" y="128" width="14" height="24"/>
-          </g>
-          <path d="M596 92H790" stroke="#a3562a" stroke-width="1.6" stroke-dasharray="5 4"/>
-          <text class="diagram-tick" x="600" y="86" fill="#a3562a">capacity limit</text>
-          <path class="diagram-axis" d="M596 152H790"/>
-          <text class="diagram-tick" x="693" y="185" text-anchor="middle">scheduling horizon</text>
-
-          <path d="M693 194V216H429V190" fill="none" stroke="#a3562a" stroke-width="1.4" stroke-dasharray="6 4" marker-end="url(#ah-eval)"/>
-          <text class="diagram-tick" x="561" y="234" text-anchor="middle" fill="#a3562a">regret and constraint violation</text>
-        </svg>
-        <dl class="program-key">
-          <dt>Signals and fields</dt>
-          <dd>Urban water demand and network pressure, day-ahead electricity price, and the temperature and composition fields of a processing step.</dd>
-          <dt>Learned dynamics</dt>
-          <dd>A forecast distribution over the scheduling horizon, or a neural operator that maps process settings and boundary conditions to a field trajectory.</dd>
-          <dt>Operating decision</dt>
-          <dd>Pump and purchase schedules, feedback control actions, and process set-points, each computed under physical and operating limits.</dd>
-        </dl>
-        <figcaption class="program-caption">Measured signals and fields train a model of the dynamics. The model is then used inside an optimization or control problem, and the decision it produces is scored. The dashed return path carries that score back to the model, so regret and constraint violation, rather than prediction error, become the signal that trains and tests it.</figcaption>
+        <img src="/assets/figures/research-overview/research-overview.svg" width="960" height="888" alt="Research overview. Physical AI narrows to the governing dynamics of physical systems. Two questions branch from that substrate: A, learning to solve the dynamics with neural operators and neural solvers, shown with a computed advection-diffusion field at three times; and B, the model-to-decision gap, shown with a computed curve of decision error that rises sharply near a critical point. Both are tested on materials processing (science) and on water and energy systems (engineering).">
+        <figcaption class="program-caption">Physical AI narrows to the governing dynamics of physical systems. Two questions branch from that substrate, learning to solve the dynamics (A) and the model-to-decision gap (B), and both are tested on materials processing and on water and energy systems. The two panels are computed on toy problems and illustrate a relation rather than report a result.</figcaption>
+        <p class="program-source"><a href="/assets/figures/research-overview/research-overview.pptx">Editable PowerPoint source of this figure</a></p>
       </figure>
 
       <ul class="directions">
-        <li class="d-forecast"><strong>Decision-focused forecasting under uncertainty.</strong> A probabilistic forecast is trained through the schedule it induces, so a forecast error is priced in operating cost instead of likelihood.</li>
-        <li class="d-operator"><strong>Neural operators for distributed dynamics.</strong> An operator maps initial conditions, geometry, and forcing to a field trajectory. I test it on field error, rollout error, and the sensitivities that a controller or an optimizer actually reads.</li>
-        <li class="d-control"><strong>Learning-based control.</strong> Model error accumulates over a control horizon. I study how much of it reaches the selected action, the closed-loop cost, and the constraint violation.</li>
-        <li class="d-material"><strong>AI for materials processing.</strong> With Professor Fengqi You, I build operators that map process conditions and boundary inputs to evolving material state fields, then use their rollouts and sensitivities for process control and constrained optimization.</li>
+        <li class="d-a"><strong>A. Learning to solve the dynamics.</strong> Neural operators and neural solvers that return the solution field for new initial conditions, boundary conditions, and forcing in one pass, with rollouts and sensitivities accurate enough for a controller or an optimizer to act on.</li>
+        <li class="d-b"><strong>B. The model-to-decision gap.</strong> How the error of a learned model reaches a control or optimization decision, measured as regret, closed-loop cost, and constraint violation. The gap is small over most of the state space and large near a critical point, and it returns to A as the training signal.</li>
+        <li class="d-c"><strong>C. Two branches of physical systems.</strong> Materials processing with Professor Fengqi You on the science side, and the water and energy systems of my Ph.D. on the engineering side, where the first measurements of the gap were made.</li>
       </ul>
       <p class="section__more"><a href="/research/">The full research program</a></p>
     </section>
@@ -199,10 +113,10 @@ body-classes: home-page
     <section class="home-section" id="news" aria-labelledby="news-title">
       <h2 class="section__title" id="news-title">News</h2>
       <ol class="news-list">
-        <li><time datetime="2026-08">Aug 2026</time><div>Joined Cornell University as an Ezra Systems Postdoctoral Associate! I work with Professor Fengqi You on AI for materials processing.</div></li>
+        <li><time datetime="2026-08">Aug 2026</time><div>Joined Cornell University as an Ezra Systems Postdoctoral Associate! I work with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on AI for materials processing.</div></li>
         <li><time datetime="2026-08">Aug 2026</time><div>Invited to review for ICLR 2027!</div></li>
         <li><time datetime="2026-07">Jul 2026</time><div><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT</a> appeared in <em>Expert Systems with Applications</em>.</div></li>
-        <li><time datetime="2026-06">Jun 2026</time><div>Received my Ph.D. from Shanghai Jiao Tong University! I thank my advisor, Professor Jingcheng Wang, and my labmates for six good years.</div></li>
+        <li><time datetime="2026-06">Jun 2026</time><div>Received my Ph.D. from Shanghai Jiao Tong University! I thank my advisor, <a href="https://ieeexplore.ieee.org/author/37280547200">Professor Jingcheng Wang</a>, and my labmates for six good years.</div></li>
         <li><time datetime="2025">2025</time><div><a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO</a> appeared in <em>IEEE Transactions on Smart Grid</em>.</div></li>
       </ol>
       <p class="section__more"><a href="/news/">All news</a></p>
@@ -216,8 +130,8 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p>
-            <p class="pub__venue"><em>IEEE Transactions on Smart Grid</em>, 2025 <span class="role role--first">First author</span></p>
-            <p class="pub__note">A differentiable upper bound on the downstream optimality gap puts scheduling cost into the training objective of the forecast.</p>
+            <p class="pub__venue"><em>IEEE Transactions on Smart Grid</em>, 2025 <span class="role role--first">First author</span> <span class="branch">Direction B</span></p>
+            <p class="pub__note">A differentiable upper bound on the downstream optimality gap puts scheduling cost into the training objective of the forecast, the first measurement of the model-to-decision gap in this line of work.</p>
           </div>
         </li>
         <li class="pub">
@@ -225,8 +139,8 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
-            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2024 <span class="role role--first">First author</span></p>
-            <p class="pub__note">Lag-penalty attention and posterior residual correction target the delayed response that appears near demand turning points.</p>
+            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2024 <span class="role role--first">First author</span> <span class="branch">Direction A</span></p>
+            <p class="pub__note">Lag-penalty attention and posterior residual correction target the delayed response of a learned temporal model near demand turning points.</p>
           </div>
         </li>
         <li class="pub">
@@ -234,7 +148,7 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
-            <p class="pub__venue"><em>IEEE Transactions on Computational Social Systems</em>, 2024 <span class="role role--first">First author</span></p>
+            <p class="pub__venue"><em>IEEE Transactions on Computational Social Systems</em>, 2024 <span class="role role--first">First author</span> <span class="branch">Direction A</span></p>
             <p class="pub__note">The Coder learns the pressure response to measured inputs, while the Critic carries the residual variation left by disturbances no sensor reports.</p>
           </div>
         </li>
@@ -243,8 +157,8 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></p>
             <p class="pub__authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong>Shunyu Wu</strong></p>
-            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2026 <span class="role role--last">Last author</span></p>
-            <p class="pub__note">A graph memory holds local LiDAR geometry and returns waypoint-specific context at each step of recurrent diffusion denoising.</p>
+            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2026 <span class="role role--last">Last author</span> <span class="branch">Direction B</span></p>
+            <p class="pub__note">A graph memory holds local LiDAR geometry and returns waypoint-specific context at each step of recurrent diffusion denoising, so the generated trajectory respects the geometry it moves through.</p>
           </div>
         </li>
         <li class="pub">
@@ -252,12 +166,12 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method</a></p>
             <p class="pub__authors">Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and <strong>Shunyu Wu</strong></p>
-            <p class="pub__venue"><em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>, 2024 <span class="role role--last">Last author</span></p>
+            <p class="pub__venue"><em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>, 2024 <span class="role role--last">Last author</span> <span class="branch">Direction B</span></p>
             <p class="pub__note">Nonlinear model predictive control supplies the initial weights, and a control barrier function with a nonquadratic loss holds the state and input constraints during learning.</p>
           </div>
         </li>
       </ol>
-      <p class="section__more"><a href="/publications/">All first- and last-author publications</a></p>
+      <p class="section__more"><a href="/publications/">All publications, grouped by direction</a></p>
     </section>
 
     <section class="home-section" id="service" aria-labelledby="service-title">

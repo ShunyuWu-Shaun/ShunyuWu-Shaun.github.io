@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
+    - "!assets/**"
   resources:
     - c7d4984f38601437316bea01e3143bfe.txt
     - google60c018834eaa5cb7.html
@@ -8,6 +12,11 @@ project:
     - assets/images/citation-geography.svg
     - "!_site/**"
     - "!README.md"
+    - "!assets/figures/**/*.py"
+    - "!assets/figures/**/*.md"
+    - "!assets/figures/**/*.png"
+    - "!assets/figures/**/*.pdf"
+    - "!assets/figures/**/panel_*"
 
 website:
   title: "Shunyu Wu"

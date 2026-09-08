@@ -17,13 +17,34 @@ GitHub Actions workflow deploys. Nothing in `_site/` is committed.
 
 | Path | Page |
 |---|---|
-| `index.qmd` | Home: profile column, research figure, news, selected papers, latest note |
+| `index.qmd` | Home: profile column, research overview figure, three directions, news, selected papers, latest note |
 | `news/index.qmd` | News timeline |
-| `research/index.qmd` | Research program |
-| `publications/index.qmd` | First- and last-author publications |
-| `projects/` | Research projects and source-linked summaries |
+| `research/index.qmd` | Research program: Physical AI, the governing dynamics as substrate, directions A, B, C |
+| `publications/index.qmd` | Publications grouped by direction, with a branch tag on each |
+| `projects/` | Research projects grouped by direction, with source-linked summaries |
 | `thinking/index.qmd` | Short working notes, newest first |
 | `service/index.qmd`, `contact/index.qmd` | Service, contact |
+
+The three directions are A, learning to solve the dynamics; B, the
+model-to-decision gap; and C, the two branches of physical systems, science
+(materials processing) and engineering (water and energy systems). Keep the
+letters and the names identical across the home page, the research page, the
+publication groups, and the project headings.
+
+## The research overview figure
+
+The figure on the home page is built from `assets/figures/research-overview/`:
+
+- `00_figure_contract.md` states what the figure must say before anything is drawn;
+- `panels.py` computes the two Matplotlib panels;
+- `figure.py` writes the same layout twice, as an editable PowerPoint file
+  (`research-overview.pptx`, native shapes) and as the self-contained SVG the
+  home page embeds (`research-overview.svg`);
+- `01_figure_notes.md` records the QA run.
+
+Rebuild with `python3 panels.py && python3 figure.py` inside that folder. Only
+the SVG and the PPTX are published; the sources, PNGs and PDF are excluded in
+`_quarto.yml`.
 
 ## Adding a note to Thinking
 
@@ -47,14 +68,8 @@ One stylesheet, `assets/css/site.css`, organised in numbered sections and
 driven by custom properties at the top. A sticky profile column on the left
 holds the portrait, appointment and links; the right column holds the prose.
 Body text is IBM Plex Sans and headings are IBM Plex Serif, both loaded from
-Google Fonts. Four accent colours mark the four research directions and are
-reused in the home-page figure: blue for decision-focused forecasting, teal
-for neural operators, indigo for learning-based control, and rust for
-materials processing.
-
-The home-page figure is hand-written SVG inside `index.qmd`. Its three panels
-are drawn to scale from real quantities, so edits should keep the axes, the
-capacity limit and the return path consistent with the key below the figure.
+Google Fonts. The three directions carry the same hues as the figure: blue for
+A, red for B, teal for C.
 
 ## Citation geography
 

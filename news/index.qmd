@@ -13,7 +13,7 @@ body-classes: news-page
   </article>
   <article class="news-item">
     <time datetime="2026-08">Aug 2026</time>
-    <div><h2>Joined Cornell University as an Ezra Systems Postdoctoral Associate!</h2><p>I am in the Systems Engineering Program, working with <strong>Professor Fengqi You</strong> on AI for materials processing. Neural operators model the distributed process dynamics, and their rollouts feed control and constrained optimization.</p></div>
+    <div><h2>Joined Cornell University as an Ezra Systems Postdoctoral Associate!</h2><p>I am in the Systems Engineering Program, working with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on AI for materials processing. Neural operators solve the distributed process dynamics, and their rollouts feed control and constrained optimization.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2026-07">Jul 2026</time>
@@ -21,7 +21,7 @@ body-classes: news-page
   </article>
   <article class="news-item">
     <time datetime="2026-06">Jun 2026</time>
-    <div><h2>Received my Ph.D. from Shanghai Jiao Tong University!</h2><p>I thank my advisor, <strong>Professor Jingcheng Wang</strong>, for six years of guidance, and my labmates for the arguments and the company.</p></div>
+    <div><h2>Received my Ph.D. from Shanghai Jiao Tong University!</h2><p>I thank my advisor, <a href="https://ieeexplore.ieee.org/author/37280547200">Professor Jingcheng Wang</a>, for six years of guidance, and my labmates for the arguments and the company.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2026">2026</time>

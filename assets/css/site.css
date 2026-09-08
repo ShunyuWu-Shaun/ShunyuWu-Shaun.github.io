@@ -517,10 +517,9 @@ body:not(.home-page) main table.table {
   background: var(--dot, var(--link));
 }
 
-.directions .d-forecast { --dot: var(--c-forecast); }
-.directions .d-operator { --dot: var(--c-operator); }
-.directions .d-control { --dot: var(--c-control); }
-.directions .d-material { --dot: var(--c-material); }
+.directions .d-a { --dot: #0F4D92; }
+.directions .d-b { --dot: #B64342; }
+.directions .d-c { --dot: #42949E; }
 
 .directions strong {
   color: var(--ink);
@@ -533,10 +532,16 @@ body:not(.home-page) main table.table {
   margin: 0 0 1.4rem;
 }
 
-.program svg {
+.program svg,
+.program img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.program-source {
+  margin: 0.4rem 0 0;
+  font-size: 0.85rem;
 }
 
 .diagram-label {
@@ -916,6 +921,30 @@ body:not(.home-page) .paper-card h3 {
   font-size: 0.86rem;
   line-height: 1.5;
 }
+
+.publication-branch-note {
+  margin-top: 1.4rem;
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+
+/* Branch tag used in project and publication headings */
+.branch {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.05em 0.45em;
+  color: #317078;
+  border: 1px solid color-mix(in srgb, #42949E 45%, transparent);
+  border-radius: 3px;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  vertical-align: 0.15em;
+}
+
+.branch--sci { color: #0F4D92; border-color: color-mix(in srgb, #0F4D92 40%, transparent); }
 
 /* -- 12  Research projects page ------------------------------------------- */
 

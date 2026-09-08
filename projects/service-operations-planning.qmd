@@ -6,27 +6,27 @@ toc: true
 
 ## Physical quantities under incomplete observation
 
-Urban water systems are observed through demand and pressure time series. Average prediction error does not reveal whether a model responds late to a changing demand trajectory or misses pressure variation associated with an unobserved disturbance. The two studies below isolate these sources of error.
+Urban water systems are observed through demand and pressure time series. Average prediction error does not show whether a model responds late to a change in demand, or whether it misses pressure variation caused by an unmeasured disturbance. The two studies below isolate these two errors.
 
 ## Demand dynamics near turning points
 
-Daily urban water demand is nonlinear and nonstationary. The [knowledge-based bi-correction model](https://doi.org/10.1016/j.eswa.2024.124508) focuses on forecast lag near turning points, where the predicted response follows a change in demand too late. Lag-penalty attention extracts sequence and feature information associated with timely demand changes. A stacked LSTM produces the primary forecast, after which a masked weighted Markov chain corrects selected residuals using posterior error information.
+Daily urban water demand is nonlinear and nonstationary. The [knowledge-based bi-correction model](https://doi.org/10.1016/j.eswa.2024.124508) addresses forecast lag near turning points, where the predicted response follows a change in demand too late. Lag-penalty attention weights the sequence and feature information that marks a timely change. A stacked LSTM produces the forecast, and a masked weighted Markov chain corrects selected residuals from the posterior error.
 
 ## Evaluation of response timing
 
-The study introduces mean prediction trend effectiveness to test whether the predicted trend improves on a naive forecast. Reporting this quantity with absolute-error metrics distinguishes delayed response near a turning point from numerical error in demand magnitude.
+The study introduces mean prediction trend effectiveness, which tests whether the predicted trend improves on a naive forecast. Reported next to the absolute-error metrics, it separates delayed response near a turning point from error in the demand magnitude.
 
 ## Pressure response under unobserved disturbances
 
-[CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) models macroscopic pressure when measured variables do not explain every disturbance in a water distribution system. The Coder approximates the pressure response associated with observed variables. By changing the loss, the Critic represents the remaining variation as a distribution of uncertain disturbances associated with unobserved variables.
+[CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) models macroscopic pressure when the measured variables do not explain every disturbance in a water distribution system. The Coder learns the pressure response to the observed variables. The Critic, trained with a different loss, represents the remaining variation as a distribution over the unmeasured disturbances.
 
 ## Evaluation of disturbance sensitivity
 
-The node-level comparison tests pressure monitors with different disturbance strengths. At nodes more strongly affected by unobserved disturbances, CritiCoder shows a smaller decline in predictive performance than the tested regression baselines.
+The node-level comparison covers pressure monitors with different disturbance strengths. At the nodes most affected by unmeasured disturbances, CritiCoder loses less predictive accuracy than the regression baselines.
 
-## Relation to Physical AI for Science
+## Relation to physical intelligence
 
-The studies resolve two properties of the state information supplied to later scheduling or control. KbBcM tests whether a sequence model follows the direction of demand change at the correct time. CritiCoder tests how pressure prediction behaves when measured inputs leave part of the variation unresolved. Together, they represent response timing and residual state uncertainty at the level of the urban water system.
+The two studies measure two properties of the state that later scheduling or control will use. KbBcM tests whether a sequence model follows a change in demand at the right time. CritiCoder tests how pressure prediction behaves when the measured inputs leave part of the variation unexplained. Both belong to direction B, learning the dynamics, and both are scored by errors that a later decision would see.
 
 ## Publications
 

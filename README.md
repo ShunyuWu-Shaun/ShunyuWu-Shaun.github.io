@@ -19,32 +19,32 @@ GitHub Actions workflow deploys. Nothing in `_site/` is committed.
 |---|---|
 | `index.qmd` | Home: profile column, research overview figure, three directions, news, selected papers, latest note |
 | `news/index.qmd` | News timeline |
-| `research/index.qmd` | Research program: Physical AI, the governing dynamics as substrate, directions A, B, C |
+| `research/index.qmd` | Research program: physical intelligence, the governing dynamics as substrate, directions A, B, C |
 | `publications/index.qmd` | Publications grouped by direction, with a branch tag on each |
 | `projects/` | Research projects grouped by direction, with source-linked summaries |
 | `thinking/index.qmd` | Short working notes, newest first |
 | `service/index.qmd`, `contact/index.qmd` | Service, contact |
 
-The three directions are A, learning to solve the dynamics; B, the
-model-to-decision gap; and C, the two branches of physical systems, science
-(materials processing) and engineering (water and energy systems). Keep the
-letters and the names identical across the home page, the research page, the
-publication groups, and the project headings.
+The three directions are A, the physical systems in science and engineering;
+B, solving the dynamics with neural networks; and C, the model-to-decision
+gap. Keep the letters and the names identical across the home page, the
+research page, the publication groups, and the project headings.
 
-## The research overview figure
+## The research architecture figure
 
-The figure on the home page is built from `assets/figures/research-overview/`:
+The figure on the home page is HTML and CSS (the `.arch` rules in
+`assets/css/site.css`) with three Matplotlib panels embedded as inline SVG, so
+the page font and the page colours apply to everything in it. It is built from
+`assets/figures/research-overview/`:
 
 - `00_figure_contract.md` states what the figure must say before anything is drawn;
-- `panels.py` computes the two Matplotlib panels;
-- `figure.py` writes the same layout twice, as an editable PowerPoint file
-  (`research-overview.pptx`, native shapes) and as the self-contained SVG the
-  home page embeds (`research-overview.svg`);
+- `panels.py` computes the three panels (illustrative demand and price, a solved
+  advection-diffusion field, and the decision error of a bistable system);
+- `build.py` writes `_includes/research-overview.qmd`, which `index.qmd` includes;
 - `01_figure_notes.md` records the QA run.
 
-Rebuild with `python3 panels.py && python3 figure.py` inside that folder. Only
-the SVG and the PPTX are published; the sources, PNGs and PDF are excluded in
-`_quarto.yml`.
+Rebuild with `python3 panels.py && python3 build.py` inside that folder. The
+folder itself is excluded from rendering and from the published resources.
 
 ## Adding a note to Thinking
 
@@ -68,8 +68,10 @@ One stylesheet, `assets/css/site.css`, organised in numbered sections and
 driven by custom properties at the top. A sticky profile column on the left
 holds the portrait, appointment and links; the right column holds the prose.
 Body text is IBM Plex Sans and headings are IBM Plex Serif, both loaded from
-Google Fonts. The three directions carry the same hues as the figure: blue for
-A, red for B, teal for C.
+Google Fonts. Three colours from the top-conference figure library carry the
+three directions everywhere, in the figure, the direction list, and the tags:
+purple `#9467BD` for A, teal `#31859A` for B, coral `#EA7F6F` for C. Links use
+the teal.
 
 ## Citation geography
 

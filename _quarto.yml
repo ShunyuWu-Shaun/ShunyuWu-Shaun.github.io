@@ -11,6 +11,7 @@ project:
     - assets/images/publications/**
     - assets/images/citation-geography.svg
     - "!_site/**"
+    - "!_includes/**"
     - "!README.md"
     - "!assets/figures/**/*.py"
     - "!assets/figures/**/*.md"

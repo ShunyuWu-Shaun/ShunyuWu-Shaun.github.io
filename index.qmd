@@ -1,7 +1,7 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
-subtitle: "Learning to solve physical dynamics, and what a learned model does to a decision"
-description-meta: "Shunyu Wu works on neural solvers for the governing dynamics of physical systems and on the model-to-decision gap, tested on materials processing and on water and energy systems."
+subtitle: "Solving physical dynamics with neural networks, and the model-to-decision gap"
+description-meta: "Shunyu Wu trains neural networks to solve the governing dynamics of physical systems and measures the model-to-decision gap, on materials processing and on water and energy systems."
 toc: false
 page-layout: full
 body-classes: home-page
@@ -37,7 +37,7 @@ body-classes: home-page
         "https://www.researchgate.net/profile/Shunyu-Wu"
       ],
       "knowsAbout": [
-        "Physical AI",
+        "Physical intelligence",
         "Neural operators",
         "Operator learning",
         "Neural PDE solvers",
@@ -90,22 +90,20 @@ body-classes: home-page
     <section class="home-section" id="about" aria-labelledby="about-title">
       <h2 class="section__title" id="about-title">About</h2>
       <p>I am an Ezra Systems Postdoctoral Associate in Systems Engineering at Cornell University, where I work with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on AI for materials processing. I completed my Ph.D. at Shanghai Jiao Tong University in 2026 under <a href="https://ieeexplore.ieee.org/author/37280547200">Professor Jingcheng Wang</a>.</p>
-      <p>Physical AI is the study of learning systems that observe, model, and act on physical systems. Its questions in science and engineering rest on one substrate, the governing dynamics of the system, and that substrate is where my work sits. I ask whether a neural network can solve those dynamics fast enough for design and control to use it, and what happens to a decision when the learned solution is slightly wrong. The second question has a name on this site, the model-to-decision gap, and an answer that depends on where the system is. Over most of the state space the gap is small. Near a critical point it is not.</p>
+      <p>Physical intelligence is the ability of a learning system to model a physical system and to act on it. Both parts rest on the governing dynamics of the system. I train neural networks to solve those dynamics fast enough for design and control, and I measure how the error that remains in the learned solution changes the decision made with it.</p>
     </section>
 
     <section class="home-section" id="research" aria-labelledby="research-title">
       <h2 class="section__title" id="research-title">Research</h2>
+```
 
-      <figure class="program">
-        <img src="/assets/figures/research-overview/research-overview.svg" width="960" height="888" alt="Research overview. Physical AI narrows to the governing dynamics of physical systems. Two questions branch from that substrate: A, learning to solve the dynamics with neural operators and neural solvers, shown with a computed advection-diffusion field at three times; and B, the model-to-decision gap, shown with a computed curve of decision error that rises sharply near a critical point. Both are tested on materials processing (science) and on water and energy systems (engineering).">
-        <figcaption class="program-caption">Physical AI narrows to the governing dynamics of physical systems. Two questions branch from that substrate, learning to solve the dynamics (A) and the model-to-decision gap (B), and both are tested on materials processing and on water and energy systems. The two panels are computed on toy problems and illustrate a relation rather than report a result.</figcaption>
-        <p class="program-source"><a href="/assets/figures/research-overview/research-overview.pptx">Editable PowerPoint source of this figure</a></p>
-      </figure>
+{{< include _includes/research-overview.qmd >}}
 
+```{=html}
       <ul class="directions">
-        <li class="d-a"><strong>A. Learning to solve the dynamics.</strong> Neural operators and neural solvers that return the solution field for new initial conditions, boundary conditions, and forcing in one pass, with rollouts and sensitivities accurate enough for a controller or an optimizer to act on.</li>
-        <li class="d-b"><strong>B. The model-to-decision gap.</strong> How the error of a learned model reaches a control or optimization decision, measured as regret, closed-loop cost, and constraint violation. The gap is small over most of the state space and large near a critical point, and it returns to A as the training signal.</li>
-        <li class="d-c"><strong>C. Two branches of physical systems.</strong> Materials processing with Professor Fengqi You on the science side, and the water and energy systems of my Ph.D. on the engineering side, where the first measurements of the gap were made.</li>
+        <li class="d-a"><strong>A. Physical systems in science and engineering.</strong> Science: the temperature and composition fields of a materials processing step, with Professor Fengqi You. Engineering: urban water demand, network pressure, day-ahead electricity price, and hot-strip rolling energy, from my Ph.D. with Professor Jingcheng Wang.</li>
+        <li class="d-b"><strong>B. Solving the dynamics with neural networks.</strong> A neural operator maps initial conditions, boundary conditions, and forcing to the solution field in one forward pass. I train it so that its rollouts and sensitivities are accurate enough for a controller or an optimizer to use.</li>
+        <li class="d-c"><strong>C. The model-to-decision gap.</strong> The difference between the decision computed from the learned model and the decision computed from the true dynamics. It is small over most of the state space and large near a critical point, and it is the training signal for B.</li>
       </ul>
       <p class="section__more"><a href="/research/">The full research program</a></p>
     </section>
@@ -130,8 +128,8 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p>
-            <p class="pub__venue"><em>IEEE Transactions on Smart Grid</em>, 2025 <span class="role role--first">First author</span> <span class="branch">Direction B</span></p>
-            <p class="pub__note">A differentiable upper bound on the downstream optimality gap puts scheduling cost into the training objective of the forecast, the first measurement of the model-to-decision gap in this line of work.</p>
+            <p class="pub__venue"><em>IEEE Transactions on Smart Grid</em>, 2025 <span class="role role--first">First author</span> <span class="branch branch--c">Direction C</span></p>
+            <p class="pub__note">A differentiable upper bound on the downstream optimality gap puts the scheduling cost into the training objective of the forecast.</p>
           </div>
         </li>
         <li class="pub">
@@ -139,7 +137,7 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
-            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2024 <span class="role role--first">First author</span> <span class="branch">Direction A</span></p>
+            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2024 <span class="role role--first">First author</span> <span class="branch branch--b">Direction B</span></p>
             <p class="pub__note">Lag-penalty attention and posterior residual correction target the delayed response of a learned temporal model near demand turning points.</p>
           </div>
         </li>
@@ -148,8 +146,8 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
-            <p class="pub__venue"><em>IEEE Transactions on Computational Social Systems</em>, 2024 <span class="role role--first">First author</span> <span class="branch">Direction A</span></p>
-            <p class="pub__note">The Coder learns the pressure response to measured inputs, while the Critic carries the residual variation left by disturbances no sensor reports.</p>
+            <p class="pub__venue"><em>IEEE Transactions on Computational Social Systems</em>, 2024 <span class="role role--first">First author</span> <span class="branch branch--b">Direction B</span></p>
+            <p class="pub__note">The Coder learns the pressure response to measured inputs. The Critic carries the residual variation caused by unmeasured disturbances.</p>
           </div>
         </li>
         <li class="pub">
@@ -157,7 +155,7 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></p>
             <p class="pub__authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong>Shunyu Wu</strong></p>
-            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2026 <span class="role role--last">Last author</span> <span class="branch">Direction B</span></p>
+            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2026 <span class="role role--last">Last author</span> <span class="branch branch--c">Direction C</span></p>
             <p class="pub__note">A graph memory holds local LiDAR geometry and returns waypoint-specific context at each step of recurrent diffusion denoising, so the generated trajectory respects the geometry it moves through.</p>
           </div>
         </li>
@@ -166,8 +164,8 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method</a></p>
             <p class="pub__authors">Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and <strong>Shunyu Wu</strong></p>
-            <p class="pub__venue"><em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>, 2024 <span class="role role--last">Last author</span> <span class="branch">Direction B</span></p>
-            <p class="pub__note">Nonlinear model predictive control supplies the initial weights, and a control barrier function with a nonquadratic loss holds the state and input constraints during learning.</p>
+            <p class="pub__venue"><em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>, 2024 <span class="role role--last">Last author</span> <span class="branch branch--c">Direction C</span></p>
+            <p class="pub__note">Nonlinear model predictive control supplies the initial weights. A control barrier function with a nonquadratic loss keeps the state and input constraints active during learning.</p>
           </div>
         </li>
       </ol>
@@ -176,7 +174,7 @@ body-classes: home-page
 
     <section class="home-section" id="service" aria-labelledby="service-title">
       <h2 class="section__title" id="service-title">Academic service</h2>
-      <p>I review for ICLR in the 2025 and 2026 cycles and have been invited for 2027, and I have also reviewed for ICML, NeurIPS, AAAI, and CDC. On the journal side I review for four IEEE Transactions and for <em>Scientific Reports</em>.</p>
+      <p>I review for ICLR in the 2025 and 2026 cycles and have been invited for 2027. I have also reviewed for ICML, NeurIPS, AAAI, and CDC, and for four IEEE Transactions and <em>Scientific Reports</em>.</p>
       <p class="section__more"><a href="/service/">Reviewing, teaching, and mentoring</a></p>
     </section>
 
@@ -184,7 +182,7 @@ body-classes: home-page
       <h2 class="section__title" id="reach-title">Citation geography</h2>
       <figure class="reach">
         <img loading="lazy" decoding="async" src="/assets/images/citation-geography.svg" width="980" height="460" alt="World map showing the relative geographic distribution of citations to publications in Shunyu Wu's Google Scholar profile.">
-        <figcaption>Where the publications in my <a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=en">Google Scholar profile</a> are cited. Larger marks indicate higher relative citation frequency, and the affiliation geography comes from <a href="https://openalex.org/">OpenAlex</a>.</figcaption>
+        <figcaption>Where the publications in my <a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=en">Google Scholar profile</a> are cited. Larger marks indicate higher relative citation frequency. The affiliation geography comes from <a href="https://openalex.org/">OpenAlex</a>.</figcaption>
       </figure>
     </section>
 

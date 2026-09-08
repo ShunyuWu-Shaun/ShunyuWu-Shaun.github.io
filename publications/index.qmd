@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: "First- and last-author publications by Shunyu Wu, grouped by research direction: learning to solve physical dynamics, the model-to-decision gap, and the two branches of physical systems they are tested on."
+description: "First- and last-author publications by Shunyu Wu, grouped by research direction: the physical systems, the neural solver, and the model-to-decision gap."
 toc: false
 body-classes: publication-page
 ---
@@ -9,18 +9,37 @@ body-classes: publication-page
 <div class="publication-intro">
   <div class="publication-rule">4 first-author / 6 last-author papers</div>
   <div>
-    <p>The papers are grouped by the <a href="/research/">three directions</a> of the research program. Direction A learns a dynamical map and is judged by the timing and sensitivity errors a later decision would see. Direction B measures what a learned model's error does to the decision itself. Direction C is the engineering branch on which both were first tested; the science branch, materials processing, is in progress.</p>
+    <p>The papers are grouped by the <a href="/research/">three directions</a>. Direction A is the physical systems. Direction B learns a dynamical map and is judged by the errors a later decision would see. Direction C measures what the model error does to the decision itself. The tag on each paper names the system it was tested on.</p>
     <p><a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0001-9856-2148">ORCID</a> · <a href="https://www.researchgate.net/profile/Shunyu-Wu">ResearchGate</a></p>
   </div>
 </div>
 ```
 
 ```{=html}
-<p class="publication-section-label">A. Learning to solve the dynamics</p>
+<p class="publication-section-label">A. Physical systems in science and engineering</p>
 
 <div class="publication-grid">
   <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1016/j.eswa.2024.124508"><img src="/assets/images/publications/kbbcm.svg" width="800" height="500" alt="Bi-correction model visual abstract showing lag-penalty attention and posterior error correction"></a>
+    <a class="paper-visual" href="https://doi.org/10.23919/CCC52363.2021.9550267"><img src="/assets/images/publications/leakage-ensemble.svg" width="800" height="500" alt="Improved multi-model ensemble visual abstract for water leakage detection"></a>
+    <div class="paper-body">
+      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>CCC · 2021</span><span class="branch">Engineering</span></p>
+      <h3><a href="https://doi.org/10.23919/CCC52363.2021.9550267">An Improved Ensemble Deep Learning Model for Water Leakage Detection</a></h3>
+      <p class="paper-authors">Shuwei Zhang, Miaoshun Bai, Jingcheng Wang, Haotian Xu, and <strong class="author-self">Shunyu Wu</strong></p>
+      <p class="paper-claim">A weighted-voting ensemble of deep classifiers locates leakage events in a simulated water-distribution network.</p>
+      <div class="paper-links"><a href="https://doi.org/10.23919/CCC52363.2021.9550267">DOI</a><a href="https://www.researchgate.net/publication/355120915_An_Improved_Ensemble_Deep_Learning_Model_for_Water_Leakage_Detection">Author copy</a></div>
+    </div>
+  </article>
+</div>
+
+<p class="publication-branch-note">The science system, materials processing with <a href="https://www.peese.org/professor/">Professor Fengqi You</a>, is in progress and is described under <a href="/projects/">research projects</a>.</p>
+```
+
+```{=html}
+<p class="publication-section-label">B. Solving the dynamics with neural networks</p>
+
+<div class="publication-grid">
+  <article class="paper-card">
+    <a class="paper-visual" href="https://doi.org/10.1016/j.eswa.2024.124508"><img loading="lazy" src="/assets/images/publications/kbbcm.svg" width="800" height="500" alt="Bi-correction model visual abstract showing lag-penalty attention and posterior error correction"></a>
     <div class="paper-body">
       <p class="paper-meta"><span class="author-role">First author</span><span>ESWA · 2024</span><span class="branch">Engineering</span></p>
       <h3><a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting</a></h3>
@@ -36,7 +55,7 @@ body-classes: publication-page
       <p class="paper-meta"><span class="author-role">First author</span><span>IEEE TCSS · 2024</span><span class="branch">Engineering</span></p>
       <h3><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems</a></h3>
       <p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
-      <p class="paper-claim">The Coder learns the pressure response to measured variables, while the Critic carries the residual variation left by disturbances no sensor reports.</p>
+      <p class="paper-claim">The Coder learns the pressure response to measured variables. The Critic carries the residual variation caused by unmeasured disturbances.</p>
       <div class="paper-links"><a href="https://doi.org/10.1109/TCSS.2023.3272330">DOI</a></div>
     </div>
   </article>
@@ -58,7 +77,7 @@ body-classes: publication-page
       <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IEEE TASE · 2024</span><span class="branch">Engineering</span></p>
       <h3><a href="https://doi.org/10.1109/TASE.2023.3299185">A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling</a></h3>
       <p class="paper-authors">Yanjiu Zhong, Jingcheng Wang, Jun Rao, Jiahui Xu, and <strong class="author-self">Shunyu Wu</strong></p>
-      <p class="paper-claim">A DCLS-Net models each rolling pass, and series concatenation passes the state of one pass to the next so that multi-step error stops accumulating.</p>
+      <p class="paper-claim">A DCLS-Net models each rolling pass, and series concatenation passes the state of one pass to the next so that the multi-step error stops accumulating.</p>
       <div class="paper-links"><a href="https://doi.org/10.1109/TASE.2023.3299185">DOI</a></div>
     </div>
   </article>
@@ -77,7 +96,7 @@ body-classes: publication-page
 ```
 
 ```{=html}
-<p class="publication-section-label">B. The model-to-decision gap</p>
+<p class="publication-section-label">C. The model-to-decision gap</p>
 
 <div class="publication-grid">
   <article class="paper-card">
@@ -86,7 +105,7 @@ body-classes: publication-page
       <p class="paper-meta"><span class="author-role">First author</span><span>IEEE TSG · 2025</span><span class="branch">Engineering</span></p>
       <h3><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></h3>
       <p class="paper-authors"><strong class="author-self">Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p>
-      <p class="paper-claim">A probabilistic forecast is trained through the stochastic schedule it induces, with a differentiable convex upper bound on the optimality gap carrying scheduling cost back to the predictor.</p>
+      <p class="paper-claim">A probabilistic forecast is trained through the stochastic schedule it induces. A differentiable convex upper bound on the optimality gap carries the scheduling cost back to the forecast.</p>
       <div class="paper-links"><a href="https://doi.org/10.1109/TSG.2025.3601238">DOI</a></div>
     </div>
   </article>
@@ -97,7 +116,7 @@ body-classes: publication-page
       <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IEEE TSMC · 2024</span><span class="branch">Engineering</span></p>
       <h3><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method</a></h3>
       <p class="paper-authors">Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and <strong class="author-self">Shunyu Wu</strong></p>
-      <p class="paper-claim">Nonlinear model predictive control supplies the initial weights, and a control barrier function with a nonquadratic loss keeps state and input constraints active during learning.</p>
+      <p class="paper-claim">Nonlinear model predictive control supplies the initial weights. A control barrier function with a nonquadratic loss keeps state and input constraints active during learning.</p>
       <div class="paper-links"><a href="https://doi.org/10.1109/TSMC.2023.3344883">DOI</a></div>
     </div>
   </article>
@@ -119,28 +138,9 @@ body-classes: publication-page
       <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>ESWA · 2026</span><span class="branch">Robotics</span></p>
       <h3><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></h3>
       <p class="paper-authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong class="author-self">Shunyu Wu</strong></p>
-      <p class="paper-claim">A graph memory holds local LiDAR geometry and returns waypoint-specific context at each step of recurrent diffusion denoising, so a generated trajectory is tested against the geometry it must move through.</p>
+      <p class="paper-claim">A graph memory holds local LiDAR geometry and returns waypoint-specific context at each step of recurrent diffusion denoising. The generated trajectory is tested against the geometry it moves through.</p>
       <div class="paper-links"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DOI</a></div>
     </div>
   </article>
 </div>
-```
-
-```{=html}
-<p class="publication-section-label">C. Two branches of physical systems</p>
-
-<div class="publication-grid">
-  <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.23919/CCC52363.2021.9550267"><img loading="lazy" src="/assets/images/publications/leakage-ensemble.svg" width="800" height="500" alt="Improved multi-model ensemble visual abstract for water leakage detection"></a>
-    <div class="paper-body">
-      <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>CCC · 2021</span><span class="branch">Engineering</span></p>
-      <h3><a href="https://doi.org/10.23919/CCC52363.2021.9550267">An Improved Ensemble Deep Learning Model for Water Leakage Detection</a></h3>
-      <p class="paper-authors">Shuwei Zhang, Miaoshun Bai, Jingcheng Wang, Haotian Xu, and <strong class="author-self">Shunyu Wu</strong></p>
-      <p class="paper-claim">A weighted-voting ensemble of deep classifiers locates leakage events in a simulated water-distribution network, the monitoring side of the engineering branch.</p>
-      <div class="paper-links"><a href="https://doi.org/10.23919/CCC52363.2021.9550267">DOI</a><a href="https://www.researchgate.net/publication/355120915_An_Improved_Ensemble_Deep_Learning_Model_for_Water_Leakage_Detection">Author copy</a></div>
-    </div>
-  </article>
-</div>
-
-<p class="publication-branch-note">The science branch, neural operators for materials processing with <a href="https://www.peese.org/professor/">Professor Fengqi You</a>, is described under <a href="/projects/">research projects</a>.</p>
 ```

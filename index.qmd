@@ -194,9 +194,9 @@ body-classes: home-page
       <p>Short notes on questions I keep returning to.</p>
       <div class="notes">
         <article class="note">
-          <p class="note__meta"><time datetime="2026-09-07T11:40:00-04:00">7 September 2026, EDT (UTC−04:00)</time><span>Ithaca, New York</span></p>
-          <h3 class="note__title"><a href="/thinking/#emergence-and-physical-intelligence">Emergence and physical intelligence</a></h3>
-          <p>I do not expect physical intelligence to show the emergence reported for large language models. If a mechanism for wide transfer exists, it should come from structure rather than from parameter count, because the laws that govern a physical system have always turned out to be short.</p>
+          <p class="note__meta"><time datetime="2026-09-09T18:06:06-04:00">9 September 2026, EDT (UTC−04:00)</time></p>
+          <h3 class="note__title"><a href="/thinking/#from-language-to-reliable-control">From language to reliable control</a></h3>
+          <p>Recent GPT-6 robotic-arm demos make me think the gap between language and action is narrowing: bounded tasks may allow models to translate intent into code and revise it through feedback. I suspect stronger models could design longer action sequences and the closed-loop code to execute them. I see the harder gap in extending this to quadrupeds and humanoids, which need control policies that maintain balance through changing contacts and disturbances.</p>
         </article>
       </div>
       <p class="section__more"><a href="/thinking/">All notes</a></p>

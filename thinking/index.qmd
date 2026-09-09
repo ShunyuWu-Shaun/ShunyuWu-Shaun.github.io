@@ -14,6 +14,13 @@ Short notes on questions I keep returning to. Each carries the date and the time
      is the intended length. Update the note shown in the Thinking section of
      index.qmd so the home page carries the newest one. -->
 <div class="notes">
+  <article class="note" id="from-language-to-reliable-control">
+    <p class="note__meta">
+      <time datetime="2026-09-09T18:06:06-04:00">9 September 2026, EDT (UTC−04:00)</time>
+    </p>
+    <h2 class="note__title">From language to reliable control</h2>
+    <p>Recent GPT-6 robotic-arm demos make me think the gap between language and action is narrowing: bounded tasks may allow models to translate intent into code and revise it through feedback. I suspect stronger models could design longer action sequences and the closed-loop code to execute them. I see the harder gap in extending this to quadrupeds and humanoids, which need control policies that maintain balance through changing contacts and disturbances.</p>
+  </article>
   <article class="note" id="emergence-and-physical-intelligence">
     <p class="note__meta">
       <time datetime="2026-09-07T11:40:00-04:00">7 September 2026, EDT (UTC−04:00)</time>

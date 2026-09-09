@@ -1,7 +1,7 @@
 ```{=html}
 <figure class="logic" aria-labelledby="logic-caption">
   <div class="logic__scroll">
-  <svg viewBox="0 0 640 445" role="img" aria-label="The research line as six steps. 1: a physical system evolves by its governing dynamics. 2: every control or optimization step requires the dynamics to be solved again. 3: a neural solver learns the solution map and returns a solution in one pass. 4: each learned solution contains an error. 5: the error moves the decision a little in most regimes and a lot near a critical point. 6: so the solver is trained and tested on the decision error, and this loops back to step 3.">
+  <svg viewBox="0 0 640 445" role="img" aria-label="The research process in six steps. 1: the governing equations describe how a system changes. 2: each control or optimization step requires solving these equations again. 3: a neural solver learns the solution map and returns a solution in one pass. 4: each learned solution contains an error. 5: the error changes the decision slightly in most regimes and substantially near a critical point. 6: training and evaluation use decision error rather than field error. Decision error provides feedback from step 6 to step 3.">
     <defs>
       <marker id="lg-head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c9604f"/></marker>
     </defs>
@@ -12,15 +12,15 @@
     </g>
 
     <path class="lg-return" d="M49 410H22V200H47" marker-end="url(#lg-head)"/>
-    <text class="lg-r" transform="translate(13 318) rotate(-90)">trains and tests the solver</text>
+    <text class="lg-r" transform="translate(13 318) rotate(-90)">trains and evaluates the solver</text>
 
     <g class="lg-a"><circle cx="62" cy="44" r="13"/><text class="lg-n" x="62" y="48.5" text-anchor="middle">1</text></g>
-    <text class="lg-t" x="92" y="40">A physical system evolves by its governing dynamics.</text>
+    <text class="lg-t" x="92" y="40">The governing equations describe how a system changes.</text>
     <text class="lg-s" x="92" y="60">iCVD with liquid crystals · power generation · water supply · hot-strip rolling</text>
 
     <g class="lg-b"><circle cx="62" cy="126" r="13"/><text class="lg-n" x="62" y="130.5" text-anchor="middle">2</text></g>
-    <text class="lg-t" x="92" y="121">Every control or optimization step requires the dynamics</text>
-    <text class="lg-t" x="92" y="141">to be solved again.</text>
+    <text class="lg-t" x="92" y="121">Each control or optimization step requires solving</text>
+    <text class="lg-t" x="92" y="141">these equations again.</text>
 
     <g class="lg-b"><circle cx="62" cy="200" r="13"/><text class="lg-n" x="62" y="204.5" text-anchor="middle">3</text></g>
     <text class="lg-t" x="92" y="195">A neural solver learns the solution map and returns</text>
@@ -30,12 +30,12 @@
     <text class="lg-t" x="92" y="273">Each learned solution contains an error.</text>
 
     <g class="lg-c"><circle cx="62" cy="336" r="13"/><text class="lg-n" x="62" y="340.5" text-anchor="middle">5</text></g>
-    <text class="lg-t" x="92" y="331">The error moves the decision a little in most regimes</text>
-    <text class="lg-t" x="92" y="351">and a lot near a critical point.</text>
+    <text class="lg-t" x="92" y="331">The error changes the decision slightly in most regimes</text>
+    <text class="lg-t" x="92" y="351">and substantially near a critical point.</text>
 
     <g class="lg-c"><circle cx="62" cy="410" r="13"/><text class="lg-n" x="62" y="414.5" text-anchor="middle">6</text></g>
-    <text class="lg-t" x="92" y="405">So the solver is trained and tested on the decision error,</text>
-    <text class="lg-t" x="92" y="425">not on the field error.</text>
+    <text class="lg-t" x="92" y="405">Training and evaluation use decision error</text>
+    <text class="lg-t" x="92" y="425">rather than field error.</text>
   </svg>
   </div>
   <ul class="logic__key" aria-label="Directions">
@@ -43,6 +43,6 @@
     <li class="k-b">B. Neural solvers, steps 2 and 3</li>
     <li class="k-c">C. Model2Action, steps 4 to 6</li>
   </ul>
-  <figcaption id="logic-caption">The research line as one argument, from top to bottom. The loop from step 6 to step 3 is the training signal.</figcaption>
+  <figcaption id="logic-caption">The six steps connect physical dynamics to solver training. Decision error provides feedback from step 6 to step 3.</figcaption>
 </figure>
 ```

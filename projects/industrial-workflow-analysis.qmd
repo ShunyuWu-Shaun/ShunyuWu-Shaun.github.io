@@ -8,7 +8,7 @@ toc: true
 
 Urban water supply coordinates treatment, transport, and distribution over an operating horizon. Each stage consumes electricity, so the schedule sets when the system serves demand and when it buys energy. Electricity prices are uncertain, so a forecast error can change both the operating cost and the selected schedule.
 
-The study represents the full water-supply process as a stochastic scheduling problem. A probabilistic electricity-cost forecast supplies the uncertain cost parameters, and the scheduling model keeps the operating variables and constraints. Optimizing the schedule returns a decision loss to the forecast, so training weights a price error by the change it causes in the schedule.
+The study represents the full water-supply process as a stochastic scheduling problem. A probabilistic electricity-cost forecast provides the uncertain cost parameters, and the scheduling model defines the operating variables and constraints. The resulting schedule determines the decision loss used to train the forecast, so training weights a price error by its effect on the schedule.
 
 ## Learning through the induced schedule
 
@@ -16,7 +16,7 @@ Stochastic Predict-Then-Optimize trains the forecast distribution through the op
 
 ## Differentiable optimality gap
 
-The stochastic scheduling problem cannot be differentiated directly. SPTO+ derives a differentiable convex upper bound on the optimality gap from Lagrangian duality. The bound supplies the gradient, and the scheduling problem remains the source of the learning signal.
+The stochastic scheduling problem cannot be differentiated directly. SPTO+ derives a differentiable convex upper bound on the optimality gap from Lagrangian duality. The gradient is computed from this bound, and the scheduling problem remains the source of the learning signal.
 
 ## System-level evaluation
 
@@ -24,7 +24,7 @@ Experiments on real water-supply systems compare pointwise forecast error, opera
 
 ## Relation to physical intelligence
 
-The learned distribution parameterizes the uncertain energy cost of a water process coordinated over time. A constrained optimizer turns those parameters into a feasible schedule, and decision regret measures what the forecast error did to that schedule. This is the decision error of direction C, measured on an engineering system of direction A.
+The learned distribution parameterizes the uncertain energy cost of a water process coordinated over time. A constrained optimizer uses those parameters to compute a feasible schedule, and decision regret measures how forecast errors affect its cost. This is the decision error of direction C, measured on an engineering system of direction A.
 
 ## Publication
 

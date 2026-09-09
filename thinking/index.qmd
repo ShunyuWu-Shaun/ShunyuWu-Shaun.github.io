@@ -5,7 +5,7 @@ toc: false
 body-classes: thinking-page
 ---
 
-Short notes on questions I keep returning to. Each carries the date and the time zone of the place where I wrote it.
+Short notes on questions I keep returning to. Each note includes its date and local time zone.
 
 ```{=html}
 <!-- To add a note, copy one <article class="note"> block to the top of .notes.

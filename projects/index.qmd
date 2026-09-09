@@ -7,7 +7,7 @@ body-classes: projects-page
 
 ## One logic across the projects
 
-Every project starts from a physical quantity that has to be predicted or reconstructed, together with the inputs, geometry, constraints, and disturbances that shape how it evolves. A learned model supplies that quantity. Control or optimization turns it into an action. The evaluation reports the error that appears in the decision. The projects are grouped by the [three directions](/research/), and each carries the system it was tested on.
+Each project starts with a physical quantity to predict or reconstruct and the inputs, geometry, constraints, and disturbances that affect how it changes. A learned model estimates that quantity, which is then used to compute a control or optimization decision. Evaluation measures how prediction errors affect that decision. The projects are grouped by the [three directions](/research/), and each description identifies the system used for evaluation.
 
 <ol class="project-relation" aria-label="Shared research logic">
   <li class="relation-state">Physical state and inputs</li>
@@ -21,7 +21,7 @@ Every project starts from a physical quantity that has to be predicted or recons
 
 ### iCVD coupled with liquid crystals <span class="branch">Science</span>
 
-With [Professor Fengqi You](https://www.peese.org/professor/) at Cornell, my current work concerns initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC). I formulate the governing dynamics of the process and build neural approximations of its solution for control and optimization. Chemical formation coupled with LC is a possible extension.
+With [Professor Fengqi You](https://www.peese.org/professor/) at Cornell, my current work focuses on initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC). I formulate equations describing this process and train neural models to approximate their solutions for control and optimization. Chemical formation coupled with LC is a possible extension.
 
 ### Power, water, and industrial processes <span class="branch">Engineering</span>
 
@@ -58,7 +58,7 @@ Hot-strip roughing is an ordered sequence of rolling passes, so the error of one
 
 ## C. Model2Action
 
-The consequences of a solver error depend on how the solution is used in control or optimization. I study when a change in the predicted dynamics changes the selected decision, and when that change costs something or breaks a constraint. Regimes near a bifurcation or a stability boundary, and points where the set of active constraints changes, are the main cases. The measured decision error then serves as the training signal for the solver.
+The consequences of a solver error depend on how the solution is used in control or optimization. I study when a change in the predicted dynamics changes the selected decision, and when that change increases cost or violates a constraint. Regimes near a bifurcation or a stability boundary, and points where the set of active constraints changes, are the main cases. The measured decision error then serves as the training signal for the solver.
 
 ### Coupled water-energy operation under forecast uncertainty <span class="branch">Engineering</span>
 
@@ -67,7 +67,7 @@ The consequences of a solver error depend on how the solution is used in control
 <a href="https://doi.org/10.1109/TSG.2025.3601238"><img src="/assets/images/publications/spto.svg" width="800" height="500" loading="lazy" alt="SPTO visual abstract linking a probabilistic electricity-cost forecast to a stochastic water-supply schedule"></a>
 :::
 ::: {.project-study-copy}
-Urban water treatment, transport, and distribution consume electricity, so an uncertain electricity price can change the preferred schedule. [SPTO](https://doi.org/10.1109/TSG.2025.3601238) supplies a forecast distribution to a stochastic water-supply model and trains the forecast through a duality-derived upper bound on the optimality gap of the schedule. Operating cost and regret measure what the forecast error did to the decision. This study is the first measurement of a decision error in my work.
+Urban water treatment, transport, and distribution consume electricity, so an uncertain electricity price can change the preferred schedule. [SPTO](https://doi.org/10.1109/TSG.2025.3601238) provides a forecast distribution to a stochastic water-supply model and trains the forecast through a duality-derived upper bound on the optimality gap of the schedule. Operating cost and regret measure how forecast errors affect the decision. This is my first study to quantify decision error.
 
 [Read the research summary](industrial-workflow-analysis.qmd)
 :::

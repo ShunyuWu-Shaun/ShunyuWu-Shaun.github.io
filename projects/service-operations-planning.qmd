@@ -26,7 +26,7 @@ The node-level comparison covers pressure monitors with different disturbance st
 
 ## Relation to physical intelligence
 
-The two studies measure two properties of the state that later scheduling or control will use. KbBcM tests whether a sequence model follows a change in demand at the right time. CritiCoder tests how pressure prediction behaves when the measured inputs leave part of the variation unexplained. Both belong to directions A and B, and both are scored by errors that a later decision would inherit.
+The two studies measure two properties of the state that later scheduling or control will use. KbBcM tests whether a sequence model follows a change in demand at the right time. CritiCoder tests how pressure prediction behaves when the measured inputs leave part of the variation unexplained. Both belong to directions A and B, and both are evaluated using errors that would affect subsequent decisions.
 
 ## Publications
 

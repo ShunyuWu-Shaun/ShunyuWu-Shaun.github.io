@@ -4,27 +4,27 @@ description: "Physical intelligence through governing dynamics, neural solvers, 
 toc: true
 ---
 
-## Physical intelligence and its substrate
+## Physical intelligence and system dynamics {#physical-intelligence-and-its-substrate}
 
-Physical intelligence is the ability of a learning system to model a physical system and to act on it. A material during processing, a water network under pumping, and a power plant following its load evolve by ordinary or partial differential equations with initial conditions, boundary conditions, and external forcing. To model such a system is to solve those equations for the conditions at hand. To act on it is to compute a decision from the solution. My work covers both steps and the error that passes from one to the other. It runs in three directions.
+Physical intelligence is the ability of a learning system to model a physical system and to act on it. A material during processing, a water network under pumping, and a power plant responding to load changes evolve according to ordinary or partial differential equations with initial conditions, boundary conditions, and external forcing. To model such a system is to solve those equations under the given conditions. To act on it is to compute a decision from the solution. I study both steps and how solution errors affect decisions. I organize this work into three research directions.
 
 ## A. Physical dynamics in science and engineering
 
 A governing model specifies the physical state, its evolution under inputs and forcing, and the conditions that constrain it. Ordinary differential equations describe lumped dynamics. Partial differential equations describe fields distributed in space. With initial and boundary conditions, these equations define the solution problems of direction B.
 
-**Science.** With [Professor Fengqi You](https://www.peese.org/professor/) at Cornell, my current work concerns initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC). I formulate the governing dynamics of this process and build neural approximations of its solution for control and optimization. Chemical formation coupled with LC is a possible extension.
+**Science.** With [Professor Fengqi You](https://www.peese.org/professor/) at Cornell, my current work focuses on initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC). I formulate equations describing this process and train neural models to approximate their solutions for control and optimization. Chemical formation coupled with LC is a possible extension.
 
 **Engineering.** During my Ph.D. with [Professor Jingcheng Wang](https://ieeexplore.ieee.org/author/37280547200) at Shanghai Jiao Tong University, I worked on power generation, urban water supply, and hot-strip rolling. Their states are pressure, temperature, and energy consumption. Demand and electricity price are external inputs to their operating decisions.
 
 ## B. Neural solvers for physical dynamics
 
-Repeated control and optimization require the governing model to be solved for many inputs and conditions. A neural solver, such as a neural operator, approximates the solution map across a family of conditions and returns a solution in one forward pass. I train these models so that their rollouts stay accurate over the horizon a controller needs and their sensitivities to process settings are accurate enough for an optimizer. Physics-constrained training and hybrid schemes that keep part of the numerical solver reduce the data they need. Computational cost and data requirements are evaluated together with accuracy.
+Repeated control and optimization require the governing model to be solved for many inputs and conditions. A neural solver, such as a neural operator, approximates the solution map across a family of conditions and returns a solution in one forward pass. I train these models so that their rollouts remain accurate over the prediction horizon required by the controller and their sensitivities to process settings are accurate enough for an optimizer. Physics-constrained training and hybrid schemes that keep part of the numerical solver reduce the data they need. Computational cost and data requirements are evaluated together with accuracy.
 
 My earlier engineering studies dealt with the same errors in learned temporal models. [Lag-free demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508) reduces the delayed response of a demand model near turning points. [Uncertain pressure regression](https://doi.org/10.1109/TCSS.2023.3272330) separates the pressure response to measured inputs from the variation caused by unmeasured disturbances. A [series-concatenation model](https://doi.org/10.1109/TASE.2023.3299185) of hot-strip rolling links successive passes so that the error stops accumulating along the sequence.
 
 ## C. Model2Action
 
-Once a learned solution is used to compute a decision, its error affects the result through the dynamics, the objective, and the constraints. I separate the change in the selected decision from its consequences. Two decisions can differ a lot and cost almost the same, so a large decision change can go with a small regret. Closed-loop cost and feasibility need their own evaluation.
+Once a learned solution is used to compute a decision, its error affects the result through the dynamics, the objective, and the constraints. I separate the change in the selected decision from its consequences. Two substantially different decisions can have nearly the same cost, so a large change in the decision can still correspond to low regret. Closed-loop cost and feasibility need their own evaluation.
 
 The dependence on the operating regime is the main question. Near a bifurcation or a stability boundary, a small model error can change the predicted trajectory or its stability. When the set of active constraints changes, the response of the optimizer changes with it. I locate the regimes where these effects are large, and I use the measured decision error to train the solver.
 

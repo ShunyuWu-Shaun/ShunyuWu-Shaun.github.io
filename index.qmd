@@ -91,8 +91,8 @@ body-classes: home-page
     <section class="home-section" id="about" aria-labelledby="about-title">
       <h2 class="section__title" id="about-title">About</h2>
       <p>I am an Ezra Systems Postdoctoral Associate in Systems Engineering at Cornell University, where I work with <a href="https://www.peese.org/professor/">Professor Fengqi You</a>. I completed my Ph.D. at Shanghai Jiao Tong University in 2026, advised by <a href="https://ieeexplore.ieee.org/author/37280547200">Professor Jingcheng Wang</a>.</p>
-      <p>Physical intelligence is the ability of a learning system to model a physical system and to act on it. Both parts rest on the governing dynamics of the system. I train neural networks to solve those dynamics fast enough for repeated control and optimization, and I measure how the error in a learned solution changes the decision computed from it.</p>
-      <p>My current materials work concerns initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC). Chemical formation coupled with LC is a possible extension. My engineering work at Shanghai Jiao Tong University covered power generation, urban water supply, and hot-strip rolling.</p>
+      <p>Physical intelligence is the ability of a learning system to model a physical system and to act on it. Both modeling and control depend on the system's dynamics. I train neural networks to solve the equations describing these dynamics fast enough for repeated control and optimization. I then measure how errors in these solutions affect the resulting decisions.</p>
+      <p>My current materials research focuses on initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC). Chemical formation coupled with LC is a possible extension. My engineering work at Shanghai Jiao Tong University covered power generation, urban water supply, and hot-strip rolling.</p>
     </section>
 
     <section class="home-section" id="research" aria-labelledby="research-title">
@@ -105,7 +105,7 @@ body-classes: home-page
       <ul class="directions">
         <li class="d-a"><strong>A. Physical dynamics in science and engineering.</strong> Science: iCVD coupled with liquid crystals, with Professor Fengqi You. Engineering: power generation, urban water supply, and hot-strip rolling, from my Ph.D. with Professor Jingcheng Wang.</li>
         <li class="d-b"><strong>B. Neural solvers for physical dynamics.</strong> A neural operator approximates the solution map of a governing model and returns a solution in one forward pass. I train it so that its rollouts and sensitivities are accurate enough for control and optimization.</li>
-        <li class="d-c"><strong>C. Model2Action.</strong> The error in a learned solution moves the decision a little in most regimes and a lot near a critical point or an active constraint. I measure the decision error as regret, closed-loop cost, and constraint violation, and I use it to train the solver.</li>
+        <li class="d-c"><strong>C. Model2Action.</strong> The error in a learned solution changes the decision slightly in most operating regimes and substantially near a critical point or an active constraint. I measure the decision error as regret, closed-loop cost, and constraint violation, and I use it to train the solver.</li>
       </ul>
       <p class="section__more"><a href="/research/">The full research program</a></p>
     </section>
@@ -131,7 +131,7 @@ body-classes: home-page
             <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></p>
             <p class="pub__authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong>Shunyu Wu</strong></p>
             <p class="pub__venue"><em>Expert Systems with Applications</em>, 2026 <span class="role role--last">Last author</span> <span class="branch branch--c">C</span></p>
-            <p class="pub__note">A graph memory stores local LiDAR geometry and supplies waypoint-specific context at each step of recurrent diffusion denoising.</p>
+            <p class="pub__note">A graph memory stores local LiDAR geometry and provides waypoint-specific context at each step of recurrent diffusion denoising.</p>
           </div>
         </li>
         <li class="pub">
@@ -140,7 +140,7 @@ body-classes: home-page
             <p class="pub__title"><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p>
             <p class="pub__venue"><em>IEEE Transactions on Smart Grid</em>, 2025 <span class="role role--first">First author</span> <span class="branch">A</span> <span class="branch branch--c">C</span></p>
-            <p class="pub__note">A differentiable upper bound on the optimality gap puts the scheduling cost into the training objective of the forecast.</p>
+            <p class="pub__note">The training objective for the forecasting model includes scheduling cost through a differentiable upper bound on the optimality gap.</p>
           </div>
         </li>
         <li class="pub">

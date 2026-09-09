@@ -9,7 +9,7 @@ body-classes: publication-page
 <div class="publication-intro">
   <div class="publication-rule">4 first-author / 6 last-author papers</div>
   <div>
-    <p>The papers are listed from newest to oldest. Each carries a tag for the <a href="/research/">directions</a> it belongs to: <span class="branch">A</span> physical dynamics, <span class="branch branch--b">B</span> neural solvers, and <span class="branch branch--c">C</span> Model2Action. A paper can belong to more than one.</p>
+    <p>The papers are listed from newest to oldest. Each paper is tagged with the <a href="/research/">directions</a> it belongs to: <span class="branch">A</span> physical dynamics, <span class="branch branch--b">B</span> neural solvers, and <span class="branch branch--c">C</span> Model2Action. A paper can belong to more than one.</p>
     <p><a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0001-9856-2148">ORCID</a> · <a href="https://www.researchgate.net/profile/Shunyu-Wu">ResearchGate</a></p>
   </div>
 </div>
@@ -25,7 +25,7 @@ body-classes: publication-page
       <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>ESWA · 2026</span><span class="branch branch--c">C</span></p>
       <h3><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></h3>
       <p class="paper-authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong class="author-self">Shunyu Wu</strong></p>
-      <p class="paper-claim">A graph memory stores local LiDAR geometry and supplies waypoint-specific context at each step of recurrent diffusion denoising. The generated trajectory is evaluated against the geometry it moves through.</p>
+      <p class="paper-claim">A graph memory stores local LiDAR geometry and provides waypoint-specific context at each step of recurrent diffusion denoising. The generated trajectory is evaluated against the geometry it moves through.</p>
       <div class="paper-links"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DOI</a></div>
     </div>
   </article>

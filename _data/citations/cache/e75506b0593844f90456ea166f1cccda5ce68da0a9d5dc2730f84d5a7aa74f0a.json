@@ -1,10 +1,10 @@
 {
   "url": "https://api.openalex.org/works?filter=cites%3AW7204989471&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
-  "retrieved_at": "2026-09-09T13:59:56+00:00",
+  "retrieved_at": "2026-09-09T14:26:06+00:00",
   "data": {
     "meta": {
       "count": 0,
-      "db_response_time_ms": 8,
+      "db_response_time_ms": 179,
       "page": null,
       "per_page": 100,
       "next_cursor": null,

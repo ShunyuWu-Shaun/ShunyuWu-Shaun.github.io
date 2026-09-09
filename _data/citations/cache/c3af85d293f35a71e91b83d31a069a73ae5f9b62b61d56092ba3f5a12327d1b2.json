@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I91203450?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:26:22+00:00",
+  "data": {
+    "id": "https://openalex.org/I91203450",
+    "ror": "https://ror.org/02f009v59",
+    "display_name": "University of Haifa",
+    "country_code": "IL",
+    "type": "education",
+    "geo": {
+      "city": "Haifa",
+      "geonames_city_id": "294801",
+      "region": "Haifa",
+      "country_code": "IL",
+      "country": "Israel",
+      "latitude": 32.81303,
+      "longitude": 34.99928
+    },
+    "lineage": [
+      "https://openalex.org/I91203450"
+    ]
+  }
+}

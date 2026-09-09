@@ -284,6 +284,33 @@
       "polygon_name": "Western",
       "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
       "jurisdiction_level_label": false
+    },
+    "CN:29.560260772705078:106.55770874023438": {
+      "region": "Chongqing",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-CQ",
+      "polygon_name": "Chongqing",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:39.9410400390625:119.58936309814453": {
+      "region": "Hebei",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-HE",
+      "polygon_name": "Hebei",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "IT:38.116600036621094:13.36359977722168": {
+      "region": "Palermo",
+      "country_code": "IT",
+      "country": "Italy",
+      "admin1_code": "IT-PA",
+      "polygon_name": "Palermo",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
     }
   },
   "source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5"

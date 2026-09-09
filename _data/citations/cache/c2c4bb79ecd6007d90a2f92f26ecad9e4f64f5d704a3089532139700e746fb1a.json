@@ -1,6 +1,6 @@
 {
   "url": "https://api.openalex.org/works/doi:10.1109/TCSS.2023.3272330?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
-  "retrieved_at": "2026-09-09T13:59:52+00:00",
+  "retrieved_at": "2026-09-09T14:26:01+00:00",
   "data": {
     "id": "https://openalex.org/W4376479136",
     "doi": "https://doi.org/10.1109/tcss.2023.3272330",

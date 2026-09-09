@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I50632499?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:26:20+00:00",
+  "data": {
+    "id": "https://openalex.org/I50632499",
+    "ror": "https://ror.org/04vgbd477",
+    "display_name": "Chongqing University of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Chongqing",
+      "geonames_city_id": "1814906",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.560260772705078,
+      "longitude": 106.55770874023438
+    },
+    "lineage": [
+      "https://openalex.org/I50632499"
+    ]
+  }
+}

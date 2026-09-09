@@ -1,0 +1,130 @@
+{
+  "retrieved_at": "2026-09-09",
+  "source": "https://www.sciencedirect.com/science/article/pii/S1876107025006297",
+  "method": "Actual browser article page; Show more expanded author superscripts and affiliation definitions a, b, c.",
+  "work_id": "W7114924552",
+  "doi": "10.1016/j.jtice.2025.106577",
+  "authorships_complete_verified": true,
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name": "Chunmao Pan",
+      "raw_affiliation_strings": [
+        "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China"
+      ],
+      "affiliation_label": "a",
+      "institution_name": "Chongqing University of Technology",
+      "country_code": "CN",
+      "region": "Chongqing",
+      "institutions": [
+        {
+          "id": "https://openalex.org/I50632499",
+          "display_name": "Chongqing University of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "ror": "https://ror.org/04vgbd477"
+        }
+      ]
+    },
+    {
+      "author_order": 2,
+      "author_name": "Lingxing Hu",
+      "raw_affiliation_strings": [
+        "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China"
+      ],
+      "affiliation_label": "a",
+      "institution_name": "Chongqing University of Technology",
+      "country_code": "CN",
+      "region": "Chongqing",
+      "institutions": [
+        {
+          "id": "https://openalex.org/I50632499",
+          "display_name": "Chongqing University of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "ror": "https://ror.org/04vgbd477"
+        }
+      ]
+    },
+    {
+      "author_order": 3,
+      "author_name": "Facheng Qiu",
+      "raw_affiliation_strings": [
+        "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China"
+      ],
+      "affiliation_label": "a",
+      "institution_name": "Chongqing University of Technology",
+      "country_code": "CN",
+      "region": "Chongqing",
+      "institutions": [
+        {
+          "id": "https://openalex.org/I50632499",
+          "display_name": "Chongqing University of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "ror": "https://ror.org/04vgbd477"
+        }
+      ]
+    },
+    {
+      "author_order": 4,
+      "author_name": "Zhiliang Cheng",
+      "raw_affiliation_strings": [
+        "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China"
+      ],
+      "affiliation_label": "a",
+      "institution_name": "Chongqing University of Technology",
+      "country_code": "CN",
+      "region": "Chongqing",
+      "institutions": [
+        {
+          "id": "https://openalex.org/I50632499",
+          "display_name": "Chongqing University of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "ror": "https://ror.org/04vgbd477"
+        }
+      ]
+    },
+    {
+      "author_order": 5,
+      "author_name": "Zhongjun Li",
+      "raw_affiliation_strings": [
+        "Hubei Three Gorges Laboratory, Yichang 443000, Hubei, China"
+      ],
+      "affiliation_label": "b",
+      "institution_name": "Hubei Three Gorges Laboratory",
+      "country_code": "CN",
+      "region": "Hubei",
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4405272366",
+          "display_name": "Hubei Three Gorges Laboratory",
+          "country_code": "CN",
+          "type": "facility",
+          "ror": "https://ror.org/042c50f73"
+        }
+      ]
+    },
+    {
+      "author_order": 6,
+      "author_name": "Lanfeng Guo",
+      "raw_affiliation_strings": [
+        "Hubei Sinophorus Electronic Materials Co., Ltd., Hubei 443007, China"
+      ],
+      "affiliation_label": "c",
+      "institution_name": "Hubei Sinophorus Electronic Materials Co., Ltd.",
+      "country_code": "CN",
+      "region": "Hubei",
+      "institutions": [
+        {
+          "id": "LOCAL-SINOPHORUS",
+          "display_name": "Hubei Sinophorus Electronic Materials Co., Ltd.",
+          "country_code": "CN",
+          "type": "company",
+          "ror": null
+        }
+      ]
+    }
+  ]
+}

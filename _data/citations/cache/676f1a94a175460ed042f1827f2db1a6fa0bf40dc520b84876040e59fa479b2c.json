@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I154425047?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:26:12+00:00",
+  "data": {
+    "id": "https://openalex.org/I154425047",
+    "ror": "https://ror.org/0160cpw27",
+    "display_name": "University of Alberta",
+    "country_code": "CA",
+    "type": "education",
+    "geo": {
+      "city": "Edmonton",
+      "geonames_city_id": "5946768",
+      "region": "Alberta",
+      "country_code": "CA",
+      "country": "Canada",
+      "latitude": 53.55014,
+      "longitude": -113.46871
+    },
+    "lineage": [
+      "https://openalex.org/I154425047"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I4405272366?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:26:21+00:00",
+  "data": {
+    "id": "https://openalex.org/I4405272366",
+    "ror": "https://ror.org/042c50f73",
+    "display_name": "Hubei Three Gorges Laboratory",
+    "country_code": "CN",
+    "type": "facility",
+    "geo": {
+      "city": "Yichang",
+      "geonames_city_id": "1786764",
+      "region": "Hubei",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.71444,
+      "longitude": 111.28472
+    },
+    "lineage": [
+      "https://openalex.org/I4405272366"
+    ]
+  }
+}

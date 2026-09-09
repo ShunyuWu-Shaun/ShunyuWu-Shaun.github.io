@@ -42,7 +42,7 @@
       zoomAnimation: !reducedMotion, fadeAnimation: !reducedMotion
     });
     map.attributionControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a>');
-    map.attributionControl.addAttribution('Made with <a href="https://www.naturalearthdata.com/">Natural Earth</a>');
+    map.attributionControl.addAttribution('Made with <a href="https://www.naturalearthdata.com/">Natural Earth</a> · <a href="https://www.geonames.org/">GeoNames</a>');
     L.control.zoom({position: 'topright'}).addTo(map);
     map.createPane('land').style.zIndex = 200;
     map.createPane('subdivisions').style.zIndex = 250;

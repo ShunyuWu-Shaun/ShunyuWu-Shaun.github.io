@@ -1,72 +1,13 @@
 {
   "retrieved_at": "2026-09-09T14:01:42.678522+00:00",
-  "confirmed_supplements": [],
-  "investigations": [
+  "confirmed_supplements": [
     {
       "work_id": "W7114924552",
-      "doi": "10.1016/j.jtice.2025.106577",
-      "title": "Theory and construction of machine learning-driven CFD agent model: a bayesian-optimized CNN-LSTM framework",
-      "status": "unresolved",
-      "safe_to_apply": false,
-      "author_matches": [
-        {
-          "author_index": 0,
-          "author_name": "Chunmao Pan",
-          "match_basis": "Exact given/family name order in publisher-deposited Crossref author list.",
-          "confirmed_affiliations": []
-        },
-        {
-          "author_index": 1,
-          "author_name": "Lingxing Hu",
-          "match_basis": "Exact given/family name order in publisher-deposited Crossref author list.",
-          "confirmed_affiliations": []
-        },
-        {
-          "author_index": 2,
-          "author_name": "Facheng Qiu",
-          "match_basis": "Exact given/family name order in publisher-deposited Crossref author list.",
-          "confirmed_affiliations": []
-        },
-        {
-          "author_index": 3,
-          "author_name": "Zhiliang Cheng",
-          "match_basis": "Exact given/family name order in publisher-deposited Crossref author list.",
-          "confirmed_affiliations": []
-        },
-        {
-          "author_index": 4,
-          "author_name": "Zhongjun Li",
-          "match_basis": "Exact given/family name order in publisher-deposited Crossref author list.",
-          "confirmed_affiliations": []
-        },
-        {
-          "author_index": 5,
-          "author_name": "Lanfeng Guo",
-          "match_basis": "Exact given/family name order in publisher-deposited Crossref author list.",
-          "confirmed_affiliations": []
-        }
-      ],
-      "checks": [
-        {
-          "source": "Crossref publisher deposit",
-          "url": "https://api.crossref.org/works/10.1016/j.jtice.2025.106577",
-          "cached_file": "sources/cfd-crossref.json",
-          "finding": "All six authors match but every author affiliation array is empty. Facheng Qiu ORCID is 0000-0002-9998-9175."
-        },
-        {
-          "source": "Elsevier Article Retrieval API linked by the Crossref deposit",
-          "url": "https://api.elsevier.com/content/article/PII:S1876107025006297?httpAccept=text/xml",
-          "cached_file": "sources/cfd-elsevier.xml",
-          "finding": "Public response supplies core bibliographic data only; no authorship-to-affiliation metadata or full text."
-        },
-        {
-          "source": "ScienceDirect article landing page",
-          "url": "https://www.sciencedirect.com/science/article/pii/S1876107025006297",
-          "finding": "Direct read returned HTTP 403; search-indexed publisher excerpt contained abstract/contributions but no author affiliations."
-        }
-      ],
-      "reason_for_no_supplement": "Neither the work-level publisher record nor its Crossref deposit exposes affiliations. Affiliations of the same-named authors on ResearchGate and related papers cannot establish the affiliations printed on this particular article. Keep all six unresolved rather than mapping them by current institution."
-    },
+      "source_file": "publisher-affiliations.json",
+      "status": "All six author affiliations verified on the expanded publisher page."
+    }
+  ],
+  "investigations": [
     {
       "work_id": "W4402577629",
       "doi": "10.21203/rs.3.rs-4897840/v1",
@@ -117,11 +58,6 @@
       "recommendation": "Keep the original raw affiliation and unresolved status in the authoritative per-work ledger. Record this candidate and its sources separately for later author/publisher confirmation; do not silently substitute a different university name."
     }
   ],
-  "summary": {
-    "works_checked": 2,
-    "confirmed_new_author_affiliations": 0,
-    "unresolved_authorships": 7,
-    "supported_but_unconfirmed_institution_normalizations": 1
-  },
+  "summary": "CFD affiliations resolved through actual publisher browser page. The ambiguous university spelling in the seasonal-demand preprint remains a candidate only.",
   "method": "Only work-specific affiliations independently documented by the publication or its publisher deposit are treated as confirmed. Related-paper affiliations and current author profiles are not substituted automatically."
 }

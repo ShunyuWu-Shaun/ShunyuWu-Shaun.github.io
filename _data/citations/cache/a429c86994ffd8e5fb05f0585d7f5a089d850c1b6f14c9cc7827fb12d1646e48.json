@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I39333907?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:26:17+00:00",
+  "data": {
+    "id": "https://openalex.org/I39333907",
+    "ror": "https://ror.org/02txfnf15",
+    "display_name": "Yanshan University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Qinhuangdao",
+      "geonames_city_id": "1797595",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9410400390625,
+      "longitude": 119.58936309814453
+    },
+    "lineage": [
+      "https://openalex.org/I39333907"
+    ]
+  }
+}

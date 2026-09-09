@@ -3,12 +3,13 @@
   "confirmed_scope": {
     "scholar_profile_target_count": 14,
     "scholar_profile_citations": 66,
-    "scholar_retrieved_edges": 8,
-    "scholar_retrieved_unique_titles": 7,
-    "scholar_complete_against_profile": false,
+    "scholar_retrieved_edges": 64,
+    "scholar_retrieved_unique_titles": 60,
+    "scholar_complete_against_profile": true,
     "openalex_author_record_works_count": 22,
     "openalex_author_record_cited_by_count": 64,
-    "warning": "The OpenAlex author record contains suspected homonym assignments and duplicate versions; its whole author aggregate is not a valid citation total for the curated publication set."
+    "warning": "The OpenAlex author record contains suspected homonym assignments and duplicate versions; its whole author aggregate is not a valid citation total for the curated publication set.",
+    "scholar_retrieved_raw_results": 66
   },
   "add_targets": [
     {
@@ -71,7 +72,7 @@
       "doi": "10.2139/ssrn.4720939"
     }
   ],
-  "coverage_statement": "This ledger inventories retrievable citing works for a curated, identity-checked publication set using OpenAlex plus the available Google Scholar citing-results pages. Google Scholar reported 66 citations across 14 profile entries at retrieval, but exposed only 8 citation edges on the offered results pages. These aggregates are not interchangeable, and the ledger should not be represented as all 66 Scholar citations. Regional locations describe affiliations listed on each citing work, not authors’ nationality or present location. Missing or ambiguous affiliations remain unresolved.",
+  "coverage_statement": "The actual browser enumerated all 66 Scholar result records over 12 pages; two duplicate-version rows are preserved in the Scholar sheet. Non-browser responses observed earlier were incomplete and are superseded.",
   "official_documentation": [
     "https://help.openalex.org/data/works/citations/",
     "https://help.openalex.org/data/institutions/",

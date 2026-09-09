@@ -7,6 +7,7 @@ from-rendering directory is still readable in this public Git repository.
 from __future__ import annotations
 import argparse
 import csv
+import copy
 import hashlib
 import html
 import json
@@ -188,10 +189,16 @@ def main():
     scholar_path = BASE/'sources/scholar-resolved.json'
     scholar = json.loads(scholar_path.read_text()) if scholar_path.exists() else {'records':[], 'new_works':[]}
     edge_index = {(e['citing_work_id'],e['cited_work_id']):e for e in edges}
-    work_sources = defaultdict(lambda: {'OpenAlex'})
+    work_sources = defaultdict(set, {wid:{'OpenAlex'} for wid in works})
     for w in scholar.get('new_works', []):
         if sid(w['id']) not in works:
-            works[sid(w['id'])] = request('/works/' + sid(w['id']), select=WORK_FIELDS)
+            wid = sid(w['id'])
+            if re.fullmatch(r'W[0-9]+', wid):
+                works[wid] = request('/works/' + wid, select=WORK_FIELDS)
+                work_sources[wid].add('OpenAlex')
+            else:
+                works[wid] = copy.deepcopy(w)
+                work_sources[wid].add(w.get('metadata_source', 'Publisher'))
     for record in scholar.get('records', []):
         wid, tid = record['work_id'], record['cited_work_id']
         if tid not in {sid(t['id']) for t in targets} or wid not in works:
@@ -207,8 +214,29 @@ def main():
         edge_index[pair]['scholar_source_url'] = record['scholar_record']['source_page_url']
         edge_index[pair]['scholar_retrieved_at'] = record['scholar_record']['retrieved_at']
     print(f'Retrieved {len(edges)} citation edges from {len(works)} distinct citing works', flush=True)
+    publisher_path = BASE/'sources/publisher-affiliations.json'
+    if publisher_path.exists():
+        patch = json.loads(publisher_path.read_text())
+        w = works.get(patch['work_id'])
+        if w:
+            w['authorships_original'] = copy.deepcopy(w.get('authorships', []))
+            for verified in patch['authors']:
+                a = w['authorships'][verified['author_order']-1]
+                if a['author']['display_name'].casefold() != verified['author_name'].casefold():
+                    raise RuntimeError('Publisher author identity/order mismatch')
+                a['raw_affiliation_strings'] = verified['raw_affiliation_strings']
+                a['countries'] = [verified['country_code']]
+                a['institutions'] = verified.get('institutions', [])
+                a['affiliations'] = [{'raw_affiliation_string':v,'institution_ids':[i['id'] for i in a['institutions']]} for v in a['raw_affiliation_strings']]
+                a['affiliation_source'] = patch['source']
+                a['verified_region'] = verified['region']
+            w['authorships_complete_verified'] = patch['authorships_complete_verified']
+            work_sources[patch['work_id']].add('Publisher article')
+    manual_path = BASE/'sources/manual-institutions.json'
+    manual_institutions = {sid(i['id']):i for i in json.loads(manual_path.read_text())} if manual_path.exists() else {}
     institution_ids = sorted({sid(i['id']) for w in works.values() for a in w.get('authorships', []) for i in a.get('institutions', []) if i.get('id')})
     def get_inst(i):
+        if i in manual_institutions: return copy.deepcopy(manual_institutions[i])
         return request('/institutions/' + i, select='id,ror,display_name,country_code,type,geo,lineage')
     with ThreadPoolExecutor(max_workers=5) as pool:
         institutions = {sid(i['id']): i for i in pool.map(get_inst, institution_ids)}
@@ -285,10 +313,12 @@ def main():
                        'reported_country_codes': countries, 'country_code': cc, 'country': geo.get('country') or cc,
                        'state_province': rn, 'region_id': rid, 'city': geo.get('city'),
                        'latitude': geo.get('latitude'), 'longitude': geo.get('longitude'),
-                       'geo_status': status, 'geo_source': 'https://api.openalex.org/institutions/' + iid if iid else '',
+                       'geo_status': status, 'geo_source': inst.get('geo_source') or ('https://api.openalex.org/institutions/' + iid if iid else ''),
+                       'affiliation_source': a.get('affiliation_source') or w.get('source_url') or w['id'],
+                       'verified_region_text': a.get('verified_region'),
                        'region_basis': inst.get('region_basis'), 'region_source': inst.get('region_source'),
                        'region_admin1_code': inst.get('region_admin1_code'),
-                       'coordinate_precision': 'institution_city_point' if valid_geo(geo) else 'unavailable',
+                       'coordinate_precision': inst.get('coordinate_precision','institution_city_point') if valid_geo(geo) else 'unavailable',
                        'is_direct_self_citation': direct_self,
                        'included_in_public_map': wid in external and status == 'institution_geo'}
                 affiliations.append(row)
@@ -313,7 +343,7 @@ def main():
           'has_coauthor_overlap':w['has_coauthor_overlap_with_cited_targets'],
           'is_non_research_record':w['is_non_research_record'],
           'authorships_truncated':w['authorships_truncated'],'geography_complete':w['geography_complete'],
-          'is_retracted':w.get('is_retracted'), 'source':'; '.join(w['sources']), 'source_url':w['id']})
+          'is_retracted':w.get('is_retracted'), 'source':'; '.join(w['sources']), 'source_url':w.get('source_url') or (w['id'] if str(w['id']).startswith('https://') else (w.get('primary_location') or {}).get('landing_page_url'))})
     region_works=defaultdict(set); inst_works=defaultdict(set); region_insts=defaultdict(set); weights=Counter()
     for wid,rids in all_map_work_regions.items():
         for rid in rids:
@@ -339,7 +369,8 @@ def main():
           'coordinate_basis':'most_cited_affiliation_institution','representative_institution_id':representative})
     mapped=set(all_map_work_regions)
     summary={'target_works':len(targets),'citation_edges':len(edges),'unique_citing_works':len(works),
-             'openalex_citation_edges':openalex_edges, 'scholar_verified_edges':len(scholar.get('records',[])),
+             'openalex_citation_edges':openalex_edges, 'scholar_result_records':len(scholar.get('records',[])),
+             'scholar_verified_edges':len({(r['work_id'],r['cited_work_id']) for r in scholar.get('records',[])}),
              'scholar_additional_edges':len(edges)-openalex_edges,
              'direct_self_citing_works':len(self_citers),'non_research_citing_records':len(non_research),
              'external_citing_records':len(external_records),'external_citing_works':len(external),
@@ -352,12 +383,12 @@ def main():
              'authorship_truncation_status_unknown_works':sum(w['authorships_truncated'] is None for w in works.values())}
     summary['scholar_profile_scope_citation_edges'] = sum(e['cited_work_id'] != sid(next(t['id'] for t in targets if doi(t['doi']) == '10.1109/tsmc.2024.3373456')) for e in edges)
     retrieved_at=max([r['retrieved_at'] for r in REQUESTS] + [scholar.get('retrieved_at', '')])
-    public={'updated_at':retrieved_at,'source':'OpenAlex with Google Scholar citation cross-check','summary':summary,
+    public={'updated_at':retrieved_at,'source':'Google Scholar, OpenAlex, and verified publisher metadata','summary':summary,
       'counting_method':'Unique external citing works per region or institution. One work can occur in multiple regions. Direct self-citations and paratext records are excluded only from the map.',
       'regions':sorted(regions,key=lambda r:(-r['citing_work_count'],r['id'])),
       'institutions':sorted(public_insts,key=lambda r:(-r['citing_work_count'],r['id'])),
       'unmapped_summary':{'external_works':len(external-mapped),'partially_mapped_external_works':len(mapped & unresolved_works)}}
-    manifest={'started_at':started,'completed_at':now(),'data_retrieved_at':retrieved_at,'source':'OpenAlex with Google Scholar citation cross-check',
+    manifest={'started_at':started,'completed_at':now(),'data_retrieved_at':retrieved_at,'source':'Google Scholar, OpenAlex, and verified publisher metadata',
       'scholar_cross_check':{k:v for k,v in scholar.items() if k not in ('records','new_works')},
       'target_scope':'14 DOI-verified works on Google Scholar plus one publisher-ORCID-verified supplementary work',
       'authorship_truncation_note':'The current API omits is_authors_truncated. Unknown values remain null; no claim of independently verified author-list completeness is made.',
@@ -376,12 +407,14 @@ def main():
     for t in targets:
         tid=sid(t['id']); target_edges=[e for e in edges if e['cited_work_id']==tid]
         target_coverage.append({'target_work_id':tid,'title':t['title'],'doi':doi(t['doi']),
-          'scholar_profile_count':profile_counts.get(doi(t['doi'])),'openalex_retrieved_edges':target_queries[tid]['retrieved'],
+          'scholar_profile_count':profile_counts.get(doi(t['doi'])),
+          'scholar_retrieved_records':sum(r['cited_work_id']==tid for r in scholar.get('records',[])),
+          'scholar_unique_edges':len({r['work_id'] for r in scholar.get('records',[]) if r['cited_work_id']==tid}),'openalex_retrieved_edges':target_queries[tid]['retrieved'],
           'union_retrieved_edges':len(target_edges),'non_research_record_edges':sum(e['citing_work_id'] in non_research for e in target_edges),
           'scope_basis':t['scope_basis']})
     manifest['scholar_profile_metrics_snapshot'] = {'metrics_text':scholar_targets['profile_metrics_text'],
       'retrieved_at':scholar_targets['retrieved_at'],'profile_url':scholar_targets['profile_url'],
-      'completeness':'Not fully enumerated against the displayed profile total. See coverage-by-publication.csv.'}
+      'completeness':'All 66 displayed Scholar citation result records enumerated through the actual browser, across 12 pages. Duplicate versions are retained in the Scholar sheet and deduplicated for the map.'}
     manifest['geography_completeness_definition'] = 'Location completeness of returned author affiliation records only; author-list completeness itself is not independently verified.'
     write_csv(OUT/'coverage-by-publication.csv', target_coverage, list(target_coverage[0]))
     write_json(OUT/'targets.json',targets)
@@ -392,13 +425,30 @@ def main():
     write_csv(OUT/'citation-ledger.csv',citation_rows,list(citation_rows[0]) if citation_rows else ['citing_work_id','title'])
     write_csv(OUT/'citation-edges.csv',edges,['citing_work_id','cited_work_id','source','scholar_source_url','scholar_retrieved_at'])
     write_csv(OUT/'author-affiliations.csv',affiliations,list(affiliations[0]) if affiliations else ['citing_work_id','author_name'])
+    citation_lookup = {r['citing_work_id']:r for r in citation_rows}
+    scholar_rows=[]; first_result={}
+    for n, record in enumerate(scholar.get('records',[]),1):
+        r=record['scholar_record']; key=(record['work_id'],record['cited_work_id'])
+        wid=record['work_id']; paper=citation_lookup[wid]
+        result_id=r.get('scholar_result_id') or record.get('scholar_result_id')
+        duplicate=first_result.get(key)
+        scholar_rows.append({'row':n,'target_doi':record.get('target_doi'), 'cited_work_id':record['cited_work_id'],
+          'scholar_result_id':result_id,'citing_work_id':wid,'title':paper['title'],'doi':paper['doi'],
+          'year':paper['year'],'authors':paper['authors'],'institutions':paper['institutions'],
+          'countries':paper['countries'],'states_provinces':paper['states_provinces'],
+          'duplicate_of_result_id':duplicate,'is_direct_self_citation':paper['is_direct_self_citation'],
+          'source_page_url':r['source_page_url'],'publication_url':r.get('publication_url'),
+          'retrieved_at':r['retrieved_at']})
+        first_result.setdefault(key,result_id)
+    write_csv(OUT/'scholar-citations.csv',scholar_rows,list(scholar_rows[0]) if scholar_rows else ['row'])
+    write_json(OUT/'scholar-citations.json',scholar_rows)
     write_json(ROOT/'assets/data/citation-geography.json',public)
     # Human-readable ledger stays excluded from Quarto rendering and resources.
     def md(value):
         return html.escape(str(value or '')).replace('|', '&#124;').replace('\n', ' ')
     report = ['# Citation ledger', '', f"Snapshot: {retrieved_at}", '',
       f"{len(edges)} verified citation relationships; {len(works)} distinct citing works; {len(self_citers)} direct self-citing works.", '',
-      'This is the retrieved record set, not a claim to enumerate every citation indexed by Google Scholar. See the parent README and source coverage audit.', '']
+      'All 66 Scholar result records are preserved separately in scholar-citations.csv. This merged ledger deduplicates versions and also retains additional OpenAlex records. See the parent README for scope and counting.', '']
     by_work = defaultdict(list)
     for row in affiliations: by_work[row['citing_work_id']].append(row)
     target_names = {sid(t['id']): doi(t['doi']) for t in targets}
@@ -406,7 +456,7 @@ def main():
         report += [f"## {n}. {md(row['title'])}", '',
           f"Year: {row['year']} · DOI: {md(row['doi'])} · Direct self-citation: {row['is_direct_self_citation']} · Non-research record: {row['is_non_research_record']}", '',
           'Cites: ' + '; '.join(md(target_names[t]) for t in row['cited_target_ids']), '',
-          f"Sources: {md(row['source'])} · [OpenAlex record]({row['source_url']})", '',
+          f"Sources: {md(row['source'])} · [Metadata record]({row['source_url']})", '',
           '| Author | Affiliation | Country / region | Location status |',
           '|---|---|---|---|']
         for a in by_work[row['citing_work_id']]:

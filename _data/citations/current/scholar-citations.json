@@ -1,0 +1,2181 @@
+[
+  {
+    "row": 1,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "DfMXTlnlS2kJ",
+    "citing_work_id": "W4415624368",
+    "title": "Observer-Based Fuzzy Boundary Dissipative Control of Parabolic PDE System With Parameter Uncertainties Under Dynamic Quantization",
+    "doi": "10.1109/tsmc.2025.3622967",
+    "year": 2025,
+    "authors": [
+      "Teng‐Fei Li",
+      "Xiao‐Heng Chang",
+      "Ju H. Park"
+    ],
+    "institutions": [
+      "Foshan University",
+      "Wuhan University of Science and Technology",
+      "Yeungnam University"
+    ],
+    "countries": [
+      "CN",
+      "KR"
+    ],
+    "states_provinces": [
+      "Daegu",
+      "Guangdong",
+      "Hubei"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11219417/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 2,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "sHwcQNhpVLwJ",
+    "citing_work_id": "W4412072274",
+    "title": "Quantized dissipative control for fuzzy hot strip mill cooling system under input constraint via dynamic output feedback approach",
+    "doi": "10.1016/j.amc.2025.129615",
+    "year": 2025,
+    "authors": [
+      "Teng‐Fei Li",
+      "Liming Ding",
+      "Xiong Jun",
+      "Haibing Li"
+    ],
+    "institutions": [
+      "Foshan University",
+      "Huaihua University",
+      "Wuhan University of Science and Technology"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Guangdong",
+      "Hubei",
+      "Hunan"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0096300325003418",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 3,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "WMK6N49D8YcJ",
+    "citing_work_id": "W4415220578",
+    "title": "Multi-objective load distribution in strip hot rolling with multiple roller profiles based on RPK-Net and a distributed TDADE algorithm",
+    "doi": "10.1016/j.eswa.2025.130016",
+    "year": 2025,
+    "authors": [
+      "Yanjiu Zhong",
+      "Qiang Zhang",
+      "Shuai Chen",
+      "Keke Li",
+      "Daye Yang",
+      "Linghui Hu"
+    ],
+    "institutions": [
+      "Anhui University",
+      "Hefei University of Technology",
+      "Shanghai Jiao Tong University",
+      "Zhejiang Energy Group (China)"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Anhui",
+      "Shanghai",
+      "Zhejiang"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0957417425036322",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 4,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "WeEy30HoAk0J",
+    "citing_work_id": "W4402810904",
+    "title": "Energy Consumption Prediction for Manufacturing in Industrial IoT Based on Heterogeneous GNN",
+    "doi": "10.1109/iccc62479.2024.10681781",
+    "year": 2024,
+    "authors": [
+      "Xuan Su",
+      "Mingyan Li",
+      "Qihao Li",
+      "Chao Chen",
+      "Songtao Guo",
+      "Xu Wang"
+    ],
+    "institutions": [
+      "Chongqing University",
+      "Jilin University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Chongqing",
+      "Jilin"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/10681781/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 5,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "M_QYGay2EsQJ",
+    "citing_work_id": "W7206203312",
+    "title": "A hierarchical multi-task learning-based electrical energy consumption prediction method with application to the hot strip rolling mill process",
+    "doi": "10.1016/j.eswa.2026.134256",
+    "year": 2026,
+    "authors": [
+      "Kai Zhang",
+      "Zongxu Cao",
+      "Kaixiang Peng",
+      "Yibin Rui"
+    ],
+    "institutions": [
+      "Taiyuan Heavy Industry (China)",
+      "University of Science and Technology Beijing"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Beijing",
+      "Shanxi"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0957417426031623",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 6,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "dG1zOkc36EEJ",
+    "citing_work_id": "W7160960716",
+    "title": "Energy consumption prediction of hydraulic systems based on Archimedes Algorithm-Optimized Multi-Level information fusion",
+    "doi": "10.1016/j.eswa.2026.132810",
+    "year": 2026,
+    "authors": [
+      "Qing Pan",
+      "Yifei Zhai",
+      "Chenyang Wen",
+      "Yuliang Wan",
+      "Yibo Li",
+      "Minghui Huang"
+    ],
+    "institutions": [
+      "Central South University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Hunan"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0957417426017239",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 7,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "p3vNHseAzfgJ",
+    "citing_work_id": "W4405421706",
+    "title": "Hybrid prediction model for strip width based on improved mechanism and data-driven model",
+    "doi": "10.1007/s42243-024-01400-5",
+    "year": 2024,
+    "authors": [
+      "Jia-liang Wang",
+      "Jingcheng Wang",
+      "Chaobo Chen",
+      "Kangbo Dang",
+      "Song Gao"
+    ],
+    "institutions": [
+      "Shanghai Jiao Tong University",
+      "Xi'an Technological University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Shaanxi",
+      "Shanghai"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=0&hl=en",
+    "publication_url": "https://link.springer.com/article/10.1007/s42243-024-01400-5",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 8,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "ZXz_CUV7LlYJ",
+    "citing_work_id": "W4388740257",
+    "title": "A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling",
+    "doi": "10.1109/tase.2023.3299185",
+    "year": 2023,
+    "authors": [
+      "Yanjiu Zhong",
+      "Jingcheng Wang",
+      "Jun Rao",
+      "Jiahui Xu",
+      "Shunyu Wu"
+    ],
+    "institutions": [
+      "Shanghai Jiao Tong University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Shanghai"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": true,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/10320311/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 9,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "delyrF7NxsoJ",
+    "citing_work_id": "W4406802685",
+    "title": "Mechanism- and data-driven algorithms of electrical energy consumption accounting and prediction for medium and heavy plate rolling",
+    "doi": "10.3934/era.2025019",
+    "year": 2025,
+    "authors": [
+      "Qiang Guo",
+      "Zimeng Zhou",
+      "Jie Li",
+      "Fengwei Jing"
+    ],
+    "institutions": [
+      "University of Science and Technology Beijing"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Beijing"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=0&hl=en",
+    "publication_url": "https://www.aimspress.com/aimspress-data/era/2025/1/PDF/era-33-01-019.pdf",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 10,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "_mBxlz8s6_sJ",
+    "citing_work_id": "W7130653856",
+    "title": "A novel multi-task learning-based electrical energy consumption prediction method with application to a hot strip rolling mill process",
+    "doi": "10.1016/j.epsr.2026.112878",
+    "year": 2026,
+    "authors": [
+      "Kai Zhang",
+      "Zongxu Cao",
+      "Yali Wang",
+      "Yibin Rui"
+    ],
+    "institutions": [
+      "Taiyuan Heavy Industry (China)",
+      "University of Science and Technology Beijing"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Beijing",
+      "Shanxi"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0378779626001719",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 11,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "30NFZCk7dtUJ",
+    "citing_work_id": "W6903285081",
+    "title": "An Automated Mechanical Property Testing System Based on Electric Field Assistance and Non-Contact Signal Measurement",
+    "doi": "10.1109/tim.2025.3548247",
+    "year": 2025,
+    "authors": [
+      "Xiaochuan Liu",
+      "Ming Ming",
+      "Lihua Du",
+      "Huiyuan Xu",
+      "Chenyu Li",
+      "Shengzhe Li",
+      "Denis J. Politis",
+      "Di Zhang",
+      "Heli Liu",
+      "Xuefeng Chen"
+    ],
+    "institutions": [
+      "AviChina Industry & Technology (China)",
+      "Imperial College London",
+      "University of Cyprus",
+      "Xi'an Jiaotong University"
+    ],
+    "countries": [
+      "CN",
+      "CY",
+      "GB"
+    ],
+    "states_provinces": [
+      "Beijing",
+      "England",
+      "Nicosia",
+      "Shaanxi"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=10&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/10912737/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 12,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "JpUJCoyB24UJ",
+    "citing_work_id": "W7160597376",
+    "title": "Smart City Energy Consumption Prediction Using Machine Learning",
+    "doi": "10.1109/icbiti65527.2025.11500812",
+    "year": 2025,
+    "authors": [
+      "Ghassan Issa",
+      "Channaganu Paramaiah",
+      "Khalid Almaazmi",
+      "Ayman AbuBaker"
+    ],
+    "institutions": [
+      "Applied Science Private University",
+      "Skyline University College"
+    ],
+    "countries": [
+      "AE",
+      "JO"
+    ],
+    "states_provinces": [
+      "Amman",
+      "Emirate of Sharjah"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=10&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11500812/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 13,
+    "target_doi": "10.1109/tase.2023.3236306",
+    "cited_work_id": "W4316660809",
+    "scholar_result_id": "sB3K_PozSxMJ",
+    "citing_work_id": "W4391095559",
+    "title": "Prediction of Strip Width in Finishing-Mill Group Based on PCA-PSO-LightGBM",
+    "doi": "10.1109/icicsp59554.2023.10390590",
+    "year": 2023,
+    "authors": [
+      "Jialiang Wang",
+      "Runyun Yao",
+      "Jingcheng Wang",
+      "Jichao Li"
+    ],
+    "institutions": [
+      "Shanghai Jiao Tong University",
+      "Xi'an Technological University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Shaanxi",
+      "Shanghai"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=17982578804515414946&start=10&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/10390590/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 14,
+    "target_doi": "10.1016/j.eswa.2024.124508",
+    "cited_work_id": "W4399709078",
+    "scholar_result_id": "8ruAaEWj6usJ",
+    "citing_work_id": "W4408960580",
+    "title": "Adaptive sparse lightweight multi-scale hybrid network for remote sensing image semantic segmentation",
+    "doi": "10.1016/j.eswa.2025.127347",
+    "year": 2025,
+    "authors": [
+      "Haonan Sun",
+      "Xiaohui He",
+      "Haofei Li",
+      "Jinlan Kong",
+      "Mengjia Qiao",
+      "Xijie Cheng",
+      "Panle Li",
+      "Jian Zhang",
+      "Renyi Liu",
+      "Jiandong Shang"
+    ],
+    "institutions": [
+      "Zhejiang University",
+      "Zhengzhou University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Henan",
+      "Zhejiang"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10782110211194483263&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0957417425009698",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 15,
+    "target_doi": "10.1016/j.eswa.2024.124508",
+    "cited_work_id": "W4399709078",
+    "scholar_result_id": "WRbX_5LR948J",
+    "citing_work_id": "W4413754711",
+    "title": "End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling",
+    "doi": "10.1109/tsg.2025.3601238",
+    "year": 2025,
+    "authors": [
+      "Shunyu Wu",
+      "Jingcheng Wang",
+      "Haotian Xu",
+      "Yanjiu Zhong",
+      "Jun Rao"
+    ],
+    "institutions": [
+      "Hefei University of Technology",
+      "Ministry of Education of the People's Republic of China",
+      "Shandong University",
+      "Shanghai Jiao Tong University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Anhui",
+      "Beijing",
+      "Shandong",
+      "Shanghai"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": true,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10782110211194483263&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11142824/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 16,
+    "target_doi": "10.1016/j.eswa.2024.124508",
+    "cited_work_id": "W4399709078",
+    "scholar_result_id": "YHgFpVm4duMJ",
+    "citing_work_id": "W4412533860",
+    "title": "Optimizing supply chain operations using advanced Time-Series Mixer models for demand forecasting and inventory under uncertain demand",
+    "doi": "10.1016/j.eswa.2025.128955",
+    "year": 2025,
+    "authors": [
+      "Thị Ngọc Anh Nguyễn",
+      "Thị Ngọc Anh Nguyễn",
+      "Thi Xuan Hoa Nguyen",
+      "Thi Xuan Hoa Nguyen",
+      "Ngoc Thang Tran",
+      "Thi Ha Nguyen",
+      "Thi Ha Nguyen",
+      "Phuong Anh Nguyen",
+      "Hai Anh Vu"
+    ],
+    "institutions": [
+      "Hanoi University of Science and Technology"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "states_provinces": [
+      "Hanoi"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10782110211194483263&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0957417425025722",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 17,
+    "target_doi": "10.1016/j.eswa.2024.124508",
+    "cited_work_id": "W4399709078",
+    "scholar_result_id": "luHe6qhg-N4J",
+    "citing_work_id": "W7165128626",
+    "title": "Deep Learning for Operation and Maintenance of Urban Lifeline Systems: A Comprehensive Review",
+    "doi": "10.1061/jitse4.iseng-2916",
+    "year": 2026,
+    "authors": [
+      "Xianfei Yin",
+      "Junxiang Zhao",
+      "Ruiyan Zheng"
+    ],
+    "institutions": [
+      "City University of Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "states_provinces": [
+      "Hong Kong S.A.R."
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10782110211194483263&start=0&hl=en",
+    "publication_url": "https://ascelibrary.org/doi/abs/10.1061/JITSE4.ISENG-2916",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 18,
+    "target_doi": "10.1016/j.eswa.2024.124508",
+    "cited_work_id": "W4399709078",
+    "scholar_result_id": "ZGSMVVWI6QcJ",
+    "citing_work_id": "W4416747394",
+    "title": "STRNet: dual-branch synergistic network with interactive fusion for remote sensing semantic segmentation",
+    "doi": "10.1007/s40747-025-02181-4",
+    "year": 2025,
+    "authors": [
+      "Minjun Zhai",
+      "Donghua Chen",
+      "Yibo Duan",
+      "Qihang Zhen",
+      "Jian Zheng",
+      "Minmin Pei",
+      "Xing Guo"
+    ],
+    "institutions": [
+      "Anhui Normal University",
+      "Anhui University",
+      "Chuzhou University",
+      "Fujian Normal University",
+      "Xinjiang Normal University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Anhui",
+      "Fujian",
+      "Xinjiang"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10782110211194483263&start=0&hl=en",
+    "publication_url": "https://link.springer.com/article/10.1007/s40747-025-02181-4",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 19,
+    "target_doi": "10.1016/j.eswa.2024.124508",
+    "cited_work_id": "W4399709078",
+    "scholar_result_id": "u82403t1hi0J",
+    "citing_work_id": "W4416427853",
+    "title": "Cross-task interactive attention for typhoon intensity and track forecasting",
+    "doi": "10.1016/j.eswa.2025.130501",
+    "year": 2025,
+    "authors": [
+      "Wenhui Li",
+      "Jingyi Wang",
+      "Yue Li",
+      "Dan Song",
+      "Xuan Peng",
+      "Zhiqiang Wei",
+      "An-An Liu"
+    ],
+    "institutions": [
+      "China Meteorological Administration",
+      "National University of Defense Technology",
+      "Ocean University of China",
+      "Tianjin University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Beijing",
+      "Hunan",
+      "Shandong",
+      "Tianjin"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10782110211194483263&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0957417425041168",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 20,
+    "target_doi": "10.1016/j.eswa.2024.124508",
+    "cited_work_id": "W4399709078",
+    "scholar_result_id": "UQKs3rNTtsEJ",
+    "citing_work_id": "W4408973948",
+    "title": "Tracking control for nonlinear multi-agent systems: a first-order DPG framework with initial admissible control policy method",
+    "doi": "10.1007/s11071-025-11097-0",
+    "year": 2025,
+    "authors": [
+      "Jun Rao",
+      "Jingcheng Wang",
+      "Jiahui Xu",
+      "Yanjiu Zhong"
+    ],
+    "institutions": [
+      "Shanghai Jiao Tong University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Shanghai"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10782110211194483263&start=0&hl=en",
+    "publication_url": "https://link.springer.com/article/10.1007/s11071-025-11097-0",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 21,
+    "target_doi": "10.1016/j.eswa.2024.124508",
+    "cited_work_id": "W4399709078",
+    "scholar_result_id": "rkwK1abhRTgJ",
+    "citing_work_id": "W7155051385",
+    "title": "Sustainable Water Allocation in Karst Regions: A Multi-Objective Framework Integrating Ecological Flow and Intelligent Demand Forecasting",
+    "doi": "10.3390/su18084108",
+    "year": 2026,
+    "authors": [
+      "Yunfa Gao",
+      "Ming Zhong",
+      "Jie Xu",
+      "Guang Yang"
+    ],
+    "institutions": [
+      "Guizhou Water Conservancy and Hydropower Survey and Design Institute",
+      "Nanjing Hydraulic Research Institute"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Guizhou",
+      "Jiangsu"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10782110211194483263&start=0&hl=en",
+    "publication_url": "https://www.mdpi.com/2071-1050/18/8/4108",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 22,
+    "target_doi": "10.1016/j.eswa.2024.124508",
+    "cited_work_id": "W4399709078",
+    "scholar_result_id": "kLaH7VODME4J",
+    "citing_work_id": "W7163748389",
+    "title": "Unified Loss-Level Regularization for Spike-Aware and Anti-Lag Time Series Forecasting",
+    "doi": "10.1007/978-981-92-1462-4_21",
+    "year": 2026,
+    "authors": [
+      "Faiza Afzal",
+      "EunSol Hyun",
+      "A-Hyun Jo",
+      "Jae‐Joong Kim",
+      "Kyuchang Chang"
+    ],
+    "institutions": [
+      "Jeju National University"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "states_provinces": [
+      "Jeju-do"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10782110211194483263&start=0&hl=en",
+    "publication_url": "https://link.springer.com/chapter/10.1007/978-981-92-1462-4_21",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 23,
+    "target_doi": "10.1016/j.eswa.2024.124508",
+    "cited_work_id": "W4399709078",
+    "scholar_result_id": "b0IChvd8F0QJ",
+    "citing_work_id": "W4412533860",
+    "title": "Optimizing supply chain operations using advanced Time-Series Mixer models for demand forecasting and inventory under uncertain demand",
+    "doi": "10.1016/j.eswa.2025.128955",
+    "year": 2025,
+    "authors": [
+      "Thị Ngọc Anh Nguyễn",
+      "Thị Ngọc Anh Nguyễn",
+      "Thi Xuan Hoa Nguyen",
+      "Thi Xuan Hoa Nguyen",
+      "Ngoc Thang Tran",
+      "Thi Ha Nguyen",
+      "Thi Ha Nguyen",
+      "Phuong Anh Nguyen",
+      "Hai Anh Vu"
+    ],
+    "institutions": [
+      "Hanoi University of Science and Technology"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "states_provinces": [
+      "Hanoi"
+    ],
+    "duplicate_of_result_id": "YHgFpVm4duMJ",
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10782110211194483263&start=0&hl=en",
+    "publication_url": "https://dl.acm.org/doi/abs/10.1016/j.eswa.2025.128955",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 24,
+    "target_doi": "10.1016/j.eswa.2024.124508",
+    "cited_work_id": "W4399709078",
+    "scholar_result_id": "mN5S-sT4lAsJ",
+    "citing_work_id": "W4400584655",
+    "title": "Editorial to the Special Issue “Systems Engineering and Knowledge Management”",
+    "doi": "10.3390/info15070402",
+    "year": 2024,
+    "authors": [
+      "Vladimír Bureš"
+    ],
+    "institutions": [
+      "University of Hradec Králové"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "states_provinces": [
+      "Hradec Králové"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10782110211194483263&start=10&hl=en",
+    "publication_url": "https://www.mdpi.com/2078-2489/15/7/402",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 25,
+    "target_doi": "10.1016/j.eswa.2024.124508",
+    "cited_work_id": "W4399709078",
+    "scholar_result_id": "z8XaMzhssrAJ",
+    "citing_work_id": "W4402577629",
+    "title": "A Diversified Integrated Model for Seasonal Product Demand Prediction",
+    "doi": "10.21203/rs.3.rs-4897840/v1",
+    "year": 2024,
+    "authors": [
+      "Bin Liu",
+      "Hao Ding",
+      "Yun Qiaoyun"
+    ],
+    "institutions": [
+      "University of Shanghai for Science and Technology"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Shanghai"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10782110211194483263&start=10&hl=en",
+    "publication_url": "https://assets-eu.researchsquare.com/files/rs-4897840/v1/dac398d2-0697-427f-adb5-d802f65fa282.pdf",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 26,
+    "target_doi": "10.1109/tsmc.2023.3344883",
+    "cited_work_id": "W4390829281",
+    "scholar_result_id": "OuXAxymzr4oJ",
+    "citing_work_id": "W4416202049",
+    "title": "Accelerated Intelligent Critic Tracking Predictive Control With Data Experience Replay for Unknown Nonlinear Systems",
+    "doi": "10.1109/tcyb.2025.3623591",
+    "year": 2025,
+    "authors": [
+      "Ding Wang",
+      "Peng Xin",
+      "Hua Wang",
+      "Ao Liu",
+      "Junfei Qiao"
+    ],
+    "institutions": [
+      "Beijing University of Technology",
+      "Zhengzhou University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Beijing",
+      "Henan"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=9194898683237041119&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11244176/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 27,
+    "target_doi": "10.1109/tsmc.2023.3344883",
+    "cited_work_id": "W4390829281",
+    "scholar_result_id": "G2rrpJ41B-oJ",
+    "citing_work_id": "W7124941333",
+    "title": "Reinforcement learning-based fault-tolerant control of nonlinear servo systems with performance guarantees",
+    "doi": "10.1007/s11071-025-11983-7",
+    "year": 2026,
+    "authors": [
+      "Ning Xie",
+      "Shaoyu Lv",
+      "Zhengguo Huang",
+      "Hao Shen"
+    ],
+    "institutions": [
+      "Anhui University of Technology"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Anhui"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=9194898683237041119&start=0&hl=en",
+    "publication_url": "https://link.springer.com/article/10.1007/s11071-025-11983-7",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 28,
+    "target_doi": "10.1109/tsmc.2023.3344883",
+    "cited_work_id": "W4390829281",
+    "scholar_result_id": "J_9Qv_4CUOoJ",
+    "citing_work_id": "W7127962472",
+    "title": "A novel model predictive control law for over-actuated space cable-driven manipulators",
+    "doi": "10.1016/j.conengprac.2026.106819",
+    "year": 2026,
+    "authors": [
+      "Wenlong Lin",
+      "Wanquan Liu",
+      "Xiangxiang Zou",
+      "Deshan Meng",
+      "Hui-Jie Sun",
+      "Ping Wang",
+      "Muhammad Imran"
+    ],
+    "institutions": [
+      "Central South University",
+      "Harbin Institute of Technology",
+      "National University of Sciences and Technology",
+      "Sun Yat-sen University"
+    ],
+    "countries": [
+      "CN",
+      "PK"
+    ],
+    "states_provinces": [
+      "Guangdong",
+      "Heilongjiang",
+      "Hunan",
+      "Islamabad"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=9194898683237041119&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0967066126000638",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 29,
+    "target_doi": "10.1109/tsmc.2023.3344883",
+    "cited_work_id": "W4390829281",
+    "scholar_result_id": "gh5gw07GCdsJ",
+    "citing_work_id": "W4397026601",
+    "title": "Fuzzy-Based Optimal Control for Stochastic Nonlinear Systems With Constrained Inputs via Dynamic Event-Triggering",
+    "doi": "10.1109/tfuzz.2024.3402348",
+    "year": 2024,
+    "authors": [
+      "Chenyi Si",
+      "Chaoxu Mu",
+      "Ke Wang",
+      "Song Zhu",
+      "Jinpeng Yu"
+    ],
+    "institutions": [
+      "China University of Mining and Technology",
+      "Qingdao University",
+      "Tianjin University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Jiangsu",
+      "Shandong",
+      "Tianjin"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=9194898683237041119&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/10533664/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 30,
+    "target_doi": "10.1109/tsmc.2023.3344883",
+    "cited_work_id": "W4390829281",
+    "scholar_result_id": "B9domNFx7N0J",
+    "citing_work_id": "W7162212290",
+    "title": "Adaptive dynamic programming for controlling constrained nonlinear systems: a survey and recent advances",
+    "doi": "10.1080/21642583.2026.2671530",
+    "year": 2026,
+    "authors": [
+      "Bo Zhao",
+      "Mingduo Lin",
+      "Guoling Yuan"
+    ],
+    "institutions": [
+      "Beijing Normal University",
+      "Southern University of Science and Technology"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Beijing",
+      "Guangdong"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=9194898683237041119&start=0&hl=en",
+    "publication_url": "https://www.tandfonline.com/doi/abs/10.1080/21642583.2026.2671530",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 31,
+    "target_doi": "10.1109/tsmc.2023.3344883",
+    "cited_work_id": "W4390829281",
+    "scholar_result_id": "AzmbJ0CAJBYJ",
+    "citing_work_id": "W4393188243",
+    "title": "Parallel Cross Entropy Policy Gradient Adaptive Dynamic Programming for Optimal Tracking Control of Discrete-Time Nonlinear Systems",
+    "doi": "10.1109/tsmc.2024.3373456",
+    "year": 2024,
+    "authors": [
+      "Jiahui Xu",
+      "Jingcheng Wang",
+      "Jun Rao",
+      "Yanjiu Zhong",
+      "Shunyu Wu",
+      "Qifang Sun"
+    ],
+    "institutions": [
+      "Shanghai Jiao Tong University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Shanghai"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": true,
+    "source_page_url": "https://scholar.google.com/scholar?cites=9194898683237041119&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/10479581/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 32,
+    "target_doi": "10.1109/tsmc.2023.3344883",
+    "cited_work_id": "W4390829281",
+    "scholar_result_id": "P03Go880XXcJ",
+    "citing_work_id": "W7168280566",
+    "title": "Adaptive Safe Reinforcement Learning With Energy Dissipation Principles",
+    "doi": "10.1109/tsmc.2026.3711442",
+    "year": 2026,
+    "authors": [
+      "Hainan Zhang",
+      "Changchun Hua",
+      "Jiannan Chen",
+      "Xi Luo"
+    ],
+    "institutions": [
+      "Yanshan University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Hebei"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=9194898683237041119&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11609292/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 33,
+    "target_doi": "10.1109/tsmc.2023.3344883",
+    "cited_work_id": "W4390829281",
+    "scholar_result_id": "bOg7hN-LPbcJ",
+    "citing_work_id": "W7154682570",
+    "title": "A Model‐Free Non‐Zero‐Sum Game Framework for Safe and Optimal Vehicle Platooning Control",
+    "doi": "10.1002/rnc.70552",
+    "year": 2026,
+    "authors": [
+      "J T Liu",
+      "Fei Chen",
+      "Jing Yuan"
+    ],
+    "institutions": [
+      "Nankai University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Tianjin"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=9194898683237041119&start=0&hl=en",
+    "publication_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.70552",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 34,
+    "target_doi": "10.1109/tsmc.2023.3344883",
+    "cited_work_id": "W4390829281",
+    "scholar_result_id": "SrNHKjSS8oUJ",
+    "citing_work_id": "W4412605216",
+    "title": "Two-Loop Online Data-Driven Control for Oral Implantation Robots in Human–Robot Interaction",
+    "doi": "10.1109/tie.2025.3587116",
+    "year": 2025,
+    "authors": [
+      "Peng Chen",
+      "Qiang Chen",
+      "Chenguang Yang",
+      "Xiongxiong He"
+    ],
+    "institutions": [
+      "University of Liverpool",
+      "Zhejiang University of Technology"
+    ],
+    "countries": [
+      "CN",
+      "GB"
+    ],
+    "states_provinces": [
+      "England",
+      "Zhejiang"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=9194898683237041119&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11091605/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 35,
+    "target_doi": "10.1109/tsmc.2023.3344883",
+    "cited_work_id": "W4390829281",
+    "scholar_result_id": "TlOR22cx_VsJ",
+    "citing_work_id": "W4407737363",
+    "title": "Optimizing Rail Traffic with Reinforcement Learning and Graph Attention Networks",
+    "doi": "10.1109/sami63904.2025.10883318",
+    "year": 2025,
+    "authors": [
+      "Péter Farkas",
+      "László Szőke",
+      "Szilárd Aradi"
+    ],
+    "institutions": [
+      "Budapest University of Technology and Economics"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "states_provinces": [
+      "Budapest"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=9194898683237041119&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/10883318/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 36,
+    "target_doi": "10.1109/tsmc.2023.3344883",
+    "cited_work_id": "W4390829281",
+    "scholar_result_id": "PQx3foyMsNsJ",
+    "citing_work_id": "W4412985535",
+    "title": "Q-Learning Controller Design for Discrete-Time Nonlinear Systems with State and Input Constraints",
+    "doi": "10.1109/ccdc65474.2025.11090207",
+    "year": 2025,
+    "authors": [
+      "Gang Chen",
+      "Wei Luo",
+      "Yonggang Chen",
+      "Feng Guo"
+    ],
+    "institutions": [
+      "Chongqing University",
+      "Goldwind (China)"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Chongqing",
+      "Xinjiang"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=9194898683237041119&start=10&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11090207/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 37,
+    "target_doi": "10.1109/tase.2023.3299185",
+    "cited_work_id": "W4388740257",
+    "scholar_result_id": "L9zabACDgK8J",
+    "citing_work_id": "W4409524339",
+    "title": "Physics-informed generative regression for industrial process modeling in steel strip rolling",
+    "doi": "10.1016/j.eswa.2025.127713",
+    "year": 2025,
+    "authors": [
+      "Jifei Deng",
+      "Seppo Sierla",
+      "Jie Sun",
+      "Valeriy Vyatkin"
+    ],
+    "institutions": [
+      "Aalto University",
+      "Luleå University of Technology",
+      "Northeastern University"
+    ],
+    "countries": [
+      "CN",
+      "FI",
+      "SE"
+    ],
+    "states_provinces": [
+      "Liaoning",
+      "Norrbotten",
+      "Uusimaa"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=6210036472641191013&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0957417425013351",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 38,
+    "target_doi": "10.1109/tase.2023.3299185",
+    "cited_work_id": "W4388740257",
+    "scholar_result_id": "HI6S_ORyHRgJ",
+    "citing_work_id": "W7114924552",
+    "title": "Theory and construction of machine learning-driven CFD agent model: a bayesian-optimized CNN-LSTM framework",
+    "doi": "10.1016/j.jtice.2025.106577",
+    "year": 2025,
+    "authors": [
+      "Chunmao Pan",
+      "Lingxing Hu",
+      "Facheng Qiu",
+      "Zhiliang Cheng",
+      "Zhongjun Li",
+      "Lanfeng Guo"
+    ],
+    "institutions": [
+      "Chongqing University of Technology",
+      "Hubei Sinophorus Electronic Materials Co., Ltd.",
+      "Hubei Three Gorges Laboratory"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Chongqing",
+      "Hubei"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=6210036472641191013&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S1876107025006297",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 39,
+    "target_doi": "10.1109/tase.2023.3299185",
+    "cited_work_id": "W4388740257",
+    "scholar_result_id": "UpUmVp2LprYJ",
+    "citing_work_id": "W7138148711",
+    "title": "Efficiently Enhancing Long-term Series Forecasting via Adaptive Lookback with Wavelets",
+    "doi": "10.1609/aaai.v40i31.39797",
+    "year": 2026,
+    "authors": [
+      "Suxin Tong",
+      "Jingling Yuan"
+    ],
+    "institutions": [
+      "Wuhan University of Technology"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Hubei"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=6210036472641191013&start=0&hl=en",
+    "publication_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39797",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 40,
+    "target_doi": "10.1109/tase.2023.3299185",
+    "cited_work_id": "W4388740257",
+    "scholar_result_id": "WMK6N49D8YcJ",
+    "citing_work_id": "W4415220578",
+    "title": "Multi-objective load distribution in strip hot rolling with multiple roller profiles based on RPK-Net and a distributed TDADE algorithm",
+    "doi": "10.1016/j.eswa.2025.130016",
+    "year": 2025,
+    "authors": [
+      "Yanjiu Zhong",
+      "Qiang Zhang",
+      "Shuai Chen",
+      "Keke Li",
+      "Daye Yang",
+      "Linghui Hu"
+    ],
+    "institutions": [
+      "Anhui University",
+      "Hefei University of Technology",
+      "Shanghai Jiao Tong University",
+      "Zhejiang Energy Group (China)"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Anhui",
+      "Shanghai",
+      "Zhejiang"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=6210036472641191013&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0957417425036322",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 41,
+    "target_doi": "10.1109/tase.2023.3299185",
+    "cited_work_id": "W4388740257",
+    "scholar_result_id": "M_QYGay2EsQJ",
+    "citing_work_id": "W7206203312",
+    "title": "A hierarchical multi-task learning-based electrical energy consumption prediction method with application to the hot strip rolling mill process",
+    "doi": "10.1016/j.eswa.2026.134256",
+    "year": 2026,
+    "authors": [
+      "Kai Zhang",
+      "Zongxu Cao",
+      "Kaixiang Peng",
+      "Yibin Rui"
+    ],
+    "institutions": [
+      "Taiyuan Heavy Industry (China)",
+      "University of Science and Technology Beijing"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Beijing",
+      "Shanxi"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=6210036472641191013&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0957417426031623",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 42,
+    "target_doi": "10.1109/tase.2023.3299185",
+    "cited_work_id": "W4388740257",
+    "scholar_result_id": "yIOVkPBIGmcJ",
+    "citing_work_id": "W4411018076",
+    "title": "A novel distributed fine-grained energy consumption monitoring for large-scale nonlinear dynamic industrial processes",
+    "doi": "10.1080/00207543.2025.2513577",
+    "year": 2025,
+    "authors": [
+      "Kaixiang Peng",
+      "Yujie Wei",
+      "Tie Li",
+      "Qin Xin",
+      "Jie Dong"
+    ],
+    "institutions": [
+      "University of Science and Technology Beijing"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Beijing"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=6210036472641191013&start=0&hl=en",
+    "publication_url": "https://www.tandfonline.com/doi/abs/10.1080/00207543.2025.2513577",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 43,
+    "target_doi": "10.1109/tase.2023.3299185",
+    "cited_work_id": "W4388740257",
+    "scholar_result_id": "3jb1YeswktoJ",
+    "citing_work_id": "W4404563370",
+    "title": "A Reinforcement Learning-Based Multistep Prediction Strategy for Burn-Through Point Using State Feature Extractor",
+    "doi": "10.1109/tim.2024.3502771",
+    "year": 2024,
+    "authors": [
+      "Junjin Mu",
+      "Chunjie Yang",
+      "Yan Feng",
+      "Chong Yang",
+      "Tao Lin"
+    ],
+    "institutions": [
+      "Hainan University",
+      "State Key Laboratory of Industrial Control Technology",
+      "University of Science and Technology Beijing"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Beijing",
+      "Hainan",
+      "Zhejiang"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=6210036472641191013&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/10758806/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 44,
+    "target_doi": "10.1109/tase.2023.3299185",
+    "cited_work_id": "W4388740257",
+    "scholar_result_id": "OkCmS5fpg50J",
+    "citing_work_id": "W4410226400",
+    "title": "Single-Period Optimal Inventory Control With Substitution: An End-to-End Framework",
+    "doi": "10.1109/tase.2025.3568642",
+    "year": 2025,
+    "authors": [
+      "Yuewei Zhang",
+      "Hailei Gong",
+      "Zhihai Zhang"
+    ],
+    "institutions": [
+      "Tsinghua University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Beijing"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=6210036472641191013&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/10994796/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 45,
+    "target_doi": "10.1109/tsmc.2023.3327450",
+    "cited_work_id": "W4388579581",
+    "scholar_result_id": "GOlbhmB-GiMJ",
+    "citing_work_id": "W4411055426",
+    "title": "Adaptive Secure Finite-Time Optimal Control of Unknown Nonlinear Systems With State Constraints via Generalized Fuzzy Hyperbolic Models",
+    "doi": "10.1109/tnnls.2025.3565622",
+    "year": 2025,
+    "authors": [
+      "Hanguang Su",
+      "Yi Cui",
+      "Huaguang Zhang",
+      "Xiangpeng Xie",
+      "Xiaodong Liang",
+      "Jiawei Wang"
+    ],
+    "institutions": [
+      "Nanjing University of Posts and Telecommunications",
+      "Northeastern University",
+      "State Key Laboratory of Synthetical Automation for Process Industries",
+      "University of Saskatchewan"
+    ],
+    "countries": [
+      "CA",
+      "CN"
+    ],
+    "states_provinces": [
+      "Jiangsu",
+      "Liaoning",
+      "Saskatchewan"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=5565069619425376379&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11025557/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 46,
+    "target_doi": "10.1109/tsmc.2023.3327450",
+    "cited_work_id": "W4388579581",
+    "scholar_result_id": "GbBAR_1JwwAJ",
+    "citing_work_id": "local-aas-c240706",
+    "title": "数据驱动自适应评判控制研究进展",
+    "doi": "10.16383/j.aas.c240706",
+    "year": 2025,
+    "authors": [
+      "Ding Wang",
+      "Ming-Ming Zhao",
+      "De-Rong Liu",
+      "Jun-Fei Qiao",
+      "Shi-Jie Song"
+    ],
+    "institutions": [
+      "Beijing University of Technology",
+      "Southern University of Science and Technology",
+      "Southwest Jiaotong University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Beijing",
+      "Guangdong",
+      "Sichuan"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=5565069619425376379&start=0&hl=en",
+    "publication_url": "https://www.sciengine.com/parse/pdf/0254-4156/6903A15E66664B2798AA290A0F40F47F.pdf",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 47,
+    "target_doi": "10.1109/tsmc.2023.3327450",
+    "cited_work_id": "W4388579581",
+    "scholar_result_id": "AzmbJ0CAJBYJ",
+    "citing_work_id": "W4393188243",
+    "title": "Parallel Cross Entropy Policy Gradient Adaptive Dynamic Programming for Optimal Tracking Control of Discrete-Time Nonlinear Systems",
+    "doi": "10.1109/tsmc.2024.3373456",
+    "year": 2024,
+    "authors": [
+      "Jiahui Xu",
+      "Jingcheng Wang",
+      "Jun Rao",
+      "Yanjiu Zhong",
+      "Shunyu Wu",
+      "Qifang Sun"
+    ],
+    "institutions": [
+      "Shanghai Jiao Tong University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Shanghai"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": true,
+    "source_page_url": "https://scholar.google.com/scholar?cites=5565069619425376379&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/10479581/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 48,
+    "target_doi": "10.1109/tsmc.2023.3327450",
+    "cited_work_id": "W4388579581",
+    "scholar_result_id": "Kb_mA1tbzZwJ",
+    "citing_work_id": "W7164919297",
+    "title": "Online Value Iteration for Unknown Nonlinear Multiagent Systems: A Model-Decoupled Encoding–Decoding Mechanism",
+    "doi": "10.1109/tnnls.2026.3700775",
+    "year": 2026,
+    "authors": [
+      "Tong Zhang",
+      "Yiyan Han",
+      "Le You",
+      "Xin Wang"
+    ],
+    "institutions": [
+      "Southwest University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Chongqing"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=5565069619425376379&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11568881/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 49,
+    "target_doi": "10.1109/tsmc.2023.3327450",
+    "cited_work_id": "W4388579581",
+    "scholar_result_id": "Vfilx60IjzgJ",
+    "citing_work_id": "W4407865237",
+    "title": "Rapid dynamical learning from neural control of sampled-data nonlinear systems via pseudo-inverse regression filter vector signal",
+    "doi": "10.1016/j.jfranklin.2025.107585",
+    "year": 2025,
+    "authors": [
+      "Dengxiang Liang",
+      "Min Wang"
+    ],
+    "institutions": [
+      "South China University of Technology"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Guangdong"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=5565069619425376379&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0016003225000791",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 50,
+    "target_doi": "10.1109/tsmc.2023.3327450",
+    "cited_work_id": "W4388579581",
+    "scholar_result_id": "S8LHklPsjzIJ",
+    "citing_work_id": "W4410770862",
+    "title": "Reinforcement Learning-Based Dynamic Programming Control for Robust Disturbance Rejection and Error Minimization in Dynamic Systems",
+    "doi": "10.1109/cacml64929.2025.11010957",
+    "year": 2025,
+    "authors": [
+      "Amoh Mensah Akwasi",
+      "Haoyong Chen",
+      "Junfeng Liu"
+    ],
+    "institutions": [
+      "South China University of Technology"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Guangdong"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=5565069619425376379&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11010957/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 51,
+    "target_doi": "10.1109/tsmc.2023.3327450",
+    "cited_work_id": "W4388579581",
+    "scholar_result_id": "Kvi96Pdm8FoJ",
+    "citing_work_id": "W4396930200",
+    "title": "Observer-based dual-dynamic event-triggered mechanism design for balance control of motion robots",
+    "doi": "10.3934/dcdss.2024071",
+    "year": 2024,
+    "authors": [
+      "Shouzhuan Chen",
+      "Yiming Yang",
+      "Shuxian Zhu",
+      "Baoping Jiang"
+    ],
+    "institutions": [
+      "Suzhou University of Science and Technology"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Jiangsu"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=5565069619425376379&start=0&hl=en",
+    "publication_url": "https://www.aimsciences.org/article/doi/10.3934/dcdss.2024071",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 52,
+    "target_doi": "10.1109/tsmc.2023.3327450",
+    "cited_work_id": "W4388579581",
+    "scholar_result_id": "0i8CusPKW8AJ",
+    "citing_work_id": "W7172428666",
+    "title": "Discrete-time Optimal Formation Control of Unmanned Vehicles Based on Policy Gradient Adaptive Dynamic Programming",
+    "doi": "10.1109/yac71005.2026.11615894",
+    "year": 2026,
+    "authors": [
+      "Wangyu Cao",
+      "Zhe Zhou",
+      "Yuxuan Wu",
+      "Zhuoyan Ji",
+      "Zhengtao Ye",
+      "Shixun Xiong"
+    ],
+    "institutions": [
+      "Nanjing University of Posts and Telecommunications"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Jiangsu"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=5565069619425376379&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11615894/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 53,
+    "target_doi": "10.1109/tsg.2025.3601238",
+    "cited_work_id": "W4413754711",
+    "scholar_result_id": "WT1IFpBCNXQJ",
+    "citing_work_id": "W7131618216",
+    "title": "An End-to-End Learning Model With Quantization Technology for Dynamic Prediction-Decision Joint-Making in Active Distribution Networks",
+    "doi": "10.1109/tsg.2026.3668484",
+    "year": 2026,
+    "authors": [
+      "Fenglin Cai",
+      "Zhiming Dong",
+      "Xiaodong Yang",
+      "Jie Li",
+      "Zhixiang Hao",
+      "Yaoyao He",
+      "Helong Li"
+    ],
+    "institutions": [
+      "Chongqing University of Science and Technology",
+      "Hefei University of Technology"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Anhui",
+      "Chongqing"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10373990695958943321&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11414224/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 54,
+    "target_doi": "10.1109/tsg.2025.3601238",
+    "cited_work_id": "W4413754711",
+    "scholar_result_id": "VPp-Bxelnw4J",
+    "citing_work_id": "W7117981005",
+    "title": "Integrated optimal operation of power and water systems under uncertainty: An adjustable robust optimization approach",
+    "doi": "10.1016/j.watres.2026.125325",
+    "year": 2026,
+    "authors": [
+      "Gal Perelman",
+      "Mashor Housh",
+      "Aviad Navon",
+      "Avi Ostfeld"
+    ],
+    "institutions": [
+      "Technion – Israel Institute of Technology",
+      "University of Haifa",
+      "University of Michigan"
+    ],
+    "countries": [
+      "IL",
+      "US"
+    ],
+    "states_provinces": [
+      "Haifa",
+      "Michigan"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10373990695958943321&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0043135426000072",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 55,
+    "target_doi": "10.1109/tsg.2025.3601238",
+    "cited_work_id": "W4413754711",
+    "scholar_result_id": "SQnujyFlij0J",
+    "citing_work_id": "W7154605970",
+    "title": "Economic dispatch method for islanded microgrids based on BO-DW-TD3",
+    "doi": "10.1016/j.egyr.2026.109331",
+    "year": 2026,
+    "authors": [
+      "Long Cheng",
+      "B Zhang",
+      "Jun Yang",
+      "Bo Liu"
+    ],
+    "institutions": [
+      "Hunan Agricultural University",
+      "Hunan University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Hunan"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10373990695958943321&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S2352484726003008",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 56,
+    "target_doi": "10.1109/tsg.2025.3601238",
+    "cited_work_id": "W4413754711",
+    "scholar_result_id": "_B81siYHD7UJ",
+    "citing_work_id": "W7164987453",
+    "title": "Coordinated optimal scheduling of island micro water–energy nexus considering multi-source uncertainty and extreme risks",
+    "doi": "10.1063/5.0337442",
+    "year": 2026,
+    "authors": [
+      "Yudan Hou",
+      "Alexis Pengfei Zhao",
+      "Xianlong Li",
+      "Longsheng Wang",
+      "Da Xie"
+    ],
+    "institutions": [
+      "Environmental and Water Resources Engineering",
+      "Shanghai Jiao Tong University",
+      "Stanford University"
+    ],
+    "countries": [
+      "CN",
+      "IL",
+      "US"
+    ],
+    "states_provinces": [
+      "California",
+      "Haifa",
+      "Shanghai"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10373990695958943321&start=0&hl=en",
+    "publication_url": "https://pubs.aip.org/aip/jrse/article/18/3/036309/3395769",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 57,
+    "target_doi": "10.1109/tsg.2025.3601238",
+    "cited_work_id": "W4413754711",
+    "scholar_result_id": "6AWId03N1MoJ",
+    "citing_work_id": "W7165380963",
+    "title": "Decision-Focused Learning for Energy Arbitrage: From Probabilistic Forecasting to Risk-Averse Stochastic Optimization",
+    "doi": "10.1145/3765611.3815386",
+    "year": 2026,
+    "authors": [
+      "Steven Oufan Hai",
+      "Omid Ardakanian"
+    ],
+    "institutions": [
+      "University of Alberta"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "states_provinces": [
+      "Alberta"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10373990695958943321&start=0&hl=en",
+    "publication_url": "https://dl.acm.org/doi/abs/10.1145/3765611.3815386",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 58,
+    "target_doi": "10.1109/tsg.2025.3601238",
+    "cited_work_id": "W4413754711",
+    "scholar_result_id": "IcAPltpH7iEJ",
+    "citing_work_id": "W7197003632",
+    "title": "Decision-Oriented Machine Learning for Renewable-Dominated Power System Planning Under Uncertainty: A Review",
+    "doi": "10.2139/ssrn.7185818",
+    "year": 2026,
+    "authors": [
+      "Ishmael Fynn Cudjoe"
+    ],
+    "institutions": [
+      "University of Mines and Technology"
+    ],
+    "countries": [
+      "GH"
+    ],
+    "states_provinces": [
+      "Western"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=10373990695958943321&start=0&hl=en",
+    "publication_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7185818",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 59,
+    "target_doi": "10.23919/ccc52363.2021.9550182",
+    "cited_work_id": "W3202625584",
+    "scholar_result_id": "gH79V1RMjtkJ",
+    "citing_work_id": "W4407019097",
+    "title": "Machine learning for smart water distribution systems: exploring applications, challenges and future perspectives",
+    "doi": "10.1007/s10462-024-11093-7",
+    "year": 2025,
+    "authors": [
+      "Redemptor Jr Laceda Taloma",
+      "Francesca Cuomo",
+      "Danilo Comminiello",
+      "P. Pisani"
+    ],
+    "institutions": [
+      "Consorzio Nazionale Interuniversitario per le Telecomunicazioni",
+      "Sapienza University of Rome"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "states_provinces": [
+      "Emilia-Romagna",
+      "Lazio"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=11079227468890272109&start=0&hl=en",
+    "publication_url": "https://link.springer.com/article/10.1007/s10462-024-11093-7",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 60,
+    "target_doi": "10.23919/ccc52363.2021.9550182",
+    "cited_work_id": "W3202625584",
+    "scholar_result_id": "P_JbaxzAoZUJ",
+    "citing_work_id": "W4399709078",
+    "title": "Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting",
+    "doi": "10.1016/j.eswa.2024.124508",
+    "year": 2024,
+    "authors": [
+      "Shunyu Wu",
+      "Jingcheng Wang",
+      "Haotian Xu",
+      "Shangwei Zhao",
+      "Jiahui Xu"
+    ],
+    "institutions": [
+      "Shandong University",
+      "Shanghai Jiao Tong University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Shandong",
+      "Shanghai"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": true,
+    "source_page_url": "https://scholar.google.com/scholar?cites=11079227468890272109&start=0&hl=en",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0957417424013757",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 61,
+    "target_doi": "10.23919/ccc52363.2021.9550182",
+    "cited_work_id": "W3202625584",
+    "scholar_result_id": "3CPzFut-MYsJ",
+    "citing_work_id": "W4313043169",
+    "title": "Embedded Real-Time Speed Forecasting for Electric Vehicles: A Case Study on RSK Urban Roads",
+    "doi": "10.1109/access.2022.3225643",
+    "year": 2022,
+    "authors": [
+      "Y. NaitMalek",
+      "Mehdi Najib",
+      "Mohamed Bakhouya",
+      "Jaafar Gaber",
+      "Mohamed Essaaidi"
+    ],
+    "institutions": [
+      "Centre National de la Recherche Scientifique",
+      "Franche-Comté Électronique Mécanique Thermique et Optique - Sciences et Technologies",
+      "International University of Rabat",
+      "Mohammed V University",
+      "Université de technologie de belfort-montbéliard"
+    ],
+    "countries": [
+      "FR",
+      "MA"
+    ],
+    "states_provinces": [
+      "Bourgogne-Franche-Comté",
+      "Rabat-Salé-Kénitra",
+      "Île-de-France"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=11079227468890272109&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/9966589/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 62,
+    "target_doi": "10.23919/ccc52363.2021.9550182",
+    "cited_work_id": "W3202625584",
+    "scholar_result_id": "clFe_WW19ZIJ",
+    "citing_work_id": "W7117985712",
+    "title": "Secure Management of a Water Distribution Network in Multi-tenant Scenarios",
+    "doi": "10.1007/978-3-032-13744-9_8",
+    "year": 2026,
+    "authors": [
+      "Pierluigi Locatelli",
+      "Tiziana Cattai",
+      "Pietro Spadaccino",
+      "Francesca Cuomo"
+    ],
+    "institutions": [
+      "Sapienza University of Rome"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "states_provinces": [
+      "Lazio"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=11079227468890272109&start=0&hl=en",
+    "publication_url": "https://link.springer.com/chapter/10.1007/978-3-032-13744-9_8",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 63,
+    "target_doi": "10.23919/ccc52363.2021.9550182",
+    "cited_work_id": "W3202625584",
+    "scholar_result_id": "2ud1r3E_y0QJ",
+    "citing_work_id": "W4313043169",
+    "title": "Embedded Real-Time Speed Forecasting for Electric Vehicles: A Case Study on RSK Urban Roads",
+    "doi": "10.1109/access.2022.3225643",
+    "year": 2022,
+    "authors": [
+      "Y. NaitMalek",
+      "Mehdi Najib",
+      "Mohamed Bakhouya",
+      "Jaafar Gaber",
+      "Mohamed Essaaidi"
+    ],
+    "institutions": [
+      "Centre National de la Recherche Scientifique",
+      "Franche-Comté Électronique Mécanique Thermique et Optique - Sciences et Technologies",
+      "International University of Rabat",
+      "Mohammed V University",
+      "Université de technologie de belfort-montbéliard"
+    ],
+    "countries": [
+      "FR",
+      "MA"
+    ],
+    "states_provinces": [
+      "Bourgogne-Franche-Comté",
+      "Rabat-Salé-Kénitra",
+      "Île-de-France"
+    ],
+    "duplicate_of_result_id": "3CPzFut-MYsJ",
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=11079227468890272109&start=0&hl=en",
+    "publication_url": "https://www.academia.edu/download/96535875/09966589.pdf",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 64,
+    "target_doi": "10.1109/tcss.2023.3272330",
+    "cited_work_id": "W4376479136",
+    "scholar_result_id": "WRbX_5LR948J",
+    "citing_work_id": "W4413754711",
+    "title": "End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling",
+    "doi": "10.1109/tsg.2025.3601238",
+    "year": 2025,
+    "authors": [
+      "Shunyu Wu",
+      "Jingcheng Wang",
+      "Haotian Xu",
+      "Yanjiu Zhong",
+      "Jun Rao"
+    ],
+    "institutions": [
+      "Hefei University of Technology",
+      "Ministry of Education of the People's Republic of China",
+      "Shandong University",
+      "Shanghai Jiao Tong University"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "states_provinces": [
+      "Anhui",
+      "Beijing",
+      "Shandong",
+      "Shanghai"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": true,
+    "source_page_url": "https://scholar.google.com/scholar?cites=16572637879701461247&start=0&hl=en",
+    "publication_url": "https://ieeexplore.ieee.org/abstract/document/11142824/",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 65,
+    "target_doi": "10.1109/tcss.2023.3272330",
+    "cited_work_id": "W4376479136",
+    "scholar_result_id": "xmrOF-ptaBkJ",
+    "citing_work_id": "W7166318156",
+    "title": "Fixed-Interval Sampling for Water Distribution System Monitoring: An Adaptive Strategy through Time-Frequency Analysis",
+    "doi": "10.1061/jwrmd5.wreng-7312",
+    "year": 2026,
+    "authors": [
+      "Shaosong Wei",
+      "Zhigang Liu",
+      "Jie Fei",
+      "Tingchao Yu",
+      "Avi Ostfeld",
+      "Shipeng Chu"
+    ],
+    "institutions": [
+      "Ningxia Water Conservancy",
+      "Technion – Israel Institute of Technology",
+      "Zhejiang University"
+    ],
+    "countries": [
+      "CN",
+      "IL"
+    ],
+    "states_provinces": [
+      "Haifa",
+      "Ningxia",
+      "Zhejiang"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=16572637879701461247&start=0&hl=en",
+    "publication_url": "https://ascelibrary.org/doi/abs/10.1061/JWRMD5.WRENG-7312",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  },
+  {
+    "row": 66,
+    "target_doi": "10.1016/j.ifacol.2023.10.581",
+    "cited_work_id": "W4388904509",
+    "scholar_result_id": "G4yFVXeoo9oJ",
+    "citing_work_id": "IFIP1571131460",
+    "title": "Centrality-Aware Machine Learning for Water Network Pressure Prediction",
+    "doi": "",
+    "year": 2025,
+    "authors": [
+      "Federico Amato",
+      "Antonino Pagano",
+      "Gabriele Restuccia",
+      "Ilenia Tinnirello"
+    ],
+    "institutions": [
+      "Consorzio Nazionale Interuniversitario per le Telecomunicazioni",
+      "University of Palermo"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "states_provinces": [
+      "Emilia-Romagna",
+      "Sicily"
+    ],
+    "duplicate_of_result_id": null,
+    "is_direct_self_citation": false,
+    "source_page_url": "https://scholar.google.com/scholar?cites=3555488285760198709&start=0&hl=en",
+    "publication_url": "https://networking.ifip.org/2025/images/Net25_papers/1571131460.pdf",
+    "retrieved_at": "2026-09-09 14:18:36 UTC"
+  }
+]

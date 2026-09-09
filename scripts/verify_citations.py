@@ -45,10 +45,18 @@ assert len(external)==summary['external_citing_works']
 assert len(mapped)==summary['mapped_external_citing_works']
 assert len(external-mapped)==summary['unmapped_external_citing_works']
 assert math.isclose(sum(p['fractional_count'] for p in public['regions']),len(mapped),abs_tol=1e-4)
-assert not any(p['id'] in ('IT-parma','MA-rabat-sale-zemmour-zaer') for p in public['regions'])
+assert not any(p['id'] in ('IT-parma','IT-palermo','MA-rabat-sale-zemmour-zaer') for p in public['regions'])
+with (base/'scholar-citations.csv').open(encoding='utf-8-sig') as f: scholar_rows=list(csv.DictReader(f))
+assert len(scholar_rows)==summary['scholar_result_records']==read('manifest.json')['scholar_cross_check']['profile_total']
+assert len({(r['citing_work_id'],r['cited_work_id']) for r in scholar_rows})==summary['scholar_verified_edges']
+assert len({r['citing_work_id'] for r in scholar_rows})==read('manifest.json')['scholar_cross_check']['summary']['scholar_unique_works']
+assert sum(bool(r['duplicate_of_result_id']) for r in scholar_rows)==len(scholar_rows)-summary['scholar_verified_edges']
+with (base/'coverage-by-publication.csv').open(encoding='utf-8-sig') as f: coverage=list(csv.DictReader(f))
+for row in coverage:
+    if row['scholar_profile_count']: assert int(row['scholar_profile_count'])==int(row['scholar_retrieved_records'])
 site=root/'_site'
 if site.exists():
     assert not (site/'_data').exists()
     for path in site.rglob('*'):
-        assert path.name not in ('citation-ledger.csv','citation-ledger.md','author-affiliations.csv','citing-works.json')
+        assert path.name not in ('citation-ledger.csv','citation-ledger.md','author-affiliations.csv','citing-works.json','scholar-citations.csv','scholar-citations.json')
 print(f"PASS: {len(works)} records, {len(edges)} citation edges, {len(affiliations)} author-affiliation rows; {len(mapped)}/{len(external)} external papers mapped across {len(by_region)} regions.")

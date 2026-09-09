@@ -1,0 +1,197 @@
+{
+  "url": "https://api.openalex.org/works/W7168280566?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted",
+  "retrieved_at": "2026-09-09T14:26:07+00:00",
+  "data": {
+    "id": "https://openalex.org/W7168280566",
+    "doi": "https://doi.org/10.1109/tsmc.2026.3711442",
+    "title": "Adaptive Safe Reinforcement Learning With Energy Dissipation Principles",
+    "publication_year": 2026,
+    "publication_date": "2026-01-01",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5140669482",
+          "display_name": "Hainan Zhang",
+          "orcid": "https://orcid.org/0009-0003-9323-0613"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I39333907",
+            "display_name": "Yanshan University",
+            "ror": "https://ror.org/02txfnf15",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hainan Zhang",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering, Yanshan University, Qinhuangdao, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0003-9323-0613",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering, Yanshan University, Qinhuangdao, China",
+            "institution_ids": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5140595091",
+          "display_name": "Changchun Hua",
+          "orcid": "https://orcid.org/0000-0001-6311-2112"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I39333907",
+            "display_name": "Yanshan University",
+            "ror": "https://ror.org/02txfnf15",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Changchun Hua",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering, Yanshan University, Qinhuangdao, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-6311-2112",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering, Yanshan University, Qinhuangdao, China",
+            "institution_ids": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5140709939",
+          "display_name": "Jiannan Chen",
+          "orcid": "https://orcid.org/0000-0003-2106-4743"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I39333907",
+            "display_name": "Yanshan University",
+            "ror": "https://ror.org/02txfnf15",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiannan Chen",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering, Yanshan University, Qinhuangdao, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2106-4743",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering, Yanshan University, Qinhuangdao, China",
+            "institution_ids": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5140692634",
+          "display_name": "Xi Luo",
+          "orcid": "https://orcid.org/0000-0002-6251-0634"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I39333907",
+            "display_name": "Yanshan University",
+            "ror": "https://ror.org/02txfnf15",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xi Luo",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering, Yanshan University, Qinhuangdao, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6251-0634",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering, Yanshan University, Qinhuangdao, China",
+            "institution_ids": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/tsmc.2026.3711442",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tsmc.2026.3711442",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210209078",
+        "display_name": "IEEE Transactions on Systems Man and Cybernetics Systems",
+        "issn_l": "2168-2216",
+        "issn": [
+          "2168-2216",
+          "2168-2232"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false
+  }
+}

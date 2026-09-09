@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I27837315?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:26:15+00:00",
+  "data": {
+    "id": "https://openalex.org/I27837315",
+    "ror": "https://ror.org/00jmfr291",
+    "display_name": "University of Michigan",
+    "country_code": "US",
+    "type": "education",
+    "geo": {
+      "city": "Ann Arbor",
+      "geonames_city_id": "4984247",
+      "region": "Michigan",
+      "country_code": "US",
+      "country": "United States",
+      "latitude": 42.27756,
+      "longitude": -83.74088
+    },
+    "lineage": [
+      "https://openalex.org/I27837315"
+    ]
+  }
+}

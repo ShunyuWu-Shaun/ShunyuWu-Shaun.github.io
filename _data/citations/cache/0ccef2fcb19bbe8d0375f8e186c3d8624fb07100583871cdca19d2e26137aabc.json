@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I900890020?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:26:22+00:00",
+  "data": {
+    "id": "https://openalex.org/I900890020",
+    "ror": "https://ror.org/044k9ta02",
+    "display_name": "University of Palermo",
+    "country_code": "IT",
+    "type": "education",
+    "geo": {
+      "city": "Palermo",
+      "geonames_city_id": "2523920",
+      "region": null,
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 38.116600036621094,
+      "longitude": 13.36359977722168
+    },
+    "lineage": [
+      "https://openalex.org/I900890020"
+    ]
+  }
+}

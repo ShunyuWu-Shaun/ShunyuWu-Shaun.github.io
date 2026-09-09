@@ -28,5 +28,15 @@
     "source": "https://www.hcp.ma/region-rabat/",
     "verified_at": "2026-09-09",
     "basis": "Moroccan statistical authority regional office identifies the current Rabat-Salé-Kénitra region; replace the historical Natural Earth region name for Salé."
+  },
+  "I900890020": {
+    "latitude": 38.116600036621094,
+    "longitude": 13.36359977722168,
+    "country_code": "IT",
+    "country": "Italy",
+    "region": "Sicily",
+    "source": "https://opencoesione.gov.it/it/coesione/territori/sicilia-regione/",
+    "verified_at": "2026-09-09",
+    "basis": "Italian government territorial portal identifies Palermo as the capital of the Sicily region; normalize the province label to the first-order region."
   }
 }

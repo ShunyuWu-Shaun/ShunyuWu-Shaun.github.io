@@ -1,0 +1,197 @@
+{
+  "url": "https://api.openalex.org/works/W7164919297?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted",
+  "retrieved_at": "2026-09-09T14:26:08+00:00",
+  "data": {
+    "id": "https://openalex.org/W7164919297",
+    "doi": "https://doi.org/10.1109/tnnls.2026.3700775",
+    "title": "Online Value Iteration for Unknown Nonlinear Multiagent Systems: A Model-Decoupled Encoding–Decoding Mechanism",
+    "publication_year": 2026,
+    "publication_date": "2026-01-01",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5138711533",
+          "display_name": "Tong Zhang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142108993",
+            "display_name": "Southwest University",
+            "ror": "https://ror.org/01kj4z117",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tong Zhang",
+        "raw_affiliation_strings": [
+          "College of Electronic and Information Engineering, Southwest University, Chongqing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Electronic and Information Engineering, Southwest University, Chongqing, China",
+            "institution_ids": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5035328845",
+          "display_name": "Yiyan Han",
+          "orcid": "https://orcid.org/0000-0002-5493-5894"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142108993",
+            "display_name": "Southwest University",
+            "ror": "https://ror.org/01kj4z117",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yiyan Han",
+        "raw_affiliation_strings": [
+          "College of Electronic and Information Engineering, Southwest University, Chongqing, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-5493-5894",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Electronic and Information Engineering, Southwest University, Chongqing, China",
+            "institution_ids": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062183379",
+          "display_name": "Le You",
+          "orcid": "https://orcid.org/0009-0007-8595-1305"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142108993",
+            "display_name": "Southwest University",
+            "ror": "https://ror.org/01kj4z117",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Le You",
+        "raw_affiliation_strings": [
+          "College of Electronic and Information Engineering, Southwest University, Chongqing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Electronic and Information Engineering, Southwest University, Chongqing, China",
+            "institution_ids": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100328090",
+          "display_name": "Xin Wang",
+          "orcid": "https://orcid.org/0000-0003-2070-960X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142108993",
+            "display_name": "Southwest University",
+            "ror": "https://ror.org/01kj4z117",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xin Wang",
+        "raw_affiliation_strings": [
+          "College of Electronic and Information Engineering, Southwest University, Chongqing, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2070-960X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Electronic and Information Engineering, Southwest University, Chongqing, China",
+            "institution_ids": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/tnnls.2026.3700775",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tnnls.2026.3700775",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210175523",
+        "display_name": "IEEE Transactions on Neural Networks and Learning Systems",
+        "issn_l": "2162-237X",
+        "issn": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Neural Networks and Learning Systems",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false
+  }
+}

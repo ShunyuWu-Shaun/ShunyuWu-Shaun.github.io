@@ -1,6 +1,6 @@
 {
   "url": "https://api.openalex.org/institutions/I139660479?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
-  "retrieved_at": "2026-09-09T13:59:58+00:00",
+  "retrieved_at": "2026-09-09T14:26:10+00:00",
   "data": {
     "id": "https://openalex.org/I139660479",
     "ror": "https://ror.org/00f1zfq44",

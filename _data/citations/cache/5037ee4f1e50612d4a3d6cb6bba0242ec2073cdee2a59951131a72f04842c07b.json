@@ -1,0 +1,103 @@
+{
+  "url": "https://api.openalex.org/works/W7165380963?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted",
+  "retrieved_at": "2026-09-09T14:26:08+00:00",
+  "data": {
+    "id": "https://openalex.org/W7165380963",
+    "doi": "https://doi.org/10.1145/3765611.3815386",
+    "title": "Decision-Focused Learning for Energy Arbitrage: From Probabilistic Forecasting to Risk-Averse Stochastic Optimization",
+    "publication_year": 2026,
+    "publication_date": "2026-06-20",
+    "type": "conference-paper",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5120394854",
+          "display_name": "Steven Oufan Hai",
+          "orcid": "https://orcid.org/0009-0003-7601-2024"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154425047",
+            "display_name": "University of Alberta",
+            "ror": "https://ror.org/0160cpw27",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154425047"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Steven Oufan Hai",
+        "raw_affiliation_strings": [
+          "University of Alberta, Edmonton, Alberta, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0003-7601-2024",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Alberta, Edmonton, Alberta, Canada",
+            "institution_ids": [
+              "https://openalex.org/I154425047"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5079048464",
+          "display_name": "Omid Ardakanian",
+          "orcid": "https://orcid.org/0000-0002-6711-5502"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154425047",
+            "display_name": "University of Alberta",
+            "ror": "https://ror.org/0160cpw27",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154425047"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Omid Ardakanian",
+        "raw_affiliation_strings": [
+          "University of Alberta, Edmonton, Alberta, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6711-5502",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Alberta, Edmonton, Alberta, Canada",
+            "institution_ids": [
+              "https://openalex.org/I154425047"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1145/3765611.3815386",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1145/3765611.3815386",
+      "pdf_url": null,
+      "source": null,
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the 2026 ACM Sustainability Week",
+      "raw_type": "proceedings-article"
+    },
+    "is_retracted": false
+  }
+}

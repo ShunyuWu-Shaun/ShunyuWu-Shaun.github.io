@@ -274,6 +274,38 @@
     "region_basis": "OpenAlex institution.geo.region"
   },
   {
+    "id": "https://openalex.org/I142108993",
+    "ror": "https://ror.org/01kj4z117",
+    "display_name": "Southwest University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Chongqing",
+      "geonames_city_id": "1814906",
+      "region": "Chongqing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.560260772705078,
+      "longitude": 106.55770874023438
+    },
+    "lineage": [
+      "https://openalex.org/I142108993"
+    ],
+    "geo_original": {
+      "city": "Chongqing",
+      "geonames_city_id": "1814906",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.560260772705078,
+      "longitude": 106.55770874023438
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-CQ"
+  },
+  {
     "id": "https://openalex.org/I143868143",
     "ror": "https://ror.org/05th6yx34",
     "display_name": "Anhui University",
@@ -485,6 +517,35 @@
       "country": "China",
       "latitude": 36.66833,
       "longitude": 116.99722
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I154425047",
+    "ror": "https://ror.org/0160cpw27",
+    "display_name": "University of Alberta",
+    "country_code": "CA",
+    "type": "education",
+    "geo": {
+      "city": "Edmonton",
+      "geonames_city_id": "5946768",
+      "region": "Alberta",
+      "country_code": "CA",
+      "country": "Canada",
+      "latitude": 53.55014,
+      "longitude": -113.46871
+    },
+    "lineage": [
+      "https://openalex.org/I154425047"
+    ],
+    "geo_original": {
+      "city": "Edmonton",
+      "geonames_city_id": "5946768",
+      "region": "Alberta",
+      "country_code": "CA",
+      "country": "Canada",
+      "latitude": 53.55014,
+      "longitude": -113.46871
     },
     "region_basis": "OpenAlex institution.geo.region"
   },
@@ -844,6 +905,38 @@
     "region_basis": "OpenAlex institution.geo.region"
   },
   {
+    "id": "https://openalex.org/I196699116",
+    "ror": "https://ror.org/03fe7t173",
+    "display_name": "Wuhan University of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Wuhan",
+      "geonames_city_id": "1791247",
+      "region": "Hubei",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.583330154418945,
+      "longitude": 114.26667022705078
+    },
+    "lineage": [
+      "https://openalex.org/I196699116"
+    ],
+    "geo_original": {
+      "city": "Wuhan",
+      "geonames_city_id": "1791247",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.583330154418945,
+      "longitude": 114.26667022705078
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-HB"
+  },
+  {
     "id": "https://openalex.org/I204983213",
     "ror": "https://ror.org/01yqg2h08",
     "display_name": "Harbin Institute of Technology",
@@ -1033,6 +1126,35 @@
     "region_admin1_code": "GH-WP"
   },
   {
+    "id": "https://openalex.org/I27837315",
+    "ror": "https://ror.org/00jmfr291",
+    "display_name": "University of Michigan",
+    "country_code": "US",
+    "type": "education",
+    "geo": {
+      "city": "Ann Arbor",
+      "geonames_city_id": "4984247",
+      "region": "Michigan",
+      "country_code": "US",
+      "country": "United States",
+      "latitude": 42.27756,
+      "longitude": -83.74088
+    },
+    "lineage": [
+      "https://openalex.org/I27837315"
+    ],
+    "geo_original": {
+      "city": "Ann Arbor",
+      "geonames_city_id": "4984247",
+      "region": "Michigan",
+      "country_code": "US",
+      "country": "United States",
+      "latitude": 42.27756,
+      "longitude": -83.74088
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
     "id": "https://openalex.org/I2799888298",
     "ror": "https://ror.org/05r7nbf33",
     "display_name": "Skyline University College",
@@ -1096,6 +1218,35 @@
       "country": "France",
       "latitude": 47.24878,
       "longitude": 6.01815
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I29770179",
+    "ror": "https://ror.org/02w42ss30",
+    "display_name": "Budapest University of Technology and Economics",
+    "country_code": "HU",
+    "type": "education",
+    "geo": {
+      "city": "Budapest",
+      "geonames_city_id": "3054643",
+      "region": "Budapest",
+      "country_code": "HU",
+      "country": "Hungary",
+      "latitude": 47.49835,
+      "longitude": 19.04045
+    },
+    "lineage": [
+      "https://openalex.org/I29770179"
+    ],
+    "geo_original": {
+      "city": "Budapest",
+      "geonames_city_id": "3054643",
+      "region": "Budapest",
+      "country_code": "HU",
+      "country": "Hungary",
+      "latitude": 47.49835,
+      "longitude": 19.04045
     },
     "region_basis": "OpenAlex institution.geo.region"
   },
@@ -1304,6 +1455,38 @@
       "longitude": 113.64861
     },
     "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I39333907",
+    "ror": "https://ror.org/02txfnf15",
+    "display_name": "Yanshan University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Qinhuangdao",
+      "geonames_city_id": "1797595",
+      "region": "Hebei",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9410400390625,
+      "longitude": 119.58936309814453
+    },
+    "lineage": [
+      "https://openalex.org/I39333907"
+    ],
+    "geo_original": {
+      "city": "Qinhuangdao",
+      "geonames_city_id": "1797595",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9410400390625,
+      "longitude": 119.58936309814453
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-HE"
   },
   {
     "id": "https://openalex.org/I41198531",
@@ -1795,6 +1978,35 @@
     "region_admin1_code": "CN-HB"
   },
   {
+    "id": "https://openalex.org/I4405272366",
+    "ror": "https://ror.org/042c50f73",
+    "display_name": "Hubei Three Gorges Laboratory",
+    "country_code": "CN",
+    "type": "facility",
+    "geo": {
+      "city": "Yichang",
+      "geonames_city_id": "1786764",
+      "region": "Hubei",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.71444,
+      "longitude": 111.28472
+    },
+    "lineage": [
+      "https://openalex.org/I4405272366"
+    ],
+    "geo_original": {
+      "city": "Yichang",
+      "geonames_city_id": "1786764",
+      "region": "Hubei",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.71444,
+      "longitude": 111.28472
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
     "id": "https://openalex.org/I4472751",
     "ror": "https://ror.org/05fsfvw79",
     "display_name": "Anhui Normal University",
@@ -1854,6 +2066,70 @@
       "longitude": -0.12574
     },
     "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I4800084",
+    "ror": "https://ror.org/00hn7w693",
+    "display_name": "Southwest Jiaotong University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Chengdu",
+      "geonames_city_id": "1815286",
+      "region": "Sichuan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.666669845581055,
+      "longitude": 104.0666732788086
+    },
+    "lineage": [
+      "https://openalex.org/I4800084"
+    ],
+    "geo_original": {
+      "city": "Chengdu",
+      "geonames_city_id": "1815286",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.666669845581055,
+      "longitude": 104.0666732788086
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-SC"
+  },
+  {
+    "id": "https://openalex.org/I50632499",
+    "ror": "https://ror.org/04vgbd477",
+    "display_name": "Chongqing University of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Chongqing",
+      "geonames_city_id": "1814906",
+      "region": "Chongqing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.560260772705078,
+      "longitude": 106.55770874023438
+    },
+    "lineage": [
+      "https://openalex.org/I50632499"
+    ],
+    "geo_original": {
+      "city": "Chongqing",
+      "geonames_city_id": "1814906",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.560260772705078,
+      "longitude": 106.55770874023438
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-CQ"
   },
   {
     "id": "https://openalex.org/I52180223",
@@ -2126,6 +2402,36 @@
     "region_basis": "OpenAlex institution.geo.region"
   },
   {
+    "id": "https://openalex.org/I900890020",
+    "ror": "https://ror.org/044k9ta02",
+    "display_name": "University of Palermo",
+    "country_code": "IT",
+    "type": "education",
+    "geo": {
+      "city": "Palermo",
+      "geonames_city_id": "2523920",
+      "region": "Sicily",
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 38.116600036621094,
+      "longitude": 13.36359977722168
+    },
+    "lineage": [
+      "https://openalex.org/I900890020"
+    ],
+    "geo_original": {
+      "city": "Palermo",
+      "geonames_city_id": "2523920",
+      "region": null,
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 38.116600036621094,
+      "longitude": 13.36359977722168
+    },
+    "region_basis": "Italian government territorial portal identifies Palermo as the capital of the Sicily region; normalize the province label to the first-order region.",
+    "region_source": "https://opencoesione.gov.it/it/coesione/territori/sicilia-regione/"
+  },
+  {
     "id": "https://openalex.org/I90610280",
     "ror": "https://ror.org/0530pts50",
     "display_name": "South China University of Technology",
@@ -2156,6 +2462,35 @@
     "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
     "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
     "region_admin1_code": "CN-GD"
+  },
+  {
+    "id": "https://openalex.org/I91203450",
+    "ror": "https://ror.org/02f009v59",
+    "display_name": "University of Haifa",
+    "country_code": "IL",
+    "type": "education",
+    "geo": {
+      "city": "Haifa",
+      "geonames_city_id": "294801",
+      "region": "Haifa",
+      "country_code": "IL",
+      "country": "Israel",
+      "latitude": 32.81303,
+      "longitude": 34.99928
+    },
+    "lineage": [
+      "https://openalex.org/I91203450"
+    ],
+    "geo_original": {
+      "city": "Haifa",
+      "geonames_city_id": "294801",
+      "region": "Haifa",
+      "country_code": "IL",
+      "country": "Israel",
+      "latitude": 32.81303,
+      "longitude": 34.99928
+    },
+    "region_basis": "OpenAlex institution.geo.region"
   },
   {
     "id": "https://openalex.org/I92178344",
@@ -2394,5 +2729,60 @@
     "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
     "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
     "region_admin1_code": "FI-18"
+  },
+  {
+    "name": "Hubei Sinophorus Electronic Materials Co., Ltd.",
+    "id": "LOCAL-SINOPHORUS",
+    "display_name": "Hubei Sinophorus Electronic Materials Co., Ltd.",
+    "type": "company",
+    "authors": [
+      "Lanfeng Guo"
+    ],
+    "publisher_affiliation": "Hubei Sinophorus Electronic Materials Co., Ltd., Hubei 443007, China",
+    "match_status": "registry_unresolved_company_identity_and_city_verified",
+    "openalex_id": null,
+    "openalex_url": null,
+    "ror": null,
+    "geo": {
+      "city": "Yichang",
+      "region": "Hubei",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.71444,
+      "longitude": 111.28472,
+      "geonames_city_id": "1786764"
+    },
+    "geo_basis": "The company's own About Us page identifies the exact company and locates its address in Xiaoting District, Yichang City, Hubei. The point comes directly from the GeoNames Yichang populated-place record (P.PPLA2), not from another institution or a parent-company headquarters. No exact OpenAlex or ROR institution was found, so a local identifier is used.",
+    "coordinate_basis": "city representative point from verified publication/company address",
+    "coordinate_precision": "verified_city_representative_not_company_site",
+    "geo_source": "https://sws.geonames.org/1786764/about.rdf",
+    "institution_source": "https://m.sinophorus.com/about-us/",
+    "geonames_feature_code": "P.PPLA2",
+    "geonames_parent_adm1": "https://sws.geonames.org/1806949/",
+    "sources": [
+      "https://m.sinophorus.com/about-us/",
+      "https://sws.geonames.org/1786764/about.rdf",
+      "https://api.openalex.org/institutions?search=Hubei%20Sinophorus%20Electronic%20Materials&per-page=5&select=id,display_name,ror,geo,homepage_url",
+      "https://api.openalex.org/institutions?search=Sinophorus&per-page=10&select=id,display_name,ror,geo,homepage_url",
+      "https://api.openalex.org/institutions?search=Hubei%20Xingfu%20Electronic&per-page=10&select=id,display_name,ror,geo,homepage_url",
+      "https://api.ror.org/v2/organizations?query=Sinophorus"
+    ],
+    "registry_search_results": {
+      "openalex_exact_english_name": 0,
+      "openalex_sinophorus": 0,
+      "openalex_hubei_xingfu_electronic": 0,
+      "ror_sinophorus": 0
+    },
+    "disambiguation": "No parent institution or headquarters is substituted. The displayed point represents the independently verified city, not the company's premises. Exact OpenAlex/ROR registry identity remains unresolved.",
+    "region_basis": "Publisher affiliation and company address verified; city region from GeoNames",
+    "geo_original": {
+      "city": "Yichang",
+      "region": "Hubei",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.71444,
+      "longitude": 111.28472,
+      "geonames_city_id": "1786764"
+    }
   }
 ]

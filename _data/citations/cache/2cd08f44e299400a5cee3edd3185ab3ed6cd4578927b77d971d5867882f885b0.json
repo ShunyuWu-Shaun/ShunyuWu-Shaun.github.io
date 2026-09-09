@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I29770179?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:26:16+00:00",
+  "data": {
+    "id": "https://openalex.org/I29770179",
+    "ror": "https://ror.org/02w42ss30",
+    "display_name": "Budapest University of Technology and Economics",
+    "country_code": "HU",
+    "type": "education",
+    "geo": {
+      "city": "Budapest",
+      "geonames_city_id": "3054643",
+      "region": "Budapest",
+      "country_code": "HU",
+      "country": "Hungary",
+      "latitude": 47.49835,
+      "longitude": 19.04045
+    },
+    "lineage": [
+      "https://openalex.org/I29770179"
+    ]
+  }
+}

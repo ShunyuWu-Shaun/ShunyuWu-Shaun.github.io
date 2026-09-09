@@ -1,6 +1,6 @@
 {
   "url": "https://api.openalex.org/works/W7197003632?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted",
-  "retrieved_at": "2026-09-09T14:09:28+00:00",
+  "retrieved_at": "2026-09-09T14:26:08+00:00",
   "data": {
     "id": "https://openalex.org/W7197003632",
     "doi": "https://doi.org/10.2139/ssrn.7185818",

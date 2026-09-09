@@ -34,7 +34,7 @@ def complete_regions(institutions, lookup_path, offline=False, polygon_path=None
         g = inst.get('geo') or {}
         inst['geo_original'] = dict(g)
         g['country_code'] = g.get('country_code') or inst.get('country_code')
-        inst['region_basis'] = 'OpenAlex institution.geo.region' if g.get('region') else 'unresolved'
+        inst['region_basis'] = inst.get('region_basis') or ('OpenAlex institution.geo.region' if g.get('region') else 'unresolved')
         override = overrides.get(iid)
         if override and all(g.get(k) == override[k] for k in ('latitude','longitude','country_code')):
             g['region'] = override['region']

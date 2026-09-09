@@ -1,0 +1,123 @@
+{
+  "url": "https://api.openalex.org/works/W7138148711?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted",
+  "retrieved_at": "2026-09-09T14:26:07+00:00",
+  "data": {
+    "id": "https://openalex.org/W7138148711",
+    "doi": "https://doi.org/10.1609/aaai.v40i31.39797",
+    "title": "Efficiently Enhancing Long-term Series Forecasting via Adaptive Lookback with Wavelets",
+    "publication_year": 2026,
+    "publication_date": "2026-03-14",
+    "type": "conference-paper",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5037495157",
+          "display_name": "Suxin Tong",
+          "orcid": "https://orcid.org/0000-0002-1662-389X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I196699116",
+            "display_name": "Wuhan University of Technology",
+            "ror": "https://ror.org/03fe7t173",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I196699116"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Suxin Tong",
+        "raw_affiliation_strings": [
+          "Hubei Key Laboratory of Transportation Internet of Things, School of Computer Science and Artificial Intelligence, Wuhan University of Technology"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Hubei Key Laboratory of Transportation Internet of Things, School of Computer Science and Artificial Intelligence, Wuhan University of Technology",
+            "institution_ids": [
+              "https://openalex.org/I196699116"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5121543048",
+          "display_name": "Jingling Yuan",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I196699116",
+            "display_name": "Wuhan University of Technology",
+            "ror": "https://ror.org/03fe7t173",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I196699116"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingling Yuan",
+        "raw_affiliation_strings": [
+          "Hubei Key Laboratory of Transportation Internet of Things, School of Computer Science and Artificial Intelligence, Wuhan University of Technology"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Hubei Key Laboratory of Transportation Internet of Things, School of Computer Science and Artificial Intelligence, Wuhan University of Technology",
+            "institution_ids": [
+              "https://openalex.org/I196699116"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1609/aaai.v40i31.39797",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1609/aaai.v40i31.39797",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "issn_l": "2159-5399",
+        "issn": [
+          "2159-5399",
+          "2374-3468"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320058",
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320058"
+        ],
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false
+  }
+}

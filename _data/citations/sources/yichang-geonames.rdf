@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/1786764/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/1786764/about.rdf"/>
+        <gn:name>Yichang</gn:name>
+        <gn:alternateName xml:lang="ko">이창 시</gn:alternateName>
+        <gn:alternateName>Che-Kéou-chan</gn:alternateName>
+        <gn:alternateName xml:lang="nan">Gî-chhiong-chhī</gn:alternateName>
+        <gn:alternateName xml:lang="vep">Ičan</gn:alternateName>
+        <gn:alternateName xml:lang="cs">I-čchang</gn:alternateName>
+        <gn:alternateName>I-chang</gn:alternateName>
+        <gn:alternateName>Ichang</gn:alternateName>
+        <gn:alternateName>I-ch’ang-hsien</gn:alternateName>
+        <gn:alternateName>I-ch’ang-shih</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Jiĉang</gn:alternateName>
+        <gn:alternateName xml:lang="vi">Nghi Xương</gn:alternateName>
+        <gn:alternateName xml:lang="cdo">Ngì-chiŏng</gn:alternateName>
+        <gn:alternateName>Tung-hu</gn:alternateName>
+        <gn:alternateName xml:lang="de">Yichang</gn:alternateName>
+        <gn:alternateName xml:lang="en">Yichang</gn:alternateName>
+        <gn:alternateName xml:lang="es">Yichang</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Yichang</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Yichang</gn:alternateName>
+        <gn:alternateName xml:lang="no">Yichang</gn:alternateName>
+        <gn:alternateName>Yichang</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Ичан</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Ичан</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Ічан</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Јичанг</gn:alternateName>
+        <gn:alternateName xml:lang="fa">ایچانگ</gn:alternateName>
+        <gn:alternateName xml:lang="ug">يىچاڭ شەھىرى</gn:alternateName>
+        <gn:alternateName xml:lang="ur">یچنگ</gn:alternateName>
+        <gn:alternateName xml:lang="yue">宜昌</gn:alternateName>
+        <gn:alternateName xml:lang="ja">宜昌市</gn:alternateName>
+        <gn:alternateName xml:lang="zh">宜昌市</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLA2"/>
+        <gn:countryCode>CN</gn:countryCode>
+        <gn:population>1350150</gn:population>
+        <wgs84_pos:lat>30.71444</wgs84_pos:lat>
+        <wgs84_pos:long>111.28472</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/1786761/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/1814991/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/1806949/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/1786761/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/1786764/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/1786764/yichang.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Yichang"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Yichang"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/1786764/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/1786764/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2021-10-12</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

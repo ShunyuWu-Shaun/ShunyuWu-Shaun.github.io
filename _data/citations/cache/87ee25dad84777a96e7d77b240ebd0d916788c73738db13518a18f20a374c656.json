@@ -1,0 +1,140 @@
+{
+  "url": "https://api.openalex.org/works/W4407737363?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted",
+  "retrieved_at": "2026-09-09T14:26:07+00:00",
+  "data": {
+    "id": "https://openalex.org/W4407737363",
+    "doi": "https://doi.org/10.1109/sami63904.2025.10883318",
+    "title": "Optimizing Rail Traffic with Reinforcement Learning and Graph Attention Networks",
+    "publication_year": 2025,
+    "publication_date": "2025-01-23",
+    "type": "conference-paper",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5018465731",
+          "display_name": "Péter Farkas",
+          "orcid": "https://orcid.org/0000-0002-1700-2948"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I29770179",
+            "display_name": "Budapest University of Technology and Economics",
+            "ror": "https://ror.org/02w42ss30",
+            "country_code": "HU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I29770179"
+            ]
+          }
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Péter Farkas",
+        "raw_affiliation_strings": [
+          "Budapest University of Technology and Economics,Department of Control for Transportation and Vehicle Systems,Budapest,Hungary"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Budapest University of Technology and Economics,Department of Control for Transportation and Vehicle Systems,Budapest,Hungary",
+            "institution_ids": [
+              "https://openalex.org/I29770179"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5086854188",
+          "display_name": "László Szőke",
+          "orcid": "https://orcid.org/0000-0001-9926-4054"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I29770179",
+            "display_name": "Budapest University of Technology and Economics",
+            "ror": "https://ror.org/02w42ss30",
+            "country_code": "HU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I29770179"
+            ]
+          }
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "László Szőke",
+        "raw_affiliation_strings": [
+          "Budapest University of Technology and Economics,Department of Control for Transportation and Vehicle Systems,Budapest,Hungary"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Budapest University of Technology and Economics,Department of Control for Transportation and Vehicle Systems,Budapest,Hungary",
+            "institution_ids": [
+              "https://openalex.org/I29770179"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5084972354",
+          "display_name": "Szilárd Aradi",
+          "orcid": "https://orcid.org/0000-0001-6811-2584"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I29770179",
+            "display_name": "Budapest University of Technology and Economics",
+            "ror": "https://ror.org/02w42ss30",
+            "country_code": "HU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I29770179"
+            ]
+          }
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Szilárd Aradi",
+        "raw_affiliation_strings": [
+          "Budapest University of Technology and Economics,Department of Control for Transportation and Vehicle Systems,Budapest,Hungary"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Budapest University of Technology and Economics,Department of Control for Transportation and Vehicle Systems,Budapest,Hungary",
+            "institution_ids": [
+              "https://openalex.org/I29770179"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/sami63904.2025.10883318",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/sami63904.2025.10883318",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2025 IEEE 23rd World Symposium on Applied Machine Intelligence and Informatics (SAMI)",
+      "raw_type": "proceedings-article"
+    },
+    "is_retracted": false
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "checked_on": "2026-09-09",
+  "citing_article_url": "https://www.sciencedirect.com/science/article/pii/S1876107025006297",
+  "affiliation_evidence": "The parent agent read the publisher's expanded author-affiliation section. This file independently resolves the named institutions and geography; it does not infer an affiliation from funding acknowledgments.",
+  "institutions": [
+    {
+      "name": "Chongqing University of Technology",
+      "authors": [
+        "Chunmao Pan",
+        "Lingxing Hu",
+        "Facheng Qiu",
+        "Zhiliang Cheng"
+      ],
+      "publisher_affiliation": "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China",
+      "match_status": "exact_openalex_and_ror_name",
+      "openalex_id": "I50632499",
+      "openalex_url": "https://openalex.org/I50632499",
+      "ror": "https://ror.org/04vgbd477",
+      "geo": {
+        "city": "Chongqing",
+        "region": "Chongqing",
+        "country_code": "CN",
+        "country": "China",
+        "latitude": 29.560260772705078,
+        "longitude": 106.55770874023438,
+        "geonames_city_id": "1814906"
+      },
+      "geo_basis": "Exact institution's OpenAlex geo; missing OpenAlex region independently completed from the exact institution's ROR location (Chongqing, subdivision CQ).",
+      "coordinate_precision": "city_representative_from_institution_registry",
+      "sources": [
+        "https://api.openalex.org/institutions?search=Chongqing%20University%20of%20Technology&per-page=5&select=id,display_name,ror,geo,homepage_url",
+        "https://api.openalex.org/institutions/I50632499",
+        "https://api.ror.org/v2/organizations/04vgbd477"
+      ],
+      "disambiguation": "Do not confuse this institution with Chongqing University of Science and Technology, I168337820."
+    },
+    {
+      "name": "Hubei Three Gorges Laboratory",
+      "authors": [
+        "Zhongjun Li"
+      ],
+      "publisher_affiliation": "Hubei Three Gorges Laboratory, Yichang 443000, Hubei, China",
+      "match_status": "exact_openalex_and_ror_name",
+      "openalex_id": "I4405272366",
+      "openalex_url": "https://openalex.org/I4405272366",
+      "ror": "https://ror.org/042c50f73",
+      "geo": {
+        "city": "Yichang",
+        "region": "Hubei",
+        "country_code": "CN",
+        "country": "China",
+        "latitude": 30.71444,
+        "longitude": 111.28472,
+        "geonames_city_id": "1786764"
+      },
+      "geo_basis": "Exact institution's OpenAlex geo agrees with the exact ROR location.",
+      "coordinate_precision": "city_representative_from_institution_registry",
+      "sources": [
+        "https://api.openalex.org/institutions/I4405272366",
+        "https://api.ror.org/v2/organizations/042c50f73",
+        "https://www.hbsxsys.com/"
+      ],
+      "disambiguation": "This is the laboratory, not China Three Gorges University or China Three Gorges Corporation. Its ROR types include facility and funder, but the publisher explicitly lists it as this author's affiliation."
+    },
+    {
+      "name": "Hubei Sinophorus Electronic Materials Co., Ltd.",
+      "id": "LOCAL-SINOPHORUS",
+      "display_name": "Hubei Sinophorus Electronic Materials Co., Ltd.",
+      "type": "company",
+      "authors": [
+        "Lanfeng Guo"
+      ],
+      "publisher_affiliation": "Hubei Sinophorus Electronic Materials Co., Ltd., Hubei 443007, China",
+      "match_status": "registry_unresolved_company_identity_and_city_verified",
+      "openalex_id": null,
+      "openalex_url": null,
+      "ror": null,
+      "geo": {
+        "city": "Yichang",
+        "region": "Hubei",
+        "country_code": "CN",
+        "country": "China",
+        "latitude": 30.71444,
+        "longitude": 111.28472,
+        "geonames_city_id": "1786764"
+      },
+      "geo_basis": "The company's own About Us page identifies the exact company and locates its address in Xiaoting District, Yichang City, Hubei. The point comes directly from the GeoNames Yichang populated-place record (P.PPLA2), not from another institution or a parent-company headquarters. No exact OpenAlex or ROR institution was found, so a local identifier is used.",
+      "coordinate_basis": "city representative point from verified publication/company address",
+      "coordinate_precision": "verified_city_representative_not_company_site",
+      "geo_source": "https://sws.geonames.org/1786764/about.rdf",
+      "institution_source": "https://m.sinophorus.com/about-us/",
+      "geonames_feature_code": "P.PPLA2",
+      "geonames_parent_adm1": "https://sws.geonames.org/1806949/",
+      "sources": [
+        "https://m.sinophorus.com/about-us/",
+        "https://sws.geonames.org/1786764/about.rdf",
+        "https://api.openalex.org/institutions?search=Hubei%20Sinophorus%20Electronic%20Materials&per-page=5&select=id,display_name,ror,geo,homepage_url",
+        "https://api.openalex.org/institutions?search=Sinophorus&per-page=10&select=id,display_name,ror,geo,homepage_url",
+        "https://api.openalex.org/institutions?search=Hubei%20Xingfu%20Electronic&per-page=10&select=id,display_name,ror,geo,homepage_url",
+        "https://api.ror.org/v2/organizations?query=Sinophorus"
+      ],
+      "registry_search_results": {
+        "openalex_exact_english_name": 0,
+        "openalex_sinophorus": 0,
+        "openalex_hubei_xingfu_electronic": 0,
+        "ror_sinophorus": 0
+      },
+      "disambiguation": "No parent institution or headquarters is substituted. The displayed point represents the independently verified city, not the company's premises. Exact OpenAlex/ROR registry identity remains unresolved."
+    }
+  ]
+}

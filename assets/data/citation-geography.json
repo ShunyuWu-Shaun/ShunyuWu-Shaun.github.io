@@ -1,27 +1,28 @@
 {
-  "updated_at": "2026-09-09T14:09:28+00:00",
-  "source": "OpenAlex with Google Scholar citation cross-check",
+  "updated_at": "2026-09-09T14:26:24+00:00",
+  "source": "Google Scholar, OpenAlex, and verified publisher metadata",
   "summary": {
     "target_works": 15,
-    "citation_edges": 60,
-    "unique_citing_works": 55,
+    "citation_edges": 69,
+    "unique_citing_works": 64,
     "openalex_citation_edges": 59,
-    "scholar_verified_edges": 8,
-    "scholar_additional_edges": 1,
-    "direct_self_citing_works": 3,
+    "scholar_result_records": 66,
+    "scholar_verified_edges": 64,
+    "scholar_additional_edges": 10,
+    "direct_self_citing_works": 4,
     "non_research_citing_records": 1,
-    "external_citing_records": 52,
-    "external_citing_works": 51,
-    "mapped_external_citing_works": 50,
-    "unmapped_external_citing_works": 1,
+    "external_citing_records": 60,
+    "external_citing_works": 59,
+    "mapped_external_citing_works": 59,
+    "unmapped_external_citing_works": 0,
     "partial_region_coverage_external_citing_works": 3,
-    "regions": 44,
-    "institutions": 77,
-    "countries": 19,
+    "regions": 49,
+    "institutions": 89,
+    "countries": 20,
     "excluded_sponsor_parent_affiliation_rows": 3,
     "authorships_truncated_works": 0,
-    "authorship_truncation_status_unknown_works": 55,
-    "scholar_profile_scope_citation_edges": 56
+    "authorship_truncation_status_unknown_works": 62,
+    "scholar_profile_scope_citation_edges": 65
   },
   "counting_method": "Unique external citing works per region or institution. One work can occur in multiple regions. Direct self-citations and paratext records are excluded only from the map.",
   "regions": [
@@ -32,9 +33,9 @@
       "country": "China",
       "latitude": 39.9075,
       "longitude": 116.39723,
-      "citing_work_count": 11,
+      "citing_work_count": 12,
       "institution_count": 6,
-      "fractional_count": 6.833333,
+      "fractional_count": 7.166667,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I92403157"
     },
@@ -45,9 +46,9 @@
       "country": "China",
       "latitude": 23.026769638061523,
       "longitude": 113.13147735595703,
-      "citing_work_count": 6,
+      "citing_work_count": 7,
       "institution_count": 4,
-      "fractional_count": 3.416667,
+      "fractional_count": 3.75,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I14894300"
     },
@@ -76,6 +77,19 @@
       "fractional_count": 3.666667,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I183067930"
+    },
+    {
+      "id": "CN-chongqing",
+      "name": "Chongqing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.56026,
+      "longitude": 106.55771,
+      "citing_work_count": 5,
+      "institution_count": 4,
+      "fractional_count": 3.0,
+      "coordinate_basis": "most_cited_affiliation_institution",
+      "representative_institution_id": "I158842170"
     },
     {
       "id": "CN-hunan",
@@ -117,17 +131,17 @@
       "representative_institution_id": "I143868143"
     },
     {
-      "id": "CN-chongqing",
-      "name": "Chongqing",
+      "id": "CN-hubei",
+      "name": "Hubei",
       "country_code": "CN",
       "country": "China",
-      "latitude": 29.56026,
-      "longitude": 106.55771,
-      "citing_work_count": 3,
-      "institution_count": 2,
-      "fractional_count": 1.5,
+      "latitude": 30.583330154418945,
+      "longitude": 114.26667022705078,
+      "citing_work_count": 4,
+      "institution_count": 4,
+      "fractional_count": 2.166667,
       "coordinate_basis": "most_cited_affiliation_institution",
-      "representative_institution_id": "I158842170"
+      "representative_institution_id": "I43922553"
     },
     {
       "id": "CN-liaoning",
@@ -169,6 +183,19 @@
       "representative_institution_id": "I162868743"
     },
     {
+      "id": "IL-haifa",
+      "name": "Haifa",
+      "country_code": "IL",
+      "country": "Israel",
+      "latitude": 32.81303,
+      "longitude": 34.99928,
+      "citing_work_count": 3,
+      "institution_count": 3,
+      "fractional_count": 1.166667,
+      "coordinate_basis": "most_cited_affiliation_institution",
+      "representative_institution_id": "I174306211"
+    },
+    {
       "id": "CN-henan",
       "name": "Henan",
       "country_code": "CN",
@@ -180,19 +207,6 @@
       "fractional_count": 1.0,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I38877650"
-    },
-    {
-      "id": "CN-hubei",
-      "name": "Hubei",
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 30.583330154418945,
-      "longitude": 114.26667022705078,
-      "citing_work_count": 2,
-      "institution_count": 1,
-      "fractional_count": 0.666667,
-      "coordinate_basis": "most_cited_affiliation_institution",
-      "representative_institution_id": "I43922553"
     },
     {
       "id": "CN-shandong",
@@ -221,6 +235,19 @@
       "representative_institution_id": "I4210110794"
     },
     {
+      "id": "CN-sichuan",
+      "name": "Sichuan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.666669845581055,
+      "longitude": 104.0666732788086,
+      "citing_work_count": 2,
+      "institution_count": 2,
+      "fractional_count": 1.333333,
+      "coordinate_basis": "most_cited_affiliation_institution",
+      "representative_institution_id": "I150229711"
+    },
+    {
       "id": "CN-xinjiang",
       "name": "Xinjiang",
       "country_code": "CN",
@@ -247,17 +274,17 @@
       "representative_institution_id": "I146655781"
     },
     {
-      "id": "IL-haifa",
-      "name": "Haifa",
-      "country_code": "IL",
-      "country": "Israel",
-      "latitude": 32.81303,
-      "longitude": 34.99928,
+      "id": "IT-emilia-romagna",
+      "name": "Emilia-Romagna",
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 44.79935073852539,
+      "longitude": 10.326180458068848,
       "citing_work_count": 2,
-      "institution_count": 2,
-      "fractional_count": 0.666667,
+      "institution_count": 1,
+      "fractional_count": 1.0,
       "coordinate_basis": "most_cited_affiliation_institution",
-      "representative_institution_id": "I174306211"
+      "representative_institution_id": "I4210099310"
     },
     {
       "id": "IT-lazio",
@@ -284,6 +311,19 @@
       "fractional_count": 0.5,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I2799888298"
+    },
+    {
+      "id": "CA-alberta",
+      "name": "Alberta",
+      "country_code": "CA",
+      "country": "Canada",
+      "latitude": 53.55014,
+      "longitude": -113.46871,
+      "citing_work_count": 1,
+      "institution_count": 1,
+      "fractional_count": 1.0,
+      "coordinate_basis": "most_cited_affiliation_institution",
+      "representative_institution_id": "I154425047"
     },
     {
       "id": "CA-saskatchewan",
@@ -338,6 +378,19 @@
       "representative_institution_id": "I20942203"
     },
     {
+      "id": "CN-hebei",
+      "name": "Hebei",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9410400390625,
+      "longitude": 119.58936309814453,
+      "citing_work_count": 1,
+      "institution_count": 1,
+      "fractional_count": 1.0,
+      "coordinate_basis": "most_cited_affiliation_institution",
+      "representative_institution_id": "I39333907"
+    },
+    {
       "id": "CN-heilongjiang",
       "name": "Heilongjiang",
       "country_code": "CN",
@@ -375,19 +428,6 @@
       "fractional_count": 0.333333,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I4210132981"
-    },
-    {
-      "id": "CN-sichuan",
-      "name": "Sichuan",
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 30.666669845581055,
-      "longitude": 104.0666732788086,
-      "citing_work_count": 1,
-      "institution_count": 1,
-      "fractional_count": 1.0,
-      "coordinate_basis": "most_cited_affiliation_institution",
-      "representative_institution_id": "I150229711"
     },
     {
       "id": "CY-nicosia",
@@ -481,17 +521,30 @@
       "representative_institution_id": "I168719708"
     },
     {
-      "id": "IT-emilia-romagna",
-      "name": "Emilia-Romagna",
+      "id": "HU-budapest",
+      "name": "Budapest",
+      "country_code": "HU",
+      "country": "Hungary",
+      "latitude": 47.49835,
+      "longitude": 19.04045,
+      "citing_work_count": 1,
+      "institution_count": 1,
+      "fractional_count": 1.0,
+      "coordinate_basis": "most_cited_affiliation_institution",
+      "representative_institution_id": "I29770179"
+    },
+    {
+      "id": "IT-sicily",
+      "name": "Sicily",
       "country_code": "IT",
       "country": "Italy",
-      "latitude": 44.79935073852539,
-      "longitude": 10.326180458068848,
+      "latitude": 38.116600036621094,
+      "longitude": 13.36359977722168,
       "citing_work_count": 1,
       "institution_count": 1,
       "fractional_count": 0.5,
       "coordinate_basis": "most_cited_affiliation_institution",
-      "representative_institution_id": "I4210099310"
+      "representative_institution_id": "I900890020"
     },
     {
       "id": "JO-amman",
@@ -583,6 +636,19 @@
       "fractional_count": 0.333333,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I97018004"
+    },
+    {
+      "id": "US-michigan",
+      "name": "Michigan",
+      "country_code": "US",
+      "country": "United States",
+      "latitude": 42.27756,
+      "longitude": -83.74088,
+      "citing_work_count": 1,
+      "institution_count": 1,
+      "fractional_count": 0.5,
+      "coordinate_basis": "most_cited_affiliation_institution",
+      "representative_institution_id": "I27837315"
     },
     {
       "id": "VN-hanoi",
@@ -720,6 +786,42 @@
       "citing_work_count": 2
     },
     {
+      "id": "I174306211",
+      "name": "Technion – Israel Institute of Technology",
+      "region_id": "IL-haifa",
+      "region": "Haifa",
+      "country_code": "IL",
+      "country": "Israel",
+      "city": "Haifa",
+      "latitude": 32.81303,
+      "longitude": 34.99928,
+      "citing_work_count": 2
+    },
+    {
+      "id": "I3045169105",
+      "name": "Southern University of Science and Technology",
+      "region_id": "CN-guangdong",
+      "region": "Guangdong",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Shenzhen",
+      "latitude": 22.54554,
+      "longitude": 114.0683,
+      "citing_work_count": 2
+    },
+    {
+      "id": "I37796252",
+      "name": "Beijing University of Technology",
+      "region_id": "CN-beijing",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Beijing",
+      "latitude": 39.9075,
+      "longitude": 116.39723,
+      "citing_work_count": 2
+    },
+    {
       "id": "I38877650",
       "name": "Zhengzhou University",
       "region_id": "CN-henan",
@@ -729,6 +831,18 @@
       "city": "Zhengzhou",
       "latitude": 34.75778,
       "longitude": 113.64861,
+      "citing_work_count": 2
+    },
+    {
+      "id": "I4210099310",
+      "name": "Consorzio Nazionale Interuniversitario per le Telecomunicazioni",
+      "region_id": "IT-emilia-romagna",
+      "region": "Emilia-Romagna",
+      "country_code": "IT",
+      "country": "Italy",
+      "city": "Parma",
+      "latitude": 44.79935073852539,
+      "longitude": 10.326180458068848,
       "citing_work_count": 2
     },
     {
@@ -900,6 +1014,18 @@
       "citing_work_count": 1
     },
     {
+      "id": "I142108993",
+      "name": "Southwest University",
+      "region_id": "CN-chongqing",
+      "region": "Chongqing",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Chongqing",
+      "latitude": 29.560260772705078,
+      "longitude": 106.55770874023438,
+      "citing_work_count": 1
+    },
+    {
       "id": "I146367977",
       "name": "Applied Science Private University",
       "region_id": "JO-amman",
@@ -945,6 +1071,18 @@
       "city": "Chengdu",
       "latitude": 30.666669845581055,
       "longitude": 104.0666732788086,
+      "citing_work_count": 1
+    },
+    {
+      "id": "I154425047",
+      "name": "University of Alberta",
+      "region_id": "CA-alberta",
+      "region": "Alberta",
+      "country_code": "CA",
+      "country": "Canada",
+      "city": "Edmonton",
+      "latitude": 53.55014,
+      "longitude": -113.46871,
       "citing_work_count": 1
     },
     {
@@ -1008,18 +1146,6 @@
       "citing_work_count": 1
     },
     {
-      "id": "I174306211",
-      "name": "Technion – Israel Institute of Technology",
-      "region_id": "IL-haifa",
-      "region": "Haifa",
-      "country_code": "IL",
-      "country": "Israel",
-      "city": "Haifa",
-      "latitude": 32.81303,
-      "longitude": 34.99928,
-      "citing_work_count": 1
-    },
-    {
       "id": "I190632392",
       "name": "Luleå University of Technology",
       "region_id": "SE-norrbotten",
@@ -1041,6 +1167,18 @@
       "city": "Changchun",
       "latitude": 43.88,
       "longitude": 125.32278,
+      "citing_work_count": 1
+    },
+    {
+      "id": "I196699116",
+      "name": "Wuhan University of Technology",
+      "region_id": "CN-hubei",
+      "region": "Hubei",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Wuhan",
+      "latitude": 30.583330154418945,
+      "longitude": 114.26667022705078,
       "citing_work_count": 1
     },
     {
@@ -1116,6 +1254,18 @@
       "citing_work_count": 1
     },
     {
+      "id": "I27837315",
+      "name": "University of Michigan",
+      "region_id": "US-michigan",
+      "region": "Michigan",
+      "country_code": "US",
+      "country": "United States",
+      "city": "Ann Arbor",
+      "latitude": 42.27756,
+      "longitude": -83.74088,
+      "citing_work_count": 1
+    },
+    {
       "id": "I2799888298",
       "name": "Skyline University College",
       "region_id": "AE-emirate-of-sharjah",
@@ -1140,15 +1290,15 @@
       "citing_work_count": 1
     },
     {
-      "id": "I3045169105",
-      "name": "Southern University of Science and Technology",
-      "region_id": "CN-guangdong",
-      "region": "Guangdong",
-      "country_code": "CN",
-      "country": "China",
-      "city": "Shenzhen",
-      "latitude": 22.54554,
-      "longitude": 114.0683,
+      "id": "I29770179",
+      "name": "Budapest University of Technology and Economics",
+      "region_id": "HU-budapest",
+      "region": "Budapest",
+      "country_code": "HU",
+      "country": "Hungary",
+      "city": "Budapest",
+      "latitude": 47.49835,
+      "longitude": 19.04045,
       "citing_work_count": 1
     },
     {
@@ -1200,15 +1350,15 @@
       "citing_work_count": 1
     },
     {
-      "id": "I37796252",
-      "name": "Beijing University of Technology",
-      "region_id": "CN-beijing",
-      "region": "Beijing",
+      "id": "I39333907",
+      "name": "Yanshan University",
+      "region_id": "CN-hebei",
+      "region": "Hebei",
       "country_code": "CN",
       "country": "China",
-      "city": "Beijing",
-      "latitude": 39.9075,
-      "longitude": 116.39723,
+      "city": "Qinhuangdao",
+      "latitude": 39.9410400390625,
+      "longitude": 119.58936309814453,
       "citing_work_count": 1
     },
     {
@@ -1221,18 +1371,6 @@
       "city": "Haifa",
       "latitude": 32.81303,
       "longitude": 34.99928,
-      "citing_work_count": 1
-    },
-    {
-      "id": "I4210099310",
-      "name": "Consorzio Nazionale Interuniversitario per le Telecomunicazioni",
-      "region_id": "IT-emilia-romagna",
-      "region": "Emilia-Romagna",
-      "country_code": "IT",
-      "country": "Italy",
-      "city": "Parma",
-      "latitude": 44.79935073852539,
-      "longitude": 10.326180458068848,
       "citing_work_count": 1
     },
     {
@@ -1356,6 +1494,18 @@
       "citing_work_count": 1
     },
     {
+      "id": "I4405272366",
+      "name": "Hubei Three Gorges Laboratory",
+      "region_id": "CN-hubei",
+      "region": "Hubei",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Yichang",
+      "latitude": 30.71444,
+      "longitude": 111.28472,
+      "citing_work_count": 1
+    },
+    {
       "id": "I4472751",
       "name": "Anhui Normal University",
       "region_id": "CN-anhui",
@@ -1377,6 +1527,30 @@
       "city": "London",
       "latitude": 51.50853,
       "longitude": -0.12574,
+      "citing_work_count": 1
+    },
+    {
+      "id": "I4800084",
+      "name": "Southwest Jiaotong University",
+      "region_id": "CN-sichuan",
+      "region": "Sichuan",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Chengdu",
+      "latitude": 30.666669845581055,
+      "longitude": 104.0666732788086,
+      "citing_work_count": 1
+    },
+    {
+      "id": "I50632499",
+      "name": "Chongqing University of Technology",
+      "region_id": "CN-chongqing",
+      "region": "Chongqing",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Chongqing",
+      "latitude": 29.560260772705078,
+      "longitude": 106.55770874023438,
       "citing_work_count": 1
     },
     {
@@ -1464,6 +1638,30 @@
       "citing_work_count": 1
     },
     {
+      "id": "I900890020",
+      "name": "University of Palermo",
+      "region_id": "IT-sicily",
+      "region": "Sicily",
+      "country_code": "IT",
+      "country": "Italy",
+      "city": "Palermo",
+      "latitude": 38.116600036621094,
+      "longitude": 13.36359977722168,
+      "citing_work_count": 1
+    },
+    {
+      "id": "I91203450",
+      "name": "University of Haifa",
+      "region_id": "IL-haifa",
+      "region": "Haifa",
+      "country_code": "IL",
+      "country": "Israel",
+      "city": "Haifa",
+      "latitude": 32.81303,
+      "longitude": 34.99928,
+      "citing_work_count": 1
+    },
+    {
       "id": "I92178344",
       "name": "Anhui University of Technology",
       "region_id": "CN-anhui",
@@ -1522,10 +1720,22 @@
       "latitude": 60.2052001953125,
       "longitude": 24.65220069885254,
       "citing_work_count": 1
+    },
+    {
+      "id": "LOCAL-SINOPHORUS",
+      "name": "Hubei Sinophorus Electronic Materials Co., Ltd.",
+      "region_id": "CN-hubei",
+      "region": "Hubei",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Yichang",
+      "latitude": 30.71444,
+      "longitude": 111.28472,
+      "citing_work_count": 1
     }
   ],
   "unmapped_summary": {
-    "external_works": 1,
+    "external_works": 0,
     "partially_mapped_external_works": 3
   }
 }

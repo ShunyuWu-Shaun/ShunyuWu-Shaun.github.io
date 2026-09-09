@@ -238,6 +238,7 @@
       "W4413754711"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -559,6 +560,7 @@
       "W4413754711"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -818,6 +820,7 @@
       "W4413754711"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -1261,6 +1264,7 @@
       "W4399709078"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -1602,6 +1606,7 @@
       "W4399709078"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -1816,6 +1821,7 @@
       "W4399709078"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -2125,6 +2131,7 @@
       "W4399709078"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": true,
@@ -2614,6 +2621,7 @@
       "W4399709078"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -2712,6 +2720,7 @@
       "W4399709078"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -2863,6 +2872,7 @@
       "W4399709078"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -3201,6 +3211,7 @@
       "W4399709078"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -3413,6 +3424,7 @@
       "W4399709078"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -3670,6 +3682,7 @@
       "W4399709078"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -3843,6 +3856,7 @@
       "W4399709078"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -4127,6 +4141,7 @@
       "W4376479136"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -4637,6 +4652,7 @@
       "W3202625584"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -4852,6 +4868,7 @@
       "W3202625584"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -5387,6 +5404,7 @@
       "W4390829281"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": true,
@@ -5634,6 +5652,7 @@
       "W4390829281"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -5956,6 +5975,7 @@
       "W4390829281"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -6172,6 +6192,7 @@
       "W4390829281"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -6389,6 +6410,7 @@
       "W4390829281"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -6581,6 +6603,7 @@
       "W4390829281"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -6755,6 +6778,7 @@
       "W4390829281"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -6929,6 +6953,7 @@
       "W4390829281"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -7176,6 +7201,7 @@
       "W4388740257"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -7202,6 +7228,259 @@
     "publication_date": "2025-12-12",
     "type": "article",
     "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Chunmao Pan",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I50632499",
+            "display_name": "Chongqing University of Technology",
+            "country_code": "CN",
+            "type": "education",
+            "ror": "https://ror.org/04vgbd477"
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chunmao Pan",
+        "raw_affiliation_strings": [
+          "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China",
+            "institution_ids": [
+              "https://openalex.org/I50632499"
+            ]
+          }
+        ],
+        "affiliation_source": "https://www.sciencedirect.com/science/article/pii/S1876107025006297",
+        "verified_region": "Chongqing"
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Lingxing Hu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I50632499",
+            "display_name": "Chongqing University of Technology",
+            "country_code": "CN",
+            "type": "education",
+            "ror": "https://ror.org/04vgbd477"
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lingxing Hu",
+        "raw_affiliation_strings": [
+          "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China",
+            "institution_ids": [
+              "https://openalex.org/I50632499"
+            ]
+          }
+        ],
+        "affiliation_source": "https://www.sciencedirect.com/science/article/pii/S1876107025006297",
+        "verified_region": "Chongqing"
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Facheng Qiu",
+          "orcid": "https://orcid.org/0000-0002-9998-9175"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I50632499",
+            "display_name": "Chongqing University of Technology",
+            "country_code": "CN",
+            "type": "education",
+            "ror": "https://ror.org/04vgbd477"
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Facheng Qiu",
+        "raw_affiliation_strings": [
+          "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-9998-9175",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China",
+            "institution_ids": [
+              "https://openalex.org/I50632499"
+            ]
+          }
+        ],
+        "affiliation_source": "https://www.sciencedirect.com/science/article/pii/S1876107025006297",
+        "verified_region": "Chongqing"
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Zhiliang Cheng",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I50632499",
+            "display_name": "Chongqing University of Technology",
+            "country_code": "CN",
+            "type": "education",
+            "ror": "https://ror.org/04vgbd477"
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhiliang Cheng",
+        "raw_affiliation_strings": [
+          "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Chemistry and Chemical Engineering, Chongqing University of Technology, Chongqing, 400054, China",
+            "institution_ids": [
+              "https://openalex.org/I50632499"
+            ]
+          }
+        ],
+        "affiliation_source": "https://www.sciencedirect.com/science/article/pii/S1876107025006297",
+        "verified_region": "Chongqing"
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Zhongjun Li",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4405272366",
+            "display_name": "Hubei Three Gorges Laboratory",
+            "country_code": "CN",
+            "type": "facility",
+            "ror": "https://ror.org/042c50f73"
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhongjun Li",
+        "raw_affiliation_strings": [
+          "Hubei Three Gorges Laboratory, Yichang 443000, Hubei, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Hubei Three Gorges Laboratory, Yichang 443000, Hubei, China",
+            "institution_ids": [
+              "https://openalex.org/I4405272366"
+            ]
+          }
+        ],
+        "affiliation_source": "https://www.sciencedirect.com/science/article/pii/S1876107025006297",
+        "verified_region": "Hubei"
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": null,
+          "display_name": "Lanfeng Guo",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "LOCAL-SINOPHORUS",
+            "display_name": "Hubei Sinophorus Electronic Materials Co., Ltd.",
+            "country_code": "CN",
+            "type": "company",
+            "ror": null
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lanfeng Guo",
+        "raw_affiliation_strings": [
+          "Hubei Sinophorus Electronic Materials Co., Ltd., Hubei 443007, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Hubei Sinophorus Electronic Materials Co., Ltd., Hubei 443007, China",
+            "institution_ids": [
+              "LOCAL-SINOPHORUS"
+            ]
+          }
+        ],
+        "affiliation_source": "https://www.sciencedirect.com/science/article/pii/S1876107025006297",
+        "verified_region": "Hubei"
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1016/j.jtice.2025.106577",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.jtice.2025.106577",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S156280905",
+        "display_name": "Journal of the Taiwan Institute of Chemical Engineers",
+        "issn_l": "1876-1070",
+        "issn": [
+          "1876-1070",
+          "1876-1089"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of the Taiwan Institute of Chemical Engineers",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "authorships_original": [
       {
         "author_position": "first",
         "author": {
@@ -7293,54 +7572,27 @@
         "affiliations": []
       }
     ],
-    "primary_location": {
-      "id": "doi:10.1016/j.jtice.2025.106577",
-      "is_oa": false,
-      "landing_page_url": "https://doi.org/10.1016/j.jtice.2025.106577",
-      "pdf_url": null,
-      "source": {
-        "id": "https://openalex.org/S156280905",
-        "display_name": "Journal of the Taiwan Institute of Chemical Engineers",
-        "issn_l": "1876-1070",
-        "issn": [
-          "1876-1070",
-          "1876-1089"
-        ],
-        "is_oa": false,
-        "is_in_doaj": false,
-        "is_core": true,
-        "host_organization": "https://openalex.org/P4310320990",
-        "host_organization_name": "Elsevier BV",
-        "host_organization_lineage": [
-          "https://openalex.org/P4310320990"
-        ],
-        "host_organization_lineage_names": [
-          "Elsevier BV"
-        ],
-        "type": "journal"
-      },
-      "license": null,
-      "license_id": null,
-      "version": "publishedVersion",
-      "is_accepted": true,
-      "is_published": true,
-      "raw_source_name": "Journal of the Taiwan Institute of Chemical Engineers",
-      "raw_type": "journal-article"
-    },
-    "is_retracted": false,
+    "authorships_complete_verified": true,
     "cited_target_ids": [
       "W4388740257"
     ],
     "sources": [
-      "OpenAlex"
+      "Google Scholar",
+      "OpenAlex",
+      "Publisher article"
     ],
     "is_direct_self_citation": false,
     "has_coauthor_overlap_with_cited_targets": false,
     "authorships_truncated": null,
     "is_non_research_record": false,
-    "affiliation_country_codes": [],
-    "affiliation_regions": [],
-    "geography_complete": false
+    "affiliation_country_codes": [
+      "CN"
+    ],
+    "affiliation_regions": [
+      "Chongqing",
+      "Hubei"
+    ],
+    "geography_complete": true
   },
   {
     "id": "https://openalex.org/W4404563370",
@@ -7613,6 +7865,7 @@
       "W4388740257"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -7788,6 +8041,7 @@
       "W4388740257"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -8141,6 +8395,7 @@
       "W4388740257"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -8427,6 +8682,7 @@
       "W4388740257"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -8918,6 +9174,7 @@
       "W4316660809"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -9228,6 +9485,7 @@
       "W4316660809"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -9402,6 +9660,7 @@
       "W4316660809"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -9652,6 +9911,7 @@
       "W4316660809"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": true,
@@ -10074,6 +10334,7 @@
       "W4316660809"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -10729,6 +10990,7 @@
       "W4316660809"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -10941,6 +11203,7 @@
       "W4316660809"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -11132,6 +11395,7 @@
       "W4316660809"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -11460,6 +11724,7 @@
       "W4316660809"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -12004,6 +12269,7 @@
       "W4388579581"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -12217,6 +12483,7 @@
       "W4388579581"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -12370,6 +12637,7 @@
       "W4388579581"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -12506,6 +12774,7 @@
       "W4388579581"
     ],
     "sources": [
+      "Google Scholar",
       "OpenAlex"
     ],
     "is_direct_self_citation": false,
@@ -13408,6 +13677,1874 @@
     ],
     "affiliation_regions": [
       "Beijing"
+    ],
+    "geography_complete": true
+  },
+  {
+    "id": "https://openalex.org/W7168280566",
+    "doi": "https://doi.org/10.1109/tsmc.2026.3711442",
+    "title": "Adaptive Safe Reinforcement Learning With Energy Dissipation Principles",
+    "publication_year": 2026,
+    "publication_date": "2026-01-01",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5140669482",
+          "display_name": "Hainan Zhang",
+          "orcid": "https://orcid.org/0009-0003-9323-0613"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I39333907",
+            "display_name": "Yanshan University",
+            "ror": "https://ror.org/02txfnf15",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hainan Zhang",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering, Yanshan University, Qinhuangdao, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0003-9323-0613",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering, Yanshan University, Qinhuangdao, China",
+            "institution_ids": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5140595091",
+          "display_name": "Changchun Hua",
+          "orcid": "https://orcid.org/0000-0001-6311-2112"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I39333907",
+            "display_name": "Yanshan University",
+            "ror": "https://ror.org/02txfnf15",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Changchun Hua",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering, Yanshan University, Qinhuangdao, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-6311-2112",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering, Yanshan University, Qinhuangdao, China",
+            "institution_ids": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5140709939",
+          "display_name": "Jiannan Chen",
+          "orcid": "https://orcid.org/0000-0003-2106-4743"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I39333907",
+            "display_name": "Yanshan University",
+            "ror": "https://ror.org/02txfnf15",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiannan Chen",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering, Yanshan University, Qinhuangdao, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2106-4743",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering, Yanshan University, Qinhuangdao, China",
+            "institution_ids": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5140692634",
+          "display_name": "Xi Luo",
+          "orcid": "https://orcid.org/0000-0002-6251-0634"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I39333907",
+            "display_name": "Yanshan University",
+            "ror": "https://ror.org/02txfnf15",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xi Luo",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering, Yanshan University, Qinhuangdao, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6251-0634",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering, Yanshan University, Qinhuangdao, China",
+            "institution_ids": [
+              "https://openalex.org/I39333907"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/tsmc.2026.3711442",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tsmc.2026.3711442",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210209078",
+        "display_name": "IEEE Transactions on Systems Man and Cybernetics Systems",
+        "issn_l": "2168-2216",
+        "issn": [
+          "2168-2216",
+          "2168-2232"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_target_ids": [
+      "W4390829281"
+    ],
+    "sources": [
+      "Google Scholar",
+      "OpenAlex"
+    ],
+    "is_direct_self_citation": false,
+    "has_coauthor_overlap_with_cited_targets": false,
+    "authorships_truncated": null,
+    "is_non_research_record": false,
+    "affiliation_country_codes": [
+      "CN"
+    ],
+    "affiliation_regions": [
+      "Hebei"
+    ],
+    "geography_complete": true
+  },
+  {
+    "id": "https://openalex.org/W4407737363",
+    "doi": "https://doi.org/10.1109/sami63904.2025.10883318",
+    "title": "Optimizing Rail Traffic with Reinforcement Learning and Graph Attention Networks",
+    "publication_year": 2025,
+    "publication_date": "2025-01-23",
+    "type": "conference-paper",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5018465731",
+          "display_name": "Péter Farkas",
+          "orcid": "https://orcid.org/0000-0002-1700-2948"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I29770179",
+            "display_name": "Budapest University of Technology and Economics",
+            "ror": "https://ror.org/02w42ss30",
+            "country_code": "HU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I29770179"
+            ]
+          }
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Péter Farkas",
+        "raw_affiliation_strings": [
+          "Budapest University of Technology and Economics,Department of Control for Transportation and Vehicle Systems,Budapest,Hungary"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Budapest University of Technology and Economics,Department of Control for Transportation and Vehicle Systems,Budapest,Hungary",
+            "institution_ids": [
+              "https://openalex.org/I29770179"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5086854188",
+          "display_name": "László Szőke",
+          "orcid": "https://orcid.org/0000-0001-9926-4054"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I29770179",
+            "display_name": "Budapest University of Technology and Economics",
+            "ror": "https://ror.org/02w42ss30",
+            "country_code": "HU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I29770179"
+            ]
+          }
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "László Szőke",
+        "raw_affiliation_strings": [
+          "Budapest University of Technology and Economics,Department of Control for Transportation and Vehicle Systems,Budapest,Hungary"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Budapest University of Technology and Economics,Department of Control for Transportation and Vehicle Systems,Budapest,Hungary",
+            "institution_ids": [
+              "https://openalex.org/I29770179"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5084972354",
+          "display_name": "Szilárd Aradi",
+          "orcid": "https://orcid.org/0000-0001-6811-2584"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I29770179",
+            "display_name": "Budapest University of Technology and Economics",
+            "ror": "https://ror.org/02w42ss30",
+            "country_code": "HU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I29770179"
+            ]
+          }
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Szilárd Aradi",
+        "raw_affiliation_strings": [
+          "Budapest University of Technology and Economics,Department of Control for Transportation and Vehicle Systems,Budapest,Hungary"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Budapest University of Technology and Economics,Department of Control for Transportation and Vehicle Systems,Budapest,Hungary",
+            "institution_ids": [
+              "https://openalex.org/I29770179"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/sami63904.2025.10883318",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/sami63904.2025.10883318",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2025 IEEE 23rd World Symposium on Applied Machine Intelligence and Informatics (SAMI)",
+      "raw_type": "proceedings-article"
+    },
+    "is_retracted": false,
+    "cited_target_ids": [
+      "W4390829281"
+    ],
+    "sources": [
+      "Google Scholar",
+      "OpenAlex"
+    ],
+    "is_direct_self_citation": false,
+    "has_coauthor_overlap_with_cited_targets": false,
+    "authorships_truncated": null,
+    "is_non_research_record": false,
+    "affiliation_country_codes": [
+      "HU"
+    ],
+    "affiliation_regions": [
+      "Budapest"
+    ],
+    "geography_complete": true
+  },
+  {
+    "id": "https://openalex.org/W7138148711",
+    "doi": "https://doi.org/10.1609/aaai.v40i31.39797",
+    "title": "Efficiently Enhancing Long-term Series Forecasting via Adaptive Lookback with Wavelets",
+    "publication_year": 2026,
+    "publication_date": "2026-03-14",
+    "type": "conference-paper",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5037495157",
+          "display_name": "Suxin Tong",
+          "orcid": "https://orcid.org/0000-0002-1662-389X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I196699116",
+            "display_name": "Wuhan University of Technology",
+            "ror": "https://ror.org/03fe7t173",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I196699116"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Suxin Tong",
+        "raw_affiliation_strings": [
+          "Hubei Key Laboratory of Transportation Internet of Things, School of Computer Science and Artificial Intelligence, Wuhan University of Technology"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Hubei Key Laboratory of Transportation Internet of Things, School of Computer Science and Artificial Intelligence, Wuhan University of Technology",
+            "institution_ids": [
+              "https://openalex.org/I196699116"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5121543048",
+          "display_name": "Jingling Yuan",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I196699116",
+            "display_name": "Wuhan University of Technology",
+            "ror": "https://ror.org/03fe7t173",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I196699116"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingling Yuan",
+        "raw_affiliation_strings": [
+          "Hubei Key Laboratory of Transportation Internet of Things, School of Computer Science and Artificial Intelligence, Wuhan University of Technology"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Hubei Key Laboratory of Transportation Internet of Things, School of Computer Science and Artificial Intelligence, Wuhan University of Technology",
+            "institution_ids": [
+              "https://openalex.org/I196699116"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1609/aaai.v40i31.39797",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1609/aaai.v40i31.39797",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "issn_l": "2159-5399",
+        "issn": [
+          "2159-5399",
+          "2374-3468"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320058",
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320058"
+        ],
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_target_ids": [
+      "W4388740257"
+    ],
+    "sources": [
+      "Google Scholar",
+      "OpenAlex"
+    ],
+    "is_direct_self_citation": false,
+    "has_coauthor_overlap_with_cited_targets": false,
+    "authorships_truncated": null,
+    "is_non_research_record": false,
+    "affiliation_country_codes": [
+      "CN"
+    ],
+    "affiliation_regions": [
+      "Hubei"
+    ],
+    "geography_complete": true
+  },
+  {
+    "id": "local-aas-c240706",
+    "doi": "https://doi.org/10.16383/j.aas.c240706",
+    "title": "数据驱动自适应评判控制研究进展",
+    "title_english": "Research Advances on Data-driven Adaptive Critic Control",
+    "publication_year": 2025,
+    "publication_date": null,
+    "publication_date_precision": "2025-06 (issue month only)",
+    "type": "review",
+    "authorships": [
+      {
+        "author": {
+          "id": null,
+          "display_name": "Ding Wang",
+          "orcid": null
+        },
+        "raw_author_name": "王鼎",
+        "author_position": "first",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I37796252",
+            "display_name": "Beijing University of Technology",
+            "ror": "https://ror.org/037b1pp87",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I37796252"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "raw_affiliation_strings": [
+          "School of Information Science and Technology, Beijing University of Technology, Beijing 100124",
+          "Beijing Key Laboratory of Computational Intelligence and Intelligent System, Beijing 100124",
+          "Beijing Laboratory of Smart Environmental Protection, Beijing 100124",
+          "Beijing Institute of Artificial Intelligence, Beijing 100124"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Information Science and Technology, Beijing University of Technology, Beijing 100124",
+            "institution_ids": [
+              "https://openalex.org/I37796252"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Computational Intelligence and Intelligent System, Beijing 100124",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Beijing Laboratory of Smart Environmental Protection, Beijing 100124",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Beijing Institute of Artificial Intelligence, Beijing 100124",
+            "institution_ids": []
+          }
+        ],
+        "publisher_affiliation_numbers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "metadata_source": "Publisher PDF page 1"
+      },
+      {
+        "author": {
+          "id": null,
+          "display_name": "Ming-Ming Zhao",
+          "orcid": null
+        },
+        "raw_author_name": "赵明明",
+        "author_position": "middle",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I37796252",
+            "display_name": "Beijing University of Technology",
+            "ror": "https://ror.org/037b1pp87",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I37796252"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "raw_affiliation_strings": [
+          "School of Information Science and Technology, Beijing University of Technology, Beijing 100124",
+          "Beijing Key Laboratory of Computational Intelligence and Intelligent System, Beijing 100124",
+          "Beijing Laboratory of Smart Environmental Protection, Beijing 100124",
+          "Beijing Institute of Artificial Intelligence, Beijing 100124"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Information Science and Technology, Beijing University of Technology, Beijing 100124",
+            "institution_ids": [
+              "https://openalex.org/I37796252"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Computational Intelligence and Intelligent System, Beijing 100124",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Beijing Laboratory of Smart Environmental Protection, Beijing 100124",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Beijing Institute of Artificial Intelligence, Beijing 100124",
+            "institution_ids": []
+          }
+        ],
+        "publisher_affiliation_numbers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "metadata_source": "Publisher PDF page 1"
+      },
+      {
+        "author": {
+          "id": null,
+          "display_name": "De-Rong Liu",
+          "orcid": null
+        },
+        "raw_author_name": "刘德荣",
+        "author_position": "middle",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I3045169105",
+            "display_name": "Southern University of Science and Technology",
+            "ror": "https://ror.org/049tv2d57",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I3045169105"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "raw_affiliation_strings": [
+          "School of Automation and Intelligent Manufacturing, Southern University of Science and Technology, Shenzhen 518055"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Automation and Intelligent Manufacturing, Southern University of Science and Technology, Shenzhen 518055",
+            "institution_ids": [
+              "https://openalex.org/I3045169105"
+            ]
+          }
+        ],
+        "publisher_affiliation_numbers": [
+          5
+        ],
+        "metadata_source": "Publisher PDF page 1"
+      },
+      {
+        "author": {
+          "id": null,
+          "display_name": "Jun-Fei Qiao",
+          "orcid": null
+        },
+        "raw_author_name": "乔俊飞",
+        "author_position": "middle",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I37796252",
+            "display_name": "Beijing University of Technology",
+            "ror": "https://ror.org/037b1pp87",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I37796252"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "raw_affiliation_strings": [
+          "School of Information Science and Technology, Beijing University of Technology, Beijing 100124",
+          "Beijing Key Laboratory of Computational Intelligence and Intelligent System, Beijing 100124",
+          "Beijing Laboratory of Smart Environmental Protection, Beijing 100124",
+          "Beijing Institute of Artificial Intelligence, Beijing 100124"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Information Science and Technology, Beijing University of Technology, Beijing 100124",
+            "institution_ids": [
+              "https://openalex.org/I37796252"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Computational Intelligence and Intelligent System, Beijing 100124",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Beijing Laboratory of Smart Environmental Protection, Beijing 100124",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Beijing Institute of Artificial Intelligence, Beijing 100124",
+            "institution_ids": []
+          }
+        ],
+        "publisher_affiliation_numbers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "metadata_source": "Publisher PDF page 1"
+      },
+      {
+        "author": {
+          "id": null,
+          "display_name": "Shi-Jie Song",
+          "orcid": null
+        },
+        "raw_author_name": "宋世杰",
+        "author_position": "last",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4800084",
+            "display_name": "Southwest Jiaotong University",
+            "ror": "https://ror.org/00hn7w693",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4800084"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "raw_affiliation_strings": [
+          "Institute of Smart City and Intelligent Transportation, Southwest Jiaotong University, Chengdu 611756"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Smart City and Intelligent Transportation, Southwest Jiaotong University, Chengdu 611756",
+            "institution_ids": [
+              "https://openalex.org/I4800084"
+            ]
+          }
+        ],
+        "publisher_affiliation_numbers": [
+          6
+        ],
+        "metadata_source": "Publisher PDF page 1"
+      }
+    ],
+    "is_authors_truncated": false,
+    "primary_location": {
+      "landing_page_url": "https://www.sciengine.com/doi/10.16383/j.aas.c240706",
+      "pdf_url": "https://www.sciengine.com/parse/pdf/0254-4156/6903A15E66664B2798AA290A0F40F47F.pdf",
+      "source": {
+        "display_name": "Acta Automatica Sinica",
+        "issn_l": "0254-4156"
+      }
+    },
+    "is_retracted": null,
+    "metadata_source": "Publisher PDF",
+    "metadata_source_url": "https://www.sciengine.com/parse/pdf/0254-4156/6903A15E66664B2798AA290A0F40F47F.pdf",
+    "source_url": "https://www.sciengine.com/doi/10.16383/j.aas.c240706",
+    "source_evidence": {
+      "provider": "Publisher PDF",
+      "url": "https://www.sciengine.com/parse/pdf/0254-4156/6903A15E66664B2798AA290A0F40F47F.pdf",
+      "retrieved_at": "2026-09-09T14:23:32.730408+00:00",
+      "pages_used": [
+        1
+      ],
+      "verification": "Title, DOI, year, author order, superscripts, and numbered affiliations transcribed from page 1 as extracted by the web PDF reader. Direct urllib download returned HTTP 429 and was not retried; no local PDF hash is claimed."
+    },
+    "local_identifier_note": "Locally assigned stable identifier; this is not an OpenAlex work ID. OpenAlex DOI resolution and exact English/Chinese title searches did not match a work.",
+    "authorships_completeness_basis": "All five named authors and all six numbered affiliation strings were manually verified against publisher PDF page 1.",
+    "unresolved_suborganization_note": "Publisher affiliation numbers 2, 3, and 4 are preserved for each applicable author. Exact OpenAlex institution searches returned no matches for these laboratories/institute; no institutional IDs or coordinates were invented. Each of these authors also explicitly lists Beijing University of Technology as affiliation 1.",
+    "cited_target_ids": [
+      "W4388579581"
+    ],
+    "sources": [
+      "Google Scholar",
+      "Publisher PDF"
+    ],
+    "is_direct_self_citation": false,
+    "has_coauthor_overlap_with_cited_targets": false,
+    "authorships_truncated": false,
+    "is_non_research_record": false,
+    "affiliation_country_codes": [
+      "CN"
+    ],
+    "affiliation_regions": [
+      "Beijing",
+      "Guangdong",
+      "Sichuan"
+    ],
+    "geography_complete": true
+  },
+  {
+    "id": "https://openalex.org/W7164919297",
+    "doi": "https://doi.org/10.1109/tnnls.2026.3700775",
+    "title": "Online Value Iteration for Unknown Nonlinear Multiagent Systems: A Model-Decoupled Encoding–Decoding Mechanism",
+    "publication_year": 2026,
+    "publication_date": "2026-01-01",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5138711533",
+          "display_name": "Tong Zhang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142108993",
+            "display_name": "Southwest University",
+            "ror": "https://ror.org/01kj4z117",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tong Zhang",
+        "raw_affiliation_strings": [
+          "College of Electronic and Information Engineering, Southwest University, Chongqing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Electronic and Information Engineering, Southwest University, Chongqing, China",
+            "institution_ids": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5035328845",
+          "display_name": "Yiyan Han",
+          "orcid": "https://orcid.org/0000-0002-5493-5894"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142108993",
+            "display_name": "Southwest University",
+            "ror": "https://ror.org/01kj4z117",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yiyan Han",
+        "raw_affiliation_strings": [
+          "College of Electronic and Information Engineering, Southwest University, Chongqing, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-5493-5894",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Electronic and Information Engineering, Southwest University, Chongqing, China",
+            "institution_ids": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062183379",
+          "display_name": "Le You",
+          "orcid": "https://orcid.org/0009-0007-8595-1305"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142108993",
+            "display_name": "Southwest University",
+            "ror": "https://ror.org/01kj4z117",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Le You",
+        "raw_affiliation_strings": [
+          "College of Electronic and Information Engineering, Southwest University, Chongqing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Electronic and Information Engineering, Southwest University, Chongqing, China",
+            "institution_ids": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100328090",
+          "display_name": "Xin Wang",
+          "orcid": "https://orcid.org/0000-0003-2070-960X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142108993",
+            "display_name": "Southwest University",
+            "ror": "https://ror.org/01kj4z117",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xin Wang",
+        "raw_affiliation_strings": [
+          "College of Electronic and Information Engineering, Southwest University, Chongqing, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2070-960X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Electronic and Information Engineering, Southwest University, Chongqing, China",
+            "institution_ids": [
+              "https://openalex.org/I142108993"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/tnnls.2026.3700775",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tnnls.2026.3700775",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210175523",
+        "display_name": "IEEE Transactions on Neural Networks and Learning Systems",
+        "issn_l": "2162-237X",
+        "issn": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Neural Networks and Learning Systems",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_target_ids": [
+      "W4388579581"
+    ],
+    "sources": [
+      "Google Scholar",
+      "OpenAlex"
+    ],
+    "is_direct_self_citation": false,
+    "has_coauthor_overlap_with_cited_targets": false,
+    "authorships_truncated": null,
+    "is_non_research_record": false,
+    "affiliation_country_codes": [
+      "CN"
+    ],
+    "affiliation_regions": [
+      "Chongqing"
+    ],
+    "geography_complete": true
+  },
+  {
+    "id": "https://openalex.org/W7117981005",
+    "doi": "https://doi.org/10.1016/j.watres.2026.125325",
+    "title": "Integrated optimal operation of power and water systems under uncertainty: An adjustable robust optimization approach",
+    "publication_year": 2026,
+    "publication_date": "2026-01-02",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5058763362",
+          "display_name": "Gal Perelman",
+          "orcid": "https://orcid.org/0000-0003-0345-4051"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I174306211",
+            "display_name": "Technion – Israel Institute of Technology",
+            "ror": "https://ror.org/03qryx823",
+            "country_code": "IL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I174306211"
+            ]
+          }
+        ],
+        "countries": [
+          "IL"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Gal Perelman",
+        "raw_affiliation_strings": [
+          "Faculty of Civil and Environmental Engineering, Technion-Israel Institute of Technology, Haifa 3200003, Israel. Electronic address: gal-p@campus.technion.ac.il"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-0345-4051",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Civil and Environmental Engineering, Technion-Israel Institute of Technology, Haifa 3200003, Israel. Electronic address: gal-p@campus.technion.ac.il",
+            "institution_ids": [
+              "https://openalex.org/I174306211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5064887202",
+          "display_name": "Mashor Housh",
+          "orcid": "https://orcid.org/0000-0003-4924-2636"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I91203450",
+            "display_name": "University of Haifa",
+            "ror": "https://ror.org/02f009v59",
+            "country_code": "IL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I91203450"
+            ]
+          }
+        ],
+        "countries": [
+          "IL"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mashor Housh",
+        "raw_affiliation_strings": [
+          "School of Environmental Sciences, University of Haifa, Haifa 3498838, Israel"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-4924-2636",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Environmental Sciences, University of Haifa, Haifa 3498838, Israel",
+            "institution_ids": [
+              "https://openalex.org/I91203450"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5121749681",
+          "display_name": "Aviad Navon",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27837315",
+            "display_name": "University of Michigan",
+            "ror": "https://ror.org/00jmfr291",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27837315"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Aviad Navon",
+        "raw_affiliation_strings": [
+          "School of Environmental and Sustainability, University of Michigan, Ann Arbor, MI, USA; Department of Industrial and Operations Engineering, University of Michigan, Ann Arbor, MI, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Environmental and Sustainability, University of Michigan, Ann Arbor, MI, USA; Department of Industrial and Operations Engineering, University of Michigan, Ann Arbor, MI, USA",
+            "institution_ids": [
+              "https://openalex.org/I27837315"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5091007059",
+          "display_name": "Avi Ostfeld",
+          "orcid": "https://orcid.org/0000-0001-9112-6079"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I174306211",
+            "display_name": "Technion – Israel Institute of Technology",
+            "ror": "https://ror.org/03qryx823",
+            "country_code": "IL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I174306211"
+            ]
+          }
+        ],
+        "countries": [
+          "IL"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Avi Ostfeld",
+        "raw_affiliation_strings": [
+          "Faculty of Civil and Environmental Engineering, Technion-Israel Institute of Technology, Haifa 3200003, Israel"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Civil and Environmental Engineering, Technion-Israel Institute of Technology, Haifa 3200003, Israel",
+            "institution_ids": [
+              "https://openalex.org/I174306211"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1016/j.watres.2026.125325",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.watres.2026.125325",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S52566953",
+        "display_name": "Water Research",
+        "issn_l": "0043-1354",
+        "issn": [
+          "0043-1354",
+          "1879-2448"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Water Research",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_target_ids": [
+      "W4413754711"
+    ],
+    "sources": [
+      "Google Scholar",
+      "OpenAlex"
+    ],
+    "is_direct_self_citation": false,
+    "has_coauthor_overlap_with_cited_targets": false,
+    "authorships_truncated": null,
+    "is_non_research_record": false,
+    "affiliation_country_codes": [
+      "IL",
+      "US"
+    ],
+    "affiliation_regions": [
+      "Haifa",
+      "Michigan"
+    ],
+    "geography_complete": true
+  },
+  {
+    "id": "https://openalex.org/W7165380963",
+    "doi": "https://doi.org/10.1145/3765611.3815386",
+    "title": "Decision-Focused Learning for Energy Arbitrage: From Probabilistic Forecasting to Risk-Averse Stochastic Optimization",
+    "publication_year": 2026,
+    "publication_date": "2026-06-20",
+    "type": "conference-paper",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5120394854",
+          "display_name": "Steven Oufan Hai",
+          "orcid": "https://orcid.org/0009-0003-7601-2024"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154425047",
+            "display_name": "University of Alberta",
+            "ror": "https://ror.org/0160cpw27",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154425047"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Steven Oufan Hai",
+        "raw_affiliation_strings": [
+          "University of Alberta, Edmonton, Alberta, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0003-7601-2024",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Alberta, Edmonton, Alberta, Canada",
+            "institution_ids": [
+              "https://openalex.org/I154425047"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5079048464",
+          "display_name": "Omid Ardakanian",
+          "orcid": "https://orcid.org/0000-0002-6711-5502"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154425047",
+            "display_name": "University of Alberta",
+            "ror": "https://ror.org/0160cpw27",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154425047"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Omid Ardakanian",
+        "raw_affiliation_strings": [
+          "University of Alberta, Edmonton, Alberta, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6711-5502",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Alberta, Edmonton, Alberta, Canada",
+            "institution_ids": [
+              "https://openalex.org/I154425047"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1145/3765611.3815386",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1145/3765611.3815386",
+      "pdf_url": null,
+      "source": null,
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the 2026 ACM Sustainability Week",
+      "raw_type": "proceedings-article"
+    },
+    "is_retracted": false,
+    "cited_target_ids": [
+      "W4413754711"
+    ],
+    "sources": [
+      "Google Scholar",
+      "OpenAlex"
+    ],
+    "is_direct_self_citation": false,
+    "has_coauthor_overlap_with_cited_targets": false,
+    "authorships_truncated": null,
+    "is_non_research_record": false,
+    "affiliation_country_codes": [
+      "CA"
+    ],
+    "affiliation_regions": [
+      "Alberta"
+    ],
+    "geography_complete": true
+  },
+  {
+    "id": "https://openalex.org/W4399709078",
+    "doi": "https://doi.org/10.1016/j.eswa.2024.124508",
+    "title": "Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting",
+    "publication_year": 2024,
+    "publication_date": "2024-06-15",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9856-2148",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5107143661",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4535-8538"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040505108",
+          "display_name": "Haotian Xu",
+          "orcid": "https://orcid.org/0000-0002-2180-6148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154099455",
+            "display_name": "Shandong University",
+            "ror": "https://ror.org/0207yh398",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154099455"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Haotian Xu",
+        "raw_affiliation_strings": [
+          "School of Control Science and Engineering, Shandong University, No. 27, South Shanda Road, Jinan, 250100, Shandong, China",
+          "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Control Science and Engineering, Shandong University, No. 27, South Shanda Road, Jinan, 250100, Shandong, China",
+            "institution_ids": [
+              "https://openalex.org/I154099455"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5042729110",
+          "display_name": "Shangwei Zhao",
+          "orcid": "https://orcid.org/0000-0001-7786-3857"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shangwei Zhao",
+        "raw_affiliation_strings": [
+          "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5077505612",
+          "display_name": "Jiahui Xu",
+          "orcid": "https://orcid.org/0000-0002-4260-6858"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiahui Xu",
+        "raw_affiliation_strings": [
+          "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1016/j.eswa.2024.124508",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.eswa.2024.124508",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S13144211",
+        "display_name": "Expert Systems with Applications",
+        "issn_l": "0957-4174",
+        "issn": [
+          "0957-4174",
+          "1873-6793"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Expert Systems with Applications",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_target_ids": [
+      "W3202625584"
+    ],
+    "sources": [
+      "Google Scholar",
+      "OpenAlex"
+    ],
+    "is_direct_self_citation": true,
+    "has_coauthor_overlap_with_cited_targets": true,
+    "authorships_truncated": null,
+    "is_non_research_record": false,
+    "affiliation_country_codes": [
+      "CN"
+    ],
+    "affiliation_regions": [
+      "Shandong",
+      "Shanghai"
+    ],
+    "geography_complete": true
+  },
+  {
+    "id": "IFIP1571131460",
+    "openalex_id": null,
+    "doi": null,
+    "title": "Centrality-Aware Machine Learning for Water Network Pressure Prediction",
+    "publication_year": 2025,
+    "publication_date": "2025-05-26",
+    "publication_date_basis": "First day of conference proceedings as printed in publisher PDF; not a separately verified online publication date.",
+    "type": "conference-paper",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Federico Amato",
+          "orcid": null
+        },
+        "raw_author_name": "Federico Amato",
+        "raw_orcid": null,
+        "is_corresponding": null,
+        "institutions": [
+          {
+            "id": "https://openalex.org/I900890020",
+            "display_name": "University of Palermo",
+            "ror": "https://ror.org/044k9ta02",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I900890020"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
+        "raw_affiliation_strings": [
+          "Department of Engineering, University of Palermo, Viale delle Scienze, Palermo, Italy"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Engineering, University of Palermo, Viale delle Scienze, Palermo, Italy",
+            "institution_ids": [
+              "https://openalex.org/I900890020"
+            ]
+          }
+        ],
+        "metadata_source": "IFIP publisher PDF",
+        "source_url": "https://networking.ifip.org/2025/images/Net25_papers/1571131460.pdf"
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Antonino Pagano",
+          "orcid": null
+        },
+        "raw_author_name": "Antonino Pagano",
+        "raw_orcid": null,
+        "is_corresponding": null,
+        "institutions": [
+          {
+            "id": "https://openalex.org/I900890020",
+            "display_name": "University of Palermo",
+            "ror": "https://ror.org/044k9ta02",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I900890020"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210099310",
+            "display_name": "Consorzio Nazionale Interuniversitario per le Telecomunicazioni",
+            "ror": "https://ror.org/0182a5n39",
+            "country_code": "IT",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I4210099310"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
+        "raw_affiliation_strings": [
+          "Department of Engineering, University of Palermo, Viale delle Scienze, Palermo, Italy",
+          "CNIT (National Inter-University Consortium for Telecommunications), Parma, Italy"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Engineering, University of Palermo, Viale delle Scienze, Palermo, Italy",
+            "institution_ids": [
+              "https://openalex.org/I900890020"
+            ]
+          },
+          {
+            "raw_affiliation_string": "CNIT (National Inter-University Consortium for Telecommunications), Parma, Italy",
+            "institution_ids": [
+              "https://openalex.org/I4210099310"
+            ]
+          }
+        ],
+        "metadata_source": "IFIP publisher PDF",
+        "source_url": "https://networking.ifip.org/2025/images/Net25_papers/1571131460.pdf"
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Gabriele Restuccia",
+          "orcid": null
+        },
+        "raw_author_name": "Gabriele Restuccia",
+        "raw_orcid": null,
+        "is_corresponding": null,
+        "institutions": [
+          {
+            "id": "https://openalex.org/I900890020",
+            "display_name": "University of Palermo",
+            "ror": "https://ror.org/044k9ta02",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I900890020"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
+        "raw_affiliation_strings": [
+          "Department of Engineering, University of Palermo, Viale delle Scienze, Palermo, Italy"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Engineering, University of Palermo, Viale delle Scienze, Palermo, Italy",
+            "institution_ids": [
+              "https://openalex.org/I900890020"
+            ]
+          }
+        ],
+        "metadata_source": "IFIP publisher PDF",
+        "source_url": "https://networking.ifip.org/2025/images/Net25_papers/1571131460.pdf"
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": null,
+          "display_name": "Ilenia Tinnirello",
+          "orcid": null
+        },
+        "raw_author_name": "Ilenia Tinnirello",
+        "raw_orcid": null,
+        "is_corresponding": null,
+        "institutions": [
+          {
+            "id": "https://openalex.org/I900890020",
+            "display_name": "University of Palermo",
+            "ror": "https://ror.org/044k9ta02",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I900890020"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210099310",
+            "display_name": "Consorzio Nazionale Interuniversitario per le Telecomunicazioni",
+            "ror": "https://ror.org/0182a5n39",
+            "country_code": "IT",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I4210099310"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
+        "raw_affiliation_strings": [
+          "Department of Engineering, University of Palermo, Viale delle Scienze, Palermo, Italy",
+          "CNIT (National Inter-University Consortium for Telecommunications), Parma, Italy"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Engineering, University of Palermo, Viale delle Scienze, Palermo, Italy",
+            "institution_ids": [
+              "https://openalex.org/I900890020"
+            ]
+          },
+          {
+            "raw_affiliation_string": "CNIT (National Inter-University Consortium for Telecommunications), Parma, Italy",
+            "institution_ids": [
+              "https://openalex.org/I4210099310"
+            ]
+          }
+        ],
+        "metadata_source": "IFIP publisher PDF",
+        "source_url": "https://networking.ifip.org/2025/images/Net25_papers/1571131460.pdf"
+      }
+    ],
+    "is_authors_truncated": false,
+    "primary_location": {
+      "id": null,
+      "landing_page_url": "https://networking.ifip.org/2025/images/Net25_papers/1571131460.pdf",
+      "pdf_url": "https://networking.ifip.org/2025/images/Net25_papers/1571131460.pdf",
+      "source": {
+        "id": null,
+        "display_name": "IFIP Networking 2025",
+        "type": "conference"
+      },
+      "is_oa": true,
+      "version": "publishedVersion"
+    },
+    "is_retracted": null,
+    "metadata_source": "IFIP publisher PDF",
+    "source_url": "https://networking.ifip.org/2025/images/Net25_papers/1571131460.pdf",
+    "id_scheme": "Locally assigned stable publisher-document ID; not an OpenAlex ID.",
+    "evidence": {
+      "author_affiliation_page": 1,
+      "citation_reference_page": 6,
+      "cited_reference_number": 18,
+      "cited_doi": "10.1016/j.ifacol.2023.10.581",
+      "citation_note": "Reference 18 explicitly lists T. Kan, J. Wang and S. Wu and the CEEMDAN-ps-gcGRU paper, IFAC-PapersOnLine 56(2), 7108–7113 (2023).",
+      "publisher_program_url": "https://networking.ifip.org/2025/index.php/program/proceedings.html"
+    },
+    "missing_fields": [
+      "doi",
+      "openalex_id",
+      "author_ids",
+      "author_orcids",
+      "retraction_status"
+    ],
+    "cited_target_ids": [
+      "W4388904509"
+    ],
+    "sources": [
+      "Google Scholar",
+      "IFIP publisher PDF"
+    ],
+    "is_direct_self_citation": false,
+    "has_coauthor_overlap_with_cited_targets": false,
+    "authorships_truncated": false,
+    "is_non_research_record": false,
+    "affiliation_country_codes": [
+      "IT"
+    ],
+    "affiliation_regions": [
+      "Emilia-Romagna",
+      "Sicily"
     ],
     "geography_complete": true
   },

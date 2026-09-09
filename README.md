@@ -101,3 +101,9 @@ README for counting rules, source coverage, and unresolved affiliations.
 
 Push to `main`. `.github/workflows/publish.yml` renders the site, deploys
 `_site` to GitHub Pages, and submits the core URLs to IndexNow.
+
+In repository Settings → Pages, keep the deployment source set to **GitHub
+Actions**. Publishing directly from the `main` branch uploads the source tree
+and can overwrite the rendered site. The workflow checks that the homepage and
+map data are present and that the source citation ledger is excluded before
+uploading the site.

@@ -27,6 +27,27 @@ jobs:
       - name: Render site
         uses: quarto-dev/quarto-actions/render@v2
 
+      - name: Check rendered site and citation data boundaries
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          site = Path("_site")
+          for required in ("index.html", "assets/data/citation-geography.json"):
+              path = site / required
+              if not path.is_file() or not path.stat().st_size:
+                  raise SystemExit(f"Missing or empty rendered resource: {path}")
+          for excluded in ("_data", "scripts", "_includes", ".git", ".github"):
+              if (site / excluded).exists():
+                  raise SystemExit(f"Source directory must not be published: {excluded}")
+          raw_patterns = ("citation-ledger.*", "author-affiliations.*", "scholar-citations.*",
+                          "citation-edges.*", "coverage-by-publication.*", "*.qmd", ".env*")
+          for pattern in raw_patterns:
+              if any(site.rglob(pattern)):
+                  raise SystemExit(f"Source or raw citation data must not be published: {pattern}")
+          print("Rendered homepage and public map data verified; source ledger excluded.")
+          PY
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

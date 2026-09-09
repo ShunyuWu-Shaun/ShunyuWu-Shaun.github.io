@@ -13,11 +13,11 @@ body-classes: news-page
   </article>
   <article class="news-item">
     <time datetime="2026-08">Aug 2026</time>
-    <div><h2>Joined Cornell University as an Ezra Systems Postdoctoral Associate!</h2><p>I am in the Systems Engineering Program, working with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on AI for materials processing. Neural operators solve the distributed process dynamics, and their rollouts feed control and constrained optimization.</p></div>
+    <div><h2>Joined Cornell University as an Ezra Systems Postdoctoral Associate!</h2><p>I am in the Systems Engineering Program, working with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on physical intelligence for materials processing, starting with initiated chemical vapor deposition coupled with liquid crystals.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2026-07">Jul 2026</time>
-    <div><h2><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT appeared in Expert Systems with Applications</a></h2><p>DRIFT keeps target intent and local LiDAR geometry together during recurrent diffusion-based trajectory generation.</p></div>
+    <div><h2><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT appeared in Expert Systems with Applications</a></h2><p>DRIFT conditions recurrent diffusion-based trajectory generation on both the target and the local LiDAR geometry.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2026-06">Jun 2026</time>
@@ -29,15 +29,15 @@ body-classes: news-page
   </article>
   <article class="news-item">
     <time datetime="2025">2025</time>
-    <div><h2><a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO appeared in IEEE Transactions on Smart Grid</a></h2><p>SPTO trains a probabilistic electricity-cost forecast against the quality of the water-supply schedule it induces.</p></div>
+    <div><h2><a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO appeared in IEEE Transactions on Smart Grid</a></h2><p>SPTO trains a probabilistic electricity-cost forecast through the water-supply schedule it induces.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2024-12">Dec 2024</time>
-    <div><h2><a href="https://doi.org/10.1016/j.eswa.2024.124508">The Bi-correction model appeared in Expert Systems with Applications</a></h2><p>Lag-penalty attention and posterior error correction address the delayed response in daily urban water-demand forecasting.</p></div>
+    <div><h2><a href="https://doi.org/10.1016/j.eswa.2024.124508">The Bi-correction model appeared in Expert Systems with Applications</a></h2><p>Lag-penalty attention and posterior error correction reduce the delayed response in daily urban water-demand forecasting.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2024-04">Apr 2024</time>
-    <div><h2><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder appeared in IEEE TCSS</a></h2><p>CritiCoder separates the modeled response to observed inputs from the residual pressure variation left by disturbances no sensor reports.</p></div>
+    <div><h2><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder appeared in IEEE TCSS</a></h2><p>CritiCoder separates the pressure response to observed inputs from the residual variation caused by unmeasured disturbances.</p></div>
   </article>
 </div>
 ```

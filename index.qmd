@@ -1,7 +1,7 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
-subtitle: "Solving physical dynamics with neural networks, and the model-to-decision gap"
-description-meta: "Shunyu Wu trains neural networks to solve the governing dynamics of physical systems and measures the model-to-decision gap, on materials processing and on water and energy systems."
+subtitle: "Physical intelligence through dynamics and decisions"
+description-meta: "Shunyu Wu trains neural solvers for the governing dynamics of physical systems and studies how their error changes control and optimization decisions, in materials formation and in power and water systems."
 toc: false
 page-layout: full
 body-classes: home-page
@@ -28,7 +28,7 @@ body-classes: home-page
         "name": "Shanghai Jiao Tong University"
       },
       "jobTitle": "Ezra Systems Postdoctoral Associate",
-      "description": "Shunyu Wu is an Ezra Systems Postdoctoral Associate at Cornell University. He works with Professor Fengqi You on AI for materials processing, using neural operators to solve distributed process dynamics for control and constrained optimization.",
+      "description": "Shunyu Wu is an Ezra Systems Postdoctoral Associate at Cornell University. He works with Professor Fengqi You on physical intelligence: neural solvers for the governing dynamics of physical systems and the effect of their error on control and optimization decisions.",
       "email": "mailto:shunyu.wu@cornell.edu",
       "sameAs": [
         "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en",
@@ -44,7 +44,8 @@ body-classes: home-page
         "Decision-focused learning",
         "Learning-based control",
         "Constrained optimization",
-        "Materials processing",
+        "Initiated chemical vapor deposition",
+        "Liquid crystals",
         "Coupled water-energy systems"
       ]
     },
@@ -89,8 +90,9 @@ body-classes: home-page
   <div class="main">
     <section class="home-section" id="about" aria-labelledby="about-title">
       <h2 class="section__title" id="about-title">About</h2>
-      <p>I am an Ezra Systems Postdoctoral Associate in Systems Engineering at Cornell University, where I work with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on AI for materials processing. I completed my Ph.D. at Shanghai Jiao Tong University in 2026 under <a href="https://ieeexplore.ieee.org/author/37280547200">Professor Jingcheng Wang</a>.</p>
-      <p>Physical intelligence is the ability of a learning system to model a physical system and to act on it. Both parts rest on the governing dynamics of the system. I train neural networks to solve those dynamics fast enough for design and control, and I measure how the error that remains in the learned solution changes the decision made with it.</p>
+      <p>I am an Ezra Systems Postdoctoral Associate in Systems Engineering at Cornell University, where I work with <a href="https://www.peese.org/professor/">Professor Fengqi You</a>. I completed my Ph.D. at Shanghai Jiao Tong University in 2026, advised by <a href="https://ieeexplore.ieee.org/author/37280547200">Professor Jingcheng Wang</a>.</p>
+      <p>Physical intelligence is the ability of a learning system to model a physical system and to act on it. Both parts rest on the governing dynamics of the system. I train neural networks to solve those dynamics fast enough for repeated control and optimization, and I measure how the error in a learned solution changes the decision computed from it.</p>
+      <p>My current materials work concerns initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC). Chemical formation coupled with LC is a possible extension. My engineering work at Shanghai Jiao Tong University covered power generation, urban water supply, and hot-strip rolling.</p>
     </section>
 
     <section class="home-section" id="research" aria-labelledby="research-title">
@@ -101,9 +103,9 @@ body-classes: home-page
 
 ```{=html}
       <ul class="directions">
-        <li class="d-a"><strong>A. Physical systems in science and engineering.</strong> Science: the temperature and composition fields of a materials processing step, with Professor Fengqi You. Engineering: urban water demand, network pressure, day-ahead electricity price, and hot-strip rolling energy, from my Ph.D. with Professor Jingcheng Wang.</li>
-        <li class="d-b"><strong>B. Solving the dynamics with neural networks.</strong> A neural operator maps initial conditions, boundary conditions, and forcing to the solution field in one forward pass. I train it so that its rollouts and sensitivities are accurate enough for a controller or an optimizer to use.</li>
-        <li class="d-c"><strong>C. The model-to-decision gap.</strong> The difference between the decision computed from the learned model and the decision computed from the true dynamics. It is small over most of the state space and large near a critical point, and it is the training signal for B.</li>
+        <li class="d-a"><strong>A. Physical dynamics in science and engineering.</strong> Science: iCVD coupled with liquid crystals, with Professor Fengqi You. Engineering: power generation, urban water supply, and hot-strip rolling, from my Ph.D. with Professor Jingcheng Wang.</li>
+        <li class="d-b"><strong>B. Neural solvers for physical dynamics.</strong> A neural operator approximates the solution map of a governing model and returns a solution in one forward pass. I train it so that its rollouts and sensitivities are accurate enough for control and optimization.</li>
+        <li class="d-c"><strong>C. Model2Action.</strong> The error in a learned solution moves the decision a little in most regimes and a lot near a critical point or an active constraint. I measure the decision error as regret, closed-loop cost, and constraint violation, and I use it to train the solver.</li>
       </ul>
       <p class="section__more"><a href="/research/">The full research program</a></p>
     </section>
@@ -111,7 +113,7 @@ body-classes: home-page
     <section class="home-section" id="news" aria-labelledby="news-title">
       <h2 class="section__title" id="news-title">News</h2>
       <ol class="news-list">
-        <li><time datetime="2026-08">Aug 2026</time><div>Joined Cornell University as an Ezra Systems Postdoctoral Associate! I work with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on AI for materials processing.</div></li>
+        <li><time datetime="2026-08">Aug 2026</time><div>Joined Cornell University as an Ezra Systems Postdoctoral Associate! I work with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on physical intelligence for materials processing.</div></li>
         <li><time datetime="2026-08">Aug 2026</time><div>Invited to review for ICLR 2027!</div></li>
         <li><time datetime="2026-07">Jul 2026</time><div><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT</a> appeared in <em>Expert Systems with Applications</em>.</div></li>
         <li><time datetime="2026-06">Jun 2026</time><div>Received my Ph.D. from Shanghai Jiao Tong University! I thank my advisor, <a href="https://ieeexplore.ieee.org/author/37280547200">Professor Jingcheng Wang</a>, and my labmates for six good years.</div></li>
@@ -124,12 +126,21 @@ body-classes: home-page
       <h2 class="section__title" id="publications-title">Selected publications</h2>
       <ol class="pub-list">
         <li class="pub">
-          <a class="pub__thumb" href="https://doi.org/10.1109/TSG.2025.3601238"><img src="/assets/images/publications/spto.svg" width="800" height="500" alt="SPTO visual abstract linking a forecast distribution, a differentiable optimality-gap surrogate, and a stochastic schedule"></a>
+          <a class="pub__thumb" href="https://doi.org/10.1016/j.eswa.2026.133261"><img src="/assets/images/publications/drift.svg" width="800" height="500" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed diffusion"></a>
+          <div class="pub__body">
+            <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></p>
+            <p class="pub__authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong>Shunyu Wu</strong></p>
+            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2026 <span class="role role--last">Last author</span> <span class="branch branch--c">C</span></p>
+            <p class="pub__note">A graph memory stores local LiDAR geometry and supplies waypoint-specific context at each step of recurrent diffusion denoising.</p>
+          </div>
+        </li>
+        <li class="pub">
+          <a class="pub__thumb" href="https://doi.org/10.1109/TSG.2025.3601238"><img loading="lazy" src="/assets/images/publications/spto.svg" width="800" height="500" alt="SPTO visual abstract linking a forecast distribution, a differentiable optimality-gap surrogate, and a stochastic schedule"></a>
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p>
-            <p class="pub__venue"><em>IEEE Transactions on Smart Grid</em>, 2025 <span class="role role--first">First author</span> <span class="branch branch--c">Direction C</span></p>
-            <p class="pub__note">A differentiable upper bound on the downstream optimality gap puts the scheduling cost into the training objective of the forecast.</p>
+            <p class="pub__venue"><em>IEEE Transactions on Smart Grid</em>, 2025 <span class="role role--first">First author</span> <span class="branch">A</span> <span class="branch branch--c">C</span></p>
+            <p class="pub__note">A differentiable upper bound on the optimality gap puts the scheduling cost into the training objective of the forecast.</p>
           </div>
         </li>
         <li class="pub">
@@ -137,8 +148,8 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
-            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2024 <span class="role role--first">First author</span> <span class="branch branch--b">Direction B</span></p>
-            <p class="pub__note">Lag-penalty attention and posterior residual correction target the delayed response of a learned temporal model near demand turning points.</p>
+            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2024 <span class="role role--first">First author</span> <span class="branch">A</span> <span class="branch branch--b">B</span></p>
+            <p class="pub__note">Lag-penalty attention and posterior residual correction reduce the delayed response of a learned demand model near turning points.</p>
           </div>
         </li>
         <li class="pub">
@@ -146,17 +157,8 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
-            <p class="pub__venue"><em>IEEE Transactions on Computational Social Systems</em>, 2024 <span class="role role--first">First author</span> <span class="branch branch--b">Direction B</span></p>
-            <p class="pub__note">The Coder learns the pressure response to measured inputs. The Critic carries the residual variation caused by unmeasured disturbances.</p>
-          </div>
-        </li>
-        <li class="pub">
-          <a class="pub__thumb" href="https://doi.org/10.1016/j.eswa.2026.133261"><img loading="lazy" src="/assets/images/publications/drift.svg" width="800" height="500" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed diffusion"></a>
-          <div class="pub__body">
-            <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></p>
-            <p class="pub__authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong>Shunyu Wu</strong></p>
-            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2026 <span class="role role--last">Last author</span> <span class="branch branch--c">Direction C</span></p>
-            <p class="pub__note">A graph memory holds local LiDAR geometry and returns waypoint-specific context at each step of recurrent diffusion denoising, so the generated trajectory respects the geometry it moves through.</p>
+            <p class="pub__venue"><em>IEEE Transactions on Computational Social Systems</em>, 2024 <span class="role role--first">First author</span> <span class="branch">A</span> <span class="branch branch--b">B</span></p>
+            <p class="pub__note">The Coder models the pressure response to measured inputs. The Critic models the residual variation caused by unmeasured disturbances.</p>
           </div>
         </li>
         <li class="pub">
@@ -164,12 +166,12 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method</a></p>
             <p class="pub__authors">Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and <strong>Shunyu Wu</strong></p>
-            <p class="pub__venue"><em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>, 2024 <span class="role role--last">Last author</span> <span class="branch branch--c">Direction C</span></p>
-            <p class="pub__note">Nonlinear model predictive control supplies the initial weights. A control barrier function with a nonquadratic loss keeps the state and input constraints active during learning.</p>
+            <p class="pub__venue"><em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>, 2024 <span class="role role--last">Last author</span> <span class="branch branch--c">C</span></p>
+            <p class="pub__note">Nonlinear model predictive control initializes the controller weights. A control barrier function with a nonquadratic loss enforces the state and input constraints during learning.</p>
           </div>
         </li>
       </ol>
-      <p class="section__more"><a href="/publications/">All publications, grouped by direction</a></p>
+      <p class="section__more"><a href="/publications/">All publications by year</a></p>
     </section>
 
     <section class="home-section" id="service" aria-labelledby="service-title">

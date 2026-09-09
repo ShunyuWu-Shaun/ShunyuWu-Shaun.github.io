@@ -1,6 +1,6 @@
 ---
 title: "Temporal response and uncertain pressure states"
-description: "Studies of delayed demand response and pressure variation associated with unobserved disturbances in urban water systems."
+description: "Studies of delayed demand response and of pressure variation caused by unmeasured disturbances in urban water systems."
 toc: true
 ---
 
@@ -16,7 +16,7 @@ Daily urban water demand is nonlinear and nonstationary. The [knowledge-based bi
 
 The study introduces mean prediction trend effectiveness, which tests whether the predicted trend improves on a naive forecast. Reported next to the absolute-error metrics, it separates delayed response near a turning point from error in the demand magnitude.
 
-## Pressure response under unobserved disturbances
+## Pressure response under unmeasured disturbances
 
 [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) models macroscopic pressure when the measured variables do not explain every disturbance in a water distribution system. The Coder learns the pressure response to the observed variables. The Critic, trained with a different loss, represents the remaining variation as a distribution over the unmeasured disturbances.
 
@@ -26,7 +26,7 @@ The node-level comparison covers pressure monitors with different disturbance st
 
 ## Relation to physical intelligence
 
-The two studies measure two properties of the state that later scheduling or control will use. KbBcM tests whether a sequence model follows a change in demand at the right time. CritiCoder tests how pressure prediction behaves when the measured inputs leave part of the variation unexplained. Both belong to direction B, learning the dynamics, and both are scored by errors that a later decision would see.
+The two studies measure two properties of the state that later scheduling or control will use. KbBcM tests whether a sequence model follows a change in demand at the right time. CritiCoder tests how pressure prediction behaves when the measured inputs leave part of the variation unexplained. Both belong to directions A and B, and both are scored by errors that a later decision would inherit.
 
 ## Publications
 

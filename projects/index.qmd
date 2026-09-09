@@ -1,13 +1,13 @@
 ---
 title: "Research projects"
-description: "Research projects grouped by direction: the physical systems, the neural solver, and the model-to-decision gap."
+description: "Research projects grouped by direction: physical dynamics, neural solvers, and Model2Action."
 toc: false
 body-classes: projects-page
 ---
 
 ## One logic across the projects
 
-Every project starts from a physical quantity that has to be predicted or reconstructed, together with the inputs, geometry, constraints, and disturbances that shape how it evolves. Learning supplies that quantity. Control or optimization turns it into an action. The evaluation reports the error that appears at the decision. The projects are grouped by the [three directions](/research/) and each carries the system it was tested on.
+Every project starts from a physical quantity that has to be predicted or reconstructed, together with the inputs, geometry, constraints, and disturbances that shape how it evolves. A learned model supplies that quantity. Control or optimization turns it into an action. The evaluation reports the error that appears in the decision. The projects are grouped by the [three directions](/research/), and each carries the system it was tested on.
 
 <ol class="project-relation" aria-label="Shared research logic">
   <li class="relation-state">Physical state and inputs</li>
@@ -17,19 +17,19 @@ Every project starts from a physical quantity that has to be predicted or recons
   <li class="relation-evaluation">Decision-level evaluation</li>
 </ol>
 
-## A. Physical systems in science and engineering
+## A. Physical dynamics in science and engineering
 
-### Neural operators for materials processing <span class="branch">Science</span>
+### iCVD coupled with liquid crystals <span class="branch">Science</span>
 
-With [Professor Fengqi You](https://www.peese.org/professor/) at Cornell, I develop neural operators that map process conditions, geometry, boundary inputs, and external forcing to the temperature and composition fields of a processing step. The operator has to return a field for conditions outside the training set at a cost that leaves room for the control or optimization loop around it. Its rollouts and local sensitivities are the quantities that loop reads. Feasibility, objective value, and decision sensitivity test whether the operator error changes the selected set-point.
+With [Professor Fengqi You](https://www.peese.org/professor/) at Cornell, my current work concerns initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC). I formulate the governing dynamics of the process and build neural approximations of its solution for control and optimization. Chemical formation coupled with LC is a possible extension.
 
-[Research questions and evaluation criteria](../research/index.qmd)
+### Power, water, and industrial processes <span class="branch">Engineering</span>
 
-### Water and energy systems <span class="branch">Engineering</span>
+During my Ph.D. with [Professor Jingcheng Wang](https://ieeexplore.ieee.org/author/37280547200) at Shanghai Jiao Tong University, I worked on power generation, urban water supply, and hot-strip rolling. Models of these processes relate the operating inputs to pressure, temperature, and energy consumption. Demand and electricity price are external inputs to the operating decisions. The projects under B and C were tested on these systems.
 
-The engineering systems come from my Ph.D. with [Professor Jingcheng Wang](https://ieeexplore.ieee.org/author/37280547200) at Shanghai Jiao Tong University. Urban water supply coupled to the electricity market supplies water demand, network pressure, and day-ahead price as states, and pump schedules and energy purchases as decisions. Hot-strip rolling supplies the energy of each rolling pass as the state and the pass settings as the decision. The projects under B and C below were tested on these systems.
+## B. Neural solvers for physical dynamics
 
-## B. Solving the dynamics with neural networks
+Repeated control and optimization require the governing model to be solved for many inputs and conditions. I develop neural solvers, including neural operators, that approximate the solution map at a lower cost. The current questions are the accuracy of the predicted trajectory, the accuracy of its sensitivities to process inputs, and the gain from equation constraints and hybrid numerical structure.
 
 ### Temporal response and uncertain pressure states <span class="branch">Engineering</span>
 
@@ -39,7 +39,7 @@ The engineering systems come from my Ph.D. with [Professor Jingcheng Wang](https
 <a href="https://doi.org/10.1109/TCSS.2023.3272330"><img src="/assets/images/publications/criticoder.svg" width="800" height="500" loading="lazy" alt="CritiCoder visual abstract separating measured pressure effects from unobserved disturbances"></a>
 :::
 ::: {.project-study-copy}
-Daily demand and network pressure expose different errors in a learned dynamical model. [KbBcM](https://doi.org/10.1016/j.eswa.2024.124508) treats the delayed reaction near a demand turning point as a timing error. [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) separates the pressure response to measured inputs from the residual variation caused by unmeasured disturbances. Both are evaluated on temporal misalignment and disturbance sensitivity rather than on average numerical error.
+Daily demand and network pressure expose different errors in a learned model. [KbBcM](https://doi.org/10.1016/j.eswa.2024.124508) treats the delayed response near a demand turning point as a timing error and corrects it with lag-penalty attention and a residual step. [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) separates the pressure response to measured inputs from the variation caused by unmeasured disturbances. Both studies report response timing and disturbance sensitivity next to the average error.
 
 [Read the research summary](service-operations-planning.qmd)
 :::
@@ -52,11 +52,13 @@ Daily demand and network pressure expose different errors in a learned dynamical
 <a href="https://doi.org/10.1109/TASE.2023.3299185"><img src="/assets/images/publications/series-concat.svg" width="800" height="500" loading="lazy" alt="Series-concatenation visual abstract for energy prediction across multi-step rolling"></a>
 :::
 ::: {.project-study-copy}
-Hot-strip roughing is an ordered sequence of rolling passes in which prediction error accumulates. A [DCLS-Net study](https://doi.org/10.1109/TASE.2023.3299185) models the energy consumption of each pass, and series concatenation passes the state of one pass to the next so that the multi-step error stops growing. The process trajectory, not an isolated sample, is the prediction object.
+Hot-strip roughing is an ordered sequence of rolling passes, so the error of one prediction is carried into the next. A [DCLS-Net study](https://doi.org/10.1109/TASE.2023.3299185) predicts the energy of each pass, and series concatenation links the passes so that the error stops accumulating along the sequence. The prediction object is the process trajectory, not an isolated sample.
 :::
 ::::
 
-## C. The model-to-decision gap
+## C. Model2Action
+
+The consequences of a solver error depend on how the solution is used in control or optimization. I study when a change in the predicted dynamics changes the selected decision, and when that change costs something or breaks a constraint. Regimes near a bifurcation or a stability boundary, and points where the set of active constraints changes, are the main cases. The measured decision error then serves as the training signal for the solver.
 
 ### Coupled water-energy operation under forecast uncertainty <span class="branch">Engineering</span>
 
@@ -65,7 +67,7 @@ Hot-strip roughing is an ordered sequence of rolling passes in which prediction 
 <a href="https://doi.org/10.1109/TSG.2025.3601238"><img src="/assets/images/publications/spto.svg" width="800" height="500" loading="lazy" alt="SPTO visual abstract linking a probabilistic electricity-cost forecast to a stochastic water-supply schedule"></a>
 :::
 ::: {.project-study-copy}
-Urban water treatment, transport, and distribution consume electricity, so an uncertain electricity price can change the preferred operating schedule. [SPTO](https://doi.org/10.1109/TSG.2025.3601238) supplies a forecast distribution to a stochastic water-supply model and trains the forecast through a duality-derived upper bound on the optimality gap of the schedule. Operating cost and regret measure whether the forecast error changed the decision. This is the first measurement of the model-to-decision gap in my work.
+Urban water treatment, transport, and distribution consume electricity, so an uncertain electricity price can change the preferred schedule. [SPTO](https://doi.org/10.1109/TSG.2025.3601238) supplies a forecast distribution to a stochastic water-supply model and trains the forecast through a duality-derived upper bound on the optimality gap of the schedule. Operating cost and regret measure what the forecast error did to the decision. This study is the first measurement of a decision error in my work.
 
 [Read the research summary](industrial-workflow-analysis.qmd)
 :::
@@ -79,7 +81,7 @@ Urban water treatment, transport, and distribution consume electricity, so an un
 <a href="https://doi.org/10.1109/CDC49753.2023.10383316"><img src="/assets/images/publications/eligibility-traces.svg" width="800" height="500" loading="lazy" alt="Multiple time-scale eligibility traces visual abstract"></a>
 :::
 ::: {.project-study-copy}
-Two last-author studies examine learned feedback laws for nonlinear dynamics. For discrete-time constrained systems, nonlinear model predictive control supplies the initial weights of a controller network, and a control barrier function with a nonquadratic loss keeps state and input constraints active during learning. Adaptive optimal control with eligibility traces at several time scales gives the critic credit for a decision over different horizons.
+Two last-author studies concern learned feedback laws for nonlinear dynamics. For discrete-time constrained systems, nonlinear model predictive control initializes a controller network, and a control barrier function with a nonquadratic loss enforces the state and input constraints during learning. For adaptive optimal control, eligibility traces at several time scales give the critic credit signals accumulated over different horizons.
 
 [Constrained controller](https://doi.org/10.1109/TSMC.2023.3344883) · [Multiple time-scale eligibility traces](https://doi.org/10.1109/CDC49753.2023.10383316)
 :::
@@ -92,8 +94,8 @@ Two last-author studies examine learned feedback laws for nonlinear dynamics. Fo
 <a href="https://doi.org/10.1016/j.eswa.2026.133261"><img src="/assets/images/publications/drift.svg" width="800" height="500" loading="lazy" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed recurrent diffusion"></a>
 :::
 ::: {.project-study-copy}
-[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent diffusion. Endpoint error, clearance, smoothness, and runtime test how the generated trajectory relates to target intent and local spatial structure. The question is the one that defines direction C, whether a learned action respects the constraints of the physical environment it acts in.
+[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent diffusion. Endpoint error, clearance, smoothness, and runtime measure how the generated trajectory relates to the target and to the local geometry. The question is the same as in direction C, whether a learned action respects the constraints of the environment it acts in.
 :::
 ::::
 
-[The publications](../publications/index.qmd) are grouped the same way.
+[The publications](../publications/index.qmd) are listed by year with the same tags.

@@ -17,34 +17,28 @@ GitHub Actions workflow deploys. Nothing in `_site/` is committed.
 
 | Path | Page |
 |---|---|
-| `index.qmd` | Home: profile column, research overview figure, three directions, news, selected papers, latest note |
+| `index.qmd` | Home: profile column, research logic figure, three directions, news, selected papers, latest note |
 | `news/index.qmd` | News timeline |
-| `research/index.qmd` | Research program: physical intelligence, the governing dynamics as substrate, directions A, B, C |
-| `publications/index.qmd` | Publications grouped by direction, with a branch tag on each |
+| `research/index.qmd` | Research program: physical intelligence, its substrate, directions A, B, C |
+| `publications/index.qmd` | Publications by year, with direction tags |
 | `projects/` | Research projects grouped by direction, with source-linked summaries |
 | `thinking/index.qmd` | Short working notes, newest first |
 | `service/index.qmd`, `contact/index.qmd` | Service, contact |
 
-The three directions are A, the physical systems in science and engineering;
-B, solving the dynamics with neural networks; and C, the model-to-decision
-gap. Keep the letters and the names identical across the home page, the
-research page, the publication groups, and the project headings.
+The three directions are A, physical dynamics in science and engineering;
+B, neural solvers for physical dynamics; and C, Model2Action. Keep the letters
+and the names identical across the home page, the research page, the
+publication tags, and the project headings. Publications are listed by year,
+and a paper can carry more than one direction tag.
 
-## The research architecture figure
+## The research logic figure
 
-The figure on the home page is HTML and CSS (the `.arch` rules in
-`assets/css/site.css`) with three Matplotlib panels embedded as inline SVG, so
-the page font and the page colours apply to everything in it. It is built from
-`assets/figures/research-overview/`:
-
-- `00_figure_contract.md` states what the figure must say before anything is drawn;
-- `panels.py` computes the three panels (illustrative demand and price, a solved
-  advection-diffusion field, and the decision error of a bistable system);
-- `build.py` writes `_includes/research-overview.qmd`, which `index.qmd` includes;
-- `01_figure_notes.md` records the QA run.
-
-Rebuild with `python3 panels.py && python3 build.py` inside that folder. The
-folder itself is excluded from rendering and from the published resources.
+The figure on the home page is an inline SVG in `_includes/research-overview.qmd`,
+styled by the `.logic` and `.lg-*` rules in `assets/css/site.css`. It draws the
+research line as six numbered steps on one rail, with a return loop from step 6
+to step 3. Edit the text in the include directly; each line is one `<text>`
+element, so keep a line under about 70 characters. The badge colours follow the
+three direction colours.
 
 ## Adding a note to Thinking
 

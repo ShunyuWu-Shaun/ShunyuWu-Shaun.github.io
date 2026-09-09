@@ -14,7 +14,7 @@
      4  Secondary pages
      5  Home: sidebar shell
      6  Home: sections and research list
-     7  Home: research program figure
+     7  Home: research logic figure
      8  News
      9  Publications
     10  Thinking notes
@@ -527,259 +527,96 @@ body:not(.home-page) main table.table {
   font-weight: 600;
 }
 
-/* -- 7  Home: research program figure ----------------------------------- */
-
-.program {
+/* Research logic figure: an inline SVG chain, styled by the page */
+.logic {
   margin: 0 0 1.4rem;
 }
 
-.program svg,
-.program img {
+/* Keep the step text legible on phones: the drawing scrolls inside the figure instead of shrinking */
+.logic__scroll {
+  overflow-x: auto;
+}
+
+.logic svg {
   display: block;
   width: 100%;
+  min-width: 520px;
+  max-width: 640px;
   height: auto;
 }
 
-.program-source {
-  margin: 0.4rem 0 0;
-  font-size: 0.85rem;
-}
-
-.diagram-label {
+.lg-t {
+  font: 15px var(--sans);
   fill: var(--ink);
-  font-family: var(--sans);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
-.diagram-tick,
-.diagram-note {
+.lg-s {
+  font: 12px var(--sans);
   fill: var(--muted);
-  font-family: var(--sans);
-  font-size: 11px;
 }
 
-.diagram-math {
-  fill: var(--ink);
-  font-family: var(--serif);
-  font-size: 15px;
-  font-style: italic;
+.lg-n {
+  font: 700 12px var(--sans);
+  fill: #fff;
 }
 
-.diagram-math tspan {
-  font-size: 12px;
-  font-style: italic;
+.lg-r {
+  font: 600 11.5px var(--sans);
+  fill: #c9604f;
+  letter-spacing: 0.03em;
 }
 
-.diagram-frame {
-  fill: none;
+.lg-a circle { fill: var(--c-a); }
+.lg-b circle { fill: var(--c-b); }
+.lg-c circle { fill: var(--c-c); }
+
+.lg-rail {
   stroke: var(--rule-strong);
-  stroke-width: 1;
+  stroke-width: 2;
 }
 
-.diagram-axis {
+.lg-tip path {
+  fill: var(--rule-strong);
+}
+
+.lg-return {
   fill: none;
-  stroke: var(--rule-strong);
-  stroke-width: 1;
+  stroke: var(--c-c);
+  stroke-width: 2;
+  stroke-linejoin: round;
 }
 
-.program-key {
-  display: grid;
-  grid-template-columns: 12.5rem minmax(0, 1fr);
-  gap: 0.5rem 1.25rem;
-  margin: 0;
-  padding: 1rem 0 0;
-  border-top: 1px solid var(--rule);
-  font-size: 0.93rem;
-}
-
-.program-key dt {
-  color: var(--ink);
-  font-weight: 600;
-}
-
-.program-key dd {
-  margin: 0;
-  color: var(--muted);
-}
-
-.program-caption {
-  margin: 0.9rem 0 0;
-  color: var(--muted);
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-/* Research architecture figure (HTML), built by assets/figures/research-overview/build.py */
-.arch {
-  margin: 0 0 1.5rem;
-}
-
-.arch__stage {
-  --stage: var(--c-a);
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 330px;
-  gap: 0.8rem 1.25rem;
-  align-items: center;
-  padding: 0.9rem 1.1rem;
-  border: 1.5px solid var(--stage);
-  border-radius: 6px;
-  background: color-mix(in srgb, var(--stage) 8%, white);
-}
-
-.arch__stage--a { --stage: var(--c-a); }
-.arch__stage--b { --stage: var(--c-b); }
-.arch__stage--c { --stage: var(--c-c); }
-
-.arch__kicker {
+.logic__key {
   display: flex;
-  gap: 0.55rem;
-  align-items: center;
-  margin: 0 0 0.5rem;
-  color: var(--ink);
-  font-family: var(--serif);
-  font-size: 1.06rem;
-  font-weight: 600;
-  line-height: 1.3;
-  max-width: none;
-}
-
-.arch__letter {
-  display: inline-flex;
-  flex: 0 0 auto;
-  align-items: center;
-  justify-content: center;
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 50%;
-  color: #fff;
-  background: var(--stage);
-  font-family: var(--sans);
-  font-size: 0.8rem;
-  font-weight: 700;
-}
-
-.arch__body {
-  margin: 0 0 0.35rem;
-  color: var(--text);
-  font-size: 0.92rem;
-  line-height: 1.5;
-  max-width: none;
-}
-
-.arch__body:last-child {
-  margin-bottom: 0;
-}
-
-.arch__body strong {
-  color: var(--ink);
-}
-
-.arch__panel {
-  min-width: 0;
-}
-
-.arch__svg {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 1px solid var(--rule);
-  border-radius: 4px;
-  background: #fff;
-}
-
-.arch__note {
-  margin: 0.3rem 0 0;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  margin: 0.55rem 0 0;
+  padding: 0;
+  list-style: none;
   color: var(--muted);
-  font-size: 0.78rem;
-  line-height: 1.4;
-  max-width: none;
+  font-size: 0.82rem;
 }
 
-.arch__link {
-  display: flex;
-  gap: 0.6rem;
-  align-items: center;
-  margin: 0.3rem 0 0.3rem 1.1rem;
-  color: var(--muted);
-  font-size: 0.86rem;
-}
-
-.arch__link span {
-  max-width: none;
-}
-
-.arch__arrow {
-  width: 16px;
-  height: 30px;
-  flex: 0 0 auto;
-  color: var(--rule-strong);
-}
-
-.arch__loop {
-  position: relative;
-  padding-left: 2.3rem;
-}
-
-.arch__loop > .arch__link {
-  margin-left: 1.1rem;
-}
-
-.arch__return {
-  position: absolute;
-  top: 3rem;
-  bottom: 3rem;
-  left: 0.55rem;
-  width: 1.75rem;
-  border: 2px solid var(--c-c);
-  border-right: 0;
-  border-radius: 8px 0 0 8px;
-}
-
-.arch__return::before {
-  position: absolute;
-  top: -7px;
-  right: -1px;
-  width: 0;
-  height: 0;
+.logic__key li::before {
+  display: inline-block;
+  width: 0.62rem;
+  height: 0.62rem;
+  margin-right: 0.4rem;
   content: "";
-  border-top: 6px solid transparent;
-  border-bottom: 6px solid transparent;
-  border-left: 9px solid var(--c-c);
+  border-radius: 50%;
+  background: var(--dot);
+  vertical-align: -0.05em;
 }
 
-.arch__return span {
-  position: absolute;
-  top: 50%;
-  left: -0.62rem;
-  padding: 0.4rem 0;
-  color: #c9604f;
-  background: var(--bg);
-  font-size: 0.74rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  white-space: nowrap;
-  writing-mode: vertical-rl;
-  transform: translateY(-50%) rotate(180deg);
-}
+.logic__key .k-a { --dot: var(--c-a); }
+.logic__key .k-b { --dot: var(--c-b); }
+.logic__key .k-c { --dot: var(--c-c); }
 
-.arch figcaption {
-  margin-top: 0.8rem;
+.logic figcaption {
+  margin-top: 0.55rem;
   color: var(--muted);
   font-size: 0.88rem;
   line-height: 1.5;
-}
-
-@media (max-width: 760px) {
-  .arch__stage {
-    grid-template-columns: 1fr;
-  }
-
-  .arch__panel {
-    max-width: 360px;
-  }
 }
 
 /* -- 8  News -------------------------------------------------------------- */
@@ -1211,14 +1048,6 @@ body:not(.home-page) .paper-card h3 {
     margin-top: 1.1rem;
   }
 
-  .program-key {
-    grid-template-columns: 1fr;
-    gap: 0.15rem;
-  }
-
-  .program-key dd {
-    margin-bottom: 0.55rem;
-  }
 }
 
 @media (max-width: 640px) {

@@ -8,7 +8,7 @@ toc: false
 
 [shunyu.wu@cornell.edu](mailto:shunyu.wu@cornell.edu)
 
-I am glad to hear from people working on neural operators for process dynamics, on decision-focused learning, or on control and optimization that has to respect a physical limit.
+I am glad to hear from people working on neural solvers for physical dynamics, on decision-focused learning, or on control and optimization under physical limits.
 
 ## Current appointment
 
@@ -16,7 +16,7 @@ I am glad to hear from people working on neural operators for process dynamics, 
 Systems Engineering Program<br>
 Cornell University, Ithaca, New York
 
-I work with [Professor Fengqi You](https://www.peese.org/professor/) on AI for materials processing, where neural operators solve distributed process dynamics for control and constrained optimization.
+I work with [Professor Fengqi You](https://www.peese.org/professor/) on physical intelligence for materials processing. The current system is initiated chemical vapor deposition coupled with liquid crystals.
 
 ## Education
 

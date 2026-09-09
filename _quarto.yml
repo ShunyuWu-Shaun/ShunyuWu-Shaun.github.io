@@ -13,11 +13,6 @@ project:
     - "!_site/**"
     - "!_includes/**"
     - "!README.md"
-    - "!assets/figures/**/*.py"
-    - "!assets/figures/**/*.md"
-    - "!assets/figures/**/*.png"
-    - "!assets/figures/**/*.pdf"
-    - "!assets/figures/**/panel_*"
 
 website:
   title: "Shunyu Wu"

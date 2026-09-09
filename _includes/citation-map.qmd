@@ -3,13 +3,9 @@
 <link rel="stylesheet" href="/assets/css/citation-map.css">
 <script defer src="/assets/vendor/leaflet/leaflet.js"></script>
 <script defer src="/assets/js/citation-map.js"></script>
-<figure class="citation-map" data-citation-map data-source="/assets/data/citation-geography.json" aria-label="Geography of external citing papers">
-  <div class="citation-map__summary" aria-live="polite">Loading citation geography…</div>
+<figure class="citation-map" data-citation-map data-source="/assets/data/citation-geography.json" aria-label="Institutions citing my research">
   <div class="citation-map__toolbar">
-    <div class="citation-map__modes" role="group" aria-label="Group citing affiliations by">
-      <button type="button" data-map-mode="regions" aria-pressed="true">States / provinces</button>
-      <button type="button" data-map-mode="institutions" aria-pressed="false">Institutions</button>
-    </div>
+    <span class="citation-map__label">Institutions</span>
     <button class="citation-map__reset" type="button" data-map-reset aria-label="Reset map to world view">World view <span aria-hidden="true">↗</span></button>
   </div>
   <div class="citation-map__canvas" aria-label="Citation affiliation map. Use arrow keys to pan and plus or minus to zoom."></div>

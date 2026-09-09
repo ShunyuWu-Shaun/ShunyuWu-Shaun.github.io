@@ -69,8 +69,9 @@ the teal.
 
 ## Citation geography
 
-The interactive map aggregates citing papers by state/province or institution.
-It uses local Leaflet assets and Natural Earth boundaries. The full citation
+The interactive map shows citing institutions without displaying citation counts.
+It uses local Leaflet assets and Natural Earth boundaries. State/province and
+institution counts remain in the source data. The full citation
 ledger, author affiliations, source snapshots, and coverage audit live in
 [`_data/citations/`](./_data/citations/README.md). This folder is excluded from
 site rendering, resources, search, and navigation; it remains readable in this

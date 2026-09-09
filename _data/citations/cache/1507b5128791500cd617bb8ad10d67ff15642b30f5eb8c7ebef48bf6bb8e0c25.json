@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I4210132981?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:06+00:00",
+  "data": {
+    "id": "https://openalex.org/I4210132981",
+    "ror": "https://ror.org/02p2qrw13",
+    "display_name": "Ningxia Water Conservancy",
+    "country_code": "CN",
+    "type": "government",
+    "geo": {
+      "city": "Yinchuan",
+      "geonames_city_id": "1786657",
+      "region": "Ningxia",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 38.46806,
+      "longitude": 106.27306
+    },
+    "lineage": [
+      "https://openalex.org/I4210132981"
+    ]
+  }
+}

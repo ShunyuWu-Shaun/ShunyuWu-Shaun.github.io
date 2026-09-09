@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I308837?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:03+00:00",
+  "data": {
+    "id": "https://openalex.org/I308837",
+    "ror": "https://ror.org/04en8wb91",
+    "display_name": "Suzhou University of Science and Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Suzhou",
+      "geonames_city_id": "1886760",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.304079055786133,
+      "longitude": 120.59538269042969
+    },
+    "lineage": [
+      "https://openalex.org/I308837"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I59028903?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:07+00:00",
+  "data": {
+    "id": "https://openalex.org/I59028903",
+    "ror": "https://ror.org/04rdtx186",
+    "display_name": "Ocean University of China",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Qingdao",
+      "geonames_city_id": "1797929",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 36.06488037109375,
+      "longitude": 120.38041687011719
+    },
+    "lineage": [
+      "https://openalex.org/I59028903"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I4210147525?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:06+00:00",
+  "data": {
+    "id": "https://openalex.org/I4210147525",
+    "ror": "https://ror.org/05j26dk60",
+    "display_name": "AviChina Industry & Technology (China)",
+    "country_code": "CN",
+    "type": "company",
+    "geo": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.936439514160156,
+      "longitude": 116.42213439941406
+    },
+    "lineage": [
+      "https://openalex.org/I4210147525"
+    ]
+  }
+}

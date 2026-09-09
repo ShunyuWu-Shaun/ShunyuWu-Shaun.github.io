@@ -1,0 +1,24 @@
+{
+  "url": "https://api.openalex.org/institutions/I1327237609?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T13:59:58+00:00",
+  "data": {
+    "id": "https://openalex.org/I1327237609",
+    "ror": "https://ror.org/01mv9t934",
+    "display_name": "Ministry of Education of the People's Republic of China",
+    "country_code": "CN",
+    "type": "government",
+    "geo": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "lineage": [
+      "https://openalex.org/I1327237609",
+      "https://openalex.org/I4210127390"
+    ]
+  }
+}

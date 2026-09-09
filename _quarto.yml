@@ -5,11 +5,23 @@ project:
     - "*.qmd"
     - "**/*.qmd"
     - "!assets/**"
+    - "!_data/**"
+    - "!_includes/**"
   resources:
     - c7d4984f38601437316bea01e3143bfe.txt
     - google60c018834eaa5cb7.html
     - assets/images/publications/**
-    - assets/images/citation-geography.svg
+    - assets/css/citation-map.css
+    - assets/js/citation-map.js
+    - assets/data/citation-geography.json
+    - assets/data/citation-world.geojson
+    - assets/data/citation-admin1.geojson
+    - assets/vendor/leaflet/leaflet.css
+    - assets/vendor/leaflet/leaflet.js
+    - assets/vendor/leaflet/images/**
+    - assets/vendor/leaflet/LICENSE
+    - "!_data/**"
+    - "!scripts/**"
     - "!_site/**"
     - "!_includes/**"
     - "!README.md"
@@ -55,7 +67,7 @@ website:
   page-footer:
     border: true
     left: "© 2026 Shunyu Wu"
-    right: "Learning physical systems for control and optimization · Updated 7 September 2026"
+    right: "Learning physical systems for control and optimization · Updated 9 September 2026"
 
 format:
   html:

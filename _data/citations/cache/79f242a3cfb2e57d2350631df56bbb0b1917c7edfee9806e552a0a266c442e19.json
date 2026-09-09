@@ -1,0 +1,24 @@
+{
+  "url": "https://api.openalex.org/institutions/I4391767858?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:08+00:00",
+  "data": {
+    "id": "https://openalex.org/I4391767858",
+    "ror": "https://ror.org/0380ng272",
+    "display_name": "State Key Laboratory of Synthetical Automation for Process Industries",
+    "country_code": null,
+    "type": "facility",
+    "geo": {
+      "city": "Shenyang",
+      "geonames_city_id": null,
+      "region": null,
+      "country_code": null,
+      "country": "China",
+      "latitude": 41.79222106933594,
+      "longitude": 123.43277740478516
+    },
+    "lineage": [
+      "https://openalex.org/I4391767858",
+      "https://openalex.org/I9224756"
+    ]
+  }
+}

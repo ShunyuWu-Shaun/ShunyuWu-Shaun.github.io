@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I27031042?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:03+00:00",
+  "data": {
+    "id": "https://openalex.org/I27031042",
+    "ror": "https://ror.org/00br9cf93",
+    "display_name": "University of Mines and Technology",
+    "country_code": "GH",
+    "type": "education",
+    "geo": {
+      "city": "Tarkwa",
+      "geonames_city_id": "2294768",
+      "region": null,
+      "country_code": "GH",
+      "country": "Ghana",
+      "latitude": 5.303830146789551,
+      "longitude": -1.9895600080490112
+    },
+    "lineage": [
+      "https://openalex.org/I27031042"
+    ]
+  }
+}

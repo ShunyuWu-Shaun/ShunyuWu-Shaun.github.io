@@ -1,0 +1,83 @@
+{
+  "url": "https://api.openalex.org/works/W7197003632?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted",
+  "retrieved_at": "2026-09-09T14:09:28+00:00",
+  "data": {
+    "id": "https://openalex.org/W7197003632",
+    "doi": "https://doi.org/10.2139/ssrn.7185818",
+    "title": "Decision-Oriented Machine Learning for Renewable-Dominated Power System Planning Under Uncertainty: A Review",
+    "publication_year": 2026,
+    "publication_date": "2026-01-01",
+    "type": "preprint",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5144362135",
+          "display_name": "Ishmael Fynn Cudjoe",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27031042",
+            "display_name": "University of Mines and Technology",
+            "ror": "https://ror.org/00br9cf93",
+            "country_code": "GH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27031042"
+            ]
+          }
+        ],
+        "countries": [
+          "GH"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Ishmael Fynn Cudjoe",
+        "raw_affiliation_strings": [
+          "University of Mines and Technology, UMaT, Tarkwa, Ghana, P. O. Box 237, Tarkwa, Ghana, Tarkwa, Western 000233, Ghana"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Mines and Technology, UMaT, Tarkwa, Ghana, P. O. Box 237, Tarkwa, Ghana, Tarkwa, Western 000233, Ghana",
+            "institution_ids": [
+              "https://openalex.org/I27031042"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.2139/ssrn.7185818",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.2139/ssrn.7185818",
+      "pdf_url": "https://papers.ssrn.com/sol3/Delivery.cfm/7185818.pdf?abstractid=7185818&mirid=1",
+      "source": {
+        "id": "https://openalex.org/S4210172589",
+        "display_name": "SSRN Electronic Journal",
+        "issn_l": "1556-5068",
+        "issn": [
+          "1556-5068"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1318003438",
+        "host_organization_name": "RELX Group (Netherlands)",
+        "host_organization_lineage": [
+          "https://openalex.org/I1318003438"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "is_retracted": false
+  }
+}

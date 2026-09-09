@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I32625721?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:03+00:00",
+  "data": {
+    "id": "https://openalex.org/I32625721",
+    "ror": "https://ror.org/010x8gc63",
+    "display_name": "University of Saskatchewan",
+    "country_code": "CA",
+    "type": "education",
+    "geo": {
+      "city": "Saskatoon",
+      "geonames_city_id": "6141256",
+      "region": "Saskatchewan",
+      "country_code": "CA",
+      "country": "Canada",
+      "latitude": 52.13238,
+      "longitude": -106.66892
+    },
+    "lineage": [
+      "https://openalex.org/I32625721"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I111753288?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T13:59:57+00:00",
+  "data": {
+    "id": "https://openalex.org/I111753288",
+    "ror": "https://ror.org/020azk594",
+    "display_name": "Fujian Normal University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Fuzhou",
+      "geonames_city_id": "1810821",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 26.061389923095703,
+      "longitude": 119.30610656738281
+    },
+    "lineage": [
+      "https://openalex.org/I111753288"
+    ]
+  }
+}

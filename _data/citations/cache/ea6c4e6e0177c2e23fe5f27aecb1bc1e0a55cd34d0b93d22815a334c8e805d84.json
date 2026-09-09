@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I4210095188?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:06+00:00",
+  "data": {
+    "id": "https://openalex.org/I4210095188",
+    "ror": "https://ror.org/00mn2bk17",
+    "display_name": "Environmental and Water Resources Engineering",
+    "country_code": "IL",
+    "type": "other",
+    "geo": {
+      "city": "Haifa",
+      "geonames_city_id": "294801",
+      "region": "Haifa",
+      "country_code": "IL",
+      "country": "Israel",
+      "latitude": 32.81303,
+      "longitude": 34.99928
+    },
+    "lineage": [
+      "https://openalex.org/I4210095188"
+    ]
+  }
+}

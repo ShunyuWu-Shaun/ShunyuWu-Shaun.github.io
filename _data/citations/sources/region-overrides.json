@@ -1,0 +1,32 @@
+{
+  "I190632392": {
+    "region": "Norrbotten",
+    "country_code": "SE",
+    "country": "Sweden",
+    "latitude": 65.58415222167969,
+    "longitude": 22.15464973449707,
+    "source": "https://www.lulea.se/kommun--politik/fakta-och-statistik/fakta-om-lulea-kommun.html",
+    "verified_at": "2026-09-09",
+    "basis": "Luleå municipal authority identifies the municipality as part of Norrbotten County; institution city coordinates fall outside the Natural Earth coastline polygon."
+  },
+  "I4210099310": {
+    "latitude": 44.79935073852539,
+    "longitude": 10.326180458068848,
+    "country_code": "IT",
+    "country": "Italy",
+    "region": "Emilia-Romagna",
+    "source": "https://www.regione.emilia-romagna.it/autonomie-locali/unioni-di-comuni/geografia/mappa-delle-forme-associative",
+    "verified_at": "2026-09-09",
+    "basis": "Regional government lists Parma within Emilia-Romagna; normalize the Natural Earth province to the first-order region."
+  },
+  "I4210106663": {
+    "latitude": 33.98527908325195,
+    "longitude": -6.723610877990723,
+    "country_code": "MA",
+    "country": "Morocco",
+    "region": "Rabat-Salé-Kénitra",
+    "source": "https://www.hcp.ma/region-rabat/",
+    "verified_at": "2026-09-09",
+    "basis": "Moroccan statistical authority regional office identifies the current Rabat-Salé-Kénitra region; replace the historical Natural Earth region name for Salé."
+  }
+}

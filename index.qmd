@@ -182,10 +182,11 @@ body-classes: home-page
 
     <section class="home-section" id="reach" aria-labelledby="reach-title">
       <h2 class="section__title" id="reach-title">Citation geography</h2>
-      <figure class="reach">
-        <img loading="lazy" decoding="async" src="/assets/images/citation-geography.svg" width="980" height="460" alt="World map showing the relative geographic distribution of citations to publications in Shunyu Wu's Google Scholar profile.">
-        <figcaption>Where the publications in my <a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=en">Google Scholar profile</a> are cited. Larger marks indicate higher relative citation frequency. The affiliation geography comes from <a href="https://openalex.org/">OpenAlex</a>.</figcaption>
-      </figure>
+```
+
+{{< include _includes/citation-map.qmd >}}
+
+```{=html}
     </section>
 
     <section class="home-section" id="thinking" aria-labelledby="thinking-title">

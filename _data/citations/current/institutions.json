@@ -1,0 +1,2398 @@
+[
+  {
+    "id": "https://openalex.org/I108688024",
+    "ror": "https://ror.org/021cj6z65",
+    "display_name": "Qingdao University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Qingdao",
+      "geonames_city_id": "1797929",
+      "region": "Shandong",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 36.06488037109375,
+      "longitude": 120.38041687011719
+    },
+    "lineage": [
+      "https://openalex.org/I108688024"
+    ],
+    "geo_original": {
+      "city": "Qingdao",
+      "geonames_city_id": "1797929",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 36.06488037109375,
+      "longitude": 120.38041687011719
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-SD"
+  },
+  {
+    "id": "https://openalex.org/I111753288",
+    "ror": "https://ror.org/020azk594",
+    "display_name": "Fujian Normal University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Fuzhou",
+      "geonames_city_id": "1810821",
+      "region": "Fujian",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 26.061389923095703,
+      "longitude": 119.30610656738281
+    },
+    "lineage": [
+      "https://openalex.org/I111753288"
+    ],
+    "geo_original": {
+      "city": "Fuzhou",
+      "geonames_city_id": "1810821",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 26.061389923095703,
+      "longitude": 119.30610656738281
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-FJ"
+  },
+  {
+    "id": "https://openalex.org/I12393601",
+    "ror": "https://ror.org/04zn6xq74",
+    "display_name": "Huaihua University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Huaihua",
+      "geonames_city_id": "1807689",
+      "region": "Hunan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 27.563369750976562,
+      "longitude": 110.00404357910156
+    },
+    "lineage": [
+      "https://openalex.org/I12393601"
+    ],
+    "geo_original": {
+      "city": "Huaihua",
+      "geonames_city_id": "1807689",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 27.563369750976562,
+      "longitude": 110.00404357910156
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-HN"
+  },
+  {
+    "id": "https://openalex.org/I126477371",
+    "ror": "https://ror.org/00r8w8f84",
+    "display_name": "Mohammed V University",
+    "country_code": "MA",
+    "type": "education",
+    "geo": {
+      "city": "Rabat",
+      "geonames_city_id": "2538475",
+      "region": "Rabat-Salé-Kénitra",
+      "country_code": "MA",
+      "country": "Morocco",
+      "latitude": 34.01325,
+      "longitude": -6.83255
+    },
+    "lineage": [
+      "https://openalex.org/I126477371"
+    ],
+    "geo_original": {
+      "city": "Rabat",
+      "geonames_city_id": "2538475",
+      "region": "Rabat-Salé-Kénitra",
+      "country_code": "MA",
+      "country": "Morocco",
+      "latitude": 34.01325,
+      "longitude": -6.83255
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I1294671590",
+    "ror": "https://ror.org/02feahw73",
+    "display_name": "Centre National de la Recherche Scientifique",
+    "country_code": "FR",
+    "type": "government",
+    "geo": {
+      "city": "Paris",
+      "geonames_city_id": "2988507",
+      "region": "Île-de-France",
+      "country_code": "FR",
+      "country": "France",
+      "latitude": 48.85341,
+      "longitude": 2.3488
+    },
+    "lineage": [
+      "https://openalex.org/I1294671590"
+    ],
+    "geo_original": {
+      "city": "Paris",
+      "geonames_city_id": "2988507",
+      "region": "Île-de-France",
+      "country_code": "FR",
+      "country": "France",
+      "latitude": 48.85341,
+      "longitude": 2.3488
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I1327237609",
+    "ror": "https://ror.org/01mv9t934",
+    "display_name": "Ministry of Education of the People's Republic of China",
+    "country_code": "CN",
+    "type": "government",
+    "geo": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "lineage": [
+      "https://openalex.org/I1327237609",
+      "https://openalex.org/I4210127390"
+    ],
+    "geo_original": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I1334729051",
+    "ror": "https://ror.org/00ndrvk93",
+    "display_name": "Xinjiang Normal University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Ürümqi",
+      "geonames_city_id": "1529102",
+      "region": "Xinjiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 43.800960540771484,
+      "longitude": 87.60045623779297
+    },
+    "lineage": [
+      "https://openalex.org/I1334729051"
+    ],
+    "geo_original": {
+      "city": "Ürümqi",
+      "geonames_city_id": "1529102",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 43.800960540771484,
+      "longitude": 87.60045623779297
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-XJ"
+  },
+  {
+    "id": "https://openalex.org/I139660479",
+    "ror": "https://ror.org/00f1zfq44",
+    "display_name": "Central South University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Changsha",
+      "geonames_city_id": "1815577",
+      "region": "Hunan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 28.19874,
+      "longitude": 112.97087
+    },
+    "lineage": [
+      "https://openalex.org/I139660479"
+    ],
+    "geo_original": {
+      "city": "Changsha",
+      "geonames_city_id": "1815577",
+      "region": "Hunan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 28.19874,
+      "longitude": 112.97087
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I141301092",
+    "ror": "https://ror.org/00bx3rb98",
+    "display_name": "China Meteorological Administration",
+    "country_code": "CN",
+    "type": "government",
+    "geo": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "lineage": [
+      "https://openalex.org/I141301092"
+    ],
+    "geo_original": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I143868143",
+    "ror": "https://ror.org/05th6yx34",
+    "display_name": "Anhui University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Hefei",
+      "geonames_city_id": "1808722",
+      "region": "Anhui",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.863889694213867,
+      "longitude": 117.28083038330078
+    },
+    "lineage": [
+      "https://openalex.org/I143868143"
+    ],
+    "geo_original": {
+      "city": "Hefei",
+      "geonames_city_id": "1808722",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.863889694213867,
+      "longitude": 117.28083038330078
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-AH"
+  },
+  {
+    "id": "https://openalex.org/I146367977",
+    "ror": "https://ror.org/01ah6nb52",
+    "display_name": "Applied Science Private University",
+    "country_code": "JO",
+    "type": "education",
+    "geo": {
+      "city": "Amman",
+      "geonames_city_id": "250441",
+      "region": "Amman",
+      "country_code": "JO",
+      "country": "Jordan",
+      "latitude": 31.95522,
+      "longitude": 35.94503
+    },
+    "lineage": [
+      "https://openalex.org/I146367977"
+    ],
+    "geo_original": {
+      "city": "Amman",
+      "geonames_city_id": "250441",
+      "region": "Amman",
+      "country_code": "JO",
+      "country": "Jordan",
+      "latitude": 31.95522,
+      "longitude": 35.94503
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I146655781",
+    "ror": "https://ror.org/04xs57h96",
+    "display_name": "University of Liverpool",
+    "country_code": "GB",
+    "type": "education",
+    "geo": {
+      "city": "Liverpool",
+      "geonames_city_id": "2644210",
+      "region": "England",
+      "country_code": "GB",
+      "country": "United Kingdom",
+      "latitude": 53.41058,
+      "longitude": -2.97794
+    },
+    "lineage": [
+      "https://openalex.org/I146655781"
+    ],
+    "geo_original": {
+      "city": "Liverpool",
+      "geonames_city_id": "2644210",
+      "region": "England",
+      "country_code": "GB",
+      "country": "United Kingdom",
+      "latitude": 53.41058,
+      "longitude": -2.97794
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I148128674",
+    "ror": "https://ror.org/00ay9v204",
+    "display_name": "University of Shanghai for Science and Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Shanghai",
+      "geonames_city_id": "1796236",
+      "region": "Shanghai",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.222219467163086,
+      "longitude": 121.45806121826172
+    },
+    "lineage": [
+      "https://openalex.org/I148128674"
+    ],
+    "geo_original": {
+      "city": "Shanghai",
+      "geonames_city_id": "1796236",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.222219467163086,
+      "longitude": 121.45806121826172
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-SH"
+  },
+  {
+    "id": "https://openalex.org/I14894300",
+    "ror": "https://ror.org/02xvvvp28",
+    "display_name": "Foshan University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Foshan",
+      "geonames_city_id": "1811103",
+      "region": "Guangdong",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 23.026769638061523,
+      "longitude": 113.13147735595703
+    },
+    "lineage": [
+      "https://openalex.org/I14894300"
+    ],
+    "geo_original": {
+      "city": "Foshan",
+      "geonames_city_id": "1811103",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 23.026769638061523,
+      "longitude": 113.13147735595703
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-GD"
+  },
+  {
+    "id": "https://openalex.org/I150229711",
+    "ror": "https://ror.org/04qr3zq92",
+    "display_name": "University of Electronic Science and Technology of China",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Chengdu",
+      "geonames_city_id": "1815286",
+      "region": "Sichuan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.666669845581055,
+      "longitude": 104.0666732788086
+    },
+    "lineage": [
+      "https://openalex.org/I150229711"
+    ],
+    "geo_original": {
+      "city": "Chengdu",
+      "geonames_city_id": "1815286",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.666669845581055,
+      "longitude": 104.0666732788086
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-SC"
+  },
+  {
+    "id": "https://openalex.org/I154099455",
+    "ror": "https://ror.org/0207yh398",
+    "display_name": "Shandong University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Jinan",
+      "geonames_city_id": "1805753",
+      "region": "Shandong",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 36.66833,
+      "longitude": 116.99722
+    },
+    "lineage": [
+      "https://openalex.org/I154099455"
+    ],
+    "geo_original": {
+      "city": "Jinan",
+      "geonames_city_id": "1805753",
+      "region": "Shandong",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 36.66833,
+      "longitude": 116.99722
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I157773358",
+    "ror": "https://ror.org/0064kty71",
+    "display_name": "Sun Yat-sen University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Guangzhou",
+      "geonames_city_id": "1809858",
+      "region": "Guangdong",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 23.11667,
+      "longitude": 113.25
+    },
+    "lineage": [
+      "https://openalex.org/I157773358"
+    ],
+    "geo_original": {
+      "city": "Guangzhou",
+      "geonames_city_id": "1809858",
+      "region": "Guangdong",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 23.11667,
+      "longitude": 113.25
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I158842170",
+    "ror": "https://ror.org/023rhb549",
+    "display_name": "Chongqing University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Chongqing",
+      "geonames_city_id": "1814906",
+      "region": "Chongqing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.56026,
+      "longitude": 106.55771
+    },
+    "lineage": [
+      "https://openalex.org/I158842170"
+    ],
+    "geo_original": {
+      "city": "Chongqing",
+      "geonames_city_id": "1814906",
+      "region": "Chongqing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.56026,
+      "longitude": 106.55771
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I162868743",
+    "ror": "https://ror.org/012tb2g32",
+    "display_name": "Tianjin University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Tianjin",
+      "geonames_city_id": "1792947",
+      "region": "Tianjin",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.14222,
+      "longitude": 117.17667
+    },
+    "lineage": [
+      "https://openalex.org/I162868743"
+    ],
+    "geo_original": {
+      "city": "Tianjin",
+      "geonames_city_id": "1792947",
+      "region": "Tianjin",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.14222,
+      "longitude": 117.17667
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I16365422",
+    "ror": "https://ror.org/02czkny70",
+    "display_name": "Hefei University of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Hefei",
+      "geonames_city_id": "1808722",
+      "region": "Anhui",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.863889694213867,
+      "longitude": 117.28083038330078
+    },
+    "lineage": [
+      "https://openalex.org/I16365422"
+    ],
+    "geo_original": {
+      "city": "Hefei",
+      "geonames_city_id": "1808722",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.863889694213867,
+      "longitude": 117.28083038330078
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-AH"
+  },
+  {
+    "id": "https://openalex.org/I16609230",
+    "ror": "https://ror.org/05htk5m33",
+    "display_name": "Hunan University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Changsha",
+      "geonames_city_id": "1815577",
+      "region": "Hunan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 28.19874,
+      "longitude": 112.97087
+    },
+    "lineage": [
+      "https://openalex.org/I16609230"
+    ],
+    "geo_original": {
+      "city": "Changsha",
+      "geonames_city_id": "1815577",
+      "region": "Hunan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 28.19874,
+      "longitude": 112.97087
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I168337820",
+    "ror": "https://ror.org/03n3v6d52",
+    "display_name": "Chongqing University of Science and Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Chongqing",
+      "geonames_city_id": "1814906",
+      "region": "Chongqing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.56026,
+      "longitude": 106.55771
+    },
+    "lineage": [
+      "https://openalex.org/I168337820"
+    ],
+    "geo_original": {
+      "city": "Chongqing",
+      "geonames_city_id": "1814906",
+      "region": "Chongqing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.56026,
+      "longitude": 106.55771
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I168719708",
+    "ror": "https://ror.org/03q8dnn23",
+    "display_name": "City University of Hong Kong",
+    "country_code": "HK",
+    "type": "education",
+    "geo": {
+      "city": "Hong Kong",
+      "geonames_city_id": "1819729",
+      "region": "Hong Kong S.A.R.",
+      "country_code": "HK",
+      "country": "Hong Kong",
+      "latitude": 22.27832,
+      "longitude": 114.17469
+    },
+    "lineage": [
+      "https://openalex.org/I168719708"
+    ],
+    "geo_original": {
+      "city": "Hong Kong",
+      "geonames_city_id": "1819729",
+      "region": null,
+      "country_code": "HK",
+      "country": "Hong Kong",
+      "latitude": 22.27832,
+      "longitude": 114.17469
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "HK-X02~"
+  },
+  {
+    "id": "https://openalex.org/I170215575",
+    "ror": "https://ror.org/05d2yfz11",
+    "display_name": "National University of Defense Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Changsha",
+      "geonames_city_id": "1815577",
+      "region": "Hunan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 28.19874,
+      "longitude": 112.97087
+    },
+    "lineage": [
+      "https://openalex.org/I170215575"
+    ],
+    "geo_original": {
+      "city": "Changsha",
+      "geonames_city_id": "1815577",
+      "region": "Hunan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 28.19874,
+      "longitude": 112.97087
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I174306211",
+    "ror": "https://ror.org/03qryx823",
+    "display_name": "Technion – Israel Institute of Technology",
+    "country_code": "IL",
+    "type": "education",
+    "geo": {
+      "city": "Haifa",
+      "geonames_city_id": "294801",
+      "region": "Haifa",
+      "country_code": "IL",
+      "country": "Israel",
+      "latitude": 32.81303,
+      "longitude": 34.99928
+    },
+    "lineage": [
+      "https://openalex.org/I174306211"
+    ],
+    "geo_original": {
+      "city": "Haifa",
+      "geonames_city_id": "294801",
+      "region": "Haifa",
+      "country_code": "IL",
+      "country": "Israel",
+      "latitude": 32.81303,
+      "longitude": 34.99928
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I183067930",
+    "ror": "https://ror.org/0220qvk04",
+    "display_name": "Shanghai Jiao Tong University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Shanghai",
+      "geonames_city_id": "1796236",
+      "region": "Shanghai",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.22222,
+      "longitude": 121.45806
+    },
+    "lineage": [
+      "https://openalex.org/I183067930"
+    ],
+    "geo_original": {
+      "city": "Shanghai",
+      "geonames_city_id": "1796236",
+      "region": "Shanghai",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.22222,
+      "longitude": 121.45806
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I190632392",
+    "ror": "https://ror.org/016st3p78",
+    "display_name": "Luleå University of Technology",
+    "country_code": "SE",
+    "type": "education",
+    "geo": {
+      "city": "Luleå",
+      "geonames_city_id": "604490",
+      "region": "Norrbotten",
+      "country_code": "SE",
+      "country": "Sweden",
+      "latitude": 65.58415222167969,
+      "longitude": 22.15464973449707
+    },
+    "lineage": [
+      "https://openalex.org/I190632392"
+    ],
+    "geo_original": {
+      "city": "Luleå",
+      "geonames_city_id": "604490",
+      "region": null,
+      "country_code": "SE",
+      "country": "Sweden",
+      "latitude": 65.58415222167969,
+      "longitude": 22.15464973449707
+    },
+    "region_basis": "Luleå municipal authority identifies the municipality as part of Norrbotten County; institution city coordinates fall outside the Natural Earth coastline polygon.",
+    "region_source": "https://www.lulea.se/kommun--politik/fakta-och-statistik/fakta-om-lulea-kommun.html"
+  },
+  {
+    "id": "https://openalex.org/I194450716",
+    "ror": "https://ror.org/00js3aw79",
+    "display_name": "Jilin University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Changchun",
+      "geonames_city_id": "2038180",
+      "region": "Jilin",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 43.88,
+      "longitude": 125.32278
+    },
+    "lineage": [
+      "https://openalex.org/I194450716"
+    ],
+    "geo_original": {
+      "city": "Changchun",
+      "geonames_city_id": "2038180",
+      "region": "Jilin",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 43.88,
+      "longitude": 125.32278
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I204983213",
+    "ror": "https://ror.org/01yqg2h08",
+    "display_name": "Harbin Institute of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Harbin",
+      "geonames_city_id": "2037013",
+      "region": "Heilongjiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 45.75,
+      "longitude": 126.6500015258789
+    },
+    "lineage": [
+      "https://openalex.org/I204983213"
+    ],
+    "geo_original": {
+      "city": "Harbin",
+      "geonames_city_id": "2037013",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 45.75,
+      "longitude": 126.6500015258789
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-HL"
+  },
+  {
+    "id": "https://openalex.org/I205237279",
+    "ror": "https://ror.org/01y1kjr75",
+    "display_name": "Nankai University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Tianjin",
+      "geonames_city_id": "1792947",
+      "region": "Tianjin",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.14221954345703,
+      "longitude": 117.17666625976562
+    },
+    "lineage": [
+      "https://openalex.org/I205237279"
+    ],
+    "geo_original": {
+      "city": "Tianjin",
+      "geonames_city_id": "1792947",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.14221954345703,
+      "longitude": 117.17666625976562
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-TJ"
+  },
+  {
+    "id": "https://openalex.org/I20942203",
+    "ror": "https://ror.org/03q648j11",
+    "display_name": "Hainan University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Haikou",
+      "geonames_city_id": "1809078",
+      "region": "Hainan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 20.034210205078125,
+      "longitude": 110.34651184082031
+    },
+    "lineage": [
+      "https://openalex.org/I20942203"
+    ],
+    "geo_original": {
+      "city": "Haikou",
+      "geonames_city_id": "1809078",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 20.034210205078125,
+      "longitude": 110.34651184082031
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-HI"
+  },
+  {
+    "id": "https://openalex.org/I25254941",
+    "ror": "https://ror.org/022k4wk35",
+    "display_name": "Beijing Normal University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "lineage": [
+      "https://openalex.org/I25254941"
+    ],
+    "geo_original": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I25757504",
+    "ror": "https://ror.org/01xt2dr21",
+    "display_name": "China University of Mining and Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Xuzhou",
+      "geonames_city_id": "10630003",
+      "region": "Jiangsu",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 34.20441818237305,
+      "longitude": 117.28385925292969
+    },
+    "lineage": [
+      "https://openalex.org/I25757504"
+    ],
+    "geo_original": {
+      "city": "Xuzhou",
+      "geonames_city_id": "10630003",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 34.20441818237305,
+      "longitude": 117.28385925292969
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-JS"
+  },
+  {
+    "id": "https://openalex.org/I27031042",
+    "ror": "https://ror.org/00br9cf93",
+    "display_name": "University of Mines and Technology",
+    "country_code": "GH",
+    "type": "education",
+    "geo": {
+      "city": "Tarkwa",
+      "geonames_city_id": "2294768",
+      "region": "Western",
+      "country_code": "GH",
+      "country": "Ghana",
+      "latitude": 5.303830146789551,
+      "longitude": -1.9895600080490112
+    },
+    "lineage": [
+      "https://openalex.org/I27031042"
+    ],
+    "geo_original": {
+      "city": "Tarkwa",
+      "geonames_city_id": "2294768",
+      "region": null,
+      "country_code": "GH",
+      "country": "Ghana",
+      "latitude": 5.303830146789551,
+      "longitude": -1.9895600080490112
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "GH-WP"
+  },
+  {
+    "id": "https://openalex.org/I2799888298",
+    "ror": "https://ror.org/05r7nbf33",
+    "display_name": "Skyline University College",
+    "country_code": "AE",
+    "type": "education",
+    "geo": {
+      "city": "Sharjah city",
+      "geonames_city_id": "292672",
+      "region": "Emirate of Sharjah",
+      "country_code": "AE",
+      "country": "United Arab Emirates",
+      "latitude": 25.291223526000977,
+      "longitude": 55.46714401245117
+    },
+    "lineage": [
+      "https://openalex.org/I2799888298"
+    ],
+    "geo_original": {
+      "city": "Sharjah city",
+      "geonames_city_id": "292672",
+      "region": null,
+      "country_code": "AE",
+      "country": "United Arab Emirates",
+      "latitude": 25.291223526000977,
+      "longitude": 55.46714401245117
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "AE-SH"
+  },
+  {
+    "id": "https://openalex.org/I2802759292",
+    "ror": "https://ror.org/004fmxv66",
+    "display_name": "Franche-Comté Électronique Mécanique Thermique et Optique - Sciences et Technologies",
+    "country_code": "FR",
+    "type": "facility",
+    "geo": {
+      "city": "Besançon",
+      "geonames_city_id": "3033123",
+      "region": "Bourgogne-Franche-Comté",
+      "country_code": "FR",
+      "country": "France",
+      "latitude": 47.24878,
+      "longitude": 6.01815
+    },
+    "lineage": [
+      "https://openalex.org/I1294671590",
+      "https://openalex.org/I1294671590",
+      "https://openalex.org/I2802759292",
+      "https://openalex.org/I37553959",
+      "https://openalex.org/I4210095849",
+      "https://openalex.org/I4405256580",
+      "https://openalex.org/I53262699"
+    ],
+    "geo_original": {
+      "city": "Besançon",
+      "geonames_city_id": "3033123",
+      "region": "Bourgogne-Franche-Comté",
+      "country_code": "FR",
+      "country": "France",
+      "latitude": 47.24878,
+      "longitude": 6.01815
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I3045169105",
+    "ror": "https://ror.org/049tv2d57",
+    "display_name": "Southern University of Science and Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Shenzhen",
+      "geonames_city_id": "1795565",
+      "region": "Guangdong",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 22.54554,
+      "longitude": 114.0683
+    },
+    "lineage": [
+      "https://openalex.org/I3045169105"
+    ],
+    "geo_original": {
+      "city": "Shenzhen",
+      "geonames_city_id": "1795565",
+      "region": "Guangdong",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 22.54554,
+      "longitude": 114.0683
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I308837",
+    "ror": "https://ror.org/04en8wb91",
+    "display_name": "Suzhou University of Science and Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Suzhou",
+      "geonames_city_id": "1886760",
+      "region": "Jiangsu",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.304079055786133,
+      "longitude": 120.59538269042969
+    },
+    "lineage": [
+      "https://openalex.org/I308837"
+    ],
+    "geo_original": {
+      "city": "Suzhou",
+      "geonames_city_id": "1886760",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.304079055786133,
+      "longitude": 120.59538269042969
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-JS"
+  },
+  {
+    "id": "https://openalex.org/I32625721",
+    "ror": "https://ror.org/010x8gc63",
+    "display_name": "University of Saskatchewan",
+    "country_code": "CA",
+    "type": "education",
+    "geo": {
+      "city": "Saskatoon",
+      "geonames_city_id": "6141256",
+      "region": "Saskatchewan",
+      "country_code": "CA",
+      "country": "Canada",
+      "latitude": 52.13238,
+      "longitude": -106.66892
+    },
+    "lineage": [
+      "https://openalex.org/I32625721"
+    ],
+    "geo_original": {
+      "city": "Saskatoon",
+      "geonames_city_id": "6141256",
+      "region": "Saskatchewan",
+      "country_code": "CA",
+      "country": "Canada",
+      "latitude": 52.13238,
+      "longitude": -106.66892
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I34771391",
+    "ror": "https://ror.org/02qjrjx09",
+    "display_name": "University of Cyprus",
+    "country_code": "CY",
+    "type": "education",
+    "geo": {
+      "city": "Nicosia",
+      "geonames_city_id": "146268",
+      "region": "Nicosia",
+      "country_code": "CY",
+      "country": "Cyprus",
+      "latitude": 35.17284,
+      "longitude": 33.35397
+    },
+    "lineage": [
+      "https://openalex.org/I34771391"
+    ],
+    "geo_original": {
+      "city": "Nicosia",
+      "geonames_city_id": "146268",
+      "region": "Nicosia",
+      "country_code": "CY",
+      "country": "Cyprus",
+      "latitude": 35.17284,
+      "longitude": 33.35397
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I37553959",
+    "ror": "https://ror.org/05bn3m307",
+    "display_name": "Université de technologie de belfort-montbéliard",
+    "country_code": "FR",
+    "type": "education",
+    "geo": {
+      "city": "Belfort",
+      "geonames_city_id": "3033791",
+      "region": "Bourgogne-Franche-Comté",
+      "country_code": "FR",
+      "country": "France",
+      "latitude": 47.64218,
+      "longitude": 6.85385
+    },
+    "lineage": [
+      "https://openalex.org/I37553959"
+    ],
+    "geo_original": {
+      "city": "Belfort",
+      "geonames_city_id": "3033791",
+      "region": "Bourgogne-Franche-Comté",
+      "country_code": "FR",
+      "country": "France",
+      "latitude": 47.64218,
+      "longitude": 6.85385
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I37796252",
+    "ror": "https://ror.org/037b1pp87",
+    "display_name": "Beijing University of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "lineage": [
+      "https://openalex.org/I37796252"
+    ],
+    "geo_original": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I38877650",
+    "ror": "https://ror.org/04ypx8c21",
+    "display_name": "Zhengzhou University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Zhengzhou",
+      "geonames_city_id": "1784658",
+      "region": "Henan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 34.75778,
+      "longitude": 113.64861
+    },
+    "lineage": [
+      "https://openalex.org/I38877650"
+    ],
+    "geo_original": {
+      "city": "Zhengzhou",
+      "geonames_city_id": "1784658",
+      "region": "Henan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 34.75778,
+      "longitude": 113.64861
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I41198531",
+    "ror": "https://ror.org/043bpky34",
+    "display_name": "Nanjing University of Posts and Telecommunications",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Nanjing",
+      "geonames_city_id": "1799962",
+      "region": "Jiangsu",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 32.06167,
+      "longitude": 118.77778
+    },
+    "lineage": [
+      "https://openalex.org/I41198531"
+    ],
+    "geo_original": {
+      "city": "Nanjing",
+      "geonames_city_id": "1799962",
+      "region": "Jiangsu",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 32.06167,
+      "longitude": 118.77778
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I4210095188",
+    "ror": "https://ror.org/00mn2bk17",
+    "display_name": "Environmental and Water Resources Engineering",
+    "country_code": "IL",
+    "type": "other",
+    "geo": {
+      "city": "Haifa",
+      "geonames_city_id": "294801",
+      "region": "Haifa",
+      "country_code": "IL",
+      "country": "Israel",
+      "latitude": 32.81303,
+      "longitude": 34.99928
+    },
+    "lineage": [
+      "https://openalex.org/I4210095188"
+    ],
+    "geo_original": {
+      "city": "Haifa",
+      "geonames_city_id": "294801",
+      "region": "Haifa",
+      "country_code": "IL",
+      "country": "Israel",
+      "latitude": 32.81303,
+      "longitude": 34.99928
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I4210099310",
+    "ror": "https://ror.org/0182a5n39",
+    "display_name": "Consorzio Nazionale Interuniversitario per le Telecomunicazioni",
+    "country_code": "IT",
+    "type": "funder",
+    "geo": {
+      "city": "Parma",
+      "geonames_city_id": "3171457",
+      "region": "Emilia-Romagna",
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 44.79935073852539,
+      "longitude": 10.326180458068848
+    },
+    "lineage": [
+      "https://openalex.org/I4210099310"
+    ],
+    "geo_original": {
+      "city": "Parma",
+      "geonames_city_id": "3171457",
+      "region": null,
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 44.79935073852539,
+      "longitude": 10.326180458068848
+    },
+    "region_basis": "Regional government lists Parma within Emilia-Romagna; normalize the Natural Earth province to the first-order region.",
+    "region_source": "https://www.regione.emilia-romagna.it/autonomie-locali/unioni-di-comuni/geografia/mappa-delle-forme-associative"
+  },
+  {
+    "id": "https://openalex.org/I4210106663",
+    "ror": "https://ror.org/01t9czq80",
+    "display_name": "International University of Rabat",
+    "country_code": "MA",
+    "type": "education",
+    "geo": {
+      "city": "Salé",
+      "geonames_city_id": "2537763",
+      "region": "Rabat-Salé-Kénitra",
+      "country_code": "MA",
+      "country": "Morocco",
+      "latitude": 33.98527908325195,
+      "longitude": -6.723610877990723
+    },
+    "lineage": [
+      "https://openalex.org/I4210106663"
+    ],
+    "geo_original": {
+      "city": "Salé",
+      "geonames_city_id": "2537763",
+      "region": null,
+      "country_code": "MA",
+      "country": "Morocco",
+      "latitude": 33.98527908325195,
+      "longitude": -6.723610877990723
+    },
+    "region_basis": "Moroccan statistical authority regional office identifies the current Rabat-Salé-Kénitra region; replace the historical Natural Earth region name for Salé.",
+    "region_source": "https://www.hcp.ma/region-rabat/"
+  },
+  {
+    "id": "https://openalex.org/I4210109940",
+    "ror": "https://ror.org/01qe4kz15",
+    "display_name": "Goldwind (China)",
+    "country_code": "CN",
+    "type": "company",
+    "geo": {
+      "city": "Ürümqi",
+      "geonames_city_id": "1529102",
+      "region": "Xinjiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 43.832523345947266,
+      "longitude": 87.61492919921875
+    },
+    "lineage": [
+      "https://openalex.org/I4210109940"
+    ],
+    "geo_original": {
+      "city": "Ürümqi",
+      "geonames_city_id": "1529102",
+      "region": "Xinjiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 43.832523345947266,
+      "longitude": 87.61492919921875
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I4210110558",
+    "ror": "https://ror.org/01t8prc81",
+    "display_name": "Xi'an Technological University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Xi'an",
+      "geonames_city_id": "1790630",
+      "region": "Shaanxi",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 34.25833,
+      "longitude": 108.92861
+    },
+    "lineage": [
+      "https://openalex.org/I4210110558"
+    ],
+    "geo_original": {
+      "city": "Xi'an",
+      "geonames_city_id": "1790630",
+      "region": "Shaanxi",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 34.25833,
+      "longitude": 108.92861
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I4210110794",
+    "ror": "https://ror.org/022vzex26",
+    "display_name": "Taiyuan Heavy Industry (China)",
+    "country_code": "CN",
+    "type": "company",
+    "geo": {
+      "city": "Taiyuan",
+      "geonames_city_id": "1793511",
+      "region": "Shanxi",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 37.869869232177734,
+      "longitude": 112.50411987304688
+    },
+    "lineage": [
+      "https://openalex.org/I4210110794"
+    ],
+    "geo_original": {
+      "city": "Taiyuan",
+      "geonames_city_id": "1793511",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 37.869869232177734,
+      "longitude": 112.50411987304688
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-SX"
+  },
+  {
+    "id": "https://openalex.org/I4210111792",
+    "ror": "https://ror.org/026z6mp76",
+    "display_name": "Guizhou Water Conservancy and Hydropower Survey and Design Institute",
+    "country_code": "CN",
+    "type": "facility",
+    "geo": {
+      "city": "Guiyang",
+      "geonames_city_id": "1809461",
+      "region": "Guizhou",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 26.87800407409668,
+      "longitude": 106.53499603271484
+    },
+    "lineage": [
+      "https://openalex.org/I4210111792"
+    ],
+    "geo_original": {
+      "city": "Guiyang",
+      "geonames_city_id": "1809461",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 26.87800407409668,
+      "longitude": 106.53499603271484
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-GZ"
+  },
+  {
+    "id": "https://openalex.org/I4210111986",
+    "ror": "https://ror.org/02403qw73",
+    "display_name": "Nanjing Hydraulic Research Institute",
+    "country_code": "CN",
+    "type": "facility",
+    "geo": {
+      "city": "Nanjing",
+      "geonames_city_id": "1799962",
+      "region": "Jiangsu",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 32.06167,
+      "longitude": 118.77778
+    },
+    "lineage": [
+      "https://openalex.org/I4210111986"
+    ],
+    "geo_original": {
+      "city": "Nanjing",
+      "geonames_city_id": "1799962",
+      "region": "Jiangsu",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 32.06167,
+      "longitude": 118.77778
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I4210115456",
+    "ror": "https://ror.org/037663q52",
+    "display_name": "Chuzhou University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Chuzhou",
+      "geonames_city_id": "1814757",
+      "region": "Anhui",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 32.32194137573242,
+      "longitude": 118.29778289794922
+    },
+    "lineage": [
+      "https://openalex.org/I4210115456"
+    ],
+    "geo_original": {
+      "city": "Chuzhou",
+      "geonames_city_id": "1814757",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 32.32194137573242,
+      "longitude": 118.29778289794922
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-AH"
+  },
+  {
+    "id": "https://openalex.org/I4210132615",
+    "ror": "https://ror.org/03a2tkf74",
+    "display_name": "Zhejiang Energy Group (China)",
+    "country_code": "CN",
+    "type": "company",
+    "geo": {
+      "city": "Hangzhou",
+      "geonames_city_id": "1808926",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.272197723388672,
+      "longitude": 120.13886260986328
+    },
+    "lineage": [
+      "https://openalex.org/I4210132615"
+    ],
+    "geo_original": {
+      "city": "Hangzhou",
+      "geonames_city_id": "1808926",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.272197723388672,
+      "longitude": 120.13886260986328
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-ZJ"
+  },
+  {
+    "id": "https://openalex.org/I4210132981",
+    "ror": "https://ror.org/02p2qrw13",
+    "display_name": "Ningxia Water Conservancy",
+    "country_code": "CN",
+    "type": "government",
+    "geo": {
+      "city": "Yinchuan",
+      "geonames_city_id": "1786657",
+      "region": "Ningxia",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 38.46806,
+      "longitude": 106.27306
+    },
+    "lineage": [
+      "https://openalex.org/I4210132981"
+    ],
+    "geo_original": {
+      "city": "Yinchuan",
+      "geonames_city_id": "1786657",
+      "region": "Ningxia",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 38.46806,
+      "longitude": 106.27306
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I4210147525",
+    "ror": "https://ror.org/05j26dk60",
+    "display_name": "AviChina Industry & Technology (China)",
+    "country_code": "CN",
+    "type": "company",
+    "geo": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.936439514160156,
+      "longitude": 116.42213439941406
+    },
+    "lineage": [
+      "https://openalex.org/I4210147525"
+    ],
+    "geo_original": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.936439514160156,
+      "longitude": 116.42213439941406
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-BJ"
+  },
+  {
+    "id": "https://openalex.org/I4391767838",
+    "ror": "https://ror.org/03a33a786",
+    "display_name": "State Key Laboratory of Industrial Control Technology",
+    "country_code": "CN",
+    "type": "facility",
+    "geo": {
+      "city": "Hangzhou",
+      "geonames_city_id": "1808926",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.29365,
+      "longitude": 120.16142
+    },
+    "lineage": [
+      "https://openalex.org/I4391767838",
+      "https://openalex.org/I76130692"
+    ],
+    "geo_original": {
+      "city": "Hangzhou",
+      "geonames_city_id": "1808926",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.29365,
+      "longitude": 120.16142
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I4391767858",
+    "ror": "https://ror.org/0380ng272",
+    "display_name": "State Key Laboratory of Synthetical Automation for Process Industries",
+    "country_code": null,
+    "type": "facility",
+    "geo": {
+      "city": "Shenyang",
+      "geonames_city_id": null,
+      "region": "Liaoning",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 41.79222106933594,
+      "longitude": 123.43277740478516
+    },
+    "lineage": [
+      "https://openalex.org/I4391767858",
+      "https://openalex.org/I9224756"
+    ],
+    "geo_original": {
+      "city": "Shenyang",
+      "geonames_city_id": null,
+      "region": null,
+      "country_code": null,
+      "country": "China",
+      "latitude": 41.79222106933594,
+      "longitude": 123.43277740478516
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-LN"
+  },
+  {
+    "id": "https://openalex.org/I43922553",
+    "ror": "https://ror.org/00e4hrk88",
+    "display_name": "Wuhan University of Science and Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Wuhan",
+      "geonames_city_id": "1791247",
+      "region": "Hubei",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.583330154418945,
+      "longitude": 114.26667022705078
+    },
+    "lineage": [
+      "https://openalex.org/I43922553"
+    ],
+    "geo_original": {
+      "city": "Wuhan",
+      "geonames_city_id": "1791247",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.583330154418945,
+      "longitude": 114.26667022705078
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-HB"
+  },
+  {
+    "id": "https://openalex.org/I4472751",
+    "ror": "https://ror.org/05fsfvw79",
+    "display_name": "Anhui Normal University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Wuhu",
+      "geonames_city_id": "1791236",
+      "region": "Anhui",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.352590560913086,
+      "longitude": 118.4294662475586
+    },
+    "lineage": [
+      "https://openalex.org/I4472751"
+    ],
+    "geo_original": {
+      "city": "Wuhu",
+      "geonames_city_id": "1791236",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.352590560913086,
+      "longitude": 118.4294662475586
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-AH"
+  },
+  {
+    "id": "https://openalex.org/I47508984",
+    "ror": "https://ror.org/041kmwe10",
+    "display_name": "Imperial College London",
+    "country_code": "GB",
+    "type": "education",
+    "geo": {
+      "city": "London",
+      "geonames_city_id": "2643743",
+      "region": "England",
+      "country_code": "GB",
+      "country": "United Kingdom",
+      "latitude": 51.50853,
+      "longitude": -0.12574
+    },
+    "lineage": [
+      "https://openalex.org/I47508984"
+    ],
+    "geo_original": {
+      "city": "London",
+      "geonames_city_id": "2643743",
+      "region": "England",
+      "country_code": "GB",
+      "country": "United Kingdom",
+      "latitude": 51.50853,
+      "longitude": -0.12574
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I52180223",
+    "ror": "https://ror.org/01dzed356",
+    "display_name": "Hunan Agricultural University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Changsha",
+      "geonames_city_id": "1815577",
+      "region": "Hunan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 28.19874,
+      "longitude": 112.97087
+    },
+    "lineage": [
+      "https://openalex.org/I52180223"
+    ],
+    "geo_original": {
+      "city": "Changsha",
+      "geonames_city_id": "1815577",
+      "region": "Hunan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 28.19874,
+      "longitude": 112.97087
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I55240360",
+    "ror": "https://ror.org/05yc6p159",
+    "display_name": "Yeungnam University",
+    "country_code": "KR",
+    "type": "education",
+    "geo": {
+      "city": "Daegu",
+      "geonames_city_id": "1835329",
+      "region": "Daegu",
+      "country_code": "KR",
+      "country": "South Korea",
+      "latitude": 35.87028,
+      "longitude": 128.59111
+    },
+    "lineage": [
+      "https://openalex.org/I55240360"
+    ],
+    "geo_original": {
+      "city": "Daegu",
+      "geonames_city_id": "1835329",
+      "region": "Daegu",
+      "country_code": "KR",
+      "country": "South Korea",
+      "latitude": 35.87028,
+      "longitude": 128.59111
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I55712492",
+    "ror": "https://ror.org/02djqfd08",
+    "display_name": "Zhejiang University of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Hangzhou",
+      "geonames_city_id": "1808926",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.293649673461914,
+      "longitude": 120.16142272949219
+    },
+    "lineage": [
+      "https://openalex.org/I55712492"
+    ],
+    "geo_original": {
+      "city": "Hangzhou",
+      "geonames_city_id": "1808926",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.293649673461914,
+      "longitude": 120.16142272949219
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-ZJ"
+  },
+  {
+    "id": "https://openalex.org/I59028903",
+    "ror": "https://ror.org/04rdtx186",
+    "display_name": "Ocean University of China",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Qingdao",
+      "geonames_city_id": "1797929",
+      "region": "Shandong",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 36.06488037109375,
+      "longitude": 120.38041687011719
+    },
+    "lineage": [
+      "https://openalex.org/I59028903"
+    ],
+    "geo_original": {
+      "city": "Qingdao",
+      "geonames_city_id": "1797929",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 36.06488037109375,
+      "longitude": 120.38041687011719
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-SD"
+  },
+  {
+    "id": "https://openalex.org/I75092371",
+    "ror": "https://ror.org/05k238v14",
+    "display_name": "University of Hradec Králové",
+    "country_code": "CZ",
+    "type": "education",
+    "geo": {
+      "city": "Hradec Králové",
+      "geonames_city_id": "3074967",
+      "region": "Hradec Králové",
+      "country_code": "CZ",
+      "country": "Czechia",
+      "latitude": 50.209228515625,
+      "longitude": 15.832770347595215
+    },
+    "lineage": [
+      "https://openalex.org/I75092371"
+    ],
+    "geo_original": {
+      "city": "Hradec Králové",
+      "geonames_city_id": "3074967",
+      "region": null,
+      "country_code": "CZ",
+      "country": "Czechia",
+      "latitude": 50.209228515625,
+      "longitude": 15.832770347595215
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CZ-KR"
+  },
+  {
+    "id": "https://openalex.org/I76130692",
+    "ror": "https://ror.org/00a2xv884",
+    "display_name": "Zhejiang University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Hangzhou",
+      "geonames_city_id": "1808926",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.29365,
+      "longitude": 120.16142
+    },
+    "lineage": [
+      "https://openalex.org/I76130692"
+    ],
+    "geo_original": {
+      "city": "Hangzhou",
+      "geonames_city_id": "1808926",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.29365,
+      "longitude": 120.16142
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I83202590",
+    "ror": "https://ror.org/05hnb4n85",
+    "display_name": "Jeju National University",
+    "country_code": "KR",
+    "type": "education",
+    "geo": {
+      "city": "Jeju City",
+      "geonames_city_id": "1846266",
+      "region": "Jeju-do",
+      "country_code": "KR",
+      "country": "South Korea",
+      "latitude": 33.50972,
+      "longitude": 126.52194
+    },
+    "lineage": [
+      "https://openalex.org/I83202590"
+    ],
+    "geo_original": {
+      "city": "Jeju City",
+      "geonames_city_id": "1846266",
+      "region": "Jeju-do",
+      "country_code": "KR",
+      "country": "South Korea",
+      "latitude": 33.50972,
+      "longitude": 126.52194
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I861853513",
+    "ror": "https://ror.org/02be6w209",
+    "display_name": "Sapienza University of Rome",
+    "country_code": "IT",
+    "type": "education",
+    "geo": {
+      "city": "Rome",
+      "geonames_city_id": "3169070",
+      "region": "Lazio",
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 41.89193,
+      "longitude": 12.51133
+    },
+    "lineage": [
+      "https://openalex.org/I861853513"
+    ],
+    "geo_original": {
+      "city": "Rome",
+      "geonames_city_id": "3169070",
+      "region": "Lazio",
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 41.89193,
+      "longitude": 12.51133
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I87445476",
+    "ror": "https://ror.org/017zhmm22",
+    "display_name": "Xi'an Jiaotong University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Xi'an",
+      "geonames_city_id": "1790630",
+      "region": "Shaanxi",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 34.25833,
+      "longitude": 108.92861
+    },
+    "lineage": [
+      "https://openalex.org/I87445476"
+    ],
+    "geo_original": {
+      "city": "Xi'an",
+      "geonames_city_id": "1790630",
+      "region": "Shaanxi",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 34.25833,
+      "longitude": 108.92861
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I90610280",
+    "ror": "https://ror.org/0530pts50",
+    "display_name": "South China University of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Guangzhou",
+      "geonames_city_id": "1809858",
+      "region": "Guangdong",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 23.116670608520508,
+      "longitude": 113.25
+    },
+    "lineage": [
+      "https://openalex.org/I90610280"
+    ],
+    "geo_original": {
+      "city": "Guangzhou",
+      "geonames_city_id": "1809858",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 23.116670608520508,
+      "longitude": 113.25
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-GD"
+  },
+  {
+    "id": "https://openalex.org/I92178344",
+    "ror": "https://ror.org/02qdtrq21",
+    "display_name": "Anhui University of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Ma'anshan City",
+      "geonames_city_id": "1801618",
+      "region": "Anhui",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.523239135742188,
+      "longitude": 118.6201400756836
+    },
+    "lineage": [
+      "https://openalex.org/I92178344"
+    ],
+    "geo_original": {
+      "city": "Ma'anshan City",
+      "geonames_city_id": "1801618",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 31.523239135742188,
+      "longitude": 118.6201400756836
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-AH"
+  },
+  {
+    "id": "https://openalex.org/I9224756",
+    "ror": "https://ror.org/03awzbc87",
+    "display_name": "Northeastern University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Shenyang",
+      "geonames_city_id": "2034937",
+      "region": "Liaoning",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 41.79222,
+      "longitude": 123.43278
+    },
+    "lineage": [
+      "https://openalex.org/I9224756"
+    ],
+    "geo_original": {
+      "city": "Shenyang",
+      "geonames_city_id": "2034937",
+      "region": "Liaoning",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 41.79222,
+      "longitude": 123.43278
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I92403157",
+    "ror": "https://ror.org/02egmk993",
+    "display_name": "University of Science and Technology Beijing",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "lineage": [
+      "https://openalex.org/I92403157"
+    ],
+    "geo_original": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I929597975",
+    "ror": "https://ror.org/03w2j5y17",
+    "display_name": "National University of Sciences and Technology",
+    "country_code": "PK",
+    "type": "education",
+    "geo": {
+      "city": "Islamabad",
+      "geonames_city_id": "1176615",
+      "region": "Islamabad",
+      "country_code": "PK",
+      "country": "Pakistan",
+      "latitude": 33.72148,
+      "longitude": 73.04329
+    },
+    "lineage": [
+      "https://openalex.org/I929597975"
+    ],
+    "geo_original": {
+      "city": "Islamabad",
+      "geonames_city_id": "1176615",
+      "region": "Islamabad",
+      "country_code": "PK",
+      "country": "Pakistan",
+      "latitude": 33.72148,
+      "longitude": 73.04329
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I94518387",
+    "ror": "https://ror.org/04nyv3z04",
+    "display_name": "Hanoi University of Science and Technology",
+    "country_code": "VN",
+    "type": "education",
+    "geo": {
+      "city": "Hanoi",
+      "geonames_city_id": "1581130",
+      "region": "Hanoi",
+      "country_code": "VN",
+      "country": "Vietnam",
+      "latitude": 21.0245,
+      "longitude": 105.84117
+    },
+    "lineage": [
+      "https://openalex.org/I94518387"
+    ],
+    "geo_original": {
+      "city": "Hanoi",
+      "geonames_city_id": "1581130",
+      "region": "Hanoi",
+      "country_code": "VN",
+      "country": "Vietnam",
+      "latitude": 21.0245,
+      "longitude": 105.84117
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I97018004",
+    "ror": "https://ror.org/00f54p054",
+    "display_name": "Stanford University",
+    "country_code": "US",
+    "type": "education",
+    "geo": {
+      "city": "Stanford",
+      "geonames_city_id": "5398563",
+      "region": "California",
+      "country_code": "US",
+      "country": "United States",
+      "latitude": 37.42411,
+      "longitude": -122.16608
+    },
+    "lineage": [
+      "https://openalex.org/I97018004"
+    ],
+    "geo_original": {
+      "city": "Stanford",
+      "geonames_city_id": "5398563",
+      "region": "California",
+      "country_code": "US",
+      "country": "United States",
+      "latitude": 37.42411,
+      "longitude": -122.16608
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I99065089",
+    "ror": "https://ror.org/03cve4549",
+    "display_name": "Tsinghua University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "lineage": [
+      "https://openalex.org/I99065089"
+    ],
+    "geo_original": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I9927081",
+    "ror": "https://ror.org/020hwjq30",
+    "display_name": "Aalto University",
+    "country_code": "FI",
+    "type": "education",
+    "geo": {
+      "city": "Espoo",
+      "geonames_city_id": "660158",
+      "region": "Uusimaa",
+      "country_code": "FI",
+      "country": "Finland",
+      "latitude": 60.2052001953125,
+      "longitude": 24.65220069885254
+    },
+    "lineage": [
+      "https://openalex.org/I9927081"
+    ],
+    "geo_original": {
+      "city": "Espoo",
+      "geonames_city_id": "660158",
+      "region": null,
+      "country_code": "FI",
+      "country": "Finland",
+      "latitude": 60.2052001953125,
+      "longitude": 24.65220069885254
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "FI-18"
+  }
+]

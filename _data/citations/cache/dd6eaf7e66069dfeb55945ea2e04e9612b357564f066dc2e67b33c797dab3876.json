@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I94518387?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:09+00:00",
+  "data": {
+    "id": "https://openalex.org/I94518387",
+    "ror": "https://ror.org/04nyv3z04",
+    "display_name": "Hanoi University of Science and Technology",
+    "country_code": "VN",
+    "type": "education",
+    "geo": {
+      "city": "Hanoi",
+      "geonames_city_id": "1581130",
+      "region": "Hanoi",
+      "country_code": "VN",
+      "country": "Vietnam",
+      "latitude": 21.0245,
+      "longitude": 105.84117
+    },
+    "lineage": [
+      "https://openalex.org/I94518387"
+    ]
+  }
+}

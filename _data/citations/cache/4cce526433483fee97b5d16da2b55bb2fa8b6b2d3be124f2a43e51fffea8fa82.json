@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I190632392?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:01+00:00",
+  "data": {
+    "id": "https://openalex.org/I190632392",
+    "ror": "https://ror.org/016st3p78",
+    "display_name": "Luleå University of Technology",
+    "country_code": "SE",
+    "type": "education",
+    "geo": {
+      "city": "Luleå",
+      "geonames_city_id": "604490",
+      "region": null,
+      "country_code": "SE",
+      "country": "Sweden",
+      "latitude": 65.58415222167969,
+      "longitude": 22.15464973449707
+    },
+    "lineage": [
+      "https://openalex.org/I190632392"
+    ]
+  }
+}

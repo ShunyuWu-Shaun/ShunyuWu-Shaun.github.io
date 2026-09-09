@@ -69,12 +69,33 @@ the teal.
 
 ## Citation geography
 
-The home-page map covers the publications listed in the public Google Scholar
-profile, with affiliation geography from OpenAlex. Refresh the SVG with:
+The interactive map aggregates citing papers by state/province or institution.
+It uses local Leaflet assets and Natural Earth boundaries. The full citation
+ledger, author affiliations, source snapshots, and coverage audit live in
+[`_data/citations/`](./_data/citations/README.md). This folder is excluded from
+site rendering, resources, search, and navigation; it remains readable in this
+public Git repository.
+
+Refresh OpenAlex records and rebuild the ledger and GIS data:
 
 ```bash
-python3 scripts/build_citation_geography.py
+python3 scripts/update_citations.py
+quarto render
 ```
+
+For a reproducible rebuild from the checked-in response snapshots:
+
+```bash
+python3 scripts/update_citations.py --offline
+```
+
+No API key is required for the saved-data rebuild. If needed for fresh API
+access, `OPENALEX_API_KEY` is read from the environment and never written to
+snapshots. Google Scholar cross-checks are dated source snapshots, refreshed
+separately after verifying each citation match; the command does not claim to
+refresh Scholar. The map excludes direct self-citations and non-research
+paratext records, which are retained and labeled in the ledger. See the data
+README for counting rules, source coverage, and unresolved affiliations.
 
 ## Publishing
 

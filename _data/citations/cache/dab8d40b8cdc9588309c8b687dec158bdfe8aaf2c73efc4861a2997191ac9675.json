@@ -1,0 +1,29 @@
+{
+  "url": "https://api.openalex.org/institutions/I2802759292?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:03+00:00",
+  "data": {
+    "id": "https://openalex.org/I2802759292",
+    "ror": "https://ror.org/004fmxv66",
+    "display_name": "Franche-Comté Électronique Mécanique Thermique et Optique - Sciences et Technologies",
+    "country_code": "FR",
+    "type": "facility",
+    "geo": {
+      "city": "Besançon",
+      "geonames_city_id": "3033123",
+      "region": "Bourgogne-Franche-Comté",
+      "country_code": "FR",
+      "country": "France",
+      "latitude": 47.24878,
+      "longitude": 6.01815
+    },
+    "lineage": [
+      "https://openalex.org/I1294671590",
+      "https://openalex.org/I1294671590",
+      "https://openalex.org/I2802759292",
+      "https://openalex.org/I37553959",
+      "https://openalex.org/I4210095849",
+      "https://openalex.org/I4405256580",
+      "https://openalex.org/I53262699"
+    ]
+  }
+}

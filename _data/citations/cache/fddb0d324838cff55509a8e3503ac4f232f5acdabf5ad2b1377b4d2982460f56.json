@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I205237279?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:01+00:00",
+  "data": {
+    "id": "https://openalex.org/I205237279",
+    "ror": "https://ror.org/01y1kjr75",
+    "display_name": "Nankai University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Tianjin",
+      "geonames_city_id": "1792947",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.14221954345703,
+      "longitude": 117.17666625976562
+    },
+    "lineage": [
+      "https://openalex.org/I205237279"
+    ]
+  }
+}

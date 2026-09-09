@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I168719708?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:00+00:00",
+  "data": {
+    "id": "https://openalex.org/I168719708",
+    "ror": "https://ror.org/03q8dnn23",
+    "display_name": "City University of Hong Kong",
+    "country_code": "HK",
+    "type": "education",
+    "geo": {
+      "city": "Hong Kong",
+      "geonames_city_id": "1819729",
+      "region": null,
+      "country_code": "HK",
+      "country": "Hong Kong",
+      "latitude": 22.27832,
+      "longitude": 114.17469
+    },
+    "lineage": [
+      "https://openalex.org/I168719708"
+    ]
+  }
+}

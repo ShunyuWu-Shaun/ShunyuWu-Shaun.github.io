@@ -1,0 +1,290 @@
+{
+  "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+  "lookups": {
+    "CN:36.06488037109375:120.38041687011719": {
+      "region": "Shandong",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-SD",
+      "polygon_name": "Shandong",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:26.061389923095703:119.30610656738281": {
+      "region": "Fujian",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-FJ",
+      "polygon_name": "Fujian",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:27.563369750976562:110.00404357910156": {
+      "region": "Hunan",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-HN",
+      "polygon_name": "Hunan",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:43.800960540771484:87.60045623779297": {
+      "region": "Xinjiang",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-XJ",
+      "polygon_name": "Xinjiang",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:31.863889694213867:117.28083038330078": {
+      "region": "Anhui",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-AH",
+      "polygon_name": "Anhui",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:31.222219467163086:121.45806121826172": {
+      "region": "Shanghai",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-SH",
+      "polygon_name": "Shanghai",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:23.026769638061523:113.13147735595703": {
+      "region": "Guangdong",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-GD",
+      "polygon_name": "Guangdong",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:30.666669845581055:104.0666732788086": {
+      "region": "Sichuan",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-SC",
+      "polygon_name": "Sichuan",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "HK:22.27832:114.17469": {
+      "region": "Hong Kong S.A.R.",
+      "country_code": "HK",
+      "country": "Hong Kong",
+      "admin1_code": "HK-X02~",
+      "polygon_name": "Wan Chai",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": true
+    },
+    "SE:65.58415222167969:22.15464973449707": {
+      "region": null,
+      "basis": "No unique point-in-polygon match",
+      "matches": 0
+    },
+    "CN:45.75:126.6500015258789": {
+      "region": "Heilongjiang",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-HL",
+      "polygon_name": "Heilongjiang",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:39.14221954345703:117.17666625976562": {
+      "region": "Tianjin",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-TJ",
+      "polygon_name": "Tianjin",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:20.034210205078125:110.34651184082031": {
+      "region": "Hainan",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-HI",
+      "polygon_name": "Hainan",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:34.20441818237305:117.28385925292969": {
+      "region": "Jiangsu",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-JS",
+      "polygon_name": "Jiangsu",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "AE:25.291223526000977:55.46714401245117": {
+      "region": "Emirate of Sharjah",
+      "country_code": "AE",
+      "country": "United Arab Emirates",
+      "admin1_code": "AE-SH",
+      "polygon_name": "Sharjah",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:31.304079055786133:120.59538269042969": {
+      "region": "Jiangsu",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-JS",
+      "polygon_name": "Jiangsu",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "IT:44.79935073852539:10.326180458068848": {
+      "region": "Parma",
+      "country_code": "IT",
+      "country": "Italy",
+      "admin1_code": "IT-PR",
+      "polygon_name": "Parma",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "MA:33.98527908325195:-6.723610877990723": {
+      "region": "Rabat-Salé-Zemmour-Zaër",
+      "country_code": "MA",
+      "country": "Morocco",
+      "admin1_code": "MA-07",
+      "polygon_name": "Rabat - Salé - Zemmour - Zaer",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:37.869869232177734:112.50411987304688": {
+      "region": "Shanxi",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-SX",
+      "polygon_name": "Shanxi",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:26.87800407409668:106.53499603271484": {
+      "region": "Guizhou",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-GZ",
+      "polygon_name": "Guizhou",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:32.32194137573242:118.29778289794922": {
+      "region": "Anhui",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-AH",
+      "polygon_name": "Anhui",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:30.272197723388672:120.13886260986328": {
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-ZJ",
+      "polygon_name": "Zhejiang",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:39.936439514160156:116.42213439941406": {
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-BJ",
+      "polygon_name": "Beijing",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "None:41.79222106933594:123.43277740478516": {
+      "region": "Liaoning",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-LN",
+      "polygon_name": "Liaoning",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:30.583330154418945:114.26667022705078": {
+      "region": "Hubei",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-HB",
+      "polygon_name": "Hubei",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:31.352590560913086:118.4294662475586": {
+      "region": "Anhui",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-AH",
+      "polygon_name": "Anhui",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:30.293649673461914:120.16142272949219": {
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-ZJ",
+      "polygon_name": "Zhejiang",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CZ:50.209228515625:15.832770347595215": {
+      "region": "Hradec Králové",
+      "country_code": "CZ",
+      "country": "Czechia",
+      "admin1_code": "CZ-KR",
+      "polygon_name": "Královéhradecký",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:23.116670608520508:113.25": {
+      "region": "Guangdong",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-GD",
+      "polygon_name": "Guangdong",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "CN:31.523239135742188:118.6201400756836": {
+      "region": "Anhui",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-AH",
+      "polygon_name": "Anhui",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "FI:60.2052001953125:24.65220069885254": {
+      "region": "Uusimaa",
+      "country_code": "FI",
+      "country": "Finland",
+      "admin1_code": "FI-18",
+      "polygon_name": "Uusimaa",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    },
+    "GH:5.303830146789551:-1.9895600080490112": {
+      "region": "Western",
+      "country_code": "GH",
+      "country": "Ghana",
+      "admin1_code": "GH-WP",
+      "polygon_name": "Western",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
+    }
+  },
+  "source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5"
+}

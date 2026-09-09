@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I2799888298?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:02+00:00",
+  "data": {
+    "id": "https://openalex.org/I2799888298",
+    "ror": "https://ror.org/05r7nbf33",
+    "display_name": "Skyline University College",
+    "country_code": "AE",
+    "type": "education",
+    "geo": {
+      "city": "Sharjah city",
+      "geonames_city_id": "292672",
+      "region": null,
+      "country_code": "AE",
+      "country": "United Arab Emirates",
+      "latitude": 25.291223526000977,
+      "longitude": 55.46714401245117
+    },
+    "lineage": [
+      "https://openalex.org/I2799888298"
+    ]
+  }
+}

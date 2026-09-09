@@ -1,0 +1,178 @@
+{
+  "url": "https://api.openalex.org/works/doi:10.1109/CDC49753.2023.10383316?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+  "retrieved_at": "2026-09-09T13:59:53+00:00",
+  "data": {
+    "id": "https://openalex.org/W4391020081",
+    "doi": "https://doi.org/10.1109/cdc49753.2023.10383316",
+    "title": "Adaptive Optimal Control of Nonlinear Systems with Multiple Time-Scale Eligibility Traces",
+    "publication_year": 2023,
+    "publication_date": "2023-12-13",
+    "type": "conference-paper",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5018604914",
+          "display_name": "Jun Rao",
+          "orcid": "https://orcid.org/0000-0002-7467-4898"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jun Rao",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5058905701",
+          "display_name": "Jiahui Xu",
+          "orcid": "https://orcid.org/0000-0002-4058-0447"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiahui Xu",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/cdc49753.2023.10383316",
+      "is_oa": false,
+      "landing_page_url": "http://dx.doi.org/10.1109/cdc49753.2023.10383316",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2023 62nd IEEE Conference on Decision and Control (CDC)",
+      "raw_type": "proceedings-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 0
+  }
+}

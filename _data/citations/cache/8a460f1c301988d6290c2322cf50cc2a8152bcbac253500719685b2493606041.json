@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I55712492?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:08+00:00",
+  "data": {
+    "id": "https://openalex.org/I55712492",
+    "ror": "https://ror.org/02djqfd08",
+    "display_name": "Zhejiang University of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Hangzhou",
+      "geonames_city_id": "1808926",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.293649673461914,
+      "longitude": 120.16142272949219
+    },
+    "lineage": [
+      "https://openalex.org/I55712492"
+    ]
+  }
+}

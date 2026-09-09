@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I37553959?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:03+00:00",
+  "data": {
+    "id": "https://openalex.org/I37553959",
+    "ror": "https://ror.org/05bn3m307",
+    "display_name": "Université de technologie de belfort-montbéliard",
+    "country_code": "FR",
+    "type": "education",
+    "geo": {
+      "city": "Belfort",
+      "geonames_city_id": "3033791",
+      "region": "Bourgogne-Franche-Comté",
+      "country_code": "FR",
+      "country": "France",
+      "latitude": 47.64218,
+      "longitude": 6.85385
+    },
+    "lineage": [
+      "https://openalex.org/I37553959"
+    ]
+  }
+}

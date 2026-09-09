@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I157773358?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T13:59:59+00:00",
+  "data": {
+    "id": "https://openalex.org/I157773358",
+    "ror": "https://ror.org/0064kty71",
+    "display_name": "Sun Yat-sen University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Guangzhou",
+      "geonames_city_id": "1809858",
+      "region": "Guangdong",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 23.11667,
+      "longitude": 113.25
+    },
+    "lineage": [
+      "https://openalex.org/I157773358"
+    ]
+  }
+}

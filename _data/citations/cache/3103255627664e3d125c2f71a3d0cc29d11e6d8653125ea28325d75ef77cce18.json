@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I204983213?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:02+00:00",
+  "data": {
+    "id": "https://openalex.org/I204983213",
+    "ror": "https://ror.org/01yqg2h08",
+    "display_name": "Harbin Institute of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Harbin",
+      "geonames_city_id": "2037013",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 45.75,
+      "longitude": 126.6500015258789
+    },
+    "lineage": [
+      "https://openalex.org/I204983213"
+    ]
+  }
+}

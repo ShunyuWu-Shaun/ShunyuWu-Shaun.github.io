@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I861853513?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:08+00:00",
+  "data": {
+    "id": "https://openalex.org/I861853513",
+    "ror": "https://ror.org/02be6w209",
+    "display_name": "Sapienza University of Rome",
+    "country_code": "IT",
+    "type": "education",
+    "geo": {
+      "city": "Rome",
+      "geonames_city_id": "3169070",
+      "region": "Lazio",
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 41.89193,
+      "longitude": 12.51133
+    },
+    "lineage": [
+      "https://openalex.org/I861853513"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://api.openalex.org/works?filter=cites%3AW7165130889&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+  "retrieved_at": "2026-09-09T13:59:55+00:00",
+  "data": {
+    "meta": {
+      "count": 0,
+      "db_response_time_ms": 6,
+      "page": null,
+      "per_page": 100,
+      "next_cursor": null,
+      "groups_count": null,
+      "x_query": {
+        "oql": "works (all corpora) where it cites (W7165130889)",
+        "oqo": {
+          "get_rows": "works",
+          "corpus": "all",
+          "filter_rows": [
+            {
+              "column_id": "referenced_works",
+              "value": "W7165130889"
+            }
+          ]
+        },
+        "url": "/works?filter=referenced_works:W7165130889&corpus=all&per_page=100&cursor=%2A"
+      },
+      "cost_usd": 0.0001
+    },
+    "results": [],
+    "group_by": []
+  }
+}

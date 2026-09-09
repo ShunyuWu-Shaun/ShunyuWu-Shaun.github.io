@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I139660479?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T13:59:58+00:00",
+  "data": {
+    "id": "https://openalex.org/I139660479",
+    "ror": "https://ror.org/00f1zfq44",
+    "display_name": "Central South University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Changsha",
+      "geonames_city_id": "1815577",
+      "region": "Hunan",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 28.19874,
+      "longitude": 112.97087
+    },
+    "lineage": [
+      "https://openalex.org/I139660479"
+    ]
+  }
+}

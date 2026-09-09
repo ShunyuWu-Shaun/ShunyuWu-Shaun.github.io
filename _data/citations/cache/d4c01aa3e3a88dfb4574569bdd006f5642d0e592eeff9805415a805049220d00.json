@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I4210110794?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:05+00:00",
+  "data": {
+    "id": "https://openalex.org/I4210110794",
+    "ror": "https://ror.org/022vzex26",
+    "display_name": "Taiyuan Heavy Industry (China)",
+    "country_code": "CN",
+    "type": "company",
+    "geo": {
+      "city": "Taiyuan",
+      "geonames_city_id": "1793511",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 37.869869232177734,
+      "longitude": 112.50411987304688
+    },
+    "lineage": [
+      "https://openalex.org/I4210110794"
+    ]
+  }
+}

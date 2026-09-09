@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I126477371?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T13:59:57+00:00",
+  "data": {
+    "id": "https://openalex.org/I126477371",
+    "ror": "https://ror.org/00r8w8f84",
+    "display_name": "Mohammed V University",
+    "country_code": "MA",
+    "type": "education",
+    "geo": {
+      "city": "Rabat",
+      "geonames_city_id": "2538475",
+      "region": "Rabat-Salé-Kénitra",
+      "country_code": "MA",
+      "country": "Morocco",
+      "latitude": 34.01325,
+      "longitude": -6.83255
+    },
+    "lineage": [
+      "https://openalex.org/I126477371"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I75092371?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:07+00:00",
+  "data": {
+    "id": "https://openalex.org/I75092371",
+    "ror": "https://ror.org/05k238v14",
+    "display_name": "University of Hradec Králové",
+    "country_code": "CZ",
+    "type": "education",
+    "geo": {
+      "city": "Hradec Králové",
+      "geonames_city_id": "3074967",
+      "region": null,
+      "country_code": "CZ",
+      "country": "Czechia",
+      "latitude": 50.209228515625,
+      "longitude": 15.832770347595215
+    },
+    "lineage": [
+      "https://openalex.org/I75092371"
+    ]
+  }
+}

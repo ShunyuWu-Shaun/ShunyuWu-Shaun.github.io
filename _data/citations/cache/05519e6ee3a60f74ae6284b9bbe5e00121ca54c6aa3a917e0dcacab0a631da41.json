@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I146367977?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T13:59:58+00:00",
+  "data": {
+    "id": "https://openalex.org/I146367977",
+    "ror": "https://ror.org/01ah6nb52",
+    "display_name": "Applied Science Private University",
+    "country_code": "JO",
+    "type": "education",
+    "geo": {
+      "city": "Amman",
+      "geonames_city_id": "250441",
+      "region": "Amman",
+      "country_code": "JO",
+      "country": "Jordan",
+      "latitude": 31.95522,
+      "longitude": 35.94503
+    },
+    "lineage": [
+      "https://openalex.org/I146367977"
+    ]
+  }
+}

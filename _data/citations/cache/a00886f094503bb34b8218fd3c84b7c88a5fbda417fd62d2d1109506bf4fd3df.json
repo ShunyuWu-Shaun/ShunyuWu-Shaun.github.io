@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I55240360?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:08+00:00",
+  "data": {
+    "id": "https://openalex.org/I55240360",
+    "ror": "https://ror.org/05yc6p159",
+    "display_name": "Yeungnam University",
+    "country_code": "KR",
+    "type": "education",
+    "geo": {
+      "city": "Daegu",
+      "geonames_city_id": "1835329",
+      "region": "Daegu",
+      "country_code": "KR",
+      "country": "South Korea",
+      "latitude": 35.87028,
+      "longitude": 128.59111
+    },
+    "lineage": [
+      "https://openalex.org/I55240360"
+    ]
+  }
+}

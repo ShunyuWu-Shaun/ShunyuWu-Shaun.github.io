@@ -1,0 +1,590 @@
+{
+  "url": "https://api.openalex.org/works?filter=cites%3AW4376479136&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+  "retrieved_at": "2026-09-09T13:59:54+00:00",
+  "data": {
+    "meta": {
+      "count": 2,
+      "db_response_time_ms": 13,
+      "page": null,
+      "per_page": 100,
+      "next_cursor": null,
+      "groups_count": null,
+      "x_query": {
+        "oql": "works (all corpora) where it cites (W4376479136)",
+        "oqo": {
+          "get_rows": "works",
+          "corpus": "all",
+          "filter_rows": [
+            {
+              "column_id": "referenced_works",
+              "value": "W4376479136"
+            }
+          ]
+        },
+        "url": "/works?filter=referenced_works:W4376479136&corpus=all&per_page=100&cursor=%2A"
+      },
+      "cost_usd": 0.0001
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W4413754711",
+        "doi": "https://doi.org/10.1109/tsg.2025.3601238",
+        "title": "End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling",
+        "publication_year": 2025,
+        "publication_date": "2025-08-27",
+        "type": "article",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5087893108",
+              "display_name": "Shunyu Wu",
+              "orcid": "https://orcid.org/0000-0001-9856-2148"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1327237609",
+                "display_name": "Ministry of Education of the People's Republic of China",
+                "ror": "https://ror.org/01mv9t934",
+                "country_code": "CN",
+                "type": "government",
+                "lineage": [
+                  "https://openalex.org/I1327237609",
+                  "https://openalex.org/I4210127390"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I183067930",
+                "display_name": "Shanghai Jiao Tong University",
+                "ror": "https://ror.org/0220qvk04",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Shunyu Wu",
+            "raw_affiliation_strings": [
+              "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
+              "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-9856-2148",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
+                "institution_ids": [
+                  "https://openalex.org/I183067930"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
+                "institution_ids": [
+                  "https://openalex.org/I1327237609"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5100777024",
+              "display_name": "Jingcheng Wang",
+              "orcid": "https://orcid.org/0000-0002-4277-1263"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1327237609",
+                "display_name": "Ministry of Education of the People's Republic of China",
+                "ror": "https://ror.org/01mv9t934",
+                "country_code": "CN",
+                "type": "government",
+                "lineage": [
+                  "https://openalex.org/I1327237609",
+                  "https://openalex.org/I4210127390"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I183067930",
+                "display_name": "Shanghai Jiao Tong University",
+                "ror": "https://ror.org/0220qvk04",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jingcheng Wang",
+            "raw_affiliation_strings": [
+              "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
+              "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-4277-1263",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
+                "institution_ids": [
+                  "https://openalex.org/I183067930"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
+                "institution_ids": [
+                  "https://openalex.org/I1327237609"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5040505108",
+              "display_name": "Haotian Xu",
+              "orcid": "https://orcid.org/0000-0002-2180-6148"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I154099455",
+                "display_name": "Shandong University",
+                "ror": "https://ror.org/0207yh398",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I154099455"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Haotian Xu",
+            "raw_affiliation_strings": [
+              "School of Control Science and Engineering, Shandong University, Jinan, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-2180-6148",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Control Science and Engineering, Shandong University, Jinan, China",
+                "institution_ids": [
+                  "https://openalex.org/I154099455"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5023069826",
+              "display_name": "Yanjiu Zhong",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I16365422",
+                "display_name": "Hefei University of Technology",
+                "ror": "https://ror.org/02czkny70",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I16365422"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Yanjiu Zhong",
+            "raw_affiliation_strings": [
+              "School of Management, Hefei University of Technology, Hefei, Anhui, China",
+              "School of Management, Hefei University of Technology, Hefei, Anhui, PR China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Management, Hefei University of Technology, Hefei, Anhui, China",
+                "institution_ids": [
+                  "https://openalex.org/I16365422"
+                ]
+              },
+              {
+                "raw_affiliation_string": "School of Management, Hefei University of Technology, Hefei, Anhui, PR China",
+                "institution_ids": [
+                  "https://openalex.org/I16365422"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5018604914",
+              "display_name": "Jun Rao",
+              "orcid": "https://orcid.org/0000-0002-7467-4898"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1327237609",
+                "display_name": "Ministry of Education of the People's Republic of China",
+                "ror": "https://ror.org/01mv9t934",
+                "country_code": "CN",
+                "type": "government",
+                "lineage": [
+                  "https://openalex.org/I1327237609",
+                  "https://openalex.org/I4210127390"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I183067930",
+                "display_name": "Shanghai Jiao Tong University",
+                "ror": "https://ror.org/0220qvk04",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jun Rao",
+            "raw_affiliation_strings": [
+              "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
+              "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-7467-4898",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
+                "institution_ids": [
+                  "https://openalex.org/I183067930"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
+                "institution_ids": [
+                  "https://openalex.org/I1327237609"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.1109/tsg.2025.3601238",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/tsg.2025.3601238",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S59604973",
+            "display_name": "IEEE Transactions on Smart Grid",
+            "issn_l": "1949-3053",
+            "issn": [
+              "1949-3053",
+              "1949-3061"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Smart Grid",
+          "raw_type": "journal-article"
+        },
+        "is_retracted": false
+      },
+      {
+        "id": "https://openalex.org/W7166318156",
+        "doi": "https://doi.org/10.1061/jwrmd5.wreng-7312",
+        "title": "Fixed-Interval Sampling for Water Distribution System Monitoring: An Adaptive Strategy through Time-Frequency Analysis",
+        "publication_year": 2026,
+        "publication_date": "2026-06-27",
+        "type": "article",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5123302143",
+              "display_name": "Shaosong Wei",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I76130692",
+                "display_name": "Zhejiang University",
+                "ror": "https://ror.org/00a2xv884",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I76130692"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Shaosong Wei",
+            "raw_affiliation_strings": [
+              "Zhejiang Univ"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Zhejiang Univ",
+                "institution_ids": [
+                  "https://openalex.org/I76130692"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5072750031",
+              "display_name": "Zhigang Liu",
+              "orcid": "https://orcid.org/0000-0003-4154-5587"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210132981",
+                "display_name": "Ningxia Water Conservancy",
+                "ror": "https://ror.org/02p2qrw13",
+                "country_code": "CN",
+                "type": "government",
+                "lineage": [
+                  "https://openalex.org/I4210132981"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Zhigang Liu",
+            "raw_affiliation_strings": [
+              "Ningbo Water and Environment Group Co., Ltd"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Ningbo Water and Environment Group Co., Ltd",
+                "institution_ids": [
+                  "https://openalex.org/I4210132981"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5100606549",
+              "display_name": "Jie Fei",
+              "orcid": "https://orcid.org/0000-0001-9079-7874"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210132981",
+                "display_name": "Ningxia Water Conservancy",
+                "ror": "https://ror.org/02p2qrw13",
+                "country_code": "CN",
+                "type": "government",
+                "lineage": [
+                  "https://openalex.org/I4210132981"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jie Fei",
+            "raw_affiliation_strings": [
+              "Ningbo Water and Environment Group Co., Ltd"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Ningbo Water and Environment Group Co., Ltd",
+                "institution_ids": [
+                  "https://openalex.org/I4210132981"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5022765674",
+              "display_name": "Tingchao Yu",
+              "orcid": "https://orcid.org/0000-0002-3230-0249"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I76130692",
+                "display_name": "Zhejiang University",
+                "ror": "https://ror.org/00a2xv884",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I76130692"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Tingchao Yu",
+            "raw_affiliation_strings": [
+              "Zhejiang Univ"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-3230-0249",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Zhejiang Univ",
+                "institution_ids": [
+                  "https://openalex.org/I76130692"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5091007059",
+              "display_name": "Avi Ostfeld",
+              "orcid": "https://orcid.org/0000-0001-9112-6079"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I174306211",
+                "display_name": "Technion – Israel Institute of Technology",
+                "ror": "https://ror.org/03qryx823",
+                "country_code": "IL",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I174306211"
+                ]
+              }
+            ],
+            "countries": [
+              "IL"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Avi Ostfeld",
+            "raw_affiliation_strings": [
+              "Technion - Israel Institute of Technology"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-9112-6079",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Technion - Israel Institute of Technology",
+                "institution_ids": [
+                  "https://openalex.org/I174306211"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5063905569",
+              "display_name": "Shipeng Chu",
+              "orcid": "https://orcid.org/0000-0003-2678-992X"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I76130692",
+                "display_name": "Zhejiang University",
+                "ror": "https://ror.org/00a2xv884",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I76130692"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Shipeng Chu",
+            "raw_affiliation_strings": [
+              "Zhejiang Univ"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0003-2678-992X",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Zhejiang Univ",
+                "institution_ids": [
+                  "https://openalex.org/I76130692"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.1061/jwrmd5.wreng-7312",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1061/jwrmd5.wreng-7312",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S127754761",
+            "display_name": "Journal of Water Resources Planning and Management",
+            "issn_l": "0733-9496",
+            "issn": [
+              "0733-9496",
+              "1943-5452"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310315747",
+            "host_organization_name": "American Society of Civil Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310315747"
+            ],
+            "host_organization_lineage_names": [
+              "American Society of Civil Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Water Resources Planning and Management",
+          "raw_type": "journal-article"
+        },
+        "is_retracted": false
+      }
+    ],
+    "group_by": []
+  }
+}

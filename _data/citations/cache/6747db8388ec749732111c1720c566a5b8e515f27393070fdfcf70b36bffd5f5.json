@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I1334729051?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T13:59:58+00:00",
+  "data": {
+    "id": "https://openalex.org/I1334729051",
+    "ror": "https://ror.org/00ndrvk93",
+    "display_name": "Xinjiang Normal University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Ürümqi",
+      "geonames_city_id": "1529102",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 43.800960540771484,
+      "longitude": 87.60045623779297
+    },
+    "lineage": [
+      "https://openalex.org/I1334729051"
+    ]
+  }
+}

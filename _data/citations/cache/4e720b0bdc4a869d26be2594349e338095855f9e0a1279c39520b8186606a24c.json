@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I9927081?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:10+00:00",
+  "data": {
+    "id": "https://openalex.org/I9927081",
+    "ror": "https://ror.org/020hwjq30",
+    "display_name": "Aalto University",
+    "country_code": "FI",
+    "type": "education",
+    "geo": {
+      "city": "Espoo",
+      "geonames_city_id": "660158",
+      "region": null,
+      "country_code": "FI",
+      "country": "Finland",
+      "latitude": 60.2052001953125,
+      "longitude": 24.65220069885254
+    },
+    "lineage": [
+      "https://openalex.org/I9927081"
+    ]
+  }
+}

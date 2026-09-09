@@ -1,0 +1,107 @@
+{
+  "url": "https://api.openalex.org/works/doi:10.48550/arXiv.2603.23232?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+  "retrieved_at": "2026-09-09T13:59:54+00:00",
+  "data": {
+    "id": "https://openalex.org/W7140303640",
+    "doi": "https://doi.org/10.48550/arxiv.2603.23232",
+    "title": "GEM: Guided Expectation-Maximization for Behavior-Normalized Candidate Action Selection in Offline RL",
+    "publication_year": 2026,
+    "publication_date": "2026-03-24",
+    "type": "preprint",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5130575137",
+          "display_name": "Haoyu Wang",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wang, Haoyu",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5130565517",
+          "display_name": "Jingcheng Wang",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wang, Jingcheng",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wu, Shunyu",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5130554354",
+          "display_name": "Xinwei Xiao",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Xiao, Xinwei",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.48550/arxiv.2603.23232",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.48550/arxiv.2603.23232",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Preprint"
+    },
+    "is_retracted": false,
+    "cited_by_count": 0
+  }
+}

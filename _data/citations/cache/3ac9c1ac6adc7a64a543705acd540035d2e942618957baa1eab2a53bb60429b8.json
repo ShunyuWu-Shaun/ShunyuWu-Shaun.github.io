@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I4210115456?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:05+00:00",
+  "data": {
+    "id": "https://openalex.org/I4210115456",
+    "ror": "https://ror.org/037663q52",
+    "display_name": "Chuzhou University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Chuzhou",
+      "geonames_city_id": "1814757",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 32.32194137573242,
+      "longitude": 118.29778289794922
+    },
+    "lineage": [
+      "https://openalex.org/I4210115456"
+    ]
+  }
+}

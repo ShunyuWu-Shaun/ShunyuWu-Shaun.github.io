@@ -1,0 +1,1067 @@
+{
+  "started_at": "2026-09-09T14:10:09+00:00",
+  "completed_at": "2026-09-09T14:10:09+00:00",
+  "data_retrieved_at": "2026-09-09T14:09:28+00:00",
+  "source": "OpenAlex with Google Scholar citation cross-check",
+  "scholar_cross_check": {
+    "retrieved_at": "2026-09-09T13:58:20.105060+00:00",
+    "input_scholar_file": "sources/scholar-citations.json",
+    "compared_openalex_snapshot": "_data/citations/current/citing-works.json",
+    "summary": {
+      "scholar_edges": 8,
+      "scholar_unique_works": 7,
+      "existing_openalex_works": 6,
+      "new_works": 1,
+      "edges_already_in_openalex": 7,
+      "new_scholar_edges": 1,
+      "unresolved_records": 0
+    },
+    "new_work_metadata_notes": [
+      {
+        "work_id": "W7197003632",
+        "source": "OpenAlex single-work DOI endpoint; Crossref and SSRN metadata corroborated",
+        "api_url": "https://api.openalex.org/works/doi:10.2139/ssrn.7185818",
+        "missing_requested_fields": [
+          "is_authors_truncated"
+        ],
+        "note": "The API response omits is_authors_truncated; no false value has been invented. publication_date 2026-01-01 represents a year-only Crossref date, while SSRN reports written 2026-06-10 and posted 2026-08-06. Preserve this distinction if displaying full dates."
+      }
+    ],
+    "unresolved": [],
+    "coverage_note": "All 8 Scholar rows exposed by the accessed citing-results pages have been resolved. This is not a claim that all 66 citations shown in the Scholar profile were enumerated.",
+    "parser_audit": {
+      "notes": [
+        "Cited-by URLs were used verbatim from .gsc_a_ac profile links; query parameters are only oi=bibs, hl=en and cites=<cluster>. No view_op, citation_for_view, year filter or start offset was appended.",
+        "Across all nine returned pages, independent .gs_rt counts, full .gs_r.gs_or.gs_scl counts and literal class occurrences match the extracted eight rows.",
+        "No pagination navigation links or next icons are present in any of the returned pages.",
+        "Three pages explicitly state that no citing articles were found even though the profile count is positive; the discrepancy is already in the source response and is not caused by reading only the first result block.",
+        "The cause of the source-level discrepancy cannot be established from these pages; do not infer that the profile aggregate is wrong or that all citing works have been exposed."
+      ],
+      "pages": [
+        {
+          "target_doi": "10.1109/tase.2023.3236306",
+          "profile_count": 13,
+          "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17982578804515414946",
+          "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17982578804515414946",
+          "request_query": {
+            "oi": [
+              "bibs"
+            ],
+            "hl": [
+              "en"
+            ],
+            "cites": [
+              "17982578804515414946"
+            ]
+          },
+          "request_has_profile_detail_parameter": false,
+          "gs_rt_title_count": 3,
+          "gs_r_gs_or_gs_scl_count": 3,
+          "parsed_row_count": 3,
+          "raw_class_literal_count": 3,
+          "result_header": "3 results ( 0.04 sec)",
+          "no_results_text": "",
+          "all_navigation_links": [],
+          "has_nav_next_icon": false,
+          "title_texts": [
+            "[HTML] [HTML] Quantized dissipative control for fuzzy hot strip mill cooling system under input constraint via dynamic output feedback approach",
+            "[HTML] [HTML] A hierarchical multi-task learning-based electrical energy consumption prediction method with application to the hot strip rolling mill process",
+            "An automated mechanical property testing system based on electric field assistance and non-contact signal measurement"
+          ],
+          "html_file": "sources/scholar-cites-01-01.html"
+        },
+        {
+          "target_doi": "10.1016/j.eswa.2024.124508",
+          "profile_count": 12,
+          "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10782110211194483263",
+          "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10782110211194483263",
+          "request_query": {
+            "oi": [
+              "bibs"
+            ],
+            "hl": [
+              "en"
+            ],
+            "cites": [
+              "10782110211194483263"
+            ]
+          },
+          "request_has_profile_detail_parameter": false,
+          "gs_rt_title_count": 0,
+          "gs_r_gs_or_gs_scl_count": 0,
+          "parsed_row_count": 0,
+          "raw_class_literal_count": 0,
+          "result_header": "",
+          "no_results_text": "",
+          "all_navigation_links": [],
+          "has_nav_next_icon": false,
+          "title_texts": [],
+          "html_file": "sources/scholar-cites-02-01.html"
+        },
+        {
+          "target_doi": "10.1109/tsmc.2023.3344883",
+          "profile_count": 11,
+          "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9194898683237041119",
+          "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9194898683237041119",
+          "request_query": {
+            "oi": [
+              "bibs"
+            ],
+            "hl": [
+              "en"
+            ],
+            "cites": [
+              "9194898683237041119"
+            ]
+          },
+          "request_has_profile_detail_parameter": false,
+          "gs_rt_title_count": 1,
+          "gs_r_gs_or_gs_scl_count": 1,
+          "parsed_row_count": 1,
+          "raw_class_literal_count": 1,
+          "result_header": "1 result ( 0.05 sec)",
+          "no_results_text": "",
+          "all_navigation_links": [],
+          "has_nav_next_icon": false,
+          "title_texts": [
+            "Fuzzy-based optimal control for stochastic nonlinear systems with constrained inputs via dynamic event-triggering"
+          ],
+          "html_file": "sources/scholar-cites-03-01.html"
+        },
+        {
+          "target_doi": "10.1109/tase.2023.3299185",
+          "profile_count": 8,
+          "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6210036472641191013",
+          "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6210036472641191013",
+          "request_query": {
+            "oi": [
+              "bibs"
+            ],
+            "hl": [
+              "en"
+            ],
+            "cites": [
+              "6210036472641191013"
+            ]
+          },
+          "request_has_profile_detail_parameter": false,
+          "gs_rt_title_count": 1,
+          "gs_r_gs_or_gs_scl_count": 1,
+          "parsed_row_count": 1,
+          "raw_class_literal_count": 1,
+          "result_header": "1 result ( 0.02 sec)",
+          "no_results_text": "",
+          "all_navigation_links": [],
+          "has_nav_next_icon": false,
+          "title_texts": [
+            "[HTML] [HTML] A hierarchical multi-task learning-based electrical energy consumption prediction method with application to the hot strip rolling mill process"
+          ],
+          "html_file": "sources/scholar-cites-04-01.html"
+        },
+        {
+          "target_doi": "10.1109/tsmc.2023.3327450",
+          "profile_count": 8,
+          "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5565069619425376379",
+          "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5565069619425376379",
+          "request_query": {
+            "oi": [
+              "bibs"
+            ],
+            "hl": [
+              "en"
+            ],
+            "cites": [
+              "5565069619425376379"
+            ]
+          },
+          "request_has_profile_detail_parameter": false,
+          "gs_rt_title_count": 1,
+          "gs_r_gs_or_gs_scl_count": 1,
+          "parsed_row_count": 1,
+          "raw_class_literal_count": 1,
+          "result_header": "1 result ( 0.03 sec)",
+          "no_results_text": "",
+          "all_navigation_links": [],
+          "has_nav_next_icon": false,
+          "title_texts": [
+            "Discrete-time Optimal Formation Control of Unmanned Vehicles Based on Policy Gradient Adaptive Dynamic Programming"
+          ],
+          "html_file": "sources/scholar-cites-05-01.html"
+        },
+        {
+          "target_doi": "10.1109/tsg.2025.3601238",
+          "profile_count": 6,
+          "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10373990695958943321",
+          "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10373990695958943321",
+          "request_query": {
+            "oi": [
+              "bibs"
+            ],
+            "hl": [
+              "en"
+            ],
+            "cites": [
+              "10373990695958943321"
+            ]
+          },
+          "request_has_profile_detail_parameter": false,
+          "gs_rt_title_count": 1,
+          "gs_r_gs_or_gs_scl_count": 1,
+          "parsed_row_count": 1,
+          "raw_class_literal_count": 1,
+          "result_header": "1 result ( 0.03 sec)",
+          "no_results_text": "",
+          "all_navigation_links": [],
+          "has_nav_next_icon": false,
+          "title_texts": [
+            "Decision-Oriented Machine Learning for Renewable-Dominated Power System Planning Under Uncertainty: A Review"
+          ],
+          "html_file": "sources/scholar-cites-06-01.html"
+        },
+        {
+          "target_doi": "10.23919/ccc52363.2021.9550182",
+          "profile_count": 5,
+          "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11079227468890272109",
+          "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11079227468890272109",
+          "request_query": {
+            "oi": [
+              "bibs"
+            ],
+            "hl": [
+              "en"
+            ],
+            "cites": [
+              "11079227468890272109"
+            ]
+          },
+          "request_has_profile_detail_parameter": false,
+          "gs_rt_title_count": 1,
+          "gs_r_gs_or_gs_scl_count": 1,
+          "parsed_row_count": 1,
+          "raw_class_literal_count": 1,
+          "result_header": "1 result ( 0.03 sec)",
+          "no_results_text": "",
+          "all_navigation_links": [],
+          "has_nav_next_icon": false,
+          "title_texts": [
+            "[HTML] [HTML] Machine learning for smart water distribution systems: exploring applications, challenges and future perspectives: R. Jr. L. Taloma et al."
+          ],
+          "html_file": "sources/scholar-cites-07-01.html"
+        },
+        {
+          "target_doi": "10.1109/tcss.2023.3272330",
+          "profile_count": 2,
+          "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16572637879701461247",
+          "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16572637879701461247",
+          "request_query": {
+            "oi": [
+              "bibs"
+            ],
+            "hl": [
+              "en"
+            ],
+            "cites": [
+              "16572637879701461247"
+            ]
+          },
+          "request_has_profile_detail_parameter": false,
+          "gs_rt_title_count": 0,
+          "gs_r_gs_or_gs_scl_count": 0,
+          "parsed_row_count": 0,
+          "raw_class_literal_count": 0,
+          "result_header": "",
+          "no_results_text": "",
+          "all_navigation_links": [],
+          "has_nav_next_icon": false,
+          "title_texts": [],
+          "html_file": "sources/scholar-cites-08-01.html"
+        },
+        {
+          "target_doi": "10.1016/j.ifacol.2023.10.581",
+          "profile_count": 1,
+          "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3555488285760198709",
+          "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3555488285760198709",
+          "request_query": {
+            "oi": [
+              "bibs"
+            ],
+            "hl": [
+              "en"
+            ],
+            "cites": [
+              "3555488285760198709"
+            ]
+          },
+          "request_has_profile_detail_parameter": false,
+          "gs_rt_title_count": 0,
+          "gs_r_gs_or_gs_scl_count": 0,
+          "parsed_row_count": 0,
+          "raw_class_literal_count": 0,
+          "result_header": "",
+          "no_results_text": "",
+          "all_navigation_links": [],
+          "has_nav_next_icon": false,
+          "title_texts": [],
+          "html_file": "sources/scholar-cites-09-01.html"
+        }
+      ]
+    }
+  },
+  "target_scope": "14 DOI-verified works on Google Scholar plus one publisher-ORCID-verified supplementary work",
+  "authorship_truncation_note": "The current API omits is_authors_truncated. Unknown values remain null; no claim of independently verified author-list completeness is made.",
+  "non_research_rule": "Retain type=paratext records in the retrieval ledger; exclude them from citing-paper and map counts.",
+  "corpus": "all",
+  "coverage": "All cursor pages for each target. OpenAlex coverage is not identical to Google Scholar.",
+  "summary": {
+    "target_works": 15,
+    "citation_edges": 60,
+    "unique_citing_works": 55,
+    "openalex_citation_edges": 59,
+    "scholar_verified_edges": 8,
+    "scholar_additional_edges": 1,
+    "direct_self_citing_works": 3,
+    "non_research_citing_records": 1,
+    "external_citing_records": 52,
+    "external_citing_works": 51,
+    "mapped_external_citing_works": 50,
+    "unmapped_external_citing_works": 1,
+    "partial_region_coverage_external_citing_works": 3,
+    "regions": 44,
+    "institutions": 77,
+    "countries": 19,
+    "excluded_sponsor_parent_affiliation_rows": 3,
+    "authorships_truncated_works": 0,
+    "authorship_truncation_status_unknown_works": 55,
+    "scholar_profile_scope_citation_edges": 56
+  },
+  "queries": [
+    {
+      "target_id": "W4413754711",
+      "expected": 3,
+      "retrieved": 3,
+      "pages": [
+        {
+          "count": 3,
+          "records": 3
+        }
+      ]
+    },
+    {
+      "target_id": "W4399709078",
+      "expected": 11,
+      "retrieved": 11,
+      "pages": [
+        {
+          "count": 11,
+          "records": 11
+        }
+      ]
+    },
+    {
+      "target_id": "W4376479136",
+      "expected": 2,
+      "retrieved": 2,
+      "pages": [
+        {
+          "count": 2,
+          "records": 2
+        }
+      ]
+    },
+    {
+      "target_id": "W3202625584",
+      "expected": 3,
+      "retrieved": 3,
+      "pages": [
+        {
+          "count": 3,
+          "records": 3
+        }
+      ]
+    },
+    {
+      "target_id": "W7165130889",
+      "expected": 0,
+      "retrieved": 0,
+      "pages": [
+        {
+          "count": 0,
+          "records": 0
+        }
+      ]
+    },
+    {
+      "target_id": "W4390829281",
+      "expected": 9,
+      "retrieved": 9,
+      "pages": [
+        {
+          "count": 9,
+          "records": 9
+        }
+      ]
+    },
+    {
+      "target_id": "W4388740257",
+      "expected": 7,
+      "retrieved": 7,
+      "pages": [
+        {
+          "count": 7,
+          "records": 7
+        }
+      ]
+    },
+    {
+      "target_id": "W4391020081",
+      "expected": 0,
+      "retrieved": 0,
+      "pages": [
+        {
+          "count": 0,
+          "records": 0
+        }
+      ]
+    },
+    {
+      "target_id": "W4388904509",
+      "expected": 0,
+      "retrieved": 0,
+      "pages": [
+        {
+          "count": 0,
+          "records": 0
+        }
+      ]
+    },
+    {
+      "target_id": "W3204859870",
+      "expected": 0,
+      "retrieved": 0,
+      "pages": [
+        {
+          "count": 0,
+          "records": 0
+        }
+      ]
+    },
+    {
+      "target_id": "W4316660809",
+      "expected": 13,
+      "retrieved": 13,
+      "pages": [
+        {
+          "count": 13,
+          "records": 13
+        }
+      ]
+    },
+    {
+      "target_id": "W4388579581",
+      "expected": 7,
+      "retrieved": 7,
+      "pages": [
+        {
+          "count": 7,
+          "records": 7
+        }
+      ]
+    },
+    {
+      "target_id": "W7140303640",
+      "expected": 0,
+      "retrieved": 0,
+      "pages": [
+        {
+          "count": 0,
+          "records": 0
+        }
+      ]
+    },
+    {
+      "target_id": "W7204989471",
+      "expected": 0,
+      "retrieved": 0,
+      "pages": [
+        {
+          "count": 0,
+          "records": 0
+        }
+      ]
+    },
+    {
+      "target_id": "W4393188243",
+      "expected": 4,
+      "retrieved": 4,
+      "pages": [
+        {
+          "count": 4,
+          "records": 4
+        }
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://api.openalex.org/institutions/I108688024?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:57+00:00",
+      "cache_file": "cache/64eb3a38de3181d66a29723d1ceac1b890937d9a3e1598e9a0dd076e7cf2e9f1.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I111753288?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:57+00:00",
+      "cache_file": "cache/602c9a4b4f5747e5a31a60799d94821a3c90d533a7cc330636d81609629b2fe2.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I12393601?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:57+00:00",
+      "cache_file": "cache/4ed90c2a3b77e20a4c469cb82a8e61972017d472ee19df54b48f64e165921303.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I126477371?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:57+00:00",
+      "cache_file": "cache/e091d17aad062e37ef356eba464c608013c8284e87b7d957a7c57172d6048c79.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I1294671590?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:57+00:00",
+      "cache_file": "cache/5af2868f4ca2bb262826ebd29ece6834800271b8ada46ee849d7c1d401e6120d.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I1327237609?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:58+00:00",
+      "cache_file": "cache/c8009db162084a4a82524215aac86fc8f5eabef08ca4c9e8fdbc0927fb5d1c4e.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I1334729051?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:58+00:00",
+      "cache_file": "cache/6747db8388ec749732111c1720c566a5b8e515f27393070fdfcf70b36bffd5f5.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I139660479?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:58+00:00",
+      "cache_file": "cache/421f347433379664d3821099456b6b055607ca58b2bc35c6cf74cc711c096619.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I141301092?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:58+00:00",
+      "cache_file": "cache/82187faa6d50f2a397e8c3c781fa34e21f4a431d00f1c6bd6a01fc947ed61e25.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I143868143?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:58+00:00",
+      "cache_file": "cache/fc8b15db4edbff4c156d464b782e249ef9b4de9585d260752a386fd8f40d5f59.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I146367977?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:58+00:00",
+      "cache_file": "cache/05519e6ee3a60f74ae6284b9bbe5e00121ca54c6aa3a917e0dcacab0a631da41.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I146655781?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:59+00:00",
+      "cache_file": "cache/9e08dfd10a8185603b7e2973b6ed272959be877fcfa7f97a691883d61a28ca36.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I148128674?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:59+00:00",
+      "cache_file": "cache/4fc5119f17644b27322efcd4f903df1313607a2b9285bfe9a57e205aca516820.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I14894300?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:59+00:00",
+      "cache_file": "cache/f0b8ba90206c5612ecfb8efc1c181d1c6a4e70604f5f3d37160546e1f05e1e53.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I150229711?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:59+00:00",
+      "cache_file": "cache/eebb6e5c2fce2672eac5ee536ebd800a228e8828bb0dcf2e4f2dc3b08f61e319.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I154099455?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:59+00:00",
+      "cache_file": "cache/5024aedf3e3308fafa1deca3981cb4506ab3da2917b4747d177560be5843929e.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I157773358?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T13:59:59+00:00",
+      "cache_file": "cache/3a82810255ba23edf65d155e81c6b0f703e52a9bdc9ea1da5a507a68e256b16e.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I158842170?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:00+00:00",
+      "cache_file": "cache/ae64b20e1577a196767d1f36eda4beaefbd8180b0bfccc21b7724014ed2d3607.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I162868743?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:00+00:00",
+      "cache_file": "cache/e7fceaf25a3114ca78023a480aeff275f0d0398154fb6703cca41d1e968bded9.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I16365422?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:00+00:00",
+      "cache_file": "cache/146a4032efe1c78cce4686a1af0a662361403a8becbf064077394286e33eb30f.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I16609230?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:00+00:00",
+      "cache_file": "cache/597843a70ee84a5fe5d13c49c5ef964d11b54efbf3237bfb92dd88364ba29aaa.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I168337820?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:01+00:00",
+      "cache_file": "cache/8f2ee9ee20d4e870ff0465a26489e336be86eb808258b1dd4ea1946da06658a3.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I168719708?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:00+00:00",
+      "cache_file": "cache/0deeb32a3733f0c086a4b440fd2a3867978371cdc2ec09efc29c5a5ace3b743c.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I170215575?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:01+00:00",
+      "cache_file": "cache/f137433cc96871ca2c240f044d2c8ab5ec4cf984d900143066bf5b1decd16e77.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I174306211?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:01+00:00",
+      "cache_file": "cache/29aaf1e7a6df5cb8c97e007789aa74a10f466c4e0306d118d9491c9cad9c26e5.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I183067930?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:01+00:00",
+      "cache_file": "cache/90615a4475be4d01798a0cf3697cf188e5633ed53de3aa85d8277d4789ff7958.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I190632392?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:01+00:00",
+      "cache_file": "cache/4cce526433483fee97b5d16da2b55bb2fa8b6b2d3be124f2a43e51fffea8fa82.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I194450716?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:01+00:00",
+      "cache_file": "cache/bc67f85e54c503031caa0e94bb13825480565a120d5b78aa6354a49e3dbc2ee0.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I204983213?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:02+00:00",
+      "cache_file": "cache/3103255627664e3d125c2f71a3d0cc29d11e6d8653125ea28325d75ef77cce18.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I205237279?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:01+00:00",
+      "cache_file": "cache/fddb0d324838cff55509a8e3503ac4f232f5acdabf5ad2b1377b4d2982460f56.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I20942203?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:02+00:00",
+      "cache_file": "cache/ad4cb382a5a53bbecd440fe9466cfe2e229022763d596f0fe459163f6c8058f8.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I25254941?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:02+00:00",
+      "cache_file": "cache/1814923d5896c80908b21fcbeb9cb3f2ef752f5e6f06bb4e0cc7943b3d1f7b98.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I25757504?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:04+00:00",
+      "cache_file": "cache/5ae809545771c704d11c5d3ca977adae981a12f4289c92bef7076a9e2dc70bf6.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I27031042?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:03+00:00",
+      "cache_file": "cache/daa97b898a8e5c90fb4d395e8a198109b26d0be94e076480ae82768307c06c19.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I2799888298?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:02+00:00",
+      "cache_file": "cache/d1450d76359c27c308e52644150fbb18f016d9392227f0506451951df2420cd3.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I2802759292?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:03+00:00",
+      "cache_file": "cache/dab8d40b8cdc9588309c8b687dec158bdfe8aaf2c73efc4861a2997191ac9675.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I3045169105?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:03+00:00",
+      "cache_file": "cache/2732be90177343269da8d018f6b26be198eb8aa714617292ba0284bede6eecdc.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I308837?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:03+00:00",
+      "cache_file": "cache/6725dac70a8241ea94a1ebabdda669aa0887986a6ad45e29cd6b1e4f8114b1bb.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I32625721?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:03+00:00",
+      "cache_file": "cache/305be312e72d08c99ba2727d32ffb1960ba5ceb0bff7e4e9cbe8be8edea92dc7.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I34771391?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:03+00:00",
+      "cache_file": "cache/3bffab4cb856ae327a263c8efa175dadb1cd432d3d63db5d496dd298b5ce4894.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I37553959?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:03+00:00",
+      "cache_file": "cache/9add996ac065b040e9dee71fb9c06c79e49b32553552722110cfbf863b7f7505.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I37796252?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:04+00:00",
+      "cache_file": "cache/7326cab3fc816e22be5532f3aa98572542743dfe6a09d2adcd717fe01c2f4225.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I38877650?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:04+00:00",
+      "cache_file": "cache/9d6a223902bfb5c3047a60e31664532ab66567e2bf2df54035e661238d8f93c3.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I41198531?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:04+00:00",
+      "cache_file": "cache/eabce3c4d5d08875c9d79ce6b94f9db88b22182a5d9744c3c0129fa24b716a81.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4210095188?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:06+00:00",
+      "cache_file": "cache/ea6c4e6e0177c2e23fe5f27aecb1bc1e0a55cd34d0b93d22815a334c8e805d84.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4210099310?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:04+00:00",
+      "cache_file": "cache/ceff14cebcad4cf484eee294cc66e8f51cb203b01bde2ef6b37ac89734f75df4.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4210106663?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:05+00:00",
+      "cache_file": "cache/9eec814ada8352781ce7bea704a1e96192c0ed5670bc30720015a26a2135c619.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4210109940?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:05+00:00",
+      "cache_file": "cache/a27497b8b9d6e562b009af135f6b618970d536cc1ab7ea62aa45a6ac8279520e.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4210110558?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:07+00:00",
+      "cache_file": "cache/81d94d5b28c5f2df8b582f8e331df8cd9a94408bd305e80e7b3bfb9e5fa972b6.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4210110794?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:05+00:00",
+      "cache_file": "cache/d4c01aa3e3a88dfb4574569bdd006f5642d0e592eeff9805415a805049220d00.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4210111792?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:05+00:00",
+      "cache_file": "cache/935b4b22d34944b3e30fb4d8a8ce7665906ab077ecbb7411efef932ed68cbd88.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4210111986?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:05+00:00",
+      "cache_file": "cache/e53c73df217a1daf2ff0a085e3c315cbc63781626043ea3e0265737826d59e1e.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4210115456?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:05+00:00",
+      "cache_file": "cache/3ac9c1ac6adc7a64a543705acd540035d2e942618957baa1eab2a53bb60429b8.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4210132615?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:05+00:00",
+      "cache_file": "cache/50495a457300cd4053b3e45a834a9584355141dd0c6fb372d2f4bc4df8de1584.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4210132981?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:06+00:00",
+      "cache_file": "cache/1507b5128791500cd617bb8ad10d67ff15642b30f5eb8c7ebef48bf6bb8e0c25.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4210147525?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:06+00:00",
+      "cache_file": "cache/8efe20f0b865724f55a61052ee6545a933d248114d4d082b6639f10e8a2d5093.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4391767838?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:06+00:00",
+      "cache_file": "cache/f84efeaddcbe7ea4fafe2ec4cfa0fb012eaace6088d14f3ccfdaf63ad689981d.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4391767858?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:08+00:00",
+      "cache_file": "cache/79f242a3cfb2e57d2350631df56bbb0b1917c7edfee9806e552a0a266c442e19.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I43922553?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:06+00:00",
+      "cache_file": "cache/0b3745fb7f70629d72ee2b65aeffaf94da7a4c959a4f2853df9514a970ba596d.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I4472751?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:06+00:00",
+      "cache_file": "cache/f58ef9f927ddf27ce4f0b7e8eae13f7f5a6ae98a9344b1180297c6d2bb8b9a09.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I47508984?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:07+00:00",
+      "cache_file": "cache/7e0969b0fcade6677ef9a782238eb3a825e2245c8e8a1c457ba4b37d7e41f2d2.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I52180223?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:07+00:00",
+      "cache_file": "cache/583eda1fd17eaf800816ecd62ad44c90e500ee0b9b06e78046d71c24c676dbaa.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I55240360?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:08+00:00",
+      "cache_file": "cache/a00886f094503bb34b8218fd3c84b7c88a5fbda417fd62d2d1109506bf4fd3df.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I55712492?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:08+00:00",
+      "cache_file": "cache/8a460f1c301988d6290c2322cf50cc2a8152bcbac253500719685b2493606041.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I59028903?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:07+00:00",
+      "cache_file": "cache/6443a3479f474cbfb1f97d8defd837510e8b641fe1a5b8b9be0d3bf3657708e8.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I75092371?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:07+00:00",
+      "cache_file": "cache/dbb34c54580c33c3f51293b81f5bf1cc60330c3f57dd258adac66b314e615dd8.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I76130692?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:08+00:00",
+      "cache_file": "cache/c900ea33c7b5e8c32a8f0e2b8e4bc79793b8c30ebdbe0413dcbd8ee598092777.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I83202590?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:08+00:00",
+      "cache_file": "cache/392567dbf424b5db174a5a2b04390d6b45a10e0186d83132681cc46c586f8496.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I861853513?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:08+00:00",
+      "cache_file": "cache/9716109dbe7edfa56c753250c7f851d8392fe3d887dc87746af7d783b0a4b87c.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I87445476?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:09+00:00",
+      "cache_file": "cache/f856a54596e9dcba46bfcb4fa78dfe7294ae7cd50baf3c1f105fe9d3d58df746.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I90610280?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:08+00:00",
+      "cache_file": "cache/2931c94e208237e0db2535ac1deb244d300305d6743660f01c5f67b5e623e51a.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I92178344?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:08+00:00",
+      "cache_file": "cache/4954ad4b169b8217223d76a92ad26f442e9577bca05dfef82664e69666690c91.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I9224756?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:09+00:00",
+      "cache_file": "cache/212ccd63ad513749c8472a3089c5434030c9ab076dab32985d2ac93bb6cabece.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I92403157?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:09+00:00",
+      "cache_file": "cache/7150b84041b37d79651893aebf9f4a974c9bcb17b467c4cb84b93afb6ce09c67.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I929597975?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:09+00:00",
+      "cache_file": "cache/d8cd9d648243cc4cb060622df87d65cceb70dfc265352a28fe68d2fa4be4aef6.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I94518387?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:09+00:00",
+      "cache_file": "cache/dd6eaf7e66069dfeb55945ea2e04e9612b357564f066dc2e67b33c797dab3876.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I97018004?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:09+00:00",
+      "cache_file": "cache/538e1c71cf632758ebbc3b4d83d7a6e695b97e543d74ea43ee2428becaa8c96d.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I99065089?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:09+00:00",
+      "cache_file": "cache/4bd1a52ee36d347a5403966afe40ebeacd15b5369c1ef52d22f6b242a6dfd95c.json"
+    },
+    {
+      "url": "https://api.openalex.org/institutions/I9927081?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+      "retrieved_at": "2026-09-09T14:00:10+00:00",
+      "cache_file": "cache/4e720b0bdc4a869d26be2594349e338095855f9e0a1279c39520b8186606a24c.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/W7197003632?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted",
+      "retrieved_at": "2026-09-09T14:09:28+00:00",
+      "cache_file": "cache/a0a858a179fa33399261b5c1aa690e0e958c2cf9c9b4026affe37659b077f0d9.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.1007/s10489-026-07434-4?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:54+00:00",
+      "cache_file": "cache/c6856d2926024918ba7b8462c8301f51fad5af21dca8a419381742f58cf94cc2.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.1016/j.eswa.2024.124508?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:52+00:00",
+      "cache_file": "cache/63307b7099a100bf73e23803d7bac8c8a21b14296bb57cf1b4ee92810824baeb.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.1016/j.eswa.2026.133261?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:52+00:00",
+      "cache_file": "cache/acca765871cc91e28da488cec0574d149ff1632a714cfa7410c1bb72cabe4ab0.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.1016/j.ifacol.2023.10.581?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:53+00:00",
+      "cache_file": "cache/972528d1708338266e6d91510c1c98387d396f04b828aa284eea79268cc2a89a.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.1109/CDC49753.2023.10383316?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:53+00:00",
+      "cache_file": "cache/78627407cd07557367f3491f1df72e3ea479b28760f9b399f5357c134b1e4294.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.1109/TASE.2023.3236306?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:53+00:00",
+      "cache_file": "cache/f4524cfbbab2829e015ae8def54095fd2e89313b6d3987f3d0be197baeacbe25.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.1109/TASE.2023.3299185?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:53+00:00",
+      "cache_file": "cache/0c0e80e59fc974560893554bd31f9f3a313a5174f74a4ba0f7ae2870f05e6133.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.1109/TCSS.2023.3272330?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:52+00:00",
+      "cache_file": "cache/c2c4bb79ecd6007d90a2f92f26ecad9e4f64f5d704a3089532139700e746fb1a.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.1109/TSG.2025.3601238?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:52+00:00",
+      "cache_file": "cache/b9d26f60e0e92ae4bb253cc17b5c8d50dbcb4c36770adc4e111d37fdd681d816.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.1109/TSMC.2023.3327450?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:53+00:00",
+      "cache_file": "cache/04b190a4d7abb611f20aeb7da276e076e7d21d814076d7c2813a26f7e615bf2e.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.1109/TSMC.2023.3344883?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:52+00:00",
+      "cache_file": "cache/2fa7fcb6e30a2731b8b865f7b17ff40f60824e9dadb7c2690f939a68311945ae.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.1109/TSMC.2024.3373456?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:54+00:00",
+      "cache_file": "cache/99919448daf703f3e2797f6d392af8b4dcd5da1801801535d27576660d4f6b30.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.23919/CCC52363.2021.9550182?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:52+00:00",
+      "cache_file": "cache/02824fb66688f50d333f11067f5ed1abb37e4415889f36d0f33eefbc1f77754c.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.23919/CCC52363.2021.9550267?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:53+00:00",
+      "cache_file": "cache/ee302f5881169389d58e2879fa17dbbf2cfdbde8bed4f3dd0d5d645a971e5b12.json"
+    },
+    {
+      "url": "https://api.openalex.org/works/doi:10.48550/arXiv.2603.23232?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
+      "retrieved_at": "2026-09-09T13:59:54+00:00",
+      "cache_file": "cache/7d362c3e55eda2215eec1de004d50dae01b16b44276af5ca6c67c0fd6fa957f1.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW3202625584&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:54+00:00",
+      "cache_file": "cache/b0d3a5646fae5615b897b1ea79d6f642b0f21895a2f487cbc9c7f6fd3ce9b3ea.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW3204859870&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:55+00:00",
+      "cache_file": "cache/4d3132ef315e94f49c4c0bac2753d9c687a88428f8ad2efafef3ccb6e2d6b2d1.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW4316660809&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:56+00:00",
+      "cache_file": "cache/be39bbdfecdfb8d2bc31923811d0464204c5d8e9b415f09c9c1917102c6e1638.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW4376479136&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:54+00:00",
+      "cache_file": "cache/924bec91aaf3ab8cbe17226e5b772b39303e857969fbfff356c698ae610baa36.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW4388579581&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:56+00:00",
+      "cache_file": "cache/e8d18618f9bb4c1ff89269d90c852b56a940d6cc3c013f0644dca8c093f179c3.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW4388740257&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:55+00:00",
+      "cache_file": "cache/25e2ab170fa501a1d2773b29411c4d025b604c8fca0399dd2e6613192b599e7f.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW4388904509&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:55+00:00",
+      "cache_file": "cache/51f66e914b7bf7b2acaa94dcab49761073bfec115ddaec753c3890a3fd3afd8d.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW4390829281&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:55+00:00",
+      "cache_file": "cache/737fcaea202deee06669a1de4ae4b5533b4c52764d101df0ff1906510308b659.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW4391020081&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:55+00:00",
+      "cache_file": "cache/05c88b3373204d1d363eedc39652d36b767222493a2eb8148b344988320f720b.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW4393188243&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:56+00:00",
+      "cache_file": "cache/12aeb1a8c66350c9abe6e711d4593dcc1d27d6149915d63dd2419861e07888ff.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW4399709078&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:54+00:00",
+      "cache_file": "cache/a68965f7606294cfb497e2f453f014d6ea74c9af9ff362f57a8048a54ccc289e.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW4413754711&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:54+00:00",
+      "cache_file": "cache/c8575d1f7be3d06121403688a4df34b95093b93fe23cb5f4f0538b416b5b97c8.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW7140303640&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:56+00:00",
+      "cache_file": "cache/ea71a990640cd058fc9c535770b23d3c7697666b1c688aacf2241c9130ae384e.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW7165130889&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:55+00:00",
+      "cache_file": "cache/56c0a6214b4c8ae60bb2738340ccdb4f3c5430dfeeba0335e8488c272c9d4952.json"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=cites%3AW7204989471&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+      "retrieved_at": "2026-09-09T13:59:56+00:00",
+      "cache_file": "cache/e75506b0593844f90456ea166f1cccda5ce68da0a9d5dc2730f84d5a7aa74f0a.json"
+    }
+  ],
+  "map_precision": "Institution city coordinates with state/province labels from OpenAlex institution.geo; missing regions are completed by point-in-polygon matching against Natural Earth v5.1.2, with source hashes and original geography retained. Regional symbols use a member institution point, not a state centroid.",
+  "self_citation_definition": "The profile author OpenAlex ID or ORCID occurs among the citing authors. Coauthor-overlap is flagged separately and retained.",
+  "affiliation_caveat": "Work-level affiliation strings are preserved. Institution geo describes the indexed institution/city, not a verified author-specific campus. Missing locations are not replaced by country capitals.",
+  "sponsor_rule": "A Ministry of Education institution co-occurring with an education institution in one authorship is retained in the ledger but excluded as a sponsor/parent from geographical counts.",
+  "scholar_profile_metrics_snapshot": {
+    "metrics_text": "All Since 2021 Citations 66 66 h-index 6 6 i10-index 3 3",
+    "retrieved_at": "2026-09-09T13:48:39.317667+00:00",
+    "profile_url": "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en&pagesize=100",
+    "completeness": "Not fully enumerated against the displayed profile total. See coverage-by-publication.csv."
+  },
+  "geography_completeness_definition": "Location completeness of returned author affiliation records only; author-list completeness itself is not independently verified."
+}

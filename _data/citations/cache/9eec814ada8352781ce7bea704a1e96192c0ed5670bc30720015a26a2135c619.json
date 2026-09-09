@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I4210106663?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:05+00:00",
+  "data": {
+    "id": "https://openalex.org/I4210106663",
+    "ror": "https://ror.org/01t9czq80",
+    "display_name": "International University of Rabat",
+    "country_code": "MA",
+    "type": "education",
+    "geo": {
+      "city": "Salé",
+      "geonames_city_id": "2537763",
+      "region": null,
+      "country_code": "MA",
+      "country": "Morocco",
+      "latitude": 33.98527908325195,
+      "longitude": -6.723610877990723
+    },
+    "lineage": [
+      "https://openalex.org/I4210106663"
+    ]
+  }
+}

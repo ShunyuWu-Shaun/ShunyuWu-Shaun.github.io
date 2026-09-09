@@ -1,0 +1,1503 @@
+{
+  "url": "https://api.openalex.org/works?filter=cites%3AW4388579581&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+  "retrieved_at": "2026-09-09T13:59:56+00:00",
+  "data": {
+    "meta": {
+      "count": 7,
+      "db_response_time_ms": 8,
+      "page": null,
+      "per_page": 100,
+      "next_cursor": null,
+      "groups_count": null,
+      "x_query": {
+        "oql": "works (all corpora) where it cites (W4388579581)",
+        "oqo": {
+          "get_rows": "works",
+          "corpus": "all",
+          "filter_rows": [
+            {
+              "column_id": "referenced_works",
+              "value": "W4388579581"
+            }
+          ]
+        },
+        "url": "/works?filter=referenced_works:W4388579581&corpus=all&per_page=100&cursor=%2A"
+      },
+      "cost_usd": 0.0001
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W4388562407",
+        "doi": "https://doi.org/10.1016/j.ins.2023.119866",
+        "title": "Model-free adaptive dynamic event-triggered robust control for unknown nonlinear systems using iterative neural dynamic programming",
+        "publication_year": 2023,
+        "publication_date": "2023-11-10",
+        "type": "article",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5103267184",
+              "display_name": "Xin Tong",
+              "orcid": "https://orcid.org/0000-0002-7914-1847"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I9224756",
+                "display_name": "Northeastern University",
+                "ror": "https://ror.org/03awzbc87",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Xin Tong",
+            "raw_affiliation_strings": [
+              "College of Information Science and Engineering, Northeastern University, Shenyang, Liaoning, 110819, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "College of Information Science and Engineering, Northeastern University, Shenyang, Liaoning, 110819, China",
+                "institution_ids": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5001225543",
+              "display_name": "Dazhong Ma",
+              "orcid": "https://orcid.org/0000-0001-9647-3694"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I9224756",
+                "display_name": "Northeastern University",
+                "ror": "https://ror.org/03awzbc87",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Dazhong Ma",
+            "raw_affiliation_strings": [
+              "College of Information Science and Engineering, Northeastern University, Shenyang, Liaoning, 110819, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "College of Information Science and Engineering, Northeastern University, Shenyang, Liaoning, 110819, China",
+                "institution_ids": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5015793382",
+              "display_name": "Zhanshan Wang",
+              "orcid": "https://orcid.org/0000-0002-6022-4933"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I9224756",
+                "display_name": "Northeastern University",
+                "ror": "https://ror.org/03awzbc87",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Zhanshan Wang",
+            "raw_affiliation_strings": [
+              "College of Information Science and Engineering, Northeastern University, Shenyang, Liaoning, 110819, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "College of Information Science and Engineering, Northeastern University, Shenyang, Liaoning, 110819, China",
+                "institution_ids": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5010477724",
+              "display_name": "Zhongyang Ming",
+              "orcid": "https://orcid.org/0009-0001-1002-6840"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I9224756",
+                "display_name": "Northeastern University",
+                "ror": "https://ror.org/03awzbc87",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Zhongyang Ming",
+            "raw_affiliation_strings": [
+              "College of Information Science and Engineering, Northeastern University, Shenyang, Liaoning, 110819, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "College of Information Science and Engineering, Northeastern University, Shenyang, Liaoning, 110819, China",
+                "institution_ids": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5066409796",
+              "display_name": "Xiangpeng Xie",
+              "orcid": "https://orcid.org/0000-0003-4822-3134"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I41198531",
+                "display_name": "Nanjing University of Posts and Telecommunications",
+                "ror": "https://ror.org/043bpky34",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Xiangpeng Xie",
+            "raw_affiliation_strings": [
+              "Institute of Advanced Technology, Nanjing University of Posts and Telecommunications, Nanjing 210003, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Institute of Advanced Technology, Nanjing University of Posts and Telecommunications, Nanjing 210003, China",
+                "institution_ids": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.1016/j.ins.2023.119866",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.ins.2023.119866",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S192650101",
+            "display_name": "Information Sciences",
+            "issn_l": "0020-0255",
+            "issn": [
+              "0020-0255",
+              "1872-6291"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Information Sciences",
+          "raw_type": "journal-article"
+        },
+        "is_retracted": false
+      },
+      {
+        "id": "https://openalex.org/W4411055426",
+        "doi": "https://doi.org/10.1109/tnnls.2025.3565622",
+        "title": "Adaptive Secure Finite-Time Optimal Control of Unknown Nonlinear Systems With State Constraints via Generalized Fuzzy Hyperbolic Models",
+        "publication_year": 2025,
+        "publication_date": "2025-06-05",
+        "type": "article",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5086637270",
+              "display_name": "Hanguang Su",
+              "orcid": "https://orcid.org/0000-0003-1356-4158"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I9224756",
+                "display_name": "Northeastern University",
+                "ror": "https://ror.org/03awzbc87",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Hanguang Su",
+            "raw_affiliation_strings": [
+              "School of Information Science and Engineering, Northeastern University, Shenyang, Liaoning, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0003-1356-4158",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Information Science and Engineering, Northeastern University, Shenyang, Liaoning, China",
+                "institution_ids": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5113082214",
+              "display_name": "Yi Cui",
+              "orcid": "https://orcid.org/0009-0001-7413-5288"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I9224756",
+                "display_name": "Northeastern University",
+                "ror": "https://ror.org/03awzbc87",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Yi Cui",
+            "raw_affiliation_strings": [
+              "School of Information Science and Engineering, Northeastern University, Shenyang, Liaoning, China"
+            ],
+            "raw_orcid": "https://orcid.org/0009-0001-7413-5288",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Information Science and Engineering, Northeastern University, Shenyang, Liaoning, China",
+                "institution_ids": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5100625792",
+              "display_name": "Huaguang Zhang",
+              "orcid": "https://orcid.org/0000-0002-2375-9824"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4391767858",
+                "display_name": "State Key Laboratory of Synthetical Automation for Process Industries",
+                "ror": "https://ror.org/0380ng272",
+                "country_code": null,
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I4391767858",
+                  "https://openalex.org/I9224756"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I9224756",
+                "display_name": "Northeastern University",
+                "ror": "https://ror.org/03awzbc87",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Huaguang Zhang",
+            "raw_affiliation_strings": [
+              "School of Information Science and Engineering and the State Key Laboratory of Synthetical Automation for Process Industries, Northeastern University, Shenyang, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-2375-9824",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Information Science and Engineering and the State Key Laboratory of Synthetical Automation for Process Industries, Northeastern University, Shenyang, China",
+                "institution_ids": [
+                  "https://openalex.org/I4391767858",
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5066409796",
+              "display_name": "Xiangpeng Xie",
+              "orcid": "https://orcid.org/0000-0003-4822-3134"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I41198531",
+                "display_name": "Nanjing University of Posts and Telecommunications",
+                "ror": "https://ror.org/043bpky34",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Xiangpeng Xie",
+            "raw_affiliation_strings": [
+              "School of Internet of Things, Nanjing University of Posts and Telecommunications, Nanjing, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0003-4822-3134",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Internet of Things, Nanjing University of Posts and Telecommunications, Nanjing, China",
+                "institution_ids": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5031637653",
+              "display_name": "Xiaodong Liang",
+              "orcid": "https://orcid.org/0000-0002-8089-5419"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I32625721",
+                "display_name": "University of Saskatchewan",
+                "ror": "https://ror.org/010x8gc63",
+                "country_code": "CA",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I32625721"
+                ]
+              }
+            ],
+            "countries": [
+              "CA"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Xiaodong Liang",
+            "raw_affiliation_strings": [
+              "Department of Electrical and Computer Engineering, University of Saskatchewan, Saskatoon, SK, Canada"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-8089-5419",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Saskatchewan, Saskatoon, SK, Canada",
+                "institution_ids": [
+                  "https://openalex.org/I32625721"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5055086755",
+              "display_name": "Jiawei Wang",
+              "orcid": "https://orcid.org/0000-0002-1891-0657"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I9224756",
+                "display_name": "Northeastern University",
+                "ror": "https://ror.org/03awzbc87",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jiawei Wang",
+            "raw_affiliation_strings": [
+              "National Frontiers Science Center for Industrial Intelligence and Systems Optimization, Northeastern University, Shenyang, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-1891-0657",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "National Frontiers Science Center for Industrial Intelligence and Systems Optimization, Northeastern University, Shenyang, China",
+                "institution_ids": [
+                  "https://openalex.org/I9224756"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.1109/tnnls.2025.3565622",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/tnnls.2025.3565622",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210175523",
+            "display_name": "IEEE Transactions on Neural Networks and Learning Systems",
+            "issn_l": "2162-237X",
+            "issn": [
+              "2162-237X",
+              "2162-2388"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Neural Networks and Learning Systems",
+          "raw_type": "journal-article"
+        },
+        "is_retracted": false
+      },
+      {
+        "id": "https://openalex.org/W4393188243",
+        "doi": "https://doi.org/10.1109/tsmc.2024.3373456",
+        "title": "Parallel Cross Entropy Policy Gradient Adaptive Dynamic Programming for Optimal Tracking Control of Discrete-Time Nonlinear Systems",
+        "publication_year": 2024,
+        "publication_date": "2024-03-26",
+        "type": "article",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5058905701",
+              "display_name": "Jiahui Xu",
+              "orcid": "https://orcid.org/0000-0002-4058-0447"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I183067930",
+                "display_name": "Shanghai Jiao Tong University",
+                "ror": "https://ror.org/0220qvk04",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jiahui Xu",
+            "raw_affiliation_strings": [
+              "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-4058-0447",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China",
+                "institution_ids": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5100777024",
+              "display_name": "Jingcheng Wang",
+              "orcid": "https://orcid.org/0000-0002-4277-1263"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I183067930",
+                "display_name": "Shanghai Jiao Tong University",
+                "ror": "https://ror.org/0220qvk04",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jingcheng Wang",
+            "raw_affiliation_strings": [
+              "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-4277-1263",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China",
+                "institution_ids": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5018604914",
+              "display_name": "Jun Rao",
+              "orcid": "https://orcid.org/0000-0002-7467-4898"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I183067930",
+                "display_name": "Shanghai Jiao Tong University",
+                "ror": "https://ror.org/0220qvk04",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jun Rao",
+            "raw_affiliation_strings": [
+              "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-7467-4898",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China",
+                "institution_ids": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5000872966",
+              "display_name": "Yanjiu Zhong",
+              "orcid": "https://orcid.org/0000-0002-4361-9378"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I183067930",
+                "display_name": "Shanghai Jiao Tong University",
+                "ror": "https://ror.org/0220qvk04",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Yanjiu Zhong",
+            "raw_affiliation_strings": [
+              "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-4361-9378",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China",
+                "institution_ids": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5087893108",
+              "display_name": "Shunyu Wu",
+              "orcid": "https://orcid.org/0000-0001-9856-2148"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I183067930",
+                "display_name": "Shanghai Jiao Tong University",
+                "ror": "https://ror.org/0220qvk04",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Shunyu Wu",
+            "raw_affiliation_strings": [
+              "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-9856-2148",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China",
+                "institution_ids": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5026545800",
+              "display_name": "Qifang Sun",
+              "orcid": "https://orcid.org/0000-0001-6568-6718"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I183067930",
+                "display_name": "Shanghai Jiao Tong University",
+                "ror": "https://ror.org/0220qvk04",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Qifang Sun",
+            "raw_affiliation_strings": [
+              "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-6568-6718",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China",
+                "institution_ids": [
+                  "https://openalex.org/I183067930"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.1109/tsmc.2024.3373456",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/tsmc.2024.3373456",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210209078",
+            "display_name": "IEEE Transactions on Systems Man and Cybernetics Systems",
+            "issn_l": "2168-2216",
+            "issn": [
+              "2168-2216",
+              "2168-2232"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+          "raw_type": "journal-article"
+        },
+        "is_retracted": false
+      },
+      {
+        "id": "https://openalex.org/W4396930200",
+        "doi": "https://doi.org/10.3934/dcdss.2024071",
+        "title": "Observer-based dual-dynamic event-triggered mechanism design for balance control of motion robots",
+        "publication_year": 2024,
+        "publication_date": "2024-01-01",
+        "type": "article",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5030999777",
+              "display_name": "Shouzhuan Chen",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I308837",
+                "display_name": "Suzhou University of Science and Technology",
+                "ror": "https://ror.org/04en8wb91",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I308837"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Shouzhuan Chen",
+            "raw_affiliation_strings": [
+              "School of Electronic and Information Engineering Suzhou University of Science and Technology Suzhou 215000, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Electronic and Information Engineering Suzhou University of Science and Technology Suzhou 215000, China",
+                "institution_ids": [
+                  "https://openalex.org/I308837"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5112379225",
+              "display_name": "Yiming Yang",
+              "orcid": "https://orcid.org/0009-0008-9686-5581"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I308837",
+                "display_name": "Suzhou University of Science and Technology",
+                "ror": "https://ror.org/04en8wb91",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I308837"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Yiming Yang",
+            "raw_affiliation_strings": [
+              "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215000, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215000, China",
+                "institution_ids": [
+                  "https://openalex.org/I308837"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5101149407",
+              "display_name": "Shuxian Zhu",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I308837",
+                "display_name": "Suzhou University of Science and Technology",
+                "ror": "https://ror.org/04en8wb91",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I308837"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Shuxian Zhu",
+            "raw_affiliation_strings": [
+              "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215000, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215000, China",
+                "institution_ids": [
+                  "https://openalex.org/I308837"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5064455835",
+              "display_name": "Baoping Jiang",
+              "orcid": "https://orcid.org/0000-0001-5592-345X"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I308837",
+                "display_name": "Suzhou University of Science and Technology",
+                "ror": "https://ror.org/04en8wb91",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I308837"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Baoping Jiang",
+            "raw_affiliation_strings": [
+              "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215000, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215000, China",
+                "institution_ids": [
+                  "https://openalex.org/I308837"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.3934/dcdss.2024071",
+          "is_oa": true,
+          "landing_page_url": "http://dx.doi.org/10.3934/dcdss.2024071",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S16594347",
+            "display_name": "Discrete and Continuous Dynamical Systems - S",
+            "issn_l": "1937-1179",
+            "issn": [
+              "1937-1179",
+              "1937-1632"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310315844",
+            "host_organization_name": "American Institute of Mathematical Sciences",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310315844"
+            ],
+            "host_organization_lineage_names": [
+              "American Institute of Mathematical Sciences"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Discrete and Continuous Dynamical Systems - S",
+          "raw_type": "journal-article"
+        },
+        "is_retracted": false
+      },
+      {
+        "id": "https://openalex.org/W4410770862",
+        "doi": "https://doi.org/10.1109/cacml64929.2025.11010957",
+        "title": "Reinforcement Learning-Based Dynamic Programming Control for Robust Disturbance Rejection and Error Minimization in Dynamic Systems",
+        "publication_year": 2025,
+        "publication_date": "2025-03-28",
+        "type": "conference-paper",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5115909668",
+              "display_name": "Amoh Mensah Akwasi",
+              "orcid": "https://orcid.org/0009-0005-8131-6844"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I90610280",
+                "display_name": "South China University of Technology",
+                "ror": "https://ror.org/0530pts50",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I90610280"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Amoh Mensah Akwasi",
+            "raw_affiliation_strings": [
+              "South China University of Technology,School of Automation Science and Engineering,Guangzhou,China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "South China University of Technology,School of Automation Science and Engineering,Guangzhou,China",
+                "institution_ids": [
+                  "https://openalex.org/I90610280"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5069885872",
+              "display_name": "Haoyong Chen",
+              "orcid": "https://orcid.org/0000-0002-7486-2020"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I90610280",
+                "display_name": "South China University of Technology",
+                "ror": "https://ror.org/0530pts50",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I90610280"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Haoyong Chen",
+            "raw_affiliation_strings": [
+              "School of Electric Power South China University of Technology,Guangzhou,China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Electric Power South China University of Technology,Guangzhou,China",
+                "institution_ids": [
+                  "https://openalex.org/I90610280"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5108298935",
+              "display_name": "Junfeng Liu",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I90610280",
+                "display_name": "South China University of Technology",
+                "ror": "https://ror.org/0530pts50",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I90610280"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Junfeng Liu",
+            "raw_affiliation_strings": [
+              "South China University of Technology,School of Automation Science and Engineering,Guangzhou,China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "South China University of Technology,School of Automation Science and Engineering,Guangzhou,China",
+                "institution_ids": [
+                  "https://openalex.org/I90610280"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.1109/cacml64929.2025.11010957",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/cacml64929.2025.11010957",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 4th Asia Conference on Algorithms, Computing and Machine Learning (CACML)",
+          "raw_type": "proceedings-article"
+        },
+        "is_retracted": false
+      },
+      {
+        "id": "https://openalex.org/W4407865237",
+        "doi": "https://doi.org/10.1016/j.jfranklin.2025.107585",
+        "title": "Rapid dynamical learning from neural control of sampled-data nonlinear systems via pseudo-inverse regression filter vector signal",
+        "publication_year": 2025,
+        "publication_date": "2025-02-19",
+        "type": "article",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5038433079",
+              "display_name": "Dengxiang Liang",
+              "orcid": "https://orcid.org/0000-0003-2958-2393"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I90610280",
+                "display_name": "South China University of Technology",
+                "ror": "https://ror.org/0530pts50",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I90610280"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Dengxiang Liang",
+            "raw_affiliation_strings": [
+              "School of Automation Science and Engineering, Key Laboratory of Autonomous Systems and Networked Control, Ministry of Education, South China University of Technology, Guangzhou, 510641, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Automation Science and Engineering, Key Laboratory of Autonomous Systems and Networked Control, Ministry of Education, South China University of Technology, Guangzhou, 510641, China",
+                "institution_ids": [
+                  "https://openalex.org/I90610280"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5100711052",
+              "display_name": "Min Wang",
+              "orcid": "https://orcid.org/0000-0001-7025-7651"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I90610280",
+                "display_name": "South China University of Technology",
+                "ror": "https://ror.org/0530pts50",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I90610280"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Min Wang",
+            "raw_affiliation_strings": [
+              "School of Automation Science and Engineering, Key Laboratory of Autonomous Systems and Networked Control, Ministry of Education, South China University of Technology, Guangzhou, 510641, China"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-7025-7651",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Automation Science and Engineering, Key Laboratory of Autonomous Systems and Networked Control, Ministry of Education, South China University of Technology, Guangzhou, 510641, China",
+                "institution_ids": [
+                  "https://openalex.org/I90610280"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.1016/j.jfranklin.2025.107585",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.jfranklin.2025.107585",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S183498172",
+            "display_name": "Journal of the Franklin Institute",
+            "issn_l": "0016-0032",
+            "issn": [
+              "0016-0032",
+              "1879-2693"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of the Franklin Institute",
+          "raw_type": "journal-article"
+        },
+        "is_retracted": false
+      },
+      {
+        "id": "https://openalex.org/W7172428666",
+        "doi": "https://doi.org/10.1109/yac71005.2026.11615894",
+        "title": "Discrete-time Optimal Formation Control of Unmanned Vehicles Based on Policy Gradient Adaptive Dynamic Programming",
+        "publication_year": 2026,
+        "publication_date": "2026-05-01",
+        "type": "conference-paper",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5144354872",
+              "display_name": "Wangyu Cao",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I41198531",
+                "display_name": "Nanjing University of Posts and Telecommunications",
+                "ror": "https://ror.org/043bpky34",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Wangyu Cao",
+            "raw_affiliation_strings": [
+              "Nanjing University of Posts and Telecommunications"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Nanjing University of Posts and Telecommunications",
+                "institution_ids": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5144324961",
+              "display_name": "Zhe Zhou",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I41198531",
+                "display_name": "Nanjing University of Posts and Telecommunications",
+                "ror": "https://ror.org/043bpky34",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Zhe Zhou",
+            "raw_affiliation_strings": [
+              "Nanjing University of Posts and Telecommunications"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Nanjing University of Posts and Telecommunications",
+                "institution_ids": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5144372884",
+              "display_name": "Yuxuan Wu",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I41198531",
+                "display_name": "Nanjing University of Posts and Telecommunications",
+                "ror": "https://ror.org/043bpky34",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Yuxuan Wu",
+            "raw_affiliation_strings": [
+              "Nanjing University of Posts and Telecommunications"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Nanjing University of Posts and Telecommunications",
+                "institution_ids": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5103994771",
+              "display_name": "Zhuoyan Ji",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I41198531",
+                "display_name": "Nanjing University of Posts and Telecommunications",
+                "ror": "https://ror.org/043bpky34",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Zhuoyan Ji",
+            "raw_affiliation_strings": [
+              "Nanjing University of Posts and Telecommunications"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Nanjing University of Posts and Telecommunications",
+                "institution_ids": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5144376175",
+              "display_name": "Zhengtao Ye",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I41198531",
+                "display_name": "Nanjing University of Posts and Telecommunications",
+                "ror": "https://ror.org/043bpky34",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Zhengtao Ye",
+            "raw_affiliation_strings": [
+              "Nanjing University of Posts and Telecommunications"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Nanjing University of Posts and Telecommunications",
+                "institution_ids": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5144358650",
+              "display_name": "Shixun Xiong",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I41198531",
+                "display_name": "Nanjing University of Posts and Telecommunications",
+                "ror": "https://ror.org/043bpky34",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Shixun Xiong",
+            "raw_affiliation_strings": [
+              "Nanjing University of Posts and Telecommunications"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Nanjing University of Posts and Telecommunications",
+                "institution_ids": [
+                  "https://openalex.org/I41198531"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.1109/yac71005.2026.11615894",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/yac71005.2026.11615894",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2026 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC)",
+          "raw_type": "proceedings-article"
+        },
+        "is_retracted": false
+      }
+    ],
+    "group_by": []
+  }
+}

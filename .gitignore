@@ -11,3 +11,7 @@ _site/
 assets/figures/**/*.pdf
 assets/figures/**/*-render.png
 assets/figures/**/panel_*.png
+
+# Python bytecode created by citation maintenance scripts
+__pycache__/
+*.py[cod]

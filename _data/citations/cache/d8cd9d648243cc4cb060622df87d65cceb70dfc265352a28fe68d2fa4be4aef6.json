@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I929597975?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:09+00:00",
+  "data": {
+    "id": "https://openalex.org/I929597975",
+    "ror": "https://ror.org/03w2j5y17",
+    "display_name": "National University of Sciences and Technology",
+    "country_code": "PK",
+    "type": "education",
+    "geo": {
+      "city": "Islamabad",
+      "geonames_city_id": "1176615",
+      "region": "Islamabad",
+      "country_code": "PK",
+      "country": "Pakistan",
+      "latitude": 33.72148,
+      "longitude": 73.04329
+    },
+    "lineage": [
+      "https://openalex.org/I929597975"
+    ]
+  }
+}

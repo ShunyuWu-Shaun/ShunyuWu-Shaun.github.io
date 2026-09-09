@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I34771391?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:03+00:00",
+  "data": {
+    "id": "https://openalex.org/I34771391",
+    "ror": "https://ror.org/02qjrjx09",
+    "display_name": "University of Cyprus",
+    "country_code": "CY",
+    "type": "education",
+    "geo": {
+      "city": "Nicosia",
+      "geonames_city_id": "146268",
+      "region": "Nicosia",
+      "country_code": "CY",
+      "country": "Cyprus",
+      "latitude": 35.17284,
+      "longitude": 33.35397
+    },
+    "lineage": [
+      "https://openalex.org/I34771391"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I9224756?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:09+00:00",
+  "data": {
+    "id": "https://openalex.org/I9224756",
+    "ror": "https://ror.org/03awzbc87",
+    "display_name": "Northeastern University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Shenyang",
+      "geonames_city_id": "2034937",
+      "region": "Liaoning",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 41.79222,
+      "longitude": 123.43278
+    },
+    "lineage": [
+      "https://openalex.org/I9224756"
+    ]
+  }
+}

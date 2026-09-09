@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I12393601?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T13:59:57+00:00",
+  "data": {
+    "id": "https://openalex.org/I12393601",
+    "ror": "https://ror.org/04zn6xq74",
+    "display_name": "Huaihua University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Huaihua",
+      "geonames_city_id": "1807689",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 27.563369750976562,
+      "longitude": 110.00404357910156
+    },
+    "lineage": [
+      "https://openalex.org/I12393601"
+    ]
+  }
+}

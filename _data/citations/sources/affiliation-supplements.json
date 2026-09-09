@@ -1,0 +1,127 @@
+{
+  "retrieved_at": "2026-09-09T14:01:42.678522+00:00",
+  "confirmed_supplements": [],
+  "investigations": [
+    {
+      "work_id": "W7114924552",
+      "doi": "10.1016/j.jtice.2025.106577",
+      "title": "Theory and construction of machine learning-driven CFD agent model: a bayesian-optimized CNN-LSTM framework",
+      "status": "unresolved",
+      "safe_to_apply": false,
+      "author_matches": [
+        {
+          "author_index": 0,
+          "author_name": "Chunmao Pan",
+          "match_basis": "Exact given/family name order in publisher-deposited Crossref author list.",
+          "confirmed_affiliations": []
+        },
+        {
+          "author_index": 1,
+          "author_name": "Lingxing Hu",
+          "match_basis": "Exact given/family name order in publisher-deposited Crossref author list.",
+          "confirmed_affiliations": []
+        },
+        {
+          "author_index": 2,
+          "author_name": "Facheng Qiu",
+          "match_basis": "Exact given/family name order in publisher-deposited Crossref author list.",
+          "confirmed_affiliations": []
+        },
+        {
+          "author_index": 3,
+          "author_name": "Zhiliang Cheng",
+          "match_basis": "Exact given/family name order in publisher-deposited Crossref author list.",
+          "confirmed_affiliations": []
+        },
+        {
+          "author_index": 4,
+          "author_name": "Zhongjun Li",
+          "match_basis": "Exact given/family name order in publisher-deposited Crossref author list.",
+          "confirmed_affiliations": []
+        },
+        {
+          "author_index": 5,
+          "author_name": "Lanfeng Guo",
+          "match_basis": "Exact given/family name order in publisher-deposited Crossref author list.",
+          "confirmed_affiliations": []
+        }
+      ],
+      "checks": [
+        {
+          "source": "Crossref publisher deposit",
+          "url": "https://api.crossref.org/works/10.1016/j.jtice.2025.106577",
+          "cached_file": "sources/cfd-crossref.json",
+          "finding": "All six authors match but every author affiliation array is empty. Facheng Qiu ORCID is 0000-0002-9998-9175."
+        },
+        {
+          "source": "Elsevier Article Retrieval API linked by the Crossref deposit",
+          "url": "https://api.elsevier.com/content/article/PII:S1876107025006297?httpAccept=text/xml",
+          "cached_file": "sources/cfd-elsevier.xml",
+          "finding": "Public response supplies core bibliographic data only; no authorship-to-affiliation metadata or full text."
+        },
+        {
+          "source": "ScienceDirect article landing page",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1876107025006297",
+          "finding": "Direct read returned HTTP 403; search-indexed publisher excerpt contained abstract/contributions but no author affiliations."
+        }
+      ],
+      "reason_for_no_supplement": "Neither the work-level publisher record nor its Crossref deposit exposes affiliations. Affiliations of the same-named authors on ResearchGate and related papers cannot establish the affiliations printed on this particular article. Keep all six unresolved rather than mapping them by current institution."
+    },
+    {
+      "work_id": "W4402577629",
+      "doi": "10.21203/rs.3.rs-4897840/v1",
+      "title": "A Diversified Integrated Model for Seasonal Product Demand Prediction",
+      "status": "candidate_normalization_requires_confirmation",
+      "safe_to_apply": false,
+      "author_index": 2,
+      "author_openalex_id": "A5088566918",
+      "author_name": "Yun Qiaoyun",
+      "original_affiliation": "International Business College, South China National University",
+      "author_match": "Crossref deposit has given=Yun, family=Qiaoyun and the same raw affiliation as OpenAlex. Source title/DOI and the other two authors agree.",
+      "confirmed_affiliations": [],
+      "candidate_affiliation": {
+        "name": "International Business College, South China Normal University",
+        "institution_name": "South China Normal University",
+        "institution_openalex_id": "I187400657",
+        "ror": "https://ror.org/01kq0pv72",
+        "country_code": "CN",
+        "region": "Guangdong",
+        "city": "Foshan",
+        "status": "supported cross-source inference; not a verified correction of the cited preprint",
+        "coordinate_warning": "OpenAlex institution coordinates refer to Guangzhou, while the college is described at the Foshan campus. Both are Guangdong, so a region-level assignment would be consistent if the identity/correction is accepted; do not present the Guangzhou headquarters coordinates as this author’s exact campus."
+      },
+      "checks": [
+        {
+          "source": "Crossref publisher deposit",
+          "url": "https://api.crossref.org/works/10.21203/rs.3.rs-4897840/v1",
+          "cached_file": "sources/seasonal-crossref.json",
+          "finding": "The ambiguous South China National University name is present in the source metadata, so this is not merely an OpenAlex normalization error."
+        },
+        {
+          "source": "South China Normal University official news, 2024-03-12",
+          "url": "https://english.scnu.edu.cn/a/20240312/1176.html",
+          "finding": "The university explicitly identifies YUN Qiaoyun as a vice dean of its International Business College in the same year as the preprint; the event is at the Foshan campus."
+        },
+        {
+          "source": "Publisher metadata of another paper",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/00207543.2025.2526166",
+          "finding": "Search-indexed publisher author metadata lists Qiaoyun Yun at International Business College, South China Normal University, Foshan. Direct page read returned 403."
+        },
+        {
+          "source": "OpenAlex institution metadata",
+          "url": "https://api.openalex.org/institutions/I187400657",
+          "cached_file": "sources/scnu-openalex-institution.json",
+          "finding": "Institution name and ROR are verified. This verifies the candidate institution, not the author association on the preprint."
+        }
+      ],
+      "recommendation": "Keep the original raw affiliation and unresolved status in the authoritative per-work ledger. Record this candidate and its sources separately for later author/publisher confirmation; do not silently substitute a different university name."
+    }
+  ],
+  "summary": {
+    "works_checked": 2,
+    "confirmed_new_author_affiliations": 0,
+    "unresolved_authorships": 7,
+    "supported_but_unconfirmed_institution_normalizations": 1
+  },
+  "method": "Only work-specific affiliations independently documented by the publication or its publisher deposit are treated as confirmed. Related-paper affiliations and current author profiles are not substituted automatically."
+}

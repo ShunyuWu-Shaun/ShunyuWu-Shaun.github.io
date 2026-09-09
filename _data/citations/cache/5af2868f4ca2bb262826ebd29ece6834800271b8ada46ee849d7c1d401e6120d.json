@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I1294671590?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T13:59:57+00:00",
+  "data": {
+    "id": "https://openalex.org/I1294671590",
+    "ror": "https://ror.org/02feahw73",
+    "display_name": "Centre National de la Recherche Scientifique",
+    "country_code": "FR",
+    "type": "government",
+    "geo": {
+      "city": "Paris",
+      "geonames_city_id": "2988507",
+      "region": "Île-de-France",
+      "country_code": "FR",
+      "country": "France",
+      "latitude": 48.85341,
+      "longitude": 2.3488
+    },
+    "lineage": [
+      "https://openalex.org/I1294671590"
+    ]
+  }
+}

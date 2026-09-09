@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I43922553?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:06+00:00",
+  "data": {
+    "id": "https://openalex.org/I43922553",
+    "ror": "https://ror.org/00e4hrk88",
+    "display_name": "Wuhan University of Science and Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Wuhan",
+      "geonames_city_id": "1791247",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.583330154418945,
+      "longitude": 114.26667022705078
+    },
+    "lineage": [
+      "https://openalex.org/I43922553"
+    ]
+  }
+}

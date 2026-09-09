@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I194450716?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:01+00:00",
+  "data": {
+    "id": "https://openalex.org/I194450716",
+    "ror": "https://ror.org/00js3aw79",
+    "display_name": "Jilin University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Changchun",
+      "geonames_city_id": "2038180",
+      "region": "Jilin",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 43.88,
+      "longitude": 125.32278
+    },
+    "lineage": [
+      "https://openalex.org/I194450716"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "retrieved_at": "2026-09-09T13:50:50.411776+00:00",
+  "confirmed_scope": {
+    "scholar_profile_target_count": 14,
+    "scholar_profile_citations": 66,
+    "scholar_retrieved_edges": 8,
+    "scholar_retrieved_unique_titles": 7,
+    "scholar_complete_against_profile": false,
+    "openalex_author_record_works_count": 22,
+    "openalex_author_record_cited_by_count": 64,
+    "warning": "The OpenAlex author record contains suspected homonym assignments and duplicate versions; its whole author aggregate is not a valid citation total for the curated publication set."
+  },
+  "add_targets": [
+    {
+      "doi": "10.1007/s10489-026-07434-4",
+      "openalex_id": "W7204989471",
+      "reason": "Present in the current 14-paper Google Scholar profile; publisher author affiliation matches the site and OpenAlex record; missing from original 13 DOI targets.",
+      "evidence_urls": [
+        "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en&pagesize=100",
+        "https://link.springer.com/article/10.1007/s10489-026-07434-4"
+      ],
+      "scope": "Scholar-profile target"
+    },
+    {
+      "doi": "10.1109/TSMC.2024.3373456",
+      "openalex_id": "W4393188243",
+      "reason": "Additional paper absent from the Google Scholar profile. Publisher-deposited Crossref author metadata explicitly records Shunyu Wu with ORCID 0000-0001-9856-2148 and Shanghai Jiao Tong University Department of Automation; matches established coauthors. ORCID is not authenticated according to the Crossref flag.",
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1109/TSMC.2024.3373456",
+        "https://dblp.org/rec/journals/tsmc/XuWRZWS24"
+      ],
+      "scope": "Supplementary publication verified by publisher metadata; distinguish from Scholar-profile set"
+    }
+  ],
+  "avoid_automatic_additions": [
+    {
+      "doi": "10.18632/aging.205981",
+      "openalex_id": "W4400146525",
+      "reason": "Not in supplied Scholar profile or site. OpenAlex raw affiliation is Otolaryngology-Head and Neck Surgery, Ninth People’s Hospital / School of Medicine rather than Automation; suspected homonym assignment. No independent ownership confirmation."
+    },
+    {
+      "doi": "10.1007/s12026-025-09609-6",
+      "openalex_id": "W4408220407",
+      "reason": "Not in supplied Scholar profile or site. Raw affiliations are health science, ear institute, and otolaryngology; suspected homonym assignment. No independent ownership confirmation."
+    },
+    {
+      "doi": "10.48550/arxiv.2506.00807",
+      "openalex_id": "W4414892853",
+      "reason": "Not in supplied Scholar profile or site. arXiv confirms author name but does not establish identity match; different coauthor chain and no affiliation data in OpenAlex. Ownership unresolved."
+    }
+  ],
+  "possible_version_records_do_not_count_as_separate_publications": [
+    {
+      "openalex_id": "W7133365440",
+      "title": "DRIFT: Diffusion-based Rule-Inferred For Trajectories",
+      "doi": null
+    },
+    {
+      "openalex_id": "W7133308757",
+      "title": "DRIFT: Diffusion-based Rule-Inferred For Trajectories",
+      "doi": "10.48550/arxiv.2603.00936"
+    },
+    {
+      "openalex_id": "W7140953337",
+      "title": "GEM: Guided Expectation-Maximization for Behavior-Normalized Candidate Action Selection in Offline RL",
+      "doi": null
+    },
+    {
+      "openalex_id": "W4391660886",
+      "title": "Recurrent Attentional Reinforcement Learning for Machinery Fault Diagnosis",
+      "doi": "10.2139/ssrn.4720939"
+    }
+  ],
+  "coverage_statement": "This ledger inventories retrievable citing works for a curated, identity-checked publication set using OpenAlex plus the available Google Scholar citing-results pages. Google Scholar reported 66 citations across 14 profile entries at retrieval, but exposed only 8 citation edges on the offered results pages. These aggregates are not interchangeable, and the ledger should not be represented as all 66 Scholar citations. Regional locations describe affiliations listed on each citing work, not authors’ nationality or present location. Missing or ambiguous affiliations remain unresolved.",
+  "official_documentation": [
+    "https://help.openalex.org/data/works/citations/",
+    "https://help.openalex.org/data/institutions/",
+    "https://help.openalex.org/how-to/counting/",
+    "https://help.openalex.org/how-to/api-recipes/"
+  ]
+}

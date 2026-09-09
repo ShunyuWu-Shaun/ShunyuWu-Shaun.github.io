@@ -1,0 +1,750 @@
+{
+  "retrieved_at": "2026-09-09T13:58:20.105060+00:00",
+  "input_scholar_file": "sources/scholar-citations.json",
+  "compared_openalex_snapshot": "_data/citations/current/citing-works.json",
+  "summary": {
+    "scholar_edges": 8,
+    "scholar_unique_works": 7,
+    "existing_openalex_works": 6,
+    "new_works": 1,
+    "edges_already_in_openalex": 7,
+    "new_scholar_edges": 1,
+    "unresolved_records": 0
+  },
+  "records": [
+    {
+      "scholar_record": {
+        "target_scholar_id": "keb-zTsAAAAJ:9yKSN-GCB0IC",
+        "target_title": "Prediction of energy consumption in horizontal roughing process of hot rolling strip based on TDADE algorithm",
+        "target_doi": "10.1109/tase.2023.3236306",
+        "citing_title": "Quantized dissipative control for fuzzy hot strip mill cooling system under input constraint via dynamic output feedback approach",
+        "citing_authors_publication_raw": "TF Li, L Ding, J Xiong, H Li - Applied Mathematics and Computation, 2026 - Elsevier",
+        "citing_year": 2026,
+        "publication_url": "https://www.sciencedirect.com/science/article/pii/S0096300325003418",
+        "scholar_cluster_id": "13570587954683608240",
+        "scholar_result_id": "sHwcQNhpVLwJ",
+        "scholar_cited_by_url": "https://scholar.google.com/scholar?cites=13570587954683608240&as_sdt=5,33&sciodt=0,33&hl=en",
+        "scholar_versions_url": "https://scholar.google.com/scholar?cluster=13570587954683608240&hl=en&as_sdt=5,33&sciodt=0,33",
+        "source_page_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17982578804515414946",
+        "retrieved_at": "2026-09-09T13:48:40.940236+00:00"
+      },
+      "work_id": "W4412072274",
+      "openalex_id": "https://openalex.org/W4412072274",
+      "doi": "10.1016/j.amc.2025.129615",
+      "cited_work_id": "W4316660809",
+      "target_doi": "10.1109/tase.2023.3236306",
+      "source": "Google Scholar",
+      "match_status": "verified",
+      "match_basis": [
+        "Title matches after case, punctuation and Unicode normalization.",
+        "Scholar author surnames and initials match the OpenAlex author list.",
+        "Scholar year 2026 agrees with publisher-deposited Crossref print date 2026-01; OpenAlex uses 2025-07-07 publication date. DOI, exact title and all four authors agree. Both source years are preserved."
+      ],
+      "evidence_urls": [
+        "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17982578804515414946",
+        "https://doi.org/10.1016/j.amc.2025.129615",
+        "https://api.crossref.org/works/10.1016/j.amc.2025.129615"
+      ],
+      "matched_authors": [
+        "Teng‐Fei Li",
+        "Liming Ding",
+        "Xiong Jun",
+        "Haibing Li"
+      ],
+      "scholar_year": 2026,
+      "openalex_year": 2025,
+      "present_in_openalex_citing_works_snapshot": true,
+      "edge_present_in_openalex_snapshot": true,
+      "missing_fields": []
+    },
+    {
+      "scholar_record": {
+        "target_scholar_id": "keb-zTsAAAAJ:9yKSN-GCB0IC",
+        "target_title": "Prediction of energy consumption in horizontal roughing process of hot rolling strip based on TDADE algorithm",
+        "target_doi": "10.1109/tase.2023.3236306",
+        "citing_title": "A hierarchical multi-task learning-based electrical energy consumption prediction method with application to the hot strip rolling mill process",
+        "citing_authors_publication_raw": "K Zhang, Z Cao, K Peng, Y Rui - Expert Systems with Applications, 2026 - Elsevier",
+        "citing_year": 2026,
+        "publication_url": "https://www.sciencedirect.com/science/article/pii/S0957417426031623",
+        "scholar_cluster_id": null,
+        "scholar_result_id": "M_QYGay2EsQJ",
+        "scholar_cited_by_url": null,
+        "scholar_versions_url": null,
+        "source_page_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17982578804515414946",
+        "retrieved_at": "2026-09-09T13:48:40.940518+00:00"
+      },
+      "work_id": "W7206203312",
+      "openalex_id": "https://openalex.org/W7206203312",
+      "doi": "10.1016/j.eswa.2026.134256",
+      "cited_work_id": "W4316660809",
+      "target_doi": "10.1109/tase.2023.3236306",
+      "source": "Google Scholar",
+      "match_status": "verified",
+      "match_basis": [
+        "Title matches after case, punctuation and Unicode normalization.",
+        "Scholar author surnames and initials match the OpenAlex author list.",
+        "Publication year agrees between Scholar and OpenAlex."
+      ],
+      "evidence_urls": [
+        "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17982578804515414946",
+        "https://doi.org/10.1016/j.eswa.2026.134256"
+      ],
+      "matched_authors": [
+        "Kai Zhang",
+        "Zongxu Cao",
+        "Kaixiang Peng",
+        "Yibin Rui"
+      ],
+      "scholar_year": 2026,
+      "openalex_year": 2026,
+      "present_in_openalex_citing_works_snapshot": true,
+      "edge_present_in_openalex_snapshot": true,
+      "missing_fields": []
+    },
+    {
+      "scholar_record": {
+        "target_scholar_id": "keb-zTsAAAAJ:9yKSN-GCB0IC",
+        "target_title": "Prediction of energy consumption in horizontal roughing process of hot rolling strip based on TDADE algorithm",
+        "target_doi": "10.1109/tase.2023.3236306",
+        "citing_title": "An automated mechanical property testing system based on electric field assistance and non-contact signal measurement",
+        "citing_authors_publication_raw": "X Liu , M Ming, L Du, H Xu, C Li, S Li… - IEEE Transactions …, 2025 - ieeexplore.ieee.org",
+        "citing_year": 2025,
+        "publication_url": "https://ieeexplore.ieee.org/abstract/document/10912737/",
+        "scholar_cluster_id": "15381546626292466655",
+        "scholar_result_id": "30NFZCk7dtUJ",
+        "scholar_cited_by_url": "https://scholar.google.com/scholar?cites=15381546626292466655&as_sdt=5,33&sciodt=0,33&hl=en",
+        "scholar_versions_url": "https://scholar.google.com/scholar?cluster=15381546626292466655&hl=en&as_sdt=5,33&sciodt=0,33",
+        "source_page_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17982578804515414946",
+        "retrieved_at": "2026-09-09T13:48:40.940825+00:00"
+      },
+      "work_id": "W6903285081",
+      "openalex_id": "https://openalex.org/W6903285081",
+      "doi": "10.1109/tim.2025.3548247",
+      "cited_work_id": "W4316660809",
+      "target_doi": "10.1109/tase.2023.3236306",
+      "source": "Google Scholar",
+      "match_status": "verified",
+      "match_basis": [
+        "Title matches after case, punctuation and Unicode normalization.",
+        "Scholar author surnames and initials match the OpenAlex author list.",
+        "Publication year agrees between Scholar and OpenAlex."
+      ],
+      "evidence_urls": [
+        "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17982578804515414946",
+        "https://doi.org/10.1109/tim.2025.3548247"
+      ],
+      "matched_authors": [
+        "Xiaochuan Liu",
+        "Ming Ming",
+        "Lihua Du",
+        "Huiyuan Xu",
+        "Chenyu Li",
+        "Shengzhe Li",
+        "Denis J. Politis",
+        "Di Zhang",
+        "Heli Liu",
+        "Xuefeng Chen"
+      ],
+      "scholar_year": 2025,
+      "openalex_year": 2025,
+      "present_in_openalex_citing_works_snapshot": true,
+      "edge_present_in_openalex_snapshot": true,
+      "missing_fields": []
+    },
+    {
+      "scholar_record": {
+        "target_scholar_id": "keb-zTsAAAAJ:IjCSPb-OGe4C",
+        "target_title": "Reinforcement learning controller design for discrete-time-constrained nonlinear systems with weight initialization method",
+        "target_doi": "10.1109/tsmc.2023.3344883",
+        "citing_title": "Fuzzy-based optimal control for stochastic nonlinear systems with constrained inputs via dynamic event-triggering",
+        "citing_authors_publication_raw": "C Si, C Mu , K Wang , S Zhu , J Yu - IEEE Transactions on Fuzzy …, 2024 - ieeexplore.ieee.org",
+        "citing_year": 2024,
+        "publication_url": "https://ieeexplore.ieee.org/abstract/document/10533664/",
+        "scholar_cluster_id": "15783364410684219010",
+        "scholar_result_id": "gh5gw07GCdsJ",
+        "scholar_cited_by_url": "https://scholar.google.com/scholar?cites=15783364410684219010&as_sdt=5,33&sciodt=0,33&hl=en",
+        "scholar_versions_url": "https://scholar.google.com/scholar?cluster=15783364410684219010&hl=en&as_sdt=5,33&sciodt=0,33",
+        "source_page_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9194898683237041119",
+        "retrieved_at": "2026-09-09T13:48:44.212585+00:00"
+      },
+      "work_id": "W4397026601",
+      "openalex_id": "https://openalex.org/W4397026601",
+      "doi": "10.1109/tfuzz.2024.3402348",
+      "cited_work_id": "W4390829281",
+      "target_doi": "10.1109/tsmc.2023.3344883",
+      "source": "Google Scholar",
+      "match_status": "verified",
+      "match_basis": [
+        "Title matches after case, punctuation and Unicode normalization.",
+        "Scholar author surnames and initials match the OpenAlex author list.",
+        "Publication year agrees between Scholar and OpenAlex."
+      ],
+      "evidence_urls": [
+        "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9194898683237041119",
+        "https://doi.org/10.1109/tfuzz.2024.3402348"
+      ],
+      "matched_authors": [
+        "Chenyi Si",
+        "Chaoxu Mu",
+        "Ke Wang",
+        "Song Zhu",
+        "Jinpeng Yu"
+      ],
+      "scholar_year": 2024,
+      "openalex_year": 2024,
+      "present_in_openalex_citing_works_snapshot": true,
+      "edge_present_in_openalex_snapshot": true,
+      "missing_fields": []
+    },
+    {
+      "scholar_record": {
+        "target_scholar_id": "keb-zTsAAAAJ:UeHWp8X0CEIC",
+        "target_title": "A novel series-concatenation hybrid prediction model of energy consumption in hot strip roughing process with multi-step rolling",
+        "target_doi": "10.1109/tase.2023.3299185",
+        "citing_title": "A hierarchical multi-task learning-based electrical energy consumption prediction method with application to the hot strip rolling mill process",
+        "citing_authors_publication_raw": "K Zhang, Z Cao, K Peng, Y Rui - Expert Systems with Applications, 2026 - Elsevier",
+        "citing_year": 2026,
+        "publication_url": "https://www.sciencedirect.com/science/article/pii/S0957417426031623",
+        "scholar_cluster_id": null,
+        "scholar_result_id": "M_QYGay2EsQJ",
+        "scholar_cited_by_url": null,
+        "scholar_versions_url": null,
+        "source_page_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6210036472641191013",
+        "retrieved_at": "2026-09-09T13:48:45.752801+00:00"
+      },
+      "work_id": "W7206203312",
+      "openalex_id": "https://openalex.org/W7206203312",
+      "doi": "10.1016/j.eswa.2026.134256",
+      "cited_work_id": "W4388740257",
+      "target_doi": "10.1109/tase.2023.3299185",
+      "source": "Google Scholar",
+      "match_status": "verified",
+      "match_basis": [
+        "Title matches after case, punctuation and Unicode normalization.",
+        "Scholar author surnames and initials match the OpenAlex author list.",
+        "Publication year agrees between Scholar and OpenAlex."
+      ],
+      "evidence_urls": [
+        "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6210036472641191013",
+        "https://doi.org/10.1016/j.eswa.2026.134256"
+      ],
+      "matched_authors": [
+        "Kai Zhang",
+        "Zongxu Cao",
+        "Kaixiang Peng",
+        "Yibin Rui"
+      ],
+      "scholar_year": 2026,
+      "openalex_year": 2026,
+      "present_in_openalex_citing_works_snapshot": true,
+      "edge_present_in_openalex_snapshot": true,
+      "missing_fields": []
+    },
+    {
+      "scholar_record": {
+        "target_scholar_id": "keb-zTsAAAAJ:qjMakFHDy7sC",
+        "target_title": "Adaptive dynamic programming for optimal control of discrete-time nonlinear systems with trajectory-based initial control policy",
+        "target_doi": "10.1109/tsmc.2023.3327450",
+        "citing_title": "Discrete-time Optimal Formation Control of Unmanned Vehicles Based on Policy Gradient Adaptive Dynamic Programming",
+        "citing_authors_publication_raw": "W Cao, Z Zhou, Y Wu, Z Ji, Z Ye… - 2026 41st Youth …, 2026 - ieeexplore.ieee.org",
+        "citing_year": 2026,
+        "publication_url": "https://ieeexplore.ieee.org/abstract/document/11615894/",
+        "scholar_cluster_id": null,
+        "scholar_result_id": "0i8CusPKW8AJ",
+        "scholar_cited_by_url": null,
+        "scholar_versions_url": null,
+        "source_page_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5565069619425376379",
+        "retrieved_at": "2026-09-09T13:48:47.415105+00:00"
+      },
+      "work_id": "W7172428666",
+      "openalex_id": "https://openalex.org/W7172428666",
+      "doi": "10.1109/yac71005.2026.11615894",
+      "cited_work_id": "W4388579581",
+      "target_doi": "10.1109/tsmc.2023.3327450",
+      "source": "Google Scholar",
+      "match_status": "verified",
+      "match_basis": [
+        "Title matches after case, punctuation and Unicode normalization.",
+        "Scholar author surnames and initials match the OpenAlex author list.",
+        "Publication year agrees between Scholar and OpenAlex."
+      ],
+      "evidence_urls": [
+        "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5565069619425376379",
+        "https://doi.org/10.1109/yac71005.2026.11615894"
+      ],
+      "matched_authors": [
+        "Wangyu Cao",
+        "Zhe Zhou",
+        "Yuxuan Wu",
+        "Zhuoyan Ji",
+        "Zhengtao Ye",
+        "Shixun Xiong"
+      ],
+      "scholar_year": 2026,
+      "openalex_year": 2026,
+      "present_in_openalex_citing_works_snapshot": true,
+      "edge_present_in_openalex_snapshot": true,
+      "missing_fields": []
+    },
+    {
+      "scholar_record": {
+        "target_scholar_id": "keb-zTsAAAAJ:Y0pCki6q_DkC",
+        "target_title": "End-to-end stochastic predict-then-optimize for cost-efficient water-energy resource scheduling",
+        "target_doi": "10.1109/tsg.2025.3601238",
+        "citing_title": "Decision-Oriented Machine Learning for Renewable-Dominated Power System Planning Under Uncertainty: A Review",
+        "citing_authors_publication_raw": "IF Cudjoe - Available at SSRN 7185818, 2026 - papers.ssrn.com",
+        "citing_year": 2026,
+        "publication_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7185818",
+        "scholar_cluster_id": null,
+        "scholar_result_id": "IcAPltpH7iEJ",
+        "scholar_cited_by_url": null,
+        "scholar_versions_url": null,
+        "source_page_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10373990695958943321",
+        "retrieved_at": "2026-09-09T13:48:49.000447+00:00"
+      },
+      "work_id": "W7197003632",
+      "openalex_id": "https://openalex.org/W7197003632",
+      "doi": "10.2139/ssrn.7185818",
+      "cited_work_id": "W4413754711",
+      "target_doi": "10.1109/tsg.2025.3601238",
+      "source": "Google Scholar",
+      "match_status": "verified",
+      "match_basis": [
+        "Title matches after case, punctuation and Unicode normalization.",
+        "Scholar author surnames and initials match the OpenAlex author list.",
+        "Publication year agrees between Scholar and OpenAlex.",
+        "Crossref confirms DOI, exact title, sole author Ishmael Fynn Cudjoe and year 2026.",
+        "Publisher SSRN record confirms University of Mines and Technology, Tarkwa, Western, Ghana, matching OpenAlex raw affiliation."
+      ],
+      "evidence_urls": [
+        "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10373990695958943321",
+        "https://doi.org/10.2139/ssrn.7185818",
+        "https://api.crossref.org/works/10.2139/ssrn.7185818",
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7185818"
+      ],
+      "matched_authors": [
+        "Ishmael Fynn Cudjoe"
+      ],
+      "scholar_year": 2026,
+      "openalex_year": 2026,
+      "present_in_openalex_citing_works_snapshot": false,
+      "edge_present_in_openalex_snapshot": false,
+      "missing_fields": []
+    },
+    {
+      "scholar_record": {
+        "target_scholar_id": "keb-zTsAAAAJ:u5HHmVD_uO8C",
+        "target_title": "A fine grained forecasting method for minute-level urban water demand",
+        "target_doi": "10.23919/ccc52363.2021.9550182",
+        "citing_title": "Machine learning for smart water distribution systems: exploring applications, challenges and future perspectives: R. Jr. L. Taloma et al.",
+        "citing_authors_publication_raw": "RJL Taloma , F Cuomo , D Comminiello … - Artificial Intelligence …, 2025 - Springer",
+        "citing_year": 2025,
+        "publication_url": "https://link.springer.com/article/10.1007/s10462-024-11093-7",
+        "scholar_cluster_id": "15676551278060469888",
+        "scholar_result_id": "gH79V1RMjtkJ",
+        "scholar_cited_by_url": "https://scholar.google.com/scholar?cites=15676551278060469888&as_sdt=5,33&sciodt=0,33&hl=en",
+        "scholar_versions_url": "https://scholar.google.com/scholar?cluster=15676551278060469888&hl=en&as_sdt=5,33&sciodt=0,33",
+        "source_page_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11079227468890272109",
+        "retrieved_at": "2026-09-09T13:48:50.648911+00:00"
+      },
+      "work_id": "W4407019097",
+      "openalex_id": "https://openalex.org/W4407019097",
+      "doi": "10.1007/s10462-024-11093-7",
+      "cited_work_id": "W3202625584",
+      "target_doi": "10.23919/ccc52363.2021.9550182",
+      "source": "Google Scholar",
+      "match_status": "verified",
+      "match_basis": [
+        "Publisher DOI in Scholar URL is 10.1007/s10462-024-11093-7; title matches after removal of Scholar-added author suffix.",
+        "Scholar author surnames and initials match the OpenAlex author list.",
+        "Publication year agrees between Scholar and OpenAlex."
+      ],
+      "evidence_urls": [
+        "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11079227468890272109",
+        "https://doi.org/10.1007/s10462-024-11093-7"
+      ],
+      "matched_authors": [
+        "Redemptor Jr Laceda Taloma",
+        "Francesca Cuomo",
+        "Danilo Comminiello",
+        "P. Pisani"
+      ],
+      "scholar_year": 2025,
+      "openalex_year": 2025,
+      "present_in_openalex_citing_works_snapshot": true,
+      "edge_present_in_openalex_snapshot": true,
+      "missing_fields": []
+    }
+  ],
+  "new_works": [
+    {
+      "id": "https://openalex.org/W7197003632",
+      "doi": "https://doi.org/10.2139/ssrn.7185818",
+      "title": "Decision-Oriented Machine Learning for Renewable-Dominated Power System Planning Under Uncertainty: A Review",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "type": "preprint",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5144362135",
+            "display_name": "Ishmael Fynn Cudjoe",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I27031042",
+              "display_name": "University of Mines and Technology",
+              "ror": "https://ror.org/00br9cf93",
+              "country_code": "GH",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I27031042"
+              ]
+            }
+          ],
+          "countries": [
+            "GH"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Ishmael Fynn Cudjoe",
+          "raw_affiliation_strings": [
+            "University of Mines and Technology, UMaT, Tarkwa, Ghana, P. O. Box 237, Tarkwa, Ghana, Tarkwa, Western 000233, Ghana"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Mines and Technology, UMaT, Tarkwa, Ghana, P. O. Box 237, Tarkwa, Ghana, Tarkwa, Western 000233, Ghana",
+              "institution_ids": [
+                "https://openalex.org/I27031042"
+              ]
+            }
+          ]
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.2139/ssrn.7185818",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.2139/ssrn.7185818",
+        "pdf_url": "https://papers.ssrn.com/sol3/Delivery.cfm/7185818.pdf?abstractid=7185818&mirid=1",
+        "source": {
+          "id": "https://openalex.org/S4210172589",
+          "display_name": "SSRN Electronic Journal",
+          "issn_l": "1556-5068",
+          "issn": [
+            "1556-5068"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1318003438",
+          "host_organization_name": "RELX Group (Netherlands)",
+          "host_organization_lineage": [
+            "https://openalex.org/I1318003438"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      },
+      "is_retracted": false
+    }
+  ],
+  "new_work_metadata_notes": [
+    {
+      "work_id": "W7197003632",
+      "source": "OpenAlex single-work DOI endpoint; Crossref and SSRN metadata corroborated",
+      "api_url": "https://api.openalex.org/works/doi:10.2139/ssrn.7185818",
+      "missing_requested_fields": [
+        "is_authors_truncated"
+      ],
+      "note": "The API response omits is_authors_truncated; no false value has been invented. publication_date 2026-01-01 represents a year-only Crossref date, while SSRN reports written 2026-06-10 and posted 2026-08-06. Preserve this distinction if displaying full dates."
+    }
+  ],
+  "unresolved": [],
+  "coverage_note": "All 8 Scholar rows exposed by the accessed citing-results pages have been resolved. This is not a claim that all 66 citations shown in the Scholar profile were enumerated.",
+  "parser_audit": {
+    "notes": [
+      "Cited-by URLs were used verbatim from .gsc_a_ac profile links; query parameters are only oi=bibs, hl=en and cites=<cluster>. No view_op, citation_for_view, year filter or start offset was appended.",
+      "Across all nine returned pages, independent .gs_rt counts, full .gs_r.gs_or.gs_scl counts and literal class occurrences match the extracted eight rows.",
+      "No pagination navigation links or next icons are present in any of the returned pages.",
+      "Three pages explicitly state that no citing articles were found even though the profile count is positive; the discrepancy is already in the source response and is not caused by reading only the first result block.",
+      "The cause of the source-level discrepancy cannot be established from these pages; do not infer that the profile aggregate is wrong or that all citing works have been exposed."
+    ],
+    "pages": [
+      {
+        "target_doi": "10.1109/tase.2023.3236306",
+        "profile_count": 13,
+        "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17982578804515414946",
+        "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17982578804515414946",
+        "request_query": {
+          "oi": [
+            "bibs"
+          ],
+          "hl": [
+            "en"
+          ],
+          "cites": [
+            "17982578804515414946"
+          ]
+        },
+        "request_has_profile_detail_parameter": false,
+        "gs_rt_title_count": 3,
+        "gs_r_gs_or_gs_scl_count": 3,
+        "parsed_row_count": 3,
+        "raw_class_literal_count": 3,
+        "result_header": "3 results ( 0.04 sec)",
+        "no_results_text": "",
+        "all_navigation_links": [],
+        "has_nav_next_icon": false,
+        "title_texts": [
+          "[HTML] [HTML] Quantized dissipative control for fuzzy hot strip mill cooling system under input constraint via dynamic output feedback approach",
+          "[HTML] [HTML] A hierarchical multi-task learning-based electrical energy consumption prediction method with application to the hot strip rolling mill process",
+          "An automated mechanical property testing system based on electric field assistance and non-contact signal measurement"
+        ],
+        "html_file": "sources/scholar-cites-01-01.html"
+      },
+      {
+        "target_doi": "10.1016/j.eswa.2024.124508",
+        "profile_count": 12,
+        "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10782110211194483263",
+        "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10782110211194483263",
+        "request_query": {
+          "oi": [
+            "bibs"
+          ],
+          "hl": [
+            "en"
+          ],
+          "cites": [
+            "10782110211194483263"
+          ]
+        },
+        "request_has_profile_detail_parameter": false,
+        "gs_rt_title_count": 0,
+        "gs_r_gs_or_gs_scl_count": 0,
+        "parsed_row_count": 0,
+        "raw_class_literal_count": 0,
+        "result_header": "",
+        "no_results_text": "",
+        "all_navigation_links": [],
+        "has_nav_next_icon": false,
+        "title_texts": [],
+        "html_file": "sources/scholar-cites-02-01.html"
+      },
+      {
+        "target_doi": "10.1109/tsmc.2023.3344883",
+        "profile_count": 11,
+        "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9194898683237041119",
+        "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9194898683237041119",
+        "request_query": {
+          "oi": [
+            "bibs"
+          ],
+          "hl": [
+            "en"
+          ],
+          "cites": [
+            "9194898683237041119"
+          ]
+        },
+        "request_has_profile_detail_parameter": false,
+        "gs_rt_title_count": 1,
+        "gs_r_gs_or_gs_scl_count": 1,
+        "parsed_row_count": 1,
+        "raw_class_literal_count": 1,
+        "result_header": "1 result ( 0.05 sec)",
+        "no_results_text": "",
+        "all_navigation_links": [],
+        "has_nav_next_icon": false,
+        "title_texts": [
+          "Fuzzy-based optimal control for stochastic nonlinear systems with constrained inputs via dynamic event-triggering"
+        ],
+        "html_file": "sources/scholar-cites-03-01.html"
+      },
+      {
+        "target_doi": "10.1109/tase.2023.3299185",
+        "profile_count": 8,
+        "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6210036472641191013",
+        "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6210036472641191013",
+        "request_query": {
+          "oi": [
+            "bibs"
+          ],
+          "hl": [
+            "en"
+          ],
+          "cites": [
+            "6210036472641191013"
+          ]
+        },
+        "request_has_profile_detail_parameter": false,
+        "gs_rt_title_count": 1,
+        "gs_r_gs_or_gs_scl_count": 1,
+        "parsed_row_count": 1,
+        "raw_class_literal_count": 1,
+        "result_header": "1 result ( 0.02 sec)",
+        "no_results_text": "",
+        "all_navigation_links": [],
+        "has_nav_next_icon": false,
+        "title_texts": [
+          "[HTML] [HTML] A hierarchical multi-task learning-based electrical energy consumption prediction method with application to the hot strip rolling mill process"
+        ],
+        "html_file": "sources/scholar-cites-04-01.html"
+      },
+      {
+        "target_doi": "10.1109/tsmc.2023.3327450",
+        "profile_count": 8,
+        "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5565069619425376379",
+        "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5565069619425376379",
+        "request_query": {
+          "oi": [
+            "bibs"
+          ],
+          "hl": [
+            "en"
+          ],
+          "cites": [
+            "5565069619425376379"
+          ]
+        },
+        "request_has_profile_detail_parameter": false,
+        "gs_rt_title_count": 1,
+        "gs_r_gs_or_gs_scl_count": 1,
+        "parsed_row_count": 1,
+        "raw_class_literal_count": 1,
+        "result_header": "1 result ( 0.03 sec)",
+        "no_results_text": "",
+        "all_navigation_links": [],
+        "has_nav_next_icon": false,
+        "title_texts": [
+          "Discrete-time Optimal Formation Control of Unmanned Vehicles Based on Policy Gradient Adaptive Dynamic Programming"
+        ],
+        "html_file": "sources/scholar-cites-05-01.html"
+      },
+      {
+        "target_doi": "10.1109/tsg.2025.3601238",
+        "profile_count": 6,
+        "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10373990695958943321",
+        "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10373990695958943321",
+        "request_query": {
+          "oi": [
+            "bibs"
+          ],
+          "hl": [
+            "en"
+          ],
+          "cites": [
+            "10373990695958943321"
+          ]
+        },
+        "request_has_profile_detail_parameter": false,
+        "gs_rt_title_count": 1,
+        "gs_r_gs_or_gs_scl_count": 1,
+        "parsed_row_count": 1,
+        "raw_class_literal_count": 1,
+        "result_header": "1 result ( 0.03 sec)",
+        "no_results_text": "",
+        "all_navigation_links": [],
+        "has_nav_next_icon": false,
+        "title_texts": [
+          "Decision-Oriented Machine Learning for Renewable-Dominated Power System Planning Under Uncertainty: A Review"
+        ],
+        "html_file": "sources/scholar-cites-06-01.html"
+      },
+      {
+        "target_doi": "10.23919/ccc52363.2021.9550182",
+        "profile_count": 5,
+        "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11079227468890272109",
+        "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11079227468890272109",
+        "request_query": {
+          "oi": [
+            "bibs"
+          ],
+          "hl": [
+            "en"
+          ],
+          "cites": [
+            "11079227468890272109"
+          ]
+        },
+        "request_has_profile_detail_parameter": false,
+        "gs_rt_title_count": 1,
+        "gs_r_gs_or_gs_scl_count": 1,
+        "parsed_row_count": 1,
+        "raw_class_literal_count": 1,
+        "result_header": "1 result ( 0.03 sec)",
+        "no_results_text": "",
+        "all_navigation_links": [],
+        "has_nav_next_icon": false,
+        "title_texts": [
+          "[HTML] [HTML] Machine learning for smart water distribution systems: exploring applications, challenges and future perspectives: R. Jr. L. Taloma et al."
+        ],
+        "html_file": "sources/scholar-cites-07-01.html"
+      },
+      {
+        "target_doi": "10.1109/tcss.2023.3272330",
+        "profile_count": 2,
+        "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16572637879701461247",
+        "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16572637879701461247",
+        "request_query": {
+          "oi": [
+            "bibs"
+          ],
+          "hl": [
+            "en"
+          ],
+          "cites": [
+            "16572637879701461247"
+          ]
+        },
+        "request_has_profile_detail_parameter": false,
+        "gs_rt_title_count": 0,
+        "gs_r_gs_or_gs_scl_count": 0,
+        "parsed_row_count": 0,
+        "raw_class_literal_count": 0,
+        "result_header": "",
+        "no_results_text": "",
+        "all_navigation_links": [],
+        "has_nav_next_icon": false,
+        "title_texts": [],
+        "html_file": "sources/scholar-cites-08-01.html"
+      },
+      {
+        "target_doi": "10.1016/j.ifacol.2023.10.581",
+        "profile_count": 1,
+        "requested_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3555488285760198709",
+        "final_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3555488285760198709",
+        "request_query": {
+          "oi": [
+            "bibs"
+          ],
+          "hl": [
+            "en"
+          ],
+          "cites": [
+            "3555488285760198709"
+          ]
+        },
+        "request_has_profile_detail_parameter": false,
+        "gs_rt_title_count": 0,
+        "gs_r_gs_or_gs_scl_count": 0,
+        "parsed_row_count": 0,
+        "raw_class_literal_count": 0,
+        "result_header": "",
+        "no_results_text": "",
+        "all_navigation_links": [],
+        "has_nav_next_icon": false,
+        "title_texts": [],
+        "html_file": "sources/scholar-cites-09-01.html"
+      }
+    ]
+  }
+}

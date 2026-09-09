@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I162868743?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:00+00:00",
+  "data": {
+    "id": "https://openalex.org/I162868743",
+    "ror": "https://ror.org/012tb2g32",
+    "display_name": "Tianjin University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Tianjin",
+      "geonames_city_id": "1792947",
+      "region": "Tianjin",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.14222,
+      "longitude": 117.17667
+    },
+    "lineage": [
+      "https://openalex.org/I162868743"
+    ]
+  }
+}

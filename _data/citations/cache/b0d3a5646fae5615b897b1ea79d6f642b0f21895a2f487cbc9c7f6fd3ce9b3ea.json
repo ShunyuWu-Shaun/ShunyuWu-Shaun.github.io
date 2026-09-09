@@ -1,0 +1,698 @@
+{
+  "url": "https://api.openalex.org/works?filter=cites%3AW3202625584&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
+  "retrieved_at": "2026-09-09T13:59:54+00:00",
+  "data": {
+    "meta": {
+      "count": 3,
+      "db_response_time_ms": 13,
+      "page": null,
+      "per_page": 100,
+      "next_cursor": null,
+      "groups_count": null,
+      "x_query": {
+        "oql": "works (all corpora) where it cites (W3202625584)",
+        "oqo": {
+          "get_rows": "works",
+          "corpus": "all",
+          "filter_rows": [
+            {
+              "column_id": "referenced_works",
+              "value": "W3202625584"
+            }
+          ]
+        },
+        "url": "/works?filter=referenced_works:W3202625584&corpus=all&per_page=100&cursor=%2A"
+      },
+      "cost_usd": 0.0001
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W4407019097",
+        "doi": "https://doi.org/10.1007/s10462-024-11093-7",
+        "title": "Machine learning for smart water distribution systems: exploring applications, challenges and future perspectives",
+        "publication_year": 2025,
+        "publication_date": "2025-01-31",
+        "type": "article",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5098316355",
+              "display_name": "Redemptor Jr Laceda Taloma",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I861853513",
+                "display_name": "Sapienza University of Rome",
+                "ror": "https://ror.org/02be6w209",
+                "country_code": "IT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ],
+            "countries": [
+              "IT"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Redemptor Jr Laceda Taloma",
+            "raw_affiliation_strings": [
+              "Sapienza University of Rome, Rome, Italy"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Sapienza University of Rome, Rome, Italy",
+                "institution_ids": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5022341678",
+              "display_name": "Francesca Cuomo",
+              "orcid": "https://orcid.org/0000-0002-9122-7993"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210099310",
+                "display_name": "Consorzio Nazionale Interuniversitario per le Telecomunicazioni",
+                "ror": "https://ror.org/0182a5n39",
+                "country_code": "IT",
+                "type": "funder",
+                "lineage": [
+                  "https://openalex.org/I4210099310"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I861853513",
+                "display_name": "Sapienza University of Rome",
+                "ror": "https://ror.org/02be6w209",
+                "country_code": "IT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ],
+            "countries": [
+              "IT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Francesca Cuomo",
+            "raw_affiliation_strings": [
+              "National Inter-University Consortium for Telecommunications (CNIT), Parma, Italy",
+              "Sapienza University of Rome, Rome, Italy"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "National Inter-University Consortium for Telecommunications (CNIT), Parma, Italy",
+                "institution_ids": [
+                  "https://openalex.org/I4210099310"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Sapienza University of Rome, Rome, Italy",
+                "institution_ids": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5019647783",
+              "display_name": "Danilo Comminiello",
+              "orcid": "https://orcid.org/0000-0003-4067-4504"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I861853513",
+                "display_name": "Sapienza University of Rome",
+                "ror": "https://ror.org/02be6w209",
+                "country_code": "IT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ],
+            "countries": [
+              "IT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Danilo Comminiello",
+            "raw_affiliation_strings": [
+              "Sapienza University of Rome, Rome, Italy"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Sapienza University of Rome, Rome, Italy",
+                "institution_ids": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5110606442",
+              "display_name": "P. Pisani",
+              "orcid": null
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Patrizio Pisani",
+            "raw_affiliation_strings": [
+              "Unidata S.p.A., Rome, Italy"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Unidata S.p.A., Rome, Italy",
+                "institution_ids": []
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.1007/s10462-024-11093-7",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1007/s10462-024-11093-7",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-024-11093-7.pdf",
+          "source": {
+            "id": "https://openalex.org/S122814990",
+            "display_name": "Artificial Intelligence Review",
+            "issn_l": "0269-2821",
+            "issn": [
+              "0269-2821",
+              "1573-7462"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Artificial Intelligence Review",
+          "raw_type": "journal-article"
+        },
+        "is_retracted": false
+      },
+      {
+        "id": "https://openalex.org/W4313043169",
+        "doi": "https://doi.org/10.1109/access.2022.3225643",
+        "title": "Embedded Real-Time Speed Forecasting for Electric Vehicles: A Case Study on RSK Urban Roads",
+        "publication_year": 2022,
+        "publication_date": "2022-01-01",
+        "type": "article",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5081020457",
+              "display_name": "Y. NaitMalek",
+              "orcid": "https://orcid.org/0000-0001-9378-9984"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126477371",
+                "display_name": "Mohammed V University",
+                "ror": "https://ror.org/00r8w8f84",
+                "country_code": "MA",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126477371"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210106663",
+                "display_name": "International University of Rabat",
+                "ror": "https://ror.org/01t9czq80",
+                "country_code": "MA",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I4210106663"
+                ]
+              }
+            ],
+            "countries": [
+              "MA"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Y. Naitmalek",
+            "raw_affiliation_strings": [
+              "College of Engineering and Architecture, LERMA-Laboratory, TIC-Laboratory, International University of Rabat, Rabat, Morocco",
+              "ENSIAS, Mohamed V University, Rabat, Morocco"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-9378-9984",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "College of Engineering and Architecture, LERMA-Laboratory, TIC-Laboratory, International University of Rabat, Rabat, Morocco",
+                "institution_ids": [
+                  "https://openalex.org/I4210106663"
+                ]
+              },
+              {
+                "raw_affiliation_string": "ENSIAS, Mohamed V University, Rabat, Morocco",
+                "institution_ids": [
+                  "https://openalex.org/I126477371"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5054644994",
+              "display_name": "Mehdi Najib",
+              "orcid": "https://orcid.org/0000-0001-9980-0240"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210106663",
+                "display_name": "International University of Rabat",
+                "ror": "https://ror.org/01t9czq80",
+                "country_code": "MA",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I4210106663"
+                ]
+              }
+            ],
+            "countries": [
+              "MA"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "M. Najib",
+            "raw_affiliation_strings": [
+              "College of Engineering and Architecture, LERMA-Laboratory, TIC-Laboratory, International University of Rabat, Rabat, Morocco"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-9980-0240",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "College of Engineering and Architecture, LERMA-Laboratory, TIC-Laboratory, International University of Rabat, Rabat, Morocco",
+                "institution_ids": [
+                  "https://openalex.org/I4210106663"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5055899235",
+              "display_name": "Mohamed Bakhouya",
+              "orcid": "https://orcid.org/0000-0001-8558-5471"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210106663",
+                "display_name": "International University of Rabat",
+                "ror": "https://ror.org/01t9czq80",
+                "country_code": "MA",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I4210106663"
+                ]
+              }
+            ],
+            "countries": [
+              "MA"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "M. Bakhouya",
+            "raw_affiliation_strings": [
+              "College of Engineering and Architecture, LERMA-Laboratory, TIC-Laboratory, International University of Rabat, Rabat, Morocco"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-8558-5471",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "College of Engineering and Architecture, LERMA-Laboratory, TIC-Laboratory, International University of Rabat, Rabat, Morocco",
+                "institution_ids": [
+                  "https://openalex.org/I4210106663"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5076010131",
+              "display_name": "Jaafar Gaber",
+              "orcid": "https://orcid.org/0000-0003-4356-6760"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1294671590",
+                "display_name": "Centre National de la Recherche Scientifique",
+                "ror": "https://ror.org/02feahw73",
+                "country_code": "FR",
+                "type": "government",
+                "lineage": [
+                  "https://openalex.org/I1294671590"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I2802759292",
+                "display_name": "Franche-Comté Électronique Mécanique Thermique et Optique - Sciences et Technologies",
+                "ror": "https://ror.org/004fmxv66",
+                "country_code": "FR",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I1294671590",
+                  "https://openalex.org/I1294671590",
+                  "https://openalex.org/I2802759292",
+                  "https://openalex.org/I37553959",
+                  "https://openalex.org/I4210095849",
+                  "https://openalex.org/I4405256580",
+                  "https://openalex.org/I53262699"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I37553959",
+                "display_name": "Université de technologie de belfort-montbéliard",
+                "ror": "https://ror.org/05bn3m307",
+                "country_code": "FR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I37553959"
+                ]
+              }
+            ],
+            "countries": [
+              "FR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "J. Gaber",
+            "raw_affiliation_strings": [
+              "FEMTO-ST UMR CNRS, University Bourgogne Franche-Comt&#x00E9;, Belfort, UTBM, France"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0003-4356-6760",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "FEMTO-ST UMR CNRS, University Bourgogne Franche-Comt&#x00E9;, Belfort, UTBM, France",
+                "institution_ids": [
+                  "https://openalex.org/I1294671590",
+                  "https://openalex.org/I2802759292",
+                  "https://openalex.org/I37553959"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5056342867",
+              "display_name": "Mohamed Essaaidi",
+              "orcid": "https://orcid.org/0000-0001-9215-3263"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126477371",
+                "display_name": "Mohammed V University",
+                "ror": "https://ror.org/00r8w8f84",
+                "country_code": "MA",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126477371"
+                ]
+              }
+            ],
+            "countries": [
+              "MA"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "M. Essaaidi",
+            "raw_affiliation_strings": [
+              "ENSIAS, Mohamed V University, Rabat, Morocco"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "ENSIAS, Mohamed V University, Rabat, Morocco",
+                "institution_ids": [
+                  "https://openalex.org/I126477371"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.1109/access.2022.3225643",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1109/access.2022.3225643",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2485537415",
+            "display_name": "IEEE Access",
+            "issn_l": "2169-3536",
+            "issn": [
+              "2169-3536"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Access",
+          "raw_type": "journal-article"
+        },
+        "is_retracted": false
+      },
+      {
+        "id": "https://openalex.org/W7117985712",
+        "doi": "https://doi.org/10.1007/978-3-032-13744-9_8",
+        "title": "Secure Management of a Water Distribution Network in Multi-tenant Scenarios",
+        "publication_year": 2026,
+        "publication_date": "2026-01-01",
+        "type": "conference-paper",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5002819480",
+              "display_name": "Pierluigi Locatelli",
+              "orcid": "https://orcid.org/0000-0002-7084-7923"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I861853513",
+                "display_name": "Sapienza University of Rome",
+                "ror": "https://ror.org/02be6w209",
+                "country_code": "IT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ],
+            "countries": [
+              "IT"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Pierluigi Locatelli",
+            "raw_affiliation_strings": [
+              "Department of Information Engineering, Electronics and Telecommunications, Sapienza University of Rome, Rome, Italy"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-7084-7923",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Department of Information Engineering, Electronics and Telecommunications, Sapienza University of Rome, Rome, Italy",
+                "institution_ids": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5019814927",
+              "display_name": "Tiziana Cattai",
+              "orcid": "https://orcid.org/0000-0002-6128-2246"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I861853513",
+                "display_name": "Sapienza University of Rome",
+                "ror": "https://ror.org/02be6w209",
+                "country_code": "IT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ],
+            "countries": [
+              "IT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Tiziana Cattai",
+            "raw_affiliation_strings": [
+              "Department of Information Engineering, Electronics and Telecommunications, Sapienza University of Rome, Rome, Italy"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-6128-2246",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Department of Information Engineering, Electronics and Telecommunications, Sapienza University of Rome, Rome, Italy",
+                "institution_ids": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5043668931",
+              "display_name": "Pietro Spadaccino",
+              "orcid": "https://orcid.org/0000-0002-5920-680X"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I861853513",
+                "display_name": "Sapienza University of Rome",
+                "ror": "https://ror.org/02be6w209",
+                "country_code": "IT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ],
+            "countries": [
+              "IT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Pietro Spadaccino",
+            "raw_affiliation_strings": [
+              "Department of Information Engineering, Electronics and Telecommunications, Sapienza University of Rome, Rome, Italy"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-5920-680X",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Department of Information Engineering, Electronics and Telecommunications, Sapienza University of Rome, Rome, Italy",
+                "institution_ids": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5022341678",
+              "display_name": "Francesca Cuomo",
+              "orcid": "https://orcid.org/0000-0002-9122-7993"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I861853513",
+                "display_name": "Sapienza University of Rome",
+                "ror": "https://ror.org/02be6w209",
+                "country_code": "IT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ],
+            "countries": [
+              "IT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Francesca Cuomo",
+            "raw_affiliation_strings": [
+              "Department of Information Engineering, Electronics and Telecommunications, Sapienza University of Rome, Rome, Italy"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-9122-7993",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Department of Information Engineering, Electronics and Telecommunications, Sapienza University of Rome, Rome, Italy",
+                "institution_ids": [
+                  "https://openalex.org/I861853513"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.1007/978-3-032-13744-9_8",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/978-3-032-13744-9_8",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S106296714",
+            "display_name": "Lecture notes in computer science",
+            "issn_l": "0302-9743",
+            "issn": [
+              "0302-9743",
+              "1611-3349"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "book series"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Lecture Notes in Computer Science",
+          "raw_type": "book-chapter"
+        },
+        "is_retracted": false
+      }
+    ],
+    "group_by": []
+  }
+}

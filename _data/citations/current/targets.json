@@ -1,0 +1,3299 @@
+[
+  {
+    "id": "https://openalex.org/W4413754711",
+    "doi": "https://doi.org/10.1109/tsg.2025.3601238",
+    "title": "End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling",
+    "publication_year": 2025,
+    "publication_date": "2025-08-27",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1327237609",
+            "display_name": "Ministry of Education of the People's Republic of China",
+            "ror": "https://ror.org/01mv9t934",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1327237609",
+              "https://openalex.org/I4210127390"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
+          "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9856-2148",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
+            "institution_ids": [
+              "https://openalex.org/I1327237609"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1327237609",
+            "display_name": "Ministry of Education of the People's Republic of China",
+            "ror": "https://ror.org/01mv9t934",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1327237609",
+              "https://openalex.org/I4210127390"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
+          "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4277-1263",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
+            "institution_ids": [
+              "https://openalex.org/I1327237609"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040505108",
+          "display_name": "Haotian Xu",
+          "orcid": "https://orcid.org/0000-0002-2180-6148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154099455",
+            "display_name": "Shandong University",
+            "ror": "https://ror.org/0207yh398",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154099455"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Haotian Xu",
+        "raw_affiliation_strings": [
+          "School of Control Science and Engineering, Shandong University, Jinan, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-2180-6148",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Control Science and Engineering, Shandong University, Jinan, China",
+            "institution_ids": [
+              "https://openalex.org/I154099455"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023069826",
+          "display_name": "Yanjiu Zhong",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16365422",
+            "display_name": "Hefei University of Technology",
+            "ror": "https://ror.org/02czkny70",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16365422"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yanjiu Zhong",
+        "raw_affiliation_strings": [
+          "School of Management, Hefei University of Technology, Hefei, Anhui, China",
+          "School of Management, Hefei University of Technology, Hefei, Anhui, PR China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Management, Hefei University of Technology, Hefei, Anhui, China",
+            "institution_ids": [
+              "https://openalex.org/I16365422"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Management, Hefei University of Technology, Hefei, Anhui, PR China",
+            "institution_ids": [
+              "https://openalex.org/I16365422"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5018604914",
+          "display_name": "Jun Rao",
+          "orcid": "https://orcid.org/0000-0002-7467-4898"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1327237609",
+            "display_name": "Ministry of Education of the People's Republic of China",
+            "ror": "https://ror.org/01mv9t934",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1327237609",
+              "https://openalex.org/I4210127390"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jun Rao",
+        "raw_affiliation_strings": [
+          "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
+          "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7467-4898",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
+            "institution_ids": [
+              "https://openalex.org/I1327237609"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/tsg.2025.3601238",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tsg.2025.3601238",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S59604973",
+        "display_name": "IEEE Transactions on Smart Grid",
+        "issn_l": "1949-3053",
+        "issn": [
+          "1949-3053",
+          "1949-3061"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Smart Grid",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 3,
+    "requested_doi": "10.1109/TSG.2025.3601238",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W4399709078",
+    "doi": "https://doi.org/10.1016/j.eswa.2024.124508",
+    "title": "Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting",
+    "publication_year": 2024,
+    "publication_date": "2024-06-15",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9856-2148",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5107143661",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4535-8538"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040505108",
+          "display_name": "Haotian Xu",
+          "orcid": "https://orcid.org/0000-0002-2180-6148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154099455",
+            "display_name": "Shandong University",
+            "ror": "https://ror.org/0207yh398",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154099455"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Haotian Xu",
+        "raw_affiliation_strings": [
+          "School of Control Science and Engineering, Shandong University, No. 27, South Shanda Road, Jinan, 250100, Shandong, China",
+          "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Control Science and Engineering, Shandong University, No. 27, South Shanda Road, Jinan, 250100, Shandong, China",
+            "institution_ids": [
+              "https://openalex.org/I154099455"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5042729110",
+          "display_name": "Shangwei Zhao",
+          "orcid": "https://orcid.org/0000-0001-7786-3857"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shangwei Zhao",
+        "raw_affiliation_strings": [
+          "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5077505612",
+          "display_name": "Jiahui Xu",
+          "orcid": "https://orcid.org/0000-0002-4260-6858"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiahui Xu",
+        "raw_affiliation_strings": [
+          "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Department of Automation, Shanghai Jiaotong University, No. 800, Dongchuan Road, Shanghai, 200240, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1016/j.eswa.2024.124508",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.eswa.2024.124508",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S13144211",
+        "display_name": "Expert Systems with Applications",
+        "issn_l": "0957-4174",
+        "issn": [
+          "0957-4174",
+          "1873-6793"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Expert Systems with Applications",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 11,
+    "requested_doi": "10.1016/j.eswa.2024.124508",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W4376479136",
+    "doi": "https://doi.org/10.1109/tcss.2023.3272330",
+    "title": "CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems",
+    "publication_year": 2023,
+    "publication_date": "2023-05-12",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the Shanghai Engineering Research Center of Intelligent Control and Management, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9856-2148",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the Shanghai Engineering Research Center of Intelligent Control and Management, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210110558",
+            "display_name": "Xi'an Technological University",
+            "ror": "https://ror.org/01t8prc81",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210110558"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the Shanghai Engineering Research Center of Intelligent Control and Management, Shanghai Jiao Tong University, Shanghai, China",
+          "Autonomous Systems and Intelligent Control International Joint Research Center, Xi'an Technological University, Xi'an, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4277-1263",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the Shanghai Engineering Research Center of Intelligent Control and Management, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Autonomous Systems and Intelligent Control International Joint Research Center, Xi'an Technological University, Xi'an, China",
+            "institution_ids": [
+              "https://openalex.org/I4210110558"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040505108",
+          "display_name": "Haotian Xu",
+          "orcid": "https://orcid.org/0000-0002-2180-6148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154099455",
+            "display_name": "Shandong University",
+            "ror": "https://ror.org/0207yh398",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154099455"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Haotian Xu",
+        "raw_affiliation_strings": [
+          "School of Control Science and Engineering, Shandong University, Jinan, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-2180-6148",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Control Science and Engineering, Shandong University, Jinan, China",
+            "institution_ids": [
+              "https://openalex.org/I154099455"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5042729110",
+          "display_name": "Shangwei Zhao",
+          "orcid": "https://orcid.org/0000-0001-7786-3857"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shangwei Zhao",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the Shanghai Engineering Research Center of Intelligent Control and Management, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-7786-3857",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the Shanghai Engineering Research Center of Intelligent Control and Management, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5058905701",
+          "display_name": "Jiahui Xu",
+          "orcid": "https://orcid.org/0000-0002-4058-0447"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiahui Xu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the Shanghai Engineering Research Center of Intelligent Control and Management, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4058-0447",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the Shanghai Engineering Research Center of Intelligent Control and Management, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/tcss.2023.3272330",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tcss.2023.3272330",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2490693980",
+        "display_name": "IEEE Transactions on Computational Social Systems",
+        "issn_l": "2329-924X",
+        "issn": [
+          "2329-924X",
+          "2373-7476"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Computational Social Systems",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 2,
+    "requested_doi": "10.1109/TCSS.2023.3272330",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W3202625584",
+    "doi": "https://doi.org/10.23919/ccc52363.2021.9550182",
+    "title": "A Fine Grained Forecasting Method for Minute-Level Urban Water Demand",
+    "publication_year": 2021,
+    "publication_date": "2021-07-26",
+    "type": "conference-paper",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1327237609",
+            "display_name": "Ministry of Education of the People's Republic of China",
+            "ror": "https://ror.org/01mv9t934",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1327237609",
+              "https://openalex.org/I4210127390"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+          "Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I1327237609"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5030252847",
+          "display_name": "Pingwei Zhao",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210132948",
+            "display_name": "Shanghai Chengtou (China)",
+            "ror": "https://ror.org/041rv6v55",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210132948"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Pingwei Zhao",
+        "raw_affiliation_strings": [
+          "Shanghai Chengtou Water Group Co., LTD, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Chengtou Water Group Co., LTD, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I4210132948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5061284899",
+          "display_name": "Miaoshun Bai",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Miaoshun Bai",
+        "raw_affiliation_strings": [
+          "Shanghai Municipal Engineering Design Institute(Group)Co., Ltd, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Municipal Engineering Design Institute(Group)Co., Ltd, Shanghai, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1327237609",
+            "display_name": "Ministry of Education of the People's Republic of China",
+            "ror": "https://ror.org/01mv9t934",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1327237609",
+              "https://openalex.org/I4210127390"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+          "Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I1327237609"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100661258",
+          "display_name": "Lan Yang",
+          "orcid": "https://orcid.org/0000-0002-9052-0450"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1327237609",
+            "display_name": "Ministry of Education of the People's Republic of China",
+            "ror": "https://ror.org/01mv9t934",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1327237609",
+              "https://openalex.org/I4210127390"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yang Lan",
+        "raw_affiliation_strings": [
+          "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+          "Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I1327237609"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.23919/ccc52363.2021.9550182",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.23919/ccc52363.2021.9550182",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2021 40th Chinese Control Conference (CCC)",
+      "raw_type": "proceedings-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 3,
+    "requested_doi": "10.23919/CCC52363.2021.9550182",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W7165130889",
+    "doi": "https://doi.org/10.1016/j.eswa.2026.133261",
+    "title": "DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation",
+    "publication_year": 2026,
+    "publication_date": "2026-06-18",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5138962930",
+          "display_name": "Jinyang Zhao",
+          "orcid": "https://orcid.org/0009-0001-9457-0666"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jinyang Zhao",
+        "raw_affiliation_strings": [],
+        "raw_orcid": "https://orcid.org/0009-0001-9457-0666",
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5041002670",
+          "display_name": "Handong Zheng",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Handong Zheng",
+        "raw_affiliation_strings": [],
+        "raw_orcid": "https://orcid.org/0000-0002-1807-8274",
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5000872966",
+          "display_name": "Yanjiu Zhong",
+          "orcid": "https://orcid.org/0000-0002-4361-9378"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Yanjiu Zhong",
+        "raw_affiliation_strings": [],
+        "raw_orcid": "https://orcid.org/0000-0002-4361-9378",
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5138927675",
+          "display_name": "Qiang Zhang",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Qiang Zhang",
+        "raw_affiliation_strings": [],
+        "raw_orcid": "https://orcid.org/0000-0003-2947-1351",
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [],
+        "raw_orcid": "https://orcid.org/0000-0001-9856-2148",
+        "affiliations": []
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1016/j.eswa.2026.133261",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.eswa.2026.133261",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S13144211",
+        "display_name": "Expert Systems with Applications",
+        "issn_l": "0957-4174",
+        "issn": [
+          "0957-4174",
+          "1873-6793"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Expert Systems with Applications",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 0,
+    "requested_doi": "10.1016/j.eswa.2026.133261",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W4390829281",
+    "doi": "https://doi.org/10.1109/tsmc.2023.3344883",
+    "title": "Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method",
+    "publication_year": 2024,
+    "publication_date": "2024-01-12",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5058905701",
+          "display_name": "Jiahui Xu",
+          "orcid": "https://orcid.org/0000-0002-4058-0447"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiahui Xu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4058-0447",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4277-1263",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5000872966",
+          "display_name": "Yanjiu Zhong",
+          "orcid": "https://orcid.org/0000-0002-4361-9378"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yanjiu Zhong",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4361-9378",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5018604914",
+          "display_name": "Jun Rao",
+          "orcid": "https://orcid.org/0000-0002-7467-4898"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jun Rao",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7467-4898",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9856-2148",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/tsmc.2023.3344883",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tsmc.2023.3344883",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210209078",
+        "display_name": "IEEE Transactions on Systems Man and Cybernetics Systems",
+        "issn_l": "2168-2216",
+        "issn": [
+          "2168-2216",
+          "2168-2232"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 9,
+    "requested_doi": "10.1109/TSMC.2023.3344883",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W4388740257",
+    "doi": "https://doi.org/10.1109/tase.2023.3299185",
+    "title": "A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling",
+    "publication_year": 2023,
+    "publication_date": "2023-11-16",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5000872966",
+          "display_name": "Yanjiu Zhong",
+          "orcid": "https://orcid.org/0000-0002-4361-9378"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yanjiu Zhong",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4361-9378",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4277-1263",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5018604914",
+          "display_name": "Jun Rao",
+          "orcid": "https://orcid.org/0000-0002-7467-4898"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jun Rao",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7467-4898",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5058905701",
+          "display_name": "Jiahui Xu",
+          "orcid": "https://orcid.org/0000-0002-4058-0447"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiahui Xu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4058-0447",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9856-2148",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/tase.2023.3299185",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tase.2023.3299185",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S34881539",
+        "display_name": "IEEE Transactions on Automation Science and Engineering",
+        "issn_l": "1545-5955",
+        "issn": [
+          "1545-5955",
+          "1558-3783"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Automation Science and Engineering",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 7,
+    "requested_doi": "10.1109/TASE.2023.3299185",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W4391020081",
+    "doi": "https://doi.org/10.1109/cdc49753.2023.10383316",
+    "title": "Adaptive Optimal Control of Nonlinear Systems with Multiple Time-Scale Eligibility Traces",
+    "publication_year": 2023,
+    "publication_date": "2023-12-13",
+    "type": "conference-paper",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5018604914",
+          "display_name": "Jun Rao",
+          "orcid": "https://orcid.org/0000-0002-7467-4898"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jun Rao",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5058905701",
+          "display_name": "Jiahui Xu",
+          "orcid": "https://orcid.org/0000-0002-4058-0447"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiahui Xu",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University,Key Laboratory of System Control and Information Processing,Department of Automation,Shanghai,China,200240",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/cdc49753.2023.10383316",
+      "is_oa": false,
+      "landing_page_url": "http://dx.doi.org/10.1109/cdc49753.2023.10383316",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2023 62nd IEEE Conference on Decision and Control (CDC)",
+      "raw_type": "proceedings-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 0,
+    "requested_doi": "10.1109/CDC49753.2023.10383316",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W4388904509",
+    "doi": "https://doi.org/10.1016/j.ifacol.2023.10.581",
+    "title": "The CEEMDAN-ps-gcGRU Model On Water Pressure Prediction With Strong Irregularity",
+    "publication_year": 2023,
+    "publication_date": "2023-01-01",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5048989606",
+          "display_name": "Tzuyi Kan",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Tzuyi Kan",
+        "raw_affiliation_strings": [
+          "Department of Automation, Shanghai Jiao Tong University, Shanghai 200240, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Shanghai 200240, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1327237609",
+            "display_name": "Ministry of Education of the People's Republic of China",
+            "ror": "https://ror.org/01mv9t934",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1327237609",
+              "https://openalex.org/I4210127390"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai 200240, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai 200240, China",
+            "institution_ids": [
+              "https://openalex.org/I1327237609"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Shanghai Jiao Tong University, Shanghai 200240, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Shanghai 200240, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1016/j.ifacol.2023.10.581",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.ifacol.2023.10.581",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2898405271",
+        "display_name": "IFAC-PapersOnLine",
+        "issn_l": "2405-8963",
+        "issn": [
+          "2405-8963",
+          "2405-8971"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IFAC-PapersOnLine",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 0,
+    "requested_doi": "10.1016/j.ifacol.2023.10.581",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W3204859870",
+    "doi": "https://doi.org/10.23919/ccc52363.2021.9550267",
+    "title": "An Improved Ensemble Deep Learning Model for Water Leakage Detection",
+    "publication_year": 2021,
+    "publication_date": "2021-07-26",
+    "type": "conference-paper",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5103075336",
+          "display_name": "Shuwei Zhang",
+          "orcid": "https://orcid.org/0000-0001-8315-3261"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1327237609",
+            "display_name": "Ministry of Education of the People's Republic of China",
+            "ror": "https://ror.org/01mv9t934",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1327237609",
+              "https://openalex.org/I4210127390"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shuwei Zhang",
+        "raw_affiliation_strings": [
+          "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+          "KeyLaboratory of System Control and Information Processing, Ministry of Education of China, Shanghai JiaoTong University, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I1327237609"
+            ]
+          },
+          {
+            "raw_affiliation_string": "KeyLaboratory of System Control and Information Processing, Ministry of Education of China, Shanghai JiaoTong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5061284899",
+          "display_name": "Miaoshun Bai",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Miaoshun Bai",
+        "raw_affiliation_strings": [
+          "Shanghai Municipal Engineering Design Institute(Group) Co., Ltd, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Municipal Engineering Design Institute(Group) Co., Ltd, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1327237609",
+            "display_name": "Ministry of Education of the People's Republic of China",
+            "ror": "https://ror.org/01mv9t934",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1327237609",
+              "https://openalex.org/I4210127390"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+          "KeyLaboratory of System Control and Information Processing, Ministry of Education of China, Shanghai JiaoTong University, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I1327237609"
+            ]
+          },
+          {
+            "raw_affiliation_string": "KeyLaboratory of System Control and Information Processing, Ministry of Education of China, Shanghai JiaoTong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040505108",
+          "display_name": "Haotian Xu",
+          "orcid": "https://orcid.org/0000-0002-2180-6148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1327237609",
+            "display_name": "Ministry of Education of the People's Republic of China",
+            "ror": "https://ror.org/01mv9t934",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1327237609",
+              "https://openalex.org/I4210127390"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Haotian Xu",
+        "raw_affiliation_strings": [
+          "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+          "KeyLaboratory of System Control and Information Processing, Ministry of Education of China, Shanghai JiaoTong University, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I1327237609"
+            ]
+          },
+          {
+            "raw_affiliation_string": "KeyLaboratory of System Control and Information Processing, Ministry of Education of China, Shanghai JiaoTong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1327237609",
+            "display_name": "Ministry of Education of the People's Republic of China",
+            "ror": "https://ror.org/01mv9t934",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1327237609",
+              "https://openalex.org/I4210127390"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+          "KeyLaboratory of System Control and Information Processing, Ministry of Education of China, Shanghai JiaoTong University, Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I1327237609"
+            ]
+          },
+          {
+            "raw_affiliation_string": "KeyLaboratory of System Control and Information Processing, Ministry of Education of China, Shanghai JiaoTong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.23919/ccc52363.2021.9550267",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.23919/ccc52363.2021.9550267",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2021 40th Chinese Control Conference (CCC)",
+      "raw_type": "proceedings-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 0,
+    "requested_doi": "10.23919/CCC52363.2021.9550267",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W4316660809",
+    "doi": "https://doi.org/10.1109/tase.2023.3236306",
+    "title": "Prediction of Energy Consumption in Horizontal Roughing Process of Hot Rolling Strip Based on TDADE Algorithm",
+    "publication_year": 2023,
+    "publication_date": "2023-01-16",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5000872966",
+          "display_name": "Yanjiu Zhong",
+          "orcid": "https://orcid.org/0000-0002-4361-9378"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yanjiu Zhong",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4361-9378",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4277-1263",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5058905701",
+          "display_name": "Jiahui Xu",
+          "orcid": "https://orcid.org/0000-0002-4058-0447"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiahui Xu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4058-0447",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9856-2148",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5018604914",
+          "display_name": "Jun Rao",
+          "orcid": "https://orcid.org/0000-0002-7467-4898"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jun Rao",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7467-4898",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5029138127",
+          "display_name": "Kangbo Dang",
+          "orcid": "https://orcid.org/0009-0004-5949-6941"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110558",
+            "display_name": "Xi'an Technological University",
+            "ror": "https://ror.org/01t8prc81",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210110558"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kangbo Dang",
+        "raw_affiliation_strings": [
+          "School of Electronic Information Engineering, Xi&#x2019;an Technological University, Xi&#x2019;an, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electronic Information Engineering, Xi&#x2019;an Technological University, Xi&#x2019;an, China",
+            "institution_ids": [
+              "https://openalex.org/I4210110558"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/tase.2023.3236306",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tase.2023.3236306",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S34881539",
+        "display_name": "IEEE Transactions on Automation Science and Engineering",
+        "issn_l": "1545-5955",
+        "issn": [
+          "1545-5955",
+          "1558-3783"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Automation Science and Engineering",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 13,
+    "requested_doi": "10.1109/TASE.2023.3236306",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W4388579581",
+    "doi": "https://doi.org/10.1109/tsmc.2023.3327450",
+    "title": "Adaptive Dynamic Programming for Optimal Control of Discrete-Time Nonlinear Systems With Trajectory-Based Initial Control Policy",
+    "publication_year": 2023,
+    "publication_date": "2023-11-10",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5058905701",
+          "display_name": "Jiahui Xu",
+          "orcid": "https://orcid.org/0000-0002-4058-0447"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiahui Xu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4058-0447",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4277-1263",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5018604914",
+          "display_name": "Jun Rao",
+          "orcid": "https://orcid.org/0000-0002-7467-4898"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jun Rao",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7467-4898",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9856-2148",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5000872966",
+          "display_name": "Yanjiu Zhong",
+          "orcid": "https://orcid.org/0000-0002-4361-9378"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yanjiu Zhong",
+        "raw_affiliation_strings": [
+          "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4361-9378",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/tsmc.2023.3327450",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tsmc.2023.3327450",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210209078",
+        "display_name": "IEEE Transactions on Systems Man and Cybernetics Systems",
+        "issn_l": "2168-2216",
+        "issn": [
+          "2168-2216",
+          "2168-2232"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 7,
+    "requested_doi": "10.1109/TSMC.2023.3327450",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W7140303640",
+    "doi": "https://doi.org/10.48550/arxiv.2603.23232",
+    "title": "GEM: Guided Expectation-Maximization for Behavior-Normalized Candidate Action Selection in Offline RL",
+    "publication_year": 2026,
+    "publication_date": "2026-03-24",
+    "type": "preprint",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5130575137",
+          "display_name": "Haoyu Wang",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wang, Haoyu",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5130565517",
+          "display_name": "Jingcheng Wang",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wang, Jingcheng",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wu, Shunyu",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5130554354",
+          "display_name": "Xinwei Xiao",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Xiao, Xinwei",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.48550/arxiv.2603.23232",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.48550/arxiv.2603.23232",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Preprint"
+    },
+    "is_retracted": false,
+    "cited_by_count": 0,
+    "requested_doi": "10.48550/arXiv.2603.23232",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W7204989471",
+    "doi": "https://doi.org/10.1007/s10489-026-07434-4",
+    "title": "Optimal fault feature learning for machinery fault diagnosis by using recurrent attentional reinforcement learning",
+    "publication_year": 2026,
+    "publication_date": "2026-09-01",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5028449038",
+          "display_name": "Zhenhui Tang",
+          "orcid": "https://orcid.org/0000-0002-8947-3431"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210149102",
+            "display_name": "Sanya University",
+            "ror": "https://ror.org/04fa2qd52",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210149102"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhenhui Tang",
+        "raw_affiliation_strings": [
+          "The SJTU Hainan Institute, Sanya, 572024, Hainan, China",
+          "The School of Automation and Intelligent Sensing, Shanghai JiaoTong University, No. 800 Dongchuan Road, Shanghai, 200240, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The SJTU Hainan Institute, Sanya, 572024, Hainan, China",
+            "institution_ids": [
+              "https://openalex.org/I4210149102"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The School of Automation and Intelligent Sensing, Shanghai JiaoTong University, No. 800 Dongchuan Road, Shanghai, 200240, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "The School of Automation and Intelligent Sensing, Shanghai JiaoTong University, No. 800 Dongchuan Road, Shanghai, 200240, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4277-1263",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The School of Automation and Intelligent Sensing, Shanghai JiaoTong University, No. 800 Dongchuan Road, Shanghai, 200240, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "The School of Automation and Intelligent Sensing, Shanghai JiaoTong University, No. 800 Dongchuan Road, Shanghai, 200240, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The School of Automation and Intelligent Sensing, Shanghai JiaoTong University, No. 800 Dongchuan Road, Shanghai, 200240, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1007/s10489-026-07434-4",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/s10489-026-07434-4",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S74726891",
+        "display_name": "Applied Intelligence",
+        "issn_l": "0924-669X",
+        "issn": [
+          "0924-669X",
+          "1573-7497"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Applied Intelligence",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 0,
+    "requested_doi": "10.1007/s10489-026-07434-4",
+    "scope_basis": "Google Scholar profile publication list, verified DOI"
+  },
+  {
+    "id": "https://openalex.org/W4393188243",
+    "doi": "https://doi.org/10.1109/tsmc.2024.3373456",
+    "title": "Parallel Cross Entropy Policy Gradient Adaptive Dynamic Programming for Optimal Tracking Control of Discrete-Time Nonlinear Systems",
+    "publication_year": 2024,
+    "publication_date": "2024-03-26",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5058905701",
+          "display_name": "Jiahui Xu",
+          "orcid": "https://orcid.org/0000-0002-4058-0447"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiahui Xu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4058-0447",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100777024",
+          "display_name": "Jingcheng Wang",
+          "orcid": "https://orcid.org/0000-0002-4277-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingcheng Wang",
+        "raw_affiliation_strings": [
+          "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4277-1263",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5018604914",
+          "display_name": "Jun Rao",
+          "orcid": "https://orcid.org/0000-0002-7467-4898"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jun Rao",
+        "raw_affiliation_strings": [
+          "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7467-4898",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5000872966",
+          "display_name": "Yanjiu Zhong",
+          "orcid": "https://orcid.org/0000-0002-4361-9378"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yanjiu Zhong",
+        "raw_affiliation_strings": [
+          "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4361-9378",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5087893108",
+          "display_name": "Shunyu Wu",
+          "orcid": "https://orcid.org/0000-0001-9856-2148"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunyu Wu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9856-2148",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5026545800",
+          "display_name": "Qifang Sun",
+          "orcid": "https://orcid.org/0000-0001-6568-6718"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qifang Sun",
+        "raw_affiliation_strings": [
+          "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-6568-6718",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Shanghai Jiao Tong University, Key Laboratory of System Control and Information Processing, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/tsmc.2024.3373456",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tsmc.2024.3373456",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210209078",
+        "display_name": "IEEE Transactions on Systems Man and Cybernetics Systems",
+        "issn_l": "2168-2216",
+        "issn": [
+          "2168-2216",
+          "2168-2232"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false,
+    "cited_by_count": 4,
+    "requested_doi": "10.1109/TSMC.2024.3373456",
+    "scope_basis": "Publisher-deposited Crossref ORCID matches profile author; supplementary to Scholar list"
+  }
+]

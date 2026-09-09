@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I97018004?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:09+00:00",
+  "data": {
+    "id": "https://openalex.org/I97018004",
+    "ror": "https://ror.org/00f54p054",
+    "display_name": "Stanford University",
+    "country_code": "US",
+    "type": "education",
+    "geo": {
+      "city": "Stanford",
+      "geonames_city_id": "5398563",
+      "region": "California",
+      "country_code": "US",
+      "country": "United States",
+      "latitude": 37.42411,
+      "longitude": -122.16608
+    },
+    "lineage": [
+      "https://openalex.org/I97018004"
+    ]
+  }
+}

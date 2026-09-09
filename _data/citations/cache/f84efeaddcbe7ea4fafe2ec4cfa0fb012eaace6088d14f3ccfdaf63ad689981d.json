@@ -1,0 +1,24 @@
+{
+  "url": "https://api.openalex.org/institutions/I4391767838?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:06+00:00",
+  "data": {
+    "id": "https://openalex.org/I4391767838",
+    "ror": "https://ror.org/03a33a786",
+    "display_name": "State Key Laboratory of Industrial Control Technology",
+    "country_code": "CN",
+    "type": "facility",
+    "geo": {
+      "city": "Hangzhou",
+      "geonames_city_id": "1808926",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.29365,
+      "longitude": 120.16142
+    },
+    "lineage": [
+      "https://openalex.org/I4391767838",
+      "https://openalex.org/I76130692"
+    ]
+  }
+}

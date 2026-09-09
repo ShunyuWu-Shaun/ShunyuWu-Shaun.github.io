@@ -1,0 +1,22 @@
+[
+  {
+    "source": "countries.geojson",
+    "source_sha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+    "output": "citation-world.geojson",
+    "source_features": 258,
+    "output_features": 258,
+    "omitted_null_geometries": 0,
+    "bytes": 2815890,
+    "output_sha256": "f456e67000a42117ab0233118d64b064374f723079b9faa7e0b2d206617c6258"
+  },
+  {
+    "source": "admin1.geojson",
+    "source_sha256": "1a1f30ccaaf4cc9c4bde34266f0b8cbb955d3a4cf254b756912255f2ec7c75b6",
+    "output": "citation-admin1.geojson",
+    "source_features": 10178,
+    "output_features": 1,
+    "omitted_null_geometries": 1,
+    "bytes": 2885088,
+    "output_sha256": "127bf445a4e788dcce4627321f096507a5eb8730c40b91da560ade4197d69387"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I154099455?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T13:59:59+00:00",
+  "data": {
+    "id": "https://openalex.org/I154099455",
+    "ror": "https://ror.org/0207yh398",
+    "display_name": "Shandong University",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Jinan",
+      "geonames_city_id": "1805753",
+      "region": "Shandong",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 36.66833,
+      "longitude": 116.99722
+    },
+    "lineage": [
+      "https://openalex.org/I154099455"
+    ]
+  }
+}

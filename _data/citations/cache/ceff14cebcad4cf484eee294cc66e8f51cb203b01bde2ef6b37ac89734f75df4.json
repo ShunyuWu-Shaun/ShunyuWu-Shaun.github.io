@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I4210099310?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-09T14:00:04+00:00",
+  "data": {
+    "id": "https://openalex.org/I4210099310",
+    "ror": "https://ror.org/0182a5n39",
+    "display_name": "Consorzio Nazionale Interuniversitario per le Telecomunicazioni",
+    "country_code": "IT",
+    "type": "funder",
+    "geo": {
+      "city": "Parma",
+      "geonames_city_id": "3171457",
+      "region": null,
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 44.79935073852539,
+      "longitude": 10.326180458068848
+    },
+    "lineage": [
+      "https://openalex.org/I4210099310"
+    ]
+  }
+}

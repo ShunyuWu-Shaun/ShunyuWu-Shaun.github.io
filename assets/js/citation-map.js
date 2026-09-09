@@ -24,13 +24,7 @@
     const stats = data.summary || {};
     const count = (key, fallback = 0) => Number.isFinite(stats[key]) ? stats[key] : fallback;
     const external = count('external_citing_works');
-    const mapped = count('mapped_external_citing_works');
-    const missing = count('unmapped_external_citing_works', Math.max(0, external - mapped));
-    const partial = count('partial_region_coverage_external_citing_works');
     summary.innerHTML = `<span class="citation-map__metric"><strong>${number.format(external)}</strong> external citing papers</span><span class="citation-map__sep">·</span><span class="citation-map__metric"><strong>${number.format(regions.length)}</strong> states / provinces</span><span class="citation-map__sep">·</span><span class="citation-map__metric"><strong>${number.format(institutions.length)}</strong> institutions</span>`;
-    const date = new Date(data.updated_at);
-    const dateText = Number.isNaN(date.valueOf()) ? String(data.updated_at || '') : date.toLocaleDateString('en', {day:'numeric', month:'short', year:'numeric', timeZone:'UTC'});
-    figure.querySelector('[data-map-coverage]').innerHTML = `${number.format(mapped)} of ${number.format(external)} external citing papers have at least one mapped affiliation.${missing ? ` ${plural(missing, 'paper')} could not be located.` : ''}${partial ? ` Additional affiliations remain unresolved for ${plural(partial, 'mapped paper')}.` : ''} Updated <time datetime="${escape(data.updated_at)}">${escape(dateText)}</time>.`;
 
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const worldBounds = L.latLngBounds([[-55, -169], [74, 178]]);
@@ -47,15 +41,13 @@
     map.createPane('land').style.zIndex = 200;
     map.createPane('subdivisions').style.zIndex = 250;
     map.createPane('dots').style.zIndex = 450;
-    const land = L.geoJSON(countries, {pane:'land', interactive:false, style:{color:'#a9bdc8', weight:.65, opacity:.85, fillColor:'#e8f0f3', fillOpacity:1, smoothFactor:.6}}).addTo(map);
+    L.geoJSON(countries, {pane:'land', interactive:false, style:{color:'#a9bdc8', weight:.65, opacity:.85, fillColor:'#e8f0f3', fillOpacity:1, smoothFactor:.6}}).addTo(map);
     let boundaries;
     let mode = 'regions';
     let automaticMode = true;
     let changedView = false;
     const dots = L.layerGroup().addTo(map);
-    const markers = new Map();
     const modeButtons = [...figure.querySelectorAll('[data-map-mode]')];
-    const locationSelect = figure.querySelector('[data-map-location]');
 
     function home() {
       automaticMode = false;
@@ -65,24 +57,27 @@
       setMode('regions');
     }
     const getPlaces = () => mode === 'regions' ? regions : institutions;
-    // Circle area is proportional to paper count; a single paper has radius 4.
-    const radius = value => Math.sqrt(Math.max(1, value)) * 4;
+    // Circle area is proportional to paper count; compact dots limit overlap.
+    const radius = value => Math.sqrt(Math.max(1, value)) * 3;
     function pointLabel(place) {
       const location = mode === 'regions' ? place.country : [place.region, place.country].filter(Boolean).join(', ');
       return `${place.name}, ${location}: ${plural(place.citing_work_count, 'citing paper')}`;
     }
-    function popupHTML(place, currentMode, short = false) {
+    function tooltipHTML(place) {
+      return `<strong class="citation-map__tooltip-title">${escape(place.name)}</strong><span class="citation-map__tooltip-count">${plural(place.citing_work_count, 'citing paper')}</span>`;
+    }
+    function popupHTML(place, currentMode) {
       const location = currentMode === 'regions' ? place.country : [place.region, place.country].filter(Boolean).join(', ');
       let html = `<strong class="citation-map__popup-title">${escape(place.name)}</strong><span class="citation-map__popup-location">${escape(location)}</span><p class="citation-map__popup-count">${plural(place.citing_work_count, 'external citing paper')}</p>`;
       if (currentMode === 'regions') {
         const members = institutions.filter(p => p.region_id === place.id);
         html += `<span>${plural(place.institution_count ?? members.length, 'mapped institution')}</span>`;
-        if (!short && members.length) {
+        if (members.length) {
           html += '<ul class="citation-map__popup-list">' + members.slice(0, 5).map(p => `<li><span>${escape(p.name)}</span><b>${number.format(p.citing_work_count)}</b></li>`).join('') + '</ul>';
           if (members.length > 5) html += `<p class="citation-map__popup-note">${plural(members.length - 5, 'more institution')} in this region.</p>`;
           html += '<p class="citation-map__popup-note">Marker placed at the most-cited mapped institution in this region.</p><button class="citation-map__popup-button" type="button" data-show-institutions>Explore institutions</button>';
         }
-      } else if (!short) {
+      } else {
         html += '<p class="citation-map__popup-note">Affiliation location; it may represent a main campus or city.</p>';
       }
       return html;
@@ -97,7 +92,6 @@
     }
     function draw() {
       dots.clearLayers();
-      markers.clear();
       const places = getPlaces();
       // Large circles render first, leaving smaller nearby affiliations reachable.
       for (const place of places) {
@@ -106,9 +100,11 @@
           color:'#336f92', weight:1.15, opacity:.92,
           fillColor:'#7caabf', fillOpacity:.62, bubblingMouseEvents:false
         });
-        marker.bindTooltip(popupHTML(place, mode, true), {direction:'top', offset:[0, -6], opacity:1, className:'citation-map__tooltip'});
-        marker.bindPopup(popupHTML(place, mode), {maxWidth:290, minWidth:210, autoPanPadding:[18,18]});
+        const single = place.citing_work_count === 1;
+        marker.bindTooltip(tooltipHTML(place), {direction:'top', offset:[0, -4], opacity:1, className:`citation-map__tooltip${single ? ' citation-map__tooltip--single' : ''}`});
+        marker.bindPopup(popupHTML(place, mode), {maxWidth:single ? 220 : 290, minWidth:single ? 140 : 210, autoPanPadding:[18,18], className:single ? 'citation-map__popup--single' : ''});
         marker.on('popupopen', event => {
+          marker.closeTooltip();
           const button = event.popup.getElement().querySelector('[data-show-institutions]');
           if (button) button.addEventListener('click', () => explore(place), {once:true});
         });
@@ -125,13 +121,7 @@
           path.addEventListener('focus', () => marker.openTooltip());
           path.addEventListener('blur', () => marker.closeTooltip());
         }
-        markers.set(String(place.id), marker);
       }
-      const maximum = Math.max(1, ...places.map(p => p.citing_work_count));
-      const sizes = [...new Set([1, Math.max(1, Math.round(maximum / 3)), maximum])];
-      figure.querySelector('.citation-map__legend').innerHTML = sizes.map(n => `<span class="citation-map__legend-item"><span class="citation-map__legend-dot" style="width:${radius(n) * 2}px;height:${radius(n) * 2}px"></span>${number.format(n)}</span>`).join('') + '<span>citing papers</span>';
-      const options = [...places].sort((a,b) => a.name.localeCompare(b.name));
-      locationSelect.replaceChildren(new Option(mode === 'regions' ? 'Choose a state or province' : 'Choose an institution', ''), ...options.map(place => new Option(`${place.name}, ${place.country} (${number.format(place.citing_work_count)})`, String(place.id))));
       figure.dataset.mode = mode;
     }
     function setMode(next) {
@@ -144,15 +134,6 @@
       setMode(button.dataset.mapMode);
     }));
     figure.querySelector('[data-map-reset]').addEventListener('click', home);
-    locationSelect.addEventListener('change', () => {
-      const place = getPlaces().find(p => String(p.id) === locationSelect.value);
-      if (!place) return;
-      automaticMode = false;
-      changedView = true;
-      const marker = markers.get(String(place.id));
-      map.setView([place.latitude, place.longitude], mode === 'regions' ? 4.75 : 6.5, {animate:!reducedMotion});
-      marker.openPopup();
-    });
     map.on('zoomend', () => {
       if (boundaries) boundaries.setStyle({opacity:map.getZoom() >= 3 ? .8 : .28, weight:map.getZoom() >= 4 ? .65 : .4});
       if (automaticMode) {
@@ -169,7 +150,8 @@
       console.warn(error);
       const note = document.createElement('p');
       note.textContent = 'State and province boundaries could not be loaded; affiliation points are still shown.';
-      figure.querySelector('figcaption').append(note);
+      note.setAttribute('role', 'status');
+      figure.append(note);
     });
     home();
     if (window.ResizeObserver) new ResizeObserver(() => { map.invalidateSize({pan:false}); if (!changedView) home(); }).observe(canvas);

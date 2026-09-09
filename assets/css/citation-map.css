@@ -21,7 +21,7 @@
 .citation-map__modes button { padding: .36rem .7rem; border: 0; border-radius: 3px; font-size: .79rem; line-height: 1.4; background: transparent; color: #526774; white-space: nowrap; }
 .citation-map__modes button[aria-pressed="true"] { background: #fff; color: var(--map-ink); box-shadow: 0 1px 3px #29475618; }
 .citation-map__reset { display: inline-flex; gap: .4rem; align-items: center; margin-left: auto; padding: .4rem 0 .4rem .35rem; border: 0; background: transparent; color: var(--map-blue); font-size: .78rem !important; white-space: nowrap; }
-.citation-map button:focus-visible, .citation-map select:focus-visible, .citation-map summary:focus-visible, .citation-map .leaflet-container:focus-visible { outline: 2px solid #216e9b; outline-offset: 3px; }
+.citation-map button:focus-visible, .citation-map .leaflet-container:focus-visible { outline: 2px solid #216e9b; outline-offset: 3px; }
 .citation-map__canvas { height: 410px; width: 100%; border: 1px solid var(--map-rule); border-radius: 4px; isolation: isolate; background: #f5f9fb; z-index: 0; }
 .citation-map__canvas.leaflet-container { font-family: var(--sans, sans-serif); background: #f5f9fb; }
 .citation-map .leaflet-control-zoom { border: 1px solid #cbd9e1; box-shadow: 0 1px 4px #243d5012; border-radius: 4px; }
@@ -29,21 +29,10 @@
 .citation-map .leaflet-control-attribution { background: #ffffffd9; font-size: 9px; color: #617783; }
 .citation-map .leaflet-control-attribution a { color: #476d82; }
 .citation-map .leaflet-interactive:focus-visible { outline: none; stroke: #173d57; stroke-width: 4px; }
-.citation-map__under { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .4rem 1rem; min-height: 2.8rem; padding: .5rem 0; }
-.citation-map__legend { display: flex; align-items: center; gap: .7rem; font-size: .72rem; line-height: 1.2; color: #546874; }
-.citation-map__legend-item { display: inline-flex; align-items: center; gap: .25rem; font-variant-numeric: tabular-nums; }
-.citation-map__legend-dot { display: inline-block; flex: 0 0 auto; border: 1px solid #336f92; border-radius: 50%; background: #80adbf66; }
-.citation-map__hint { font-size: .72rem; color: #697c87; }
-.citation-map__location { display: flex; align-items: center; gap: .75rem; border-top: 1px solid #e2e9ed; padding-top: .8rem; }
-.citation-map__location label { flex: 0 0 auto; font-size: .78rem; color: #546874; }
-.citation-map__location select { width: 100%; min-width: 0; padding: .4rem 1.8rem .4rem .55rem; background: #fff; border: 1px solid #ccd9e0; border-radius: 3px; color: var(--map-ink); font: inherit; font-size: .79rem; text-overflow: ellipsis; }
-.citation-map figcaption { margin-top: .85rem; color: #627581; font-size: .77rem; line-height: 1.6; text-align: left; }
-.citation-map figcaption p { margin: 0 0 .45rem; max-width: none; }
-.citation-map__coverage time { white-space: nowrap; }
-.citation-map__method { margin-top: .35rem; }
-.citation-map__method summary { width: fit-content; color: #466a80; cursor: pointer; }
-.citation-map__method[open] summary { margin-bottom: .5rem; }
-.citation-map .leaflet-tooltip { max-width: 270px; border: 1px solid #d4e0e7; padding: .55rem .7rem; border-radius: 4px; color: var(--map-ink); box-shadow: 0 2px 8px #23435212; white-space: normal; }
+.citation-map .leaflet-tooltip { max-width: 210px; border: 1px solid #d4e0e7; padding: 5px 8px; border-radius: 4px; color: var(--map-ink); font-size: 11px; line-height: 1.35; box-shadow: 0 2px 8px #23435212; white-space: normal; }
+.citation-map__tooltip-title { display: block; font-weight: 600; }
+.citation-map__tooltip-count { display: block; color: var(--map-blue); font-size: 10px; white-space: nowrap; }
+.citation-map .citation-map__tooltip--single { max-width: 180px; padding: 4px 7px; font-size: 10px; }
 .citation-map .leaflet-popup-content-wrapper { border-radius: 6px; box-shadow: 0 3px 18px #23435222; }
 .citation-map .leaflet-popup-content { margin: 15px 18px; line-height: 1.45; font-size: 12px; }
 .citation-map__popup-title { display: block; margin-bottom: .2rem; font-weight: 600; font-size: 13px; }
@@ -54,6 +43,14 @@
 .citation-map__popup-list b { flex: 0 0 auto; font-weight: 500; }
 .citation-map__popup-note { margin: .5rem 0 0 !important; color: #6a7b85; font-size: 10px; }
 .citation-map__popup-button { display: block; margin-top: .65rem; padding: .35rem .6rem; border: 1px solid #cddce4; border-radius: 3px; background: #f3f7f9; color: #2e6586; font-size: 11px !important; }
+.citation-map .citation-map__popup--single .leaflet-popup-content { margin: 10px 14px; font-size: 11px; line-height: 1.35; }
+.citation-map__popup--single .citation-map__popup-title { padding-right: 6px; font-size: 12px; }
+.citation-map__popup--single .citation-map__popup-location { margin-bottom: .25rem; font-size: 10px; }
+.citation-map__popup--single .citation-map__popup-count { margin: .2rem 0 !important; }
+.citation-map__popup--single .citation-map__popup-list { margin-top: .25rem; padding-top: .2rem; }
+.citation-map__popup--single .citation-map__popup-list li { gap: .6rem; margin: .2rem 0; font-size: 10px; }
+.citation-map__popup--single .citation-map__popup-note { margin-top: .3rem !important; }
+.citation-map__popup--single .citation-map__popup-button { margin-top: .4rem; padding: .25rem .45rem; font-size: 10px !important; }
 .citation-map__error { display: flex; align-items: center; justify-content: center; padding: 2rem; text-align: center; font-size: .85rem; color: #627581; }
 @media (max-width: 640px) {
   .citation-map__canvas { height: 220px; height: clamp(180px, 72cqi, 270px); }
@@ -61,10 +58,7 @@
   .citation-map__summary .citation-map__sep { margin: 0 .4rem; }
   .citation-map__modes button { padding: .35rem .5rem; font-size: .72rem; }
   .citation-map__reset { font-size: .72rem !important; }
-  .citation-map__under { align-items: flex-start; flex-direction: column; }
-  .citation-map__location { gap: .5rem; }
-  .citation-map__location label { font-size: .73rem; }
-  .citation-map .leaflet-tooltip { max-width: 220px; }
+  .citation-map .leaflet-tooltip { max-width: 180px; }
 }
 @media (max-width: 360px) {
   .citation-map__toolbar { gap: .25rem; }

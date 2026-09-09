@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="/assets/css/citation-map.css">
 <script defer src="/assets/vendor/leaflet/leaflet.js"></script>
 <script defer src="/assets/js/citation-map.js"></script>
-<figure class="citation-map" data-citation-map data-source="/assets/data/citation-geography.json" aria-labelledby="citation-map-caption">
+<figure class="citation-map" data-citation-map data-source="/assets/data/citation-geography.json" aria-label="Geography of external citing papers">
   <div class="citation-map__summary" aria-live="polite">Loading citation geography…</div>
   <div class="citation-map__toolbar">
     <div class="citation-map__modes" role="group" aria-label="Group citing affiliations by">
@@ -12,25 +12,7 @@
     </div>
     <button class="citation-map__reset" type="button" data-map-reset aria-label="Reset map to world view">World view <span aria-hidden="true">↗</span></button>
   </div>
-  <div class="citation-map__canvas" aria-label="Citation affiliation map. Use arrow keys to pan and plus or minus to zoom." aria-describedby="citation-map-help"></div>
-  <div class="citation-map__under">
-    <div class="citation-map__legend" aria-label="Circle size indicates the number of citing papers"></div>
-    <span id="citation-map-help" class="citation-map__hint">Select a point to explore. Zoom in for institutions.</span>
-  </div>
-  <div class="citation-map__location">
-    <label for="citation-location">Find a place</label>
-    <select id="citation-location" data-map-location aria-label="Find a state, province, or institution"><option value="">Choose a state or province</option></select>
-  </div>
-  <figcaption id="citation-map-caption">
-    <p class="citation-map__coverage" data-map-coverage></p>
-    <details class="citation-map__method">
-      <summary>Counting and location details</summary>
-      <p>Each external citing paper is counted once in each state, province, or institution represented by its authors’ affiliations. A paper with affiliations in several places appears in each, so place counts do not sum to the number of papers. Direct self-citations and non-research records, such as tables of contents, are excluded.</p>
-      <p>State and province markers use the location of the most-cited mapped institution in that region. Institution locations come from affiliation records and may represent a main campus or city. Missing or unresolved affiliations are not assigned a location.</p>
-      <p>Citation records come from <a href="https://openalex.org/">OpenAlex</a>, with citation links cross-checked against <a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&amp;hl=en">Google Scholar</a>. Author affiliations are supplemented from publisher records where needed. Institution and city locations use OpenAlex and <a href="https://www.geonames.org/">GeoNames</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>); city points do not identify individual premises. Missing region names are completed from known institution coordinates using <a href="https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/">Natural Earth</a> boundaries. Counts reflect the records available on the update date.</p>
-      <p>The source collection contains 15 DOI-verified works: 14 listed in my Google Scholar profile and one additional publisher-verified work. All 66 Google Scholar result records in the current snapshot were checked. Duplicate versions are retained in the source ledger and counted once per paper on this map. Additional records from OpenAlex are also included.</p>
-    </details>
-  </figcaption>
+  <div class="citation-map__canvas" aria-label="Citation affiliation map. Use arrow keys to pan and plus or minus to zoom."></div>
   <noscript><p>This interactive map needs JavaScript. The <a href="/assets/data/citation-geography.json">aggregated citation geography</a> remains available as a data file.</p></noscript>
 </figure>
 ```

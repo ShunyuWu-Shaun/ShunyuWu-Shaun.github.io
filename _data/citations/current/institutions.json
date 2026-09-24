@@ -43,8 +43,8 @@
       "region": "Fujian",
       "country_code": "CN",
       "country": "China",
-      "latitude": 26.061389923095703,
-      "longitude": 119.30610656738281
+      "latitude": 26.06139,
+      "longitude": 119.30611
     },
     "lineage": [
       "https://openalex.org/I111753288"
@@ -52,16 +52,43 @@
     "geo_original": {
       "city": "Fuzhou",
       "geonames_city_id": "1810821",
-      "region": null,
+      "region": "Fujian",
       "country_code": "CN",
       "country": "China",
-      "latitude": 26.061389923095703,
-      "longitude": 119.30610656738281
+      "latitude": 26.06139,
+      "longitude": 119.30611
     },
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
-    "region_admin1_code": "CN-FJ"
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I111950717",
+    "ror": "https://ror.org/03jqs2n27",
+    "display_name": "Macau University of Science and Technology",
+    "country_code": "MO",
+    "type": "education",
+    "geo": {
+      "city": "Macao",
+      "geonames_city_id": "1821274",
+      "region": "Macau",
+      "country_code": "MO",
+      "country": "Macao",
+      "latitude": 22.20056,
+      "longitude": 113.54611
+    },
+    "lineage": [
+      "https://openalex.org/I111950717",
+      "https://openalex.org/I4391767947"
+    ],
+    "geo_original": {
+      "city": "Macao",
+      "geonames_city_id": "1821274",
+      "region": "Macau",
+      "country_code": "MO",
+      "country": "Macao",
+      "latitude": 22.20056,
+      "longitude": 113.54611
+    },
+    "region_basis": "OpenAlex institution.geo.region"
   },
   {
     "id": "https://openalex.org/I12393601",
@@ -75,8 +102,8 @@
       "region": "Hunan",
       "country_code": "CN",
       "country": "China",
-      "latitude": 27.563369750976562,
-      "longitude": 110.00404357910156
+      "latitude": 27.56337,
+      "longitude": 110.00404
     },
     "lineage": [
       "https://openalex.org/I12393601"
@@ -84,16 +111,43 @@
     "geo_original": {
       "city": "Huaihua",
       "geonames_city_id": "1807689",
-      "region": null,
+      "region": "Hunan",
       "country_code": "CN",
       "country": "China",
-      "latitude": 27.563369750976562,
-      "longitude": 110.00404357910156
+      "latitude": 27.56337,
+      "longitude": 110.00404
     },
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
-    "region_admin1_code": "CN-HN"
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I125839683",
+    "ror": "https://ror.org/01skt4w74",
+    "display_name": "Beijing Institute of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "lineage": [
+      "https://openalex.org/I125839683",
+      "https://openalex.org/I890469752"
+    ],
+    "geo_original": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "region_basis": "OpenAlex institution.geo.region"
   },
   {
     "id": "https://openalex.org/I126477371",
@@ -150,36 +204,6 @@
       "country": "France",
       "latitude": 48.85341,
       "longitude": 2.3488
-    },
-    "region_basis": "OpenAlex institution.geo.region"
-  },
-  {
-    "id": "https://openalex.org/I1327237609",
-    "ror": "https://ror.org/01mv9t934",
-    "display_name": "Ministry of Education of the People's Republic of China",
-    "country_code": "CN",
-    "type": "government",
-    "geo": {
-      "city": "Beijing",
-      "geonames_city_id": "1816670",
-      "region": "Beijing",
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 39.9075,
-      "longitude": 116.39723
-    },
-    "lineage": [
-      "https://openalex.org/I1327237609",
-      "https://openalex.org/I4210127390"
-    ],
-    "geo_original": {
-      "city": "Beijing",
-      "geonames_city_id": "1816670",
-      "region": "Beijing",
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 39.9075,
-      "longitude": 116.39723
     },
     "region_basis": "OpenAlex institution.geo.region"
   },
@@ -317,8 +341,8 @@
       "region": "Anhui",
       "country_code": "CN",
       "country": "China",
-      "latitude": 31.863889694213867,
-      "longitude": 117.28083038330078
+      "latitude": 31.86389,
+      "longitude": 117.28083
     },
     "lineage": [
       "https://openalex.org/I143868143"
@@ -326,16 +350,13 @@
     "geo_original": {
       "city": "Hefei",
       "geonames_city_id": "1808722",
-      "region": null,
+      "region": "Anhui",
       "country_code": "CN",
       "country": "China",
-      "latitude": 31.863889694213867,
-      "longitude": 117.28083038330078
+      "latitude": 31.86389,
+      "longitude": 117.28083
     },
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
-    "region_admin1_code": "CN-AH"
+    "region_basis": "OpenAlex institution.geo.region"
   },
   {
     "id": "https://openalex.org/I146367977",
@@ -407,8 +428,8 @@
       "region": "Shanghai",
       "country_code": "CN",
       "country": "China",
-      "latitude": 31.222219467163086,
-      "longitude": 121.45806121826172
+      "latitude": 31.22222,
+      "longitude": 121.45806
     },
     "lineage": [
       "https://openalex.org/I148128674"
@@ -416,16 +437,13 @@
     "geo_original": {
       "city": "Shanghai",
       "geonames_city_id": "1796236",
-      "region": null,
+      "region": "Shanghai",
       "country_code": "CN",
       "country": "China",
-      "latitude": 31.222219467163086,
-      "longitude": 121.45806121826172
+      "latitude": 31.22222,
+      "longitude": 121.45806
     },
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
-    "region_admin1_code": "CN-SH"
+    "region_basis": "OpenAlex institution.geo.region"
   },
   {
     "id": "https://openalex.org/I14894300",
@@ -471,8 +489,8 @@
       "region": "Sichuan",
       "country_code": "CN",
       "country": "China",
-      "latitude": 30.666669845581055,
-      "longitude": 104.0666732788086
+      "latitude": 30.66667,
+      "longitude": 104.06667
     },
     "lineage": [
       "https://openalex.org/I150229711"
@@ -480,16 +498,13 @@
     "geo_original": {
       "city": "Chengdu",
       "geonames_city_id": "1815286",
-      "region": null,
+      "region": "Sichuan",
       "country_code": "CN",
       "country": "China",
-      "latitude": 30.666669845581055,
-      "longitude": 104.0666732788086
+      "latitude": 30.66667,
+      "longitude": 104.06667
     },
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
-    "region_admin1_code": "CN-SC"
+    "region_basis": "OpenAlex institution.geo.region"
   },
   {
     "id": "https://openalex.org/I154099455",
@@ -548,6 +563,38 @@
       "longitude": -113.46871
     },
     "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I157507598",
+    "ror": "https://ror.org/00d7f8730",
+    "display_name": "Shenyang University of Technology",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Shenyang",
+      "geonames_city_id": "2034937",
+      "region": "Liaoning",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 41.79222106933594,
+      "longitude": 123.43277740478516
+    },
+    "lineage": [
+      "https://openalex.org/I157507598"
+    ],
+    "geo_original": {
+      "city": "Shenyang",
+      "geonames_city_id": "2034937",
+      "region": null,
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 41.79222106933594,
+      "longitude": 123.43277740478516
+    },
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "region_admin1_code": "CN-LN"
   },
   {
     "id": "https://openalex.org/I157773358",
@@ -857,8 +904,8 @@
       "region": "Norrbotten",
       "country_code": "SE",
       "country": "Sweden",
-      "latitude": 65.58415222167969,
-      "longitude": 22.15464973449707
+      "latitude": 65.58415,
+      "longitude": 22.15465
     },
     "lineage": [
       "https://openalex.org/I190632392"
@@ -866,14 +913,13 @@
     "geo_original": {
       "city": "Luleå",
       "geonames_city_id": "604490",
-      "region": null,
+      "region": "Norrbotten",
       "country_code": "SE",
       "country": "Sweden",
-      "latitude": 65.58415222167969,
-      "longitude": 22.15464973449707
+      "latitude": 65.58415,
+      "longitude": 22.15465
     },
-    "region_basis": "Luleå municipal authority identifies the municipality as part of Norrbotten County; institution city coordinates fall outside the Natural Earth coastline polygon.",
-    "region_source": "https://www.lulea.se/kommun--politik/fakta-och-statistik/fakta-om-lulea-kommun.html"
+    "region_basis": "OpenAlex institution.geo.region"
   },
   {
     "id": "https://openalex.org/I194450716",
@@ -980,8 +1026,8 @@
       "region": "Tianjin",
       "country_code": "CN",
       "country": "China",
-      "latitude": 39.14221954345703,
-      "longitude": 117.17666625976562
+      "latitude": 39.14222,
+      "longitude": 117.17667
     },
     "lineage": [
       "https://openalex.org/I205237279"
@@ -989,16 +1035,13 @@
     "geo_original": {
       "city": "Tianjin",
       "geonames_city_id": "1792947",
-      "region": null,
+      "region": "Tianjin",
       "country_code": "CN",
       "country": "China",
-      "latitude": 39.14221954345703,
-      "longitude": 117.17666625976562
+      "latitude": 39.14222,
+      "longitude": 117.17667
     },
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
-    "region_admin1_code": "CN-TJ"
+    "region_basis": "OpenAlex institution.geo.region"
   },
   {
     "id": "https://openalex.org/I20942203",
@@ -1073,8 +1116,8 @@
       "region": "Jiangsu",
       "country_code": "CN",
       "country": "China",
-      "latitude": 34.20441818237305,
-      "longitude": 117.28385925292969
+      "latitude": 34.20442,
+      "longitude": 117.28386
     },
     "lineage": [
       "https://openalex.org/I25757504"
@@ -1082,16 +1125,13 @@
     "geo_original": {
       "city": "Xuzhou",
       "geonames_city_id": "10630003",
-      "region": null,
+      "region": "Jiangsu",
       "country_code": "CN",
       "country": "China",
-      "latitude": 34.20441818237305,
-      "longitude": 117.28385925292969
+      "latitude": 34.20442,
+      "longitude": 117.28386
     },
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
-    "region_admin1_code": "CN-JS"
+    "region_basis": "OpenAlex institution.geo.region"
   },
   {
     "id": "https://openalex.org/I27031042",
@@ -1203,7 +1243,6 @@
     },
     "lineage": [
       "https://openalex.org/I1294671590",
-      "https://openalex.org/I1294671590",
       "https://openalex.org/I2802759292",
       "https://openalex.org/I37553959",
       "https://openalex.org/I4210095849",
@@ -1291,8 +1330,8 @@
       "region": "Jiangsu",
       "country_code": "CN",
       "country": "China",
-      "latitude": 31.304079055786133,
-      "longitude": 120.59538269042969
+      "latitude": 31.30408,
+      "longitude": 120.59538
     },
     "lineage": [
       "https://openalex.org/I308837"
@@ -1300,16 +1339,13 @@
     "geo_original": {
       "city": "Suzhou",
       "geonames_city_id": "1886760",
-      "region": null,
+      "region": "Jiangsu",
       "country_code": "CN",
       "country": "China",
-      "latitude": 31.304079055786133,
-      "longitude": 120.59538269042969
+      "latitude": 31.30408,
+      "longitude": 120.59538
     },
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
-    "region_admin1_code": "CN-JS"
+    "region_basis": "OpenAlex institution.geo.region"
   },
   {
     "id": "https://openalex.org/I32625721",
@@ -1665,38 +1701,6 @@
     "region_basis": "OpenAlex institution.geo.region"
   },
   {
-    "id": "https://openalex.org/I4210110794",
-    "ror": "https://ror.org/022vzex26",
-    "display_name": "Taiyuan Heavy Industry (China)",
-    "country_code": "CN",
-    "type": "company",
-    "geo": {
-      "city": "Taiyuan",
-      "geonames_city_id": "1793511",
-      "region": "Shanxi",
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 37.869869232177734,
-      "longitude": 112.50411987304688
-    },
-    "lineage": [
-      "https://openalex.org/I4210110794"
-    ],
-    "geo_original": {
-      "city": "Taiyuan",
-      "geonames_city_id": "1793511",
-      "region": null,
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 37.869869232177734,
-      "longitude": 112.50411987304688
-    },
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
-    "region_admin1_code": "CN-SX"
-  },
-  {
     "id": "https://openalex.org/I4210111792",
     "ror": "https://ror.org/026z6mp76",
     "display_name": "Guizhou Water Conservancy and Hydropower Survey and Design Institute",
@@ -1790,67 +1794,6 @@
     "region_admin1_code": "CN-AH"
   },
   {
-    "id": "https://openalex.org/I4210132615",
-    "ror": "https://ror.org/03a2tkf74",
-    "display_name": "Zhejiang Energy Group (China)",
-    "country_code": "CN",
-    "type": "company",
-    "geo": {
-      "city": "Hangzhou",
-      "geonames_city_id": "1808926",
-      "region": "Zhejiang",
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 30.272197723388672,
-      "longitude": 120.13886260986328
-    },
-    "lineage": [
-      "https://openalex.org/I4210132615"
-    ],
-    "geo_original": {
-      "city": "Hangzhou",
-      "geonames_city_id": "1808926",
-      "region": null,
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 30.272197723388672,
-      "longitude": 120.13886260986328
-    },
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
-    "region_admin1_code": "CN-ZJ"
-  },
-  {
-    "id": "https://openalex.org/I4210132981",
-    "ror": "https://ror.org/02p2qrw13",
-    "display_name": "Ningxia Water Conservancy",
-    "country_code": "CN",
-    "type": "government",
-    "geo": {
-      "city": "Yinchuan",
-      "geonames_city_id": "1786657",
-      "region": "Ningxia",
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 38.46806,
-      "longitude": 106.27306
-    },
-    "lineage": [
-      "https://openalex.org/I4210132981"
-    ],
-    "geo_original": {
-      "city": "Yinchuan",
-      "geonames_city_id": "1786657",
-      "region": "Ningxia",
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 38.46806,
-      "longitude": 106.27306
-    },
-    "region_basis": "OpenAlex institution.geo.region"
-  },
-  {
     "id": "https://openalex.org/I4210147525",
     "ror": "https://ror.org/05j26dk60",
     "display_name": "AviChina Industry & Technology (China)",
@@ -1862,8 +1805,8 @@
       "region": "Beijing",
       "country_code": "CN",
       "country": "China",
-      "latitude": 39.936439514160156,
-      "longitude": 116.42213439941406
+      "latitude": 39.9075,
+      "longitude": 116.39723
     },
     "lineage": [
       "https://openalex.org/I4210147525"
@@ -1871,16 +1814,43 @@
     "geo_original": {
       "city": "Beijing",
       "geonames_city_id": "1816670",
-      "region": null,
+      "region": "Beijing",
       "country_code": "CN",
       "country": "China",
-      "latitude": 39.936439514160156,
-      "longitude": 116.42213439941406
+      "latitude": 39.9075,
+      "longitude": 116.39723
     },
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
-    "region_admin1_code": "CN-BJ"
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I4210165038",
+    "ror": "https://ror.org/05qbk4x57",
+    "display_name": "University of Chinese Academy of Sciences",
+    "country_code": "CN",
+    "type": "education",
+    "geo": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210165038"
+    ],
+    "geo_original": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "region_basis": "OpenAlex institution.geo.region"
   },
   {
     "id": "https://openalex.org/I4391767838",
@@ -2007,6 +1977,95 @@
     "region_basis": "OpenAlex institution.geo.region"
   },
   {
+    "id": "https://openalex.org/I4405276846",
+    "ror": "https://ror.org/00g48nc73",
+    "display_name": "Institute for Digital Technology and Economy",
+    "country_code": "VN",
+    "type": "facility",
+    "geo": {
+      "city": "Hanoi",
+      "geonames_city_id": "1581130",
+      "region": "Hanoi",
+      "country_code": "VN",
+      "country": "Vietnam",
+      "latitude": 21.0245,
+      "longitude": 105.84117
+    },
+    "lineage": [
+      "https://openalex.org/I4405276846"
+    ],
+    "geo_original": {
+      "city": "Hanoi",
+      "geonames_city_id": "1581130",
+      "region": "Hanoi",
+      "country_code": "VN",
+      "country": "Vietnam",
+      "latitude": 21.0245,
+      "longitude": 105.84117
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I4405277481",
+    "ror": "https://ror.org/02va0n961",
+    "display_name": "AVIC Manufacturing Technology Institute (China)",
+    "country_code": "CN",
+    "type": "company",
+    "geo": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "lineage": [
+      "https://openalex.org/I11838497",
+      "https://openalex.org/I4405277481"
+    ],
+    "geo_original": {
+      "city": "Beijing",
+      "geonames_city_id": "1816670",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I4405282011",
+    "ror": "https://ror.org/056wxrm96",
+    "display_name": "State Grid Jiangsu Electric Power (China)",
+    "country_code": "CN",
+    "type": "company",
+    "geo": {
+      "city": "Nanjing",
+      "geonames_city_id": "1799962",
+      "region": "Jiangsu",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 32.06167,
+      "longitude": 118.77778
+    },
+    "lineage": [
+      "https://openalex.org/I17442442",
+      "https://openalex.org/I4405282011"
+    ],
+    "geo_original": {
+      "city": "Nanjing",
+      "geonames_city_id": "1799962",
+      "region": "Jiangsu",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 32.06167,
+      "longitude": 118.77778
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
     "id": "https://openalex.org/I4472751",
     "ror": "https://ror.org/05fsfvw79",
     "display_name": "Anhui Normal University",
@@ -2079,8 +2138,8 @@
       "region": "Sichuan",
       "country_code": "CN",
       "country": "China",
-      "latitude": 30.666669845581055,
-      "longitude": 104.0666732788086
+      "latitude": 30.66667,
+      "longitude": 104.06667
     },
     "lineage": [
       "https://openalex.org/I4800084"
@@ -2088,16 +2147,13 @@
     "geo_original": {
       "city": "Chengdu",
       "geonames_city_id": "1815286",
-      "region": null,
+      "region": "Sichuan",
       "country_code": "CN",
       "country": "China",
-      "latitude": 30.666669845581055,
-      "longitude": 104.0666732788086
+      "latitude": 30.66667,
+      "longitude": 104.06667
     },
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
-    "region_admin1_code": "CN-SC"
+    "region_basis": "OpenAlex institution.geo.region"
   },
   {
     "id": "https://openalex.org/I50632499",
@@ -2369,6 +2425,35 @@
       "country": "Italy",
       "latitude": 41.89193,
       "longitude": 12.51133
+    },
+    "region_basis": "OpenAlex institution.geo.region"
+  },
+  {
+    "id": "https://openalex.org/I86987016",
+    "ror": "https://ror.org/026vcq606",
+    "display_name": "KTH Royal Institute of Technology",
+    "country_code": "SE",
+    "type": "education",
+    "geo": {
+      "city": "Stockholm",
+      "geonames_city_id": "2673730",
+      "region": "Stockholm",
+      "country_code": "SE",
+      "country": "Sweden",
+      "latitude": 59.32938,
+      "longitude": 18.06871
+    },
+    "lineage": [
+      "https://openalex.org/I86987016"
+    ],
+    "geo_original": {
+      "city": "Stockholm",
+      "geonames_city_id": "2673730",
+      "region": "Stockholm",
+      "country_code": "SE",
+      "country": "Sweden",
+      "latitude": 59.32938,
+      "longitude": 18.06871
     },
     "region_basis": "OpenAlex institution.geo.region"
   },
@@ -2731,6 +2816,194 @@
     "region_admin1_code": "FI-18"
   },
   {
+    "id": "LOCAL-CASIA",
+    "display_name": "Institute of Automation, Chinese Academy of Sciences",
+    "type": "facility",
+    "ror": null,
+    "country_code": "CN",
+    "geo": {
+      "city": "Beijing",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723,
+      "geonames_city_id": "1816670"
+    },
+    "institution_source": "https://ieeexplore.ieee.org/abstract/document/11676839/authors#authors",
+    "geo_source": "https://sws.geonames.org/1816670/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier.",
+    "parent_openalex_id": "https://openalex.org/I19820366",
+    "geo_original": {
+      "city": "Beijing",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723,
+      "geonames_city_id": "1816670"
+    }
+  },
+  {
+    "id": "LOCAL-CINVESTAV-RAMOS-ARIZPE",
+    "display_name": "Center for Research and Advanced Studies (CINVESTAV), Ramos Arizpe",
+    "type": "facility",
+    "ror": null,
+    "country_code": "MX",
+    "geo": {
+      "city": "Ramos Arizpe",
+      "region": "Coahuila",
+      "country_code": "MX",
+      "country": "Mexico",
+      "latitude": 25.53928,
+      "longitude": -100.94742,
+      "geonames_city_id": "3991043"
+    },
+    "institution_source": "https://link.springer.com/article/10.1007/s00521-026-12456-7",
+    "geo_source": "https://sws.geonames.org/3991043/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier.",
+    "parent_openalex_id": "https://openalex.org/I68368234",
+    "geo_original": {
+      "city": "Ramos Arizpe",
+      "region": "Coahuila",
+      "country_code": "MX",
+      "country": "Mexico",
+      "latitude": 25.53928,
+      "longitude": -100.94742,
+      "geonames_city_id": "3991043"
+    }
+  },
+  {
+    "id": "LOCAL-CMB-HANGZHOU",
+    "display_name": "CMB Network Technology (Hangzhou) Co., Ltd.",
+    "type": "company",
+    "ror": null,
+    "country_code": "CN",
+    "geo": {
+      "city": "Hangzhou",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.29365,
+      "longitude": 120.16142,
+      "geonames_city_id": "1808926"
+    },
+    "institution_source": "https://api.openalex.org/works/W4391095559",
+    "geo_source": "https://sws.geonames.org/1808926/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier.",
+    "geo_original": {
+      "city": "Hangzhou",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.29365,
+      "longitude": 120.16142,
+      "geonames_city_id": "1808926"
+    }
+  },
+  {
+    "id": "LOCAL-HANGZHOU-OXYGEN",
+    "display_name": "Hangzhou Oxygen Plant Group Company Limited",
+    "type": "company",
+    "ror": null,
+    "country_code": "CN",
+    "geo": {
+      "city": "Hangzhou",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.29365,
+      "longitude": 120.16142,
+      "geonames_city_id": "1808926"
+    },
+    "institution_source": "https://api.openalex.org/works/W4415220578",
+    "geo_source": "https://sws.geonames.org/1808926/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier.",
+    "geo_original": {
+      "city": "Hangzhou",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.29365,
+      "longitude": 120.16142,
+      "geonames_city_id": "1808926"
+    }
+  },
+  {
+    "id": "LOCAL-JIANLONG",
+    "display_name": "Beijing Jianlong Heavy Industry Group Co. Ltd",
+    "type": "company",
+    "ror": null,
+    "country_code": "CN",
+    "geo": {
+      "city": "Beijing",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723,
+      "geonames_city_id": "1816670"
+    },
+    "institution_source": "https://api.openalex.org/works/W7206203312",
+    "geo_source": "https://sws.geonames.org/1816670/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier.",
+    "geo_original": {
+      "city": "Beijing",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723,
+      "geonames_city_id": "1816670"
+    }
+  },
+  {
+    "id": "LOCAL-NINGBO-WATER",
+    "display_name": "Ningbo Water and Environment Group Co., Ltd",
+    "type": "company",
+    "ror": null,
+    "country_code": "CN",
+    "geo": {
+      "city": "Ningbo",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.87819,
+      "longitude": 121.54945,
+      "geonames_city_id": "1799397"
+    },
+    "institution_source": "https://api.openalex.org/works/W7166318156",
+    "geo_source": "https://sws.geonames.org/1799397/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier.",
+    "geo_original": {
+      "city": "Ningbo",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.87819,
+      "longitude": 121.54945,
+      "geonames_city_id": "1799397"
+    }
+  },
+  {
     "name": "Hubei Sinophorus Electronic Materials Co., Ltd.",
     "id": "LOCAL-SINOPHORUS",
     "display_name": "Hubei Sinophorus Electronic Materials Co., Ltd.",
@@ -2783,6 +3056,37 @@
       "latitude": 30.71444,
       "longitude": 111.28472,
       "geonames_city_id": "1786764"
+    }
+  },
+  {
+    "id": "LOCAL-UNIDATA",
+    "display_name": "Unidata S.p.A.",
+    "type": "company",
+    "ror": null,
+    "country_code": "IT",
+    "geo": {
+      "city": "Rome",
+      "region": "Lazio",
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 41.89193,
+      "longitude": 12.51133,
+      "geonames_city_id": "3169070"
+    },
+    "institution_source": "https://api.openalex.org/works/W4407019097",
+    "geo_source": "https://sws.geonames.org/3169070/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier.",
+    "geo_original": {
+      "city": "Rome",
+      "region": "Lazio",
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 41.89193,
+      "longitude": 12.51133,
+      "geonames_city_id": "3169070"
     }
   }
 ]

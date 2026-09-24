@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-09-09T14:26:24+00:00",
+  "updated_at": "2026-09-24T15:49:50+00:00",
   "source": "Google Scholar, OpenAlex, and verified publisher metadata",
   "summary": {
     "target_works": 15,
-    "citation_edges": 69,
-    "unique_citing_works": 64,
-    "openalex_citation_edges": 59,
-    "scholar_result_records": 66,
-    "scholar_verified_edges": 64,
-    "scholar_additional_edges": 10,
+    "citation_edges": 73,
+    "unique_citing_works": 68,
+    "openalex_citation_edges": 61,
+    "scholar_result_records": 70,
+    "scholar_verified_edges": 68,
+    "scholar_additional_edges": 12,
     "direct_self_citing_works": 4,
     "non_research_citing_records": 1,
-    "external_citing_records": 60,
-    "external_citing_works": 59,
-    "mapped_external_citing_works": 59,
+    "external_citing_records": 64,
+    "external_citing_works": 63,
+    "mapped_external_citing_works": 63,
     "unmapped_external_citing_works": 0,
-    "partial_region_coverage_external_citing_works": 3,
-    "regions": 49,
-    "institutions": 89,
-    "countries": 20,
-    "excluded_sponsor_parent_affiliation_rows": 3,
+    "partial_region_coverage_external_citing_works": 1,
+    "regions": 50,
+    "institutions": 101,
+    "countries": 22,
+    "excluded_sponsor_parent_affiliation_rows": 0,
     "authorships_truncated_works": 0,
-    "authorship_truncation_status_unknown_works": 62,
-    "scholar_profile_scope_citation_edges": 65
+    "authorship_truncation_status_unknown_works": 61,
+    "scholar_profile_scope_citation_edges": 69
   },
   "counting_method": "Unique external citing works per region or institution. One work can occur in multiple regions. Direct self-citations and paratext records are excluded only from the map.",
   "regions": [
@@ -33,9 +33,9 @@
       "country": "China",
       "latitude": 39.9075,
       "longitude": 116.39723,
-      "citing_work_count": 12,
-      "institution_count": 6,
-      "fractional_count": 7.166667,
+      "citing_work_count": 14,
+      "institution_count": 11,
+      "fractional_count": 9.5,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I92403157"
     },
@@ -59,9 +59,9 @@
       "country": "China",
       "latitude": 32.06167,
       "longitude": 118.77778,
-      "citing_work_count": 6,
-      "institution_count": 4,
-      "fractional_count": 3.666667,
+      "citing_work_count": 7,
+      "institution_count": 5,
+      "fractional_count": 4.0,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I41198531"
     },
@@ -72,11 +72,24 @@
       "country": "China",
       "latitude": 31.22222,
       "longitude": 121.45806,
-      "citing_work_count": 6,
+      "citing_work_count": 7,
       "institution_count": 2,
-      "fractional_count": 3.666667,
+      "fractional_count": 3.833333,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I183067930"
+    },
+    {
+      "id": "CN-zhejiang",
+      "name": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.29365,
+      "longitude": 120.16142,
+      "citing_work_count": 6,
+      "institution_count": 6,
+      "fractional_count": 2.5,
+      "coordinate_basis": "most_cited_affiliation_institution",
+      "representative_institution_id": "I76130692"
     },
     {
       "id": "CN-chongqing",
@@ -105,25 +118,12 @@
       "representative_institution_id": "I139660479"
     },
     {
-      "id": "CN-zhejiang",
-      "name": "Zhejiang",
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 30.29365,
-      "longitude": 120.16142,
-      "citing_work_count": 5,
-      "institution_count": 4,
-      "fractional_count": 2.0,
-      "coordinate_basis": "most_cited_affiliation_institution",
-      "representative_institution_id": "I76130692"
-    },
-    {
       "id": "CN-anhui",
       "name": "Anhui",
       "country_code": "CN",
       "country": "China",
-      "latitude": 31.863889694213867,
-      "longitude": 117.28083038330078,
+      "latitude": 31.86389,
+      "longitude": 117.28083,
       "citing_work_count": 4,
       "institution_count": 5,
       "fractional_count": 2.166667,
@@ -150,9 +150,9 @@
       "country": "China",
       "latitude": 41.79222,
       "longitude": 123.43278,
-      "citing_work_count": 3,
-      "institution_count": 2,
-      "fractional_count": 1.166667,
+      "citing_work_count": 4,
+      "institution_count": 3,
+      "fractional_count": 1.5,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I9224756"
     },
@@ -165,7 +165,7 @@
       "longitude": 108.92861,
       "citing_work_count": 3,
       "institution_count": 2,
-      "fractional_count": 1.25,
+      "fractional_count": 1.083333,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I4210110558"
     },
@@ -191,7 +191,7 @@
       "longitude": 34.99928,
       "citing_work_count": 3,
       "institution_count": 3,
-      "fractional_count": 1.166667,
+      "fractional_count": 1.333333,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I174306211"
     },
@@ -222,25 +222,12 @@
       "representative_institution_id": "I108688024"
     },
     {
-      "id": "CN-shanxi",
-      "name": "Shanxi",
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 37.869869232177734,
-      "longitude": 112.50411987304688,
-      "citing_work_count": 2,
-      "institution_count": 1,
-      "fractional_count": 1.0,
-      "coordinate_basis": "most_cited_affiliation_institution",
-      "representative_institution_id": "I4210110794"
-    },
-    {
       "id": "CN-sichuan",
       "name": "Sichuan",
       "country_code": "CN",
       "country": "China",
-      "latitude": 30.666669845581055,
-      "longitude": 104.0666732788086,
+      "latitude": 30.66667,
+      "longitude": 104.06667,
       "citing_work_count": 2,
       "institution_count": 2,
       "fractional_count": 1.333333,
@@ -294,7 +281,7 @@
       "latitude": 41.89193,
       "longitude": 12.51133,
       "citing_work_count": 2,
-      "institution_count": 1,
+      "institution_count": 2,
       "fractional_count": 1.5,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I861853513"
@@ -343,8 +330,8 @@
       "name": "Fujian",
       "country_code": "CN",
       "country": "China",
-      "latitude": 26.061389923095703,
-      "longitude": 119.30610656738281,
+      "latitude": 26.06139,
+      "longitude": 119.30611,
       "citing_work_count": 1,
       "institution_count": 1,
       "fractional_count": 0.333333,
@@ -415,19 +402,6 @@
       "fractional_count": 0.5,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I194450716"
-    },
-    {
-      "id": "CN-ningxia",
-      "name": "Ningxia",
-      "country_code": "CN",
-      "country": "China",
-      "latitude": 38.46806,
-      "longitude": 106.27306,
-      "citing_work_count": 1,
-      "institution_count": 1,
-      "fractional_count": 0.333333,
-      "coordinate_basis": "most_cited_affiliation_institution",
-      "representative_institution_id": "I4210132981"
     },
     {
       "id": "CY-nicosia",
@@ -599,6 +573,32 @@
       "representative_institution_id": "I126477371"
     },
     {
+      "id": "MO-macau",
+      "name": "Macau",
+      "country_code": "MO",
+      "country": "Macao",
+      "latitude": 22.20056,
+      "longitude": 113.54611,
+      "citing_work_count": 1,
+      "institution_count": 1,
+      "fractional_count": 0.333333,
+      "coordinate_basis": "most_cited_affiliation_institution",
+      "representative_institution_id": "I111950717"
+    },
+    {
+      "id": "MX-coahuila",
+      "name": "Coahuila",
+      "country_code": "MX",
+      "country": "Mexico",
+      "latitude": 25.53928,
+      "longitude": -100.94742,
+      "citing_work_count": 1,
+      "institution_count": 1,
+      "fractional_count": 1.0,
+      "coordinate_basis": "most_cited_affiliation_institution",
+      "representative_institution_id": "LOCAL-CINVESTAV-RAMOS-ARIZPE"
+    },
+    {
       "id": "PK-islamabad",
       "name": "Islamabad",
       "country_code": "PK",
@@ -616,13 +616,26 @@
       "name": "Norrbotten",
       "country_code": "SE",
       "country": "Sweden",
-      "latitude": 65.58415222167969,
-      "longitude": 22.15464973449707,
+      "latitude": 65.58415,
+      "longitude": 22.15465,
       "citing_work_count": 1,
       "institution_count": 1,
       "fractional_count": 0.333333,
       "coordinate_basis": "most_cited_affiliation_institution",
       "representative_institution_id": "I190632392"
+    },
+    {
+      "id": "SE-stockholm",
+      "name": "Stockholm",
+      "country_code": "SE",
+      "country": "Sweden",
+      "latitude": 59.32938,
+      "longitude": 18.06871,
+      "citing_work_count": 1,
+      "institution_count": 1,
+      "fractional_count": 0.333333,
+      "coordinate_basis": "most_cited_affiliation_institution",
+      "representative_institution_id": "I86987016"
     },
     {
       "id": "US-california",
@@ -658,10 +671,10 @@
       "latitude": 21.0245,
       "longitude": 105.84117,
       "citing_work_count": 1,
-      "institution_count": 1,
+      "institution_count": 2,
       "fractional_count": 1.0,
       "coordinate_basis": "most_cited_affiliation_institution",
-      "representative_institution_id": "I94518387"
+      "representative_institution_id": "I4405276846"
     }
   ],
   "institutions": [
@@ -675,7 +688,7 @@
       "city": "Shanghai",
       "latitude": 31.22222,
       "longitude": 121.45806,
-      "citing_work_count": 5
+      "citing_work_count": 6
     },
     {
       "id": "I92403157",
@@ -733,8 +746,8 @@
       "country_code": "CN",
       "country": "China",
       "city": "Hefei",
-      "latitude": 31.863889694213867,
-      "longitude": 117.28083038330078,
+      "latitude": 31.86389,
+      "longitude": 117.28083,
       "citing_work_count": 2
     },
     {
@@ -858,18 +871,6 @@
       "citing_work_count": 2
     },
     {
-      "id": "I4210110794",
-      "name": "Taiyuan Heavy Industry (China)",
-      "region_id": "CN-shanxi",
-      "region": "Shanxi",
-      "country_code": "CN",
-      "country": "China",
-      "city": "Taiyuan",
-      "latitude": 37.869869232177734,
-      "longitude": 112.50411987304688,
-      "citing_work_count": 2
-    },
-    {
       "id": "I43922553",
       "name": "Wuhan University of Science and Technology",
       "region_id": "CN-hubei",
@@ -930,6 +931,18 @@
       "citing_work_count": 2
     },
     {
+      "id": "LOCAL-JIANLONG",
+      "name": "Beijing Jianlong Heavy Industry Group Co. Ltd",
+      "region_id": "CN-beijing",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Beijing",
+      "latitude": 39.9075,
+      "longitude": 116.39723,
+      "citing_work_count": 2
+    },
+    {
       "id": "I108688024",
       "name": "Qingdao University",
       "region_id": "CN-shandong",
@@ -949,8 +962,20 @@
       "country_code": "CN",
       "country": "China",
       "city": "Fuzhou",
-      "latitude": 26.061389923095703,
-      "longitude": 119.30610656738281,
+      "latitude": 26.06139,
+      "longitude": 119.30611,
+      "citing_work_count": 1
+    },
+    {
+      "id": "I111950717",
+      "name": "Macau University of Science and Technology",
+      "region_id": "MO-macau",
+      "region": "Macau",
+      "country_code": "MO",
+      "country": "Macao",
+      "city": "Macao",
+      "latitude": 22.20056,
+      "longitude": 113.54611,
       "citing_work_count": 1
     },
     {
@@ -961,8 +986,20 @@
       "country_code": "CN",
       "country": "China",
       "city": "Huaihua",
-      "latitude": 27.563369750976562,
-      "longitude": 110.00404357910156,
+      "latitude": 27.56337,
+      "longitude": 110.00404,
+      "citing_work_count": 1
+    },
+    {
+      "id": "I125839683",
+      "name": "Beijing Institute of Technology",
+      "region_id": "CN-beijing",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Beijing",
+      "latitude": 39.9075,
+      "longitude": 116.39723,
       "citing_work_count": 1
     },
     {
@@ -1057,8 +1094,8 @@
       "country_code": "CN",
       "country": "China",
       "city": "Shanghai",
-      "latitude": 31.222219467163086,
-      "longitude": 121.45806121826172,
+      "latitude": 31.22222,
+      "longitude": 121.45806,
       "citing_work_count": 1
     },
     {
@@ -1069,8 +1106,8 @@
       "country_code": "CN",
       "country": "China",
       "city": "Chengdu",
-      "latitude": 30.666669845581055,
-      "longitude": 104.0666732788086,
+      "latitude": 30.66667,
+      "longitude": 104.06667,
       "citing_work_count": 1
     },
     {
@@ -1083,6 +1120,18 @@
       "city": "Edmonton",
       "latitude": 53.55014,
       "longitude": -113.46871,
+      "citing_work_count": 1
+    },
+    {
+      "id": "I157507598",
+      "name": "Shenyang University of Technology",
+      "region_id": "CN-liaoning",
+      "region": "Liaoning",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Shenyang",
+      "latitude": 41.79222106933594,
+      "longitude": 123.43277740478516,
       "citing_work_count": 1
     },
     {
@@ -1153,8 +1202,8 @@
       "country_code": "SE",
       "country": "Sweden",
       "city": "Luleå",
-      "latitude": 65.58415222167969,
-      "longitude": 22.15464973449707,
+      "latitude": 65.58415,
+      "longitude": 22.15465,
       "citing_work_count": 1
     },
     {
@@ -1201,8 +1250,8 @@
       "country_code": "CN",
       "country": "China",
       "city": "Tianjin",
-      "latitude": 39.14221954345703,
-      "longitude": 117.17666625976562,
+      "latitude": 39.14222,
+      "longitude": 117.17667,
       "citing_work_count": 1
     },
     {
@@ -1237,8 +1286,8 @@
       "country_code": "CN",
       "country": "China",
       "city": "Xuzhou",
-      "latitude": 34.20441818237305,
-      "longitude": 117.28385925292969,
+      "latitude": 34.20442,
+      "longitude": 117.28386,
       "citing_work_count": 1
     },
     {
@@ -1309,8 +1358,8 @@
       "country_code": "CN",
       "country": "China",
       "city": "Suzhou",
-      "latitude": 31.304079055786133,
-      "longitude": 120.59538269042969,
+      "latitude": 31.30408,
+      "longitude": 120.59538,
       "citing_work_count": 1
     },
     {
@@ -1434,30 +1483,6 @@
       "citing_work_count": 1
     },
     {
-      "id": "I4210132615",
-      "name": "Zhejiang Energy Group (China)",
-      "region_id": "CN-zhejiang",
-      "region": "Zhejiang",
-      "country_code": "CN",
-      "country": "China",
-      "city": "Hangzhou",
-      "latitude": 30.272197723388672,
-      "longitude": 120.13886260986328,
-      "citing_work_count": 1
-    },
-    {
-      "id": "I4210132981",
-      "name": "Ningxia Water Conservancy",
-      "region_id": "CN-ningxia",
-      "region": "Ningxia",
-      "country_code": "CN",
-      "country": "China",
-      "city": "Yinchuan",
-      "latitude": 38.46806,
-      "longitude": 106.27306,
-      "citing_work_count": 1
-    },
-    {
       "id": "I4210147525",
       "name": "AviChina Industry & Technology (China)",
       "region_id": "CN-beijing",
@@ -1465,8 +1490,20 @@
       "country_code": "CN",
       "country": "China",
       "city": "Beijing",
-      "latitude": 39.936439514160156,
-      "longitude": 116.42213439941406,
+      "latitude": 39.9075,
+      "longitude": 116.39723,
+      "citing_work_count": 1
+    },
+    {
+      "id": "I4210165038",
+      "name": "University of Chinese Academy of Sciences",
+      "region_id": "CN-beijing",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Beijing",
+      "latitude": 39.9075,
+      "longitude": 116.39723,
       "citing_work_count": 1
     },
     {
@@ -1506,6 +1543,42 @@
       "citing_work_count": 1
     },
     {
+      "id": "I4405276846",
+      "name": "Institute for Digital Technology and Economy",
+      "region_id": "VN-hanoi",
+      "region": "Hanoi",
+      "country_code": "VN",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "latitude": 21.0245,
+      "longitude": 105.84117,
+      "citing_work_count": 1
+    },
+    {
+      "id": "I4405277481",
+      "name": "AVIC Manufacturing Technology Institute (China)",
+      "region_id": "CN-beijing",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Beijing",
+      "latitude": 39.9075,
+      "longitude": 116.39723,
+      "citing_work_count": 1
+    },
+    {
+      "id": "I4405282011",
+      "name": "State Grid Jiangsu Electric Power (China)",
+      "region_id": "CN-jiangsu",
+      "region": "Jiangsu",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Nanjing",
+      "latitude": 32.06167,
+      "longitude": 118.77778,
+      "citing_work_count": 1
+    },
+    {
       "id": "I4472751",
       "name": "Anhui Normal University",
       "region_id": "CN-anhui",
@@ -1537,8 +1610,8 @@
       "country_code": "CN",
       "country": "China",
       "city": "Chengdu",
-      "latitude": 30.666669845581055,
-      "longitude": 104.0666732788086,
+      "latitude": 30.66667,
+      "longitude": 104.06667,
       "citing_work_count": 1
     },
     {
@@ -1623,6 +1696,18 @@
       "city": "Jeju City",
       "latitude": 33.50972,
       "longitude": 126.52194,
+      "citing_work_count": 1
+    },
+    {
+      "id": "I86987016",
+      "name": "KTH Royal Institute of Technology",
+      "region_id": "SE-stockholm",
+      "region": "Stockholm",
+      "country_code": "SE",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "latitude": 59.32938,
+      "longitude": 18.06871,
       "citing_work_count": 1
     },
     {
@@ -1722,6 +1807,66 @@
       "citing_work_count": 1
     },
     {
+      "id": "LOCAL-CASIA",
+      "name": "Institute of Automation, Chinese Academy of Sciences",
+      "region_id": "CN-beijing",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Beijing",
+      "latitude": 39.9075,
+      "longitude": 116.39723,
+      "citing_work_count": 1
+    },
+    {
+      "id": "LOCAL-CINVESTAV-RAMOS-ARIZPE",
+      "name": "Center for Research and Advanced Studies (CINVESTAV), Ramos Arizpe",
+      "region_id": "MX-coahuila",
+      "region": "Coahuila",
+      "country_code": "MX",
+      "country": "Mexico",
+      "city": "Ramos Arizpe",
+      "latitude": 25.53928,
+      "longitude": -100.94742,
+      "citing_work_count": 1
+    },
+    {
+      "id": "LOCAL-CMB-HANGZHOU",
+      "name": "CMB Network Technology (Hangzhou) Co., Ltd.",
+      "region_id": "CN-zhejiang",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Hangzhou",
+      "latitude": 30.29365,
+      "longitude": 120.16142,
+      "citing_work_count": 1
+    },
+    {
+      "id": "LOCAL-HANGZHOU-OXYGEN",
+      "name": "Hangzhou Oxygen Plant Group Company Limited",
+      "region_id": "CN-zhejiang",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Hangzhou",
+      "latitude": 30.29365,
+      "longitude": 120.16142,
+      "citing_work_count": 1
+    },
+    {
+      "id": "LOCAL-NINGBO-WATER",
+      "name": "Ningbo Water and Environment Group Co., Ltd",
+      "region_id": "CN-zhejiang",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "city": "Ningbo",
+      "latitude": 29.87819,
+      "longitude": 121.54945,
+      "citing_work_count": 1
+    },
+    {
       "id": "LOCAL-SINOPHORUS",
       "name": "Hubei Sinophorus Electronic Materials Co., Ltd.",
       "region_id": "CN-hubei",
@@ -1732,10 +1877,22 @@
       "latitude": 30.71444,
       "longitude": 111.28472,
       "citing_work_count": 1
+    },
+    {
+      "id": "LOCAL-UNIDATA",
+      "name": "Unidata S.p.A.",
+      "region_id": "IT-lazio",
+      "region": "Lazio",
+      "country_code": "IT",
+      "country": "Italy",
+      "city": "Rome",
+      "latitude": 41.89193,
+      "longitude": 12.51133,
+      "citing_work_count": 1
     }
   ],
   "unmapped_summary": {
     "external_works": 0,
-    "partially_mapped_external_works": 3
+    "partially_mapped_external_works": 1
   }
 }

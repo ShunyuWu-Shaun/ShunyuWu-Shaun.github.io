@@ -1,0 +1,222 @@
+{
+  "url": "https://api.openalex.org/works/W7213312453?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted",
+  "retrieved_at": "2026-09-24T15:49:34+00:00",
+  "data": {
+    "id": "https://openalex.org/W7213312453",
+    "doi": "https://doi.org/10.1109/ticps.2026.3733880",
+    "title": "Energy Management of AI Data Center Microgrids Considering Workload Uncertainties: An Online Decision-Focused Learning Method",
+    "publication_year": 2026,
+    "publication_date": "2026-01-01",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5067544074",
+          "display_name": "Jingxiang Wang",
+          "orcid": "https://orcid.org/0009-0008-9395-5848"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingxiang Wang",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5133637326",
+          "display_name": "Qianwen Xu",
+          "orcid": "https://orcid.org/0000-0002-2793-9048"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I86987016",
+            "display_name": "KTH Royal Institute of Technology",
+            "ror": "https://ror.org/026vcq606",
+            "country_code": "SE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I86987016"
+            ]
+          }
+        ],
+        "countries": [
+          "SE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qianwen Xu",
+        "raw_affiliation_strings": [
+          "KTH Royal Institute of Technology"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "KTH Royal Institute of Technology",
+            "institution_ids": [
+              "https://openalex.org/I86987016"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5151763390",
+          "display_name": "Mingshen Wang",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Mingshen Wang",
+        "raw_affiliation_strings": [
+          "State Grid Jiangsu Electric Power Co., Ltd"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "State Grid Jiangsu Electric Power Co., Ltd",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5151717659",
+          "display_name": "Bo Yang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bo Yang",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5053837522",
+          "display_name": "Zhaojian Wang",
+          "orcid": "https://orcid.org/0000-0002-4998-6339"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhaojian Wang",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/ticps.2026.3733880",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/ticps.2026.3733880",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4387287601",
+        "display_name": "IEEE Transactions on Industrial Cyber-Physical Systems",
+        "issn_l": "2832-7004",
+        "issn": [
+          "2832-7004"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Industrial Cyber-Physical Systems",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false
+  }
+}

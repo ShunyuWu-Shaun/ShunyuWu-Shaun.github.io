@@ -1,6 +1,6 @@
 {
   "url": "https://api.openalex.org/works/doi:10.23919/CCC52363.2021.9550267?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
-  "retrieved_at": "2026-09-09T14:26:03+00:00",
+  "retrieved_at": "2026-09-24T15:49:29+00:00",
   "data": {
     "id": "https://openalex.org/W3204859870",
     "doi": "https://doi.org/10.23919/ccc52363.2021.9550267",
@@ -14,7 +14,10 @@
         "author": {
           "id": "https://openalex.org/A5103075336",
           "display_name": "Shuwei Zhang",
-          "orcid": "https://orcid.org/0000-0001-8315-3261"
+          "orcid": "https://orcid.org/0000-0001-8315-3261",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8315-3261"
+          ]
         },
         "institutions": [
           {
@@ -69,10 +72,24 @@
         "author": {
           "id": "https://openalex.org/A5061284899",
           "display_name": "Miaoshun Bai",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4405260923",
+            "display_name": "Shanghai Municipal Engineering Design Institute (Group) Co., Ltd (China)",
+            "ror": "https://ror.org/04g46sd34",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4405260923"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
         "is_corresponding": false,
         "raw_author_name": "Miaoshun Bai",
         "raw_affiliation_strings": [
@@ -82,7 +99,9 @@
         "affiliations": [
           {
             "raw_affiliation_string": "Shanghai Municipal Engineering Design Institute(Group) Co., Ltd, China",
-            "institution_ids": []
+            "institution_ids": [
+              "https://openalex.org/I4405260923"
+            ]
           }
         ]
       },
@@ -91,7 +110,10 @@
         "author": {
           "id": "https://openalex.org/A5100777024",
           "display_name": "Jingcheng Wang",
-          "orcid": "https://orcid.org/0000-0002-4277-1263"
+          "orcid": "https://orcid.org/0000-0002-4277-1263",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4277-1263"
+          ]
         },
         "institutions": [
           {
@@ -146,7 +168,10 @@
         "author": {
           "id": "https://openalex.org/A5040505108",
           "display_name": "Haotian Xu",
-          "orcid": "https://orcid.org/0000-0002-2180-6148"
+          "orcid": "https://orcid.org/0000-0002-2180-6148",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2180-6148"
+          ]
         },
         "institutions": [
           {
@@ -201,7 +226,10 @@
         "author": {
           "id": "https://openalex.org/A5087893108",
           "display_name": "Shunyu Wu",
-          "orcid": "https://orcid.org/0000-0001-9856-2148"
+          "orcid": "https://orcid.org/0000-0001-9856-2148",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9856-2148"
+          ]
         },
         "institutions": [
           {

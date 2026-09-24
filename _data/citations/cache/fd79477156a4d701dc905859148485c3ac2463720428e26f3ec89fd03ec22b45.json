@@ -1,0 +1,24 @@
+{
+  "url": "https://api.openalex.org/institutions/I111950717?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-24T15:49:34+00:00",
+  "data": {
+    "id": "https://openalex.org/I111950717",
+    "ror": "https://ror.org/03jqs2n27",
+    "display_name": "Macau University of Science and Technology",
+    "country_code": "MO",
+    "type": "education",
+    "geo": {
+      "city": "Macao",
+      "geonames_city_id": "1821274",
+      "region": "Macau",
+      "country_code": "MO",
+      "country": "Macao",
+      "latitude": 22.20056,
+      "longitude": 113.54611
+    },
+    "lineage": [
+      "https://openalex.org/I111950717",
+      "https://openalex.org/I4391767947"
+    ]
+  }
+}

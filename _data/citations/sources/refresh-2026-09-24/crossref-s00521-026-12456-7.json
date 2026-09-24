@@ -1,0 +1,710 @@
+{
+  "url": "https://api.crossref.org/works/10.1007/s00521-026-12456-7",
+  "retrieved_at": "2026-09-24T15:47:40.121740+00:00",
+  "data": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2026-09-17T08:03:30Z",
+        "timestamp": 1789632210120,
+        "version": "build-2803163510"
+      },
+      "reference-count": 37,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "18",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2026-09-01T00:00:00Z",
+            "timestamp": 1788220800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2026-09-01T00:00:00Z",
+            "timestamp": 1788220800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Neural Comput &amp; Applic"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1007/s00521-026-12456-7",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2026-09-17T07:16:27Z",
+        "timestamp": 1789629387000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Hierarchical reinforcement learning for safe output tracking: managing constraints of dependent internal states in unknown discrete-time systems"
+      ],
+      "prefix": "10.1007",
+      "volume": "38",
+      "author": [
+        {
+          "given": "Chidentree",
+          "family": "Treesatayapun",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "12456_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "141",
+          "DOI": "10.1016/j.ins.2019.02.013",
+          "volume": "485",
+          "author": "D Xu",
+          "year": "2019",
+          "unstructured": "Xu D, Song X, Yan W, Jiang B (2019) Model-free adaptive command-filtered-backstepping sliding mode control for discrete-time high-order nonlinear systems. Inf Sci 485:141–153. https://doi.org/10.1016/j.ins.2019.02.013",
+          "journal-title": "Inf Sci"
+        },
+        {
+          "issue": "4",
+          "key": "12456_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "2369",
+          "DOI": "10.1137/24M1679197",
+          "volume": "63",
+          "author": "Z Liu",
+          "year": "2025",
+          "unstructured": "Liu Z, Li C (2025) Optimal adaptive output regulation of discrete-time nonlinear stochastic systems. SIAM J Control Optim 63(4):2369–2396. https://doi.org/10.1137/24M1679197",
+          "journal-title": "SIAM J Control Optim"
+        },
+        {
+          "issue": "2",
+          "key": "12456_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "581",
+          "DOI": "10.1109/TCSII.2022.3170867",
+          "volume": "70",
+          "author": "Y Xu",
+          "year": "2023",
+          "unstructured": "Xu Y, Liu J, Yu J, Wang Q-G (2023) Adaptive neural networks command filtered control for mimo nonlinear discrete-time systems with input constraint. IEEE Trans Circuits Syst II Express Briefs 70(2):581–585. https://doi.org/10.1109/TCSII.2022.3170867",
+          "journal-title": "IEEE Trans Circuits Syst II Express Briefs"
+        },
+        {
+          "issue": "19",
+          "key": "12456_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "13429",
+          "DOI": "10.1007/s00521-025-11247-w",
+          "volume": "37",
+          "author": "QD Pham",
+          "year": "2025",
+          "unstructured": "Pham QD, Nguyen HA, Vu NT-T (2025) Adaptive dynamic programming based mppt control for doubly-fed induction generator-wind turbine. Neural Comput Appl 37(19):13429–13446. https://doi.org/10.1007/s00521-025-11247-w",
+          "journal-title": "Neural Comput Appl"
+        },
+        {
+          "issue": "8",
+          "key": "12456_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "2748",
+          "DOI": "10.1007/s12555-022-0147-z",
+          "volume": "21",
+          "author": "X Liang",
+          "year": "2023",
+          "unstructured": "Liang X, Yin L, Yao Z, Yao J (2023) Output feedback asymptotic tracking control for uncertain dc motors. Int J Control Autom Syst 21(8):2748–2759. https://doi.org/10.1007/s12555-022-0147-z",
+          "journal-title": "Int J Control Autom Syst"
+        },
+        {
+          "key": "12456_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "131957",
+          "DOI": "10.1109/ACCESS.2025.3592594",
+          "volume": "13",
+          "author": "DM Acevedo",
+          "year": "2025",
+          "unstructured": "Acevedo DM, Parraguez-Garrido I, Gil-González W, Montoya OD, González-Castaño C (2025) Adaptive passivity-based control for dc motor speed regulation in dc-dc converter-fed systems. IEEE Access 13:131957–131966. https://doi.org/10.1109/ACCESS.2025.3592594",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "12456_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "112054",
+          "DOI": "10.1016/j.epsr.2025.112054",
+          "volume": "249",
+          "author": "Z Guo",
+          "year": "2025",
+          "unstructured": "Guo Z, Zuo D, Liu X, Zhang Z, Ma J, Meng F, Fang Y (2025) Dual tracking model-free predictive control for three-level neutral-point clamped inverters. Electr Power Syst Res 249:112054. https://doi.org/10.1016/j.epsr.2025.112054",
+          "journal-title": "Electr Power Syst Res"
+        },
+        {
+          "issue": "30",
+          "key": "12456_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "24607",
+          "DOI": "10.1007/s00521-024-10741-x",
+          "volume": "37",
+          "author": "AA Khater",
+          "year": "2025",
+          "unstructured": "Khater AA, Fekry M, El-Bardini M, El-Nagar AM (2025) Deep reinforcement learning-based adaptive fuzzy control for electro-hydraulic servo system. Neural Comput Appl 37(30):24607–24624. https://doi.org/10.1007/s00521-024-10741-x",
+          "journal-title": "Neural Comput Appl"
+        },
+        {
+          "issue": "12",
+          "key": "12456_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "1677",
+          "DOI": "10.1049/cth2.12508",
+          "volume": "17",
+          "author": "M Abdollahzadeh",
+          "year": "2023",
+          "unstructured": "Abdollahzadeh M (2023) Adaptive dynamic programming discrete-time lqr control on electromagnetic levitation system. IET Control Theory & Applications 17(12):1677–1687. https://doi.org/10.1049/cth2.12508",
+          "journal-title": "IET Control Theory & Applications"
+        },
+        {
+          "issue": "1",
+          "key": "12456_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "1061",
+          "DOI": "10.1109/TTE.2024.3400534",
+          "volume": "11",
+          "author": "N Farah",
+          "year": "2025",
+          "unstructured": "Farah N, Lei G, Zhu J, Guo Y (2025) Robust model-free reinforcement learning based current control of pmsm drives. IEEE T Transp Electrif 11(1):1061–1076. https://doi.org/10.1109/TTE.2024.3400534",
+          "journal-title": "IEEE T Transp Electrif"
+        },
+        {
+          "issue": "6",
+          "key": "12456_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "2910",
+          "DOI": "10.1109/TCYB.2025.3562390",
+          "volume": "55",
+          "author": "S Xuan",
+          "year": "2025",
+          "unstructured": "Xuan S, Liang H, Huang S, Li T, Sun J (2025) Distributed optimal consensus problem of input constrained nonlinear discrete-time mass: A mode-free reinforcement learning approach. IEEE Trans Cybern 55(6):2910–2923. https://doi.org/10.1109/TCYB.2025.3562390",
+          "journal-title": "IEEE Trans Cybern"
+        },
+        {
+          "key": "12456_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "12245",
+          "DOI": "10.1109/TASE.2025.3540699",
+          "volume": "22",
+          "author": "E Soleimani",
+          "year": "2025",
+          "unstructured": "Soleimani E, Sedigh AK, Nikoofard A (2025) Data-driven reinforcement learning-based forgetting factor iterative learning control. IEEE Trans Autom Sci Eng 22:12245–12256. https://doi.org/10.1109/TASE.2025.3540699",
+          "journal-title": "IEEE Trans Autom Sci Eng"
+        },
+        {
+          "issue": "4",
+          "key": "12456_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "2279",
+          "DOI": "10.1109/TCSII.2023.3343375",
+          "volume": "71",
+          "author": "N An",
+          "year": "2024",
+          "unstructured": "An N, Wang Q, Zhao X, Wang Q (2024) Discrete-time nonlinear optimal control using multi-step reinforcement learning. IEEE Trans Circuits Syst II Express Briefs 71(4):2279–2283. https://doi.org/10.1109/TCSII.2023.3343375",
+          "journal-title": "IEEE Trans Circuits Syst II Express Briefs"
+        },
+        {
+          "issue": "4",
+          "key": "12456_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "818",
+          "DOI": "10.1002/acs.3980",
+          "volume": "39",
+          "author": "H Li",
+          "year": "2025",
+          "unstructured": "Li H, Wang F (2025) Adaptive finite-time rl control for stochastic non-linear systems with full state constraints and dead zone output. Int J Adapt Control Signal Process 39(4):818–828. https://doi.org/10.1002/acs.3980",
+          "journal-title": "Int J Adapt Control Signal Process"
+        },
+        {
+          "issue": "11",
+          "key": "12456_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "15507",
+          "DOI": "10.1109/TNNLS.2023.3287881",
+          "volume": "35",
+          "author": "S Li",
+          "year": "2024",
+          "unstructured": "Li S, Ding L, Zheng M, Liu Z, Li X, Yang H, Gao H, Deng Z (2024) Nn-based reinforcement learning optimal control for inequality-constrained nonlinear discrete-time systems with disturbances. IEEE Trans on Neural Netw Learn Syst 35(11):15507–15516. https://doi.org/10.1109/TNNLS.2023.3287881",
+          "journal-title": "IEEE Trans on Neural Netw Learn Syst"
+        },
+        {
+          "key": "12456_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "562",
+          "DOI": "10.1016/j.neucom.2022.11.006",
+          "volume": "518",
+          "author": "S Liu",
+          "year": "2023",
+          "unstructured": "Liu S, Liu L, Yu Z (2023) Safe reinforcement learning for affine nonlinear systems with state constraints and input saturation using control barrier functions. Neurocomputing 518:562–576. https://doi.org/10.1016/j.neucom.2022.11.006",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "issue": "1",
+          "key": "12456_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "854",
+          "DOI": "10.1109/TNNLS.2023.3326397",
+          "volume": "36",
+          "author": "L Zhang",
+          "year": "2025",
+          "unstructured": "Zhang L, Xie L, Jiang Y, Li Z, Liu X, Su H (2025) Optimal control for constrained discrete-time nonlinear systems based on safe reinforcement learning. IEEE Trans Neural Netw Learn Syst 36(1):854–865. https://doi.org/10.1109/TNNLS.2023.3326397",
+          "journal-title": "IEEE Trans Neural Netw Learn Syst"
+        },
+        {
+          "issue": "4",
+          "key": "12456_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "2368",
+          "DOI": "10.1109/TSMC.2023.3344883",
+          "volume": "54",
+          "author": "J Xu",
+          "year": "2024",
+          "unstructured": "Xu J, Wang J, Zhong Y, Rao J, Wu S (2024) Reinforcement learning controller design for discrete-time-constrained nonlinear systems with weight initialization method. IEEE Trans Syst Man Cybern Syst 54(4):2368–2378. https://doi.org/10.1109/TSMC.2023.3344883",
+          "journal-title": "IEEE Trans Syst Man Cybern Syst"
+        },
+        {
+          "issue": "34",
+          "key": "12456_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "28513",
+          "DOI": "10.1007/s00521-025-11430-z",
+          "volume": "37",
+          "author": "W Hu",
+          "year": "2025",
+          "unstructured": "Hu W, Jiang Y (2025) Intelligent control and optimization of hydraulic systems using reinforcement learning. Neural Comput Appl 37(34):28513–28528. https://doi.org/10.1007/s00521-025-11430-z",
+          "journal-title": "Neural Comput Appl"
+        },
+        {
+          "key": "12456_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "115241",
+          "DOI": "10.1016/j.chaos.2024.115241",
+          "volume": "186",
+          "author": "J Ding",
+          "year": "2024",
+          "unstructured": "Ding J, Lei Y, Xie J, Small M (2024) Chaos synchronization of two coupled map lattice systems using safe reinforcement learning. Chaos Solitons & Fractals 186:115241. https://doi.org/10.1016/j.chaos.2024.115241",
+          "journal-title": "Chaos Solitons & Fractals"
+        },
+        {
+          "key": "12456_CR21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ins.2024.121283",
+          "volume": "682",
+          "author": "A Perrusquía",
+          "year": "2024",
+          "unstructured": "Perrusquía A, Zou M, Guo W (2024) Explainable data-driven q-learning control for a class of discrete-time linear autonomous systems. Inf Sci 682:121283. https://doi.org/10.1016/j.ins.2024.121283",
+          "journal-title": "Inf Sci"
+        },
+        {
+          "issue": "3",
+          "key": "12456_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "3302",
+          "DOI": "10.1109/TNNLS.2023.3264815",
+          "volume": "35",
+          "author": "A Modares",
+          "year": "2024",
+          "unstructured": "Modares A, Sadati N, Esmaeili B, Yaghmaie FA, Modares H (2024) Safe reinforcement learning via a model-free safety certifier. IEEE Trans Neural Netw Learn Syst 35(3):3302–3311. https://doi.org/10.1109/TNNLS.2023.3264815",
+          "journal-title": "IEEE Trans Neural Netw Learn Syst"
+        },
+        {
+          "key": "12456_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "109249",
+          "DOI": "10.1016/j.compchemeng.2025.109249",
+          "volume": "201",
+          "author": "S Bo",
+          "year": "2025",
+          "unstructured": "Bo S, Agyeman BT, Decardi-Nelson B, Wang H, Liu J (2025) Computing control invariant set using reinforcement learning by leveraging default value function. Comput Chem Eng 201:109249. https://doi.org/10.1016/j.compchemeng.2025.109249",
+          "journal-title": "Comput Chem Eng"
+        },
+        {
+          "issue": "3",
+          "key": "12456_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "451",
+          "DOI": "10.1002/acs.3950",
+          "volume": "39",
+          "author": "B Farzanegan",
+          "year": "2025",
+          "unstructured": "Farzanegan B, Jagannathan S (2025) Lifelong safe optimal adaptive tracking control of nonlinear strict-feedback discrete-time systems. Int J Adapt Control Signal Process 39(3):451–470. https://doi.org/10.1002/acs.3950",
+          "journal-title": "Int J Adapt Control Signal Process"
+        },
+        {
+          "issue": "8",
+          "key": "12456_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "1744",
+          "DOI": "10.1002/acs.4020",
+          "volume": "39",
+          "author": "E Soleimani",
+          "year": "2025",
+          "unstructured": "Soleimani E, Ahmad Ganie I, Jagannathan S (2025) Safe optimal control of quadrotor formations using multilayer neural networks and continual learning. Int J Adapt Control Signal Process 39(8):1744–1766. https://doi.org/10.1002/acs.4020",
+          "journal-title": "Int J Adapt Control Signal Process"
+        },
+        {
+          "key": "12456_CR26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.knosys.2021.107391",
+          "volume": "230",
+          "author": "I Abuqaddom",
+          "year": "2021",
+          "unstructured": "Abuqaddom I, Mahafzah BA, Faris H (2021) Oriented stochastic loss descent algorithm to train very deep multi-layer neural networks without vanishing gradients. Knowl-Based Syst 230:107391. https://doi.org/10.1016/j.knosys.2021.107391",
+          "journal-title": "Knowl-Based Syst"
+        },
+        {
+          "issue": "3",
+          "key": "12456_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "1585",
+          "DOI": "10.1002/asjc.3495",
+          "volume": "27",
+          "author": "C Dai",
+          "year": "2025",
+          "unstructured": "Dai C, Guo Y (2025) Output feedback stabilization of logical dynamical systems with state-dependent control constraints. Asian J Control 27(3):1585–1593. https://doi.org/10.1002/asjc.3495",
+          "journal-title": "Asian J Control"
+        },
+        {
+          "issue": "3",
+          "key": "12456_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "766",
+          "DOI": "10.1109/TCST.2019.2892932",
+          "volume": "28",
+          "author": "C Casenave",
+          "year": "2020",
+          "unstructured": "Casenave C, Perez M, Dochain D, Harmand J, Rapaport A, Sablayrolles J-M (2020) Antiwindup input-output linearization strategy for the control of a multistage continuous fermenter with input constraints. IEEE Trans Control Syst Technol 28(3):766–775. https://doi.org/10.1109/TCST.2019.2892932",
+          "journal-title": "IEEE Trans Control Syst Technol"
+        },
+        {
+          "key": "12456_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "116",
+          "DOI": "10.1016/j.isatra.2021.02.020",
+          "volume": "118",
+          "author": "TP Cabré",
+          "year": "2021",
+          "unstructured": "Cabré TP, Vela AS, Ribes MT, Blanc JM, Pablo JR, Sancho FC (2021) Didactic platform for dc motor speed and position control in z-plane. ISA Trans 118:116–132. https://doi.org/10.1016/j.isatra.2021.02.020",
+          "journal-title": "ISA Trans"
+        },
+        {
+          "key": "12456_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "14422",
+          "DOI": "10.1109/TASE.2025.3560600",
+          "volume": "22",
+          "author": "A Vahidi-Moghaddam",
+          "year": "2025",
+          "unstructured": "Vahidi-Moghaddam A, Chen K, Zhang K, Li Z, Wang Y, Wu K (2025) Safe data-driven predictive control. IEEE Trans Autom Sci Eng 22:14422–14435. https://doi.org/10.1109/TASE.2025.3560600",
+          "journal-title": "IEEE Trans Autom Sci Eng"
+        },
+        {
+          "issue": "1",
+          "key": "12456_CR31",
+          "doi-asserted-by": "publisher",
+          "first-page": "343",
+          "DOI": "10.1109/LCSYS.2020.3002152",
+          "volume": "5",
+          "author": "V Häberle",
+          "year": "2021",
+          "unstructured": "Häberle V, Hauswirth A, Ortmann L, Bolognani S, Dörfler F (2021) Non-convex feedback optimization with input and output constraints. IEEE Control Syst Letters 5(1):343–348. https://doi.org/10.1109/LCSYS.2020.3002152",
+          "journal-title": "IEEE Control Syst Letters"
+        },
+        {
+          "issue": "1",
+          "key": "12456_CR32",
+          "doi-asserted-by": "publisher",
+          "first-page": "9",
+          "DOI": "10.1007/s40313-024-01136-3",
+          "volume": "36",
+          "author": "M Bolajraf",
+          "year": "2025",
+          "unstructured": "Bolajraf M (2025) Static output feedback controller design for constrained mimo discrete-time positive system. J Control Autom Electr Sys 36(1):9–19. https://doi.org/10.1007/s40313-024-01136-3",
+          "journal-title": "J Control Autom Electr Sys"
+        },
+        {
+          "issue": "16",
+          "key": "12456_CR33",
+          "doi-asserted-by": "publisher",
+          "first-page": "9113",
+          "DOI": "10.1007/s00521-024-09568-3",
+          "volume": "36",
+          "author": "E Çelik",
+          "year": "2024",
+          "unstructured": "Çelik E, Bal G, Öztürk N, Bekiroglu E, Houssein EH, Ocak C, Sharma G (2024) Improving speed control characteristics of pmdc motor drives using nonlinear pi control. Neural Comput Appl 36(16):9113–9124. https://doi.org/10.1007/s00521-024-09568-3",
+          "journal-title": "Neural Comput Appl"
+        },
+        {
+          "issue": "1",
+          "key": "12456_CR34",
+          "doi-asserted-by": "publisher",
+          "first-page": "563",
+          "DOI": "10.1109/TMECH.2020.3042806",
+          "volume": "26",
+          "author": "Y Wu",
+          "year": "2021",
+          "unstructured": "Wu Y, Li G, Zuo Z, Liu X, Xu P (2021) Practical fixed-time position tracking control of permanent magnet dc torque motor systems. IEEE/ASME Trans Mechatron 26(1):563–573. https://doi.org/10.1109/TMECH.2020.3042806",
+          "journal-title": "IEEE/ASME Trans Mechatron"
+        },
+        {
+          "issue": "1",
+          "key": "12456_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "20814",
+          "DOI": "10.1038/s41598-024-71647-1",
+          "volume": "14",
+          "author": "Z Huang",
+          "year": "2024",
+          "unstructured": "Huang Z, Yan Y, Zhu Y, Shao J, Zhu J, Fang D (2024) Fuzzy inference system enabled neural network feedforward compensation for position leap control of dc servo motor. Sci Rep 14(1):20814. https://doi.org/10.1038/s41598-024-71647-1",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "issue": "1",
+          "key": "12456_CR36",
+          "doi-asserted-by": "publisher",
+          "first-page": "758",
+          "DOI": "10.1109/TSMC.2024.3490372",
+          "volume": "55",
+          "author": "C Treesatayapun",
+          "year": "2025",
+          "unstructured": "Treesatayapun C (2025) Equivalent piecewise derivative adaptive control with fuzzy rules emulated network and mitigation of catastrophic forgetting learning. IEEE Trans Syst Man Cybern Syst 55(1):758–767. https://doi.org/10.1109/TSMC.2024.3490372",
+          "journal-title": "IEEE Trans Syst Man Cybern Syst"
+        },
+        {
+          "issue": "9",
+          "key": "12456_CR37",
+          "doi-asserted-by": "publisher",
+          "first-page": "9981",
+          "DOI": "10.1007/s11071-024-10630-x",
+          "volume": "113",
+          "author": "F Zhang",
+          "year": "2025",
+          "unstructured": "Zhang F, Zhu Z, Chen T, Wu W, Wang C (2025) Reinforcement learning-based neural control for discrete-time nonlinear systems via deterministic learning. Nonlinear Dyn 113(9):9981–10003. https://doi.org/10.1007/s11071-024-10630-x",
+          "journal-title": "Nonlinear Dyn"
+        }
+      ],
+      "container-title": [
+        "Neural Computing and Applications"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s00521-026-12456-7.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s00521-026-12456-7",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s00521-026-12456-7.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2026-09-17T07:16:28Z",
+        "timestamp": 1789629388000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s00521-026-12456-7"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9
+          ]
+        ]
+      },
+      "references-count": 37,
+      "journal-issue": {
+        "issue": "18",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "12456"
+      ],
+      "URL": "https://doi.org/10.1007/s00521-026-12456-7",
+      "relation": {},
+      "ISSN": [
+        "0941-0643",
+        "1433-3058"
+      ],
+      "issn-type": [
+        {
+          "value": "0941-0643",
+          "type": "print"
+        },
+        {
+          "value": "1433-3058",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2 December 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "3 August 2026",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "17 September 2026",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The author declares no conflict of interest.",
+          "order": 1,
+          "name": "Ethics",
+          "label": "Conflict of interest",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 2,
+          "name": "Ethics",
+          "label": "Ethics approval and consent to participate",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 3,
+          "name": "Ethics",
+          "label": "Consent for publication",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        }
+      ],
+      "article-number": "739"
+    }
+  }
+}

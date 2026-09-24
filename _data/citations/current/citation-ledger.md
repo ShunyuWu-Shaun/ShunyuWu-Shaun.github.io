@@ -1,10 +1,10 @@
 # Citation ledger
 
-Snapshot: 2026-09-09T14:26:24+00:00
+Snapshot: 2026-09-24T15:49:50+00:00
 
-69 verified citation relationships; 64 distinct citing works; 4 direct self-citing works.
+73 verified citation relationships; 68 distinct citing works; 4 direct self-citing works.
 
-All 66 Scholar result records are preserved separately in scholar-citations.csv. This merged ledger deduplicates versions and also retains additional OpenAlex records. See the parent README for scope and counting.
+All 70 Scholar result records are preserved separately in scholar-citations.csv. This merged ledger deduplicates versions and also retains additional OpenAlex records. See the parent README for scope and counting.
 
 ## 1. A Model‐Free Non‐Zero‐Sum Game Framework for Safe and Optimal Vehicle Platooning Control
 
@@ -26,14 +26,14 @@ Year: 2026 · DOI: 10.1016/j.eswa.2026.134256 · Direct self-citation: False · 
 
 Cites: 10.1109/tase.2023.3236306; 10.1109/tase.2023.3299185
 
-Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W7206203312)
+Sources: Exact affiliation-string resolution; Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W7206203312)
 
 | Author | Affiliation | Country / region | Location status |
 |---|---|---|---|
 | Kai Zhang | University of Science and Technology Beijing | China, Beijing, Beijing | institution_geo |
 | Zongxu Cao | University of Science and Technology Beijing | China, Beijing, Beijing | institution_geo |
 | Kaixiang Peng | University of Science and Technology Beijing | China, Beijing, Beijing | institution_geo |
-| Yibin Rui | Taiyuan Heavy Industry (China) | China, Shanxi, Taiyuan | institution_geo |
+| Yibin Rui | Beijing Jianlong Heavy Industry Group Co. Ltd | China, Beijing, Beijing | institution_geo |
 
 ## 3. A novel model predictive control law for over-actuated space cable-driven manipulators
 
@@ -59,14 +59,14 @@ Year: 2026 · DOI: 10.1016/j.epsr.2026.112878 · Direct self-citation: False · 
 
 Cites: 10.1109/tase.2023.3236306
 
-Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W7130653856)
+Sources: Exact affiliation-string resolution; Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W7130653856)
 
 | Author | Affiliation | Country / region | Location status |
 |---|---|---|---|
 | Kai Zhang | University of Science and Technology Beijing | China, Beijing, Beijing | institution_geo |
 | Zongxu Cao | University of Science and Technology Beijing | China, Beijing, Beijing | institution_geo |
 | Yali Wang | University of Science and Technology Beijing | China, Beijing, Beijing | institution_geo |
-| Yibin Rui | Taiyuan Heavy Industry (China) | China, Shanxi, Taiyuan | institution_geo |
+| Yibin Rui | Beijing Jianlong Heavy Industry Group Co. Ltd | China, Beijing, Beijing | institution_geo |
 
 ## 5. Adaptive Safe Reinforcement Learning With Energy Dissipation Principles
 
@@ -132,7 +132,24 @@ Sources: OpenAlex · [Metadata record](https://openalex.org/W7164004175)
 | Jianqiang Wang | Tsinghua University | China, Beijing, Beijing | institution_geo |
 | Keqiang Li | Tsinghua University | China, Beijing, Beijing | institution_geo |
 
-## 9. Coordinated optimal scheduling of island micro water–energy nexus considering multi-source uncertainty and extreme risks
+## 9. Bridging Representation Learning and Optimal Control: Joint Representation–Decision Optimization for FCEV Energy Management
+
+Year: 2026 · DOI: 10.1109/tte.2026.3734226 · Direct self-citation: False · Non-research record: False
+
+Cites: 10.1109/tsg.2025.3601238
+
+Sources: Google Scholar; IEEE publisher and Crossref; Publisher article · [Metadata record](https://ieeexplore.ieee.org/abstract/document/11693968/authors#authors)
+
+| Author | Affiliation | Country / region | Location status |
+|---|---|---|---|
+| Kunang Li | Beijing Institute of Technology | China, Beijing, Beijing | institution_geo |
+| Hongwen He | Beijing Institute of Technology | China, Beijing, Beijing | institution_geo |
+| Jingda Wu | Beijing Institute of Technology | China, Beijing, Beijing | institution_geo |
+| Zhongbao Wei | Beijing Institute of Technology | China, Beijing, Beijing | institution_geo |
+| Baochao Xing | Beijing Institute of Technology | China, Beijing, Beijing | institution_geo |
+| Xuncheng Guo | Beijing Institute of Technology | China, Beijing, Beijing | institution_geo |
+
+## 10. Coordinated optimal scheduling of island micro water–energy nexus considering multi-source uncertainty and extreme risks
 
 Year: 2026 · DOI: 10.1063/5.0337442 · Direct self-citation: False · Non-research record: False
 
@@ -147,9 +164,9 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W716
 | Alexis Pengfei Zhao | Stanford University | United States, California, Stanford | institution_geo |
 | Xianlong Li | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 | Longsheng Wang | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
-| Da Xie | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
+| Da Gang Xie | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 
-## 10. Decision-Focused Learning for Energy Arbitrage: From Probabilistic Forecasting to Risk-Averse Stochastic Optimization
+## 11. Decision-Focused Learning for Energy Arbitrage: From Probabilistic Forecasting to Risk-Averse Stochastic Optimization
 
 Year: 2026 · DOI: 10.1145/3765611.3815386 · Direct self-citation: False · Non-research record: False
 
@@ -162,7 +179,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W716
 | Steven Oufan Hai | University of Alberta | Canada, Alberta, Edmonton | institution_geo |
 | Omid Ardakanian | University of Alberta | Canada, Alberta, Edmonton | institution_geo |
 
-## 11. Decision-Oriented Machine Learning for Renewable-Dominated Power System Planning Under Uncertainty: A Review
+## 12. Decision-Oriented Machine Learning for Renewable-Dominated Power System Planning Under Uncertainty: A Review
 
 Year: 2026 · DOI: 10.2139/ssrn.7185818 · Direct self-citation: False · Non-research record: False
 
@@ -174,7 +191,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W719
 |---|---|---|---|
 | Ishmael Fynn Cudjoe | University of Mines and Technology | Ghana, Western, Tarkwa | institution_geo |
 
-## 12. Deep Learning for Operation and Maintenance of Urban Lifeline Systems: A Comprehensive Review
+## 13. Deep Learning for Operation and Maintenance of Urban Lifeline Systems: A Comprehensive Review
 
 Year: 2026 · DOI: 10.1061/jitse4.iseng-2916 · Direct self-citation: False · Non-research record: False
 
@@ -188,7 +205,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W716
 | Junxiang Zhao | City University of Hong Kong | Hong Kong, Hong Kong S.A.R., Hong Kong | institution_geo |
 | Ruiyan Zheng | City University of Hong Kong | Hong Kong, Hong Kong S.A.R., Hong Kong | institution_geo |
 
-## 13. Discrete-time Optimal Formation Control of Unmanned Vehicles Based on Policy Gradient Adaptive Dynamic Programming
+## 14. Discrete-time Optimal Formation Control of Unmanned Vehicles Based on Policy Gradient Adaptive Dynamic Programming
 
 Year: 2026 · DOI: 10.1109/yac71005.2026.11615894 · Direct self-citation: False · Non-research record: False
 
@@ -205,7 +222,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W717
 | Zhengtao Ye | Nanjing University of Posts and Telecommunications | China, Jiangsu, Nanjing | institution_geo |
 | Shixun Xiong | Nanjing University of Posts and Telecommunications | China, Jiangsu, Nanjing | institution_geo |
 
-## 14. Economic dispatch method for islanded microgrids based on BO-DW-TD3
+## 15. Economic dispatch method for islanded microgrids based on BO-DW-TD3
 
 Year: 2026 · DOI: 10.1016/j.egyr.2026.109331 · Direct self-citation: False · Non-research record: False
 
@@ -217,14 +234,14 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W715
 |---|---|---|---|
 | Long Cheng | Hunan University | China, Hunan, Changsha | institution_geo |
 | Long Cheng | Hunan Agricultural University | China, Hunan, Changsha | institution_geo |
-| B Zhang | Hunan University | China, Hunan, Changsha | institution_geo |
-| B Zhang | Hunan Agricultural University | China, Hunan, Changsha | institution_geo |
+| Bingqian Zhang | Hunan University | China, Hunan, Changsha | institution_geo |
+| Bingqian Zhang | Hunan Agricultural University | China, Hunan, Changsha | institution_geo |
 | Jun Yang | Hunan University | China, Hunan, Changsha | institution_geo |
 | Jun Yang | Hunan Agricultural University | China, Hunan, Changsha | institution_geo |
 | Bo Liu | Hunan University | China, Hunan, Changsha | institution_geo |
 | Bo Liu | Hunan Agricultural University | China, Hunan, Changsha | institution_geo |
 
-## 15. Efficiently Enhancing Long-term Series Forecasting via Adaptive Lookback with Wavelets
+## 16. Efficiently Enhancing Long-term Series Forecasting via Adaptive Lookback with Wavelets
 
 Year: 2026 · DOI: 10.1609/aaai.v40i31.39797 · Direct self-citation: False · Non-research record: False
 
@@ -237,7 +254,23 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W713
 | Suxin Tong | Wuhan University of Technology | China, Hubei, Wuhan | institution_geo |
 | Jingling Yuan | Wuhan University of Technology | China, Hubei, Wuhan | institution_geo |
 
-## 16. Energy consumption prediction of hydraulic systems based on Archimedes Algorithm-Optimized Multi-Level information fusion
+## 17. Energy Management of AI Data Center Microgrids Considering Workload Uncertainties: An Online Decision-Focused Learning Method
+
+Year: 2026 · DOI: 10.1109/ticps.2026.3733880 · Direct self-citation: False · Non-research record: False
+
+Cites: 10.1109/tsg.2025.3601238
+
+Sources: Google Scholar; OpenAlex; Publisher article · [Metadata record](https://openalex.org/W7213312453)
+
+| Author | Affiliation | Country / region | Location status |
+|---|---|---|---|
+| Jingxiang Wang | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
+| Qianwen Xu | KTH Royal Institute of Technology | Sweden, Stockholm, Stockholm | institution_geo |
+| Mingshen Wang | State Grid Jiangsu Electric Power (China) | China, Jiangsu, Nanjing | institution_geo |
+| Bo Yang | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
+| Zhaojian Wang | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
+
+## 18. Energy consumption prediction of hydraulic systems based on Archimedes Algorithm-Optimized Multi-Level information fusion
 
 Year: 2026 · DOI: 10.1016/j.eswa.2026.132810 · Direct self-citation: False · Non-research record: False
 
@@ -254,24 +287,54 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W716
 | Yibo Li | Central South University | China, Hunan, Changsha | institution_geo |
 | Minghui Huang | Central South University | China, Hunan, Changsha | institution_geo |
 
-## 17. Fixed-Interval Sampling for Water Distribution System Monitoring: An Adaptive Strategy through Time-Frequency Analysis
+## 19. Event-Triggered Self-Learning Parallel Tracking Control for Continuous-Time Nonlinear Systems With Actuator Faults
+
+Year: 2026 · DOI: 10.1109/tcyb.2026.3725996 · Direct self-citation: False · Non-research record: False
+
+Cites: 10.1109/tsmc.2023.3327450
+
+Sources: Google Scholar; OpenAlex; Publisher article · [Metadata record](https://openalex.org/W7207722881)
+
+| Author | Affiliation | Country / region | Location status |
+|---|---|---|---|
+| Wendi Chen | Macau University of Science and Technology | Macao, Macau, Macao | institution_geo |
+| Qinglai Wei | Institute of Automation, Chinese Academy of Sciences | China, Beijing, Beijing | institution_geo |
+| Qinglai Wei | University of Chinese Academy of Sciences | China, Beijing, Beijing | institution_geo |
+| Qinglai Wei | Shenyang University of Technology | China, Liaoning, Shenyang | institution_geo |
+| Shanshan Jiao | Macau University of Science and Technology | Macao, Macau, Macao | institution_geo |
+| Yu Liu | University of Chinese Academy of Sciences | China, Beijing, Beijing | institution_geo |
+| Jun Xiao | University of Chinese Academy of Sciences | China, Beijing, Beijing | institution_geo |
+
+## 20. Fixed-Interval Sampling for Water Distribution System Monitoring: An Adaptive Strategy through Time-Frequency Analysis
 
 Year: 2026 · DOI: 10.1061/jwrmd5.wreng-7312 · Direct self-citation: False · Non-research record: False
 
 Cites: 10.1109/tcss.2023.3272330
 
-Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W7166318156)
+Sources: Exact affiliation-string resolution; Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W7166318156)
 
 | Author | Affiliation | Country / region | Location status |
 |---|---|---|---|
 | Shaosong Wei | Zhejiang University | China, Zhejiang, Hangzhou | institution_geo |
-| Zhigang Liu | Ningxia Water Conservancy | China, Ningxia, Yinchuan | institution_geo |
-| Jie Fei | Ningxia Water Conservancy | China, Ningxia, Yinchuan | institution_geo |
+| Zhigang Liu | Ningbo Water and Environment Group Co., Ltd | China, Zhejiang, Ningbo | institution_geo |
+| Jie Fei | Ningbo Water and Environment Group Co., Ltd | China, Zhejiang, Ningbo | institution_geo |
 | Tingchao Yu | Zhejiang University | China, Zhejiang, Hangzhou | institution_geo |
 | Avi Ostfeld | Technion – Israel Institute of Technology | Israel, Haifa, Haifa | institution_geo |
 | Shipeng Chu | Zhejiang University | China, Zhejiang, Hangzhou | institution_geo |
 
-## 18. Integrated optimal operation of power and water systems under uncertainty: An adjustable robust optimization approach
+## 21. Hierarchical reinforcement learning for safe output tracking: managing constraints of dependent internal states in unknown discrete-time systems
+
+Year: 2026 · DOI: 10.1007/s00521-026-12456-7 · Direct self-citation: False · Non-research record: False
+
+Cites: 10.1109/tsmc.2023.3344883
+
+Sources: Google Scholar; OpenAlex; Publisher article · [Metadata record](https://openalex.org/W7213455390)
+
+| Author | Affiliation | Country / region | Location status |
+|---|---|---|---|
+| Chidentree Treesatayapun | Center for Research and Advanced Studies (CINVESTAV), Ramos Arizpe | Mexico, Coahuila, Ramos Arizpe | institution_geo |
+
+## 22. Integrated optimal operation of power and water systems under uncertainty: An adjustable robust optimization approach
 
 Year: 2026 · DOI: 10.1016/j.watres.2026.125325 · Direct self-citation: False · Non-research record: False
 
@@ -286,7 +349,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W711
 | Aviad Navon | University of Michigan | United States, Michigan, Ann Arbor | institution_geo |
 | Avi Ostfeld | Technion – Israel Institute of Technology | Israel, Haifa, Haifa | institution_geo |
 
-## 19. Online Value Iteration for Unknown Nonlinear Multiagent Systems: A Model-Decoupled Encoding–Decoding Mechanism
+## 23. Online Value Iteration for Unknown Nonlinear Multiagent Systems: A Model-Decoupled Encoding–Decoding Mechanism
 
 Year: 2026 · DOI: 10.1109/tnnls.2026.3700775 · Direct self-citation: False · Non-research record: False
 
@@ -301,7 +364,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W716
 | Le You | Southwest University | China, Chongqing, Chongqing | institution_geo |
 | Xin Wang | Southwest University | China, Chongqing, Chongqing | institution_geo |
 
-## 20. Reinforcement learning-based fault-tolerant control of nonlinear servo systems with performance guarantees
+## 24. Reinforcement learning-based fault-tolerant control of nonlinear servo systems with performance guarantees
 
 Year: 2026 · DOI: 10.1007/s11071-025-11983-7 · Direct self-citation: False · Non-research record: False
 
@@ -316,7 +379,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W712
 | Zhengguo Huang | Anhui University of Technology | China, Anhui, Ma&#x27;anshan City | institution_geo |
 | Hao Shen | Anhui University of Technology | China, Anhui, Ma&#x27;anshan City | institution_geo |
 
-## 21. Secure Management of a Water Distribution Network in Multi-tenant Scenarios
+## 25. Secure Management of a Water Distribution Network in Multi-tenant Scenarios
 
 Year: 2026 · DOI: 10.1007/978-3-032-13744-9_8 · Direct self-citation: False · Non-research record: False
 
@@ -331,7 +394,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W711
 | Pietro Spadaccino | Sapienza University of Rome | Italy, Lazio, Rome | institution_geo |
 | Francesca Cuomo | Sapienza University of Rome | Italy, Lazio, Rome | institution_geo |
 
-## 22. Sustainable Water Allocation in Karst Regions: A Multi-Objective Framework Integrating Ecological Flow and Intelligent Demand Forecasting
+## 26. Sustainable Water Allocation in Karst Regions: A Multi-Objective Framework Integrating Ecological Flow and Intelligent Demand Forecasting
 
 Year: 2026 · DOI: 10.3390/su18084108 · Direct self-citation: False · Non-research record: False
 
@@ -342,11 +405,11 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W715
 | Author | Affiliation | Country / region | Location status |
 |---|---|---|---|
 | Yunfa Gao | Guizhou Water Conservancy and Hydropower Survey and Design Institute | China, Guizhou, Guiyang | institution_geo |
-| Ming Zhong | Guizhou Water Conservancy and Hydropower Survey and Design Institute | China, Guizhou, Guiyang | institution_geo |
+| Ming Shou Zhong | Guizhou Water Conservancy and Hydropower Survey and Design Institute | China, Guizhou, Guiyang | institution_geo |
 | Jie Xu | Guizhou Water Conservancy and Hydropower Survey and Design Institute | China, Guizhou, Guiyang | institution_geo |
-| Guang Yang | Nanjing Hydraulic Research Institute | China, Jiangsu, Nanjing | institution_geo |
+| Guang Liang Yang | Nanjing Hydraulic Research Institute | China, Jiangsu, Nanjing | institution_geo |
 
-## 23. Unified Loss-Level Regularization for Spike-Aware and Anti-Lag Time Series Forecasting
+## 27. Unified Loss-Level Regularization for Spike-Aware and Anti-Lag Time Series Forecasting
 
 Year: 2026 · DOI: 10.1007/978-981-92-1462-4_21 · Direct self-citation: False · Non-research record: False
 
@@ -362,7 +425,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W716
 | Jae‐Joong Kim | Jeju National University | South Korea, Jeju-do, Jeju City | institution_geo |
 | Kyuchang Chang | Jeju National University | South Korea, Jeju-do, Jeju City | institution_geo |
 
-## 24. A novel distributed fine-grained energy consumption monitoring for large-scale nonlinear dynamic industrial processes
+## 28. A novel distributed fine-grained energy consumption monitoring for large-scale nonlinear dynamic industrial processes
 
 Year: 2025 · DOI: 10.1080/00207543.2025.2513577 · Direct self-citation: False · Non-research record: False
 
@@ -378,7 +441,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 | Qin Xin | University of Science and Technology Beijing | China, Beijing, Beijing | institution_geo |
 | Jie Dong | University of Science and Technology Beijing | China, Beijing, Beijing | institution_geo |
 
-## 25. Accelerated Intelligent Critic Tracking Predictive Control With Data Experience Replay for Unknown Nonlinear Systems
+## 29. Accelerated Intelligent Critic Tracking Predictive Control With Data Experience Replay for Unknown Nonlinear Systems
 
 Year: 2025 · DOI: 10.1109/tcyb.2025.3623591 · Direct self-citation: False · Non-research record: False
 
@@ -394,7 +457,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 | Ao Liu | Beijing University of Technology | China, Beijing, Beijing | institution_geo |
 | Junfei Qiao | Beijing University of Technology | China, Beijing, Beijing | institution_geo |
 
-## 26. Adaptive Secure Finite-Time Optimal Control of Unknown Nonlinear Systems With State Constraints via Generalized Fuzzy Hyperbolic Models
+## 30. Adaptive Secure Finite-Time Optimal Control of Unknown Nonlinear Systems With State Constraints via Generalized Fuzzy Hyperbolic Models
 
 Year: 2025 · DOI: 10.1109/tnnls.2025.3565622 · Direct self-citation: False · Non-research record: False
 
@@ -412,7 +475,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 | Xiaodong Liang | University of Saskatchewan | Canada, Saskatchewan, Saskatoon | institution_geo |
 | Jiawei Wang | Northeastern University | China, Liaoning, Shenyang | institution_geo |
 
-## 27. Adaptive sparse lightweight multi-scale hybrid network for remote sensing image semantic segmentation
+## 31. Adaptive sparse lightweight multi-scale hybrid network for remote sensing image semantic segmentation
 
 Year: 2025 · DOI: 10.1016/j.eswa.2025.127347 · Direct self-citation: False · Non-research record: False
 
@@ -433,7 +496,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W440
 | Renyi Liu | Zhejiang University | China, Zhejiang, Hangzhou | institution_geo |
 | Jiandong Shang | Zhengzhou University | China, Henan, Zhengzhou | institution_geo |
 
-## 28. An Automated Mechanical Property Testing System Based on Electric Field Assistance and Non-Contact Signal Measurement
+## 32. An Automated Mechanical Property Testing System Based on Electric Field Assistance and Non-Contact Signal Measurement
 
 Year: 2025 · DOI: 10.1109/tim.2025.3548247 · Direct self-citation: False · Non-research record: False
 
@@ -446,7 +509,9 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W690
 | Xiaochuan Liu | Xi&#x27;an Jiaotong University | China, Shaanxi, Xi&#x27;an | institution_geo |
 | Ming Ming | Xi&#x27;an Jiaotong University | China, Shaanxi, Xi&#x27;an | institution_geo |
 | Lihua Du | AviChina Industry &amp; Technology (China) | China, Beijing, Beijing | institution_geo |
+| Lihua Du | AVIC Manufacturing Technology Institute (China) | China, Beijing, Beijing | institution_geo |
 | Huiyuan Xu | AviChina Industry &amp; Technology (China) | China, Beijing, Beijing | institution_geo |
+| Huiyuan Xu | AVIC Manufacturing Technology Institute (China) | China, Beijing, Beijing | institution_geo |
 | Chenyu Li | Xi&#x27;an Jiaotong University | China, Shaanxi, Xi&#x27;an | institution_geo |
 | Shengzhe Li | Imperial College London | United Kingdom, England, London | institution_geo |
 | Denis J. Politis | University of Cyprus | Cyprus, Nicosia, Nicosia | institution_geo |
@@ -454,7 +519,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W690
 | Heli Liu | Imperial College London | United Kingdom, England, London | institution_geo |
 | Xuefeng Chen | Xi&#x27;an Jiaotong University | China, Shaanxi, Xi&#x27;an | institution_geo |
 
-## 29. Centrality-Aware Machine Learning for Water Network Pressure Prediction
+## 33. Centrality-Aware Machine Learning for Water Network Pressure Prediction
 
 Year: 2025 · DOI:  · Direct self-citation: False · Non-research record: False
 
@@ -471,7 +536,7 @@ Sources: Google Scholar; IFIP publisher PDF · [Metadata record](https://network
 | Ilenia Tinnirello | University of Palermo | Italy, Sicily, Palermo | institution_geo |
 | Ilenia Tinnirello | Consorzio Nazionale Interuniversitario per le Telecomunicazioni | Italy, Emilia-Romagna, Parma | institution_geo |
 
-## 30. Cross-task interactive attention for typhoon intensity and track forecasting
+## 34. Cross-task interactive attention for typhoon intensity and track forecasting
 
 Year: 2025 · DOI: 10.1016/j.eswa.2025.130501 · Direct self-citation: False · Non-research record: False
 
@@ -490,7 +555,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 | Zhiqiang Wei | Ocean University of China | China, Shandong, Qingdao | institution_geo |
 | An-An Liu | Tianjin University | China, Tianjin, Tianjin | institution_geo |
 
-## 31. End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling
+## 35. End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling
 
 Year: 2025 · DOI: 10.1109/tsg.2025.3601238 · Direct self-citation: True · Non-research record: False
 
@@ -500,16 +565,13 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 
 | Author | Affiliation | Country / region | Location status |
 |---|---|---|---|
-| Shunyu Wu | Ministry of Education of the People&#x27;s Republic of China | China, Beijing, Beijing | excluded_sponsor_parent_with_university |
 | Shunyu Wu | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
-| Jingcheng Wang | Ministry of Education of the People&#x27;s Republic of China | China, Beijing, Beijing | excluded_sponsor_parent_with_university |
 | Jingcheng Wang | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 | Haotian Xu | Shandong University | China, Shandong, Jinan | institution_geo |
 | Yanjiu Zhong | Hefei University of Technology | China, Anhui, Hefei | institution_geo |
-| Jun Rao | Ministry of Education of the People&#x27;s Republic of China | China, Beijing, Beijing | excluded_sponsor_parent_with_university |
 | Jun Rao | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 
-## 32. Fixed-time learning-based optimal tracking control for robotic systems with prescribed performance constraints
+## 36. Fixed-time learning-based optimal tracking control for robotic systems with prescribed performance constraints
 
 Year: 2025 · DOI: 10.1016/j.neunet.2025.108130 · Direct self-citation: False · Non-research record: False
 
@@ -524,15 +586,15 @@ Sources: OpenAlex · [Metadata record](https://openalex.org/W4414533421)
 | Zhuo Xia | University of Electronic Science and Technology of China | China, Sichuan, Chengdu | institution_geo |
 | Hao Lin | University of Electronic Science and Technology of China | China, Sichuan, Chengdu | institution_geo |
 | Linpu He | University of Electronic Science and Technology of China | China, Sichuan, Chengdu | institution_geo |
-| Hong Cheng | University of Electronic Science and Technology of China | China, Sichuan, Chengdu | institution_geo |
+| Hong Ming Cheng | University of Electronic Science and Technology of China | China, Sichuan, Chengdu | institution_geo |
 
-## 33. Machine learning for smart water distribution systems: exploring applications, challenges and future perspectives
+## 37. Machine learning for smart water distribution systems: exploring applications, challenges and future perspectives
 
 Year: 2025 · DOI: 10.1007/s10462-024-11093-7 · Direct self-citation: False · Non-research record: False
 
 Cites: 10.23919/ccc52363.2021.9550182
 
-Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W4407019097)
+Sources: Exact affiliation-string resolution; Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W4407019097)
 
 | Author | Affiliation | Country / region | Location status |
 |---|---|---|---|
@@ -540,9 +602,9 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W440
 | Francesca Cuomo | Consorzio Nazionale Interuniversitario per le Telecomunicazioni | Italy, Emilia-Romagna, Parma | institution_geo |
 | Francesca Cuomo | Sapienza University of Rome | Italy, Lazio, Rome | institution_geo |
 | Danilo Comminiello | Sapienza University of Rome | Italy, Lazio, Rome | institution_geo |
-| P. Pisani | Unidata S.p.A., Rome, Italy | Unresolved | unresolved_institution |
+| P. Pisani | Unidata S.p.A. | Italy, Lazio, Rome | institution_geo |
 
-## 34. Mechanism- and data-driven algorithms of electrical energy consumption accounting and prediction for medium and heavy plate rolling
+## 38. Mechanism- and data-driven algorithms of electrical energy consumption accounting and prediction for medium and heavy plate rolling
 
 Year: 2025 · DOI: 10.3934/era.2025019 · Direct self-citation: False · Non-research record: False
 
@@ -557,13 +619,13 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W440
 | Jie Li | University of Science and Technology Beijing | China, Beijing, Beijing | institution_geo |
 | Fengwei Jing | University of Science and Technology Beijing | China, Beijing, Beijing | institution_geo |
 
-## 35. Multi-objective load distribution in strip hot rolling with multiple roller profiles based on RPK-Net and a distributed TDADE algorithm
+## 39. Multi-objective load distribution in strip hot rolling with multiple roller profiles based on RPK-Net and a distributed TDADE algorithm
 
 Year: 2025 · DOI: 10.1016/j.eswa.2025.130016 · Direct self-citation: False · Non-research record: False
 
 Cites: 10.1109/tase.2023.3236306; 10.1109/tase.2023.3299185
 
-Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W4415220578)
+Sources: Exact affiliation-string resolution; Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W4415220578)
 
 | Author | Affiliation | Country / region | Location status |
 |---|---|---|---|
@@ -576,9 +638,9 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 | Keke Li | Anhui University | China, Anhui, Hefei | institution_geo |
 | Keke Li | Hefei University of Technology | China, Anhui, Hefei | institution_geo |
 | Daye Yang | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
-| Linghui Hu | Zhejiang Energy Group (China) | China, Zhejiang, Hangzhou | institution_geo |
+| Linghui Hu | Hangzhou Oxygen Plant Group Company Limited | China, Zhejiang, Hangzhou | institution_geo |
 
-## 36. Observer-Based Fuzzy Boundary Dissipative Control of Parabolic PDE System With Parameter Uncertainties Under Dynamic Quantization
+## 40. Observer-Based Fuzzy Boundary Dissipative Control of Parabolic PDE System With Parameter Uncertainties Under Dynamic Quantization
 
 Year: 2025 · DOI: 10.1109/tsmc.2025.3622967 · Direct self-citation: False · Non-research record: False
 
@@ -592,7 +654,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 | Xiao‐Heng Chang | Wuhan University of Science and Technology | China, Hubei, Wuhan | institution_geo |
 | Ju H. Park | Yeungnam University | South Korea, Daegu, Daegu | institution_geo |
 
-## 37. Optimizing Rail Traffic with Reinforcement Learning and Graph Attention Networks
+## 41. Optimizing Rail Traffic with Reinforcement Learning and Graph Attention Networks
 
 Year: 2025 · DOI: 10.1109/sami63904.2025.10883318 · Direct self-citation: False · Non-research record: False
 
@@ -602,11 +664,11 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W440
 
 | Author | Affiliation | Country / region | Location status |
 |---|---|---|---|
-| Péter Farkas | Budapest University of Technology and Economics | Hungary, Budapest, Budapest | institution_geo |
+| Peter A. Farkas | Budapest University of Technology and Economics | Hungary, Budapest, Budapest | institution_geo |
 | László Szőke | Budapest University of Technology and Economics | Hungary, Budapest, Budapest | institution_geo |
 | Szilárd Aradi | Budapest University of Technology and Economics | Hungary, Budapest, Budapest | institution_geo |
 
-## 38. Optimizing supply chain operations using advanced Time-Series Mixer models for demand forecasting and inventory under uncertain demand
+## 42. Optimizing supply chain operations using advanced Time-Series Mixer models for demand forecasting and inventory under uncertain demand
 
 Year: 2025 · DOI: 10.1016/j.eswa.2025.128955 · Direct self-citation: False · Non-research record: False
 
@@ -616,17 +678,24 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 
 | Author | Affiliation | Country / region | Location status |
 |---|---|---|---|
+| Thị Ngọc Anh Nguyễn | Institute for Digital Technology and Economy | Vietnam, Hanoi, Hanoi | institution_geo |
 | Thị Ngọc Anh Nguyễn | Hanoi University of Science and Technology | Vietnam, Hanoi, Hanoi | institution_geo |
+| Thị Ngọc Anh Nguyễn | Institute for Digital Technology and Economy | Vietnam, Hanoi, Hanoi | institution_geo |
 | Thị Ngọc Anh Nguyễn | Hanoi University of Science and Technology | Vietnam, Hanoi, Hanoi | institution_geo |
+| Thi Xuan Hoa Nguyen | Institute for Digital Technology and Economy | Vietnam, Hanoi, Hanoi | institution_geo |
 | Thi Xuan Hoa Nguyen | Hanoi University of Science and Technology | Vietnam, Hanoi, Hanoi | institution_geo |
+| Thi Xuan Hoa Nguyen | Institute for Digital Technology and Economy | Vietnam, Hanoi, Hanoi | institution_geo |
 | Thi Xuan Hoa Nguyen | Hanoi University of Science and Technology | Vietnam, Hanoi, Hanoi | institution_geo |
+| Ngoc Thang Tran | Institute for Digital Technology and Economy | Vietnam, Hanoi, Hanoi | institution_geo |
 | Ngoc Thang Tran | Hanoi University of Science and Technology | Vietnam, Hanoi, Hanoi | institution_geo |
+| Thi Ha Nguyen | Institute for Digital Technology and Economy | Vietnam, Hanoi, Hanoi | institution_geo |
 | Thi Ha Nguyen | Hanoi University of Science and Technology | Vietnam, Hanoi, Hanoi | institution_geo |
+| Thi Ha Nguyen | Institute for Digital Technology and Economy | Vietnam, Hanoi, Hanoi | institution_geo |
 | Thi Ha Nguyen | Hanoi University of Science and Technology | Vietnam, Hanoi, Hanoi | institution_geo |
 | Phuong Anh Nguyen | Hanoi University of Science and Technology | Vietnam, Hanoi, Hanoi | institution_geo |
 | Hai Anh Vu | Hanoi University of Science and Technology | Vietnam, Hanoi, Hanoi | institution_geo |
 
-## 39. Physics-informed generative regression for industrial process modeling in steel strip rolling
+## 43. Physics-informed generative regression for industrial process modeling in steel strip rolling
 
 Year: 2025 · DOI: 10.1016/j.eswa.2025.127713 · Direct self-citation: False · Non-research record: False
 
@@ -640,10 +709,10 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W440
 | Jifei Deng | Aalto University | Finland, Uusimaa, Espoo | institution_geo |
 | Seppo Sierla | Aalto University | Finland, Uusimaa, Espoo | institution_geo |
 | Jie Sun | Northeastern University | China, Liaoning, Shenyang | institution_geo |
-| Valeriy Vyatkin | Luleå University of Technology | Sweden, Norrbotten, Luleå | institution_geo |
-| Valeriy Vyatkin | Aalto University | Finland, Uusimaa, Espoo | institution_geo |
+| Valeriy V. Vyatkin | Luleå University of Technology | Sweden, Norrbotten, Luleå | institution_geo |
+| Valeriy V. Vyatkin | Aalto University | Finland, Uusimaa, Espoo | institution_geo |
 
-## 40. Q-Learning Controller Design for Discrete-Time Nonlinear Systems with State and Input Constraints
+## 44. Q-Learning Controller Design for Discrete-Time Nonlinear Systems with State and Input Constraints
 
 Year: 2025 · DOI: 10.1109/ccdc65474.2025.11090207 · Direct self-citation: False · Non-research record: False
 
@@ -658,7 +727,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 | Yonggang Chen | Goldwind (China) | China, Xinjiang, Ürümqi | institution_geo |
 | Feng Guo | Goldwind (China) | China, Xinjiang, Ürümqi | institution_geo |
 
-## 41. Quantized dissipative control for fuzzy hot strip mill cooling system under input constraint via dynamic output feedback approach
+## 45. Quantized dissipative control for fuzzy hot strip mill cooling system under input constraint via dynamic output feedback approach
 
 Year: 2025 · DOI: 10.1016/j.amc.2025.129615 · Direct self-citation: False · Non-research record: False
 
@@ -673,7 +742,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 | Xiong Jun | Wuhan University of Science and Technology | China, Hubei, Wuhan | institution_geo |
 | Haibing Li | Foshan University | China, Guangdong, Foshan | institution_geo |
 
-## 42. Rapid dynamical learning from neural control of sampled-data nonlinear systems via pseudo-inverse regression filter vector signal
+## 46. Rapid dynamical learning from neural control of sampled-data nonlinear systems via pseudo-inverse regression filter vector signal
 
 Year: 2025 · DOI: 10.1016/j.jfranklin.2025.107585 · Direct self-citation: False · Non-research record: False
 
@@ -686,7 +755,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W440
 | Dengxiang Liang | South China University of Technology | China, Guangdong, Guangzhou | institution_geo |
 | Min Wang | South China University of Technology | China, Guangdong, Guangzhou | institution_geo |
 
-## 43. Reinforcement Learning-Based Dynamic Programming Control for Robust Disturbance Rejection and Error Minimization in Dynamic Systems
+## 47. Reinforcement Learning-Based Dynamic Programming Control for Robust Disturbance Rejection and Error Minimization in Dynamic Systems
 
 Year: 2025 · DOI: 10.1109/cacml64929.2025.11010957 · Direct self-citation: False · Non-research record: False
 
@@ -700,7 +769,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 | Haoyong Chen | South China University of Technology | China, Guangdong, Guangzhou | institution_geo |
 | Junfeng Liu | South China University of Technology | China, Guangdong, Guangzhou | institution_geo |
 
-## 44. STRNet: dual-branch synergistic network with interactive fusion for remote sensing semantic segmentation
+## 48. STRNet: dual-branch synergistic network with interactive fusion for remote sensing semantic segmentation
 
 Year: 2025 · DOI: 10.1007/s40747-025-02181-4 · Direct self-citation: False · Non-research record: False
 
@@ -719,7 +788,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 | Minmin Pei | Anhui Normal University | China, Anhui, Wuhu | institution_geo |
 | Xing Guo | Anhui University | China, Anhui, Hefei | institution_geo |
 
-## 45. Single-Period Optimal Inventory Control With Substitution: An End-to-End Framework
+## 49. Single-Period Optimal Inventory Control With Substitution: An End-to-End Framework
 
 Year: 2025 · DOI: 10.1109/tase.2025.3568642 · Direct self-citation: False · Non-research record: False
 
@@ -733,7 +802,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 | Hailei Gong | Tsinghua University | China, Beijing, Beijing | institution_geo |
 | Zhihai Zhang | Tsinghua University | China, Beijing, Beijing | institution_geo |
 
-## 46. Smart City Energy Consumption Prediction Using Machine Learning
+## 50. Smart City Energy Consumption Prediction Using Machine Learning
 
 Year: 2025 · DOI: 10.1109/icbiti65527.2025.11500812 · Direct self-citation: False · Non-research record: False
 
@@ -748,7 +817,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W716
 | Khalid Almaazmi | Skyline University College | United Arab Emirates, Emirate of Sharjah, Sharjah city | institution_geo |
 | Ayman AbuBaker | Applied Science Private University | Jordan, Amman, Amman | institution_geo |
 
-## 47. Theory and construction of machine learning-driven CFD agent model: a bayesian-optimized CNN-LSTM framework
+## 51. Theory and construction of machine learning-driven CFD agent model: a bayesian-optimized CNN-LSTM framework
 
 Year: 2025 · DOI: 10.1016/j.jtice.2025.106577 · Direct self-citation: False · Non-research record: False
 
@@ -765,7 +834,7 @@ Sources: Google Scholar; OpenAlex; Publisher article · [Metadata record](https:
 | Zhongjun Li | Hubei Three Gorges Laboratory | China, Hubei, Yichang | institution_geo |
 | Lanfeng Guo | Hubei Sinophorus Electronic Materials Co., Ltd. | China, Hubei, Yichang | institution_geo |
 
-## 48. Tracking control for nonlinear multi-agent systems: a first-order DPG framework with initial admissible control policy method
+## 52. Tracking control for nonlinear multi-agent systems: a first-order DPG framework with initial admissible control policy method
 
 Year: 2025 · DOI: 10.1007/s11071-025-11097-0 · Direct self-citation: False · Non-research record: False
 
@@ -780,7 +849,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W440
 | Jiahui Xu | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 | Yanjiu Zhong | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 
-## 49. Two-Loop Online Data-Driven Control for Oral Implantation Robots in Human–Robot Interaction
+## 53. Two-Loop Online Data-Driven Control for Oral Implantation Robots in Human–Robot Interaction
 
 Year: 2025 · DOI: 10.1109/tie.2025.3587116 · Direct self-citation: False · Non-research record: False
 
@@ -795,7 +864,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W441
 | Chenguang Yang | University of Liverpool | United Kingdom, England, Liverpool | institution_geo |
 | Xiongxiong He | Zhejiang University of Technology | China, Zhejiang, Hangzhou | institution_geo |
 
-## 50. 数据驱动自适应评判控制研究进展
+## 54. 数据驱动自适应评判控制研究进展
 
 Year: 2025 · DOI: 10.16383/j.aas.c240706 · Direct self-citation: False · Non-research record: False
 
@@ -811,7 +880,7 @@ Sources: Google Scholar; Publisher PDF · [Metadata record](https://www.sciengin
 | Jun-Fei Qiao | Beijing University of Technology | China, Beijing, Beijing | institution_geo |
 | Shi-Jie Song | Southwest Jiaotong University | China, Sichuan, Chengdu | institution_geo |
 
-## 51. A Diversified Integrated Model for Seasonal Product Demand Prediction
+## 55. A Diversified Integrated Model for Seasonal Product Demand Prediction
 
 Year: 2024 · DOI: 10.21203/rs.3.rs-4897840/v1 · Direct self-citation: False · Non-research record: False
 
@@ -825,7 +894,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W440
 | Hao Ding | University of Shanghai for Science and Technology | China, Shanghai, Shanghai | institution_geo |
 | Yun Qiaoyun | International Business College, South China National University | Unresolved | unresolved_institution |
 
-## 52. A Reinforcement Learning-Based Multistep Prediction Strategy for Burn-Through Point Using State Feature Extractor
+## 56. A Reinforcement Learning-Based Multistep Prediction Strategy for Burn-Through Point Using State Feature Extractor
 
 Year: 2024 · DOI: 10.1109/tim.2024.3502771 · Direct self-citation: False · Non-research record: False
 
@@ -843,7 +912,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W440
 | Chong Yang | State Key Laboratory of Industrial Control Technology | China, Zhejiang, Hangzhou | institution_geo |
 | Tao Lin | University of Science and Technology Beijing | China, Beijing, Beijing | institution_geo |
 
-## 53. Editorial to the Special Issue “Systems Engineering and Knowledge Management”
+## 57. Editorial to the Special Issue “Systems Engineering and Knowledge Management”
 
 Year: 2024 · DOI: 10.3390/info15070402 · Direct self-citation: False · Non-research record: False
 
@@ -855,7 +924,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W440
 |---|---|---|---|
 | Vladimír Bureš | University of Hradec Králové | Czechia, Hradec Králové, Hradec Králové | institution_geo |
 
-## 54. Energy Consumption Prediction for Manufacturing in Industrial IoT Based on Heterogeneous GNN
+## 58. Energy Consumption Prediction for Manufacturing in Industrial IoT Based on Heterogeneous GNN
 
 Year: 2024 · DOI: 10.1109/iccc62479.2024.10681781 · Direct self-citation: False · Non-research record: False
 
@@ -872,7 +941,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W440
 | Songtao Guo | Chongqing University | China, Chongqing, Chongqing | institution_geo |
 | Xu Wang | Chongqing University | China, Chongqing, Chongqing | institution_geo |
 
-## 55. Fuzzy-Based Optimal Control for Stochastic Nonlinear Systems With Constrained Inputs via Dynamic Event-Triggering
+## 59. Fuzzy-Based Optimal Control for Stochastic Nonlinear Systems With Constrained Inputs via Dynamic Event-Triggering
 
 Year: 2024 · DOI: 10.1109/tfuzz.2024.3402348 · Direct self-citation: False · Non-research record: False
 
@@ -888,7 +957,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W439
 | Song Zhu | China University of Mining and Technology | China, Jiangsu, Xuzhou | institution_geo |
 | Jinpeng Yu | Qingdao University | China, Shandong, Qingdao | institution_geo |
 
-## 56. Hybrid prediction model for strip width based on improved mechanism and data-driven model
+## 60. Hybrid prediction model for strip width based on improved mechanism and data-driven model
 
 Year: 2024 · DOI: 10.1007/s42243-024-01400-5 · Direct self-citation: False · Non-research record: False
 
@@ -906,7 +975,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W440
 | Kangbo Dang | Xi&#x27;an Technological University | China, Shaanxi, Xi&#x27;an | institution_geo |
 | Song Gao | Xi&#x27;an Technological University | China, Shaanxi, Xi&#x27;an | institution_geo |
 
-## 57. Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting
+## 61. Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting
 
 Year: 2024 · DOI: 10.1016/j.eswa.2024.124508 · Direct self-citation: True · Non-research record: False
 
@@ -923,7 +992,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W439
 | Shangwei Zhao | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 | Jiahui Xu | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 
-## 58. Observer-based dual-dynamic event-triggered mechanism design for balance control of motion robots
+## 62. Observer-based dual-dynamic event-triggered mechanism design for balance control of motion robots
 
 Year: 2024 · DOI: 10.3934/dcdss.2024071 · Direct self-citation: False · Non-research record: False
 
@@ -938,7 +1007,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W439
 | Shuxian Zhu | Suzhou University of Science and Technology | China, Jiangsu, Suzhou | institution_geo |
 | Baoping Jiang | Suzhou University of Science and Technology | China, Jiangsu, Suzhou | institution_geo |
 
-## 59. Parallel Cross Entropy Policy Gradient Adaptive Dynamic Programming for Optimal Tracking Control of Discrete-Time Nonlinear Systems
+## 63. Parallel Cross Entropy Policy Gradient Adaptive Dynamic Programming for Optimal Tracking Control of Discrete-Time Nonlinear Systems
 
 Year: 2024 · DOI: 10.1109/tsmc.2024.3373456 · Direct self-citation: True · Non-research record: False
 
@@ -955,7 +1024,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W439
 | Shunyu Wu | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 | Qifang Sun | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 
-## 60. Table of Contents
+## 64. Table of Contents
 
 Year: 2024 · DOI: 10.1109/tsmc.2024.3395718 · Direct self-citation: False · Non-research record: True
 
@@ -966,7 +1035,7 @@ Sources: OpenAlex · [Metadata record](https://openalex.org/W4396985488)
 | Author | Affiliation | Country / region | Location status |
 |---|---|---|---|
 
-## 61. A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling
+## 65. A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling
 
 Year: 2023 · DOI: 10.1109/tase.2023.3299185 · Direct self-citation: True · Non-research record: False
 
@@ -982,7 +1051,7 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W438
 | Jiahui Xu | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 | Shunyu Wu | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 
-## 62. Model-free adaptive dynamic event-triggered robust control for unknown nonlinear systems using iterative neural dynamic programming
+## 66. Model-free adaptive dynamic event-triggered robust control for unknown nonlinear systems using iterative neural dynamic programming
 
 Year: 2023 · DOI: 10.1016/j.ins.2023.119866 · Direct self-citation: False · Non-research record: False
 
@@ -998,23 +1067,23 @@ Sources: OpenAlex · [Metadata record](https://openalex.org/W4388562407)
 | Zhongyang Ming | Northeastern University | China, Liaoning, Shenyang | institution_geo |
 | Xiangpeng Xie | Nanjing University of Posts and Telecommunications | China, Jiangsu, Nanjing | institution_geo |
 
-## 63. Prediction of Strip Width in Finishing-Mill Group Based on PCA-PSO-LightGBM
+## 67. Prediction of Strip Width in Finishing-Mill Group Based on PCA-PSO-LightGBM
 
 Year: 2023 · DOI: 10.1109/icicsp59554.2023.10390590 · Direct self-citation: False · Non-research record: False
 
 Cites: 10.1109/tase.2023.3236306
 
-Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W4391095559)
+Sources: Exact affiliation-string resolution; Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W4391095559)
 
 | Author | Affiliation | Country / region | Location status |
 |---|---|---|---|
 | Jialiang Wang | Xi&#x27;an Technological University | China, Shaanxi, Xi&#x27;an | institution_geo |
-| Runyun Yao | CMB Network Technology (Hangzhou) Co., Ltd.,HANGZHOU,China; CMB Network Technology (Hangzhou) Co., Ltd., HANGZHOU, China | Unresolved | unresolved_institution |
+| Runyun Yao | CMB Network Technology (Hangzhou) Co., Ltd. | China, Zhejiang, Hangzhou | institution_geo |
 | Jingcheng Wang | Shanghai Jiao Tong University | China, Shanghai, Shanghai | institution_geo |
 | Jingcheng Wang | Xi&#x27;an Technological University | China, Shaanxi, Xi&#x27;an | institution_geo |
 | Jichao Li | Xi&#x27;an Technological University | China, Shaanxi, Xi&#x27;an | institution_geo |
 
-## 64. Embedded Real-Time Speed Forecasting for Electric Vehicles: A Case Study on RSK Urban Roads
+## 68. Embedded Real-Time Speed Forecasting for Electric Vehicles: A Case Study on RSK Urban Roads
 
 Year: 2022 · DOI: 10.1109/access.2022.3225643 · Direct self-citation: False · Non-research record: False
 
@@ -1024,8 +1093,8 @@ Sources: Google Scholar; OpenAlex · [Metadata record](https://openalex.org/W431
 
 | Author | Affiliation | Country / region | Location status |
 |---|---|---|---|
-| Y. NaitMalek | Mohammed V University | Morocco, Rabat-Salé-Kénitra, Rabat | institution_geo |
-| Y. NaitMalek | International University of Rabat | Morocco, Rabat-Salé-Kénitra, Salé | institution_geo |
+| Youssef NaitMalek | Mohammed V University | Morocco, Rabat-Salé-Kénitra, Rabat | institution_geo |
+| Youssef NaitMalek | International University of Rabat | Morocco, Rabat-Salé-Kénitra, Salé | institution_geo |
 | Mehdi Najib | International University of Rabat | Morocco, Rabat-Salé-Kénitra, Salé | institution_geo |
 | Mohamed Bakhouya | International University of Rabat | Morocco, Rabat-Salé-Kénitra, Salé | institution_geo |
 | Jaafar Gaber | Centre National de la Recherche Scientifique | France, Île-de-France, Paris | institution_geo |

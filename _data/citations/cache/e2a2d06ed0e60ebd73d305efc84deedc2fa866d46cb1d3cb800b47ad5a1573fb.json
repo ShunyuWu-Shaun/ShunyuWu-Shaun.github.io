@@ -1,6 +1,6 @@
 {
   "url": "https://api.openalex.org/works/W7117981005?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted",
-  "retrieved_at": "2026-09-09T14:26:08+00:00",
+  "retrieved_at": "2026-09-24T15:49:33+00:00",
   "data": {
     "id": "https://openalex.org/W7117981005",
     "doi": "https://doi.org/10.1016/j.watres.2026.125325",
@@ -14,7 +14,10 @@
         "author": {
           "id": "https://openalex.org/A5058763362",
           "display_name": "Gal Perelman",
-          "orcid": "https://orcid.org/0000-0003-0345-4051"
+          "orcid": "https://orcid.org/0000-0003-0345-4051",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0345-4051"
+          ]
         },
         "institutions": [
           {
@@ -51,7 +54,11 @@
         "author": {
           "id": "https://openalex.org/A5064887202",
           "display_name": "Mashor Housh",
-          "orcid": "https://orcid.org/0000-0003-4924-2636"
+          "orcid": "https://orcid.org/0000-0003-4924-2636",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4924-2636",
+            "https://orcid.org/0000-0002-5568-146X"
+          ]
         },
         "institutions": [
           {
@@ -86,9 +93,12 @@
       {
         "author_position": "middle",
         "author": {
-          "id": "https://openalex.org/A5121749681",
+          "id": "https://openalex.org/A5087267684",
           "display_name": "Aviad Navon",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-5885-8304",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5885-8304"
+          ]
         },
         "institutions": [
           {
@@ -125,7 +135,10 @@
         "author": {
           "id": "https://openalex.org/A5091007059",
           "display_name": "Avi Ostfeld",
-          "orcid": "https://orcid.org/0000-0001-9112-6079"
+          "orcid": "https://orcid.org/0000-0001-9112-6079",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9112-6079"
+          ]
         },
         "institutions": [
           {
@@ -174,6 +187,13 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-3",
+          "ki-jl-2",
+          "medline",
+          "norway-2"
+        ],
         "host_organization": "https://openalex.org/P4310320990",
         "host_organization_name": "Elsevier BV",
         "host_organization_lineage": [

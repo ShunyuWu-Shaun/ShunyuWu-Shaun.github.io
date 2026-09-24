@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I4405276846?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-24T15:49:45+00:00",
+  "data": {
+    "id": "https://openalex.org/I4405276846",
+    "ror": "https://ror.org/00g48nc73",
+    "display_name": "Institute for Digital Technology and Economy",
+    "country_code": "VN",
+    "type": "facility",
+    "geo": {
+      "city": "Hanoi",
+      "geonames_city_id": "1581130",
+      "region": "Hanoi",
+      "country_code": "VN",
+      "country": "Vietnam",
+      "latitude": 21.0245,
+      "longitude": 105.84117
+    },
+    "lineage": [
+      "https://openalex.org/I4405276846"
+    ]
+  }
+}

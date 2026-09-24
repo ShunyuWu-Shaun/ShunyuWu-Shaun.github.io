@@ -1,10 +1,10 @@
 {
   "url": "https://api.openalex.org/works?filter=cites%3AW4413754711&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
-  "retrieved_at": "2026-09-09T14:26:04+00:00",
+  "retrieved_at": "2026-09-24T15:49:30+00:00",
   "data": {
     "meta": {
       "count": 3,
-      "db_response_time_ms": 30,
+      "db_response_time_ms": 28,
       "page": null,
       "per_page": 100,
       "next_cursor": null,
@@ -37,9 +37,10 @@
           {
             "author_position": "first",
             "author": {
-              "id": "https://openalex.org/A5133747405",
+              "id": "https://openalex.org/A5121444207",
               "display_name": "Long Cheng",
-              "orcid": null
+              "orcid": null,
+              "observed_orcids": []
             },
             "institutions": [
               {
@@ -86,8 +87,11 @@
             "author_position": "middle",
             "author": {
               "id": "https://openalex.org/A5058517031",
-              "display_name": "B Zhang",
-              "orcid": null
+              "display_name": "Bingqian Zhang",
+              "orcid": "https://orcid.org/0009-0002-1498-789X",
+              "observed_orcids": [
+                "https://orcid.org/0009-0002-1498-789X"
+              ]
             },
             "institutions": [
               {
@@ -135,7 +139,10 @@
             "author": {
               "id": "https://openalex.org/A5121518338",
               "display_name": "Jun Yang",
-              "orcid": null
+              "orcid": "https://orcid.org/0009-0002-9205-207X",
+              "observed_orcids": [
+                "https://orcid.org/0009-0002-9205-207X"
+              ]
             },
             "institutions": [
               {
@@ -183,7 +190,8 @@
             "author": {
               "id": "https://openalex.org/A5133767815",
               "display_name": "Bo Liu",
-              "orcid": null
+              "orcid": null,
+              "observed_orcids": []
             },
             "institutions": [
               {
@@ -242,6 +250,12 @@
             "is_oa": true,
             "is_in_doaj": true,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "jufo-1",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
             "host_organization_lineage": [
@@ -275,7 +289,12 @@
             "author": {
               "id": "https://openalex.org/A5077115563",
               "display_name": "Fenglin Cai",
-              "orcid": "https://orcid.org/0000-0003-1853-3107"
+              "orcid": "https://orcid.org/0000-0003-1853-3107",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-1853-3107",
+                "https://orcid.org/0000-0003-1043-5553",
+                "https://orcid.org/0009-0008-1575-8582"
+              ]
             },
             "institutions": [
               {
@@ -312,7 +331,10 @@
             "author": {
               "id": "https://openalex.org/A5032434062",
               "display_name": "Zhiming Dong",
-              "orcid": "https://orcid.org/0000-0002-1021-506X"
+              "orcid": "https://orcid.org/0009-0006-6169-962X",
+              "observed_orcids": [
+                "https://orcid.org/0009-0006-6169-962X"
+              ]
             },
             "institutions": [
               {
@@ -349,7 +371,8 @@
             "author": {
               "id": "https://openalex.org/A5126855842",
               "display_name": "Xiaodong Yang",
-              "orcid": null
+              "orcid": null,
+              "observed_orcids": []
             },
             "institutions": [
               {
@@ -386,7 +409,10 @@
             "author": {
               "id": "https://openalex.org/A5126933755",
               "display_name": "Jie Li",
-              "orcid": null
+              "orcid": "https://orcid.org/0000-0002-7075-4145",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-7075-4145"
+              ]
             },
             "institutions": [
               {
@@ -423,7 +449,11 @@
             "author": {
               "id": "https://openalex.org/A5101084595",
               "display_name": "Zhixiang Hao",
-              "orcid": "https://orcid.org/0009-0006-5275-0518"
+              "orcid": "https://orcid.org/0009-0002-7507-914X",
+              "observed_orcids": [
+                "https://orcid.org/0009-0002-7507-914X",
+                "https://orcid.org/0009-0006-5275-0518"
+              ]
             },
             "institutions": [
               {
@@ -460,7 +490,10 @@
             "author": {
               "id": "https://openalex.org/A5121537858",
               "display_name": "Yaoyao He",
-              "orcid": null
+              "orcid": "https://orcid.org/0000-0001-5059-5151",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-5059-5151"
+              ]
             },
             "institutions": [
               {
@@ -497,7 +530,10 @@
             "author": {
               "id": "https://openalex.org/A5121092712",
               "display_name": "Helong Li",
-              "orcid": null
+              "orcid": "https://orcid.org/0000-0001-9251-9106",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-9251-9106"
+              ]
             },
             "institutions": [
               {
@@ -546,6 +582,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-3",
+              "norway-2"
+            ],
             "host_organization": "https://openalex.org/P4310319808",
             "host_organization_name": "Institute of Electrical and Electronics Engineers",
             "host_organization_lineage": [
@@ -579,7 +620,10 @@
             "author": {
               "id": "https://openalex.org/A5121036687",
               "display_name": "Yudan Hou",
-              "orcid": null
+              "orcid": "https://orcid.org/0009-0001-1293-5490",
+              "observed_orcids": [
+                "https://orcid.org/0009-0001-1293-5490"
+              ]
             },
             "institutions": [
               {
@@ -614,9 +658,10 @@
           {
             "author_position": "middle",
             "author": {
-              "id": "https://openalex.org/A5138795867",
+              "id": "https://openalex.org/A5113143919",
               "display_name": "Alexis Pengfei Zhao",
-              "orcid": null
+              "orcid": null,
+              "observed_orcids": []
             },
             "institutions": [
               {
@@ -665,7 +710,8 @@
             "author": {
               "id": "https://openalex.org/A5040917593",
               "display_name": "Xianlong Li",
-              "orcid": null
+              "orcid": null,
+              "observed_orcids": []
             },
             "institutions": [
               {
@@ -702,7 +748,8 @@
             "author": {
               "id": "https://openalex.org/A5121046029",
               "display_name": "Longsheng Wang",
-              "orcid": null
+              "orcid": null,
+              "observed_orcids": []
             },
             "institutions": [
               {
@@ -738,8 +785,11 @@
             "author_position": "last",
             "author": {
               "id": "https://openalex.org/A5100651227",
-              "display_name": "Da Xie",
-              "orcid": "https://orcid.org/0000-0003-2744-3349"
+              "display_name": "Da Gang Xie",
+              "orcid": "https://orcid.org/0000-0003-2744-3349",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-2744-3349"
+              ]
             },
             "institutions": [
               {
@@ -787,6 +837,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310320257",
             "host_organization_name": "American Institute of Physics",
             "host_organization_lineage": [

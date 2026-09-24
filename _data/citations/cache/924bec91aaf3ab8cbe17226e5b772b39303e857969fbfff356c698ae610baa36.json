@@ -1,6 +1,6 @@
 {
   "url": "https://api.openalex.org/works?filter=cites%3AW4376479136&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
-  "retrieved_at": "2026-09-09T14:26:04+00:00",
+  "retrieved_at": "2026-09-24T15:49:31+00:00",
   "data": {
     "meta": {
       "count": 2,
@@ -43,17 +43,6 @@
             },
             "institutions": [
               {
-                "id": "https://openalex.org/I1327237609",
-                "display_name": "Ministry of Education of the People's Republic of China",
-                "ror": "https://ror.org/01mv9t934",
-                "country_code": "CN",
-                "type": "government",
-                "lineage": [
-                  "https://openalex.org/I1327237609",
-                  "https://openalex.org/I4210127390"
-                ]
-              },
-              {
                 "id": "https://openalex.org/I183067930",
                 "display_name": "Shanghai Jiao Tong University",
                 "ror": "https://ror.org/0220qvk04",
@@ -84,7 +73,7 @@
               {
                 "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
                 "institution_ids": [
-                  "https://openalex.org/I1327237609"
+                  "https://openalex.org/I183067930"
                 ]
               }
             ]
@@ -97,17 +86,6 @@
               "orcid": "https://orcid.org/0000-0002-4277-1263"
             },
             "institutions": [
-              {
-                "id": "https://openalex.org/I1327237609",
-                "display_name": "Ministry of Education of the People's Republic of China",
-                "ror": "https://ror.org/01mv9t934",
-                "country_code": "CN",
-                "type": "government",
-                "lineage": [
-                  "https://openalex.org/I1327237609",
-                  "https://openalex.org/I4210127390"
-                ]
-              },
               {
                 "id": "https://openalex.org/I183067930",
                 "display_name": "Shanghai Jiao Tong University",
@@ -139,7 +117,7 @@
               {
                 "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
                 "institution_ids": [
-                  "https://openalex.org/I1327237609"
+                  "https://openalex.org/I183067930"
                 ]
               }
             ]
@@ -234,17 +212,6 @@
             },
             "institutions": [
               {
-                "id": "https://openalex.org/I1327237609",
-                "display_name": "Ministry of Education of the People's Republic of China",
-                "ror": "https://ror.org/01mv9t934",
-                "country_code": "CN",
-                "type": "government",
-                "lineage": [
-                  "https://openalex.org/I1327237609",
-                  "https://openalex.org/I4210127390"
-                ]
-              },
-              {
                 "id": "https://openalex.org/I183067930",
                 "display_name": "Shanghai Jiao Tong University",
                 "ror": "https://ror.org/0220qvk04",
@@ -275,7 +242,7 @@
               {
                 "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
                 "institution_ids": [
-                  "https://openalex.org/I1327237609"
+                  "https://openalex.org/I183067930"
                 ]
               }
             ]
@@ -297,6 +264,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-3",
+              "norway-2"
+            ],
             "host_organization": "https://openalex.org/P4310319808",
             "host_organization_name": "Institute of Electrical and Electronics Engineers",
             "host_organization_lineage": [
@@ -369,21 +341,8 @@
               "display_name": "Zhigang Liu",
               "orcid": "https://orcid.org/0000-0003-4154-5587"
             },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I4210132981",
-                "display_name": "Ningxia Water Conservancy",
-                "ror": "https://ror.org/02p2qrw13",
-                "country_code": "CN",
-                "type": "government",
-                "lineage": [
-                  "https://openalex.org/I4210132981"
-                ]
-              }
-            ],
-            "countries": [
-              "CN"
-            ],
+            "institutions": [],
+            "countries": [],
             "is_corresponding": false,
             "raw_author_name": "Zhigang Liu",
             "raw_affiliation_strings": [
@@ -393,9 +352,7 @@
             "affiliations": [
               {
                 "raw_affiliation_string": "Ningbo Water and Environment Group Co., Ltd",
-                "institution_ids": [
-                  "https://openalex.org/I4210132981"
-                ]
+                "institution_ids": []
               }
             ]
           },
@@ -406,21 +363,8 @@
               "display_name": "Jie Fei",
               "orcid": "https://orcid.org/0000-0001-9079-7874"
             },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I4210132981",
-                "display_name": "Ningxia Water Conservancy",
-                "ror": "https://ror.org/02p2qrw13",
-                "country_code": "CN",
-                "type": "government",
-                "lineage": [
-                  "https://openalex.org/I4210132981"
-                ]
-              }
-            ],
-            "countries": [
-              "CN"
-            ],
+            "institutions": [],
+            "countries": [],
             "is_corresponding": false,
             "raw_author_name": "Jie Fei",
             "raw_affiliation_strings": [
@@ -430,9 +374,7 @@
             "affiliations": [
               {
                 "raw_affiliation_string": "Ningbo Water and Environment Group Co., Ltd",
-                "institution_ids": [
-                  "https://openalex.org/I4210132981"
-                ]
+                "institution_ids": []
               }
             ]
           },
@@ -564,6 +506,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310315747",
             "host_organization_name": "American Society of Civil Engineers",
             "host_organization_lineage": [

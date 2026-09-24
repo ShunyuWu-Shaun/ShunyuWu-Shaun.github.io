@@ -18,6 +18,7 @@ assert len(edges)==len({(e['citing_work_id'],e['cited_work_id']) for e in edges}
 assert len(works)==summary['unique_citing_works']
 assert len({w['doi'] for w in works.values() if w.get('doi')})==sum(bool(w.get('doi')) for w in works.values())
 assert len(affiliations)==sum(sum(max(1,len(a.get('institutions',[]))) for a in w.get('authorships',[])) for w in works.values())
+assert len(affiliations)==len({(a['citing_work_id'],a['author_order'],a['institution_id']) for a in affiliations})
 external=set(); by_region=defaultdict(set); by_inst=defaultdict(set); by_work=defaultdict(list)
 for wid,w in works.items():
     assert set(w['cited_target_ids']) == {e['cited_work_id'] for e in edges if e['citing_work_id']==wid}

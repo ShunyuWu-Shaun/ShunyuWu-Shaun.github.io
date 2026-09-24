@@ -1,10 +1,10 @@
 {
   "url": "https://api.openalex.org/works?filter=cites%3AW4399709078&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
-  "retrieved_at": "2026-09-09T14:26:04+00:00",
+  "retrieved_at": "2026-09-24T15:49:30+00:00",
   "data": {
     "meta": {
       "count": 11,
-      "db_response_time_ms": 13,
+      "db_response_time_ms": 36,
       "page": null,
       "per_page": 100,
       "next_cursor": null,
@@ -39,7 +39,10 @@
             "author": {
               "id": null,
               "display_name": "Haonan Sun",
-              "orcid": "https://orcid.org/0009-0005-5174-3503"
+              "orcid": "https://orcid.org/0009-0005-5174-3503",
+              "observed_orcids": [
+                "https://orcid.org/0009-0005-5174-3503"
+              ]
             },
             "institutions": [
               {
@@ -76,7 +79,10 @@
             "author": {
               "id": "https://openalex.org/A5102846803",
               "display_name": "Xiaohui He",
-              "orcid": "https://orcid.org/0000-0001-8043-5087"
+              "orcid": "https://orcid.org/0000-0001-8043-5087",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-8043-5087"
+              ]
             },
             "institutions": [
               {
@@ -113,7 +119,10 @@
             "author": {
               "id": null,
               "display_name": "Haofei Li",
-              "orcid": "https://orcid.org/0009-0002-9551-4655"
+              "orcid": "https://orcid.org/0009-0002-9551-4655",
+              "observed_orcids": [
+                "https://orcid.org/0009-0002-9551-4655"
+              ]
             },
             "institutions": [
               {
@@ -157,7 +166,8 @@
             "author": {
               "id": null,
               "display_name": "Jinlan Kong",
-              "orcid": null
+              "orcid": null,
+              "observed_orcids": []
             },
             "institutions": [
               {
@@ -194,7 +204,10 @@
             "author": {
               "id": "https://openalex.org/A5066321568",
               "display_name": "Mengjia Qiao",
-              "orcid": "https://orcid.org/0000-0001-8919-8647"
+              "orcid": "https://orcid.org/0000-0001-8919-8647",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-8919-8647"
+              ]
             },
             "institutions": [
               {
@@ -231,7 +244,10 @@
             "author": {
               "id": "https://openalex.org/A5082859009",
               "display_name": "Xijie Cheng",
-              "orcid": "https://orcid.org/0000-0001-9963-4422"
+              "orcid": "https://orcid.org/0000-0001-9963-4422",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-9963-4422"
+              ]
             },
             "institutions": [
               {
@@ -268,7 +284,11 @@
             "author": {
               "id": "https://openalex.org/A5044795752",
               "display_name": "Panle Li",
-              "orcid": "https://orcid.org/0000-0002-1077-8831"
+              "orcid": "https://orcid.org/0000-0002-1077-8831",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-1077-8831",
+                "https://orcid.org/0009-0009-9586-9262"
+              ]
             },
             "institutions": [
               {
@@ -305,7 +325,10 @@
             "author": {
               "id": "https://openalex.org/A5100410001",
               "display_name": "Jian Zhang",
-              "orcid": "https://orcid.org/0000-0002-7852-4934"
+              "orcid": "https://orcid.org/0000-0002-7852-4934",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-7852-4934"
+              ]
             },
             "institutions": [
               {
@@ -342,7 +365,10 @@
             "author": {
               "id": "https://openalex.org/A5035645796",
               "display_name": "Renyi Liu",
-              "orcid": "https://orcid.org/0000-0002-2534-4171"
+              "orcid": "https://orcid.org/0000-0002-2534-4171",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-2534-4171"
+              ]
             },
             "institutions": [
               {
@@ -379,7 +405,10 @@
             "author": {
               "id": "https://openalex.org/A5022800604",
               "display_name": "Jiandong Shang",
-              "orcid": "https://orcid.org/0009-0001-7673-2641"
+              "orcid": "https://orcid.org/0009-0001-7673-2641",
+              "observed_orcids": [
+                "https://orcid.org/0009-0001-7673-2641"
+              ]
             },
             "institutions": [
               {
@@ -428,6 +457,13 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doyens",
+              "jufo-2",
+              "ki-jl-2",
+              "norway-2"
+            ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
             "host_organization_lineage": [
@@ -449,329 +485,6 @@
         "is_retracted": false
       },
       {
-        "id": "https://openalex.org/W4416747394",
-        "doi": "https://doi.org/10.1007/s40747-025-02181-4",
-        "title": "STRNet: dual-branch synergistic network with interactive fusion for remote sensing semantic segmentation",
-        "publication_year": 2025,
-        "publication_date": "2025-11-27",
-        "type": "article",
-        "authorships": [
-          {
-            "author_position": "first",
-            "author": {
-              "id": "https://openalex.org/A5088288182",
-              "display_name": "Minjun Zhai",
-              "orcid": null
-            },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I143868143",
-                "display_name": "Anhui University",
-                "ror": "https://ror.org/05th6yx34",
-                "country_code": "CN",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I143868143"
-                ]
-              }
-            ],
-            "countries": [
-              "CN"
-            ],
-            "is_corresponding": false,
-            "raw_author_name": "Minjun Zhai",
-            "raw_affiliation_strings": [
-              "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China"
-            ],
-            "raw_orcid": null,
-            "affiliations": [
-              {
-                "raw_affiliation_string": "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China",
-                "institution_ids": [
-                  "https://openalex.org/I143868143"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A5007190842",
-              "display_name": "Donghua Chen",
-              "orcid": "https://orcid.org/0000-0003-1786-7551"
-            },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I143868143",
-                "display_name": "Anhui University",
-                "ror": "https://ror.org/05th6yx34",
-                "country_code": "CN",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I143868143"
-                ]
-              },
-              {
-                "id": "https://openalex.org/I4210115456",
-                "display_name": "Chuzhou University",
-                "ror": "https://ror.org/037663q52",
-                "country_code": "CN",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I4210115456"
-                ]
-              }
-            ],
-            "countries": [
-              "CN"
-            ],
-            "is_corresponding": true,
-            "raw_author_name": "Donghua Chen",
-            "raw_affiliation_strings": [
-              "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China",
-              "School of Computer and Information Engineering, Chuzhou University, 1 Huifeng West Road, Chuzhou, 239099, Anhui Province, China"
-            ],
-            "raw_orcid": null,
-            "affiliations": [
-              {
-                "raw_affiliation_string": "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China",
-                "institution_ids": [
-                  "https://openalex.org/I143868143"
-                ]
-              },
-              {
-                "raw_affiliation_string": "School of Computer and Information Engineering, Chuzhou University, 1 Huifeng West Road, Chuzhou, 239099, Anhui Province, China",
-                "institution_ids": [
-                  "https://openalex.org/I4210115456"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A5102955118",
-              "display_name": "Yibo Duan",
-              "orcid": "https://orcid.org/0000-0001-9512-3588"
-            },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I111753288",
-                "display_name": "Fujian Normal University",
-                "ror": "https://ror.org/020azk594",
-                "country_code": "CN",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I111753288"
-                ]
-              }
-            ],
-            "countries": [
-              "CN"
-            ],
-            "is_corresponding": false,
-            "raw_author_name": "Yibo Duan",
-            "raw_affiliation_strings": [
-              "School of Geographical Sciences, School of Carbon Neutral Future Technology, Fujian Normal University, 1 Keji Road, Fuzhou, 350117, Fujian Province, China"
-            ],
-            "raw_orcid": null,
-            "affiliations": [
-              {
-                "raw_affiliation_string": "School of Geographical Sciences, School of Carbon Neutral Future Technology, Fujian Normal University, 1 Keji Road, Fuzhou, 350117, Fujian Province, China",
-                "institution_ids": [
-                  "https://openalex.org/I111753288"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A5113274592",
-              "display_name": "Qihang Zhen",
-              "orcid": null
-            },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I143868143",
-                "display_name": "Anhui University",
-                "ror": "https://ror.org/05th6yx34",
-                "country_code": "CN",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I143868143"
-                ]
-              }
-            ],
-            "countries": [
-              "CN"
-            ],
-            "is_corresponding": false,
-            "raw_author_name": "Qihang Zhen",
-            "raw_affiliation_strings": [
-              "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China"
-            ],
-            "raw_orcid": null,
-            "affiliations": [
-              {
-                "raw_affiliation_string": "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China",
-                "institution_ids": [
-                  "https://openalex.org/I143868143"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A5101311167",
-              "display_name": "Jian Zheng",
-              "orcid": "https://orcid.org/0009-0001-0312-6683"
-            },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I1334729051",
-                "display_name": "Xinjiang Normal University",
-                "ror": "https://ror.org/00ndrvk93",
-                "country_code": "CN",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I1334729051"
-                ]
-              }
-            ],
-            "countries": [
-              "CN"
-            ],
-            "is_corresponding": false,
-            "raw_author_name": "Jian Zheng",
-            "raw_affiliation_strings": [
-              "School of Geography and Tourism, Xinjiang Normal University, 16 East Kashi Road, Urumqi, 830054, Xinjiang Province, China"
-            ],
-            "raw_orcid": null,
-            "affiliations": [
-              {
-                "raw_affiliation_string": "School of Geography and Tourism, Xinjiang Normal University, 16 East Kashi Road, Urumqi, 830054, Xinjiang Province, China",
-                "institution_ids": [
-                  "https://openalex.org/I1334729051"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": null,
-              "display_name": "Minmin Pei",
-              "orcid": null
-            },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I4472751",
-                "display_name": "Anhui Normal University",
-                "ror": "https://ror.org/05fsfvw79",
-                "country_code": "CN",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I4472751"
-                ]
-              }
-            ],
-            "countries": [
-              "CN"
-            ],
-            "is_corresponding": false,
-            "raw_author_name": "Minmin Pei",
-            "raw_affiliation_strings": [
-              "School of Computing and Information Technology, Anhui Normal University, 189 South Jiuhua Road, Wuhu, 241002, Anhui Province, China"
-            ],
-            "raw_orcid": null,
-            "affiliations": [
-              {
-                "raw_affiliation_string": "School of Computing and Information Technology, Anhui Normal University, 189 South Jiuhua Road, Wuhu, 241002, Anhui Province, China",
-                "institution_ids": [
-                  "https://openalex.org/I4472751"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "last",
-            "author": {
-              "id": null,
-              "display_name": "Xing Guo",
-              "orcid": null
-            },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I143868143",
-                "display_name": "Anhui University",
-                "ror": "https://ror.org/05th6yx34",
-                "country_code": "CN",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I143868143"
-                ]
-              }
-            ],
-            "countries": [
-              "CN"
-            ],
-            "is_corresponding": false,
-            "raw_author_name": "Xing Guo",
-            "raw_affiliation_strings": [
-              "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China"
-            ],
-            "raw_orcid": null,
-            "affiliations": [
-              {
-                "raw_affiliation_string": "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China",
-                "institution_ids": [
-                  "https://openalex.org/I143868143"
-                ]
-              }
-            ]
-          }
-        ],
-        "primary_location": {
-          "id": "doi:10.1007/s40747-025-02181-4",
-          "is_oa": true,
-          "landing_page_url": "https://doi.org/10.1007/s40747-025-02181-4",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S3035462843",
-            "display_name": "Complex & Intelligent Systems",
-            "issn_l": "2198-6053",
-            "issn": [
-              "2198-6053",
-              "2199-4536"
-            ],
-            "is_oa": true,
-            "is_in_doaj": true,
-            "is_core": true,
-            "host_organization": "https://openalex.org/P4310319900",
-            "host_organization_name": "Springer Science+Business Media",
-            "host_organization_lineage": [
-              "https://openalex.org/P4310319900",
-              "https://openalex.org/P4310319965"
-            ],
-            "host_organization_lineage_names": [
-              "Springer Science+Business Media",
-              "Springer Nature"
-            ],
-            "type": "journal"
-          },
-          "license": "cc-by-nc-nd",
-          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "Complex &amp; Intelligent Systems",
-          "raw_type": "journal-article"
-        },
-        "is_retracted": false
-      },
-      {
         "id": "https://openalex.org/W4408973948",
         "doi": "https://doi.org/10.1007/s11071-025-11097-0",
         "title": "Tracking control for nonlinear multi-agent systems: a first-order DPG framework with initial admissible control policy method",
@@ -784,7 +497,10 @@
             "author": {
               "id": "https://openalex.org/A5018604914",
               "display_name": "Jun Rao",
-              "orcid": "https://orcid.org/0000-0002-7467-4898"
+              "orcid": "https://orcid.org/0000-0002-7467-4898",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-7467-4898"
+              ]
             },
             "institutions": [
               {
@@ -821,7 +537,10 @@
             "author": {
               "id": "https://openalex.org/A5100777024",
               "display_name": "Jingcheng Wang",
-              "orcid": "https://orcid.org/0000-0002-4277-1263"
+              "orcid": "https://orcid.org/0000-0002-4277-1263",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-4277-1263"
+              ]
             },
             "institutions": [
               {
@@ -858,7 +577,11 @@
             "author": {
               "id": "https://openalex.org/A5058905701",
               "display_name": "Jiahui Xu",
-              "orcid": "https://orcid.org/0000-0002-4058-0447"
+              "orcid": "https://orcid.org/0000-0002-4058-0447",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-4058-0447",
+                "https://orcid.org/0009-0004-1023-5775"
+              ]
             },
             "institutions": [
               {
@@ -895,7 +618,10 @@
             "author": {
               "id": "https://openalex.org/A5000872966",
               "display_name": "Yanjiu Zhong",
-              "orcid": "https://orcid.org/0000-0002-4361-9378"
+              "orcid": "https://orcid.org/0000-0002-4361-9378",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-4361-9378"
+              ]
             },
             "institutions": [
               {
@@ -944,6 +670,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-2",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
@@ -983,17 +714,6 @@
             },
             "institutions": [
               {
-                "id": "https://openalex.org/I1327237609",
-                "display_name": "Ministry of Education of the People's Republic of China",
-                "ror": "https://ror.org/01mv9t934",
-                "country_code": "CN",
-                "type": "government",
-                "lineage": [
-                  "https://openalex.org/I1327237609",
-                  "https://openalex.org/I4210127390"
-                ]
-              },
-              {
                 "id": "https://openalex.org/I183067930",
                 "display_name": "Shanghai Jiao Tong University",
                 "ror": "https://ror.org/0220qvk04",
@@ -1024,7 +744,7 @@
               {
                 "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
                 "institution_ids": [
-                  "https://openalex.org/I1327237609"
+                  "https://openalex.org/I183067930"
                 ]
               }
             ]
@@ -1037,17 +757,6 @@
               "orcid": "https://orcid.org/0000-0002-4277-1263"
             },
             "institutions": [
-              {
-                "id": "https://openalex.org/I1327237609",
-                "display_name": "Ministry of Education of the People's Republic of China",
-                "ror": "https://ror.org/01mv9t934",
-                "country_code": "CN",
-                "type": "government",
-                "lineage": [
-                  "https://openalex.org/I1327237609",
-                  "https://openalex.org/I4210127390"
-                ]
-              },
               {
                 "id": "https://openalex.org/I183067930",
                 "display_name": "Shanghai Jiao Tong University",
@@ -1079,7 +788,7 @@
               {
                 "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
                 "institution_ids": [
-                  "https://openalex.org/I1327237609"
+                  "https://openalex.org/I183067930"
                 ]
               }
             ]
@@ -1174,17 +883,6 @@
             },
             "institutions": [
               {
-                "id": "https://openalex.org/I1327237609",
-                "display_name": "Ministry of Education of the People's Republic of China",
-                "ror": "https://ror.org/01mv9t934",
-                "country_code": "CN",
-                "type": "government",
-                "lineage": [
-                  "https://openalex.org/I1327237609",
-                  "https://openalex.org/I4210127390"
-                ]
-              },
-              {
                 "id": "https://openalex.org/I183067930",
                 "display_name": "Shanghai Jiao Tong University",
                 "ror": "https://ror.org/0220qvk04",
@@ -1215,7 +913,7 @@
               {
                 "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
                 "institution_ids": [
-                  "https://openalex.org/I1327237609"
+                  "https://openalex.org/I183067930"
                 ]
               }
             ]
@@ -1237,6 +935,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-3",
+              "norway-2"
+            ],
             "host_organization": "https://openalex.org/P4310319808",
             "host_organization_name": "Institute of Electrical and Electronics Engineers",
             "host_organization_lineage": [
@@ -1258,6 +961,353 @@
         "is_retracted": false
       },
       {
+        "id": "https://openalex.org/W4416747394",
+        "doi": "https://doi.org/10.1007/s40747-025-02181-4",
+        "title": "STRNet: dual-branch synergistic network with interactive fusion for remote sensing semantic segmentation",
+        "publication_year": 2025,
+        "publication_date": "2025-11-27",
+        "type": "article",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5088288182",
+              "display_name": "Minjun Zhai",
+              "orcid": "https://orcid.org/0009-0008-8701-0565",
+              "observed_orcids": [
+                "https://orcid.org/0009-0008-8701-0565"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I143868143",
+                "display_name": "Anhui University",
+                "ror": "https://ror.org/05th6yx34",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I143868143"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Minjun Zhai",
+            "raw_affiliation_strings": [
+              "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China",
+                "institution_ids": [
+                  "https://openalex.org/I143868143"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5007190842",
+              "display_name": "Donghua Chen",
+              "orcid": "https://orcid.org/0000-0003-1786-7551",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-1786-7551"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I143868143",
+                "display_name": "Anhui University",
+                "ror": "https://ror.org/05th6yx34",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I143868143"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210115456",
+                "display_name": "Chuzhou University",
+                "ror": "https://ror.org/037663q52",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I4210115456"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Donghua Chen",
+            "raw_affiliation_strings": [
+              "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China",
+              "School of Computer and Information Engineering, Chuzhou University, 1 Huifeng West Road, Chuzhou, 239099, Anhui Province, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China",
+                "institution_ids": [
+                  "https://openalex.org/I143868143"
+                ]
+              },
+              {
+                "raw_affiliation_string": "School of Computer and Information Engineering, Chuzhou University, 1 Huifeng West Road, Chuzhou, 239099, Anhui Province, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210115456"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5102955118",
+              "display_name": "Yibo Duan",
+              "orcid": "https://orcid.org/0009-0009-6401-9839",
+              "observed_orcids": [
+                "https://orcid.org/0009-0009-6401-9839",
+                "https://orcid.org/0000-0001-9512-3588"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I111753288",
+                "display_name": "Fujian Normal University",
+                "ror": "https://ror.org/020azk594",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I111753288"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Yibo Duan",
+            "raw_affiliation_strings": [
+              "School of Geographical Sciences, School of Carbon Neutral Future Technology, Fujian Normal University, 1 Keji Road, Fuzhou, 350117, Fujian Province, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Geographical Sciences, School of Carbon Neutral Future Technology, Fujian Normal University, 1 Keji Road, Fuzhou, 350117, Fujian Province, China",
+                "institution_ids": [
+                  "https://openalex.org/I111753288"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5113274592",
+              "display_name": "Qihang Zhen",
+              "orcid": "https://orcid.org/0009-0009-2828-9161",
+              "observed_orcids": [
+                "https://orcid.org/0009-0009-2828-9161"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I143868143",
+                "display_name": "Anhui University",
+                "ror": "https://ror.org/05th6yx34",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I143868143"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Qihang Zhen",
+            "raw_affiliation_strings": [
+              "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China",
+                "institution_ids": [
+                  "https://openalex.org/I143868143"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5101311167",
+              "display_name": "Jian Zheng",
+              "orcid": "https://orcid.org/0009-0001-0312-6683",
+              "observed_orcids": [
+                "https://orcid.org/0009-0001-0312-6683"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1334729051",
+                "display_name": "Xinjiang Normal University",
+                "ror": "https://ror.org/00ndrvk93",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I1334729051"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jian Zheng",
+            "raw_affiliation_strings": [
+              "School of Geography and Tourism, Xinjiang Normal University, 16 East Kashi Road, Urumqi, 830054, Xinjiang Province, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Geography and Tourism, Xinjiang Normal University, 16 East Kashi Road, Urumqi, 830054, Xinjiang Province, China",
+                "institution_ids": [
+                  "https://openalex.org/I1334729051"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": null,
+              "display_name": "Minmin Pei",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4472751",
+                "display_name": "Anhui Normal University",
+                "ror": "https://ror.org/05fsfvw79",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I4472751"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Minmin Pei",
+            "raw_affiliation_strings": [
+              "School of Computing and Information Technology, Anhui Normal University, 189 South Jiuhua Road, Wuhu, 241002, Anhui Province, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Computing and Information Technology, Anhui Normal University, 189 South Jiuhua Road, Wuhu, 241002, Anhui Province, China",
+                "institution_ids": [
+                  "https://openalex.org/I4472751"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": null,
+              "display_name": "Xing Guo",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I143868143",
+                "display_name": "Anhui University",
+                "ror": "https://ror.org/05th6yx34",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I143868143"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Xing Guo",
+            "raw_affiliation_strings": [
+              "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui Province, China",
+                "institution_ids": [
+                  "https://openalex.org/I143868143"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.1007/s40747-025-02181-4",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1007/s40747-025-02181-4",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S3035462843",
+            "display_name": "Complex & Intelligent Systems",
+            "issn_l": "2198-6053",
+            "issn": [
+              "2198-6053",
+              "2199-4536"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Complex &amp; Intelligent Systems",
+          "raw_type": "journal-article"
+        },
+        "is_retracted": false
+      },
+      {
         "id": "https://openalex.org/W4412533860",
         "doi": "https://doi.org/10.1016/j.eswa.2025.128955",
         "title": "Optimizing supply chain operations using advanced Time-Series Mixer models for demand forecasting and inventory under uncertain demand",
@@ -1270,9 +1320,22 @@
             "author": {
               "id": "https://openalex.org/A5101989452",
               "display_name": "Thị Ngọc Anh Nguyễn",
-              "orcid": "https://orcid.org/0000-0002-6555-9740"
+              "orcid": "https://orcid.org/0009-0003-7855-9066",
+              "observed_orcids": [
+                "https://orcid.org/0009-0003-7855-9066"
+              ]
             },
             "institutions": [
+              {
+                "id": "https://openalex.org/I4405276846",
+                "display_name": "Institute for Digital Technology and Economy",
+                "ror": "https://ror.org/00g48nc73",
+                "country_code": "VN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I4405276846"
+                ]
+              },
               {
                 "id": "https://openalex.org/I94518387",
                 "display_name": "Hanoi University of Science and Technology",
@@ -1287,7 +1350,7 @@
             "countries": [
               "VN"
             ],
-            "is_corresponding": false,
+            "is_corresponding": true,
             "raw_author_name": "Thi Ngoc Anh Nguyen",
             "raw_affiliation_strings": [
               "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
@@ -1305,6 +1368,7 @@
               {
                 "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
                 "institution_ids": [
+                  "https://openalex.org/I4405276846",
                   "https://openalex.org/I94518387"
                 ]
               },
@@ -1321,9 +1385,22 @@
             "author": {
               "id": "https://openalex.org/A5101989452",
               "display_name": "Thị Ngọc Anh Nguyễn",
-              "orcid": "https://orcid.org/0000-0002-6555-9740"
+              "orcid": "https://orcid.org/0009-0003-7855-9066",
+              "observed_orcids": [
+                "https://orcid.org/0009-0003-7855-9066"
+              ]
             },
             "institutions": [
+              {
+                "id": "https://openalex.org/I4405276846",
+                "display_name": "Institute for Digital Technology and Economy",
+                "ror": "https://ror.org/00g48nc73",
+                "country_code": "VN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I4405276846"
+                ]
+              },
               {
                 "id": "https://openalex.org/I94518387",
                 "display_name": "Hanoi University of Science and Technology",
@@ -1338,7 +1415,7 @@
             "countries": [
               "VN"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Thi Ngoc Anh Nguyen",
             "raw_affiliation_strings": [
               "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
@@ -1356,6 +1433,7 @@
               {
                 "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
                 "institution_ids": [
+                  "https://openalex.org/I4405276846",
                   "https://openalex.org/I94518387"
                 ]
               },
@@ -1372,60 +1450,22 @@
             "author": {
               "id": null,
               "display_name": "Thi Xuan Hoa Nguyen",
-              "orcid": "https://orcid.org/0000-0001-6846-5304"
+              "orcid": "https://orcid.org/0000-0001-6846-5304",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-6846-5304"
+              ]
             },
             "institutions": [
               {
-                "id": "https://openalex.org/I94518387",
-                "display_name": "Hanoi University of Science and Technology",
-                "ror": "https://ror.org/04nyv3z04",
+                "id": "https://openalex.org/I4405276846",
+                "display_name": "Institute for Digital Technology and Economy",
+                "ror": "https://ror.org/00g48nc73",
                 "country_code": "VN",
-                "type": "education",
+                "type": "facility",
                 "lineage": [
-                  "https://openalex.org/I94518387"
-                ]
-              }
-            ],
-            "countries": [
-              "VN"
-            ],
-            "is_corresponding": true,
-            "raw_author_name": "Thi Xuan Hoa Nguyen",
-            "raw_affiliation_strings": [
-              "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
-              "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
-              "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam"
-            ],
-            "raw_orcid": "https://orcid.org/0000-0001-6846-5304",
-            "affiliations": [
-              {
-                "raw_affiliation_string": "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
-                "institution_ids": [
-                  "https://openalex.org/I94518387"
+                  "https://openalex.org/I4405276846"
                 ]
               },
-              {
-                "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
-                "institution_ids": [
-                  "https://openalex.org/I94518387"
-                ]
-              },
-              {
-                "raw_affiliation_string": "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
-                "institution_ids": [
-                  "https://openalex.org/I94518387"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": null,
-              "display_name": "Thi Xuan Hoa Nguyen",
-              "orcid": "https://orcid.org/0000-0001-6846-5304"
-            },
-            "institutions": [
               {
                 "id": "https://openalex.org/I94518387",
                 "display_name": "Hanoi University of Science and Technology",
@@ -1458,6 +1498,72 @@
               {
                 "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
                 "institution_ids": [
+                  "https://openalex.org/I4405276846",
+                  "https://openalex.org/I94518387"
+                ]
+              },
+              {
+                "raw_affiliation_string": "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+                "institution_ids": [
+                  "https://openalex.org/I94518387"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": null,
+              "display_name": "Thi Xuan Hoa Nguyen",
+              "orcid": "https://orcid.org/0000-0001-6846-5304",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-6846-5304"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4405276846",
+                "display_name": "Institute for Digital Technology and Economy",
+                "ror": "https://ror.org/00g48nc73",
+                "country_code": "VN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I4405276846"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I94518387",
+                "display_name": "Hanoi University of Science and Technology",
+                "ror": "https://ror.org/04nyv3z04",
+                "country_code": "VN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I94518387"
+                ]
+              }
+            ],
+            "countries": [
+              "VN"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Thi Xuan Hoa Nguyen",
+            "raw_affiliation_strings": [
+              "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+              "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+              "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-6846-5304",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+                "institution_ids": [
+                  "https://openalex.org/I94518387"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+                "institution_ids": [
+                  "https://openalex.org/I4405276846",
                   "https://openalex.org/I94518387"
                 ]
               },
@@ -1474,9 +1580,22 @@
             "author": {
               "id": "https://openalex.org/A5011509107",
               "display_name": "Ngoc Thang Tran",
-              "orcid": "https://orcid.org/0000-0002-2117-8663"
+              "orcid": "https://orcid.org/0000-0002-2117-8663",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-2117-8663"
+              ]
             },
             "institutions": [
+              {
+                "id": "https://openalex.org/I4405276846",
+                "display_name": "Institute for Digital Technology and Economy",
+                "ror": "https://ror.org/00g48nc73",
+                "country_code": "VN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I4405276846"
+                ]
+              },
               {
                 "id": "https://openalex.org/I94518387",
                 "display_name": "Hanoi University of Science and Technology",
@@ -1508,6 +1627,7 @@
               {
                 "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
                 "institution_ids": [
+                  "https://openalex.org/I4405276846",
                   "https://openalex.org/I94518387"
                 ]
               }
@@ -1518,60 +1638,22 @@
             "author": {
               "id": "https://openalex.org/A5043055153",
               "display_name": "Thi Ha Nguyen",
-              "orcid": "https://orcid.org/0009-0003-7865-774X"
+              "orcid": "https://orcid.org/0009-0003-7865-774X",
+              "observed_orcids": [
+                "https://orcid.org/0009-0003-7865-774X"
+              ]
             },
             "institutions": [
               {
-                "id": "https://openalex.org/I94518387",
-                "display_name": "Hanoi University of Science and Technology",
-                "ror": "https://ror.org/04nyv3z04",
+                "id": "https://openalex.org/I4405276846",
+                "display_name": "Institute for Digital Technology and Economy",
+                "ror": "https://ror.org/00g48nc73",
                 "country_code": "VN",
-                "type": "education",
+                "type": "facility",
                 "lineage": [
-                  "https://openalex.org/I94518387"
-                ]
-              }
-            ],
-            "countries": [
-              "VN"
-            ],
-            "is_corresponding": false,
-            "raw_author_name": "Thi Ha Nguyen",
-            "raw_affiliation_strings": [
-              "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
-              "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
-              "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam"
-            ],
-            "raw_orcid": "https://orcid.org/0009-0003-7865-774X",
-            "affiliations": [
-              {
-                "raw_affiliation_string": "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
-                "institution_ids": [
-                  "https://openalex.org/I94518387"
+                  "https://openalex.org/I4405276846"
                 ]
               },
-              {
-                "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
-                "institution_ids": [
-                  "https://openalex.org/I94518387"
-                ]
-              },
-              {
-                "raw_affiliation_string": "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
-                "institution_ids": [
-                  "https://openalex.org/I94518387"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A5043055153",
-              "display_name": "Thi Ha Nguyen",
-              "orcid": "https://orcid.org/0009-0003-7865-774X"
-            },
-            "institutions": [
               {
                 "id": "https://openalex.org/I94518387",
                 "display_name": "Hanoi University of Science and Technology",
@@ -1604,6 +1686,72 @@
               {
                 "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
                 "institution_ids": [
+                  "https://openalex.org/I4405276846",
+                  "https://openalex.org/I94518387"
+                ]
+              },
+              {
+                "raw_affiliation_string": "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+                "institution_ids": [
+                  "https://openalex.org/I94518387"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5043055153",
+              "display_name": "Thi Ha Nguyen",
+              "orcid": "https://orcid.org/0009-0003-7865-774X",
+              "observed_orcids": [
+                "https://orcid.org/0009-0003-7865-774X"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4405276846",
+                "display_name": "Institute for Digital Technology and Economy",
+                "ror": "https://ror.org/00g48nc73",
+                "country_code": "VN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I4405276846"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I94518387",
+                "display_name": "Hanoi University of Science and Technology",
+                "ror": "https://ror.org/04nyv3z04",
+                "country_code": "VN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I94518387"
+                ]
+              }
+            ],
+            "countries": [
+              "VN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Thi Ha Nguyen",
+            "raw_affiliation_strings": [
+              "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+              "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+              "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam"
+            ],
+            "raw_orcid": "https://orcid.org/0009-0003-7865-774X",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+                "institution_ids": [
+                  "https://openalex.org/I94518387"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+                "institution_ids": [
+                  "https://openalex.org/I4405276846",
                   "https://openalex.org/I94518387"
                 ]
               },
@@ -1620,7 +1768,10 @@
             "author": {
               "id": "https://openalex.org/A5115612870",
               "display_name": "Phuong Anh Nguyen",
-              "orcid": "https://orcid.org/0009-0008-2538-0536"
+              "orcid": "https://orcid.org/0009-0008-2538-0536",
+              "observed_orcids": [
+                "https://orcid.org/0009-0008-2538-0536"
+              ]
             },
             "institutions": [
               {
@@ -1657,7 +1808,10 @@
             "author": {
               "id": "https://openalex.org/A5067848984",
               "display_name": "Hai Anh Vu",
-              "orcid": null
+              "orcid": "https://orcid.org/0000-0002-0688-4711",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-0688-4711"
+              ]
             },
             "institutions": [
               {
@@ -1706,6 +1860,13 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doyens",
+              "jufo-2",
+              "ki-jl-2",
+              "norway-2"
+            ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
             "host_organization_lineage": [
@@ -1787,6 +1948,11 @@
             "is_oa": true,
             "is_in_doaj": true,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310310987",
             "host_organization_name": "Multidisciplinary Digital Publishing Institute",
             "host_organization_lineage": [
@@ -2242,6 +2408,12 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doyens",
+              "jufo-2",
+              "norway-2"
+            ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
             "host_organization_lineage": [
@@ -2275,7 +2447,7 @@
             "author": {
               "id": "https://openalex.org/A5109697709",
               "display_name": "Yunfa Gao",
-              "orcid": null
+              "orcid": "https://orcid.org/0009-0002-9543-9835"
             },
             "institutions": [
               {
@@ -2311,7 +2483,7 @@
             "author_position": "middle",
             "author": {
               "id": "https://openalex.org/A5081645776",
-              "display_name": "Ming Zhong",
+              "display_name": "Ming Shou Zhong",
               "orcid": "https://orcid.org/0000-0002-4022-6800"
             },
             "institutions": [
@@ -2385,7 +2557,7 @@
             "author_position": "last",
             "author": {
               "id": "https://openalex.org/A5103225665",
-              "display_name": "Guang Yang",
+              "display_name": "Guang Liang Yang",
               "orcid": "https://orcid.org/0000-0001-9487-6174"
             },
             "institutions": [
@@ -2434,6 +2606,9 @@
             "is_oa": true,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core"
+            ],
             "host_organization": "https://openalex.org/P4310310987",
             "host_organization_name": "Multidisciplinary Digital Publishing Institute",
             "host_organization_lineage": [
@@ -2467,7 +2642,8 @@
             "author": {
               "id": "https://openalex.org/A5138036114",
               "display_name": "Faiza Afzal",
-              "orcid": null
+              "orcid": null,
+              "observed_orcids": []
             },
             "institutions": [
               {
@@ -2504,7 +2680,8 @@
             "author": {
               "id": "https://openalex.org/A5120687769",
               "display_name": "EunSol Hyun",
-              "orcid": null
+              "orcid": null,
+              "observed_orcids": []
             },
             "institutions": [
               {
@@ -2541,7 +2718,8 @@
             "author": {
               "id": "https://openalex.org/A5020482552",
               "display_name": "A-Hyun Jo",
-              "orcid": null
+              "orcid": null,
+              "observed_orcids": []
             },
             "institutions": [
               {
@@ -2578,7 +2756,116 @@
             "author": {
               "id": "https://openalex.org/A5021872568",
               "display_name": "Jae‐Joong Kim",
-              "orcid": "https://orcid.org/0000-0002-2714-2282"
+              "orcid": "https://orcid.org/0000-0002-2714-2282",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-2714-2282",
+                "https://orcid.org/0000-0002-2713-1006",
+                "https://orcid.org/0000-0003-1869-7347",
+                "https://orcid.org/0000-0001-5086-0875",
+                "https://orcid.org/0000-0001-7091-8050",
+                "https://orcid.org/0000-0002-0203-7443",
+                "https://orcid.org/0000-0002-4945-0753",
+                "https://orcid.org/0000-0002-9941-585X",
+                "https://orcid.org/0000-0003-4376-3107",
+                "https://orcid.org/0009-0001-3898-4055",
+                "https://orcid.org/0009-0006-7803-1087",
+                "https://orcid.org/0000-0001-5001-963X",
+                "https://orcid.org/0000-0001-5801-2395",
+                "https://orcid.org/0000-0001-5943-7264",
+                "https://orcid.org/0000-0001-6061-5267",
+                "https://orcid.org/0000-0001-6155-5999",
+                "https://orcid.org/0000-0001-6426-9074",
+                "https://orcid.org/0000-0001-6586-7244",
+                "https://orcid.org/0000-0001-6626-2124",
+                "https://orcid.org/0000-0001-6634-7750",
+                "https://orcid.org/0000-0001-6688-9357",
+                "https://orcid.org/0000-0001-7247-3868",
+                "https://orcid.org/0000-0001-7794-8068",
+                "https://orcid.org/0000-0001-8493-2881",
+                "https://orcid.org/0000-0001-8510-4148",
+                "https://orcid.org/0000-0001-8986-8436",
+                "https://orcid.org/0000-0001-8990-2139",
+                "https://orcid.org/0000-0001-9633-5902",
+                "https://orcid.org/0000-0001-9933-1931",
+                "https://orcid.org/0000-0002-0037-2117",
+                "https://orcid.org/0000-0002-0099-9681",
+                "https://orcid.org/0000-0002-0498-7207",
+                "https://orcid.org/0000-0002-0844-3047",
+                "https://orcid.org/0000-0002-1202-1808",
+                "https://orcid.org/0000-0002-1324-961X",
+                "https://orcid.org/0000-0002-1757-4380",
+                "https://orcid.org/0000-0002-1814-1739",
+                "https://orcid.org/0000-0002-2412-891X",
+                "https://orcid.org/0000-0002-2957-4548",
+                "https://orcid.org/0000-0002-3033-7689",
+                "https://orcid.org/0000-0002-3999-4992",
+                "https://orcid.org/0000-0002-4220-711X",
+                "https://orcid.org/0000-0002-4230-5991",
+                "https://orcid.org/0000-0002-4278-3491",
+                "https://orcid.org/0000-0002-4368-1243",
+                "https://orcid.org/0000-0002-4410-9126",
+                "https://orcid.org/0000-0002-5846-7522",
+                "https://orcid.org/0000-0002-6644-7791",
+                "https://orcid.org/0000-0002-6960-3593",
+                "https://orcid.org/0000-0002-6961-1382",
+                "https://orcid.org/0000-0002-7067-7899",
+                "https://orcid.org/0000-0002-7101-1036",
+                "https://orcid.org/0000-0002-7210-6109",
+                "https://orcid.org/0000-0002-7240-3744",
+                "https://orcid.org/0000-0002-7261-7312",
+                "https://orcid.org/0000-0002-7272-7853",
+                "https://orcid.org/0000-0002-7300-6396",
+                "https://orcid.org/0000-0002-7558-5758",
+                "https://orcid.org/0000-0002-8399-8456",
+                "https://orcid.org/0000-0002-8557-0998",
+                "https://orcid.org/0000-0002-8626-5522",
+                "https://orcid.org/0000-0002-9012-8176",
+                "https://orcid.org/0000-0002-9109-270X",
+                "https://orcid.org/0000-0003-0047-5498",
+                "https://orcid.org/0000-0003-0156-9736",
+                "https://orcid.org/0000-0003-1005-2800",
+                "https://orcid.org/0000-0003-1322-5201",
+                "https://orcid.org/0000-0003-1343-0926",
+                "https://orcid.org/0000-0003-1415-6471",
+                "https://orcid.org/0000-0003-1487-916X",
+                "https://orcid.org/0000-0003-1535-7224",
+                "https://orcid.org/0000-0003-1627-7322",
+                "https://orcid.org/0000-0003-2180-4860",
+                "https://orcid.org/0000-0003-2337-6935",
+                "https://orcid.org/0000-0003-2498-6241",
+                "https://orcid.org/0000-0003-2933-9393",
+                "https://orcid.org/0000-0003-3177-9662",
+                "https://orcid.org/0000-0003-4077-7722",
+                "https://orcid.org/0009-0000-0014-3958",
+                "https://orcid.org/0009-0000-0599-8269",
+                "https://orcid.org/0009-0000-3070-1105",
+                "https://orcid.org/0009-0000-7029-169X",
+                "https://orcid.org/0009-0001-6312-2625",
+                "https://orcid.org/0009-0001-9439-253X",
+                "https://orcid.org/0009-0002-4632-7642",
+                "https://orcid.org/0009-0002-6750-3844",
+                "https://orcid.org/0009-0003-2452-4423",
+                "https://orcid.org/0009-0003-4206-255X",
+                "https://orcid.org/0009-0004-3342-1853",
+                "https://orcid.org/0009-0004-7181-7269",
+                "https://orcid.org/0009-0005-0045-8710",
+                "https://orcid.org/0009-0006-1321-566X",
+                "https://orcid.org/0009-0006-2672-7074",
+                "https://orcid.org/0009-0006-4905-9355",
+                "https://orcid.org/0009-0006-4911-7746",
+                "https://orcid.org/0009-0006-9271-7771",
+                "https://orcid.org/0009-0007-2995-6689",
+                "https://orcid.org/0009-0007-4389-4162",
+                "https://orcid.org/0009-0007-8315-4900",
+                "https://orcid.org/0009-0007-9127-3088",
+                "https://orcid.org/0009-0007-9278-6715",
+                "https://orcid.org/0009-0008-1233-7133",
+                "https://orcid.org/0009-0008-1420-6612",
+                "https://orcid.org/0009-0008-3948-0175",
+                "https://orcid.org/0009-0008-6725-5135",
+                "https://orcid.org/0009-0008-7123-3270",
+                "https://orcid.org/0009-0009-3103-1583"
+              ]
             },
             "institutions": [
               {
@@ -2622,7 +2909,10 @@
             "author": {
               "id": "https://openalex.org/A5079106943",
               "display_name": "Kyuchang Chang",
-              "orcid": "https://orcid.org/0000-0003-1928-9417"
+              "orcid": "https://orcid.org/0000-0003-1928-9417",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-1928-9417"
+              ]
             },
             "institutions": [
               {
@@ -2671,6 +2961,12 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "ki-jl-1",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
@@ -2829,6 +3125,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310315747",
             "host_organization_name": "American Society of Civil Engineers",
             "host_organization_lineage": [

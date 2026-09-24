@@ -7,7 +7,7 @@
     "author_order": 1,
     "author_id": "A5027294310",
     "author_name": "J T Liu",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0007-2557-9409",
     "author_position": "first",
     "institution_id": "I205237279",
     "institution_name": "Nankai University",
@@ -32,15 +32,15 @@
     "state_province": "Tianjin",
     "region_id": "CN-tianjin",
     "city": "Tianjin",
-    "latitude": 39.14221954345703,
-    "longitude": 117.17666625976562,
+    "latitude": 39.14222,
+    "longitude": 117.17667,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I205237279",
     "affiliation_source": "https://openalex.org/W7154682570",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-TJ",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -78,15 +78,15 @@
     "state_province": "Tianjin",
     "region_id": "CN-tianjin",
     "city": "Tianjin",
-    "latitude": 39.14221954345703,
-    "longitude": 117.17666625976562,
+    "latitude": 39.14222,
+    "longitude": 117.17667,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I205237279",
     "affiliation_source": "https://openalex.org/W7154682570",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-TJ",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -124,15 +124,15 @@
     "state_province": "Tianjin",
     "region_id": "CN-tianjin",
     "city": "Tianjin",
-    "latitude": 39.14221954345703,
-    "longitude": 117.17666625976562,
+    "latitude": 39.14222,
+    "longitude": 117.17667,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I205237279",
     "affiliation_source": "https://openalex.org/W7154682570",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-TJ",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -198,7 +198,7 @@
     "author_order": 2,
     "author_id": "A5126515100",
     "author_name": "Zongxu Cao",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0001-5238-6772",
     "author_position": "middle",
     "institution_id": "I92403157",
     "institution_name": "University of Science and Technology Beijing",
@@ -297,12 +297,12 @@
     "author_order": 4,
     "author_id": "A5126450819",
     "author_name": "Yibin Rui",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0004-3448-8021",
     "author_position": "last",
-    "institution_id": "I4210110794",
-    "institution_name": "Taiyuan Heavy Industry (China)",
+    "institution_id": "LOCAL-JIANLONG",
+    "institution_name": "Beijing Jianlong Heavy Industry Group Co. Ltd",
     "institution_type": "company",
-    "ror": "https://ror.org/022vzex26",
+    "ror": null,
     "raw_affiliation_strings": [
       "Beijing Jianlong Heavy Industry Group Co. Ltd, Beijing, 100070, PR China"
     ],
@@ -310,7 +310,7 @@
       {
         "raw_affiliation_string": "Beijing Jianlong Heavy Industry Group Co. Ltd, Beijing, 100070, PR China",
         "institution_ids": [
-          "https://openalex.org/I4210110794"
+          "LOCAL-JIANLONG"
         ]
       }
     ],
@@ -319,19 +319,19 @@
     ],
     "country_code": "CN",
     "country": "China",
-    "state_province": "Shanxi",
-    "region_id": "CN-shanxi",
-    "city": "Taiyuan",
-    "latitude": 37.869869232177734,
-    "longitude": 112.50411987304688,
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
     "geo_status": "institution_geo",
-    "geo_source": "https://api.openalex.org/institutions/I4210110794",
-    "affiliation_source": "https://openalex.org/W7206203312",
-    "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-SX",
-    "coordinate_precision": "institution_city_point",
+    "geo_source": "https://sws.geonames.org/1816670/",
+    "affiliation_source": "https://api.openalex.org/works/W7206203312",
+    "verified_region_text": "Beijing",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "region_admin1_code": null,
+    "coordinate_precision": "publication_city_representative_not_premises",
     "is_direct_self_citation": false,
     "included_in_public_map": true
   },
@@ -481,7 +481,7 @@
     "author_order": 4,
     "author_id": "A5121269699",
     "author_name": "Deshan Meng",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0000-0002-9588-6662",
     "author_position": "middle",
     "institution_id": "I157773358",
     "institution_name": "Sun Yat-sen University",
@@ -527,7 +527,7 @@
     "author_order": 5,
     "author_id": "A5125242775",
     "author_name": "Hui-Jie Sun",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0000-0003-2794-0871",
     "author_position": "middle",
     "institution_id": "I139660479",
     "institution_name": "Central South University",
@@ -718,7 +718,7 @@
     "author_order": 2,
     "author_id": "A5126515100",
     "author_name": "Zongxu Cao",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0001-5238-6772",
     "author_position": "middle",
     "institution_id": "I92403157",
     "institution_name": "University of Science and Technology Beijing",
@@ -810,12 +810,12 @@
     "author_order": 4,
     "author_id": "A5126450819",
     "author_name": "Yibin Rui",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0004-3448-8021",
     "author_position": "last",
-    "institution_id": "I4210110794",
-    "institution_name": "Taiyuan Heavy Industry (China)",
+    "institution_id": "LOCAL-JIANLONG",
+    "institution_name": "Beijing Jianlong Heavy Industry Group Co. Ltd",
     "institution_type": "company",
-    "ror": "https://ror.org/022vzex26",
+    "ror": null,
     "raw_affiliation_strings": [
       "Beijing Jianlong Heavy Industry Group Co. Ltd, Beijing, 100070, PR China"
     ],
@@ -823,7 +823,7 @@
       {
         "raw_affiliation_string": "Beijing Jianlong Heavy Industry Group Co. Ltd, Beijing, 100070, PR China",
         "institution_ids": [
-          "https://openalex.org/I4210110794"
+          "LOCAL-JIANLONG"
         ]
       }
     ],
@@ -832,19 +832,19 @@
     ],
     "country_code": "CN",
     "country": "China",
-    "state_province": "Shanxi",
-    "region_id": "CN-shanxi",
-    "city": "Taiyuan",
-    "latitude": 37.869869232177734,
-    "longitude": 112.50411987304688,
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
     "geo_status": "institution_geo",
-    "geo_source": "https://api.openalex.org/institutions/I4210110794",
-    "affiliation_source": "https://openalex.org/W7130653856",
-    "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-SX",
-    "coordinate_precision": "institution_city_point",
+    "geo_source": "https://sws.geonames.org/1816670/",
+    "affiliation_source": "https://api.openalex.org/works/W7130653856",
+    "verified_region_text": "Beijing",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "region_admin1_code": null,
+    "coordinate_precision": "publication_city_representative_not_premises",
     "is_direct_self_citation": false,
     "included_in_public_map": true
   },
@@ -1038,9 +1038,9 @@
     "citing_title": "Adaptive dynamic programming for controlling constrained nonlinear systems: a survey and recent advances",
     "publication_year": 2026,
     "author_order": 1,
-    "author_id": "A5136837028",
+    "author_id": "A5129466266",
     "author_name": "Bo Zhao",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0000-0002-7684-7342",
     "author_position": "first",
     "institution_id": "I25254941",
     "institution_name": "Beijing Normal University",
@@ -1132,7 +1132,7 @@
     "author_order": 3,
     "author_id": "A5004831345",
     "author_name": "Guoling Yuan",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0007-9670-8757",
     "author_position": "last",
     "institution_id": "I25254941",
     "institution_name": "Beijing Normal University",
@@ -1224,7 +1224,7 @@
     "author_order": 2,
     "author_id": "A5032434062",
     "author_name": "Zhiming Dong",
-    "author_orcid": "https://orcid.org/0000-0002-1021-506X",
+    "author_orcid": "https://orcid.org/0009-0006-6169-962X",
     "author_position": "middle",
     "institution_id": "I168337820",
     "institution_name": "Chongqing University of Science and Technology",
@@ -1316,7 +1316,7 @@
     "author_order": 4,
     "author_id": "A5126933755",
     "author_name": "Jie Li",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0000-0002-7075-4145",
     "author_position": "middle",
     "institution_id": "I168337820",
     "institution_name": "Chongqing University of Science and Technology",
@@ -1362,7 +1362,7 @@
     "author_order": 5,
     "author_id": "A5101084595",
     "author_name": "Zhixiang Hao",
-    "author_orcid": "https://orcid.org/0009-0006-5275-0518",
+    "author_orcid": "https://orcid.org/0009-0002-7507-914X",
     "author_position": "middle",
     "institution_id": "I16365422",
     "institution_name": "Hefei University of Technology",
@@ -1408,7 +1408,7 @@
     "author_order": 6,
     "author_id": "A5121537858",
     "author_name": "Yaoyao He",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0000-0001-5059-5151",
     "author_position": "middle",
     "institution_id": "I16365422",
     "institution_name": "Hefei University of Technology",
@@ -1454,7 +1454,7 @@
     "author_order": 7,
     "author_id": "A5121092712",
     "author_name": "Helong Li",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0000-0001-9251-9106",
     "author_position": "last",
     "institution_id": "I16365422",
     "institution_name": "Hefei University of Technology",
@@ -1592,7 +1592,7 @@
     "author_order": 3,
     "author_id": "A5113289279",
     "author_name": "Yueming Cao",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0003-4387-236X",
     "author_position": "middle",
     "institution_id": "I99065089",
     "institution_name": "Tsinghua University",
@@ -1769,6 +1769,282 @@
     "included_in_public_map": true
   },
   {
+    "citing_work_id": "IEEE11693968",
+    "citing_doi": "10.1109/tte.2026.3734226",
+    "citing_title": "Bridging Representation Learning and Optimal Control: Joint Representation–Decision Optimization for FCEV Energy Management",
+    "publication_year": 2026,
+    "author_order": 1,
+    "author_id": "",
+    "author_name": "Kunang Li",
+    "author_orcid": null,
+    "author_position": "first",
+    "institution_id": "I125839683",
+    "institution_name": "Beijing Institute of Technology",
+    "institution_type": "education",
+    "ror": "https://ror.org/01skt4w74",
+    "raw_affiliation_strings": [
+      "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I125839683"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I125839683",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11693968/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "IEEE11693968",
+    "citing_doi": "10.1109/tte.2026.3734226",
+    "citing_title": "Bridging Representation Learning and Optimal Control: Joint Representation–Decision Optimization for FCEV Energy Management",
+    "publication_year": 2026,
+    "author_order": 2,
+    "author_id": "",
+    "author_name": "Hongwen He",
+    "author_orcid": "https://orcid.org/0000-0003-2874-1858",
+    "author_position": "middle",
+    "institution_id": "I125839683",
+    "institution_name": "Beijing Institute of Technology",
+    "institution_type": "education",
+    "ror": "https://ror.org/01skt4w74",
+    "raw_affiliation_strings": [
+      "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I125839683"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I125839683",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11693968/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "IEEE11693968",
+    "citing_doi": "10.1109/tte.2026.3734226",
+    "citing_title": "Bridging Representation Learning and Optimal Control: Joint Representation–Decision Optimization for FCEV Energy Management",
+    "publication_year": 2026,
+    "author_order": 3,
+    "author_id": "",
+    "author_name": "Jingda Wu",
+    "author_orcid": "https://orcid.org/0000-0002-7336-4492",
+    "author_position": "middle",
+    "institution_id": "I125839683",
+    "institution_name": "Beijing Institute of Technology",
+    "institution_type": "education",
+    "ror": "https://ror.org/01skt4w74",
+    "raw_affiliation_strings": [
+      "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I125839683"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I125839683",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11693968/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "IEEE11693968",
+    "citing_doi": "10.1109/tte.2026.3734226",
+    "citing_title": "Bridging Representation Learning and Optimal Control: Joint Representation–Decision Optimization for FCEV Energy Management",
+    "publication_year": 2026,
+    "author_order": 4,
+    "author_id": "",
+    "author_name": "Zhongbao Wei",
+    "author_orcid": "https://orcid.org/0000-0003-0051-5648",
+    "author_position": "middle",
+    "institution_id": "I125839683",
+    "institution_name": "Beijing Institute of Technology",
+    "institution_type": "education",
+    "ror": "https://ror.org/01skt4w74",
+    "raw_affiliation_strings": [
+      "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I125839683"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I125839683",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11693968/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "IEEE11693968",
+    "citing_doi": "10.1109/tte.2026.3734226",
+    "citing_title": "Bridging Representation Learning and Optimal Control: Joint Representation–Decision Optimization for FCEV Energy Management",
+    "publication_year": 2026,
+    "author_order": 5,
+    "author_id": "",
+    "author_name": "Baochao Xing",
+    "author_orcid": null,
+    "author_position": "middle",
+    "institution_id": "I125839683",
+    "institution_name": "Beijing Institute of Technology",
+    "institution_type": "education",
+    "ror": "https://ror.org/01skt4w74",
+    "raw_affiliation_strings": [
+      "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I125839683"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I125839683",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11693968/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "IEEE11693968",
+    "citing_doi": "10.1109/tte.2026.3734226",
+    "citing_title": "Bridging Representation Learning and Optimal Control: Joint Representation–Decision Optimization for FCEV Energy Management",
+    "publication_year": 2026,
+    "author_order": 6,
+    "author_id": "",
+    "author_name": "Xuncheng Guo",
+    "author_orcid": null,
+    "author_position": "last",
+    "institution_id": "I125839683",
+    "institution_name": "Beijing Institute of Technology",
+    "institution_type": "education",
+    "ror": "https://ror.org/01skt4w74",
+    "raw_affiliation_strings": [
+      "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I125839683"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I125839683",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11693968/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
     "citing_work_id": "W7164987453",
     "citing_doi": "10.1063/5.0337442",
     "citing_title": "Coordinated optimal scheduling of island micro water–energy nexus considering multi-source uncertainty and extreme risks",
@@ -1776,7 +2052,7 @@
     "author_order": 1,
     "author_id": "A5121036687",
     "author_name": "Yudan Hou",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0001-1293-5490",
     "author_position": "first",
     "institution_id": "I183067930",
     "institution_name": "Shanghai Jiao Tong University",
@@ -1820,7 +2096,7 @@
     "citing_title": "Coordinated optimal scheduling of island micro water–energy nexus considering multi-source uncertainty and extreme risks",
     "publication_year": 2026,
     "author_order": 2,
-    "author_id": "A5138795867",
+    "author_id": "A5113143919",
     "author_name": "Alexis Pengfei Zhao",
     "author_orcid": null,
     "author_position": "middle",
@@ -1868,7 +2144,7 @@
     "citing_title": "Coordinated optimal scheduling of island micro water–energy nexus considering multi-source uncertainty and extreme risks",
     "publication_year": 2026,
     "author_order": 2,
-    "author_id": "A5138795867",
+    "author_id": "A5113143919",
     "author_name": "Alexis Pengfei Zhao",
     "author_orcid": null,
     "author_position": "middle",
@@ -2009,7 +2285,7 @@
     "publication_year": 2026,
     "author_order": 5,
     "author_id": "A5100651227",
-    "author_name": "Da Xie",
+    "author_name": "Da Gang Xie",
     "author_orcid": "https://orcid.org/0000-0003-2744-3349",
     "author_position": "last",
     "institution_id": "I183067930",
@@ -2606,7 +2882,7 @@
     "citing_title": "Economic dispatch method for islanded microgrids based on BO-DW-TD3",
     "publication_year": 2026,
     "author_order": 1,
-    "author_id": "A5133747405",
+    "author_id": "A5121444207",
     "author_name": "Long Cheng",
     "author_orcid": null,
     "author_position": "first",
@@ -2653,7 +2929,7 @@
     "citing_title": "Economic dispatch method for islanded microgrids based on BO-DW-TD3",
     "publication_year": 2026,
     "author_order": 1,
-    "author_id": "A5133747405",
+    "author_id": "A5121444207",
     "author_name": "Long Cheng",
     "author_orcid": null,
     "author_position": "first",
@@ -2701,8 +2977,8 @@
     "publication_year": 2026,
     "author_order": 2,
     "author_id": "A5058517031",
-    "author_name": "B Zhang",
-    "author_orcid": null,
+    "author_name": "Bingqian Zhang",
+    "author_orcid": "https://orcid.org/0009-0002-1498-789X",
     "author_position": "middle",
     "institution_id": "I16609230",
     "institution_name": "Hunan University",
@@ -2748,8 +3024,8 @@
     "publication_year": 2026,
     "author_order": 2,
     "author_id": "A5058517031",
-    "author_name": "B Zhang",
-    "author_orcid": null,
+    "author_name": "Bingqian Zhang",
+    "author_orcid": "https://orcid.org/0009-0002-1498-789X",
     "author_position": "middle",
     "institution_id": "I52180223",
     "institution_name": "Hunan Agricultural University",
@@ -2796,7 +3072,7 @@
     "author_order": 3,
     "author_id": "A5121518338",
     "author_name": "Jun Yang",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0002-9205-207X",
     "author_position": "middle",
     "institution_id": "I16609230",
     "institution_name": "Hunan University",
@@ -2843,7 +3119,7 @@
     "author_order": 3,
     "author_id": "A5121518338",
     "author_name": "Jun Yang",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0002-9205-207X",
     "author_position": "middle",
     "institution_id": "I52180223",
     "institution_name": "Hunan Agricultural University",
@@ -3069,6 +3345,236 @@
     "included_in_public_map": true
   },
   {
+    "citing_work_id": "W7213312453",
+    "citing_doi": "10.1109/ticps.2026.3733880",
+    "citing_title": "Energy Management of AI Data Center Microgrids Considering Workload Uncertainties: An Online Decision-Focused Learning Method",
+    "publication_year": 2026,
+    "author_order": 1,
+    "author_id": "A5067544074",
+    "author_name": "Jingxiang Wang",
+    "author_orcid": "https://orcid.org/0009-0008-9395-5848",
+    "author_position": "first",
+    "institution_id": "I183067930",
+    "institution_name": "Shanghai Jiao Tong University",
+    "institution_type": "education",
+    "ror": "https://ror.org/0220qvk04",
+    "raw_affiliation_strings": [
+      "State Key Laboratory of Submarine Geoscience, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "State Key Laboratory of Submarine Geoscience, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China",
+        "institution_ids": [
+          "https://openalex.org/I183067930"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Shanghai",
+    "region_id": "CN-shanghai",
+    "city": "Shanghai",
+    "latitude": 31.22222,
+    "longitude": 121.45806,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I183067930",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11690831/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W7213312453",
+    "citing_doi": "10.1109/ticps.2026.3733880",
+    "citing_title": "Energy Management of AI Data Center Microgrids Considering Workload Uncertainties: An Online Decision-Focused Learning Method",
+    "publication_year": 2026,
+    "author_order": 2,
+    "author_id": "A5133637326",
+    "author_name": "Qianwen Xu",
+    "author_orcid": "https://orcid.org/0000-0002-2793-9048",
+    "author_position": "middle",
+    "institution_id": "I86987016",
+    "institution_name": "KTH Royal Institute of Technology",
+    "institution_type": "education",
+    "ror": "https://ror.org/026vcq606",
+    "raw_affiliation_strings": [
+      "Division of Electric Power and Energy Systems, KTH Royal Institute of Technology, Stockholm, Sweden"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "Division of Electric Power and Energy Systems, KTH Royal Institute of Technology, Stockholm, Sweden",
+        "institution_ids": [
+          "https://openalex.org/I86987016"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "SE"
+    ],
+    "country_code": "SE",
+    "country": "Sweden",
+    "state_province": "Stockholm",
+    "region_id": "SE-stockholm",
+    "city": "Stockholm",
+    "latitude": 59.32938,
+    "longitude": 18.06871,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I86987016",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11690831/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W7213312453",
+    "citing_doi": "10.1109/ticps.2026.3733880",
+    "citing_title": "Energy Management of AI Data Center Microgrids Considering Workload Uncertainties: An Online Decision-Focused Learning Method",
+    "publication_year": 2026,
+    "author_order": 3,
+    "author_id": "A5151763390",
+    "author_name": "Mingshen Wang",
+    "author_orcid": null,
+    "author_position": "middle",
+    "institution_id": "I4405282011",
+    "institution_name": "State Grid Jiangsu Electric Power (China)",
+    "institution_type": "company",
+    "ror": "https://ror.org/056wxrm96",
+    "raw_affiliation_strings": [
+      "Electric Power Research Institute, State Grid Jiangsu Electric Power Co., Ltd., Nanjing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "Electric Power Research Institute, State Grid Jiangsu Electric Power Co., Ltd., Nanjing, China",
+        "institution_ids": [
+          "https://openalex.org/I4405282011"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Jiangsu",
+    "region_id": "CN-jiangsu",
+    "city": "Nanjing",
+    "latitude": 32.06167,
+    "longitude": 118.77778,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4405282011",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11690831/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W7213312453",
+    "citing_doi": "10.1109/ticps.2026.3733880",
+    "citing_title": "Energy Management of AI Data Center Microgrids Considering Workload Uncertainties: An Online Decision-Focused Learning Method",
+    "publication_year": 2026,
+    "author_order": 4,
+    "author_id": "A5151717659",
+    "author_name": "Bo Yang",
+    "author_orcid": null,
+    "author_position": "middle",
+    "institution_id": "I183067930",
+    "institution_name": "Shanghai Jiao Tong University",
+    "institution_type": "education",
+    "ror": "https://ror.org/0220qvk04",
+    "raw_affiliation_strings": [
+      "State Key Laboratory of Submarine Geoscience, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "State Key Laboratory of Submarine Geoscience, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China",
+        "institution_ids": [
+          "https://openalex.org/I183067930"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Shanghai",
+    "region_id": "CN-shanghai",
+    "city": "Shanghai",
+    "latitude": 31.22222,
+    "longitude": 121.45806,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I183067930",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11690831/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W7213312453",
+    "citing_doi": "10.1109/ticps.2026.3733880",
+    "citing_title": "Energy Management of AI Data Center Microgrids Considering Workload Uncertainties: An Online Decision-Focused Learning Method",
+    "publication_year": 2026,
+    "author_order": 5,
+    "author_id": "A5053837522",
+    "author_name": "Zhaojian Wang",
+    "author_orcid": "https://orcid.org/0000-0002-4998-6339",
+    "author_position": "last",
+    "institution_id": "I183067930",
+    "institution_name": "Shanghai Jiao Tong University",
+    "institution_type": "education",
+    "ror": "https://ror.org/0220qvk04",
+    "raw_affiliation_strings": [
+      "State Key Laboratory of Submarine Geoscience, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "State Key Laboratory of Submarine Geoscience, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China",
+        "institution_ids": [
+          "https://openalex.org/I183067930"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Shanghai",
+    "region_id": "CN-shanghai",
+    "city": "Shanghai",
+    "latitude": 31.22222,
+    "longitude": 121.45806,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I183067930",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11690831/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
     "citing_work_id": "W7160960716",
     "citing_doi": "10.1016/j.eswa.2026.132810",
     "citing_title": "Energy consumption prediction of hydraulic systems based on Archimedes Algorithm-Optimized Multi-Level information fusion",
@@ -3076,7 +3582,7 @@
     "author_order": 1,
     "author_id": "A5122037420",
     "author_name": "Qing Pan",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0000-0002-3445-3281",
     "author_position": "first",
     "institution_id": "I139660479",
     "institution_name": "Central South University",
@@ -3129,7 +3635,7 @@
     "author_order": 2,
     "author_id": "A5100535777",
     "author_name": "Yifei Zhai",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0003-2479-4263",
     "author_position": "middle",
     "institution_id": "I139660479",
     "institution_name": "Central South University",
@@ -3180,7 +3686,7 @@
     "citing_title": "Energy consumption prediction of hydraulic systems based on Archimedes Algorithm-Optimized Multi-Level information fusion",
     "publication_year": 2026,
     "author_order": 3,
-    "author_id": "A5135932481",
+    "author_id": "A5101385542",
     "author_name": "Chenyang Wen",
     "author_orcid": null,
     "author_position": "middle",
@@ -3286,9 +3792,9 @@
     "citing_title": "Energy consumption prediction of hydraulic systems based on Archimedes Algorithm-Optimized Multi-Level information fusion",
     "publication_year": 2026,
     "author_order": 5,
-    "author_id": "A5135960441",
+    "author_id": "A5122164641",
     "author_name": "Yibo Li",
-    "author_orcid": "https://orcid.org/0000-0002-2408-9148",
+    "author_orcid": null,
     "author_position": "middle",
     "institution_id": "I139660479",
     "institution_name": "Central South University",
@@ -3339,7 +3845,7 @@
     "citing_title": "Energy consumption prediction of hydraulic systems based on Archimedes Algorithm-Optimized Multi-Level information fusion",
     "publication_year": 2026,
     "author_order": 6,
-    "author_id": "A5135992841",
+    "author_id": "A5122257719",
     "author_name": "Minghui Huang",
     "author_orcid": null,
     "author_position": "last",
@@ -3378,6 +3884,391 @@
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I139660479",
     "affiliation_source": "https://openalex.org/W7160960716",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W7207722881",
+    "citing_doi": "10.1109/tcyb.2026.3725996",
+    "citing_title": "Event-Triggered Self-Learning Parallel Tracking Control for Continuous-Time Nonlinear Systems With Actuator Faults",
+    "publication_year": 2026,
+    "author_order": 1,
+    "author_id": "A5004654524",
+    "author_name": "Wendi Chen",
+    "author_orcid": "https://orcid.org/0000-0002-1554-8090",
+    "author_position": "first",
+    "institution_id": "I111950717",
+    "institution_name": "Macau University of Science and Technology",
+    "institution_type": "education",
+    "ror": "https://ror.org/03jqs2n27",
+    "raw_affiliation_strings": [
+      "Institute of Systems Engineering, Macau University of Science and Technology, Macau, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "Institute of Systems Engineering, Macau University of Science and Technology, Macau, China",
+        "institution_ids": [
+          "https://openalex.org/I111950717"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "MO"
+    ],
+    "country_code": "MO",
+    "country": "Macao",
+    "state_province": "Macau",
+    "region_id": "MO-macau",
+    "city": "Macao",
+    "latitude": 22.20056,
+    "longitude": 113.54611,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I111950717",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11676839/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W7207722881",
+    "citing_doi": "10.1109/tcyb.2026.3725996",
+    "citing_title": "Event-Triggered Self-Learning Parallel Tracking Control for Continuous-Time Nonlinear Systems With Actuator Faults",
+    "publication_year": 2026,
+    "author_order": 2,
+    "author_id": "A5087825639",
+    "author_name": "Qinglai Wei",
+    "author_orcid": "https://orcid.org/0000-0001-7002-9800",
+    "author_position": "middle",
+    "institution_id": "LOCAL-CASIA",
+    "institution_name": "Institute of Automation, Chinese Academy of Sciences",
+    "institution_type": "facility",
+    "ror": null,
+    "raw_affiliation_strings": [
+      "State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China",
+      "University of Chinese Academy of Sciences, Beijing, China",
+      "School of Artificial Intelligence, Shenyang University of Technology, Shenyang, China",
+      "Chinese Academy of Sciences, Institute of Automation, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China",
+        "institution_ids": [
+          "LOCAL-CASIA"
+        ]
+      },
+      {
+        "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I4210165038"
+        ]
+      },
+      {
+        "raw_affiliation_string": "School of Artificial Intelligence, Shenyang University of Technology, Shenyang, China",
+        "institution_ids": [
+          "https://openalex.org/I157507598"
+        ]
+      },
+      {
+        "raw_affiliation_string": "Chinese Academy of Sciences, Institute of Automation, Beijing, China",
+        "institution_ids": [
+          "LOCAL-CASIA"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "geo_status": "institution_geo",
+    "geo_source": "https://sws.geonames.org/1816670/",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11676839/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "region_admin1_code": null,
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W7207722881",
+    "citing_doi": "10.1109/tcyb.2026.3725996",
+    "citing_title": "Event-Triggered Self-Learning Parallel Tracking Control for Continuous-Time Nonlinear Systems With Actuator Faults",
+    "publication_year": 2026,
+    "author_order": 2,
+    "author_id": "A5087825639",
+    "author_name": "Qinglai Wei",
+    "author_orcid": "https://orcid.org/0000-0001-7002-9800",
+    "author_position": "middle",
+    "institution_id": "I4210165038",
+    "institution_name": "University of Chinese Academy of Sciences",
+    "institution_type": "education",
+    "ror": "https://ror.org/05qbk4x57",
+    "raw_affiliation_strings": [
+      "State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China",
+      "University of Chinese Academy of Sciences, Beijing, China",
+      "School of Artificial Intelligence, Shenyang University of Technology, Shenyang, China",
+      "Chinese Academy of Sciences, Institute of Automation, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China",
+        "institution_ids": [
+          "LOCAL-CASIA"
+        ]
+      },
+      {
+        "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I4210165038"
+        ]
+      },
+      {
+        "raw_affiliation_string": "School of Artificial Intelligence, Shenyang University of Technology, Shenyang, China",
+        "institution_ids": [
+          "https://openalex.org/I157507598"
+        ]
+      },
+      {
+        "raw_affiliation_string": "Chinese Academy of Sciences, Institute of Automation, Beijing, China",
+        "institution_ids": [
+          "LOCAL-CASIA"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4210165038",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11676839/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W7207722881",
+    "citing_doi": "10.1109/tcyb.2026.3725996",
+    "citing_title": "Event-Triggered Self-Learning Parallel Tracking Control for Continuous-Time Nonlinear Systems With Actuator Faults",
+    "publication_year": 2026,
+    "author_order": 2,
+    "author_id": "A5087825639",
+    "author_name": "Qinglai Wei",
+    "author_orcid": "https://orcid.org/0000-0001-7002-9800",
+    "author_position": "middle",
+    "institution_id": "I157507598",
+    "institution_name": "Shenyang University of Technology",
+    "institution_type": "education",
+    "ror": "https://ror.org/00d7f8730",
+    "raw_affiliation_strings": [
+      "State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China",
+      "University of Chinese Academy of Sciences, Beijing, China",
+      "School of Artificial Intelligence, Shenyang University of Technology, Shenyang, China",
+      "Chinese Academy of Sciences, Institute of Automation, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China",
+        "institution_ids": [
+          "LOCAL-CASIA"
+        ]
+      },
+      {
+        "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I4210165038"
+        ]
+      },
+      {
+        "raw_affiliation_string": "School of Artificial Intelligence, Shenyang University of Technology, Shenyang, China",
+        "institution_ids": [
+          "https://openalex.org/I157507598"
+        ]
+      },
+      {
+        "raw_affiliation_string": "Chinese Academy of Sciences, Institute of Automation, Beijing, China",
+        "institution_ids": [
+          "LOCAL-CASIA"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Liaoning",
+    "region_id": "CN-liaoning",
+    "city": "Shenyang",
+    "latitude": 41.79222106933594,
+    "longitude": 123.43277740478516,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I157507598",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11676839/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "region_admin1_code": "CN-LN",
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W7207722881",
+    "citing_doi": "10.1109/tcyb.2026.3725996",
+    "citing_title": "Event-Triggered Self-Learning Parallel Tracking Control for Continuous-Time Nonlinear Systems With Actuator Faults",
+    "publication_year": 2026,
+    "author_order": 3,
+    "author_id": "A5102944089",
+    "author_name": "Shanshan Jiao",
+    "author_orcid": "https://orcid.org/0009-0001-8584-9155",
+    "author_position": "middle",
+    "institution_id": "I111950717",
+    "institution_name": "Macau University of Science and Technology",
+    "institution_type": "education",
+    "ror": "https://ror.org/03jqs2n27",
+    "raw_affiliation_strings": [
+      "Institute of Systems Engineering, Macau University of Science and Technology, Macau, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "Institute of Systems Engineering, Macau University of Science and Technology, Macau, China",
+        "institution_ids": [
+          "https://openalex.org/I111950717"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "MO"
+    ],
+    "country_code": "MO",
+    "country": "Macao",
+    "state_province": "Macau",
+    "region_id": "MO-macau",
+    "city": "Macao",
+    "latitude": 22.20056,
+    "longitude": 113.54611,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I111950717",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11676839/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W7207722881",
+    "citing_doi": "10.1109/tcyb.2026.3725996",
+    "citing_title": "Event-Triggered Self-Learning Parallel Tracking Control for Continuous-Time Nonlinear Systems With Actuator Faults",
+    "publication_year": 2026,
+    "author_order": 4,
+    "author_id": "A5149915467",
+    "author_name": "Yu Liu",
+    "author_orcid": null,
+    "author_position": "middle",
+    "institution_id": "I4210165038",
+    "institution_name": "University of Chinese Academy of Sciences",
+    "institution_type": "education",
+    "ror": "https://ror.org/05qbk4x57",
+    "raw_affiliation_strings": [
+      "University of Chinese Academy of Sciences, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I4210165038"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4210165038",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11676839/authors#authors",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W7207722881",
+    "citing_doi": "10.1109/tcyb.2026.3725996",
+    "citing_title": "Event-Triggered Self-Learning Parallel Tracking Control for Continuous-Time Nonlinear Systems With Actuator Faults",
+    "publication_year": 2026,
+    "author_order": 5,
+    "author_id": "A5076518693",
+    "author_name": "Jun Xiao",
+    "author_orcid": "https://orcid.org/0000-0002-1799-3948",
+    "author_position": "last",
+    "institution_id": "I4210165038",
+    "institution_name": "University of Chinese Academy of Sciences",
+    "institution_type": "education",
+    "ror": "https://ror.org/05qbk4x57",
+    "raw_affiliation_strings": [
+      "School of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "School of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I4210165038"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4210165038",
+    "affiliation_source": "https://ieeexplore.ieee.org/abstract/document/11676839/authors#authors",
     "verified_region_text": null,
     "region_basis": "OpenAlex institution.geo.region",
     "region_source": null,
@@ -3442,10 +4333,10 @@
     "author_name": "Zhigang Liu",
     "author_orcid": "https://orcid.org/0000-0003-4154-5587",
     "author_position": "middle",
-    "institution_id": "I4210132981",
-    "institution_name": "Ningxia Water Conservancy",
-    "institution_type": "government",
-    "ror": "https://ror.org/02p2qrw13",
+    "institution_id": "LOCAL-NINGBO-WATER",
+    "institution_name": "Ningbo Water and Environment Group Co., Ltd",
+    "institution_type": "company",
+    "ror": null,
     "raw_affiliation_strings": [
       "Ningbo Water and Environment Group Co., Ltd"
     ],
@@ -3453,7 +4344,7 @@
       {
         "raw_affiliation_string": "Ningbo Water and Environment Group Co., Ltd",
         "institution_ids": [
-          "https://openalex.org/I4210132981"
+          "LOCAL-NINGBO-WATER"
         ]
       }
     ],
@@ -3462,19 +4353,19 @@
     ],
     "country_code": "CN",
     "country": "China",
-    "state_province": "Ningxia",
-    "region_id": "CN-ningxia",
-    "city": "Yinchuan",
-    "latitude": 38.46806,
-    "longitude": 106.27306,
+    "state_province": "Zhejiang",
+    "region_id": "CN-zhejiang",
+    "city": "Ningbo",
+    "latitude": 29.87819,
+    "longitude": 121.54945,
     "geo_status": "institution_geo",
-    "geo_source": "https://api.openalex.org/institutions/I4210132981",
-    "affiliation_source": "https://openalex.org/W7166318156",
-    "verified_region_text": null,
-    "region_basis": "OpenAlex institution.geo.region",
-    "region_source": null,
+    "geo_source": "https://sws.geonames.org/1799397/",
+    "affiliation_source": "https://api.openalex.org/works/W7166318156",
+    "verified_region_text": "Zhejiang",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
     "region_admin1_code": null,
-    "coordinate_precision": "institution_city_point",
+    "coordinate_precision": "publication_city_representative_not_premises",
     "is_direct_self_citation": false,
     "included_in_public_map": true
   },
@@ -3488,10 +4379,10 @@
     "author_name": "Jie Fei",
     "author_orcid": "https://orcid.org/0000-0001-9079-7874",
     "author_position": "middle",
-    "institution_id": "I4210132981",
-    "institution_name": "Ningxia Water Conservancy",
-    "institution_type": "government",
-    "ror": "https://ror.org/02p2qrw13",
+    "institution_id": "LOCAL-NINGBO-WATER",
+    "institution_name": "Ningbo Water and Environment Group Co., Ltd",
+    "institution_type": "company",
+    "ror": null,
     "raw_affiliation_strings": [
       "Ningbo Water and Environment Group Co., Ltd"
     ],
@@ -3499,7 +4390,7 @@
       {
         "raw_affiliation_string": "Ningbo Water and Environment Group Co., Ltd",
         "institution_ids": [
-          "https://openalex.org/I4210132981"
+          "LOCAL-NINGBO-WATER"
         ]
       }
     ],
@@ -3508,19 +4399,19 @@
     ],
     "country_code": "CN",
     "country": "China",
-    "state_province": "Ningxia",
-    "region_id": "CN-ningxia",
-    "city": "Yinchuan",
-    "latitude": 38.46806,
-    "longitude": 106.27306,
+    "state_province": "Zhejiang",
+    "region_id": "CN-zhejiang",
+    "city": "Ningbo",
+    "latitude": 29.87819,
+    "longitude": 121.54945,
     "geo_status": "institution_geo",
-    "geo_source": "https://api.openalex.org/institutions/I4210132981",
-    "affiliation_source": "https://openalex.org/W7166318156",
-    "verified_region_text": null,
-    "region_basis": "OpenAlex institution.geo.region",
-    "region_source": null,
+    "geo_source": "https://sws.geonames.org/1799397/",
+    "affiliation_source": "https://api.openalex.org/works/W7166318156",
+    "verified_region_text": "Zhejiang",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
     "region_admin1_code": null,
-    "coordinate_precision": "institution_city_point",
+    "coordinate_precision": "publication_city_representative_not_premises",
     "is_direct_self_citation": false,
     "included_in_public_map": true
   },
@@ -3663,6 +4554,52 @@
     "included_in_public_map": true
   },
   {
+    "citing_work_id": "W7213455390",
+    "citing_doi": "10.1007/s00521-026-12456-7",
+    "citing_title": "Hierarchical reinforcement learning for safe output tracking: managing constraints of dependent internal states in unknown discrete-time systems",
+    "publication_year": 2026,
+    "author_order": 1,
+    "author_id": "A5045641295",
+    "author_name": "Chidentree Treesatayapun",
+    "author_orcid": "https://orcid.org/0000-0002-8574-672X",
+    "author_position": "first",
+    "institution_id": "LOCAL-CINVESTAV-RAMOS-ARIZPE",
+    "institution_name": "Center for Research and Advanced Studies (CINVESTAV), Ramos Arizpe",
+    "institution_type": "facility",
+    "ror": null,
+    "raw_affiliation_strings": [
+      "Robotics and Advanced Manufacturing, Center for Research and Advanced Studies (CINVESTAV), 1062 Industria Metalurgica Av, Ramos Arizpe, 25903, Coah, Mexico"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "Robotics and Advanced Manufacturing, Center for Research and Advanced Studies (CINVESTAV), 1062 Industria Metalurgica Av, Ramos Arizpe, 25903, Coah, Mexico",
+        "institution_ids": [
+          "LOCAL-CINVESTAV-RAMOS-ARIZPE"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "MX"
+    ],
+    "country_code": "MX",
+    "country": "Mexico",
+    "state_province": "Coahuila",
+    "region_id": "MX-coahuila",
+    "city": "Ramos Arizpe",
+    "latitude": 25.53928,
+    "longitude": -100.94742,
+    "geo_status": "institution_geo",
+    "geo_source": "https://sws.geonames.org/3991043/",
+    "affiliation_source": "https://link.springer.com/article/10.1007/s00521-026-12456-7",
+    "verified_region_text": null,
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "region_admin1_code": null,
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
     "citing_work_id": "W7117981005",
     "citing_doi": "10.1016/j.watres.2026.125325",
     "citing_title": "Integrated optimal operation of power and water systems under uncertainty: An adjustable robust optimization approach",
@@ -3760,9 +4697,9 @@
     "citing_title": "Integrated optimal operation of power and water systems under uncertainty: An adjustable robust optimization approach",
     "publication_year": 2026,
     "author_order": 3,
-    "author_id": "A5121749681",
+    "author_id": "A5087267684",
     "author_name": "Aviad Navon",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0000-0002-5885-8304",
     "author_position": "middle",
     "institution_id": "I27837315",
     "institution_name": "University of Michigan",
@@ -4036,7 +4973,7 @@
     "citing_title": "Reinforcement learning-based fault-tolerant control of nonlinear servo systems with performance guarantees",
     "publication_year": 2026,
     "author_order": 1,
-    "author_id": "A5123385819",
+    "author_id": "A5078539732",
     "author_name": "Ning Xie",
     "author_orcid": null,
     "author_position": "first",
@@ -4176,7 +5113,7 @@
     "author_order": 4,
     "author_id": "A5123434691",
     "author_name": "Hao Shen",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0000-0002-7623-022X",
     "author_position": "last",
     "institution_id": "I92178344",
     "institution_name": "Anhui University of Technology",
@@ -4406,7 +5343,7 @@
     "author_order": 1,
     "author_id": "A5109697709",
     "author_name": "Yunfa Gao",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0002-9543-9835",
     "author_position": "first",
     "institution_id": "I4210111792",
     "institution_name": "Guizhou Water Conservancy and Hydropower Survey and Design Institute",
@@ -4451,7 +5388,7 @@
     "publication_year": 2026,
     "author_order": 2,
     "author_id": "A5081645776",
-    "author_name": "Ming Zhong",
+    "author_name": "Ming Shou Zhong",
     "author_orcid": "https://orcid.org/0000-0002-4022-6800",
     "author_position": "middle",
     "institution_id": "I4210111792",
@@ -4543,7 +5480,7 @@
     "publication_year": 2026,
     "author_order": 4,
     "author_id": "A5103225665",
-    "author_name": "Guang Yang",
+    "author_name": "Guang Liang Yang",
     "author_orcid": "https://orcid.org/0000-0001-9487-6174",
     "author_position": "last",
     "institution_id": "I4210111986",
@@ -6218,7 +7155,8 @@
       {
         "raw_affiliation_string": "AVIC Manufacturing Technology Institute, Beijing, China",
         "institution_ids": [
-          "https://openalex.org/I4210147525"
+          "https://openalex.org/I4210147525",
+          "https://openalex.org/I4405277481"
         ]
       }
     ],
@@ -6230,15 +7168,62 @@
     "state_province": "Beijing",
     "region_id": "CN-beijing",
     "city": "Beijing",
-    "latitude": 39.936439514160156,
-    "longitude": 116.42213439941406,
+    "latitude": 39.9075,
+    "longitude": 116.39723,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I4210147525",
     "affiliation_source": "https://openalex.org/W6903285081",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-BJ",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W6903285081",
+    "citing_doi": "10.1109/tim.2025.3548247",
+    "citing_title": "An Automated Mechanical Property Testing System Based on Electric Field Assistance and Non-Contact Signal Measurement",
+    "publication_year": 2025,
+    "author_order": 3,
+    "author_id": "",
+    "author_name": "Lihua Du",
+    "author_orcid": "https://orcid.org/0009-0004-2803-7021",
+    "author_position": "middle",
+    "institution_id": "I4405277481",
+    "institution_name": "AVIC Manufacturing Technology Institute (China)",
+    "institution_type": "company",
+    "ror": "https://ror.org/02va0n961",
+    "raw_affiliation_strings": [
+      "AVIC Manufacturing Technology Institute, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "AVIC Manufacturing Technology Institute, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I4210147525",
+          "https://openalex.org/I4405277481"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4405277481",
+    "affiliation_source": "https://openalex.org/W6903285081",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -6264,7 +7249,8 @@
       {
         "raw_affiliation_string": "AVIC Manufacturing Technology Institute, Beijing, China",
         "institution_ids": [
-          "https://openalex.org/I4210147525"
+          "https://openalex.org/I4210147525",
+          "https://openalex.org/I4405277481"
         ]
       }
     ],
@@ -6276,15 +7262,62 @@
     "state_province": "Beijing",
     "region_id": "CN-beijing",
     "city": "Beijing",
-    "latitude": 39.936439514160156,
-    "longitude": 116.42213439941406,
+    "latitude": 39.9075,
+    "longitude": 116.39723,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I4210147525",
     "affiliation_source": "https://openalex.org/W6903285081",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-BJ",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W6903285081",
+    "citing_doi": "10.1109/tim.2025.3548247",
+    "citing_title": "An Automated Mechanical Property Testing System Based on Electric Field Assistance and Non-Contact Signal Measurement",
+    "publication_year": 2025,
+    "author_order": 4,
+    "author_id": "",
+    "author_name": "Huiyuan Xu",
+    "author_orcid": "https://orcid.org/0009-0006-5318-3789",
+    "author_position": "middle",
+    "institution_id": "I4405277481",
+    "institution_name": "AVIC Manufacturing Technology Institute (China)",
+    "institution_type": "company",
+    "ror": "https://ror.org/02va0n961",
+    "raw_affiliation_strings": [
+      "AVIC Manufacturing Technology Institute, Beijing, China"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "AVIC Manufacturing Technology Institute, Beijing, China",
+        "institution_ids": [
+          "https://openalex.org/I4210147525",
+          "https://openalex.org/I4405277481"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Beijing",
+    "region_id": "CN-beijing",
+    "city": "Beijing",
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4405277481",
+    "affiliation_source": "https://openalex.org/W6903285081",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -7261,59 +8294,6 @@
     "author_name": "Shunyu Wu",
     "author_orcid": "https://orcid.org/0000-0001-9856-2148",
     "author_position": "first",
-    "institution_id": "I1327237609",
-    "institution_name": "Ministry of Education of the People's Republic of China",
-    "institution_type": "government",
-    "ror": "https://ror.org/01mv9t934",
-    "raw_affiliation_strings": [
-      "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
-      "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China"
-    ],
-    "raw_affiliation_institution_links": [
-      {
-        "raw_affiliation_string": "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
-        "institution_ids": [
-          "https://openalex.org/I183067930"
-        ]
-      },
-      {
-        "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
-        "institution_ids": [
-          "https://openalex.org/I1327237609"
-        ]
-      }
-    ],
-    "reported_country_codes": [
-      "CN"
-    ],
-    "country_code": "CN",
-    "country": "China",
-    "state_province": "Beijing",
-    "region_id": "CN-beijing",
-    "city": "Beijing",
-    "latitude": 39.9075,
-    "longitude": 116.39723,
-    "geo_status": "excluded_sponsor_parent_with_university",
-    "geo_source": "https://api.openalex.org/institutions/I1327237609",
-    "affiliation_source": "https://openalex.org/W4413754711",
-    "verified_region_text": null,
-    "region_basis": "OpenAlex institution.geo.region",
-    "region_source": null,
-    "region_admin1_code": null,
-    "coordinate_precision": "institution_city_point",
-    "is_direct_self_citation": true,
-    "included_in_public_map": false
-  },
-  {
-    "citing_work_id": "W4413754711",
-    "citing_doi": "10.1109/tsg.2025.3601238",
-    "citing_title": "End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling",
-    "publication_year": 2025,
-    "author_order": 1,
-    "author_id": "A5087893108",
-    "author_name": "Shunyu Wu",
-    "author_orcid": "https://orcid.org/0000-0001-9856-2148",
-    "author_position": "first",
     "institution_id": "I183067930",
     "institution_name": "Shanghai Jiao Tong University",
     "institution_type": "education",
@@ -7332,7 +8312,7 @@
       {
         "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
         "institution_ids": [
-          "https://openalex.org/I1327237609"
+          "https://openalex.org/I183067930"
         ]
       }
     ],
@@ -7367,59 +8347,6 @@
     "author_name": "Jingcheng Wang",
     "author_orcid": "https://orcid.org/0000-0002-4277-1263",
     "author_position": "middle",
-    "institution_id": "I1327237609",
-    "institution_name": "Ministry of Education of the People's Republic of China",
-    "institution_type": "government",
-    "ror": "https://ror.org/01mv9t934",
-    "raw_affiliation_strings": [
-      "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
-      "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China"
-    ],
-    "raw_affiliation_institution_links": [
-      {
-        "raw_affiliation_string": "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
-        "institution_ids": [
-          "https://openalex.org/I183067930"
-        ]
-      },
-      {
-        "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
-        "institution_ids": [
-          "https://openalex.org/I1327237609"
-        ]
-      }
-    ],
-    "reported_country_codes": [
-      "CN"
-    ],
-    "country_code": "CN",
-    "country": "China",
-    "state_province": "Beijing",
-    "region_id": "CN-beijing",
-    "city": "Beijing",
-    "latitude": 39.9075,
-    "longitude": 116.39723,
-    "geo_status": "excluded_sponsor_parent_with_university",
-    "geo_source": "https://api.openalex.org/institutions/I1327237609",
-    "affiliation_source": "https://openalex.org/W4413754711",
-    "verified_region_text": null,
-    "region_basis": "OpenAlex institution.geo.region",
-    "region_source": null,
-    "region_admin1_code": null,
-    "coordinate_precision": "institution_city_point",
-    "is_direct_self_citation": true,
-    "included_in_public_map": false
-  },
-  {
-    "citing_work_id": "W4413754711",
-    "citing_doi": "10.1109/tsg.2025.3601238",
-    "citing_title": "End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling",
-    "publication_year": 2025,
-    "author_order": 2,
-    "author_id": "A5100777024",
-    "author_name": "Jingcheng Wang",
-    "author_orcid": "https://orcid.org/0000-0002-4277-1263",
-    "author_position": "middle",
     "institution_id": "I183067930",
     "institution_name": "Shanghai Jiao Tong University",
     "institution_type": "education",
@@ -7438,7 +8365,7 @@
       {
         "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
         "institution_ids": [
-          "https://openalex.org/I1327237609"
+          "https://openalex.org/I183067930"
         ]
       }
     ],
@@ -7572,59 +8499,6 @@
     "author_name": "Jun Rao",
     "author_orcid": "https://orcid.org/0000-0002-7467-4898",
     "author_position": "last",
-    "institution_id": "I1327237609",
-    "institution_name": "Ministry of Education of the People's Republic of China",
-    "institution_type": "government",
-    "ror": "https://ror.org/01mv9t934",
-    "raw_affiliation_strings": [
-      "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
-      "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China"
-    ],
-    "raw_affiliation_institution_links": [
-      {
-        "raw_affiliation_string": "School of Automation and Intelligent Sensing and the Key Laboratory of System Control and Information Processing, Ministry of Education of China, Shanghai Jiao Tong University, Shanghai, China",
-        "institution_ids": [
-          "https://openalex.org/I183067930"
-        ]
-      },
-      {
-        "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
-        "institution_ids": [
-          "https://openalex.org/I1327237609"
-        ]
-      }
-    ],
-    "reported_country_codes": [
-      "CN"
-    ],
-    "country_code": "CN",
-    "country": "China",
-    "state_province": "Beijing",
-    "region_id": "CN-beijing",
-    "city": "Beijing",
-    "latitude": 39.9075,
-    "longitude": 116.39723,
-    "geo_status": "excluded_sponsor_parent_with_university",
-    "geo_source": "https://api.openalex.org/institutions/I1327237609",
-    "affiliation_source": "https://openalex.org/W4413754711",
-    "verified_region_text": null,
-    "region_basis": "OpenAlex institution.geo.region",
-    "region_source": null,
-    "region_admin1_code": null,
-    "coordinate_precision": "institution_city_point",
-    "is_direct_self_citation": true,
-    "included_in_public_map": false
-  },
-  {
-    "citing_work_id": "W4413754711",
-    "citing_doi": "10.1109/tsg.2025.3601238",
-    "citing_title": "End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling",
-    "publication_year": 2025,
-    "author_order": 5,
-    "author_id": "A5018604914",
-    "author_name": "Jun Rao",
-    "author_orcid": "https://orcid.org/0000-0002-7467-4898",
-    "author_position": "last",
     "institution_id": "I183067930",
     "institution_name": "Shanghai Jiao Tong University",
     "institution_type": "education",
@@ -7643,7 +8517,7 @@
       {
         "raw_affiliation_string": "Shanghai Jiao Tong University, School of Automation and Intelligent Sensing, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, China",
         "institution_ids": [
-          "https://openalex.org/I1327237609"
+          "https://openalex.org/I183067930"
         ]
       }
     ],
@@ -7701,15 +8575,15 @@
     "state_province": "Sichuan",
     "region_id": "CN-sichuan",
     "city": "Chengdu",
-    "latitude": 30.666669845581055,
-    "longitude": 104.0666732788086,
+    "latitude": 30.66667,
+    "longitude": 104.06667,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I150229711",
     "affiliation_source": "https://openalex.org/W4414533421",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-SC",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -7747,15 +8621,15 @@
     "state_province": "Sichuan",
     "region_id": "CN-sichuan",
     "city": "Chengdu",
-    "latitude": 30.666669845581055,
-    "longitude": 104.0666732788086,
+    "latitude": 30.66667,
+    "longitude": 104.06667,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I150229711",
     "affiliation_source": "https://openalex.org/W4414533421",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-SC",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -7793,15 +8667,15 @@
     "state_province": "Sichuan",
     "region_id": "CN-sichuan",
     "city": "Chengdu",
-    "latitude": 30.666669845581055,
-    "longitude": 104.0666732788086,
+    "latitude": 30.66667,
+    "longitude": 104.06667,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I150229711",
     "affiliation_source": "https://openalex.org/W4414533421",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-SC",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -7839,15 +8713,15 @@
     "state_province": "Sichuan",
     "region_id": "CN-sichuan",
     "city": "Chengdu",
-    "latitude": 30.666669845581055,
-    "longitude": 104.0666732788086,
+    "latitude": 30.66667,
+    "longitude": 104.06667,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I150229711",
     "affiliation_source": "https://openalex.org/W4414533421",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-SC",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -7860,7 +8734,7 @@
     "author_order": 5,
     "author_id": "A5082519745",
     "author_name": "Linpu He",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0009-9532-5273",
     "author_position": "middle",
     "institution_id": "I150229711",
     "institution_name": "University of Electronic Science and Technology of China",
@@ -7885,15 +8759,15 @@
     "state_province": "Sichuan",
     "region_id": "CN-sichuan",
     "city": "Chengdu",
-    "latitude": 30.666669845581055,
-    "longitude": 104.0666732788086,
+    "latitude": 30.66667,
+    "longitude": 104.06667,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I150229711",
     "affiliation_source": "https://openalex.org/W4414533421",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-SC",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -7905,7 +8779,7 @@
     "publication_year": 2025,
     "author_order": 6,
     "author_id": "A5085614235",
-    "author_name": "Hong Cheng",
+    "author_name": "Hong Ming Cheng",
     "author_orcid": "https://orcid.org/0000-0002-4943-9060",
     "author_position": "last",
     "institution_id": "I150229711",
@@ -7931,15 +8805,15 @@
     "state_province": "Sichuan",
     "region_id": "CN-sichuan",
     "city": "Chengdu",
-    "latitude": 30.666669845581055,
-    "longitude": 104.0666732788086,
+    "latitude": 30.66667,
+    "longitude": 104.06667,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I150229711",
     "affiliation_source": "https://openalex.org/W4414533421",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-SC",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -8152,9 +9026,9 @@
     "author_name": "P. Pisani",
     "author_orcid": null,
     "author_position": "last",
-    "institution_id": "",
-    "institution_name": "",
-    "institution_type": null,
+    "institution_id": "LOCAL-UNIDATA",
+    "institution_name": "Unidata S.p.A.",
+    "institution_type": "company",
     "ror": null,
     "raw_affiliation_strings": [
       "Unidata S.p.A., Rome, Italy"
@@ -8162,27 +9036,31 @@
     "raw_affiliation_institution_links": [
       {
         "raw_affiliation_string": "Unidata S.p.A., Rome, Italy",
-        "institution_ids": []
+        "institution_ids": [
+          "LOCAL-UNIDATA"
+        ]
       }
     ],
-    "reported_country_codes": [],
-    "country_code": "",
-    "country": "",
-    "state_province": "",
-    "region_id": "",
-    "city": null,
-    "latitude": null,
-    "longitude": null,
-    "geo_status": "unresolved_institution",
-    "geo_source": "",
-    "affiliation_source": "https://openalex.org/W4407019097",
-    "verified_region_text": null,
-    "region_basis": null,
-    "region_source": null,
+    "reported_country_codes": [
+      "IT"
+    ],
+    "country_code": "IT",
+    "country": "Italy",
+    "state_province": "Lazio",
+    "region_id": "IT-lazio",
+    "city": "Rome",
+    "latitude": 41.89193,
+    "longitude": 12.51133,
+    "geo_status": "institution_geo",
+    "geo_source": "https://sws.geonames.org/3169070/",
+    "affiliation_source": "https://api.openalex.org/works/W4407019097",
+    "verified_region_text": "Lazio",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
     "region_admin1_code": null,
-    "coordinate_precision": "unavailable",
+    "coordinate_precision": "publication_city_representative_not_premises",
     "is_direct_self_citation": false,
-    "included_in_public_map": false
+    "included_in_public_map": true
   },
   {
     "citing_work_id": "W4406802685",
@@ -8408,15 +9286,15 @@
     "state_province": "Anhui",
     "region_id": "CN-anhui",
     "city": "Hefei",
-    "latitude": 31.863889694213867,
-    "longitude": 117.28083038330078,
+    "latitude": 31.86389,
+    "longitude": 117.28083,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I143868143",
     "affiliation_source": "https://openalex.org/W4415220578",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-AH",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -8514,15 +9392,15 @@
     "state_province": "Anhui",
     "region_id": "CN-anhui",
     "city": "Hefei",
-    "latitude": 31.863889694213867,
-    "longitude": 117.28083038330078,
+    "latitude": 31.86389,
+    "longitude": 117.28083,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I143868143",
     "affiliation_source": "https://openalex.org/W4415220578",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-AH",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -8620,15 +9498,15 @@
     "state_province": "Anhui",
     "region_id": "CN-anhui",
     "city": "Hefei",
-    "latitude": 31.863889694213867,
-    "longitude": 117.28083038330078,
+    "latitude": 31.86389,
+    "longitude": 117.28083,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I143868143",
     "affiliation_source": "https://openalex.org/W4415220578",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-AH",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -8726,15 +9604,15 @@
     "state_province": "Anhui",
     "region_id": "CN-anhui",
     "city": "Hefei",
-    "latitude": 31.863889694213867,
-    "longitude": 117.28083038330078,
+    "latitude": 31.86389,
+    "longitude": 117.28083,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I143868143",
     "affiliation_source": "https://openalex.org/W4415220578",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-AH",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -8848,10 +9726,10 @@
     "author_name": "Linghui Hu",
     "author_orcid": "https://orcid.org/0000-0002-4678-3229",
     "author_position": "last",
-    "institution_id": "I4210132615",
-    "institution_name": "Zhejiang Energy Group (China)",
+    "institution_id": "LOCAL-HANGZHOU-OXYGEN",
+    "institution_name": "Hangzhou Oxygen Plant Group Company Limited",
     "institution_type": "company",
-    "ror": "https://ror.org/03a2tkf74",
+    "ror": null,
     "raw_affiliation_strings": [
       "Hangzhou Oxygen Plant Group Company Limited, Hangzhou, 310000, Zhejiang, China"
     ],
@@ -8859,7 +9737,7 @@
       {
         "raw_affiliation_string": "Hangzhou Oxygen Plant Group Company Limited, Hangzhou, 310000, Zhejiang, China",
         "institution_ids": [
-          "https://openalex.org/I4210132615"
+          "LOCAL-HANGZHOU-OXYGEN"
         ]
       }
     ],
@@ -8871,16 +9749,16 @@
     "state_province": "Zhejiang",
     "region_id": "CN-zhejiang",
     "city": "Hangzhou",
-    "latitude": 30.272197723388672,
-    "longitude": 120.13886260986328,
+    "latitude": 30.29365,
+    "longitude": 120.16142,
     "geo_status": "institution_geo",
-    "geo_source": "https://api.openalex.org/institutions/I4210132615",
-    "affiliation_source": "https://openalex.org/W4415220578",
-    "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-ZJ",
-    "coordinate_precision": "institution_city_point",
+    "geo_source": "https://sws.geonames.org/1808926/",
+    "affiliation_source": "https://api.openalex.org/works/W4415220578",
+    "verified_region_text": "Zhejiang",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "region_admin1_code": null,
+    "coordinate_precision": "publication_city_representative_not_premises",
     "is_direct_self_citation": false,
     "included_in_public_map": true
   },
@@ -9029,7 +9907,7 @@
     "publication_year": 2025,
     "author_order": 1,
     "author_id": "A5018465731",
-    "author_name": "Péter Farkas",
+    "author_name": "Peter A. Farkas",
     "author_orcid": "https://orcid.org/0000-0002-1700-2948",
     "author_position": "first",
     "institution_id": "I29770179",
@@ -9168,7 +10046,68 @@
     "author_order": 1,
     "author_id": "A5101989452",
     "author_name": "Thị Ngọc Anh Nguyễn",
-    "author_orcid": "https://orcid.org/0000-0002-6555-9740",
+    "author_orcid": "https://orcid.org/0009-0003-7855-9066",
+    "author_position": "first",
+    "institution_id": "I4405276846",
+    "institution_name": "Institute for Digital Technology and Economy",
+    "institution_type": "facility",
+    "ror": "https://ror.org/00g48nc73",
+    "raw_affiliation_strings": [
+      "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I4405276846",
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "VN"
+    ],
+    "country_code": "VN",
+    "country": "Vietnam",
+    "state_province": "Hanoi",
+    "region_id": "VN-hanoi",
+    "city": "Hanoi",
+    "latitude": 21.0245,
+    "longitude": 105.84117,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4405276846",
+    "affiliation_source": "https://openalex.org/W4412533860",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W4412533860",
+    "citing_doi": "10.1016/j.eswa.2025.128955",
+    "citing_title": "Optimizing supply chain operations using advanced Time-Series Mixer models for demand forecasting and inventory under uncertain demand",
+    "publication_year": 2025,
+    "author_order": 1,
+    "author_id": "A5101989452",
+    "author_name": "Thị Ngọc Anh Nguyễn",
+    "author_orcid": "https://orcid.org/0009-0003-7855-9066",
     "author_position": "first",
     "institution_id": "I94518387",
     "institution_name": "Hanoi University of Science and Technology",
@@ -9189,6 +10128,7 @@
       {
         "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
         "institution_ids": [
+          "https://openalex.org/I4405276846",
           "https://openalex.org/I94518387"
         ]
       },
@@ -9228,7 +10168,68 @@
     "author_order": 2,
     "author_id": "A5101989452",
     "author_name": "Thị Ngọc Anh Nguyễn",
-    "author_orcid": "https://orcid.org/0000-0002-6555-9740",
+    "author_orcid": "https://orcid.org/0009-0003-7855-9066",
+    "author_position": "middle",
+    "institution_id": "I4405276846",
+    "institution_name": "Institute for Digital Technology and Economy",
+    "institution_type": "facility",
+    "ror": "https://ror.org/00g48nc73",
+    "raw_affiliation_strings": [
+      "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I4405276846",
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "VN"
+    ],
+    "country_code": "VN",
+    "country": "Vietnam",
+    "state_province": "Hanoi",
+    "region_id": "VN-hanoi",
+    "city": "Hanoi",
+    "latitude": 21.0245,
+    "longitude": 105.84117,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4405276846",
+    "affiliation_source": "https://openalex.org/W4412533860",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W4412533860",
+    "citing_doi": "10.1016/j.eswa.2025.128955",
+    "citing_title": "Optimizing supply chain operations using advanced Time-Series Mixer models for demand forecasting and inventory under uncertain demand",
+    "publication_year": 2025,
+    "author_order": 2,
+    "author_id": "A5101989452",
+    "author_name": "Thị Ngọc Anh Nguyễn",
+    "author_orcid": "https://orcid.org/0009-0003-7855-9066",
     "author_position": "middle",
     "institution_id": "I94518387",
     "institution_name": "Hanoi University of Science and Technology",
@@ -9249,6 +10250,7 @@
       {
         "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
         "institution_ids": [
+          "https://openalex.org/I4405276846",
           "https://openalex.org/I94518387"
         ]
       },
@@ -9290,6 +10292,67 @@
     "author_name": "Thi Xuan Hoa Nguyen",
     "author_orcid": "https://orcid.org/0000-0001-6846-5304",
     "author_position": "middle",
+    "institution_id": "I4405276846",
+    "institution_name": "Institute for Digital Technology and Economy",
+    "institution_type": "facility",
+    "ror": "https://ror.org/00g48nc73",
+    "raw_affiliation_strings": [
+      "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I4405276846",
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "VN"
+    ],
+    "country_code": "VN",
+    "country": "Vietnam",
+    "state_province": "Hanoi",
+    "region_id": "VN-hanoi",
+    "city": "Hanoi",
+    "latitude": 21.0245,
+    "longitude": 105.84117,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4405276846",
+    "affiliation_source": "https://openalex.org/W4412533860",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W4412533860",
+    "citing_doi": "10.1016/j.eswa.2025.128955",
+    "citing_title": "Optimizing supply chain operations using advanced Time-Series Mixer models for demand forecasting and inventory under uncertain demand",
+    "publication_year": 2025,
+    "author_order": 3,
+    "author_id": "",
+    "author_name": "Thi Xuan Hoa Nguyen",
+    "author_orcid": "https://orcid.org/0000-0001-6846-5304",
+    "author_position": "middle",
     "institution_id": "I94518387",
     "institution_name": "Hanoi University of Science and Technology",
     "institution_type": "education",
@@ -9309,6 +10372,7 @@
       {
         "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
         "institution_ids": [
+          "https://openalex.org/I4405276846",
           "https://openalex.org/I94518387"
         ]
       },
@@ -9350,6 +10414,67 @@
     "author_name": "Thi Xuan Hoa Nguyen",
     "author_orcid": "https://orcid.org/0000-0001-6846-5304",
     "author_position": "middle",
+    "institution_id": "I4405276846",
+    "institution_name": "Institute for Digital Technology and Economy",
+    "institution_type": "facility",
+    "ror": "https://ror.org/00g48nc73",
+    "raw_affiliation_strings": [
+      "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I4405276846",
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "VN"
+    ],
+    "country_code": "VN",
+    "country": "Vietnam",
+    "state_province": "Hanoi",
+    "region_id": "VN-hanoi",
+    "city": "Hanoi",
+    "latitude": 21.0245,
+    "longitude": 105.84117,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4405276846",
+    "affiliation_source": "https://openalex.org/W4412533860",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W4412533860",
+    "citing_doi": "10.1016/j.eswa.2025.128955",
+    "citing_title": "Optimizing supply chain operations using advanced Time-Series Mixer models for demand forecasting and inventory under uncertain demand",
+    "publication_year": 2025,
+    "author_order": 4,
+    "author_id": "",
+    "author_name": "Thi Xuan Hoa Nguyen",
+    "author_orcid": "https://orcid.org/0000-0001-6846-5304",
+    "author_position": "middle",
     "institution_id": "I94518387",
     "institution_name": "Hanoi University of Science and Technology",
     "institution_type": "education",
@@ -9369,6 +10494,7 @@
       {
         "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
         "institution_ids": [
+          "https://openalex.org/I4405276846",
           "https://openalex.org/I94518387"
         ]
       },
@@ -9410,6 +10536,60 @@
     "author_name": "Ngoc Thang Tran",
     "author_orcid": "https://orcid.org/0000-0002-2117-8663",
     "author_position": "middle",
+    "institution_id": "I4405276846",
+    "institution_name": "Institute for Digital Technology and Economy",
+    "institution_type": "facility",
+    "ror": "https://ror.org/00g48nc73",
+    "raw_affiliation_strings": [
+      "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I4405276846",
+          "https://openalex.org/I94518387"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "VN"
+    ],
+    "country_code": "VN",
+    "country": "Vietnam",
+    "state_province": "Hanoi",
+    "region_id": "VN-hanoi",
+    "city": "Hanoi",
+    "latitude": 21.0245,
+    "longitude": 105.84117,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4405276846",
+    "affiliation_source": "https://openalex.org/W4412533860",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W4412533860",
+    "citing_doi": "10.1016/j.eswa.2025.128955",
+    "citing_title": "Optimizing supply chain operations using advanced Time-Series Mixer models for demand forecasting and inventory under uncertain demand",
+    "publication_year": 2025,
+    "author_order": 5,
+    "author_id": "A5011509107",
+    "author_name": "Ngoc Thang Tran",
+    "author_orcid": "https://orcid.org/0000-0002-2117-8663",
+    "author_position": "middle",
     "institution_id": "I94518387",
     "institution_name": "Hanoi University of Science and Technology",
     "institution_type": "education",
@@ -9428,6 +10608,7 @@
       {
         "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
         "institution_ids": [
+          "https://openalex.org/I4405276846",
           "https://openalex.org/I94518387"
         ]
       }
@@ -9444,6 +10625,67 @@
     "longitude": 105.84117,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I94518387",
+    "affiliation_source": "https://openalex.org/W4412533860",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W4412533860",
+    "citing_doi": "10.1016/j.eswa.2025.128955",
+    "citing_title": "Optimizing supply chain operations using advanced Time-Series Mixer models for demand forecasting and inventory under uncertain demand",
+    "publication_year": 2025,
+    "author_order": 6,
+    "author_id": "A5043055153",
+    "author_name": "Thi Ha Nguyen",
+    "author_orcid": "https://orcid.org/0009-0003-7865-774X",
+    "author_position": "middle",
+    "institution_id": "I4405276846",
+    "institution_name": "Institute for Digital Technology and Economy",
+    "institution_type": "facility",
+    "ror": "https://ror.org/00g48nc73",
+    "raw_affiliation_strings": [
+      "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I4405276846",
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "VN"
+    ],
+    "country_code": "VN",
+    "country": "Vietnam",
+    "state_province": "Hanoi",
+    "region_id": "VN-hanoi",
+    "city": "Hanoi",
+    "latitude": 21.0245,
+    "longitude": 105.84117,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4405276846",
     "affiliation_source": "https://openalex.org/W4412533860",
     "verified_region_text": null,
     "region_basis": "OpenAlex institution.geo.region",
@@ -9482,6 +10724,7 @@
       {
         "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
         "institution_ids": [
+          "https://openalex.org/I4405276846",
           "https://openalex.org/I94518387"
         ]
       },
@@ -9523,6 +10766,67 @@
     "author_name": "Thi Ha Nguyen",
     "author_orcid": "https://orcid.org/0009-0003-7865-774X",
     "author_position": "middle",
+    "institution_id": "I4405276846",
+    "institution_name": "Institute for Digital Technology and Economy",
+    "institution_type": "facility",
+    "ror": "https://ror.org/00g48nc73",
+    "raw_affiliation_strings": [
+      "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+      "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam"
+    ],
+    "raw_affiliation_institution_links": [
+      {
+        "raw_affiliation_string": "Faculty of Applied Mathematics and Informatics, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I4405276846",
+          "https://openalex.org/I94518387"
+        ]
+      },
+      {
+        "raw_affiliation_string": "School of Economics and Management, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
+        "institution_ids": [
+          "https://openalex.org/I94518387"
+        ]
+      }
+    ],
+    "reported_country_codes": [
+      "VN"
+    ],
+    "country_code": "VN",
+    "country": "Vietnam",
+    "state_province": "Hanoi",
+    "region_id": "VN-hanoi",
+    "city": "Hanoi",
+    "latitude": 21.0245,
+    "longitude": 105.84117,
+    "geo_status": "institution_geo",
+    "geo_source": "https://api.openalex.org/institutions/I4405276846",
+    "affiliation_source": "https://openalex.org/W4412533860",
+    "verified_region_text": null,
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
+    "coordinate_precision": "institution_city_point",
+    "is_direct_self_citation": false,
+    "included_in_public_map": true
+  },
+  {
+    "citing_work_id": "W4412533860",
+    "citing_doi": "10.1016/j.eswa.2025.128955",
+    "citing_title": "Optimizing supply chain operations using advanced Time-Series Mixer models for demand forecasting and inventory under uncertain demand",
+    "publication_year": 2025,
+    "author_order": 7,
+    "author_id": "A5043055153",
+    "author_name": "Thi Ha Nguyen",
+    "author_orcid": "https://orcid.org/0009-0003-7865-774X",
+    "author_position": "middle",
     "institution_id": "I94518387",
     "institution_name": "Hanoi University of Science and Technology",
     "institution_type": "education",
@@ -9542,6 +10846,7 @@
       {
         "raw_affiliation_string": "Institute for Digital Technology and Economy, Hanoi University of Science and Technology, No. 1, Dai Co Viet Road, Hanoi, 100000, Vietnam",
         "institution_ids": [
+          "https://openalex.org/I4405276846",
           "https://openalex.org/I94518387"
         ]
       },
@@ -9627,7 +10932,7 @@
     "author_order": 9,
     "author_id": "A5067848984",
     "author_name": "Hai Anh Vu",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0000-0002-0688-4711",
     "author_position": "last",
     "institution_id": "I94518387",
     "institution_name": "Hanoi University of Science and Technology",
@@ -9872,8 +11177,8 @@
     "publication_year": 2025,
     "author_order": 4,
     "author_id": "A5008070913",
-    "author_name": "Valeriy Vyatkin",
-    "author_orcid": null,
+    "author_name": "Valeriy V. Vyatkin",
+    "author_orcid": "https://orcid.org/0000-0002-9315-9920",
     "author_position": "last",
     "institution_id": "I190632392",
     "institution_name": "Luleå University of Technology",
@@ -9906,14 +11211,14 @@
     "state_province": "Norrbotten",
     "region_id": "SE-norrbotten",
     "city": "Luleå",
-    "latitude": 65.58415222167969,
-    "longitude": 22.15464973449707,
+    "latitude": 65.58415,
+    "longitude": 22.15465,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I190632392",
     "affiliation_source": "https://openalex.org/W4409524339",
     "verified_region_text": null,
-    "region_basis": "Luleå municipal authority identifies the municipality as part of Norrbotten County; institution city coordinates fall outside the Natural Earth coastline polygon.",
-    "region_source": "https://www.lulea.se/kommun--politik/fakta-och-statistik/fakta-om-lulea-kommun.html",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
     "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
@@ -9926,8 +11231,8 @@
     "publication_year": 2025,
     "author_order": 4,
     "author_id": "A5008070913",
-    "author_name": "Valeriy Vyatkin",
-    "author_orcid": null,
+    "author_name": "Valeriy V. Vyatkin",
+    "author_orcid": "https://orcid.org/0000-0002-9315-9920",
     "author_position": "last",
     "institution_id": "I9927081",
     "institution_name": "Aalto University",
@@ -10236,15 +11541,15 @@
     "state_province": "Hunan",
     "region_id": "CN-hunan",
     "city": "Huaihua",
-    "latitude": 27.563369750976562,
-    "longitude": 110.00404357910156,
+    "latitude": 27.56337,
+    "longitude": 110.00404,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I12393601",
     "affiliation_source": "https://openalex.org/W4412072274",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-HN",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -10579,7 +11884,7 @@
     "author_order": 1,
     "author_id": "A5088288182",
     "author_name": "Minjun Zhai",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0008-8701-0565",
     "author_position": "first",
     "institution_id": "I143868143",
     "institution_name": "Anhui University",
@@ -10604,15 +11909,15 @@
     "state_province": "Anhui",
     "region_id": "CN-anhui",
     "city": "Hefei",
-    "latitude": 31.863889694213867,
-    "longitude": 117.28083038330078,
+    "latitude": 31.86389,
+    "longitude": 117.28083,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I143868143",
     "affiliation_source": "https://openalex.org/W4416747394",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-AH",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -10657,15 +11962,15 @@
     "state_province": "Anhui",
     "region_id": "CN-anhui",
     "city": "Hefei",
-    "latitude": 31.863889694213867,
-    "longitude": 117.28083038330078,
+    "latitude": 31.86389,
+    "longitude": 117.28083,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I143868143",
     "affiliation_source": "https://openalex.org/W4416747394",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-AH",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -10731,7 +12036,7 @@
     "author_order": 3,
     "author_id": "A5102955118",
     "author_name": "Yibo Duan",
-    "author_orcid": "https://orcid.org/0000-0001-9512-3588",
+    "author_orcid": "https://orcid.org/0009-0009-6401-9839",
     "author_position": "middle",
     "institution_id": "I111753288",
     "institution_name": "Fujian Normal University",
@@ -10756,15 +12061,15 @@
     "state_province": "Fujian",
     "region_id": "CN-fujian",
     "city": "Fuzhou",
-    "latitude": 26.061389923095703,
-    "longitude": 119.30610656738281,
+    "latitude": 26.06139,
+    "longitude": 119.30611,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I111753288",
     "affiliation_source": "https://openalex.org/W4416747394",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-FJ",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -10777,7 +12082,7 @@
     "author_order": 4,
     "author_id": "A5113274592",
     "author_name": "Qihang Zhen",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0009-2828-9161",
     "author_position": "middle",
     "institution_id": "I143868143",
     "institution_name": "Anhui University",
@@ -10802,15 +12107,15 @@
     "state_province": "Anhui",
     "region_id": "CN-anhui",
     "city": "Hefei",
-    "latitude": 31.863889694213867,
-    "longitude": 117.28083038330078,
+    "latitude": 31.86389,
+    "longitude": 117.28083,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I143868143",
     "affiliation_source": "https://openalex.org/W4416747394",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-AH",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -10940,15 +12245,15 @@
     "state_province": "Anhui",
     "region_id": "CN-anhui",
     "city": "Hefei",
-    "latitude": 31.863889694213867,
-    "longitude": 117.28083038330078,
+    "latitude": 31.86389,
+    "longitude": 117.28083,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I143868143",
     "affiliation_source": "https://openalex.org/W4416747394",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-AH",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -11145,7 +12450,7 @@
     "author_order": 2,
     "author_id": "A5098751843",
     "author_name": "Channaganu Paramaiah",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0000-0003-3504-2481",
     "author_position": "middle",
     "institution_id": "I2799888298",
     "institution_name": "Skyline University College",
@@ -12188,15 +13493,15 @@
     "state_province": "Sichuan",
     "region_id": "CN-sichuan",
     "city": "Chengdu",
-    "latitude": 30.666669845581055,
-    "longitude": 104.0666732788086,
+    "latitude": 30.66667,
+    "longitude": 104.06667,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I4800084",
     "affiliation_source": "https://www.sciengine.com/doi/10.16383/j.aas.c240706",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-SC",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -12234,15 +13539,15 @@
     "state_province": "Shanghai",
     "region_id": "CN-shanghai",
     "city": "Shanghai",
-    "latitude": 31.222219467163086,
-    "longitude": 121.45806121826172,
+    "latitude": 31.22222,
+    "longitude": 121.45806,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I148128674",
     "affiliation_source": "https://openalex.org/W4402577629",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-SH",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -12280,15 +13585,15 @@
     "state_province": "Shanghai",
     "region_id": "CN-shanghai",
     "city": "Shanghai",
-    "latitude": 31.222219467163086,
-    "longitude": 121.45806121826172,
+    "latitude": 31.22222,
+    "longitude": 121.45806,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I148128674",
     "affiliation_source": "https://openalex.org/W4402577629",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-SH",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -13178,15 +14483,15 @@
     "state_province": "Jiangsu",
     "region_id": "CN-jiangsu",
     "city": "Xuzhou",
-    "latitude": 34.20441818237305,
-    "longitude": 117.28385925292969,
+    "latitude": 34.20442,
+    "longitude": 117.28386,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I25757504",
     "affiliation_source": "https://openalex.org/W4397026601",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-JS",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -13945,15 +15250,15 @@
     "state_province": "Jiangsu",
     "region_id": "CN-jiangsu",
     "city": "Suzhou",
-    "latitude": 31.304079055786133,
-    "longitude": 120.59538269042969,
+    "latitude": 31.30408,
+    "longitude": 120.59538,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I308837",
     "affiliation_source": "https://openalex.org/W4396930200",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-JS",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -13991,15 +15296,15 @@
     "state_province": "Jiangsu",
     "region_id": "CN-jiangsu",
     "city": "Suzhou",
-    "latitude": 31.304079055786133,
-    "longitude": 120.59538269042969,
+    "latitude": 31.30408,
+    "longitude": 120.59538,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I308837",
     "affiliation_source": "https://openalex.org/W4396930200",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-JS",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -14012,7 +15317,7 @@
     "author_order": 3,
     "author_id": "A5101149407",
     "author_name": "Shuxian Zhu",
-    "author_orcid": null,
+    "author_orcid": "https://orcid.org/0009-0000-7470-6944",
     "author_position": "middle",
     "institution_id": "I308837",
     "institution_name": "Suzhou University of Science and Technology",
@@ -14037,15 +15342,15 @@
     "state_province": "Jiangsu",
     "region_id": "CN-jiangsu",
     "city": "Suzhou",
-    "latitude": 31.304079055786133,
-    "longitude": 120.59538269042969,
+    "latitude": 31.30408,
+    "longitude": 120.59538,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I308837",
     "affiliation_source": "https://openalex.org/W4396930200",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-JS",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -14083,15 +15388,15 @@
     "state_province": "Jiangsu",
     "region_id": "CN-jiangsu",
     "city": "Suzhou",
-    "latitude": 31.304079055786133,
-    "longitude": 120.59538269042969,
+    "latitude": 31.30408,
+    "longitude": 120.59538,
     "geo_status": "institution_geo",
     "geo_source": "https://api.openalex.org/institutions/I308837",
     "affiliation_source": "https://openalex.org/W4396930200",
     "verified_region_text": null,
-    "region_basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
-    "region_source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
-    "region_admin1_code": "CN-JS",
+    "region_basis": "OpenAlex institution.geo.region",
+    "region_source": null,
+    "region_admin1_code": null,
     "coordinate_precision": "institution_city_point",
     "is_direct_self_citation": false,
     "included_in_public_map": true
@@ -14895,9 +16200,9 @@
     "author_name": "Runyun Yao",
     "author_orcid": null,
     "author_position": "middle",
-    "institution_id": "",
-    "institution_name": "",
-    "institution_type": null,
+    "institution_id": "LOCAL-CMB-HANGZHOU",
+    "institution_name": "CMB Network Technology (Hangzhou) Co., Ltd.",
+    "institution_type": "company",
     "ror": null,
     "raw_affiliation_strings": [
       "CMB Network Technology (Hangzhou) Co., Ltd.,HANGZHOU,China",
@@ -14906,31 +16211,37 @@
     "raw_affiliation_institution_links": [
       {
         "raw_affiliation_string": "CMB Network Technology (Hangzhou) Co., Ltd.,HANGZHOU,China",
-        "institution_ids": []
+        "institution_ids": [
+          "LOCAL-CMB-HANGZHOU"
+        ]
       },
       {
         "raw_affiliation_string": "CMB Network Technology (Hangzhou) Co., Ltd., HANGZHOU, China",
-        "institution_ids": []
+        "institution_ids": [
+          "LOCAL-CMB-HANGZHOU"
+        ]
       }
     ],
-    "reported_country_codes": [],
-    "country_code": "",
-    "country": "",
-    "state_province": "",
-    "region_id": "",
-    "city": null,
-    "latitude": null,
-    "longitude": null,
-    "geo_status": "unresolved_institution",
-    "geo_source": "",
-    "affiliation_source": "https://openalex.org/W4391095559",
-    "verified_region_text": null,
-    "region_basis": null,
-    "region_source": null,
+    "reported_country_codes": [
+      "CN"
+    ],
+    "country_code": "CN",
+    "country": "China",
+    "state_province": "Zhejiang",
+    "region_id": "CN-zhejiang",
+    "city": "Hangzhou",
+    "latitude": 30.29365,
+    "longitude": 120.16142,
+    "geo_status": "institution_geo",
+    "geo_source": "https://sws.geonames.org/1808926/",
+    "affiliation_source": "https://api.openalex.org/works/W4391095559",
+    "verified_region_text": "Zhejiang",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
     "region_admin1_code": null,
-    "coordinate_precision": "unavailable",
+    "coordinate_precision": "publication_city_representative_not_premises",
     "is_direct_self_citation": false,
-    "included_in_public_map": false
+    "included_in_public_map": true
   },
   {
     "citing_work_id": "W4391095559",
@@ -15105,7 +16416,7 @@
     "publication_year": 2022,
     "author_order": 1,
     "author_id": "A5081020457",
-    "author_name": "Y. NaitMalek",
+    "author_name": "Youssef NaitMalek",
     "author_orcid": "https://orcid.org/0000-0001-9378-9984",
     "author_position": "first",
     "institution_id": "I126477371",
@@ -15158,7 +16469,7 @@
     "publication_year": 2022,
     "author_order": 1,
     "author_id": "A5081020457",
-    "author_name": "Y. NaitMalek",
+    "author_name": "Youssef NaitMalek",
     "author_orcid": "https://orcid.org/0000-0001-9378-9984",
     "author_position": "first",
     "institution_id": "I4210106663",

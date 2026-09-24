@@ -1,0 +1,238 @@
+{
+  "url": "https://api.openalex.org/works/W7207722881?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted",
+  "retrieved_at": "2026-09-24T15:49:34+00:00",
+  "data": {
+    "id": "https://openalex.org/W7207722881",
+    "doi": "https://doi.org/10.1109/tcyb.2026.3725996",
+    "title": "Event-Triggered Self-Learning Parallel Tracking Control for Continuous-Time Nonlinear Systems With Actuator Faults",
+    "publication_year": 2026,
+    "publication_date": "2026-01-01",
+    "type": "article",
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5004654524",
+          "display_name": "Wendi Chen",
+          "orcid": "https://orcid.org/0000-0002-1554-8090"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I111950717",
+            "display_name": "Macau University of Science and Technology",
+            "ror": "https://ror.org/03jqs2n27",
+            "country_code": "MO",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I111950717",
+              "https://openalex.org/I4391767947"
+            ]
+          }
+        ],
+        "countries": [
+          "MO"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wendi Chen",
+        "raw_affiliation_strings": [
+          "Macau University of Science and Technology"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Macau University of Science and Technology",
+            "institution_ids": [
+              "https://openalex.org/I111950717"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5087825639",
+          "display_name": "Qinglai Wei",
+          "orcid": "https://orcid.org/0000-0001-7002-9800"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I19820366",
+            "display_name": "Chinese Academy of Sciences",
+            "ror": "https://ror.org/034t30j35",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I19820366"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qinglai Wei",
+        "raw_affiliation_strings": [
+          "Institute of Automation, Chinese Academy of Sciences"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-7002-9800",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Automation, Chinese Academy of Sciences",
+            "institution_ids": [
+              "https://openalex.org/I19820366"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102944089",
+          "display_name": "Shanshan Jiao",
+          "orcid": "https://orcid.org/0009-0001-8584-9155"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I111950717",
+            "display_name": "Macau University of Science and Technology",
+            "ror": "https://ror.org/03jqs2n27",
+            "country_code": "MO",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I111950717",
+              "https://openalex.org/I4391767947"
+            ]
+          }
+        ],
+        "countries": [
+          "MO"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shanshan Jiao",
+        "raw_affiliation_strings": [
+          "Macau University of Science and Technology"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0001-8584-9155",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Macau University of Science and Technology",
+            "institution_ids": [
+              "https://openalex.org/I111950717"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5149915467",
+          "display_name": "Yu Liu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210165038",
+            "display_name": "University of Chinese Academy of Sciences",
+            "ror": "https://ror.org/05qbk4x57",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yu Liu",
+        "raw_affiliation_strings": [
+          "University of Chinese Academy of Sciences"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Chinese Academy of Sciences",
+            "institution_ids": [
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5076518693",
+          "display_name": "Jun Xiao",
+          "orcid": "https://orcid.org/0000-0002-1799-3948"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210165038",
+            "display_name": "University of Chinese Academy of Sciences",
+            "ror": "https://ror.org/05qbk4x57",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jun Xiao",
+        "raw_affiliation_strings": [
+          "University of Chinese Academy of Sciences"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-1799-3948",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Chinese Academy of Sciences",
+            "institution_ids": [
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_location": {
+      "id": "doi:10.1109/tcyb.2026.3725996",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tcyb.2026.3725996",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210191041",
+        "display_name": "IEEE Transactions on Cybernetics",
+        "issn_l": "2168-2267",
+        "issn": [
+          "2168-2267",
+          "2168-2275"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Cybernetics",
+      "raw_type": "journal-article"
+    },
+    "is_retracted": false
+  }
+}

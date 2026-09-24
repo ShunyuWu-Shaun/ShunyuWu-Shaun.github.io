@@ -1,10 +1,10 @@
 {
   "url": "https://api.openalex.org/works?filter=cites%3AW4393188243&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
-  "retrieved_at": "2026-09-09T14:26:07+00:00",
+  "retrieved_at": "2026-09-24T15:49:32+00:00",
   "data": {
     "meta": {
       "count": 4,
-      "db_response_time_ms": 190,
+      "db_response_time_ms": 14,
       "page": null,
       "per_page": 100,
       "next_cursor": null,
@@ -187,7 +187,7 @@
             "author": {
               "id": "https://openalex.org/A5082519745",
               "display_name": "Linpu He",
-              "orcid": null
+              "orcid": "https://orcid.org/0009-0009-9532-5273"
             },
             "institutions": [
               {
@@ -223,7 +223,7 @@
             "author_position": "last",
             "author": {
               "id": "https://openalex.org/A5085614235",
-              "display_name": "Hong Cheng",
+              "display_name": "Hong Ming Cheng",
               "orcid": "https://orcid.org/0000-0002-4943-9060"
             },
             "institutions": [
@@ -260,7 +260,7 @@
         "primary_location": {
           "id": "doi:10.1016/j.neunet.2025.108130",
           "is_oa": false,
-          "landing_page_url": "https://www.sciencedirect.com/science/article/pii/S089360802501010X/pdf",
+          "landing_page_url": "https://doi.org/10.1016/j.neunet.2025.108130",
           "pdf_url": null,
           "source": {
             "id": "https://openalex.org/S123019304",
@@ -273,6 +273,14 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doyens",
+              "erih-plus",
+              "jufo-3",
+              "medline",
+              "norway-2"
+            ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
             "host_organization_lineage": [
@@ -317,6 +325,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-2",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310319808",
             "host_organization_name": "Institute of Electrical and Electronics Engineers",
             "host_organization_lineage": [
@@ -350,7 +363,10 @@
             "author": {
               "id": "https://openalex.org/A5101788633",
               "display_name": "Xu Huang",
-              "orcid": "https://orcid.org/0000-0002-7310-5677"
+              "orcid": "https://orcid.org/0000-0002-7310-5677",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-7310-5677"
+              ]
             },
             "institutions": [
               {
@@ -387,7 +403,10 @@
             "author": {
               "id": "https://openalex.org/A5011184498",
               "display_name": "Shaobing Xu",
-              "orcid": "https://orcid.org/0000-0002-4127-2411"
+              "orcid": "https://orcid.org/0000-0002-4127-2411",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-4127-2411"
+              ]
             },
             "institutions": [
               {
@@ -424,7 +443,10 @@
             "author": {
               "id": "https://openalex.org/A5113289279",
               "display_name": "Yueming Cao",
-              "orcid": null
+              "orcid": "https://orcid.org/0009-0003-4387-236X",
+              "observed_orcids": [
+                "https://orcid.org/0009-0003-4387-236X"
+              ]
             },
             "institutions": [
               {
@@ -461,7 +483,11 @@
             "author": {
               "id": "https://openalex.org/A5085738753",
               "display_name": "Shangyi Li",
-              "orcid": "https://orcid.org/0000-0002-4030-7280"
+              "orcid": "https://orcid.org/0000-0002-4030-7280",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-4030-7280",
+                "https://orcid.org/0009-0002-1399-1133"
+              ]
             },
             "institutions": [
               {
@@ -498,7 +524,10 @@
             "author": {
               "id": "https://openalex.org/A5100436368",
               "display_name": "Jianqiang Wang",
-              "orcid": "https://orcid.org/0000-0003-4363-6108"
+              "orcid": "https://orcid.org/0000-0003-4363-6108",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-4363-6108"
+              ]
             },
             "institutions": [
               {
@@ -535,7 +564,11 @@
             "author": {
               "id": "https://openalex.org/A5031855986",
               "display_name": "Keqiang Li",
-              "orcid": "https://orcid.org/0000-0002-9333-7416"
+              "orcid": "https://orcid.org/0000-0002-9333-7416",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-9333-7416",
+                "https://orcid.org/0000-0001-6223-5401"
+              ]
             },
             "institutions": [
               {
@@ -584,6 +617,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-2",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310319808",
             "host_organization_name": "Institute of Electrical and Electronics Engineers",
             "host_organization_lineage": [

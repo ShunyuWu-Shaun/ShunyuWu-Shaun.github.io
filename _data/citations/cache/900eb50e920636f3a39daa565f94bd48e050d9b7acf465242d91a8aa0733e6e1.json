@@ -1,0 +1,23 @@
+{
+  "url": "https://api.openalex.org/institutions/I86987016?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
+  "retrieved_at": "2026-09-24T15:49:48+00:00",
+  "data": {
+    "id": "https://openalex.org/I86987016",
+    "ror": "https://ror.org/026vcq606",
+    "display_name": "KTH Royal Institute of Technology",
+    "country_code": "SE",
+    "type": "education",
+    "geo": {
+      "city": "Stockholm",
+      "geonames_city_id": "2673730",
+      "region": "Stockholm",
+      "country_code": "SE",
+      "country": "Sweden",
+      "latitude": 59.32938,
+      "longitude": 18.06871
+    },
+    "lineage": [
+      "https://openalex.org/I86987016"
+    ]
+  }
+}

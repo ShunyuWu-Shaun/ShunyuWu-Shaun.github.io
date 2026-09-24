@@ -1,6 +1,6 @@
 {
   "url": "https://api.openalex.org/institutions/I143868143?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
-  "retrieved_at": "2026-09-09T14:26:10+00:00",
+  "retrieved_at": "2026-09-24T15:49:36+00:00",
   "data": {
     "id": "https://openalex.org/I143868143",
     "ror": "https://ror.org/05th6yx34",
@@ -10,11 +10,11 @@
     "geo": {
       "city": "Hefei",
       "geonames_city_id": "1808722",
-      "region": null,
+      "region": "Anhui",
       "country_code": "CN",
       "country": "China",
-      "latitude": 31.863889694213867,
-      "longitude": 117.28083038330078
+      "latitude": 31.86389,
+      "longitude": 117.28083
     },
     "lineage": [
       "https://openalex.org/I143868143"

@@ -1,10 +1,10 @@
 {
   "url": "https://api.openalex.org/works?filter=cites%3AW4388740257&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
-  "retrieved_at": "2026-09-09T14:26:05+00:00",
+  "retrieved_at": "2026-09-24T15:49:31+00:00",
   "data": {
     "meta": {
       "count": 7,
-      "db_response_time_ms": 243,
+      "db_response_time_ms": 18,
       "page": null,
       "per_page": 100,
       "next_cursor": null,
@@ -39,7 +39,10 @@
             "author": {
               "id": "https://openalex.org/A5043998220",
               "display_name": "Jifei Deng",
-              "orcid": "https://orcid.org/0000-0001-6448-0494"
+              "orcid": "https://orcid.org/0000-0001-6448-0494",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-6448-0494"
+              ]
             },
             "institutions": [
               {
@@ -94,7 +97,10 @@
             "author": {
               "id": "https://openalex.org/A5036831094",
               "display_name": "Seppo Sierla",
-              "orcid": "https://orcid.org/0000-0002-0402-315X"
+              "orcid": "https://orcid.org/0000-0002-0402-315X",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-0402-315X"
+              ]
             },
             "institutions": [
               {
@@ -131,7 +137,12 @@
             "author": {
               "id": "https://openalex.org/A5004502095",
               "display_name": "Jie Sun",
-              "orcid": "https://orcid.org/0000-0003-2553-1804"
+              "orcid": "https://orcid.org/0000-0003-2553-1804",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-2553-1804",
+                "https://orcid.org/0000-0002-1486-0461",
+                "https://orcid.org/0000-0002-5952-1850"
+              ]
             },
             "institutions": [
               {
@@ -167,8 +178,11 @@
             "author_position": "last",
             "author": {
               "id": "https://openalex.org/A5008070913",
-              "display_name": "Valeriy Vyatkin",
-              "orcid": null
+              "display_name": "Valeriy V. Vyatkin",
+              "orcid": "https://orcid.org/0000-0002-9315-9920",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-9315-9920"
+              ]
             },
             "institutions": [
               {
@@ -235,6 +249,13 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doyens",
+              "jufo-2",
+              "ki-jl-2",
+              "norway-2"
+            ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
             "host_organization_lineage": [
@@ -370,6 +391,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
             "host_organization_lineage": [
@@ -638,6 +664,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-3",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310319808",
             "host_organization_name": "Institute of Electrical and Electronics Engineers",
             "host_organization_lineage": [
@@ -671,7 +702,10 @@
             "author": {
               "id": "https://openalex.org/A5082913875",
               "display_name": "Yuewei Zhang",
-              "orcid": "https://orcid.org/0009-0003-7387-2360"
+              "orcid": "https://orcid.org/0009-0003-7387-2360",
+              "observed_orcids": [
+                "https://orcid.org/0009-0003-7387-2360"
+              ]
             },
             "institutions": [
               {
@@ -708,7 +742,10 @@
             "author": {
               "id": "https://openalex.org/A5069580020",
               "display_name": "Hailei Gong",
-              "orcid": "https://orcid.org/0000-0002-0570-0773"
+              "orcid": "https://orcid.org/0000-0002-0570-0773",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-0570-0773"
+              ]
             },
             "institutions": [
               {
@@ -745,7 +782,11 @@
             "author": {
               "id": "https://openalex.org/A5101896988",
               "display_name": "Zhihai Zhang",
-              "orcid": "https://orcid.org/0000-0003-3686-5789"
+              "orcid": "https://orcid.org/0000-0003-3686-5789",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-3686-5789",
+                "https://orcid.org/0000-0002-1083-7723"
+              ]
             },
             "institutions": [
               {
@@ -794,6 +835,12 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-2",
+              "ki-jl-1",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310319808",
             "host_organization_name": "Institute of Electrical and Electronics Engineers",
             "host_organization_lineage": [
@@ -1082,21 +1129,8 @@
               "display_name": "Linghui Hu",
               "orcid": "https://orcid.org/0000-0002-4678-3229"
             },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I4210132615",
-                "display_name": "Zhejiang Energy Group (China)",
-                "ror": "https://ror.org/03a2tkf74",
-                "country_code": "CN",
-                "type": "company",
-                "lineage": [
-                  "https://openalex.org/I4210132615"
-                ]
-              }
-            ],
-            "countries": [
-              "CN"
-            ],
+            "institutions": [],
+            "countries": [],
             "is_corresponding": false,
             "raw_author_name": "Linghui Hu",
             "raw_affiliation_strings": [
@@ -1106,9 +1140,7 @@
             "affiliations": [
               {
                 "raw_affiliation_string": "Hangzhou Oxygen Plant Group Company Limited, Hangzhou, 310000, Zhejiang, China",
-                "institution_ids": [
-                  "https://openalex.org/I4210132615"
-                ]
+                "institution_ids": []
               }
             ]
           }
@@ -1129,6 +1161,13 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doyens",
+              "jufo-2",
+              "ki-jl-2",
+              "norway-2"
+            ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
             "host_organization_lineage": [
@@ -1394,6 +1433,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-2",
+              "norway-2"
+            ],
             "host_organization": "https://openalex.org/P4310320547",
             "host_organization_name": "Taylor & Francis",
             "host_organization_lineage": [
@@ -1429,7 +1473,11 @@
             "author": {
               "id": "https://openalex.org/A5146613034",
               "display_name": "Kai Zhang",
-              "orcid": "https://orcid.org/0009-0009-4472-1831"
+              "orcid": "https://orcid.org/0009-0009-4472-1831",
+              "observed_orcids": [
+                "https://orcid.org/0009-0009-4472-1831",
+                "https://orcid.org/0009-0003-4720-4801"
+              ]
             },
             "institutions": [
               {
@@ -1473,7 +1521,10 @@
             "author": {
               "id": "https://openalex.org/A5126515100",
               "display_name": "Zongxu Cao",
-              "orcid": null
+              "orcid": "https://orcid.org/0009-0001-5238-6772",
+              "observed_orcids": [
+                "https://orcid.org/0009-0001-5238-6772"
+              ]
             },
             "institutions": [
               {
@@ -1510,7 +1561,10 @@
             "author": {
               "id": "https://openalex.org/A5016153320",
               "display_name": "Kaixiang Peng",
-              "orcid": "https://orcid.org/0000-0001-8314-3047"
+              "orcid": "https://orcid.org/0000-0001-8314-3047",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-8314-3047"
+              ]
             },
             "institutions": [
               {
@@ -1554,23 +1608,13 @@
             "author": {
               "id": "https://openalex.org/A5126450819",
               "display_name": "Yibin Rui",
-              "orcid": null
+              "orcid": "https://orcid.org/0009-0004-3448-8021",
+              "observed_orcids": [
+                "https://orcid.org/0009-0004-3448-8021"
+              ]
             },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I4210110794",
-                "display_name": "Taiyuan Heavy Industry (China)",
-                "ror": "https://ror.org/022vzex26",
-                "country_code": "CN",
-                "type": "company",
-                "lineage": [
-                  "https://openalex.org/I4210110794"
-                ]
-              }
-            ],
-            "countries": [
-              "CN"
-            ],
+            "institutions": [],
+            "countries": [],
             "is_corresponding": false,
             "raw_author_name": "Yibin Rui",
             "raw_affiliation_strings": [
@@ -1580,9 +1624,7 @@
             "affiliations": [
               {
                 "raw_affiliation_string": "Beijing Jianlong Heavy Industry Group Co. Ltd, Beijing, 100070, PR China",
-                "institution_ids": [
-                  "https://openalex.org/I4210110794"
-                ]
+                "institution_ids": []
               }
             ]
           }
@@ -1603,6 +1645,13 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doyens",
+              "jufo-2",
+              "ki-jl-2",
+              "norway-2"
+            ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
             "host_organization_lineage": [

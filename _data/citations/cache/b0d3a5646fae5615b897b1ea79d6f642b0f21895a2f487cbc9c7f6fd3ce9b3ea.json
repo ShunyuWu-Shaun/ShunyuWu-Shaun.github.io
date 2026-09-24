@@ -1,10 +1,10 @@
 {
   "url": "https://api.openalex.org/works?filter=cites%3AW3202625584&per_page=100&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted&corpus=all",
-  "retrieved_at": "2026-09-09T14:26:04+00:00",
+  "retrieved_at": "2026-09-24T15:49:31+00:00",
   "data": {
     "meta": {
       "count": 3,
-      "db_response_time_ms": 30,
+      "db_response_time_ms": 22,
       "page": null,
       "per_page": 100,
       "next_cursor": null,
@@ -39,7 +39,8 @@
             "author": {
               "id": "https://openalex.org/A5098316355",
               "display_name": "Redemptor Jr Laceda Taloma",
-              "orcid": null
+              "orcid": null,
+              "observed_orcids": []
             },
             "institutions": [
               {
@@ -76,7 +77,10 @@
             "author": {
               "id": "https://openalex.org/A5022341678",
               "display_name": "Francesca Cuomo",
-              "orcid": "https://orcid.org/0000-0002-9122-7993"
+              "orcid": "https://orcid.org/0000-0002-9122-7993",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-9122-7993"
+              ]
             },
             "institutions": [
               {
@@ -130,7 +134,10 @@
             "author": {
               "id": "https://openalex.org/A5019647783",
               "display_name": "Danilo Comminiello",
-              "orcid": "https://orcid.org/0000-0003-4067-4504"
+              "orcid": "https://orcid.org/0000-0003-4067-4504",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-4067-4504"
+              ]
             },
             "institutions": [
               {
@@ -167,7 +174,8 @@
             "author": {
               "id": "https://openalex.org/A5110606442",
               "display_name": "P. Pisani",
-              "orcid": null
+              "orcid": null,
+              "observed_orcids": []
             },
             "institutions": [],
             "countries": [],
@@ -201,6 +209,12 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "erih-plus",
+              "jufo-1",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
@@ -235,7 +249,7 @@
             "author_position": "first",
             "author": {
               "id": "https://openalex.org/A5081020457",
-              "display_name": "Y. NaitMalek",
+              "display_name": "Youssef NaitMalek",
               "orcid": "https://orcid.org/0000-0001-9378-9984"
             },
             "institutions": [
@@ -385,7 +399,6 @@
                 "type": "facility",
                 "lineage": [
                   "https://openalex.org/I1294671590",
-                  "https://openalex.org/I1294671590",
                   "https://openalex.org/I2802759292",
                   "https://openalex.org/I37553959",
                   "https://openalex.org/I4210095849",
@@ -477,6 +490,12 @@
             "is_oa": true,
             "is_in_doaj": true,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "jufo-1",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310319808",
             "host_organization_name": "Institute of Electrical and Electronics Engineers",
             "host_organization_lineage": [
@@ -670,6 +689,11 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [

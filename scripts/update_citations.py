@@ -214,12 +214,16 @@ def main():
         edge_index[pair]['scholar_source_url'] = record['scholar_record']['source_page_url']
         edge_index[pair]['scholar_retrieved_at'] = record['scholar_record']['retrieved_at']
     print(f'Retrieved {len(edges)} citation edges from {len(works)} distinct citing works', flush=True)
-    publisher_path = BASE/'sources/publisher-affiliations.json'
-    if publisher_path.exists():
-        patch = json.loads(publisher_path.read_text())
+    publisher_patches = []
+    for filename in ('publisher-affiliations.json', 'publisher-affiliation-updates.json'):
+        publisher_path = BASE/'sources'/filename
+        if publisher_path.exists():
+            payload = json.loads(publisher_path.read_text())
+            publisher_patches.extend(payload if isinstance(payload, list) else [payload])
+    for patch in publisher_patches:
         w = works.get(patch['work_id'])
         if w:
-            w['authorships_original'] = copy.deepcopy(w.get('authorships', []))
+            w.setdefault('authorships_original', copy.deepcopy(w.get('authorships', [])))
             for verified in patch['authors']:
                 a = w['authorships'][verified['author_order']-1]
                 if a['author']['display_name'].casefold() != verified['author_name'].casefold():
@@ -227,11 +231,16 @@ def main():
                 a['raw_affiliation_strings'] = verified['raw_affiliation_strings']
                 a['countries'] = [verified['country_code']]
                 a['institutions'] = verified.get('institutions', [])
-                a['affiliations'] = [{'raw_affiliation_string':v,'institution_ids':[i['id'] for i in a['institutions']]} for v in a['raw_affiliation_strings']]
+                a['affiliations'] = verified.get('affiliations') or [{'raw_affiliation_string':v,'institution_ids':[i['id'] for i in a['institutions']]} for v in a['raw_affiliation_strings']]
                 a['affiliation_source'] = patch['source']
                 a['verified_region'] = verified['region']
-            w['authorships_complete_verified'] = patch['authorships_complete_verified']
-            work_sources[patch['work_id']].add('Publisher article')
+            if patch.get('authorships_complete_verified'):
+                w['authorships_complete_verified'] = True
+                w['is_authors_truncated'] = False
+            for field, value in patch.get('publication_metadata', {}).items():
+                w.setdefault('publication_metadata_original', {})[field] = w.get(field)
+                w[field] = value
+            work_sources[patch['work_id']].add(patch.get('source_label', 'Publisher article'))
     manual_path = BASE/'sources/manual-institutions.json'
     manual_institutions = {sid(i['id']):i for i in json.loads(manual_path.read_text())} if manual_path.exists() else {}
     institution_ids = sorted({sid(i['id']) for w in works.values() for a in w.get('authorships', []) for i in a.get('institutions', []) if i.get('id')})
@@ -276,6 +285,12 @@ def main():
         work_regions = set(); work_countries = set(); work_institutions = set()
         for author_index, a in enumerate(authors, 1):
             a_insts = a.get('institutions', [])
+            # Index updates can list the same institution ID under several aliases.
+            # Preserve that input, while keeping one author–institution ledger row.
+            unique_insts = {sid(i.get('id')) or i.get('display_name'): i for i in a_insts}
+            if len(unique_insts) != len(a_insts):
+                a['institutions_original'] = copy.deepcopy(a_insts)
+                a_insts = a['institutions'] = list(unique_insts.values())
             raw = a.get('raw_affiliation_strings', [])
             countries = a.get('countries', [])
             has_education = any(i.get('type') == 'education' for i in a_insts)
@@ -391,12 +406,12 @@ def main():
     manifest={'started_at':started,'completed_at':now(),'data_retrieved_at':retrieved_at,'source':'Google Scholar, OpenAlex, and verified publisher metadata',
       'scholar_cross_check':{k:v for k,v in scholar.items() if k not in ('records','new_works')},
       'target_scope':'14 DOI-verified works on Google Scholar plus one publisher-ORCID-verified supplementary work',
-      'authorship_truncation_note':'The current API omits is_authors_truncated. Unknown values remain null; no claim of independently verified author-list completeness is made.',
+      'authorship_truncation_note':'The API often omits is_authors_truncated. Unknown values remain null; only lists independently verified from publisher pages or PDFs are explicitly marked complete.',
       'non_research_rule':'Retain type=paratext records in the retrieval ledger; exclude them from citing-paper and map counts.',
       'corpus':'all','coverage':'All cursor pages for each target. OpenAlex coverage is not identical to Google Scholar.',
       'summary':summary,'queries':[{k:v for k,v in q.items() if k!='works'} for q in queried],
       'requests':sorted(REQUESTS,key=lambda r:r['url']),
-      'map_precision':'Institution city coordinates with state/province labels from OpenAlex institution.geo; missing regions are completed by point-in-polygon matching against Natural Earth v5.1.2, with source hashes and original geography retained. Regional symbols use a member institution point, not a state centroid.',
+      'map_precision':'Institution city coordinates from OpenAlex or GeoNames city points for exact publication affiliation addresses. State/province labels come from the institution record, GeoNames admin1, or Natural Earth v5.1.2 point-in-polygon matching. Source hashes and original geography are retained. Regional symbols use a member institution point, not a state centroid.',
       'self_citation_definition':'The profile author OpenAlex ID or ORCID occurs among the citing authors. Coauthor-overlap is flagged separately and retained.',
       'affiliation_caveat':'Work-level affiliation strings are preserved. Institution geo describes the indexed institution/city, not a verified author-specific campus. Missing locations are not replaced by country capitals.',
       'sponsor_rule':'A Ministry of Education institution co-occurring with an education institution in one authorship is retained in the ledger but excluded as a sponsor/parent from geographical counts.'}
@@ -414,7 +429,7 @@ def main():
           'scope_basis':t['scope_basis']})
     manifest['scholar_profile_metrics_snapshot'] = {'metrics_text':scholar_targets['profile_metrics_text'],
       'retrieved_at':scholar_targets['retrieved_at'],'profile_url':scholar_targets['profile_url'],
-      'completeness':'All 66 displayed Scholar citation result records enumerated through the actual browser, across 12 pages. Duplicate versions are retained in the Scholar sheet and deduplicated for the map.'}
+      'completeness':f"All {len(scholar.get('records', []))} displayed Scholar citation result records enumerated through the actual browser, across {scholar.get('page_count', 12)} pages. Duplicate versions are retained in the Scholar sheet and deduplicated for the map."}
     manifest['geography_completeness_definition'] = 'Location completeness of returned author affiliation records only; author-list completeness itself is not independently verified.'
     write_csv(OUT/'coverage-by-publication.csv', target_coverage, list(target_coverage[0]))
     write_json(OUT/'targets.json',targets)
@@ -448,7 +463,7 @@ def main():
         return html.escape(str(value or '')).replace('|', '&#124;').replace('\n', ' ')
     report = ['# Citation ledger', '', f"Snapshot: {retrieved_at}", '',
       f"{len(edges)} verified citation relationships; {len(works)} distinct citing works; {len(self_citers)} direct self-citing works.", '',
-      'All 66 Scholar result records are preserved separately in scholar-citations.csv. This merged ledger deduplicates versions and also retains additional OpenAlex records. See the parent README for scope and counting.', '']
+      f"All {len(scholar.get('records', []))} Scholar result records are preserved separately in scholar-citations.csv. This merged ledger deduplicates versions and also retains additional OpenAlex records. See the parent README for scope and counting.", '']
     by_work = defaultdict(list)
     for row in affiliations: by_work[row['citing_work_id']].append(row)
     target_names = {sid(t['id']): doi(t['doi']) for t in targets}

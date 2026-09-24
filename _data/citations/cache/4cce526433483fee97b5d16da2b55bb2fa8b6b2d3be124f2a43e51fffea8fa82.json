@@ -1,6 +1,6 @@
 {
   "url": "https://api.openalex.org/institutions/I190632392?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
-  "retrieved_at": "2026-09-09T14:26:14+00:00",
+  "retrieved_at": "2026-09-24T15:49:39+00:00",
   "data": {
     "id": "https://openalex.org/I190632392",
     "ror": "https://ror.org/016st3p78",
@@ -10,11 +10,11 @@
     "geo": {
       "city": "Luleå",
       "geonames_city_id": "604490",
-      "region": null,
+      "region": "Norrbotten",
       "country_code": "SE",
       "country": "Sweden",
-      "latitude": 65.58415222167969,
-      "longitude": 22.15464973449707
+      "latitude": 65.58415,
+      "longitude": 22.15465
     },
     "lineage": [
       "https://openalex.org/I190632392"

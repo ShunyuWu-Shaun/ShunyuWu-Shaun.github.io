@@ -15,3 +15,6 @@ assets/figures/**/panel_*.png
 # Python bytecode created by citation maintenance scripts
 __pycache__/
 *.py[cod]
+
+# Downloaded article full texts are local reading copies, not website assets.
+/_data/citations/downloads/

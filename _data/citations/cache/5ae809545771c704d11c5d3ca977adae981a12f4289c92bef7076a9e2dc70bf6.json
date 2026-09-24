@@ -1,6 +1,6 @@
 {
   "url": "https://api.openalex.org/institutions/I25757504?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
-  "retrieved_at": "2026-09-09T14:26:15+00:00",
+  "retrieved_at": "2026-09-24T15:49:40+00:00",
   "data": {
     "id": "https://openalex.org/I25757504",
     "ror": "https://ror.org/01xt2dr21",
@@ -10,11 +10,11 @@
     "geo": {
       "city": "Xuzhou",
       "geonames_city_id": "10630003",
-      "region": null,
+      "region": "Jiangsu",
       "country_code": "CN",
       "country": "China",
-      "latitude": 34.20441818237305,
-      "longitude": 117.28385925292969
+      "latitude": 34.20442,
+      "longitude": 117.28386
     },
     "lineage": [
       "https://openalex.org/I25757504"

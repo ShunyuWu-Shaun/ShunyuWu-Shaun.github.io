@@ -1,6 +1,6 @@
 {
   "url": "https://api.openalex.org/works/doi:10.1109/TCSS.2023.3272330?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
-  "retrieved_at": "2026-09-09T14:26:01+00:00",
+  "retrieved_at": "2026-09-24T15:49:28+00:00",
   "data": {
     "id": "https://openalex.org/W4376479136",
     "doi": "https://doi.org/10.1109/tcss.2023.3272330",
@@ -14,7 +14,10 @@
         "author": {
           "id": "https://openalex.org/A5087893108",
           "display_name": "Shunyu Wu",
-          "orcid": "https://orcid.org/0000-0001-9856-2148"
+          "orcid": "https://orcid.org/0000-0001-9856-2148",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9856-2148"
+          ]
         },
         "institutions": [
           {
@@ -51,7 +54,10 @@
         "author": {
           "id": "https://openalex.org/A5100777024",
           "display_name": "Jingcheng Wang",
-          "orcid": "https://orcid.org/0000-0002-4277-1263"
+          "orcid": "https://orcid.org/0000-0002-4277-1263",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4277-1263"
+          ]
         },
         "institutions": [
           {
@@ -105,7 +111,10 @@
         "author": {
           "id": "https://openalex.org/A5040505108",
           "display_name": "Haotian Xu",
-          "orcid": "https://orcid.org/0000-0002-2180-6148"
+          "orcid": "https://orcid.org/0000-0002-2180-6148",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2180-6148"
+          ]
         },
         "institutions": [
           {
@@ -142,7 +151,10 @@
         "author": {
           "id": "https://openalex.org/A5042729110",
           "display_name": "Shangwei Zhao",
-          "orcid": "https://orcid.org/0000-0001-7786-3857"
+          "orcid": "https://orcid.org/0000-0001-7786-3857",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7786-3857"
+          ]
         },
         "institutions": [
           {
@@ -179,7 +191,11 @@
         "author": {
           "id": "https://openalex.org/A5058905701",
           "display_name": "Jiahui Xu",
-          "orcid": "https://orcid.org/0000-0002-4058-0447"
+          "orcid": "https://orcid.org/0000-0002-4058-0447",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4058-0447",
+            "https://orcid.org/0009-0004-1023-5775"
+          ]
         },
         "institutions": [
           {
@@ -228,6 +244,12 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1"
+        ],
         "host_organization": "https://openalex.org/P4310319808",
         "host_organization_name": "Institute of Electrical and Electronics Engineers",
         "host_organization_lineage": [

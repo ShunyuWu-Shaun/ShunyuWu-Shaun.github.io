@@ -1,6 +1,6 @@
 {
   "url": "https://api.openalex.org/institutions/I148128674?select=id%2Cror%2Cdisplay_name%2Ccountry_code%2Ctype%2Cgeo%2Clineage",
-  "retrieved_at": "2026-09-09T14:26:11+00:00",
+  "retrieved_at": "2026-09-24T15:49:36+00:00",
   "data": {
     "id": "https://openalex.org/I148128674",
     "ror": "https://ror.org/00ay9v204",
@@ -10,11 +10,11 @@
     "geo": {
       "city": "Shanghai",
       "geonames_city_id": "1796236",
-      "region": null,
+      "region": "Shanghai",
       "country_code": "CN",
       "country": "China",
-      "latitude": 31.222219467163086,
-      "longitude": 121.45806121826172
+      "latitude": 31.22222,
+      "longitude": 121.45806
     },
     "lineage": [
       "https://openalex.org/I148128674"

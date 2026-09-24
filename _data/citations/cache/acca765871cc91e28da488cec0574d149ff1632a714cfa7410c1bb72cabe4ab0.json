@@ -1,6 +1,6 @@
 {
   "url": "https://api.openalex.org/works/doi:10.1016/j.eswa.2026.133261?select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cis_authors_truncated%2Cprimary_location%2Cis_retracted%2Ccited_by_count",
-  "retrieved_at": "2026-09-09T14:26:02+00:00",
+  "retrieved_at": "2026-09-24T15:49:28+00:00",
   "data": {
     "id": "https://openalex.org/W7165130889",
     "doi": "https://doi.org/10.1016/j.eswa.2026.133261",
@@ -29,7 +29,7 @@
         "author": {
           "id": "https://openalex.org/A5041002670",
           "display_name": "Handong Zheng",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1807-8274"
         },
         "institutions": [],
         "countries": [],
@@ -59,7 +59,7 @@
         "author": {
           "id": "https://openalex.org/A5138927675",
           "display_name": "Qiang Zhang",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-2947-1351"
         },
         "institutions": [],
         "countries": [],
@@ -101,6 +101,13 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "jufo-2",
+          "ki-jl-2",
+          "norway-2"
+        ],
         "host_organization": "https://openalex.org/P4310320990",
         "host_organization_name": "Elsevier BV",
         "host_organization_lineage": [

@@ -1,0 +1,704 @@
+[
+  {
+    "work_id": "W7213312453",
+    "source": "https://ieeexplore.ieee.org/abstract/document/11690831/authors#authors",
+    "retrieved_at": "2026-09-24",
+    "authorships_complete_verified": true,
+    "authors": [
+      {
+        "author_order": 1,
+        "author_name": "Jingxiang Wang",
+        "raw_affiliation_strings": [
+          "State Key Laboratory of Submarine Geoscience, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "State Key Laboratory of Submarine Geoscience, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 2,
+        "author_name": "Qianwen Xu",
+        "raw_affiliation_strings": [
+          "Division of Electric Power and Energy Systems, KTH Royal Institute of Technology, Stockholm, Sweden"
+        ],
+        "country_code": "SE",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I86987016",
+            "display_name": "KTH Royal Institute of Technology",
+            "ror": "https://ror.org/026vcq606",
+            "country_code": "SE",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Division of Electric Power and Energy Systems, KTH Royal Institute of Technology, Stockholm, Sweden",
+            "institution_ids": [
+              "https://openalex.org/I86987016"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 3,
+        "author_name": "Mingshen Wang",
+        "raw_affiliation_strings": [
+          "Electric Power Research Institute, State Grid Jiangsu Electric Power Co., Ltd., Nanjing, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4405282011",
+            "display_name": "State Grid Jiangsu Electric Power (China)",
+            "ror": "https://ror.org/056wxrm96",
+            "country_code": "CN",
+            "type": "company"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Electric Power Research Institute, State Grid Jiangsu Electric Power Co., Ltd., Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I4405282011"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 4,
+        "author_name": "Bo Yang",
+        "raw_affiliation_strings": [
+          "State Key Laboratory of Submarine Geoscience, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "State Key Laboratory of Submarine Geoscience, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 5,
+        "author_name": "Zhaojian Wang",
+        "raw_affiliation_strings": [
+          "State Key Laboratory of Submarine Geoscience, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "State Key Laboratory of Submarine Geoscience, the Key Laboratory of System Control and Information Processing, Ministry of Education of China, and the School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "region": null
+      }
+    ],
+    "publication_metadata": {
+      "publication_date": "2026-09-15"
+    }
+  },
+  {
+    "work_id": "W7207722881",
+    "source": "https://ieeexplore.ieee.org/abstract/document/11676839/authors#authors",
+    "retrieved_at": "2026-09-24",
+    "authorships_complete_verified": true,
+    "authors": [
+      {
+        "author_order": 1,
+        "author_name": "Wendi Chen",
+        "raw_affiliation_strings": [
+          "Institute of Systems Engineering, Macau University of Science and Technology, Macau, China"
+        ],
+        "country_code": "MO",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I111950717",
+            "display_name": "Macau University of Science and Technology",
+            "ror": "https://ror.org/03jqs2n27",
+            "country_code": "MO",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Systems Engineering, Macau University of Science and Technology, Macau, China",
+            "institution_ids": [
+              "https://openalex.org/I111950717"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 2,
+        "author_name": "Qinglai Wei",
+        "raw_affiliation_strings": [
+          "State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China",
+          "University of Chinese Academy of Sciences, Beijing, China",
+          "School of Artificial Intelligence, Shenyang University of Technology, Shenyang, China",
+          "Chinese Academy of Sciences, Institute of Automation, Beijing, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "LOCAL-CASIA",
+            "display_name": "Institute of Automation, Chinese Academy of Sciences",
+            "ror": null,
+            "country_code": "CN",
+            "type": "facility"
+          },
+          {
+            "id": "https://openalex.org/I4210165038",
+            "display_name": "University of Chinese Academy of Sciences",
+            "ror": "https://ror.org/05qbk4x57",
+            "country_code": "CN",
+            "type": "education"
+          },
+          {
+            "id": "https://openalex.org/I157507598",
+            "display_name": "Shenyang University of Technology",
+            "ror": "https://ror.org/00d7f8730",
+            "country_code": "CN",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China",
+            "institution_ids": [
+              "LOCAL-CASIA"
+            ]
+          },
+          {
+            "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210165038"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Artificial Intelligence, Shenyang University of Technology, Shenyang, China",
+            "institution_ids": [
+              "https://openalex.org/I157507598"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Chinese Academy of Sciences, Institute of Automation, Beijing, China",
+            "institution_ids": [
+              "LOCAL-CASIA"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 3,
+        "author_name": "Shanshan Jiao",
+        "raw_affiliation_strings": [
+          "Institute of Systems Engineering, Macau University of Science and Technology, Macau, China"
+        ],
+        "country_code": "MO",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I111950717",
+            "display_name": "Macau University of Science and Technology",
+            "ror": "https://ror.org/03jqs2n27",
+            "country_code": "MO",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Systems Engineering, Macau University of Science and Technology, Macau, China",
+            "institution_ids": [
+              "https://openalex.org/I111950717"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 4,
+        "author_name": "Yu Liu",
+        "raw_affiliation_strings": [
+          "University of Chinese Academy of Sciences, Beijing, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210165038",
+            "display_name": "University of Chinese Academy of Sciences",
+            "ror": "https://ror.org/05qbk4x57",
+            "country_code": "CN",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 5,
+        "author_name": "Jun Xiao",
+        "raw_affiliation_strings": [
+          "School of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210165038",
+            "display_name": "University of Chinese Academy of Sciences",
+            "ror": "https://ror.org/05qbk4x57",
+            "country_code": "CN",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ],
+        "region": null
+      }
+    ],
+    "publication_metadata": {
+      "publication_date": "2026-09-03"
+    }
+  },
+  {
+    "work_id": "W7213455390",
+    "source": "https://link.springer.com/article/10.1007/s00521-026-12456-7",
+    "retrieved_at": "2026-09-24",
+    "authorships_complete_verified": true,
+    "authors": [
+      {
+        "author_order": 1,
+        "author_name": "Chidentree Treesatayapun",
+        "raw_affiliation_strings": [
+          "Robotics and Advanced Manufacturing, Center for Research and Advanced Studies (CINVESTAV), 1062 Industria Metalurgica Av, Ramos Arizpe, 25903, Coah, Mexico"
+        ],
+        "country_code": "MX",
+        "institutions": [
+          {
+            "id": "LOCAL-CINVESTAV-RAMOS-ARIZPE",
+            "display_name": "Center for Research and Advanced Studies (CINVESTAV), Ramos Arizpe",
+            "ror": null,
+            "country_code": "MX",
+            "type": "facility"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Robotics and Advanced Manufacturing, Center for Research and Advanced Studies (CINVESTAV), 1062 Industria Metalurgica Av, Ramos Arizpe, 25903, Coah, Mexico",
+            "institution_ids": [
+              "LOCAL-CINVESTAV-RAMOS-ARIZPE"
+            ]
+          }
+        ],
+        "region": null
+      }
+    ],
+    "publication_metadata": {
+      "publication_date": "2026-09-17"
+    }
+  },
+  {
+    "work_id": "IEEE11693968",
+    "source": "https://ieeexplore.ieee.org/abstract/document/11693968/authors#authors",
+    "retrieved_at": "2026-09-24",
+    "authorships_complete_verified": true,
+    "authors": [
+      {
+        "author_order": 1,
+        "author_name": "Kunang Li",
+        "raw_affiliation_strings": [
+          "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I125839683",
+            "display_name": "Beijing Institute of Technology",
+            "ror": "https://ror.org/01skt4w74",
+            "country_code": "CN",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I125839683"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 2,
+        "author_name": "Hongwen He",
+        "raw_affiliation_strings": [
+          "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I125839683",
+            "display_name": "Beijing Institute of Technology",
+            "ror": "https://ror.org/01skt4w74",
+            "country_code": "CN",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I125839683"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 3,
+        "author_name": "Jingda Wu",
+        "raw_affiliation_strings": [
+          "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I125839683",
+            "display_name": "Beijing Institute of Technology",
+            "ror": "https://ror.org/01skt4w74",
+            "country_code": "CN",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I125839683"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 4,
+        "author_name": "Zhongbao Wei",
+        "raw_affiliation_strings": [
+          "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I125839683",
+            "display_name": "Beijing Institute of Technology",
+            "ror": "https://ror.org/01skt4w74",
+            "country_code": "CN",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I125839683"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 5,
+        "author_name": "Baochao Xing",
+        "raw_affiliation_strings": [
+          "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I125839683",
+            "display_name": "Beijing Institute of Technology",
+            "ror": "https://ror.org/01skt4w74",
+            "country_code": "CN",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I125839683"
+            ]
+          }
+        ],
+        "region": null
+      },
+      {
+        "author_order": 6,
+        "author_name": "Xuncheng Guo",
+        "raw_affiliation_strings": [
+          "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "https://openalex.org/I125839683",
+            "display_name": "Beijing Institute of Technology",
+            "ror": "https://ror.org/01skt4w74",
+            "country_code": "CN",
+            "type": "education"
+          }
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I125839683"
+            ]
+          }
+        ],
+        "region": null
+      }
+    ],
+    "publication_metadata": {
+      "publication_date": "2026-09-16"
+    }
+  },
+  {
+    "work_id": "W7206203312",
+    "source": "https://api.openalex.org/works/W7206203312",
+    "source_label": "Exact affiliation-string resolution",
+    "retrieved_at": "2026-09-24",
+    "authors": [
+      {
+        "author_order": 4,
+        "author_name": "Yibin Rui",
+        "raw_affiliation_strings": [
+          "Beijing Jianlong Heavy Industry Group Co. Ltd, Beijing, 100070, PR China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "LOCAL-JIANLONG",
+            "display_name": "Beijing Jianlong Heavy Industry Group Co. Ltd",
+            "ror": null,
+            "country_code": "CN",
+            "type": "company"
+          }
+        ],
+        "region": "Beijing"
+      }
+    ],
+    "match_basis": "Exact institution name and city occur in returned publication affiliation strings. Local ID and GeoNames city point used; no unrelated indexed institution or headquarters substituted."
+  },
+  {
+    "work_id": "W7130653856",
+    "source": "https://api.openalex.org/works/W7130653856",
+    "source_label": "Exact affiliation-string resolution",
+    "retrieved_at": "2026-09-24",
+    "authors": [
+      {
+        "author_order": 4,
+        "author_name": "Yibin Rui",
+        "raw_affiliation_strings": [
+          "Beijing Jianlong Heavy Industry Group Co. Ltd, Beijing, 100070, PR China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "LOCAL-JIANLONG",
+            "display_name": "Beijing Jianlong Heavy Industry Group Co. Ltd",
+            "ror": null,
+            "country_code": "CN",
+            "type": "company"
+          }
+        ],
+        "region": "Beijing"
+      }
+    ],
+    "match_basis": "Exact institution name and city occur in returned publication affiliation strings. Local ID and GeoNames city point used; no unrelated indexed institution or headquarters substituted."
+  },
+  {
+    "work_id": "W7166318156",
+    "source": "https://api.openalex.org/works/W7166318156",
+    "source_label": "Exact affiliation-string resolution",
+    "retrieved_at": "2026-09-24",
+    "authors": [
+      {
+        "author_order": 2,
+        "author_name": "Zhigang Liu",
+        "raw_affiliation_strings": [
+          "Ningbo Water and Environment Group Co., Ltd"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "LOCAL-NINGBO-WATER",
+            "display_name": "Ningbo Water and Environment Group Co., Ltd",
+            "ror": null,
+            "country_code": "CN",
+            "type": "company"
+          }
+        ],
+        "region": "Zhejiang"
+      },
+      {
+        "author_order": 3,
+        "author_name": "Jie Fei",
+        "raw_affiliation_strings": [
+          "Ningbo Water and Environment Group Co., Ltd"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "LOCAL-NINGBO-WATER",
+            "display_name": "Ningbo Water and Environment Group Co., Ltd",
+            "ror": null,
+            "country_code": "CN",
+            "type": "company"
+          }
+        ],
+        "region": "Zhejiang"
+      }
+    ],
+    "match_basis": "Exact institution name and city occur in returned publication affiliation strings. Local ID and GeoNames city point used; no unrelated indexed institution or headquarters substituted."
+  },
+  {
+    "work_id": "W4415220578",
+    "source": "https://api.openalex.org/works/W4415220578",
+    "source_label": "Exact affiliation-string resolution",
+    "retrieved_at": "2026-09-24",
+    "authors": [
+      {
+        "author_order": 6,
+        "author_name": "Linghui Hu",
+        "raw_affiliation_strings": [
+          "Hangzhou Oxygen Plant Group Company Limited, Hangzhou, 310000, Zhejiang, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "LOCAL-HANGZHOU-OXYGEN",
+            "display_name": "Hangzhou Oxygen Plant Group Company Limited",
+            "ror": null,
+            "country_code": "CN",
+            "type": "company"
+          }
+        ],
+        "region": "Zhejiang"
+      }
+    ],
+    "match_basis": "Exact institution name and city occur in returned publication affiliation strings. Local ID and GeoNames city point used; no unrelated indexed institution or headquarters substituted."
+  },
+  {
+    "work_id": "W4407019097",
+    "source": "https://api.openalex.org/works/W4407019097",
+    "source_label": "Exact affiliation-string resolution",
+    "retrieved_at": "2026-09-24",
+    "authors": [
+      {
+        "author_order": 4,
+        "author_name": "P. Pisani",
+        "raw_affiliation_strings": [
+          "Unidata S.p.A., Rome, Italy"
+        ],
+        "country_code": "IT",
+        "institutions": [
+          {
+            "id": "LOCAL-UNIDATA",
+            "display_name": "Unidata S.p.A.",
+            "ror": null,
+            "country_code": "IT",
+            "type": "company"
+          }
+        ],
+        "region": "Lazio"
+      }
+    ],
+    "match_basis": "Exact institution name and city occur in returned publication affiliation strings. Local ID and GeoNames city point used; no unrelated indexed institution or headquarters substituted."
+  },
+  {
+    "work_id": "W4391095559",
+    "source": "https://api.openalex.org/works/W4391095559",
+    "source_label": "Exact affiliation-string resolution",
+    "retrieved_at": "2026-09-24",
+    "authors": [
+      {
+        "author_order": 2,
+        "author_name": "Runyun Yao",
+        "raw_affiliation_strings": [
+          "CMB Network Technology (Hangzhou) Co., Ltd.,HANGZHOU,China",
+          "CMB Network Technology (Hangzhou) Co., Ltd., HANGZHOU, China"
+        ],
+        "country_code": "CN",
+        "institutions": [
+          {
+            "id": "LOCAL-CMB-HANGZHOU",
+            "display_name": "CMB Network Technology (Hangzhou) Co., Ltd.",
+            "ror": null,
+            "country_code": "CN",
+            "type": "company"
+          }
+        ],
+        "region": "Zhejiang"
+      }
+    ],
+    "match_basis": "Exact institution name and city occur in returned publication affiliation strings. Local ID and GeoNames city point used; no unrelated indexed institution or headquarters substituted."
+  }
+]

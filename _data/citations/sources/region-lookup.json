@@ -311,6 +311,15 @@
       "polygon_name": "Palermo",
       "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
       "jurisdiction_level_label": false
+    },
+    "CN:41.79222106933594:123.43277740478516": {
+      "region": "Liaoning",
+      "country_code": "CN",
+      "country": "China",
+      "admin1_code": "CN-LN",
+      "polygon_name": "Liaoning",
+      "basis": "Natural Earth v5.1.2 point-in-polygon using institution city coordinates",
+      "jurisdiction_level_label": false
     }
   },
   "source_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5"

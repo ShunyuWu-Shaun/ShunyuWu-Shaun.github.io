@@ -1,0 +1,330 @@
+{
+  "url": "https://api.crossref.org/works/10.1109/TTE.2026.3734226",
+  "retrieved_at": "2026-09-24T15:47:40.123063+00:00",
+  "data": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T15:08:21Z",
+        "timestamp": 1790262501565,
+        "version": "4.1.0"
+      },
+      "reference-count": 0,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        }
+      ],
+      "funder": [
+        {
+          "name": "National Natural Science Foundation of China",
+          "award": [
+            "52172377"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "52172377"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01h0zpd94",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IEEE Trans. Transp. Electrific."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "DOI": "10.1109/tte.2026.3734226",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T14:44:08Z",
+        "timestamp": 1790261048000
+      },
+      "page": "1-1",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Bridging Representation Learning and Optimal Control: Joint Representation–Decision Optimization for FCEV Energy Management"
+      ],
+      "prefix": "10.1109",
+      "author": [
+        {
+          "given": "Kunang",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Beijing Institute of Technology",
+              "place": [
+                "Beijing, China"
+              ],
+              "department": [
+                "School of Mechanical Engineering"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2874-1858",
+          "authenticated-orcid": false,
+          "given": "Hongwen",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Beijing Institute of Technology",
+              "place": [
+                "Beijing, China"
+              ],
+              "department": [
+                "School of Mechanical Engineering"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7336-4492",
+          "authenticated-orcid": false,
+          "given": "Jingda",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Beijing Institute of Technology",
+              "place": [
+                "Beijing, China"
+              ],
+              "department": [
+                "School of Mechanical Engineering"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0051-5648",
+          "authenticated-orcid": false,
+          "given": "Zhongbao",
+          "family": "Wei",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Beijing Institute of Technology",
+              "place": [
+                "Beijing, China"
+              ],
+              "department": [
+                "School of Mechanical Engineering"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Baochao",
+          "family": "Xing",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Beijing Institute of Technology",
+              "place": [
+                "Beijing, China"
+              ],
+              "department": [
+                "School of Mechanical Engineering"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xuncheng",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Beijing Institute of Technology",
+              "place": [
+                "Beijing, China"
+              ],
+              "department": [
+                "School of Mechanical Engineering"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "container-title": [
+        "IEEE Transactions on Transportation Electrification"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/6687316/7098407/11693968.pdf?arnumber=11693968",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T14:44:08Z",
+        "timestamp": 1790261048000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ieeexplore.ieee.org/document/11693968/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.1109/tte.2026.3734226",
+      "relation": {},
+      "ISSN": [
+        "2332-7782"
+      ],
+      "issn-type": [
+        {
+          "value": "2332-7782",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      }
+    }
+  }
+}

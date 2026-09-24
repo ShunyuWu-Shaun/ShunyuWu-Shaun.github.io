@@ -1,0 +1,248 @@
+{
+  "retrieved_at": "2026-09-24T15:39:19.655Z",
+  "method": "Actual browser DOM; all 12 pages visited, following observed Next links. All result IDs rechecked, all four new rows transcribed with whitespace normalized. Prior display strings retained for unchanged IDs; original full-row evidence remains in scholar-browser-pages.json.",
+  "profile_total": 70,
+  "profile_url": "https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en&pagesize=100",
+  "profile_counts": {
+    "9yKSN-GCB0IC": 13,
+    "Tyk-4Ss8FVUC": 12,
+    "IjCSPb-OGe4C": 12,
+    "qjMakFHDy7sC": 9,
+    "Y0pCki6q_DkC": 8,
+    "UeHWp8X0CEIC": 8,
+    "u5HHmVD_uO8C": 5,
+    "u-x6o8ySG0sC": 2,
+    "2osOgNQ5qMEC": 1
+  },
+  "pages": [
+    {
+      "cites": "9194898683237041119",
+      "start": 0,
+      "count": 12,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9194898683237041119",
+      "retrieved_at": "2026-09-24T15:38:04.637Z",
+      "next": "https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=9194898683237041119&scipsc=",
+      "result_ids": [
+        "OuXAxymzr4oJ",
+        "G2rrpJ41B-oJ",
+        "J_9Qv_4CUOoJ",
+        "gh5gw07GCdsJ",
+        "B9domNFx7N0J",
+        "AzmbJ0CAJBYJ",
+        "P03Go880XXcJ",
+        "-AB913v333IJ",
+        "bOg7hN-LPbcJ",
+        "SrNHKjSS8oUJ"
+      ],
+      "new_rows": [
+        [
+          "Hierarchical reinforcement learning for safe output tracking: managing constraints of dependent internal states in unknown discrete-time systems",
+          "https://link.springer.com/article/10.1007/s00521-026-12456-7",
+          "C Treesatayapun - Neural Computing and Applications, 2026 - Springer",
+          "-AB913v333IJ"
+        ]
+      ]
+    },
+    {
+      "cites": "9194898683237041119",
+      "start": 10,
+      "count": 12,
+      "url": "https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=9194898683237041119&scipsc=",
+      "retrieved_at": "2026-09-24T15:38:27.202Z",
+      "next": null,
+      "result_ids": [
+        "TlOR22cx_VsJ",
+        "PQx3foyMsNsJ"
+      ],
+      "new_rows": []
+    },
+    {
+      "cites": "5565069619425376379",
+      "start": 0,
+      "count": 9,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5565069619425376379",
+      "retrieved_at": "2026-09-24T15:38:49.610Z",
+      "next": null,
+      "result_ids": [
+        "GOlbhmB-GiMJ",
+        "GbBAR_1JwwAJ",
+        "AzmbJ0CAJBYJ",
+        "laf6CfGRK-QJ",
+        "Kb_mA1tbzZwJ",
+        "Vfilx60IjzgJ",
+        "S8LHklPsjzIJ",
+        "Kvi96Pdm8FoJ",
+        "0i8CusPKW8AJ"
+      ],
+      "new_rows": [
+        [
+          "Event-Triggered Self-Learning Parallel Tracking Control for Continuous-Time Nonlinear Systems With Actuator Faults",
+          "https://ieeexplore.ieee.org/abstract/document/11676839/",
+          "W Chen, Q Wei, S Jiao, Y Liu… - IEEE Transactions on …, 2026 - ieeexplore.ieee.org",
+          "laf6CfGRK-QJ"
+        ]
+      ]
+    },
+    {
+      "cites": "10373990695958943321",
+      "start": 0,
+      "count": 8,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10373990695958943321",
+      "retrieved_at": "2026-09-24T15:38:49.743Z",
+      "next": null,
+      "result_ids": [
+        "WT1IFpBCNXQJ",
+        "VPp-Bxelnw4J",
+        "SQnujyFlij0J",
+        "8XFJ-CyDVvQJ",
+        "oGW8yW5YuvgJ",
+        "_B81siYHD7UJ",
+        "6AWId03N1MoJ",
+        "IcAPltpH7iEJ"
+      ],
+      "new_rows": [
+        [
+          "Energy Management of AI Data Center Microgrids Considering Workload Uncertainties: An Online Decision-Focused Learning Method",
+          "https://ieeexplore.ieee.org/abstract/document/11690831/",
+          "J Wang, Q Xu, M Wang, B Yang… - IEEE Transactions on …, 2026 - ieeexplore.ieee.org",
+          "8XFJ-CyDVvQJ"
+        ],
+        [
+          "Bridging Representation Learning and Optimal Control: Joint Representation–Decision Optimization for FCEV Energy Management",
+          "https://ieeexplore.ieee.org/abstract/document/11693968/",
+          "K Li, H He, J Wu, Z Wei, B Xing… - IEEE Transactions on …, 2026 - ieeexplore.ieee.org",
+          "oGW8yW5YuvgJ"
+        ]
+      ]
+    },
+    {
+      "cites": "17982578804515414946",
+      "start": 0,
+      "count": 13,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17982578804515414946",
+      "retrieved_at": "2026-09-24T15:39:18.889Z",
+      "next": "https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=17982578804515414946&scipsc=",
+      "result_ids": [
+        "DfMXTlnlS2kJ",
+        "sHwcQNhpVLwJ",
+        "WMK6N49D8YcJ",
+        "WeEy30HoAk0J",
+        "M_QYGay2EsQJ",
+        "dG1zOkc36EEJ",
+        "p3vNHseAzfgJ",
+        "ZXz_CUV7LlYJ",
+        "delyrF7NxsoJ",
+        "_mBxlz8s6_sJ"
+      ],
+      "new_rows": []
+    },
+    {
+      "cites": "17982578804515414946",
+      "start": 10,
+      "count": 13,
+      "url": "https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=17982578804515414946&scipsc=",
+      "retrieved_at": "2026-09-24T15:39:18.988Z",
+      "next": null,
+      "result_ids": [
+        "30NFZCk7dtUJ",
+        "JpUJCoyB24UJ",
+        "sB3K_PozSxMJ"
+      ],
+      "new_rows": []
+    },
+    {
+      "cites": "10782110211194483263",
+      "start": 0,
+      "count": 12,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10782110211194483263",
+      "retrieved_at": "2026-09-24T15:39:19.092Z",
+      "next": "https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=10782110211194483263&scipsc=",
+      "result_ids": [
+        "8ruAaEWj6usJ",
+        "WRbX_5LR948J",
+        "YHgFpVm4duMJ",
+        "luHe6qhg-N4J",
+        "ZGSMVVWI6QcJ",
+        "u82403t1hi0J",
+        "UQKs3rNTtsEJ",
+        "rkwK1abhRTgJ",
+        "kLaH7VODME4J",
+        "b0IChvd8F0QJ"
+      ],
+      "new_rows": []
+    },
+    {
+      "cites": "10782110211194483263",
+      "start": 10,
+      "count": 12,
+      "url": "https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=10782110211194483263&scipsc=",
+      "retrieved_at": "2026-09-24T15:39:19.188Z",
+      "next": null,
+      "result_ids": [
+        "mN5S-sT4lAsJ",
+        "z8XaMzhssrAJ"
+      ],
+      "new_rows": []
+    },
+    {
+      "cites": "6210036472641191013",
+      "start": 0,
+      "count": 8,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6210036472641191013",
+      "retrieved_at": "2026-09-24T15:39:19.302Z",
+      "next": null,
+      "result_ids": [
+        "L9zabACDgK8J",
+        "HI6S_ORyHRgJ",
+        "UpUmVp2LprYJ",
+        "WMK6N49D8YcJ",
+        "M_QYGay2EsQJ",
+        "yIOVkPBIGmcJ",
+        "3jb1YeswktoJ",
+        "OkCmS5fpg50J"
+      ],
+      "new_rows": []
+    },
+    {
+      "cites": "11079227468890272109",
+      "start": 0,
+      "count": 5,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11079227468890272109",
+      "retrieved_at": "2026-09-24T15:39:19.419Z",
+      "next": null,
+      "result_ids": [
+        "gH79V1RMjtkJ",
+        "P_JbaxzAoZUJ",
+        "3CPzFut-MYsJ",
+        "clFe_WW19ZIJ",
+        "2ud1r3E_y0QJ"
+      ],
+      "new_rows": []
+    },
+    {
+      "cites": "16572637879701461247",
+      "start": 0,
+      "count": 2,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16572637879701461247",
+      "retrieved_at": "2026-09-24T15:39:19.560Z",
+      "next": null,
+      "result_ids": [
+        "WRbX_5LR948J",
+        "xmrOF-ptaBkJ"
+      ],
+      "new_rows": []
+    },
+    {
+      "cites": "3555488285760198709",
+      "start": 0,
+      "count": 1,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3555488285760198709",
+      "retrieved_at": "2026-09-24T15:39:19.655Z",
+      "next": null,
+      "result_ids": [
+        "G4yFVXeoo9oJ"
+      ],
+      "new_rows": []
+    }
+  ]
+}

@@ -44,5 +44,161 @@
     },
     "disambiguation": "No parent institution or headquarters is substituted. The displayed point represents the independently verified city, not the company's premises. Exact OpenAlex/ROR registry identity remains unresolved.",
     "region_basis": "Publisher affiliation and company address verified; city region from GeoNames"
+  },
+  {
+    "id": "LOCAL-CASIA",
+    "display_name": "Institute of Automation, Chinese Academy of Sciences",
+    "type": "facility",
+    "ror": null,
+    "country_code": "CN",
+    "geo": {
+      "city": "Beijing",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723,
+      "geonames_city_id": "1816670"
+    },
+    "institution_source": "https://ieeexplore.ieee.org/abstract/document/11676839/authors#authors",
+    "geo_source": "https://sws.geonames.org/1816670/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier.",
+    "parent_openalex_id": "https://openalex.org/I19820366"
+  },
+  {
+    "id": "LOCAL-CINVESTAV-RAMOS-ARIZPE",
+    "display_name": "Center for Research and Advanced Studies (CINVESTAV), Ramos Arizpe",
+    "type": "facility",
+    "ror": null,
+    "country_code": "MX",
+    "geo": {
+      "city": "Ramos Arizpe",
+      "region": "Coahuila",
+      "country_code": "MX",
+      "country": "Mexico",
+      "latitude": 25.53928,
+      "longitude": -100.94742,
+      "geonames_city_id": "3991043"
+    },
+    "institution_source": "https://link.springer.com/article/10.1007/s00521-026-12456-7",
+    "geo_source": "https://sws.geonames.org/3991043/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier.",
+    "parent_openalex_id": "https://openalex.org/I68368234"
+  },
+  {
+    "id": "LOCAL-JIANLONG",
+    "display_name": "Beijing Jianlong Heavy Industry Group Co. Ltd",
+    "type": "company",
+    "ror": null,
+    "country_code": "CN",
+    "geo": {
+      "city": "Beijing",
+      "region": "Beijing",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 39.9075,
+      "longitude": 116.39723,
+      "geonames_city_id": "1816670"
+    },
+    "institution_source": "https://api.openalex.org/works/W7206203312",
+    "geo_source": "https://sws.geonames.org/1816670/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier."
+  },
+  {
+    "id": "LOCAL-NINGBO-WATER",
+    "display_name": "Ningbo Water and Environment Group Co., Ltd",
+    "type": "company",
+    "ror": null,
+    "country_code": "CN",
+    "geo": {
+      "city": "Ningbo",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 29.87819,
+      "longitude": 121.54945,
+      "geonames_city_id": "1799397"
+    },
+    "institution_source": "https://api.openalex.org/works/W7166318156",
+    "geo_source": "https://sws.geonames.org/1799397/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier."
+  },
+  {
+    "id": "LOCAL-HANGZHOU-OXYGEN",
+    "display_name": "Hangzhou Oxygen Plant Group Company Limited",
+    "type": "company",
+    "ror": null,
+    "country_code": "CN",
+    "geo": {
+      "city": "Hangzhou",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.29365,
+      "longitude": 120.16142,
+      "geonames_city_id": "1808926"
+    },
+    "institution_source": "https://api.openalex.org/works/W4415220578",
+    "geo_source": "https://sws.geonames.org/1808926/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier."
+  },
+  {
+    "id": "LOCAL-UNIDATA",
+    "display_name": "Unidata S.p.A.",
+    "type": "company",
+    "ror": null,
+    "country_code": "IT",
+    "geo": {
+      "city": "Rome",
+      "region": "Lazio",
+      "country_code": "IT",
+      "country": "Italy",
+      "latitude": 41.89193,
+      "longitude": 12.51133,
+      "geonames_city_id": "3169070"
+    },
+    "institution_source": "https://api.openalex.org/works/W4407019097",
+    "geo_source": "https://sws.geonames.org/3169070/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier."
+  },
+  {
+    "id": "LOCAL-CMB-HANGZHOU",
+    "display_name": "CMB Network Technology (Hangzhou) Co., Ltd.",
+    "type": "company",
+    "ror": null,
+    "country_code": "CN",
+    "geo": {
+      "city": "Hangzhou",
+      "region": "Zhejiang",
+      "country_code": "CN",
+      "country": "China",
+      "latitude": 30.29365,
+      "longitude": 120.16142,
+      "geonames_city_id": "1808926"
+    },
+    "institution_source": "https://api.openalex.org/works/W4391095559",
+    "geo_source": "https://sws.geonames.org/1808926/",
+    "coordinate_precision": "publication_city_representative_not_premises",
+    "region_basis": "Publication affiliation city, with GeoNames city/admin1 record",
+    "region_source": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+    "local_identifier_note": "Exact institution/subdivision name from article affiliation; local identifier is not an OpenAlex/ROR identifier."
   }
 ]

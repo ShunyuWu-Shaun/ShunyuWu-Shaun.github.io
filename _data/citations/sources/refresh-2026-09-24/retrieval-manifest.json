@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-24",
+  "scholar_previous": 66,
+  "scholar_current": 70,
+  "new_scholar_results": 4,
+  "new_distinct_works": 4,
+  "pdf_files": [
+    {
+      "doi": "10.1007/s00521-026-12456-7",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s00521-026-12456-7.pdf",
+      "local_file": "downloads/2026-09-24/Treesatayapun-2026-Hierarchical-reinforcement-learning.pdf",
+      "bytes": 3789530,
+      "sha256": "c2f6997b82394bded1920dc2daec915f6d2d04bc8daa1bff805d3114824a41a3",
+      "status": "downloaded_local_only"
+    }
+  ],
+  "publisher_author_pages": [
+    {
+      "doi": "10.1109/TCYB.2026.3725996",
+      "source_url": "https://ieeexplore.ieee.org/abstract/document/11676839/authors#authors",
+      "full_text_status": "PDF download did not produce a verified PDF; full author panels and publisher-deposited metadata saved instead."
+    },
+    {
+      "doi": "10.1109/TICPS.2026.3733880",
+      "source_url": "https://ieeexplore.ieee.org/abstract/document/11690831/authors#authors",
+      "full_text_status": "PDF download did not produce a verified PDF; full author panels and publisher-deposited metadata saved instead."
+    },
+    {
+      "doi": "10.1109/TTE.2026.3734226",
+      "source_url": "https://ieeexplore.ieee.org/abstract/document/11693968/authors#authors",
+      "full_text_status": "PDF download did not produce a verified PDF; full author panels and publisher-deposited metadata saved instead."
+    }
+  ]
+}

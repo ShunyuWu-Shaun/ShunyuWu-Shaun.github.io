@@ -194,9 +194,9 @@ body-classes: home-page
       <p>Short notes on questions I keep returning to.</p>
       <div class="notes">
         <article class="note">
-          <p class="note__meta"><time datetime="2026-09-09T18:06:06-04:00">9 September 2026, EDT (UTC−04:00)</time></p>
-          <h3 class="note__title"><a href="/thinking/#from-language-to-reliable-control">Scaling and physical generalization</a></h3>
-          <p>I keep wondering whether scaling can give us physical generalization. Models can share representations and solvers, but different dynamics may still require different control laws. Perhaps a model can generalize by recognizing the regime and applying local rules, without discovering a unified physical theory. What would convince me is reliable control across unfamiliar systems without extensive reference trajectories or retraining. That would suggest a general mechanism for physical reasoning.</p>
+          <p class="note__meta"><time datetime="2026-09-28T18:45:34-04:00">28 September 2026, EDT (UTC−04:00)</time></p>
+          <h3 class="note__title"><a href="/thinking/#where-modeling-pays-off">Where modeling pays off</a></h3>
+          <p>Everyday robotics faces countless interactions, making a detailed model for every situation impractical. In science and engineering, the challenge can lie deep within a single system, where understanding one critical coupling is already a major advance. This changes what I want from physical intelligence: the ability to handle many situations, and the ability to resolve the dynamics that matter within one.</p>
         </article>
       </div>
       <p class="section__more"><a href="/thinking/">All notes</a></p>

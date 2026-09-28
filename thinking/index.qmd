@@ -14,6 +14,13 @@ Short notes on questions I keep returning to. Each note includes its date and lo
      is the intended length. Update the note shown in the Thinking section of
      index.qmd so the home page carries the newest one. -->
 <div class="notes">
+  <article class="note" id="where-modeling-pays-off">
+    <p class="note__meta">
+      <time datetime="2026-09-28T18:45:34-04:00">28 September 2026, EDT (UTC−04:00)</time>
+    </p>
+    <h2 class="note__title">Where modeling pays off</h2>
+    <p>Everyday robotics faces countless interactions, making a detailed model for every situation impractical. In science and engineering, the challenge can lie deep within a single system, where understanding one critical coupling is already a major advance. This changes what I want from physical intelligence: the ability to handle many situations, and the ability to resolve the dynamics that matter within one.</p>
+  </article>
   <article class="note" id="from-language-to-reliable-control">
     <p class="note__meta">
       <time datetime="2026-09-09T18:06:06-04:00">9 September 2026, EDT (UTC−04:00)</time>

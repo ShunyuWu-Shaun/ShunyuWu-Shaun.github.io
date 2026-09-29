@@ -176,7 +176,7 @@ body-classes: home-page
 
     <section class="home-section" id="service" aria-labelledby="service-title">
       <h2 class="section__title" id="service-title">Academic service</h2>
-      <p>I review for ICLR in the 2025 and 2026 cycles and have been invited for 2027. I have also reviewed for ICML, NeurIPS, AAAI, and CDC, and for four IEEE Transactions and <em>Scientific Reports</em>.</p>
+      <p>I review for ICLR in the 2025 and 2026 cycles and have been invited for 2027. I have also reviewed for ICML, NeurIPS, AAAI, and CDC, and for five IEEE Transactions and <em>Scientific Reports</em>.</p>
       <p class="section__more"><a href="/service/">Reviewing, teaching, and mentoring</a></p>
     </section>
 

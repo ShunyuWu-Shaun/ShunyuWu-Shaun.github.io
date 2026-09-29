@@ -20,6 +20,7 @@ I have been invited to review for ICLR 2027.
 - *IEEE Transactions on Systems, Man, and Cybernetics: Systems*
 - *IEEE Transactions on Automation Science and Engineering*
 - *IEEE Transactions on Smart Grid*
+- *IEEE Transactions on Industrial Informatics*
 - *Scientific Reports*
 
 ## Teaching

@@ -22,6 +22,7 @@ I have been invited to review for ICLR 2027.
 - *IEEE Transactions on Smart Grid*
 - *IEEE Transactions on Industrial Informatics*
 - *Scientific Reports*
+- *Socio-Economic Planning Sciences*
 
 ## Teaching
 

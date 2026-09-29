@@ -1,7 +1,7 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
 subtitle: "Physical intelligence through dynamics and decisions"
-description-meta: "Shunyu Wu trains neural solvers for the governing dynamics of physical systems and studies how their error changes control and optimization decisions, in materials formation and in power and water systems."
+description-meta: "Shunyu Wu trains neural solvers for the governing dynamics of physical systems and studies how their error changes control and optimization decisions, in materials formation and in integrated energy and water systems."
 toc: false
 page-layout: full
 body-classes: home-page
@@ -46,7 +46,9 @@ body-classes: home-page
         "Constrained optimization",
         "Initiated chemical vapor deposition",
         "Liquid crystals",
-        "Coupled water-energy systems"
+        "Complex dynamical systems",
+        "Integrated energy systems",
+        "Urban water systems"
       ]
     },
     {
@@ -92,7 +94,7 @@ body-classes: home-page
       <h2 class="section__title" id="about-title">About</h2>
       <p>I am an Ezra Systems Postdoctoral Associate in Systems Engineering at Cornell University, where I work with <a href="https://www.peese.org/professor/">Professor Fengqi You</a>. I completed my Ph.D. at Shanghai Jiao Tong University in 2026, advised by <a href="https://ieeexplore.ieee.org/author/37280547200">Professor Jingcheng Wang</a>.</p>
       <p>My research concerns physical intelligence, which is the ability of a learning system to model a physical system and to act on it. Modeling and acting both depend on the system's governing equations, which a controller or an optimizer must solve again for every candidate decision. I train neural solvers, such as neural operators, that return each solution in one forward pass. Because each learned solution carries an error, I measure how this error changes the resulting decision, and I use the decision error to train the solver.</p>
-      <p>The governing equations I work with describe systems in both science and engineering. My current materials research focuses on initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC) and may extend to chemical formation coupled with LC. My engineering work at Shanghai Jiao Tong University covered power generation, urban water supply, and hot-strip rolling.</p>
+      <p>The governing equations I work with describe systems in both science and engineering. My current materials research focuses on initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC) and may extend to chemical formation coupled with LC. My engineering research focuses on complex dynamical systems, such as integrated energy systems and urban water systems.</p>
     </section>
 
     <section class="home-section" id="research" aria-labelledby="research-title">
@@ -103,7 +105,7 @@ body-classes: home-page
 
 ```{=html}
       <ul class="directions">
-        <li class="d-a"><strong>A. Physical dynamics in science and engineering.</strong> Science: iCVD coupled with liquid crystals, with Professor Fengqi You. Engineering: power generation, urban water supply, and hot-strip rolling, from my Ph.D. with Professor Jingcheng Wang.</li>
+        <li class="d-a"><strong>A. Physical dynamics in science and engineering.</strong> Science: iCVD coupled with liquid crystals, with Professor Fengqi You. Engineering: complex dynamical systems, including integrated energy systems and urban water systems, from my Ph.D. with Professor Jingcheng Wang.</li>
         <li class="d-b"><strong>B. Neural solvers for physical dynamics.</strong> A neural operator approximates the solution map of a governing model and returns a solution in one forward pass. I train it so that its rollouts and sensitivities are accurate enough for control and optimization.</li>
         <li class="d-c"><strong>C. Model2Action.</strong> The error in a learned solution changes the decision slightly in most operating regimes and substantially near a critical point or an active constraint. I measure the decision error as regret, closed-loop cost, and constraint violation, and I use it to train the solver.</li>
       </ul>

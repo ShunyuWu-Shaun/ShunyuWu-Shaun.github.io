@@ -14,7 +14,7 @@ A governing model specifies the physical state, its evolution under inputs and f
 
 **Science.** With [Professor Fengqi You](https://www.peese.org/professor/) at Cornell, my current work focuses on initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC). I formulate equations describing this process and train neural models to approximate their solutions for control and optimization. Chemical formation coupled with LC is a possible extension.
 
-**Engineering.** During my Ph.D. with [Professor Jingcheng Wang](https://ieeexplore.ieee.org/author/37280547200) at Shanghai Jiao Tong University, I worked on power generation, urban water supply, and hot-strip rolling. Their states are pressure, temperature, and energy consumption. Demand and electricity price are external inputs to their operating decisions.
+**Engineering.** My engineering research concerns complex dynamical systems, such as integrated energy systems and urban water systems, and began during my Ph.D. with [Professor Jingcheng Wang](https://ieeexplore.ieee.org/author/37280547200) at Shanghai Jiao Tong University. Their states are pressure, temperature, and energy consumption. Demand and electricity price are external inputs to their operating decisions.
 
 ## B. Neural solvers for physical dynamics
 

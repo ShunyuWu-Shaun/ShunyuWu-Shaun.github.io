@@ -7,13 +7,17 @@ The figure has one panel per research direction:
      waterfall of profiles u(x, t) that start smooth and become chaotic;
   B  space-time fields of the same equation for three initial conditions,
      standing for the solution map a -> u that a neural solver learns;
-  C  a schematic of solution error and decision error against the
-     operating point, with the decision error rising near an active
-     constraint.
+  C  the cost J(d) of a decision under the true dynamics (purple) and under
+     the learned solution (teal); the learned minimizer d-hat misses d*, and
+     the coral gap J(d-hat) - J(d*) is the regret.
+
+Every panel holds a title, a visual in the same box and one formula. The
+colours keep one meaning throughout: purple for the physical system, teal
+for the learned solver, coral for the decision error.
 
 The KS equation u_t + u u_x + u_xx + u_xxxx = 0 on a periodic domain of
 length 32*pi is solved with the ETDRK4 scheme of Kassam and Trefethen
-(SIAM J. Sci. Comput. 26, 2005). The curves in C are illustrative.
+(SIAM J. Sci. Comput. 26, 2005). The cost curves in C are illustrative.
 
 Each panel is drawn once inside a hidden SVG sprite. A wide layout (three
 panels in a row) and a narrow layout for phones (panels stacked) place the
@@ -51,7 +55,6 @@ IMAGE_URL = "/assets/images/research"
 
 # Direction colours, identical to --c-a, --c-b and --c-c in assets/css/site.css
 PURPLE, TEAL, CORAL = "#9467BD", "#31859A", "#EA7F6F"
-CORAL_TEXT = "#c9604f"
 INK, MUTED, AXIS, FLOW = "#17202a", "#66717d", "#aab3bd", "#7d8894"
 FONT = "IBM Plex Sans, Helvetica Neue, Arial, sans-serif"
 
@@ -61,9 +64,9 @@ MATH_FONT = FontProperties(family="STIXGeneral")
 # Panel geometry in the panel's own coordinates
 PANEL_W = 224
 TITLE_Y = 16
-PLOT_Y, PLOT_H = 30, 140
-MATH_Y = PLOT_Y + PLOT_H + 36
-NOTE_Y = MATH_Y + 20
+PLOT_Y, PLOT_H = 32, 132
+MATH_Y = PLOT_Y + PLOT_H + 40
+PANEL_H = MATH_Y + 8
 
 
 # ---------------------------------------------------------------- physics
@@ -197,12 +200,6 @@ def mix(c1, c2, t):
     return f"#{r:02x}{g:02x}{bl:02x}"
 
 
-def axes(x0, y0, x1, y1):
-    """L-shaped axes from the origin (x0, y0) to (x1, y0) and (x0, y1)."""
-    return (f'<path d="M{f(x0)} {f(y1 + 6)}V{f(y0)}H{f(x1 - 6)}" fill="none" stroke="{AXIS}" stroke-width="1.1"/>'
-            + arrow_head(x1, y0, "right", AXIS, 6) + arrow_head(x0, y1, "up", AXIS, 6))
-
-
 def title(letter, name, color):
     return (f'<circle cx="10" cy="{f(TITLE_Y - 5)}" r="10" fill="{color}"/>'
             + text(10, TITLE_Y - 0.9, letter, 11.5, "#ffffff", "middle", 700)
@@ -214,105 +211,87 @@ def title(letter, name, color):
 
 def panel_a(x, frames):
     """Physical dynamics: KS profiles stacked in time; nearer profiles hide the ones behind."""
-    ox, oy = 14, PLOT_Y + PLOT_H
-    serif = ' font-style="italic" font-family="STIX Two Text, Times New Roman, serif"'
-    out = [title("A", "Physical dynamics", PURPLE), axes(ox, oy, PANEL_W, PLOT_Y + 2)]
-    out.append(text(PANEL_W - 2, oy + 15, "x", 13, MUTED, "end", extra=serif))
-    out.append(text(ox - 5, PLOT_Y + 10, "t", 13, MUTED, "end", extra=serif))
+    bottom = PLOT_Y + PLOT_H
     picks = frames[:141:20]
     n = len(picks)
-    step = (PLOT_H - 34) / (n - 1)
+    step = (PLOT_H - 26) / (n - 1)
     amp = 0.32 * step
     # The solution is periodic and smooth, so zero-padding its spectrum gives
     # smooth curves between the grid points.
     fine = 176
     spectra = np.fft.rfft(picks, axis=1)
     smooth = np.fft.irfft(spectra, n=fine, axis=1) * fine / picks.shape[1]
-    xs = np.linspace(ox + 6, PANEL_W - 5, fine)
+    xs = np.linspace(2, PANEL_W - 2, fine)
     lines = []
     for i in range(n - 1, -1, -1):
-        base = oy - 12 - i * step
+        base = bottom - 8 - i * step
         ys = base - amp * smooth[i]
         color = mix("#c9b5e0", "#4a2d6b", i / (n - 1))
         tint = mix("#ffffff", "#f1ebf8", i / (n - 1))
         # One path per profile: the tinted fill hides the profiles behind it,
         # and the clip removes the stroke along the sides and the bottom.
-        d = rel_path(list(zip(xs, ys))) + f"V{f(oy - 2)}H{f(xs[0])}Z"
+        d = rel_path(list(zip(xs, ys))) + f"V{f(bottom + 4)}H{f(xs[0])}Z"
         lines.append(f'<path d="{d}" fill="{tint}" stroke="{color}" stroke-width="1.2" stroke-linejoin="round"/>')
     clip = (f'<clipPath id="rf-clip-a"><rect x="{f(xs[0] + 0.7)}" y="{f(PLOT_Y - 12)}" '
-            f'width="{f(xs[-1] - xs[0] - 1.4)}" height="{f(oy - 3 - PLOT_Y + 12)}"/></clipPath>')
-    out.append(f'<g clip-path="url(#rf-clip-a)">{"".join(lines)}</g>')
-    out.append(math_path(r"$\partial_t u=\mathcal{N}(u;\,a)$", 16, PANEL_W / 2, MATH_Y))
-    out.append(chips(6, NOTE_Y - 9, ["iCVD + LC", "power generation", "water supply", "hot-strip rolling"],
-                     PURPLE, PANEL_W - 6))
+            f'width="{f(xs[-1] - xs[0] - 1.4)}" height="{f(bottom - PLOT_Y + 12)}"/></clipPath>')
+    out = [title("A", "Physical dynamics", PURPLE),
+           f'<g clip-path="url(#rf-clip-a)">{"".join(lines)}</g>',
+           math_path(r"$\partial_t u=\mathcal{N}(u;\,a)$", 16, PANEL_W / 2, MATH_Y)]
     return clip, "".join(out)
 
 
 def panel_b(field_names):
     """Neural solvers: space-time fields for three initial conditions, stacked like frames."""
-    bx, bw = 4, PANEL_W - 8
-    fw, fh = bw * 0.68, PLOT_H * 0.70
-    dx, dy = (bw - fw) / 2, (PLOT_H - fh) / 2
+    fw, fh = PANEL_W * 0.70, PLOT_H * 0.70
+    dx, dy = (PANEL_W - fw) / 2, (PLOT_H - fh) / 2
     out = [title("B", "Neural solvers", TEAL)]
     for k, name in enumerate(field_names):  # back to front
-        fx, fy = bx + (2 - k) * dx, PLOT_Y + k * dy
+        fx, fy = (2 - k) * dx, PLOT_Y + k * dy
         out.append(f'<rect x="{f(fx - 0.5)}" y="{f(fy - 0.5)}" width="{f(fw + 1)}" height="{f(fh + 1)}" '
                    f'rx="1.5" fill="#ffffff" stroke="#c8cfd6" filter="url(#rf-shadow)"/>')
         out.append(f'<image href="{IMAGE_URL}/{name}" x="{f(fx)}" y="{f(fy)}" width="{f(fw)}" '
                    f'height="{f(fh)}" preserveAspectRatio="none"/>')
-    fy = PLOT_Y + 2 * dy
-    serif = ' font-style="italic" font-family="STIX Two Text, Times New Roman, serif"'
-    out.append(text(bx + fw - 2, fy + fh + 15, "x", 13, MUTED, "end", extra=serif))
-    out.append(text(bx - 4, fy + 11, "t", 13, MUTED, "end", extra=serif))
     out.append(math_path(r"$\hat u=G_\theta(a)$", 16, PANEL_W / 2, MATH_Y))
-    out.append(text(PANEL_W / 2, NOTE_Y + 3, "one forward pass", 11.5, MUTED, "middle"))
     return "".join(out)
 
 
 def panel_c():
-    """Model2Action: solution error and decision error against the operating point."""
-    ox, oy = 6, PLOT_Y + PLOT_H
-    x_end, y_top = PANEL_W, PLOT_Y + 2
-    out = [title("C", "Model2Action", CORAL), axes(ox, oy, x_end, y_top)]
-    p = np.linspace(0, 1, 61)
-    pc = 0.64
-    sol = 0.19 + 0.012 * np.sin(8 * p + 0.4)
-    dense = np.linspace(0, 1, 121)
-    dec = 0.035 + 0.86 * np.exp(-0.5 * ((dense - pc) / 0.052) ** 2) + 0.012 * np.sin(6 * dense)
+    """Model2Action: the learned solution moves the minimizer, and the cost gap is the regret."""
+    bottom = PLOT_Y + PLOT_H
+    d = np.linspace(0, 1, 81)
+    d_star, d_hat = 0.34, 0.68
+    j_min, j_hat_min = 0.10, 0.07
+    cost = j_min + 2.3 * (d - d_star) ** 2              # under the true dynamics
+    cost_hat = j_hat_min + 2.1 * (d - d_hat) ** 2       # under the learned solution
+    j_at_hat = j_min + 2.3 * (d_hat - d_star) ** 2
+    top = max(cost.max(), cost_hat.max())
 
     def px(v):
-        return ox + 8 + v * (x_end - ox - 22)
+        return 6 + v * (PANEL_W - 12)
 
     def py(v):
-        return oy - 3 - v * (PLOT_H - 24)
+        return bottom - 4 - v / top * (PLOT_H - 8)
 
-    xc = px(pc)
-    dec_pts = [(px(a), py(b)) for a, b in zip(dense, dec)]
-    out.append(f'<path d="M{f(xc)} {f(y_top + 14)}V{f(oy)}" fill="none" stroke="{AXIS}" stroke-dasharray="3 3"/>')
-    out.append(f'<path d="{rel_path(dec_pts)}V{f(oy - 1)}H{f(px(0))}Z" fill="{CORAL}" fill-opacity="0.16"/>')
-    out.append(f'<path d="{rel_path([(px(a), py(b)) for a, b in zip(p, sol)])}" fill="none" stroke="{TEAL}" stroke-width="1.6"/>')
-    out.append(f'<path d="{rel_path(dec_pts)}" fill="none" stroke="{CORAL}" stroke-width="2.2" stroke-linejoin="round"/>')
-    out.append(text(xc, y_top + 9, "active constraint", 11, MUTED, "middle"))
-    out.append(text(px(0.02), py(sol[0]) - 7, "solution error", 11.5, TEAL, weight=500))
-    out.append(text(xc + 15, py(0.6), "decision", 11.5, CORAL_TEXT, weight=500))
-    out.append(text(xc + 15, py(0.6) + 13.5, "error", 11.5, CORAL_TEXT, weight=500))
-    out.append(text(x_end - 2, oy + 14, "operating point", 11, MUTED, "end"))
+    xs, xh = px(d_star), px(d_hat)
+    out = [title("C", "Model2Action", CORAL)]
+    out.append(f'<path d="M0 {f(bottom)}H{PANEL_W}" fill="none" stroke="{AXIS}" stroke-width="1.1"/>')
+    for xv, yv in ((xs, py(j_min)), (xh, py(j_hat_min))):  # drop lines to the decision axis
+        out.append(f'<path d="M{f(xv)} {f(yv)}V{f(bottom)}" fill="none" stroke="{AXIS}" stroke-dasharray="2 3"/>')
+    out.append(f'<path d="{rel_path([(px(a), py(b)) for a, b in zip(d, cost_hat)])}" fill="none" '
+               f'stroke="{TEAL}" stroke-width="1.8" stroke-dasharray="5 3.5"/>')
+    out.append(f'<path d="{rel_path([(px(a), py(b)) for a, b in zip(d, cost)])}" fill="none" '
+               f'stroke="{PURPLE}" stroke-width="2"/>')
+    # the regret: the true cost at d-hat stands above the true cost at d*
+    out.append(f'<path d="M{f(xs)} {f(py(j_min))}H{f(xh)}" fill="none" stroke="{CORAL}" '
+               'stroke-width="1.2" stroke-dasharray="2 2.5"/>')
+    out.append(f'<path d="M{f(xh)} {f(py(j_min))}V{f(py(j_at_hat))}" fill="none" stroke="{CORAL}" '
+               'stroke-width="3.2" stroke-linecap="round"/>')
+    out.append(f'<circle cx="{f(xs)}" cy="{f(py(j_min))}" r="3.6" fill="{PURPLE}"/>')
+    out.append(f'<circle cx="{f(xh)}" cy="{f(py(j_hat_min))}" r="3.6" fill="{TEAL}"/>')
+    out.append(f'<circle cx="{f(xh)}" cy="{f(py(j_at_hat))}" r="3.6" fill="{CORAL}"/>')
+    out.append(math_path(r"$d^{*}$", 13, xs, bottom + 15, "middle", PURPLE))
+    out.append(math_path(r"$\hat d$", 13, xh, bottom + 15, "middle", TEAL))
     out.append(math_path(r"$J(\hat d)-J(d^{*})$", 16, PANEL_W / 2, MATH_Y))
-    out.append(text(PANEL_W / 2, NOTE_Y + 3, "regret", 11.5, MUTED, "middle"))
-    return "".join(out)
-
-
-def chips(x, y, labels, color, max_width):
-    """Rounded tags laid out in rows from (x, y)."""
-    out, cx, cy = [], x, y
-    for label in labels:
-        w = 6.1 * len(label) + 14
-        if cx + w > x + max_width:
-            cx, cy = x, cy + 21
-        out.append(f'<rect x="{f(cx)}" y="{f(cy)}" width="{f(w)}" height="17" rx="8.5" fill="#ffffff" '
-                   f'stroke="{color}" stroke-opacity="0.55"/>')
-        out.append(text(cx + w / 2, cy + 12.2, label, 11, "#4a5561", "middle"))
-        cx += w + 6
     return "".join(out)
 
 
@@ -323,51 +302,47 @@ def use(panel, x, y):
     return f'<use href="#rf-panel-{panel}" x="{f(x)}" y="{f(y)}"/>'
 
 
-def loop_label(x, y, extra=""):
-    return text(x, y, "decision error trains the solver", 11.5, CORAL_TEXT, "middle", 600, extra)
+def flow_arrow(x0, y0, x1, y1, direction):
+    return (f'<path d="M{f(x0)} {f(y0)}L{f(x1)} {f(y1)}" fill="none" stroke="{FLOW}" stroke-width="1.6"/>'
+            + arrow_head(x1 + {"right": 8, "down": 0}[direction], y1 + {"right": 0, "down": 8}[direction],
+                         direction, FLOW, 8))
 
 
 def wide_layout():
-    """Three panels in a row; the loop runs under B and C."""
+    """Three panels in a row; the loop runs from the regret under C to the solver under B."""
     gap = 44
     xs = [0, PANEL_W + gap, 2 * (PANEL_W + gap)]
     width = xs[2] + PANEL_W
     out = [use(p, x, 0) for p, x in zip("abc", xs)]
-    mid = PLOT_Y + PLOT_H / 2 + 4
+    mid = PLOT_Y + PLOT_H / 2
     for x in xs[:2]:
-        x0 = x + PANEL_W + 8
-        out.append(f'<path d="M{f(x0)} {f(mid)}H{f(x0 + gap - 22)}" fill="none" stroke="{FLOW}" stroke-width="1.6"/>')
-        out.append(arrow_head(x0 + gap - 14, mid, "right", FLOW, 8))
-    y0, y1 = NOTE_Y + 12, NOTE_Y + 40
+        out.append(flow_arrow(x + PANEL_W + 8, mid, x + PANEL_W + gap - 16, mid, "right"))
+    y0, y1 = MATH_Y + 10, MATH_Y + 30
     bx, cx = xs[1] + PANEL_W / 2, xs[2] + PANEL_W / 2
     out.append(f'<path d="M{f(cx)} {f(y0)}V{f(y1)}H{f(bx)}V{f(y0 + 8)}" fill="none" stroke="{CORAL}" '
                'stroke-width="1.8" stroke-linejoin="round"/>')
     out.append(arrow_head(bx, y0 + 1, "up", CORAL, 8))
-    out.append(loop_label((bx + cx) / 2, y1 + 16))
-    return width, int(y1 + 24), "".join(out)
+    return width, int(y1 + 6), "".join(out)
 
 
 def narrow_layout():
     """Panels stacked for phones; the loop runs up the right side from C to B."""
-    heights = {"a": NOTE_Y + 34, "b": NOTE_Y + 6, "c": NOTE_Y + 6}
     x0, y, out, tops = 4, 0, [], {}
     for p in "abc":
         tops[p] = y
         out.append(use(p, x0, y))
-        y += heights[p]
+        y += PANEL_H
         if p != "c":
             ax = x0 + PANEL_W / 2
-            out.append(f'<path d="M{f(ax)} {f(y + 6)}V{f(y + 22)}" fill="none" stroke="{FLOW}" stroke-width="1.6"/>')
-            out.append(arrow_head(ax, y + 30, "down", FLOW, 8))
-            y += 44
+            out.append(flow_arrow(ax, y + 4, ax, y + 20, "down"))
+            y += 40
     yb = tops["b"] + PLOT_Y + PLOT_H / 2
     yc = tops["c"] + PLOT_Y + PLOT_H / 2
-    right, lx = x0 + PANEL_W + 8, x0 + PANEL_W + 30
+    right, lx = x0 + PANEL_W + 8, x0 + PANEL_W + 26
     out.append(f'<path d="M{f(right)} {f(yc)}H{f(lx)}V{f(yb)}H{f(right + 8)}" fill="none" stroke="{CORAL}" '
                'stroke-width="1.8" stroke-linejoin="round"/>')
     out.append(arrow_head(right, yb, "left", CORAL, 8))
-    out.append(loop_label(0, 0, f' transform="translate({f(lx + 15)} {f((yb + yc) / 2)}) rotate(90)"'))
-    return int(lx + 24), int(y + 8), "".join(out)
+    return int(lx + 8), int(y + 4), "".join(out)
 
 
 # ------------------------------------------------------------------ output
@@ -376,9 +351,10 @@ DESCRIPTION = (
     "Research overview in three panels. Panel A, physical dynamics, shows profiles of a "
     "Kuramoto-Sivashinsky solution that start smooth and become chaotic. Panel B, neural solvers, "
     "shows the solution fields for three initial conditions, each returned by a neural operator in "
-    "one forward pass. Panel C, Model2Action, shows that the solution error stays nearly constant "
-    "across operating points and that the decision error, measured as regret, rises sharply near an "
-    "active constraint. An arrow from C back to B shows that the decision error trains the solver."
+    "one forward pass. Panel C, Model2Action, shows the cost of a decision under the true dynamics "
+    "and under the learned solution. The learned solution moves the minimizer from d* to d-hat, and "
+    "the cost gap J(d-hat) minus J(d*) is the regret. An arrow from C back to B shows that the "
+    "regret trains the solver. The cost curves are illustrative."
 )
 
 
@@ -424,12 +400,11 @@ def main():
     nw, nh, narrow = narrow_layout()
     html = f"""```{{=html}}
 <!-- Generated by scripts/build_research_figure.py. Edit the script, not this file. -->
-<figure class="rf" aria-labelledby="rf-caption">
+<figure class="rf">
   {sprite}
   <p class="visually-hidden" id="rf-desc">{DESCRIPTION}</p>
   <svg class="rf__wide" viewBox="0 0 {ww} {wh}" role="img" aria-labelledby="rf-desc">{wide}</svg>
   <svg class="rf__narrow" viewBox="0 0 {nw} {nh}" role="img" aria-labelledby="rf-desc">{narrow}</svg>
-  <figcaption id="rf-caption">A and B show solutions of the Kuramoto–Sivashinsky equation, and the curves in C are schematic.</figcaption>
 </figure>
 ```
 """

@@ -43,9 +43,12 @@ python3 scripts/build_research_figure.py
 
 It needs numpy, matplotlib and Pillow. The figure has one panel per direction:
 A draws a Kuramoto–Sivashinsky solution as a waterfall of profiles, B stacks the
-space-time fields for three initial conditions, and C plots solution error and
-decision error against the operating point (schematic curves). An arrow from C
-back to B carries the decision error into solver training. Each panel is drawn
+space-time fields for three initial conditions, and C draws the cost of a
+decision under the true dynamics and under the learned solution, whose gap
+J(d̂) − J(d*) is the regret (illustrative curves). An arrow from C back to B
+carries the regret into solver training. Each panel holds only a title, a
+visual in a box shared by all three panels, and one formula. Purple marks the
+physical system, teal the learned solver, and coral the decision error. Each panel is drawn
 once in a zero-size SVG sprite and placed with `<use>` in a wide layout and a
 stacked layout for phones; `assets/css/site.css` (section 7) switches between
 them at 640 px. Mathematics is typeset with matplotlib mathtext and embedded as

@@ -11,6 +11,7 @@ project:
     - c7d4984f38601437316bea01e3143bfe.txt
     - google60c018834eaa5cb7.html
     - assets/images/publications/**
+    - assets/images/research/**
     - assets/css/citation-map.css
     - assets/js/citation-map.js
     - assets/data/citation-geography.json

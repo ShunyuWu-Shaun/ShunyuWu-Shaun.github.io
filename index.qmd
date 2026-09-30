@@ -1,7 +1,7 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
 subtitle: "Physical intelligence through dynamics and decisions"
-description-meta: "Shunyu Wu trains neural solvers for the governing dynamics of physical systems and studies how their error changes control and optimization decisions, in materials formation and in integrated energy and water systems."
+description-meta: "Shunyu Wu trains neural solvers for the governing dynamics of physical systems and studies how their error changes control and optimization decisions, in materials processing and in integrated energy and urban water systems."
 toc: false
 page-layout: full
 body-classes: home-page
@@ -105,7 +105,7 @@ body-classes: home-page
 
 ```{=html}
       <ul class="directions">
-        <li class="d-a"><strong>A. Physical dynamics in science and engineering.</strong> Science: iCVD coupled with liquid crystals, with Professor Fengqi You. Engineering: complex dynamical systems, including integrated energy systems and urban water systems, from my Ph.D. with Professor Jingcheng Wang.</li>
+        <li class="d-a"><strong>A. Physical dynamics in science and engineering.</strong> With Professor Fengqi You, I formulate the governing equations of iCVD coupled with liquid crystals. My engineering research, which began during my Ph.D. with Professor Jingcheng Wang, concerns complex dynamical systems, such as integrated energy systems and urban water systems.</li>
         <li class="d-b"><strong>B. Neural solvers for physical dynamics.</strong> A neural operator approximates the solution map of a governing model and returns a solution in one forward pass. I train it so that its rollouts and sensitivities are accurate enough for control and optimization.</li>
         <li class="d-c"><strong>C. Model2Action.</strong> The error in a learned solution changes the decision slightly in most operating regimes and substantially near a critical point or an active constraint. I measure the decision error as regret, closed-loop cost, and constraint violation, and I use it to train the solver.</li>
       </ul>

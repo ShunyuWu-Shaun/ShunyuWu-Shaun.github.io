@@ -6,7 +6,7 @@ toc: true
 
 ## Physical intelligence and system dynamics {#physical-intelligence-and-its-substrate}
 
-Physical intelligence is the ability of a learning system to model a physical system and to act on it. A material during processing, a water network under pumping, and a power plant responding to load changes evolve according to ordinary or partial differential equations with initial conditions, boundary conditions, and external forcing. To model such a system is to solve those equations under the given conditions. To act on it is to compute a decision from the solution. I study both steps and how solution errors affect decisions. I organize this work into three research directions.
+Physical intelligence is the ability of a learning system to model a physical system and to act on it. A material during processing, a water network under pumping, and an integrated energy system responding to load changes evolve according to ordinary or partial differential equations with initial conditions, boundary conditions, and external forcing. To model such a system is to solve those equations under the given conditions. To act on it is to compute a decision from the solution. I study both steps and how solution errors affect decisions. I organize this work into three research directions.
 
 ## A. Physical dynamics in science and engineering
 

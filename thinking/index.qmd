@@ -14,6 +14,13 @@ Short notes on questions I keep returning to. Each note includes its date and lo
      is the intended length. Update the note shown in the Thinking section of
      index.qmd so the home page carries the newest one. -->
 <div class="notes">
+  <article class="note" id="what-counts-as-intelligence">
+    <p class="note__meta">
+      <time datetime="2026-10-06T17:38:53-04:00">6 October 2026, EDT (UTC−04:00)</time>
+    </p>
+    <h2 class="note__title">What counts as intelligence?</h2>
+    <p>I don't understand why people talk as if AI makes human intelligence irrelevant. Deriving equations and writing code matter, but what about handling several problems at once, learning quickly, and knowing which direction is worth pursuing? Don't these count as intelligence? I would call them a higher form of it, developed through broader experience than any single technical skill demands. These are exactly the abilities we need most when working with AI, whether in research or in making engineering ideas work.</p>
+  </article>
   <article class="note" id="where-modeling-pays-off">
     <p class="note__meta">
       <time datetime="2026-09-28T18:45:34-04:00">28 September 2026, EDT (UTC−04:00)</time>

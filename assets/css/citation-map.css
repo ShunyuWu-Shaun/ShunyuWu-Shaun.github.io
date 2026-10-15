@@ -7,7 +7,7 @@
   --map-blue: #336f92;
   --map-rule: #d8e2e8;
   margin: 0;
-  font-family: var(--sans, sans-serif);
+  font-family: var(--serif, Georgia, serif);
   color: var(--map-ink);
   container-type: inline-size;
 }
@@ -17,7 +17,7 @@
 .citation-map__reset { display: inline-flex; gap: .4rem; align-items: center; margin-left: auto; padding: .4rem 0 .4rem .35rem; border: 0; background: transparent; color: var(--map-blue); font-size: .78rem !important; white-space: nowrap; }
 .citation-map button:focus-visible, .citation-map .leaflet-container:focus-visible { outline: 2px solid #216e9b; outline-offset: 3px; }
 .citation-map__canvas { height: 410px; width: 100%; border: 1px solid var(--map-rule); border-radius: 4px; isolation: isolate; background: #f5f9fb; z-index: 0; }
-.citation-map__canvas.leaflet-container { font-family: var(--sans, sans-serif); background: #f5f9fb; }
+.citation-map__canvas.leaflet-container { font-family: var(--serif, Georgia, serif); background: #f5f9fb; }
 .citation-map .leaflet-control-zoom { border: 1px solid #cbd9e1; box-shadow: 0 1px 4px #243d5012; border-radius: 4px; }
 .citation-map .leaflet-control-zoom a { color: var(--map-ink); font-weight: 400; }
 .citation-map .leaflet-control-attribution { background: #ffffffd9; font-size: 9px; color: #617783; }

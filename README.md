@@ -81,8 +81,8 @@ the last section on the home page, so it carries the newest one.
 One stylesheet, `assets/css/site.css`, organised in numbered sections and
 driven by custom properties at the top. A sticky profile column on the left
 holds the portrait, appointment and links; the right column holds the prose.
-Body text is IBM Plex Sans and headings are IBM Plex Serif, both loaded from
-Google Fonts. Three colours from the top-conference figure library carry the
+Body text and headings use IBM Plex Serif, loaded from Google Fonts.
+Three colours from the top-conference figure library carry the
 three directions everywhere, in the figure, the direction list, and the tags:
 purple `#9467BD` for A, teal `#31859A` for B, coral `#EA7F6F` for C. Links use
 the teal.

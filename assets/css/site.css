@@ -3,7 +3,7 @@
 
    Layout: a sticky profile column on the left carries the portrait, name,
    appointment and profile links; the right column carries the prose. Body
-   text is IBM Plex Sans, headings are IBM Plex Serif. Colour is reserved
+   text and headings use IBM Plex Serif. Colour is reserved
    for the three research directions and for the figure, so the page reads
    as a document rather than as an interface.
 
@@ -27,7 +27,6 @@
 /* -- 1  Tokens ------------------------------------------------------------ */
 
 :root {
-  --sans: "IBM Plex Sans", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
   --serif: "IBM Plex Serif", "Songti SC", Georgia, "Times New Roman", serif;
 
   --page: 1120px;       /* sidebar plus reading column */
@@ -54,7 +53,9 @@
   --c-b: #31859A;   /* B: solving the dynamics with neural networks */
   --c-c: #EA7F6F;   /* C: the model-to-decision gap */
 
-  --bs-body-font-family: var(--sans);
+  --bs-font-sans-serif: var(--serif);
+  --bs-font-monospace: var(--serif);
+  --bs-body-font-family: var(--serif);
   --bs-body-bg: var(--bg);
   --bs-body-color: var(--text);
   --bs-link-color: var(--link);
@@ -72,7 +73,7 @@ body {
   margin: 0;
   color: var(--text);
   background: var(--bg);
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 1rem;
   line-height: 1.62;
   text-rendering: optimizeLegibility;
@@ -186,7 +187,7 @@ a.external > .bi-box-arrow-up-right {
 .navbar .nav-link {
   padding: 0.25rem 0.5rem !important;
   color: var(--muted) !important;
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 0.9rem;
   font-weight: 450;
   text-decoration: none;
@@ -723,7 +724,7 @@ body:not(.home-page) main table.table {
 }
 
 .pub__title {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.35;
@@ -840,7 +841,7 @@ body:not(.home-page) main table.table {
 
 body:not(.home-page) .paper-card h3 {
   margin: 0.15rem 0 0.3rem;
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.35;
@@ -928,7 +929,7 @@ body:not(.home-page) .paper-card h3 {
   color: var(--tag);
   border: 1px solid color-mix(in srgb, var(--tag) 45%, transparent);
   border-radius: 3px;
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.07em;

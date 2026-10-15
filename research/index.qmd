@@ -1,49 +1,35 @@
 ---
 title: "Research"
 description-meta: "Learning physical dynamics for control and optimization in water-energy systems, sustainable data center energy systems, and precision materials manufacturing."
-toc: true
+toc: false
 ---
 
-## Learning physical dynamics for control and optimization {#physical-intelligence-and-its-substrate}
+::: {#physical-intelligence-and-its-substrate}
 
-Physical states evolve under operating inputs and external disturbances. A useful model must describe that evolution over the time horizon of a control or optimization problem. I study how to learn these dynamics and how errors in the predicted trajectory affect the decisions computed from it.
-
-My engineering interests lie in water-energy systems, with a current emphasis on integrated multi-energy systems serving data centers. My scientific work concerns dynamic modeling and optimization for precision materials manufacturing. Both settings motivate the same question of how learned dynamics can guide decisions that change a physical process over time.
+I study how learned models of physical dynamics can guide control and optimization in water-energy systems and precision materials manufacturing.
 
 {{< include ../_includes/research-overview.qmd >}}
 
-## A. Physical dynamics
+:::
 
-A physical model relates the current state and applied inputs to the subsequent evolution of the system. I am interested in which state variables and time scales a model must represent for a useful operating or manufacturing decision. Distributed processes also require the model to describe how fields evolve in space under initial and boundary conditions.
+## Physical dynamics {#a.-physical-dynamics}
 
-### Water-energy systems and data center sustainability
+I investigate which physical states and time scales a model must resolve to predict responses to operating or processing inputs.
 
-My work on water-energy systems examines how time-varying demand and uncertain energy costs affect system operation. My current interests focus on the dynamics of integrated multi-energy systems serving data centers. I am interested in the coupling between computing demand and the response of cooling and energy supply, and in how dynamic optimization can account for energy and water use alongside carbon emissions.
+### Water-energy systems {#water-energy-systems-and-data-center-sustainability}
 
-### Process dynamics in precision materials manufacturing
+I investigate how computing demand interacts with cooling and energy supply over time in multi-energy systems serving data centers. I study how these dynamics affect operating decisions and the resulting energy and water use alongside carbon emissions.
 
-I work with [Professor Fengqi You](https://www.peese.org/professor/) on how material structure evolves during processing and how processing conditions can guide that evolution. Dynamic models connect a change in process inputs to the resulting material trajectory. I use this connection to investigate the optimization of processing conditions for a target structure.
+### Materials processing {#process-dynamics-in-precision-materials-manufacturing}
 
-## B. Learning dynamics
+I work with [Professor Fengqi You](https://www.peese.org/professor/) on dynamic modeling and optimization for precision materials manufacturing. I study how material structure evolves under changing processing conditions and how to optimize those conditions for a target structure.
 
-Control and optimization require predictions under different candidate inputs. I develop neural operators to approximate the solution maps of distributed dynamical systems across a family of initial conditions and forcing inputs. The questions concern how prediction errors accumulate over a rollout and how accurately the learned model represents the sensitivities needed to optimize the inputs. I also investigate how governing equations can constrain training and how learned operators can work with numerical solvers.
+## Learning dynamics {#b.-learning-dynamics}
 
-Work on [water-demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508) examines delayed model responses near turning points. [Uncertain pressure regression](https://doi.org/10.1109/TCSS.2023.3272330) separates the pressure response to measured inputs from variation associated with unmeasured disturbances. These studies connect the quality of a physical model to its response to changing inputs and incomplete observation.
+I develop neural operators to predict distributed dynamics under changing inputs and initial conditions. I study how prediction errors accumulate over a rollout and how accurately learned operators represent the sensitivities needed to optimize those inputs.
 
-## C. Model2Action
+## Model2Action {#c.-model2action}
 
-Model2Action concerns control and optimization through learned dynamics. I study how errors in a predicted trajectory change the selected inputs and the physical response under those inputs. The consequences are measured through operating cost and constraint violation over the control horizon. Decision regret measures the objective loss relative to the decision made with the reference model or realized inputs, as defined by the task.
-
-I examine how these effects depend on the operating regime and the constraints that limit the decision. This relationship provides a training signal that connects the accuracy of a learned model to its use in an operating or manufacturing problem.
-
-[Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) trains a probabilistic electricity-cost forecast through the water-supply schedule it induces. Its SPTO+ variant uses a differentiable upper bound on the optimality gap as the loss. Work on [constrained reinforcement learning control](https://doi.org/10.1109/TSMC.2023.3344883) and [adaptive optimal control](https://doi.org/10.1109/CDC49753.2023.10383316) examines how learned feedback laws act on nonlinear dynamics. Related work on [trajectory generation](https://doi.org/10.1016/j.eswa.2026.133261) evaluates learned actions against local geometric constraints.
-
-## Research map
-
-| Direction | Question | Evaluated by |
-|---|---|---|
-| A. Physical dynamics | How do inputs change the physical state over time? | Agreement with observations and governing relations |
-| B. Learning dynamics | Which dynamic responses must a learned model predict? | Rollout and sensitivity errors, with computational cost |
-| C. Model2Action | How does model error affect control and optimization? | Closed-loop cost, decision regret, and constraint violation |
+I study how errors in learned dynamics affect control actions and optimization outcomes, particularly when operating constraints are active. I investigate how decision regret and constraint violation can guide model training, and evaluate the resulting controllers through closed-loop cost.
 
 [Publications](/publications/) · [Projects](/projects/)

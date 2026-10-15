@@ -32,6 +32,7 @@
   --page: 1120px;       /* sidebar plus reading column */
   --measure: 780px;     /* prose column on secondary pages */
   --gutter: 1.35rem;
+  --paper-figure-share: 48%;
 
   --bg: #ffffff;
   --surface: #f5f6f7;
@@ -257,6 +258,25 @@ body:not(.home-page) #quarto-content main.content {
   max-width: var(--measure);
   padding-top: 2.4rem;
   padding-bottom: 4.5rem;
+}
+
+body.publication-page #quarto-content main.content,
+body.projects-page #quarto-content main.content {
+  grid-column: screen-start-inset / screen-end-inset;
+  width: 100%;
+  max-width: 1020px;
+  margin-inline: auto;
+}
+
+body.projects-page main.content {
+  container-type: inline-size;
+  container-name: project-content;
+}
+
+body.projects-page main.content p,
+.project-study-copy,
+.publication-intro {
+  max-width: var(--measure);
 }
 
 body:not(.home-page) #title-block-header {
@@ -679,13 +699,16 @@ body:not(.home-page) main table.table {
   margin: 0;
   padding: 0;
   list-style: none;
+  container-type: inline-size;
+  container-name: paper-list;
 }
 
 .pub {
   display: grid;
-  grid-template-columns: minmax(190px, 30%) minmax(0, 1fr);
-  gap: 0 1.25rem;
-  padding: 0.9rem 0;
+  grid-template-columns: minmax(0, var(--paper-figure-share)) minmax(0, 1fr);
+  gap: 1rem 1.5rem;
+  align-items: center;
+  padding: 1.1rem 0;
   border-bottom: 1px solid var(--rule);
 }
 
@@ -696,7 +719,6 @@ body:not(.home-page) main table.table {
 .pub__thumb,
 .paper-visual {
   display: block;
-  align-self: start;
   overflow: hidden;
   border: 1px solid var(--rule);
   border-radius: 3px;
@@ -716,7 +738,7 @@ body:not(.home-page) main table.table {
   display: block;
   width: 100%;
   height: auto;
-  padding: 0.45rem;
+  padding: 0.25rem;
   box-sizing: border-box;
 }
 
@@ -760,13 +782,6 @@ body:not(.home-page) main table.table {
   font-size: 0.9rem;
 }
 
-.pub__note,
-.paper-claim {
-  color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.5;
-}
-
 .pub__links,
 .paper-links {
   display: flex;
@@ -782,6 +797,7 @@ body:not(.home-page) main table.table {
   font-weight: 600;
   letter-spacing: 0.07em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .role--first,
@@ -815,13 +831,16 @@ body:not(.home-page) main table.table {
 .publication-grid {
   display: grid;
   gap: 0;
+  container-type: inline-size;
+  container-name: paper-list;
 }
 
 .paper-card {
   display: grid;
-  grid-template-columns: minmax(210px, 32%) minmax(0, 1fr);
-  gap: 0 1.25rem;
-  padding: 1rem 0;
+  grid-template-columns: minmax(0, var(--paper-figure-share)) minmax(0, 1fr);
+  gap: 1rem 1.5rem;
+  align-items: center;
+  padding: 1.3rem 0;
   border-bottom: 1px solid var(--rule);
 }
 
@@ -969,15 +988,29 @@ body:not(.home-page) .paper-card h3 {
 
 .project-study {
   display: grid;
-  grid-template-columns: minmax(260px, 0.9fr) minmax(0, 1fr);
-  gap: 1.4rem;
-  align-items: start;
+  grid-template-columns: minmax(0, var(--paper-figure-share)) minmax(0, 1fr);
+  gap: 1.2rem 1.5rem;
+  align-items: center;
   margin: 0.5rem 0 2.2rem;
+}
+
+.project-study--paired {
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .project-study-visual {
   display: grid;
   gap: 0.6rem;
+}
+
+.project-study-visual > p {
+  display: contents;
+}
+
+.project-study-visual-pair {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  align-items: center;
 }
 
 .project-study-visual a {
@@ -999,7 +1032,7 @@ body:not(.home-page) .paper-card h3 {
   width: 100%;
   height: auto;
   margin: 0;
-  padding: 0.5rem;
+  padding: 0.25rem;
   box-sizing: border-box;
 }
 
@@ -1060,6 +1093,20 @@ body:not(.home-page) main .da-card h3 {
 }
 
 /* -- 13  Responsive ------------------------------------------------------- */
+
+@container paper-list (max-width: 720px) {
+  .pub,
+  .paper-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@container project-content (max-width: 720px) {
+  .project-study,
+  .project-study-visual-pair {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
 
 @media (max-width: 900px) {
   .home {
@@ -1124,28 +1171,8 @@ body:not(.home-page) main .da-card h3 {
     gap: 0.1rem;
   }
 
-  .pub,
-  .paper-card {
-    grid-template-columns: 1fr;
-    gap: 0.7rem;
-  }
-
-  .pub__thumb,
-  .paper-visual {
-    width: 100%;
-    max-width: 420px;
-  }
-
-  .project-study {
-    grid-template-columns: 1fr;
-  }
-
   .dynamics-applications {
     grid-template-columns: 1fr;
-    max-width: 420px;
-  }
-
-  .project-study-visual {
     max-width: 420px;
   }
 

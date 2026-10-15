@@ -37,13 +37,13 @@ A dynamic model used in control must predict how the state responds to candidate
 
 ### Temporal response and uncertain pressure states <span class="branch">Engineering</span>
 
-:::: {.project-study .theme-dynamics}
+:::: {.project-study .project-study--paired .theme-dynamics}
 ::: {.project-study-visual .project-study-visual-pair}
 <a href="/assets/images/publications/original/kbbcm.png" aria-label="View full-size KbBcM architecture"><img src="/assets/images/publications/original/kbbcm.png" width="1732" height="708" loading="lazy" alt="Figure 2 from KbBcM: lag-penalty attention, AR-LSTM, and posterior correction"></a>
 <a href="/assets/images/publications/original/criticoder.png" aria-label="View full-size CritiCoder architecture"><img src="/assets/images/publications/original/criticoder.png" width="1860" height="964" loading="lazy" alt="Figure 2 from CritiCoder: coupled Coder and Critic networks with two training loops"></a>
 :::
 ::: {.project-study-copy}
-Daily demand and network pressure expose different errors in a learned physical model. [KbBcM](https://doi.org/10.1016/j.eswa.2024.124508) corrects delayed forecasts near demand turning points with lag-penalty attention and posterior residual correction. [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) models pressure under measured inputs and residual variation associated with unmeasured disturbances. These studies examine temporal response and incomplete observation in water systems.
+My work on [water demand](https://doi.org/10.1016/j.eswa.2024.124508) and [network pressure](https://doi.org/10.1109/TCSS.2023.3272330) examines delayed model responses and incomplete observation in water systems.
 
 [Read the research summary](service-operations-planning.qmd)
 :::
@@ -56,7 +56,7 @@ Daily demand and network pressure expose different errors in a learned physical 
 <a href="/assets/images/publications/original/series-concat.png" aria-label="View full-size two-stage DCLS-Net architecture"><img src="/assets/images/publications/original/series-concat.png" width="860" height="588" loading="lazy" alt="Figure 3 from the rolling energy paper. Two DCLS-Net stages predict intermediate variables and rolling energy."></a>
 :::
 ::: {.project-study-copy}
-Hot-strip roughing consists of an ordered sequence of rolling passes. A [DCLS-Net study](https://doi.org/10.1109/TASE.2023.3299185) predicts the energy of each pass and links those predictions through series concatenation. This study examines how the sequence of processing operations relates to its energy consumption.
+[This study](https://doi.org/10.1109/TASE.2023.3299185) examines energy prediction across successive rolling passes, with particular attention to error accumulation along the processing sequence.
 :::
 ::::
 
@@ -71,7 +71,7 @@ Model2Action connects the predicted dynamics to the inputs selected by a control
 <a href="/assets/images/publications/original/spto.png" aria-label="View full-size SPTO framework"><img src="/assets/images/publications/original/spto.png" width="1968" height="1064" loading="lazy" alt="Figure 2 from SPTO: probabilistic forecasting, water-energy scheduling, and surrogate-loss training"></a>
 :::
 ::: {.project-study-copy}
-Water-supply operation links when water is processed and delivered to when electricity is consumed. [SPTO](https://doi.org/10.1109/TSG.2025.3601238) trains a probabilistic electricity-cost forecast through the stochastic water-supply schedule it induces. Its SPTO+ variant uses a differentiable upper bound on the optimality gap as the loss. Operating cost and regret measure the consequences of forecast error over the scheduling horizon.
+My work on [water-energy scheduling](https://doi.org/10.1109/TSG.2025.3601238) examines how forecast uncertainty changes operating decisions and their cost.
 
 [Read the research summary](industrial-workflow-analysis.qmd)
 :::
@@ -79,13 +79,13 @@ Water-supply operation links when water is processed and delivered to when elect
 
 ### Feedback laws for constrained nonlinear dynamics <span class="branch">Engineering</span>
 
-:::: {.project-study .theme-control}
+:::: {.project-study .project-study--paired .theme-control}
 ::: {.project-study-visual .project-study-visual-pair}
 <a href="/assets/images/publications/original/rl-controller.png" aria-label="View full-size constrained controller architecture"><img src="/assets/images/publications/original/rl-controller.png" width="1976" height="644" loading="lazy" alt="Figure 1 from the constrained RL controller paper: NMPC initialization and actor-critic feedback"></a>
 <a href="/assets/images/publications/original/eligibility-traces.png" aria-label="View full-size multiple time-scale control architecture"><img src="/assets/images/publications/original/eligibility-traces.png" width="992" height="700" loading="lazy" alt="Figure 1 from the eligibility traces paper. Actor and critic networks use truncated returns and target critic networks."></a>
 :::
 ::: {.project-study-copy}
-Nonlinear model predictive control initializes a controller network for discrete-time constrained systems, and a control barrier function with a nonquadratic loss enforces the state and input constraints during learning. A study of adaptive optimal control uses eligibility traces at several time scales to give the critic credit signals accumulated over different horizons.
+I investigate learning-based feedback for constrained nonlinear systems and temporal credit assignment in adaptive optimal control.
 
 [Constrained controller](https://doi.org/10.1109/TSMC.2023.3344883) · [Multiple time-scale eligibility traces](https://doi.org/10.1109/CDC49753.2023.10383316)
 :::
@@ -98,7 +98,7 @@ Nonlinear model predictive control initializes a controller network for discrete
 <a href="/assets/images/publications/original/drift.jpg" aria-label="View full-size DRIFT LiDAR scene"><img src="/assets/images/publications/original/drift.jpg" width="1667" height="1179" loading="lazy" alt="Figure 2 from DRIFT: local LiDAR point clouds and sparse graph nodes with a magnified scene detail"></a>
 :::
 ::: {.project-study-copy}
-[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent diffusion. The study evaluates generated trajectories through endpoint error, clearance, smoothness, and runtime. This collaborative work examines how a learned action satisfies the geometric constraints of its physical environment.
+In [DRIFT](https://doi.org/10.1016/j.eswa.2026.133261), we examine how generated trajectories satisfy local geometric constraints in physical environments.
 :::
 ::::
 

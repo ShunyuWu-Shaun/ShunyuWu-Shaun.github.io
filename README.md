@@ -107,6 +107,12 @@ Keep full PDFs and figure-selection previews in the ignored
 All ten listed papers use original method or result figures. The homepage,
 publication list, and projects share the same image assets.
 
+Publication rows give figures nearly half the width beside the bibliographic
+details. They stack when their reading column is narrower than 720 px, including
+beside the profile sidebar. Publications and Projects use a wider reading area;
+paired project figures share a full row and stack on smaller screens. Paper
+lists omit method walkthroughs, and project entries use short research summaries.
+
 ## Citation geography
 
 The interactive map shows citing institutions without displaying citation counts.

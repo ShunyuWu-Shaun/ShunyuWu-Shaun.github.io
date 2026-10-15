@@ -18,7 +18,7 @@ The study introduces mean prediction trend effectiveness, which tests whether th
 
 ## Pressure response under unmeasured disturbances
 
-[CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) models macroscopic pressure when the measured variables do not explain every disturbance in a water distribution system. The Coder learns the pressure response to the observed variables. The Critic, trained with a different loss, represents the remaining variation as a distribution over the unmeasured disturbances.
+[CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) studies macroscopic pressure prediction under unmeasured disturbances in water distribution systems.
 
 ## Evaluation of disturbance sensitivity
 

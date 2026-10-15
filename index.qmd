@@ -134,7 +134,6 @@ body-classes: home-page
             <p class="pub__title"><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p>
             <p class="pub__venue"><em>IEEE Transactions on Smart Grid</em>, 2025 <span class="role role--first">First author</span> <span class="branch">A</span> <span class="branch branch--c">C</span></p>
-            <p class="pub__note">The training objective for the forecasting model includes scheduling cost through a differentiable upper bound on the optimality gap.</p>
           </div>
         </li>
         <li class="pub">
@@ -143,7 +142,6 @@ body-classes: home-page
             <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
             <p class="pub__venue"><em>Expert Systems with Applications</em>, 2024 <span class="role role--first">First author</span> <span class="branch">A</span> <span class="branch branch--b">B</span></p>
-            <p class="pub__note">Lag-penalty attention and posterior residual correction reduce the delayed response of a learned demand model near turning points.</p>
           </div>
         </li>
         <li class="pub">
@@ -152,7 +150,6 @@ body-classes: home-page
             <p class="pub__title"><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
             <p class="pub__venue"><em>IEEE Transactions on Computational Social Systems</em>, 2024 <span class="role role--first">First author</span> <span class="branch">A</span> <span class="branch branch--b">B</span></p>
-            <p class="pub__note">The Coder models the pressure response to measured inputs. The Critic models the residual variation caused by unmeasured disturbances.</p>
           </div>
         </li>
         <li class="pub">
@@ -161,7 +158,6 @@ body-classes: home-page
             <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></p>
             <p class="pub__authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong>Shunyu Wu</strong></p>
             <p class="pub__venue"><em>Expert Systems with Applications</em>, 2026 <span class="role role--last">Last author</span> <span class="branch branch--c">C</span></p>
-            <p class="pub__note">A graph memory stores local LiDAR geometry and provides waypoint-specific context at each step of recurrent diffusion denoising.</p>
           </div>
         </li>
         <li class="pub">
@@ -170,7 +166,6 @@ body-classes: home-page
             <p class="pub__title"><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method</a></p>
             <p class="pub__authors">Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and <strong>Shunyu Wu</strong></p>
             <p class="pub__venue"><em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>, 2024 <span class="role role--last">Last author</span> <span class="branch branch--c">C</span></p>
-            <p class="pub__note">Nonlinear model predictive control initializes the controller weights. A control barrier function with a nonquadratic loss enforces the state and input constraints during learning.</p>
           </div>
         </li>
       </ol>

@@ -8,7 +8,7 @@ toc: false
 
 [shunyu.wu@cornell.edu](mailto:shunyu.wu@cornell.edu)
 
-I am glad to hear from people working on neural solvers for physical dynamics, on decision-focused learning, or on control and optimization under physical limits.
+I welcome conversations about learning physical dynamics for control and optimization. My application interests include water-energy systems, the sustainable operation of multi-energy systems serving data centers, and precision materials manufacturing.
 
 ## Current appointment
 
@@ -16,7 +16,7 @@ I am glad to hear from people working on neural solvers for physical dynamics, o
 Systems Engineering Program<br>
 Cornell University, Ithaca, New York
 
-I work with [Professor Fengqi You](https://www.peese.org/professor/) on physical intelligence for materials processing. The current system is initiated chemical vapor deposition coupled with liquid crystals.
+I work with [Professor Fengqi You](https://www.peese.org/professor/) on dynamic modeling and optimization for precision materials manufacturing.
 
 ## Education
 

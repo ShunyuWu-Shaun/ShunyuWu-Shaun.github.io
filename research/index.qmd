@@ -1,41 +1,49 @@
 ---
 title: "Research"
-description: "Physical intelligence through governing dynamics, neural solvers, and the effect of model error on decisions."
+description: "Learning physical dynamics for control and optimization in water-energy systems, sustainable data center energy systems, and precision materials manufacturing."
 toc: true
 ---
 
-## Physical intelligence and system dynamics {#physical-intelligence-and-its-substrate}
+## Learning physical dynamics for control and optimization {#physical-intelligence-and-its-substrate}
 
-Physical intelligence is the ability of a learning system to model a physical system and to act on it. A material during processing, a water network under pumping, and an integrated energy system responding to load changes evolve according to ordinary or partial differential equations with initial conditions, boundary conditions, and external forcing. To model such a system is to solve those equations under the given conditions. To act on it is to compute a decision from the solution. I study both steps and how solution errors affect decisions. I organize this work into three research directions.
+Physical states evolve under operating inputs and external disturbances. A useful model must describe that evolution over the time horizon of a control or optimization problem. I study how to learn these dynamics and how errors in the predicted trajectory affect the decisions computed from it.
 
-## A. Physical dynamics in science and engineering
+My engineering interests lie in water-energy systems, with a current emphasis on integrated multi-energy systems serving data centers. My scientific work concerns dynamic modeling and optimization for precision materials manufacturing. Both settings motivate the same question of how learned dynamics can guide decisions that change a physical process over time.
 
-A governing model specifies the physical state, its evolution under inputs and forcing, and the conditions that constrain it. Ordinary differential equations describe lumped dynamics. Partial differential equations describe fields distributed in space. With initial and boundary conditions, these equations define the solution problems of direction B.
+{{< include ../_includes/research-overview.qmd >}}
 
-**Science.** With [Professor Fengqi You](https://www.peese.org/professor/) at Cornell, my current work focuses on initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC). I formulate equations describing this process and train neural models to approximate their solutions for control and optimization. Chemical formation coupled with LC is a possible extension.
+## A. Physical dynamics
 
-**Engineering.** My engineering research concerns complex dynamical systems, such as integrated energy systems and urban water systems, and began during my Ph.D. with [Professor Jingcheng Wang](https://ieeexplore.ieee.org/author/37280547200) at Shanghai Jiao Tong University. Their states are pressure, temperature, and energy consumption. Demand and electricity price are external inputs to their operating decisions.
+A physical model relates the current state and applied inputs to the subsequent evolution of the system. I am interested in which state variables and time scales a model must represent for a useful operating or manufacturing decision. Distributed processes also require the model to describe how fields evolve in space under initial and boundary conditions.
 
-## B. Neural solvers for physical dynamics
+### Water-energy systems and data center sustainability
 
-Repeated control and optimization require the governing model to be solved for many inputs and conditions. A neural solver, such as a neural operator, approximates the solution map across a family of conditions and returns a solution in one forward pass. I train these models so that their rollouts remain accurate over the prediction horizon required by the controller and their sensitivities to process settings are accurate enough for an optimizer. Physics-constrained training and hybrid schemes that keep part of the numerical solver reduce the data they need. Computational cost and data requirements are evaluated together with accuracy.
+My work on water-energy systems examines how time-varying demand and uncertain energy costs affect system operation. My current interests focus on the dynamics of integrated multi-energy systems serving data centers. I am interested in the coupling between computing demand and the response of cooling and energy supply, and in how dynamic optimization can account for energy and water use alongside carbon emissions.
 
-My earlier engineering studies dealt with the same errors in learned temporal models. [Lag-free demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508) reduces the delayed response of a demand model near turning points. [Uncertain pressure regression](https://doi.org/10.1109/TCSS.2023.3272330) separates the pressure response to measured inputs from the variation caused by unmeasured disturbances. A [series-concatenation model](https://doi.org/10.1109/TASE.2023.3299185) of hot-strip rolling links successive passes so that the error stops accumulating along the sequence.
+### Process dynamics in precision materials manufacturing
+
+I work with [Professor Fengqi You](https://www.peese.org/professor/) on how material structure evolves during processing and how processing conditions can guide that evolution. Dynamic models connect a change in process inputs to the resulting material trajectory. I use this connection to investigate the optimization of processing conditions for a target structure. The [project page](/projects/#precision-materials-manufacturing) describes the current material system.
+
+## B. Learning dynamics
+
+Control and optimization require predictions under different candidate inputs. I develop neural operators to approximate the solution maps of distributed dynamical systems across a family of initial conditions and forcing inputs. The questions concern how prediction errors accumulate over a rollout and how accurately the learned model represents the sensitivities needed to optimize the inputs. I also investigate how governing equations can constrain training and how learned operators can work with numerical solvers.
+
+Work on [water-demand forecasting](https://doi.org/10.1016/j.eswa.2024.124508) examines delayed model responses near turning points. [Uncertain pressure regression](https://doi.org/10.1109/TCSS.2023.3272330) separates the pressure response to measured inputs from variation associated with unmeasured disturbances. These studies connect the quality of a physical model to its response to changing inputs and incomplete observation.
 
 ## C. Model2Action
 
-Once a learned solution is used to compute a decision, its error affects the result through the dynamics, the objective, and the constraints. I separate the change in the selected decision from its consequences. Two substantially different decisions can have nearly the same cost, so a large change in the decision can still correspond to low regret. Closed-loop cost and feasibility need their own evaluation.
+Model2Action concerns control and optimization through learned dynamics. I study how errors in a predicted trajectory change the selected inputs and the physical response under those inputs. The consequences are measured through operating cost and constraint violation over the control horizon. Decision regret measures the objective loss relative to the decision made with the reference model or realized inputs, as defined by the task.
 
-The dependence on the operating regime is the main question. Near a bifurcation or a stability boundary, a small model error can change the predicted trajectory or its stability. When the set of active constraints changes, the response of the optimizer changes with it. I locate the regimes where these effects are large, and I use the measured decision error to train the solver.
+I examine how these effects depend on the operating regime and the constraints that limit the decision. This relationship provides a training signal that connects the accuracy of a learned model to its use in an operating or manufacturing problem.
 
-[Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) is an earlier example of training through the decision. It trains a probabilistic electricity-cost forecast through the water-supply schedule the forecast induces, and its SPTO+ variant uses a differentiable upper bound on the optimality gap as the loss. Two control studies concern the decisions themselves. A [reinforcement learning controller for constrained nonlinear systems](https://doi.org/10.1109/TSMC.2023.3344883) enforces state constraints during learning with a control barrier function. [Adaptive optimal control with multiple time-scale eligibility traces](https://doi.org/10.1109/CDC49753.2023.10383316) updates the critic with information accumulated over several horizons. [DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) conditions recurrent diffusion on local LiDAR geometry, so a generated trajectory stays consistent with the space it moves through.
+[Stochastic Predict-Then-Optimize](https://doi.org/10.1109/TSG.2025.3601238) trains a probabilistic electricity-cost forecast through the water-supply schedule it induces. Its SPTO+ variant uses a differentiable upper bound on the optimality gap as the loss. Work on [constrained reinforcement learning control](https://doi.org/10.1109/TSMC.2023.3344883) and [adaptive optimal control](https://doi.org/10.1109/CDC49753.2023.10383316) examines how learned feedback laws act on nonlinear dynamics. Related work on [trajectory generation](https://doi.org/10.1016/j.eswa.2026.133261) evaluates learned actions against local geometric constraints.
 
 ## Research map
 
 | Direction | Question | Evaluated by |
 |---|---|---|
-| A. Physical dynamics in science and engineering | Which state evolves, under which inputs and conditions? | Consistency with the governing relations and with observations |
-| B. Neural solvers for physical dynamics | How fast and how accurately can the governing model be solved? | Solution error, rollout error, sensitivity error, and computational cost |
-| C. Model2Action | When does model error change a decision, and by how much? | Decision change, regret, closed-loop cost, and feasibility |
+| A. Physical dynamics | How do inputs change the physical state over time? | Agreement with observations and governing relations |
+| B. Learning dynamics | Which dynamic responses must a learned model predict? | Rollout and sensitivity errors, with computational cost |
+| C. Model2Action | How does model error affect control and optimization? | Closed-loop cost, decision regret, and constraint violation |
 
 [Publications](/publications/) are listed by year with a tag for each direction they belong to. [Research projects](/projects/) are grouped by direction.

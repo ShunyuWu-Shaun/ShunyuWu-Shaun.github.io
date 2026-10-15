@@ -24,9 +24,9 @@ The study introduces mean prediction trend effectiveness, which tests whether th
 
 The node-level comparison covers pressure monitors with different disturbance strengths. At the nodes most affected by unmeasured disturbances, CritiCoder loses less predictive accuracy than the regression baselines.
 
-## Relation to physical intelligence
+## Relation to learning physical dynamics
 
-The two studies measure two properties of the state that later scheduling or control will use. KbBcM tests whether a sequence model follows a change in demand at the right time. CritiCoder tests how pressure prediction behaves when the measured inputs leave part of the variation unexplained. Both belong to directions A and B, and both are evaluated using errors that would affect subsequent decisions.
+The two studies examine how a learned physical model responds to changing or incompletely observed inputs. KbBcM tests whether a sequence model follows a change in demand at the right time. CritiCoder tests pressure prediction when measured inputs leave part of the variation unexplained. These questions inform the learning of physical dynamics used in control and optimization.
 
 ## Publications
 

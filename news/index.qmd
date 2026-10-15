@@ -13,7 +13,7 @@ body-classes: news-page
   </article>
   <article class="news-item">
     <time datetime="2026-08">Aug 2026</time>
-    <div><h2>Joined Cornell University as an Ezra Systems Postdoctoral Associate!</h2><p>I am in the Systems Engineering Program, working with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on physical intelligence for materials processing, starting with initiated chemical vapor deposition coupled with liquid crystals.</p></div>
+    <div><h2>Joined Cornell University as an Ezra Systems Postdoctoral Associate!</h2><p>I am in the Systems Engineering Program, working with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on dynamic modeling and optimization for precision materials manufacturing.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2026-07">Jul 2026</time>

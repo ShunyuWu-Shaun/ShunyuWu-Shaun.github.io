@@ -1,6 +1,6 @@
 ---
 title: "Thinking"
-description: "Short working notes by Shunyu Wu on physical intelligence, learning for physical systems, and control."
+description: "Short working notes by Shunyu Wu on physical dynamics, learning, and control."
 toc: false
 body-classes: thinking-page
 ---

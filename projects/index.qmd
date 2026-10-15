@@ -1,35 +1,39 @@
 ---
 title: "Research projects"
-description: "Research projects grouped by direction: physical dynamics, neural solvers, and Model2Action."
+description: "Physical dynamics, learned models, and control or optimization in water-energy systems and precision materials manufacturing."
 toc: false
 body-classes: projects-page
 ---
 
-## One logic across the projects
+## Physical dynamics guide the operating decision
 
-Each project starts with a physical quantity to predict or reconstruct and the inputs, geometry, constraints, and disturbances that affect how it changes. A learned model estimates that quantity, which is then used to compute a control or optimization decision. Evaluation measures how prediction errors affect that decision. The projects are grouped by the [three directions](/research/), and each description identifies the system used for evaluation.
+An operating or manufacturing decision changes the subsequent trajectory of a physical system. I study models that predict that trajectory and how prediction errors affect the decision. Water-energy systems and precision materials manufacturing provide two settings for this work. The projects below connect these physical processes to [learning dynamics and Model2Action](/research/).
 
 <ol class="project-relation" aria-label="Shared research logic">
-  <li class="relation-state">Physical state and inputs</li>
-  <li class="relation-dynamics">Dynamics and uncertainty</li>
-  <li class="relation-learning">Learned solution or forecast</li>
-  <li class="relation-decision">Control or optimization</li>
-  <li class="relation-evaluation">Decision-level evaluation</li>
+  <li class="relation-state">Physical state</li>
+  <li class="relation-dynamics">Dynamic model</li>
+  <li class="relation-learning">Predicted trajectory</li>
+  <li class="relation-decision">Optimized inputs</li>
+  <li class="relation-evaluation">Physical response</li>
 </ol>
 
-## A. Physical dynamics in science and engineering
+## A. Physical dynamics
 
-### iCVD coupled with liquid crystals <span class="branch">Science</span>
+{{< include ../_includes/dynamics-applications.qmd >}}
 
-With [Professor Fengqi You](https://www.peese.org/professor/) at Cornell, my current work focuses on initiated chemical vapor deposition (iCVD) coupled with liquid crystals (LC). I formulate equations describing this process and train neural models to approximate their solutions for control and optimization. Chemical formation coupled with LC is a possible extension.
+### Water-energy dynamics in data centers {#water-energy-dynamics}
 
-### Complex dynamical systems <span class="branch">Engineering</span>
+My engineering interests lie in water-energy systems, with a current emphasis on the dynamics and sustainable operation of integrated multi-energy systems serving data centers. I am interested in how changes in computing demand affect cooling and energy supply over time. Dynamic optimization relates these responses to operating decisions that account for energy and water use alongside carbon emissions.
 
-My engineering research concerns complex dynamical systems, such as integrated energy systems and urban water systems, and began during my Ph.D. with [Professor Jingcheng Wang](https://ieeexplore.ieee.org/author/37280547200) at Shanghai Jiao Tong University. Models of these systems relate the operating inputs to pressure, temperature, and energy consumption. Demand and electricity price are external inputs to the operating decisions. Several projects under B and C were tested on these systems and on hot-strip rolling.
+### Process dynamics in precision materials manufacturing {#precision-materials-manufacturing}
 
-## B. Neural solvers for physical dynamics
+Processing conditions influence how material structure evolves over time. I work with [Professor Fengqi You](https://www.peese.org/professor/) to model this evolution and optimize the sequence of processing conditions for a target structure.
 
-Repeated control and optimization require the governing model to be solved for many inputs and conditions. I develop neural solvers, including neural operators, that approximate the solution map at a lower cost. The current questions are the accuracy of the predicted trajectory, the accuracy of its sensitivities to process inputs, and the gain from equation constraints and hybrid numerical structure.
+The current material system couples initiated chemical vapor deposition (iCVD) with liquid crystals (LC). I formulate dynamic models of the process and investigate neural operators that approximate its evolving state. The predicted trajectories and their sensitivities to process inputs support the optimization of processing conditions.
+
+## B. Learning dynamics
+
+A dynamic model used in control must predict how the state responds to candidate inputs over the relevant horizon. I investigate neural operators for these predictions and evaluate how their errors grow during a rollout. Sensitivities to process inputs connect the learned trajectories to optimization, while governing equations constrain the physical responses the model represents.
 
 ### Temporal response and uncertain pressure states <span class="branch">Engineering</span>
 
@@ -39,7 +43,7 @@ Repeated control and optimization require the governing model to be solved for m
 <a href="https://doi.org/10.1109/TCSS.2023.3272330"><img src="/assets/images/publications/criticoder.svg" width="800" height="500" loading="lazy" alt="CritiCoder visual abstract separating measured pressure effects from unobserved disturbances"></a>
 :::
 ::: {.project-study-copy}
-Daily demand and network pressure expose different errors in a learned model. [KbBcM](https://doi.org/10.1016/j.eswa.2024.124508) treats the delayed response near a demand turning point as a timing error and corrects it with lag-penalty attention and a residual step. [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) separates the pressure response to measured inputs from the variation caused by unmeasured disturbances. Both studies report response timing and disturbance sensitivity next to the average error.
+Daily demand and network pressure expose different errors in a learned physical model. [KbBcM](https://doi.org/10.1016/j.eswa.2024.124508) corrects delayed forecasts near demand turning points with lag-penalty attention and posterior residual correction. [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330) models pressure under measured inputs and residual variation associated with unmeasured disturbances. These studies examine temporal response and incomplete observation in water systems.
 
 [Read the research summary](service-operations-planning.qmd)
 :::
@@ -52,13 +56,13 @@ Daily demand and network pressure expose different errors in a learned model. [K
 <a href="https://doi.org/10.1109/TASE.2023.3299185"><img src="/assets/images/publications/series-concat.svg" width="800" height="500" loading="lazy" alt="Series-concatenation visual abstract for energy prediction across multi-step rolling"></a>
 :::
 ::: {.project-study-copy}
-Hot-strip roughing is an ordered sequence of rolling passes, so the error of one prediction is carried into the next. A [DCLS-Net study](https://doi.org/10.1109/TASE.2023.3299185) predicts the energy of each pass, and series concatenation links the passes so that the error stops accumulating along the sequence. The prediction object is the process trajectory, not an isolated sample.
+Hot-strip roughing consists of an ordered sequence of rolling passes. A [DCLS-Net study](https://doi.org/10.1109/TASE.2023.3299185) predicts the energy of each pass and links those predictions through series concatenation. This study examines how the sequence of processing operations relates to its energy consumption.
 :::
 ::::
 
 ## C. Model2Action
 
-The consequences of a solver error depend on how the solution is used in control or optimization. I study when a change in the predicted dynamics changes the selected decision, and when that change increases cost or violates a constraint. Regimes near a bifurcation or a stability boundary, and points where the set of active constraints changes, are the main cases. The measured decision error then serves as the training signal for the solver.
+Model2Action connects the predicted dynamics to the inputs selected by a controller or optimizer. I study how trajectory errors affect operating cost and constraint satisfaction, and how these consequences can guide model training. The same question applies to the operation of water-energy systems and to the choice of processing conditions in materials manufacturing.
 
 ### Coupled water-energy operation under forecast uncertainty <span class="branch">Engineering</span>
 
@@ -67,7 +71,7 @@ The consequences of a solver error depend on how the solution is used in control
 <a href="https://doi.org/10.1109/TSG.2025.3601238"><img src="/assets/images/publications/spto.svg" width="800" height="500" loading="lazy" alt="SPTO visual abstract linking a probabilistic electricity-cost forecast to a stochastic water-supply schedule"></a>
 :::
 ::: {.project-study-copy}
-Urban water treatment, transport, and distribution consume electricity, so an uncertain electricity price can change the preferred schedule. [SPTO](https://doi.org/10.1109/TSG.2025.3601238) provides a forecast distribution to a stochastic water-supply model and trains the forecast through a duality-derived upper bound on the optimality gap of the schedule. Operating cost and regret measure how forecast errors affect the decision. This is my first study to quantify decision error.
+Water-supply operation links when water is processed and delivered to when electricity is consumed. [SPTO](https://doi.org/10.1109/TSG.2025.3601238) trains a probabilistic electricity-cost forecast through the stochastic water-supply schedule it induces. Its SPTO+ variant uses a differentiable upper bound on the optimality gap as the loss. Operating cost and regret measure the consequences of forecast error over the scheduling horizon.
 
 [Read the research summary](industrial-workflow-analysis.qmd)
 :::
@@ -81,7 +85,7 @@ Urban water treatment, transport, and distribution consume electricity, so an un
 <a href="https://doi.org/10.1109/CDC49753.2023.10383316"><img src="/assets/images/publications/eligibility-traces.svg" width="800" height="500" loading="lazy" alt="Multiple time-scale eligibility traces visual abstract"></a>
 :::
 ::: {.project-study-copy}
-Two last-author studies concern learned feedback laws for nonlinear dynamics. For discrete-time constrained systems, nonlinear model predictive control initializes a controller network, and a control barrier function with a nonquadratic loss enforces the state and input constraints during learning. For adaptive optimal control, eligibility traces at several time scales give the critic credit signals accumulated over different horizons.
+Nonlinear model predictive control initializes a controller network for discrete-time constrained systems, and a control barrier function with a nonquadratic loss enforces the state and input constraints during learning. A study of adaptive optimal control uses eligibility traces at several time scales to give the critic credit signals accumulated over different horizons.
 
 [Constrained controller](https://doi.org/10.1109/TSMC.2023.3344883) · [Multiple time-scale eligibility traces](https://doi.org/10.1109/CDC49753.2023.10383316)
 :::
@@ -94,7 +98,7 @@ Two last-author studies concern learned feedback laws for nonlinear dynamics. Fo
 <a href="https://doi.org/10.1016/j.eswa.2026.133261"><img src="/assets/images/publications/drift.svg" width="800" height="500" loading="lazy" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed recurrent diffusion"></a>
 :::
 ::: {.project-study-copy}
-[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent diffusion. Endpoint error, clearance, smoothness, and runtime measure how the generated trajectory relates to the target and to the local geometry. The question is the same as in direction C, whether a learned action respects the constraints of the environment it acts in.
+[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261) stores local LiDAR geometry as graph memory and retrieves waypoint-specific context during recurrent diffusion. The study evaluates generated trajectories through endpoint error, clearance, smoothness, and runtime. This collaborative work examines how a learned action satisfies the geometric constraints of its physical environment.
 :::
 ::::
 

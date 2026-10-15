@@ -1,31 +1,12 @@
 #!/usr/bin/env python3
-"""Build the research illustration on the home page.
+"""Build editable SVG illustrations for the research overview and applications.
 
-One isometric scene with a platform per research direction:
+The overview links physical dynamics, learned trajectories, and optimized inputs.
+Three layouts follow the figure's container width. The applications illustration
+shows water-energy coupling around a data center and structure evolution during
+materials processing. All curves and fields are conceptual schematics.
 
-  A  Physical dynamics: an iCVD chamber with a liquid-crystal film, and an
-     integrated energy and water network (wind, solar, a plant, a water
-     tower, pipes, buildings);
-  B  Neural solvers: an input field passes up through glass operator
-     layers and leaves as the predicted solution;
-  C  Model2Action: prediction tokens and action tokens drive a robot arm,
-     in the style of a vision-language-action model.
-
-Plain words label the flows: model (A to B), decide (B to C), act (C back
-to A), and a dashed loop from C to B, "decision error trains the solver".
-
-Each platform is drawn once inside a zero-size SVG sprite. Three layouts
-place the platforms with <use> and add their own flows and labels:
-
-  wide    three platforms in a row            (figure at least 600 px wide)
-  mid     A on top, B and C below             (440 to 599 px)
-  narrow  platforms stacked                   (under 440 px)
-
-assets/css/site.css (section 7) switches between them with container
-queries, so the choice follows the width of the figure, not of the window.
-
-Run from the repository root; the script needs only the standard library:
-
+Run from the repository root with Python's standard library:
     python3 scripts/build_research_figure.py
 """
 
@@ -36,12 +17,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 INCLUDE = ROOT / "_includes" / "research-overview.qmd"
+APPLICATIONS = ROOT / "_includes" / "dynamics-applications.qmd"
 
 # Direction colours, identical to --c-a, --c-b and --c-c in assets/css/site.css
 PURPLE, TEAL, CORAL = "#9467BD", "#31859A", "#EA7F6F"
 INK, MUTED = "#17202a", "#66717d"
-FONT = "IBM Plex Sans, Helvetica Neue, Arial, sans-serif"
 SERIF = "IBM Plex Serif, Georgia, serif"
+FONT = SERIF
 C, H = 2 / 5 ** 0.5, 1 / 5 ** 0.5            # 2:1 isometric projection
 SA, SB = 150, 118                            # side of platform A, and of B and C
 
@@ -121,52 +103,23 @@ def text(x, y, s, size=13, fill=MUTED, anchor="middle", weight=None, family=None
 # ------------------------------------------------------------------ objects on platform A
 
 
-def turbine(x, y, height, angle):
-    bx, by = ISO.p(x, y, 0)
-    tx, ty = bx, by - height
-    out = [f'<path d="M{f(bx - 2.6)} {f(by)}L{f(tx - 1.1)} {f(ty)}L{f(tx + 1.1)} {f(ty)}L{f(bx + 2.6)} {f(by)}Z" '
-           f'fill="#ffffff" stroke="#b9c3cd" stroke-width="0.7"/>',
-           f'<rect x="{f(tx - 4)}" y="{f(ty - 3)}" width="9" height="5" rx="2" fill="#ffffff" stroke="#b9c3cd" stroke-width="0.7"/>']
+def server_rack(x, y, height=43):
+    out = [ISO.box(x, y, 0, 14, 20, height, top="#e5edf2", left="#d1dfe6", right="#afc4cf")]
+    for z in (7, 15, 23, 31):
+        out.append(ISO.poly([(x + 2, y + 20, z), (x + 12, y + 20, z),
+                             (x + 12, y + 20, z + 4), (x + 2, y + 20, z + 4)], "#ffffff"))
+        out.append(ISO.line([(x + 3, y + 20.2, z + 2), (x + 6, y + 20.2, z + 2)], TEAL, 0.9))
+    return "".join(out)
+
+
+def structure_tile(x, y, stage):
+    out = [ISO.box(x, y, 0, 27, 27, 3, top="#f6f0fb", left="#d8c4eb", right="#bea1d7")]
     for j in range(3):
-        a = math.radians(angle + 120 * j)
-        ex, ey = tx + 26 * math.cos(a), ty - 26 * math.sin(a)
-        nx, ny = -math.sin(a) * 2.6, -math.cos(a) * 2.6
-        out.append(f'<path d="M{f(tx)} {f(ty)}Q{f((tx + ex) / 2 + nx)} {f((ty + ey) / 2 + ny)} {f(ex)} {f(ey)}'
-                   f'Q{f((tx + ex) / 2 - nx * 0.3)} {f((ty + ey) / 2 - ny * 0.3)} {f(tx)} {f(ty)}Z" '
-                   f'fill="#ffffff" stroke="#b9c3cd" stroke-width="0.7"/>')
-    out.append(f'<circle cx="{f(tx)}" cy="{f(ty)}" r="2.2" fill="#8d99a6"/>')
-    return "".join(out)
-
-
-def solar(x, y, w, d):
-    out = [ISO.poly([(x, y, 7), (x + w, y, 7), (x + w, y + d, 2), (x, y + d, 2)], "#51667d", "#3e5165", 0.6)]
-    for j in range(1, 3):
-        out.append(ISO.line([(x + w * j / 3, y, 7), (x + w * j / 3, y + d, 2)], "#8ea3b8", 0.5))
-    out.append(ISO.line([(x, y + d / 2, 4.5), (x + w, y + d / 2, 4.5)], "#8ea3b8", 0.5))
-    return "".join(out)
-
-
-def water_tower(x, y):
-    out = [ISO.line([(x + dx, y + dy, 0), (x + dx * 0.6, y + dy * 0.6, 26)], LEG, 1.1)
-           for dx, dy in ((-5, -5), (5, -5), (-5, 5), (5, 5))]
-    out.append(ISO.cylinder(x, y, 26, 9, 14, "gw", top="#eef4f8"))
-    bx, by = ISO.p(x, y, 40)
-    a, _ = ISO.radii(9)
-    out.append(f'<path d="M{f(bx - a)} {f(by)}Q{f(bx)} {f(by - 12)} {f(bx + a)} {f(by)}" fill="#dfe8ef" '
-               f'stroke="{EDGE}" stroke-width="0.6"/>')
-    return "".join(out)
-
-
-def building(x, y, w, d, h):
-    out = [ISO.box(x, y, 0, w, d, h)]
-    for r in range(int((h - 6) // 7)):
-        z0 = 5 + r * 7
-        for j in range(int((w - 3) // 6)):
-            x0 = x + 3 + j * 6
-            out.append(ISO.poly([(x0, y + d, z0), (x0 + 3, y + d, z0), (x0 + 3, y + d, z0 + 3.5), (x0, y + d, z0 + 3.5)], "#b8c6d4"))
-        for j in range(int((d - 3) // 6)):
-            y0 = y + 3 + j * 6
-            out.append(ISO.poly([(x + w, y0, z0), (x + w, y0 + 3, z0), (x + w, y0 + 3, z0 + 3.5), (x + w, y0, z0 + 3.5)], "#a9b8c7"))
+        for k in range(3):
+            a, b = x + 6 + j * 7, y + 6 + k * 7
+            angle = (j * 1.1 + k * 0.8) * (1 - stage / 2)
+            dx, dy = 3.5 * math.cos(angle), 3.5 * math.sin(angle)
+            out.append(ISO.line([(a - dx, b - dy, 3.5), (a + dx, b + dy, 3.5)], PURPLE, 1.5))
     return "".join(out)
 
 
@@ -208,28 +161,22 @@ def tile(s, tint, thick=10):
 
 
 def platform_a():
-    """Physical dynamics: materials processing, integrated energy, urban water."""
+    """Data center water-energy coupling above a sequence of material states."""
     out = [tile(SA, PURPLE)]
-    for pts in ([(28, 28), (60, 60), (100, 64)], [(95, 24), (100, 64)], [(100, 64), (120, 106)], [(60, 60), (84, 118)]):
-        out.append(ISO.line([(a, b, 0.6) for a, b in pts], PURPLE, 1.6, ' opacity="0.8"'))
-    for pts in ([(74, 88), (74, 128), (130, 128)], [(74, 88), (130, 88), (130, 128)]):
+    for pts in ([(35, 43), (35, 62), (113, 62), (113, 34)],
+                [(72, 35), (94, 35), (94, 20)]):
         out.append(ISO.line([(a, b, 0.8) for a, b in pts], PIPE, 3.2))
         out.append(ISO.line([(a, b, 0.8) for a, b in pts], PIPE_HI, 1.1))
-    for a, b in [(60, 60), (100, 64), (120, 106), (84, 118)]:
-        out.append(ISO.ellipse(a, b, 0.6, 3, PURPLE))
-    out.append(solar(80, 8, 26, 18))
-    out.append(solar(108, 8, 26, 18))
-    out.append(turbine(22, 22, 80, 78))
-    out.append(turbine(44, 10, 64, 20))
-    out.append(ISO.box(88, 48, 0, 26, 20, 20))
-    out.append(ISO.cylinder(108, 52, 20, 4, 18, "gs"))
-    out.append(water_tower(74, 88))
-    out.append(ISO.cylinder(130, 88, 0, 8, 9, "gw", top="#dcebf5"))
-    out.append(building(112, 100, 16, 12, 24))
-    out.append(building(130, 114, 12, 14, 17))
-    out.append(ISO.line([(48, 112, 5), (58, 112, 5), (58, 134, 5)], LEG, 2.2))
-    out.append(ISO.cylinder(58, 138, 0, 5, 12, "gs"))
-    out.append(reactor(30, 110))
+    for x in (20, 39, 58):
+        out.append(server_rack(x, 18))
+    out.append(ISO.cylinder(96, 22, 0, 9, 19, "gw", top="#dcebf5"))
+    out.append(ISO.box(102, 43, 0, 20, 16, 12))
+    out.append(ISO.line([(10, 78, 0.5), (137, 78, 0.5)], PURPLE, 1, ' opacity="0.3"'))
+    for stage, x in enumerate((24, 65, 106)):
+        out.append(structure_tile(x, 106, stage))
+    for x in (55, 96):
+        out.append(ISO.line([(x, 119, 1), (x + 6, 119, 1)], PURPLE, 1.3))
+        out.append(ISO.line([(x + 3, 116, 1), (x + 6, 119, 1), (x + 3, 122, 1)], PURPLE, 1.3))
     return "".join(out)
 
 
@@ -280,49 +227,30 @@ def platform_b():
     return "".join(out)
 
 
-def capsule(a, b, width):
-    d = f"M{f(a[0])} {f(a[1])}L{f(b[0])} {f(b[1])}"
-    return (f'<path d="{d}" stroke="#b3bec9" stroke-width="{width + 1.6}" stroke-linecap="round" fill="none"/>'
-            f'<path d="{d}" stroke="#ffffff" stroke-width="{width}" stroke-linecap="round" fill="none"/>')
-
-
-TOKEN_X, TOKEN_Y, TOKEN_Z = 70, 50, 92       # centre of the token row on platform C
-
-
 def platform_c():
-    """Model2Action: prediction tokens and action tokens drive an arm, as in a vision-language-action model."""
+    """A predicted state trajectory under a limit and an optimized input schedule."""
     out = [tile(SB, CORAL),
-           ISO.box(24, 72, 0, 20, 20, 5),
-           ISO.ellipse(34, 82, 5.2, 6.5, "url(#rf-lc)", "#ffffff", 0.8),
-           ISO.cylinder(76, 66, 0, 13, 5, "gs"),
-           ISO.cylinder(76, 66, 5, 8, 9, "gs")]
-    shoulder, elbow = ISO.p(76, 66, 14), ISO.p(64, 52, 52)
-    wrist, tool = ISO.p(38, 80, 48), ISO.p(34, 82, 26)
-    out += [capsule(shoulder, elbow, 10), capsule(elbow, wrist, 8), capsule(wrist, tool, 6)]
-    tx, ty = tool
-    out.append(f'<path d="M{f(tx - 5)} {f(ty - 1)}L{f(tx - 6)} {f(ty + 8)}M{f(tx + 5)} {f(ty - 1)}L{f(tx + 6)} {f(ty + 8)}" '
-               'stroke="#6b7785" stroke-width="2.6" stroke-linecap="round" fill="none"/>')
-    for (jx, jy), r in ((shoulder, 6), (elbow, 5.5), (wrist, 4.5)):
-        out.append(f'<circle cx="{f(jx)}" cy="{f(jy)}" r="{r}" fill="{CORAL}" stroke="#ffffff" stroke-width="1.4"/>')
-    tokens = []
-    for j in range(6):
-        u = (j - 2.5) * 11
-        color = TEAL if j < 3 else CORAL
-        tokens.append(ISO.box(TOKEN_X + u - 3.5, TOKEN_Y - u - 3.5, TOKEN_Z, 7, 7, 7,
-                              top=mix(color, "#ffffff", 0.45), left=color, right=mix(color, "#000000", 0.12)))
-    out.append(f'<g filter="url(#rf-glow)">{"".join(tokens)}</g>')
-    ax, ay = ISO.p(TOKEN_X + 16.5, TOKEN_Y - 16.5, TOKEN_Z)
-    out.append(f'<path d="M{f(ax)} {f(ay + 4)}C{f(ax - 4)} {f(ay + 30)} {f(tx + 30)} {f(ty - 50)} {f(tx + 8)} {f(ty - 30)}" '
-               f'fill="none" stroke="{CORAL}" stroke-width="1.3" stroke-dasharray="3 3"/>')
+           '<path d="M-55 63V18M55 63V18" stroke="#b8c5cf" stroke-width="3"/>',
+           '<rect x="-78" y="-42" width="156" height="105" rx="7" fill="#ffffff" stroke="#d7dfe6"/>',
+           '<path d="M-61 -23V44H62" fill="none" stroke="#9faebb" stroke-width="1"/>',
+           '<path d="M-61 -13H62" fill="none" stroke="#b7a4ca" stroke-width="1.2" stroke-dasharray="4 3"/>',
+           '<path d="M-60 36C-41 33 -33 11 -17 8S11 -3 26 -3S44 -1 61 -1" '
+           f'fill="none" stroke="{CORAL}" stroke-width="2.6"/>',
+           text(-60, -29, "state", 9, MUTED, "start"),
+           text(60, -20, "limit", 9, MUTED, "end"),
+           text(56, 38, "time", 9, MUTED)]
+    for j, height in enumerate((8, 15, 21, 15, 11, 13)):
+        out.append(ISO.box(28 + j * 10, 88 - j * 3, 0, 7, 7, height,
+                           top=mix(CORAL, "#ffffff", 0.5), left=mix(CORAL, "#ffffff", 0.2), right=CORAL))
     return "".join(out)
 
 
 # Points on the platforms that the flows attach to, relative to each platform's top corner
 B_OUT = ISO.p(OP_X + OP_SIZE, OP_Y, OP_TOP + 2)            # right corner of the solver's output layer
 B_TOP = ISO.p(OP_X, OP_Y, OP_TOP)[1]                       # highest point of the operator stack
-C_TOKENS = ISO.p(TOKEN_X, TOKEN_Y, TOKEN_Z + 12)           # just above the middle of the token row
-C_TOKENS_RIGHT = ISO.p(TOKEN_X + 33, TOKEN_Y - 33, TOKEN_Z + 3.5)
-A_TOP = -88                                                # turbine tips above platform A's top corner
+C_OUTPUT = (0, -48)                                       # above the trajectory plot
+C_RIGHT = (78, 8)                                         # right edge of the trajectory plot
+A_TOP = -50
 
 
 def sprite_defs():
@@ -451,7 +379,7 @@ class Layout:
         self.add(text(x0, y + 5 * ts, key.upper(), round(31 * ts, 1), f"url(#rf-letter-{key})", "start", 600, SERIF),
                  text(x0 + 33 * ts, y, title, round(15 * ts, 1), INK, "start", 600))
         for i, line in enumerate(lines):
-            self.add(text(cx, y + (22 + 17 * i) * ts, line, round(13 * ts, 1), MUTED))
+            self.add(text(cx, y + (30 + 17 * i) * ts, line, round(13 * ts, 1), MUTED))
 
     def word(self, x, y, s, color, anchor="middle", extra=""):
         self.add(text(x, y, s, round(13 * self.ts, 1), color, anchor, 600, extra=extra))
@@ -463,17 +391,17 @@ class Layout:
 
 
 LABELS = {
-    "a": ("Physical dynamics", "materials, energy and water systems"),
-    "b": ("Neural solvers", "solve the equations in one pass"),
-    "c": ("Model2Action", "measure errors in decisions"),
+    "a": ("Physical dynamics", "water-energy and materials"),
+    "b": ("Learning dynamics", "predict evolving physical fields"),
+    "c": ("Model2Action", "control and optimization"),
 }
 WORD_MODEL, WORD_DECIDE = "#7b54a8", "#277084"
-LOOP_TEXT, LOOP_COLOR = "decision error trains the solver", "#c9604f"
+LOOP_TEXT, LOOP_COLOR = "decision error trains the model", "#c9604f"
 
 
 def wide():
     """Three platforms in a row: decision error arcs over the top, act returns along the bottom."""
-    lay = Layout("wide", 760, 408, type_scale=14 / 13)
+    lay = Layout("wide", 760, 420, type_scale=14 / 13)
     mid = 206                                   # the left and right platform corners sit on this line
     xa = 19 + SA * C
     xb = xa + SA * C + 16 + SB * C
@@ -485,11 +413,11 @@ def wide():
     lay.use("c", xc, yb)
     ax0, ax1 = xa + SA * C - 26, xb - 54
     lay.curve((ax0, mid - 4), (ax0 + 22, mid - 22), (ax1 - 22, mid - 22), (ax1, mid - 12), PURPLE, TEAL)
-    lay.word((ax0 + ax1) / 2, mid - 31, "model", WORD_MODEL)
+    lay.word((ax0 + ax1) / 2, mid - 31, "learn", WORD_MODEL)
     bx0, bx1 = xb + SB * C - 36, xc - 80
     lay.curve((bx0, mid - 8), (bx0 + 22, mid - 26), (bx1 - 22, mid - 26), (bx1, mid - 14), TEAL, CORAL)
-    lay.word((bx0 + bx1) / 2, mid - 35, "decide", WORD_DECIDE)
-    sx, sy = xc + C_TOKENS[0], yb + C_TOKENS[1]
+    lay.word((bx0 + bx1) / 2, mid - 35, "optimize", WORD_DECIDE)
+    sx, sy = xc + C_OUTPUT[0], yb + C_OUTPUT[1]
     tx, ty = xb + B_OUT[0], yb + B_OUT[1]
     ctrl = ((sx - 6, sy - 6), (sx - 20, sy - 70), (tx + 90, ty - 80), (tx + 12, ty - 10))
     lay.curve(*ctrl, CORAL, CORAL, dashed=True)
@@ -498,15 +426,15 @@ def wide():
     base = mid + 108
     for key, x in (("a", xa), ("b", xb), ("c", xc)):
         lay.label(x, base, key, LABELS[key][0], [LABELS[key][1]])
-    lay.curve((xc, base + 38), (xc - 40, base + 66), (xa + 40, base + 66), (xa, base + 42), CORAL, PURPLE,
+    lay.curve((xc, base + 46), (xc - 40, base + 74), (xa + 40, base + 74), (xa, base + 50), CORAL, PURPLE,
               particles=(0.3, 0.5, 0.7))
-    lay.word((xa + xc) / 2, base + 79, "act", MUTED)
+    lay.word((xa + xc) / 2, base + 87, "act", MUTED)
     return lay
 
 
 def mid():
     """A on top, B and C below: model and act run down and up the sides, the loop closes underneath."""
-    lay = Layout("mid", 520, 636)
+    lay = Layout("mid", 520, 650)
     xa, ya = 260, 110
     xb, xc, yb = 132, 388, 396
     lay.card([(260, 180, 150, PURPLE), (120, 440, 125, TEAL), (400, 440, 130, CORAL)])
@@ -518,21 +446,21 @@ def mid():
     a_right = (xa + SA * C, ya + SA * H)
     end = (xb - 30, yb + B_TOP - 6)
     lay.curve((a_left[0] + 2, a_left[1] + 20), (a_left[0] - 34, a_left[1] + 60), (end[0] - 22, end[1] - 70), end, PURPLE, TEAL)
-    lay.word(a_left[0] - 78, a_left[1] + 86, "model", WORD_MODEL)
+    lay.word(a_left[0] - 78, a_left[1] + 86, "learn", WORD_MODEL)
     bx0, bx1 = xb + SB * C - 12, xc - SB * C + 8
     corner = yb + SB * H
     lay.curve((bx0, corner - 6), (bx0 + 18, corner - 22), (bx1 - 18, corner - 22), (bx1, corner - 8), TEAL, CORAL,
               particles=(0.5,))
-    lay.word((bx0 + bx1) / 2, corner - 30, "decide", WORD_DECIDE)
-    start = (xc + C_TOKENS_RIGHT[0] + 12, yb + C_TOKENS_RIGHT[1])
+    lay.word((bx0 + bx1) / 2, corner - 30, "optimize", WORD_DECIDE)
+    start = (xc + C_RIGHT[0] + 12, yb + C_RIGHT[1])
     lay.curve(start, (start[0] + 26, start[1] - 50), (a_right[0] + 70, a_right[1] + 70), (a_right[0] + 8, a_right[1] + 18),
               CORAL, PURPLE)
     lay.word(a_right[0] + 108, a_right[1] + 86, "act", MUTED)
     base = yb + 2 * SB * H + 40
     lay.label(xb, base, "b", LABELS["b"][0], [LABELS["b"][1]])
     lay.label(xc, base, "c", LABELS["c"][0], [LABELS["c"][1]])
-    lay.curve((xc, base + 36), (xc - 30, base + 62), (xb + 30, base + 62), (xb, base + 40), CORAL, CORAL, dashed=True)
-    lay.word((xb + xc) / 2, base + 74, LOOP_TEXT, LOOP_COLOR)
+    lay.curve((xc, base + 44), (xc - 30, base + 70), (xb + 30, base + 70), (xb, base + 48), CORAL, CORAL, dashed=True)
+    lay.word((xb + xc) / 2, base + 82, LOOP_TEXT, LOOP_COLOR)
     return lay
 
 
@@ -541,11 +469,11 @@ def narrow():
     x = 160
     ya = 20 - A_TOP
     a_label = ya + 2 * SA * H + 40
-    yb = a_label + 22 + 44 - B_TOP + 8
+    yb = a_label + 30 + 44 - B_TOP + 8
     b_label = yb + 2 * SB * H + 40
-    yc = b_label + 22 + 44 - (C_TOKENS[1] - 8) + 8
+    yc = b_label + 30 + 44 - (C_OUTPUT[1] - 8) + 8
     c_label = yc + 2 * SB * H + 40
-    height = int(c_label + 22 + 62)
+    height = int(c_label + 30 + 62)
     lay = Layout("narrow", 336, height)
     lay.card([(x, ya + 70, 150, PURPLE), (x, yb + 40, 125, TEAL), (x, yc + 40, 135, CORAL)])
     lay.use("a", x, ya)
@@ -554,22 +482,22 @@ def narrow():
     lay.label(x, a_label, "a", LABELS["a"][0], [LABELS["a"][1]])
     lay.label(x, b_label, "b", LABELS["b"][0], [LABELS["b"][1]])
     lay.label(x, c_label, "c", LABELS["c"][0], [LABELS["c"][1]])
-    for top, word, c0, c1, color in ((a_label + 34, "model", PURPLE, TEAL, WORD_MODEL),
-                                     (b_label + 34, "decide", TEAL, CORAL, WORD_DECIDE)):
+    for top, word, c0, c1, color in ((a_label + 42, "learn", PURPLE, TEAL, WORD_MODEL),
+                                     (b_label + 42, "optimize", TEAL, CORAL, WORD_DECIDE)):
         lay.route([(x, top), (x, top + 22)], c0, c1, "down")
         lay.word(x + 14, top + 17, word, color, "start")
-    # decision error: from the token row on C up the right side to the solver's output layer on B
+    # Decision error from the trajectory plot to the learned field.
     right = lay.w - 26
-    start = (x + C_TOKENS_RIGHT[0] + 10, yc + C_TOKENS_RIGHT[1])
+    start = (x + C_RIGHT[0] + 10, yc + C_RIGHT[1])
     end = (x + B_OUT[0] + 14, yb + B_OUT[1])
     lay.route([start, (right, start[1]), (right, end[1]), end], CORAL, CORAL, "left", dashed=True)
     my = (start[1] + end[1]) / 2
-    lay.word(0, 0, LOOP_TEXT, LOOP_COLOR, extra=f' transform="translate({f(right + 15)} {f(my)}) rotate(90)"')
+    lay.word(0, 0, LOOP_TEXT, LOOP_COLOR, extra=f' transform="translate({f(right + 5)} {f(my)}) rotate(90)"')
     # act: from under C's label back up the left side to platform A
     left = 14
-    bottom = c_label + 22 + 30
+    bottom = c_label + 30 + 30
     a_corner = (x - SA * C, ya + SA * H)
-    lay.route([(x, c_label + 34), (x, bottom), (left, bottom), (left, a_corner[1] + 20)], CORAL, PURPLE, "up",
+    lay.route([(x, c_label + 42), (x, bottom), (left, bottom), (left, a_corner[1] + 20)], CORAL, PURPLE, "up",
               particles=((x - 50, bottom), (left, (bottom + a_corner[1]) / 2)))
     lay.word((x + left) / 2, bottom + 19, "act", MUTED)
     return lay
@@ -578,13 +506,110 @@ def narrow():
 # ------------------------------------------------------------------ output
 
 DESCRIPTION = (
-    "Research overview as one isometric scene with three platforms. Platform A, physical dynamics, holds an "
-    "iCVD chamber with a liquid-crystal film and an integrated energy and water network with wind turbines, "
-    "solar panels, a plant, a water tower, pipes and buildings. Platform B, neural solvers, shows an input field "
-    "passing up through operator layers and leaving as the predicted solution. Platform C, Model2Action, shows "
-    "prediction tokens and action tokens driving a robot arm. Arrows read model from A to B, decide from B to C, "
-    "and act from C back to A. A dashed arrow from C to B reads decision error trains the solver."
+    "Three research directions form one sequence. A shows data center water-energy coupling and a sequence "
+    "of evolving material structures. B shows a neural operator mapping an input field to a predicted state. "
+    "C shows an illustrative state trajectory under a constraint and an input schedule. The solid arrows "
+    "connect learning, optimization, and physical action. A dashed arrow returns decision error to model training."
 )
+
+
+def arrow(x1, y1, x2, y2, color, width=1.8):
+    angle = math.degrees(math.atan2(y2 - y1, x2 - x1))
+    return (f'<path d="M{f(x1)} {f(y1)}L{f(x2)} {f(y2)}" fill="none" '
+            f'stroke="{color}" stroke-width="{width}" stroke-linecap="round"/>'
+            + head(x2, y2, angle, color, size=6))
+
+
+def field_patch(x, y, stage, width=72, height=50):
+    out = [f'<rect x="{x}" y="{y}" width="{width}" height="{height}" rx="4" '
+           'fill="#f6f0fb" stroke="#d9c7e9"/>']
+    for j in range(4):
+        for k in range(3):
+            cx, cy = x + 12 + j * 16, y + 11 + k * 14
+            angle = (j * 1.2 + k * 0.7) * (1 - stage / 2)
+            dx, dy = 5 * math.cos(angle), 5 * math.sin(angle)
+            out.append(f'<path d="M{f(cx - dx)} {f(cy - dy)}L{f(cx + dx)} {f(cy + dy)}" '
+                       f'stroke="{PURPLE}" stroke-width="2" stroke-linecap="round"/>')
+    return "".join(out)
+
+
+def engineering_application():
+    out = [
+        text(190, 28, "Computing demand", 16, INK, weight=500),
+        f'<path d="M151 49H170V62H194V45H216V58H229" fill="none" stroke="{PURPLE}" stroke-width="2"/>',
+        arrow(190, 70, 190, 86, PURPLE),
+        '<rect x="122" y="91" width="140" height="100" rx="7" fill="#f3f7f9" stroke="#c9d7df"/>',
+        text(192, 216, "Data center", 16, INK, weight=500),
+        '<rect x="18" y="119" width="64" height="52" rx="6" fill="#f3eef9" stroke="#c8b2df"/>',
+        f'<path d="M52 125L39 145H49L45 163L62 140H52Z" fill="{PURPLE}"/>',
+        text(51, 104, "Energy supply", 13, INK),
+        arrow(82, 145, 118, 145, PURPLE),
+        '<rect x="296" y="119" width="62" height="58" rx="6" fill="#eef7fa" stroke="#aacdd8"/>',
+        '<circle cx="327" cy="147" r="18" fill="#ffffff" stroke="#aacdd8"/>',
+        f'<path d="M327 147C310 130 336 119 330 143C352 131 356 157 332 150C340 174 312 177 324 152Z" fill="{TEAL}" opacity="0.6"/>',
+        text(327, 216, "Cooling", 16, INK, weight=500),
+        text(278, 112, "heat", 12, "#c9604f"),
+        arrow(262, 128, 292, 128, CORAL),
+        arrow(296, 163, 266, 163, TEAL),
+        text(327, 70, "Water", 14, TEAL),
+        arrow(327, 80, 327, 115, TEAL),
+        '<path d="M45 245H335" stroke="#e1e6eb"/>',
+        text(190, 270, "Dynamic optimization of operation", 16, INK, weight=500),
+        text(190, 299, "Energy use · Water use · Emissions", 13, MUTED),
+    ]
+    for x in (138, 173, 208):
+        out.append(f'<rect x="{x}" y="107" width="27" height="64" rx="3" fill="#d8e5ec" stroke="#a7bdc9"/>')
+        for y in (114, 128, 142, 156):
+            out.append(f'<rect x="{x + 4}" y="{y}" width="19" height="8" rx="1.5" fill="#ffffff"/>')
+            out.append(f'<circle cx="{x + 8}" cy="{y + 4}" r="1.3" fill="{TEAL}"/>')
+    return (f'<svg viewBox="0 0 380 350" role="img" aria-labelledby="da-engineering-title" font-family="{FONT}">'
+            '<title id="da-engineering-title">Data center dynamics connect computing demand, energy supply, and cooling to sustainable operation.</title>'
+            + "".join(out) + '</svg>')
+
+
+def materials_application():
+    out = [
+        '<rect x="75" y="11" width="230" height="36" rx="5" fill="#f5effa" stroke="#cbb5df"/>',
+        text(190, 35, "Processing conditions", 16, INK, weight=500),
+        arrow(190, 50, 190, 77, PURPLE),
+        f'<g transform="translate(190 164) scale(1.7)">{reactor(0, 0).replace("rf-", "da-")}</g>',
+        text(190, 191, "Material formation", 15, INK),
+        f'<path d="M190 200V213H52V226" fill="none" stroke="{PURPLE}" stroke-width="1.6"/>',
+        head(52, 226, 90, PURPLE, size=6),
+    ]
+    for stage, x in enumerate((40, 154, 268)):
+        out.append(field_patch(x, 232, stage))
+        out.append(text(x + 36, 225, ("t₀", "t₁", "t₂")[stage], 13, MUTED))
+    out += [arrow(117, 257, 148, 257, PURPLE), arrow(231, 257, 262, 257, PURPLE),
+            text(76, 302, "Initial state", 13, MUTED),
+            text(190, 302, "Evolution", 13, MUTED),
+            text(304, 302, "Target structure", 13, MUTED),
+            f'<path d="M304 309V323H20V29H70" fill="none" stroke="{CORAL}" stroke-width="1.6" stroke-dasharray="4 3"/>',
+            head(70, 29, 0, CORAL, size=6),
+            text(190, 344, "Optimize the processing trajectory", 15, "#c9604f", weight=500)]
+    return (f'<svg viewBox="0 0 380 350" role="img" aria-labelledby="da-materials-title" font-family="{FONT}">'
+            '<title id="da-materials-title">Processing conditions drive material structure evolution. Dynamic models guide the optimization of those conditions.</title>'
+            f'<defs>{sprite_defs().replace("rf-", "da-")}</defs>'
+            + "".join(out) + '</svg>')
+
+
+def applications_include():
+    return f'''```{{=html}}
+<!-- Generated by scripts/build_research_figure.py. -->
+<div class="dynamics-applications">
+  <figure class="da-card">
+    <header><p>Engineering</p><h3>Water-energy dynamics</h3></header>
+    {engineering_application()}
+    <figcaption>Computing demand and thermal response connect operating decisions to energy and water use.</figcaption>
+  </figure>
+  <figure class="da-card">
+    <header><p>Science</p><h3>Materials process dynamics</h3></header>
+    {materials_application()}
+    <figcaption>Dynamic models connect processing conditions to evolving material structure.</figcaption>
+  </figure>
+</div>
+```
+'''
 
 
 def main():
@@ -606,6 +631,8 @@ def main():
 """
     INCLUDE.write_text(html, encoding="utf-8")
     print(f"wrote {INCLUDE.relative_to(ROOT)} ({len(html.encode()) / 1024:.1f} KiB)")
+    APPLICATIONS.write_text(applications_include(), encoding="utf-8")
+    print(f"wrote {APPLICATIONS.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

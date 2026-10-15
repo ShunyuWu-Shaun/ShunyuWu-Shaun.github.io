@@ -22,9 +22,9 @@ The stochastic scheduling problem cannot be differentiated directly. SPTO+ deriv
 
 Experiments on real water-supply systems compare pointwise forecast error, operating cost, and decision regret against two-stage forecasting and optimization baselines. SPTO reports lower operating cost and lower regret.
 
-## Relation to physical intelligence
+## Relation to dynamics and decisions
 
-The learned distribution parameterizes the uncertain energy cost of a water process coordinated over time. A constrained optimizer uses those parameters to compute a feasible schedule, and decision regret measures how forecast errors affect its cost. This is the decision error of direction C, measured on an engineering system of direction A.
+The learned distribution describes uncertain energy costs over the operating horizon of a water process. A constrained optimizer uses those costs to coordinate the schedule over time, and decision regret measures the consequences of forecast error. This study connects water-energy operation to the broader question of how a learned prediction affects an operating decision.
 
 ## Publication
 

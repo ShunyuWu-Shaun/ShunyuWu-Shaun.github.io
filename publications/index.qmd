@@ -9,7 +9,7 @@ body-classes: publication-page
 <div class="publication-intro">
   <div class="publication-rule">4 first-author / 6 last-author papers</div>
   <div>
-    <p>The papers are listed from newest to oldest. Each paper is tagged with the <a href="/research/">directions</a> it belongs to: <span class="branch">A</span> physical dynamics, <span class="branch branch--b">B</span> neural solvers, and <span class="branch branch--c">C</span> Model2Action. A paper can belong to more than one.</p>
+    <p>The papers are listed from newest to oldest. Tags connect each paper to the <a href="/research/">research questions</a> it informs: <span class="branch">A</span> physical dynamics, <span class="branch branch--b">B</span> learning dynamics, and <span class="branch branch--c">C</span> Model2Action for control and optimization. A paper can inform more than one direction.</p>
     <p><a href="https://scholar.google.com/citations?user=keb-zTsAAAAJ&hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0001-9856-2148">ORCID</a> · <a href="https://www.researchgate.net/profile/Shunyu-Wu">ResearchGate</a></p>
   </div>
 </div>
@@ -77,7 +77,7 @@ body-classes: publication-page
       <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IEEE TASE · 2024</span><span class="branch">A</span><span class="branch branch--b">B</span></p>
       <h3><a href="https://doi.org/10.1109/TASE.2023.3299185">A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling</a></h3>
       <p class="paper-authors">Yanjiu Zhong, Jingcheng Wang, Jun Rao, Jiahui Xu, and <strong class="author-self">Shunyu Wu</strong></p>
-      <p class="paper-claim">A DCLS-Net predicts the energy of each rolling pass. Series concatenation links the passes so that the error stops accumulating along the sequence.</p>
+      <p class="paper-claim">A DCLS-Net predicts the energy of each rolling pass. Series concatenation links per-pass predictions along the rolling sequence.</p>
       <div class="paper-links"><a href="https://doi.org/10.1109/TASE.2023.3299185">DOI</a></div>
     </div>
   </article>

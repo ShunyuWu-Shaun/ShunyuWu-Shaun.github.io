@@ -1,6 +1,5 @@
 ---
 title: "Shunyu Wu (吴舜禹)"
-subtitle: "Learning physical dynamics for control and optimization"
 description-meta: "Shunyu Wu studies physical dynamics for control and optimization, with interests in water-energy systems, sustainable multi-energy systems for data centers, and precision materials manufacturing."
 toc: false
 page-layout: full
@@ -91,7 +90,6 @@ body-classes: home-page
   <div class="main">
     <section class="home-section" id="about" aria-labelledby="about-title">
       <h2 class="section__title" id="about-title">About</h2>
-      <p class="research-focus">Learning physical dynamics for control and optimization.</p>
       <p>I study the dynamics of physical systems and develop learning methods for their control and optimization. My work connects models of evolving physical states with decisions about system operation and manufacturing conditions. I am particularly interested in neural operators for distributed dynamics and in how model errors affect the resulting decisions.</p>
       <p>My engineering interests lie in water-energy systems, with a current emphasis on the dynamics and sustainable operation of integrated multi-energy systems serving data centers. I am interested in how computing demand interacts with cooling and energy supply, and how these interactions affect energy and water use alongside carbon emissions.</p>
       <p>My scientific work focuses on dynamic modeling and optimization for precision materials manufacturing. I work with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> to model how material structure evolves during processing and to optimize processing conditions for desired structures.</p>
@@ -105,11 +103,6 @@ body-classes: home-page
 {{< include _includes/research-overview.qmd >}}
 
 ```{=html}
-      <ul class="directions">
-        <li class="d-a"><strong>A. Physical dynamics.</strong> I investigate how operating inputs change physical states over time. Water-energy systems and precision materials manufacturing provide the engineering and scientific settings for this work.</li>
-        <li class="d-b"><strong>B. Learning dynamics.</strong> I develop neural operators that predict the evolution of distributed physical states under changing inputs and conditions. I study how prediction errors accumulate over time and affect sensitivities used in optimization.</li>
-        <li class="d-c"><strong>C. Model2Action.</strong> I study how errors in learned dynamics change control actions and optimization outcomes. Closed-loop cost, regret, and constraint violation provide criteria for evaluating the models and training them through the decisions they induce.</li>
-      </ul>
       <p class="section__more"><a href="/research/">The full research program</a></p>
     </section>
 
@@ -133,7 +126,7 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p>
-            <p class="pub__venue"><em>IEEE Transactions on Smart Grid</em>, 2025 <span class="role role--first">First author</span> <span class="branch">A</span> <span class="branch branch--c">C</span></p>
+            <p class="pub__venue"><em>IEEE Transactions on Smart Grid</em>, 2025 <span class="role role--first">First author</span></p>
           </div>
         </li>
         <li class="pub">
@@ -141,7 +134,7 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
-            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2024 <span class="role role--first">First author</span> <span class="branch">A</span> <span class="branch branch--b">B</span></p>
+            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2024 <span class="role role--first">First author</span></p>
           </div>
         </li>
         <li class="pub">
@@ -149,7 +142,7 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
-            <p class="pub__venue"><em>IEEE Transactions on Computational Social Systems</em>, 2024 <span class="role role--first">First author</span> <span class="branch">A</span> <span class="branch branch--b">B</span></p>
+            <p class="pub__venue"><em>IEEE Transactions on Computational Social Systems</em>, 2024 <span class="role role--first">First author</span></p>
           </div>
         </li>
         <li class="pub">
@@ -157,7 +150,7 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></p>
             <p class="pub__authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong>Shunyu Wu</strong></p>
-            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2026 <span class="role role--last">Last author</span> <span class="branch branch--c">C</span></p>
+            <p class="pub__venue"><em>Expert Systems with Applications</em>, 2026 <span class="role role--last">Last author</span></p>
           </div>
         </li>
         <li class="pub">
@@ -165,7 +158,7 @@ body-classes: home-page
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method</a></p>
             <p class="pub__authors">Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and <strong>Shunyu Wu</strong></p>
-            <p class="pub__venue"><em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>, 2024 <span class="role role--last">Last author</span> <span class="branch branch--c">C</span></p>
+            <p class="pub__venue"><em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>, 2024 <span class="role role--last">Last author</span></p>
           </div>
         </li>
       </ol>
@@ -189,7 +182,6 @@ body-classes: home-page
 
     <section class="home-section" id="thinking" aria-labelledby="thinking-title">
       <h2 class="section__title" id="thinking-title">Thinking</h2>
-      <p>Short notes on questions I keep returning to.</p>
       <div class="notes">
         <article class="note">
           <p class="note__meta"><time datetime="2026-10-06T17:38:53-04:00">6 October 2026, EDT (UTC−04:00)</time></p>

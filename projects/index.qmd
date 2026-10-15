@@ -1,41 +1,25 @@
 ---
 title: "Research projects"
-description: "Physical dynamics, learned models, and control or optimization in water-energy systems and precision materials manufacturing."
+description-meta: "Research projects in physical dynamics, learning, and control."
 toc: false
 body-classes: projects-page
 ---
 
-## Physical dynamics guide the operating decision
-
-An operating or manufacturing decision changes the subsequent trajectory of a physical system. I study models that predict that trajectory and how prediction errors affect the decision. Water-energy systems and precision materials manufacturing provide two settings for this work. The projects below connect these physical processes to [learning dynamics and Model2Action](/research/).
-
-<ol class="project-relation" aria-label="Shared research logic">
-  <li class="relation-state">Physical state</li>
-  <li class="relation-dynamics">Dynamic model</li>
-  <li class="relation-learning">Predicted trajectory</li>
-  <li class="relation-decision">Optimized inputs</li>
-  <li class="relation-evaluation">Physical response</li>
-</ol>
-
-## A. Physical dynamics
+## Physical dynamics
 
 {{< include ../_includes/dynamics-applications.qmd >}}
 
-### Water-energy dynamics in data centers {#water-energy-dynamics}
+### Water-energy systems {#water-energy-dynamics}
 
-My engineering interests lie in water-energy systems, with a current emphasis on the dynamics and sustainable operation of integrated multi-energy systems serving data centers. I am interested in how changes in computing demand affect cooling and energy supply over time. Dynamic optimization relates these responses to operating decisions that account for energy and water use alongside carbon emissions.
+My engineering interests focus on water-energy systems and the sustainable operation of multi-energy systems serving data centers.
 
-### Process dynamics in precision materials manufacturing {#precision-materials-manufacturing}
+### Materials processing {#precision-materials-manufacturing}
 
-Processing conditions influence how material structure evolves over time. I work with [Professor Fengqi You](https://www.peese.org/professor/) to model this evolution and optimize the sequence of processing conditions for a target structure.
+I work with [Professor Fengqi You](https://www.peese.org/professor/) on neural operators for dynamic modeling and optimization in precision materials manufacturing.
 
-The current material system couples initiated chemical vapor deposition (iCVD) with liquid crystals (LC). I formulate dynamic models of the process and investigate neural operators that approximate its evolving state. The predicted trajectories and their sensitivities to process inputs support the optimization of processing conditions.
+## Learning dynamics
 
-## B. Learning dynamics
-
-A dynamic model used in control must predict how the state responds to candidate inputs over the relevant horizon. I investigate neural operators for these predictions and evaluate how their errors grow during a rollout. Sensitivities to process inputs connect the learned trajectories to optimization, while governing equations constrain the physical responses the model represents.
-
-### Temporal response and uncertain pressure states <span class="branch">Engineering</span>
+### Water demand and pressure
 
 :::: {.project-study .project-study--paired .theme-dynamics}
 ::: {.project-study-visual .project-study-visual-pair}
@@ -43,41 +27,35 @@ A dynamic model used in control must predict how the state responds to candidate
 <a href="/assets/images/publications/original/criticoder.png" aria-label="View full-size CritiCoder architecture"><img src="/assets/images/publications/original/criticoder.png" width="1860" height="964" loading="lazy" alt="Figure 2 from CritiCoder: coupled Coder and Critic networks with two training loops"></a>
 :::
 ::: {.project-study-copy}
-My work on [water demand](https://doi.org/10.1016/j.eswa.2024.124508) and [network pressure](https://doi.org/10.1109/TCSS.2023.3272330) examines delayed model responses and incomplete observation in water systems.
-
-[Read the research summary](service-operations-planning.qmd)
+[KbBcM](https://doi.org/10.1016/j.eswa.2024.124508) · [CritiCoder](https://doi.org/10.1109/TCSS.2023.3272330)
 :::
 ::::
 
-### Multi-step energy dynamics in industrial rolling <span class="branch">Engineering</span>
+### Rolling energy prediction
 
 :::: {.project-study .theme-process}
 ::: {.project-study-visual}
 <a href="/assets/images/publications/original/series-concat.png" aria-label="View full-size two-stage DCLS-Net architecture"><img src="/assets/images/publications/original/series-concat.png" width="860" height="588" loading="lazy" alt="Figure 3 from the rolling energy paper. Two DCLS-Net stages predict intermediate variables and rolling energy."></a>
 :::
 ::: {.project-study-copy}
-[This study](https://doi.org/10.1109/TASE.2023.3299185) examines energy prediction across successive rolling passes, with particular attention to error accumulation along the processing sequence.
+[Paper](https://doi.org/10.1109/TASE.2023.3299185)
 :::
 ::::
 
-## C. Model2Action
+## Model2Action
 
-Model2Action connects the predicted dynamics to the inputs selected by a controller or optimizer. I study how trajectory errors affect operating cost and constraint satisfaction, and how these consequences can guide model training. The same question applies to the operation of water-energy systems and to the choice of processing conditions in materials manufacturing.
-
-### Coupled water-energy operation under forecast uncertainty <span class="branch">Engineering</span>
+### Water-energy scheduling
 
 :::: {.project-study .theme-decision}
 ::: {.project-study-visual}
 <a href="/assets/images/publications/original/spto.png" aria-label="View full-size SPTO framework"><img src="/assets/images/publications/original/spto.png" width="1968" height="1064" loading="lazy" alt="Figure 2 from SPTO: probabilistic forecasting, water-energy scheduling, and surrogate-loss training"></a>
 :::
 ::: {.project-study-copy}
-My work on [water-energy scheduling](https://doi.org/10.1109/TSG.2025.3601238) examines how forecast uncertainty changes operating decisions and their cost.
-
-[Read the research summary](industrial-workflow-analysis.qmd)
+[SPTO](https://doi.org/10.1109/TSG.2025.3601238)
 :::
 ::::
 
-### Feedback laws for constrained nonlinear dynamics <span class="branch">Engineering</span>
+### Nonlinear control
 
 :::: {.project-study .project-study--paired .theme-control}
 ::: {.project-study-visual .project-study-visual-pair}
@@ -85,21 +63,17 @@ My work on [water-energy scheduling](https://doi.org/10.1109/TSG.2025.3601238) e
 <a href="/assets/images/publications/original/eligibility-traces.png" aria-label="View full-size multiple time-scale control architecture"><img src="/assets/images/publications/original/eligibility-traces.png" width="992" height="700" loading="lazy" alt="Figure 1 from the eligibility traces paper. Actor and critic networks use truncated returns and target critic networks."></a>
 :::
 ::: {.project-study-copy}
-I investigate learning-based feedback for constrained nonlinear systems and temporal credit assignment in adaptive optimal control.
-
-[Constrained controller](https://doi.org/10.1109/TSMC.2023.3344883) · [Multiple time-scale eligibility traces](https://doi.org/10.1109/CDC49753.2023.10383316)
+[Constrained control](https://doi.org/10.1109/TSMC.2023.3344883) · [Eligibility traces](https://doi.org/10.1109/CDC49753.2023.10383316)
 :::
 ::::
 
-### Geometry-conditioned motion in physical environments <span class="branch">Robotics</span>
+### Robot trajectory generation
 
 :::: {.project-study .theme-geometry}
 ::: {.project-study-visual}
 <a href="/assets/images/publications/original/drift.jpg" aria-label="View full-size DRIFT LiDAR scene"><img src="/assets/images/publications/original/drift.jpg" width="1667" height="1179" loading="lazy" alt="Figure 2 from DRIFT: local LiDAR point clouds and sparse graph nodes with a magnified scene detail"></a>
 :::
 ::: {.project-study-copy}
-In [DRIFT](https://doi.org/10.1016/j.eswa.2026.133261), we examine how generated trajectories satisfy local geometric constraints in physical environments.
+[DRIFT](https://doi.org/10.1016/j.eswa.2026.133261)
 :::
 ::::
-
-[The publications](../publications/index.qmd) are listed by year with the same tags.

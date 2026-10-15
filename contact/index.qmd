@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Contact details and academic profiles for Shunyu Wu at Cornell University."
+description-meta: "Contact details and academic profiles for Shunyu Wu at Cornell University."
 toc: false
 ---
 

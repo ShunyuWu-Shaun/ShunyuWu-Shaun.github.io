@@ -111,7 +111,8 @@ Publication rows give figures nearly half the width beside the bibliographic
 details. They stack when their reading column is narrower than 720 px, including
 beside the profile sidebar. Publications and Projects use a wider reading area;
 paired project figures share a full row and stack on smaller screens. Paper
-lists omit method walkthroughs, and project entries use short research summaries.
+lists omit method walkthroughs, and project entries pair figures with paper links.
+Page titles stand alone, without introductory legends or explanatory subtitles.
 
 ## Citation geography
 

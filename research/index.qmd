@@ -1,6 +1,6 @@
 ---
 title: "Research"
-description: "Learning physical dynamics for control and optimization in water-energy systems, sustainable data center energy systems, and precision materials manufacturing."
+description-meta: "Learning physical dynamics for control and optimization in water-energy systems, sustainable data center energy systems, and precision materials manufacturing."
 toc: true
 ---
 
@@ -22,7 +22,7 @@ My work on water-energy systems examines how time-varying demand and uncertain e
 
 ### Process dynamics in precision materials manufacturing
 
-I work with [Professor Fengqi You](https://www.peese.org/professor/) on how material structure evolves during processing and how processing conditions can guide that evolution. Dynamic models connect a change in process inputs to the resulting material trajectory. I use this connection to investigate the optimization of processing conditions for a target structure. The [project page](/projects/#precision-materials-manufacturing) describes the current material system.
+I work with [Professor Fengqi You](https://www.peese.org/professor/) on how material structure evolves during processing and how processing conditions can guide that evolution. Dynamic models connect a change in process inputs to the resulting material trajectory. I use this connection to investigate the optimization of processing conditions for a target structure.
 
 ## B. Learning dynamics
 
@@ -46,4 +46,4 @@ I examine how these effects depend on the operating regime and the constraints t
 | B. Learning dynamics | Which dynamic responses must a learned model predict? | Rollout and sensitivity errors, with computational cost |
 | C. Model2Action | How does model error affect control and optimization? | Closed-loop cost, decision regret, and constraint violation |
 
-[Publications](/publications/) are listed by year with a tag for each direction they belong to. [Research projects](/projects/) are grouped by direction.
+[Publications](/publications/) · [Projects](/projects/)

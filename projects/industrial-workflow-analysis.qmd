@@ -1,6 +1,6 @@
 ---
 title: "Coupled water-energy operation under forecast uncertainty"
-description: "A decision-focused study of probabilistic electricity-cost forecasts and whole-process urban water-supply scheduling."
+description-meta: "A decision-focused study of probabilistic electricity-cost forecasts and whole-process urban water-supply scheduling."
 toc: true
 ---
 

@@ -1,11 +1,9 @@
 ---
 title: "Thinking"
-description: "Short working notes by Shunyu Wu on physical dynamics, learning, and control."
+description-meta: "Short working notes by Shunyu Wu on physical dynamics, learning, and control."
 toc: false
 body-classes: thinking-page
 ---
-
-Short notes on questions I keep returning to. Each note includes its date and local time zone.
 
 ```{=html}
 <!-- To add a note, copy one <article class="note"> block to the top of .notes.

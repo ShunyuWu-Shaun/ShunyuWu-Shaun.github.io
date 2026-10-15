@@ -600,12 +600,10 @@ def applications_include():
   <figure class="da-card">
     <header><p>Engineering</p><h3>Water-energy dynamics</h3></header>
     {engineering_application()}
-    <figcaption>Computing demand and thermal response connect operating decisions to energy and water use.</figcaption>
   </figure>
   <figure class="da-card">
     <header><p>Science</p><h3>Materials process dynamics</h3></header>
     {materials_application()}
-    <figcaption>Dynamic models connect processing conditions to evolving material structure.</figcaption>
   </figure>
 </div>
 ```

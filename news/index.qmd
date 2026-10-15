@@ -1,6 +1,6 @@
 ---
 title: "News"
-description: "Research, publication, appointment, and academic-service updates from Shunyu Wu."
+description-meta: "Research, publication, appointment, and academic-service updates from Shunyu Wu."
 toc: false
 body-classes: news-page
 ---

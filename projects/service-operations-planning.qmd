@@ -1,6 +1,6 @@
 ---
 title: "Temporal response and uncertain pressure states"
-description: "Studies of delayed demand response and of pressure variation caused by unmeasured disturbances in urban water systems."
+description-meta: "Studies of delayed demand response and of pressure variation caused by unmeasured disturbances in urban water systems."
 toc: true
 ---
 

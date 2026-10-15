@@ -1,6 +1,6 @@
 ---
 title: "Academic service"
-description: "Conference and journal peer review, teaching, and research mentoring by Shunyu Wu."
+description-meta: "Conference and journal peer review, teaching, and research mentoring by Shunyu Wu."
 ---
 
 ## Conference reviewing

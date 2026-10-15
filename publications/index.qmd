@@ -20,7 +20,7 @@ body-classes: publication-page
 
 <div class="publication-grid">
   <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1016/j.eswa.2026.133261"><img src="/assets/images/publications/drift.svg" width="800" height="500" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed diffusion"></a>
+    <a class="paper-visual" href="/assets/images/publications/original/drift.jpg" aria-label="View full-size DRIFT LiDAR scene"><img src="/assets/images/publications/original/drift.jpg" width="1667" height="1179" alt="Figure 2 from DRIFT: local LiDAR point clouds and sparse graph nodes with a magnified scene detail"></a>
     <div class="paper-body">
       <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>ESWA · 2026</span><span class="branch branch--c">C</span></p>
       <h3><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></h3>
@@ -35,7 +35,7 @@ body-classes: publication-page
 
 <div class="publication-grid">
   <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1109/TSG.2025.3601238"><img loading="lazy" src="/assets/images/publications/spto.svg" width="800" height="500" alt="SPTO visual abstract linking probabilistic forecasting, a differentiable optimality-gap surrogate, and stochastic scheduling"></a>
+    <a class="paper-visual" href="/assets/images/publications/original/spto.png" aria-label="View full-size SPTO framework"><img loading="lazy" src="/assets/images/publications/original/spto.png" width="1968" height="1064" alt="Figure 2 from SPTO: probabilistic forecasting, water-energy scheduling, and surrogate-loss training"></a>
     <div class="paper-body">
       <p class="paper-meta"><span class="author-role">First author</span><span>IEEE TSG · 2025</span><span class="branch">A</span><span class="branch branch--c">C</span></p>
       <h3><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></h3>
@@ -50,7 +50,7 @@ body-classes: publication-page
 
 <div class="publication-grid">
   <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1016/j.eswa.2024.124508"><img loading="lazy" src="/assets/images/publications/kbbcm.svg" width="800" height="500" alt="Bi-correction model visual abstract showing lag-penalty attention and posterior error correction"></a>
+    <a class="paper-visual" href="/assets/images/publications/original/kbbcm.png" aria-label="View full-size KbBcM architecture"><img loading="lazy" src="/assets/images/publications/original/kbbcm.png" width="1732" height="708" alt="Figure 2 from KbBcM: lag-penalty attention, AR-LSTM, and posterior correction"></a>
     <div class="paper-body">
       <p class="paper-meta"><span class="author-role">First author</span><span>ESWA · 2024</span><span class="branch">A</span><span class="branch branch--b">B</span></p>
       <h3><a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting</a></h3>
@@ -61,7 +61,7 @@ body-classes: publication-page
   </article>
 
   <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1109/TCSS.2023.3272330"><img loading="lazy" src="/assets/images/publications/criticoder.svg" width="800" height="500" alt="CritiCoder visual abstract separating measured pressure effects from unobserved disturbances"></a>
+    <a class="paper-visual" href="/assets/images/publications/original/criticoder.png" aria-label="View full-size CritiCoder architecture"><img loading="lazy" src="/assets/images/publications/original/criticoder.png" width="1860" height="964" alt="Figure 2 from CritiCoder: coupled Coder and Critic networks with two training loops"></a>
     <div class="paper-body">
       <p class="paper-meta"><span class="author-role">First author</span><span>IEEE TCSS · 2024</span><span class="branch">A</span><span class="branch branch--b">B</span></p>
       <h3><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems</a></h3>
@@ -72,7 +72,7 @@ body-classes: publication-page
   </article>
 
   <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1109/TASE.2023.3299185"><img loading="lazy" src="/assets/images/publications/series-concat.svg" width="800" height="500" alt="Series-concatenation energy prediction visual abstract for multi-step rolling"></a>
+    <a class="paper-visual" href="/assets/images/publications/original/series-concat.png" aria-label="View full-size two-stage DCLS-Net architecture"><img loading="lazy" src="/assets/images/publications/original/series-concat.png" width="860" height="588" alt="Figure 3 from the rolling energy paper. Two DCLS-Net stages predict intermediate variables and rolling energy."></a>
     <div class="paper-body">
       <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IEEE TASE · 2024</span><span class="branch">A</span><span class="branch branch--b">B</span></p>
       <h3><a href="https://doi.org/10.1109/TASE.2023.3299185">A Novel Series-Concatenation Hybrid Prediction Model of Energy Consumption in Hot Strip Roughing Process With Multi-Step Rolling</a></h3>
@@ -83,7 +83,7 @@ body-classes: publication-page
   </article>
 
   <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1109/TSMC.2023.3344883"><img loading="lazy" src="/assets/images/publications/rl-controller.svg" width="800" height="500" alt="Constrained reinforcement learning controller visual abstract"></a>
+    <a class="paper-visual" href="/assets/images/publications/original/rl-controller.png" aria-label="View full-size constrained controller architecture"><img loading="lazy" src="/assets/images/publications/original/rl-controller.png" width="1976" height="644" alt="Figure 1 from the constrained RL controller paper: NMPC initialization and actor-critic feedback"></a>
     <div class="paper-body">
       <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IEEE TSMC · 2024</span><span class="branch branch--c">C</span></p>
       <h3><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method</a></h3>
@@ -98,7 +98,7 @@ body-classes: publication-page
 
 <div class="publication-grid">
   <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1016/j.ifacol.2023.10.581"><img loading="lazy" src="/assets/images/publications/ceemdan-gcgru.svg" width="800" height="500" alt="CEEMDAN-ps-gcGRU visual abstract decomposing irregular pressure signals before recurrent prediction"></a>
+    <a class="paper-visual" href="/assets/images/publications/original/ceemdan-gcgru.png" aria-label="View full-size CEEMDAN pressure prediction architecture"><img loading="lazy" src="/assets/images/publications/original/ceemdan-gcgru.png" width="992" height="472" alt="Figure 2 from the CEEMDAN-ps-gcGRU paper. Pressure decomposition and pump signals provide inputs for GRU prediction with gradient correction."></a>
     <div class="paper-body">
       <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IFAC · 2023</span><span class="branch">A</span><span class="branch branch--b">B</span></p>
       <h3><a href="https://doi.org/10.1016/j.ifacol.2023.10.581">The CEEMDAN-ps-gcGRU Model On Water Pressure Prediction With Strong Irregularity</a></h3>
@@ -109,7 +109,7 @@ body-classes: publication-page
   </article>
 
   <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.1109/CDC49753.2023.10383316"><img loading="lazy" src="/assets/images/publications/eligibility-traces.svg" width="800" height="500" alt="Multiple time-scale eligibility traces visual abstract"></a>
+    <a class="paper-visual" href="/assets/images/publications/original/eligibility-traces.png" aria-label="View full-size multiple time-scale control architecture"><img loading="lazy" src="/assets/images/publications/original/eligibility-traces.png" width="992" height="700" alt="Figure 1 from the eligibility traces paper. Actor and critic networks use truncated returns and target critic networks."></a>
     <div class="paper-body">
       <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>IEEE CDC · 2023</span><span class="branch branch--c">C</span></p>
       <h3><a href="https://doi.org/10.1109/CDC49753.2023.10383316">Adaptive Optimal Control of Nonlinear Systems With Multiple Time-Scale Eligibility Traces</a></h3>
@@ -124,7 +124,7 @@ body-classes: publication-page
 
 <div class="publication-grid">
   <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.23919/CCC52363.2021.9550182"><img loading="lazy" src="/assets/images/publications/fine-grained.svg" width="800" height="500" alt="Fine-grained forecasting visual abstract converting a daily demand curve into minute-level demand patterns"></a>
+    <a class="paper-visual" href="/assets/images/publications/original/fine-grained.png" aria-label="View full-size fine-grained forecasting process"><img loading="lazy" src="/assets/images/publications/original/fine-grained.png" width="924" height="884" alt="Figure 4 from the fine-grained forecasting paper: selection and weighting of historical demand patterns"></a>
     <div class="paper-body">
       <p class="paper-meta"><span class="author-role">First author</span><span>CCC · 2021</span><span class="branch">A</span><span class="branch branch--b">B</span></p>
       <h3><a href="https://doi.org/10.23919/CCC52363.2021.9550182">A Fine Grained Forecasting Method for Minute-Level Urban Water Demand</a></h3>
@@ -135,7 +135,7 @@ body-classes: publication-page
   </article>
 
   <article class="paper-card">
-    <a class="paper-visual" href="https://doi.org/10.23919/CCC52363.2021.9550267"><img loading="lazy" src="/assets/images/publications/leakage-ensemble.svg" width="800" height="500" alt="Improved multi-model ensemble visual abstract for water leakage detection"></a>
+    <a class="paper-visual" href="/assets/images/publications/original/leakage-ensemble.png" aria-label="View full-size leakage detection results"><img loading="lazy" src="/assets/images/publications/original/leakage-ensemble.png" width="1828" height="968" alt="Figure 3 from the leakage detection paper. Classification accuracy across 20 experiments compares the ensemble with five alternatives."></a>
     <div class="paper-body">
       <p class="paper-meta"><span class="author-role author-role-last">Last author</span><span>CCC · 2021</span><span class="branch">A</span></p>
       <h3><a href="https://doi.org/10.23919/CCC52363.2021.9550267">An Improved Ensemble Deep Learning Model for Water Leakage Detection</a></h3>

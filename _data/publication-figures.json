@@ -1,0 +1,104 @@
+{
+  "updated": "2026-10-15",
+  "selection_rule": "Use a complete method or result figure from the paper. Crop page furniture and captions only; retain the figure's labels, legends, arrows, and data.",
+  "figures": [
+    {
+      "key": "spto",
+      "doi": "10.1109/TSG.2025.3601238",
+      "figure": 2,
+      "pdf_page": 6,
+      "crop_points": [60, 54, 552, 320],
+      "asset": "assets/images/publications/original/spto.png",
+      "source": "Author-held published article PDF",
+      "source_url": "https://doi.org/10.1109/TSG.2025.3601238"
+    },
+    {
+      "key": "kbbcm",
+      "doi": "10.1016/j.eswa.2024.124508",
+      "figure": 2,
+      "pdf_page": 3,
+      "crop_points": [82, 59, 515, 236],
+      "asset": "assets/images/publications/original/kbbcm.png",
+      "source": "Author-held published article PDF",
+      "source_url": "https://doi.org/10.1016/j.eswa.2024.124508"
+    },
+    {
+      "key": "criticoder",
+      "doi": "10.1109/TCSS.2023.3272330",
+      "figure": 2,
+      "pdf_page": 4,
+      "crop_points": [73, 58, 538, 299],
+      "asset": "assets/images/publications/original/criticoder.png",
+      "source": "Author-held published article PDF",
+      "source_url": "https://doi.org/10.1109/TCSS.2023.3272330"
+    },
+    {
+      "key": "drift",
+      "doi": "10.1016/j.eswa.2026.133261",
+      "figure": 2,
+      "asset": "assets/images/publications/original/drift.jpg",
+      "source": "Publisher high-resolution figure download",
+      "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0957417426021706-gr2_lrg.jpg"
+    },
+    {
+      "key": "rl-controller",
+      "doi": "10.1109/TSMC.2023.3344883",
+      "figure": 1,
+      "pdf_page": 7,
+      "crop_points": [59, 53, 553, 214],
+      "asset": "assets/images/publications/original/rl-controller.png",
+      "source": "Author-held published article PDF",
+      "source_url": "https://doi.org/10.1109/TSMC.2023.3344883"
+    },
+    {
+      "key": "fine-grained",
+      "doi": "10.23919/CCC52363.2021.9550182",
+      "figure": 4,
+      "pdf_page": 4,
+      "crop_points": [312, 230, 543, 451],
+      "asset": "assets/images/publications/original/fine-grained.png",
+      "source": "Author-held paper PDF",
+      "source_url": "https://doi.org/10.23919/CCC52363.2021.9550182"
+    },
+    {
+      "key": "series-concat",
+      "doi": "10.1109/TASE.2023.3299185",
+      "figure": 3,
+      "pdf_page": 5,
+      "crop_points": [67, 50, 282, 197],
+      "asset": "assets/images/publications/original/series-concat.png",
+      "source": "Publisher PDF downloaded through the authorized browser session",
+      "source_url": "https://doi.org/10.1109/TASE.2023.3299185"
+    },
+    {
+      "key": "eligibility-traces",
+      "doi": "10.1109/CDC49753.2023.10383316",
+      "figure": 1,
+      "pdf_page": 3,
+      "crop_points": [309, 429, 557, 604],
+      "asset": "assets/images/publications/original/eligibility-traces.png",
+      "source": "Publisher PDF downloaded through the authorized browser session",
+      "source_url": "https://doi.org/10.1109/CDC49753.2023.10383316"
+    },
+    {
+      "key": "leakage-ensemble",
+      "doi": "10.23919/CCC52363.2021.9550267",
+      "figure": 3,
+      "pdf_page": 5,
+      "crop_points": [87, 66, 544, 308],
+      "asset": "assets/images/publications/original/leakage-ensemble.png",
+      "source": "Publisher PDF downloaded through the authorized browser session",
+      "source_url": "https://doi.org/10.23919/CCC52363.2021.9550267"
+    },
+    {
+      "key": "ceemdan-gcgru",
+      "doi": "10.1016/j.ifacol.2023.10.581",
+      "figure": 2,
+      "pdf_page": 2,
+      "crop_points": [307, 62, 555, 180],
+      "asset": "assets/images/publications/original/ceemdan-gcgru.png",
+      "source": "Publisher PDF downloaded through the authorized browser session",
+      "source_url": "https://doi.org/10.1016/j.ifacol.2023.10.581"
+    }
+  ]
+}

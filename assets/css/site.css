@@ -683,7 +683,7 @@ body:not(.home-page) main table.table {
 
 .pub {
   display: grid;
-  grid-template-columns: 150px minmax(0, 1fr);
+  grid-template-columns: minmax(190px, 30%) minmax(0, 1fr);
   gap: 0 1.25rem;
   padding: 0.9rem 0;
   border-bottom: 1px solid var(--rule);
@@ -700,9 +700,10 @@ body:not(.home-page) main table.table {
   overflow: hidden;
   border: 1px solid var(--rule);
   border-radius: 3px;
-  background: var(--surface);
+  background: #fff;
   text-decoration: none;
   transition: border-color 140ms ease;
+  cursor: zoom-in;
 }
 
 .pub__thumb:hover,
@@ -715,6 +716,8 @@ body:not(.home-page) main table.table {
   display: block;
   width: 100%;
   height: auto;
+  padding: 0.45rem;
+  box-sizing: border-box;
 }
 
 .pub__body p,
@@ -816,7 +819,7 @@ body:not(.home-page) main table.table {
 
 .paper-card {
   display: grid;
-  grid-template-columns: 150px minmax(0, 1fr);
+  grid-template-columns: minmax(210px, 32%) minmax(0, 1fr);
   gap: 0 1.25rem;
   padding: 1rem 0;
   border-bottom: 1px solid var(--rule);
@@ -966,7 +969,7 @@ body:not(.home-page) .paper-card h3 {
 
 .project-study {
   display: grid;
-  grid-template-columns: minmax(150px, 0.32fr) minmax(0, 1fr);
+  grid-template-columns: minmax(260px, 0.9fr) minmax(0, 1fr);
   gap: 1.4rem;
   align-items: start;
   margin: 0.5rem 0 2.2rem;
@@ -982,7 +985,13 @@ body:not(.home-page) .paper-card h3 {
   overflow: hidden;
   border: 1px solid var(--rule);
   border-radius: 3px;
-  background: var(--surface);
+  background: #fff;
+  cursor: zoom-in;
+  transition: border-color 140ms ease;
+}
+
+.project-study-visual a:hover {
+  border-color: var(--rule-strong);
 }
 
 .project-study-visual img {
@@ -990,6 +999,8 @@ body:not(.home-page) .paper-card h3 {
   width: 100%;
   height: auto;
   margin: 0;
+  padding: 0.5rem;
+  box-sizing: border-box;
 }
 
 .project-study-copy > :first-child {
@@ -1121,7 +1132,8 @@ body:not(.home-page) main .da-card h3 {
 
   .pub__thumb,
   .paper-visual {
-    max-width: 220px;
+    width: 100%;
+    max-width: 420px;
   }
 
   .project-study {
@@ -1134,7 +1146,7 @@ body:not(.home-page) main .da-card h3 {
   }
 
   .project-study-visual {
-    max-width: 340px;
+    max-width: 420px;
   }
 
   .project-relation {

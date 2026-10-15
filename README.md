@@ -87,6 +87,26 @@ three directions everywhere, in the figure, the direction list, and the tags:
 purple `#9467BD` for A, teal `#31859A` for B, coral `#EA7F6F` for C. Links use
 the teal.
 
+## Publication figures
+
+The homepage, publication list, and project page share paper-original figures
+from `assets/images/publications/original/`. The image links open full-resolution
+figures; paper titles and DOI links still lead to the articles. Figures keep
+their intrinsic aspect ratios and are never cropped by CSS.
+
+`_data/publication-figures.json` records the DOI, figure number, source, and PDF
+crop rectangle. To extract a verified figure from an author-held paper:
+
+```sh
+python3 scripts/extract_publication_figure.py article.pdf figure.png \
+  --page 6 --clip 60 54 552 320
+```
+
+Keep full PDFs and figure-selection previews in the ignored
+`tmp/publication-figures/` directory. They are excluded from the website build.
+All ten listed papers use original method or result figures. The homepage,
+publication list, and projects share the same image assets.
+
 ## Citation geography
 
 The interactive map shows citing institutions without displaying citation counts.

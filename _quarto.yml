@@ -7,6 +7,7 @@ project:
     - "!assets/**"
     - "!_data/**"
     - "!_includes/**"
+    - "!tmp/**"
   resources:
     - c7d4984f38601437316bea01e3143bfe.txt
     - google60c018834eaa5cb7.html
@@ -26,6 +27,7 @@ project:
     - "!_site/**"
     - "!_includes/**"
     - "!README.md"
+    - "!tmp/**"
 
 website:
   title: "Shunyu Wu"
@@ -87,6 +89,6 @@ format:
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap">
-        <link rel="stylesheet" href="/assets/css/site.css?v=20261015-dynamics-serif">
+        <link rel="stylesheet" href="/assets/css/site.css?v=20261015-paper-figures">
 
 lang: en

@@ -129,7 +129,7 @@ body-classes: home-page
       <h2 class="section__title" id="publications-title">Selected publications</h2>
       <ol class="pub-list">
         <li class="pub">
-          <a class="pub__thumb" href="https://doi.org/10.1109/TSG.2025.3601238"><img loading="lazy" src="/assets/images/publications/spto.svg" width="800" height="500" alt="SPTO visual abstract linking a forecast distribution, a differentiable optimality-gap surrogate, and a stochastic schedule"></a>
+          <a class="pub__thumb" href="/assets/images/publications/original/spto.png" aria-label="View full-size SPTO framework"><img loading="lazy" src="/assets/images/publications/original/spto.png" width="1968" height="1064" alt="Figure 2 from SPTO: probabilistic forecasting, water-energy scheduling, and surrogate-loss training"></a>
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TSG.2025.3601238">End-to-End Stochastic Predict-Then-Optimize for Cost-Efficient Water-Energy Resource Scheduling</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Yanjiu Zhong, and Jun Rao</p>
@@ -138,7 +138,7 @@ body-classes: home-page
           </div>
         </li>
         <li class="pub">
-          <a class="pub__thumb" href="https://doi.org/10.1016/j.eswa.2024.124508"><img loading="lazy" src="/assets/images/publications/kbbcm.svg" width="800" height="500" alt="Bi-correction model visual abstract showing lag-penalty attention and posterior error correction"></a>
+          <a class="pub__thumb" href="/assets/images/publications/original/kbbcm.png" aria-label="View full-size KbBcM architecture"><img loading="lazy" src="/assets/images/publications/original/kbbcm.png" width="1732" height="708" alt="Figure 2 from KbBcM: lag-penalty attention, AR-LSTM, and posterior correction"></a>
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2024.124508">Knowledge-based Bi-correction model for achieving effective lag-free characteristic on daily urban water demand forecasting</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
@@ -147,7 +147,7 @@ body-classes: home-page
           </div>
         </li>
         <li class="pub">
-          <a class="pub__thumb" href="https://doi.org/10.1109/TCSS.2023.3272330"><img loading="lazy" src="/assets/images/publications/criticoder.svg" width="800" height="500" alt="CritiCoder visual abstract separating measured effects from unobserved disturbances"></a>
+          <a class="pub__thumb" href="/assets/images/publications/original/criticoder.png" aria-label="View full-size CritiCoder architecture"><img loading="lazy" src="/assets/images/publications/original/criticoder.png" width="1860" height="964" alt="Figure 2 from CritiCoder: coupled Coder and Critic networks with two training loops"></a>
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder: An End-to-End Uncertain Regression Network for Robust Macroscopic Pressure Models in Water Distribution Systems</a></p>
             <p class="pub__authors"><strong>Shunyu Wu</strong>, Jingcheng Wang, Haotian Xu, Shangwei Zhao, and Jiahui Xu</p>
@@ -156,7 +156,7 @@ body-classes: home-page
           </div>
         </li>
         <li class="pub">
-          <a class="pub__thumb" href="https://doi.org/10.1016/j.eswa.2026.133261"><img loading="lazy" src="/assets/images/publications/drift.svg" width="800" height="500" alt="DRIFT visual abstract showing LiDAR graph memory and target-directed diffusion"></a>
+          <a class="pub__thumb" href="/assets/images/publications/original/drift.jpg" aria-label="View full-size DRIFT LiDAR scene"><img loading="lazy" src="/assets/images/publications/original/drift.jpg" width="1667" height="1179" alt="Figure 2 from DRIFT: local LiDAR point clouds and sparse graph nodes with a magnified scene detail"></a>
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT: Coordinating target intent and local geometry for diffusion-based trajectory generation</a></p>
             <p class="pub__authors">Jinyang Zhao, Handong Zheng, Yanjiu Zhong, Qiang Zhang, and <strong>Shunyu Wu</strong></p>
@@ -165,7 +165,7 @@ body-classes: home-page
           </div>
         </li>
         <li class="pub">
-          <a class="pub__thumb" href="https://doi.org/10.1109/TSMC.2023.3344883"><img loading="lazy" src="/assets/images/publications/rl-controller.svg" width="800" height="500" alt="Constrained reinforcement learning controller visual abstract"></a>
+          <a class="pub__thumb" href="/assets/images/publications/original/rl-controller.png" aria-label="View full-size constrained controller architecture"><img loading="lazy" src="/assets/images/publications/original/rl-controller.png" width="1976" height="644" alt="Figure 1 from the constrained RL controller paper: NMPC initialization and actor-critic feedback"></a>
           <div class="pub__body">
             <p class="pub__title"><a href="https://doi.org/10.1109/TSMC.2023.3344883">Reinforcement Learning Controller Design for Discrete-Time-Constrained Nonlinear Systems With Weight Initialization Method</a></p>
             <p class="pub__authors">Jiahui Xu, Jingcheng Wang, Yanjiu Zhong, Jun Rao, and <strong>Shunyu Wu</strong></p>

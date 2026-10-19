@@ -12,6 +12,13 @@ body-classes: thinking-page
      is the intended length. Update the note shown in the Thinking section of
      index.qmd so the home page carries the newest one. -->
 <div class="notes">
+  <article class="note" id="what-status-buys">
+    <p class="note__meta">
+      <time datetime="2026-10-18T20:29:29-04:00">18 October 2026, EDT (UTC−04:00)</time>
+    </p>
+    <h2 class="note__title">What status buys</h2>
+    <p>We chase money and status largely for the life they can buy. If AI expands supply and makes that life affordable to more people, climbing the hierarchy becomes less necessary and following an interest becomes easier. If the bubble bursts without delivering those gains, why panic about missing a revolution that never arrived?</p>
+  </article>
   <article class="note" id="interest-over-status">
     <p class="note__meta">
       <time datetime="2026-10-18T20:25:10-04:00">18 October 2026, EDT (UTC−04:00)</time>

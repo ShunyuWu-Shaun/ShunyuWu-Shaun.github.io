@@ -70,7 +70,7 @@ website:
   page-footer:
     border: true
     left: "© 2026 Shunyu Wu"
-    right: "Learning physical dynamics for control and optimization · Updated 15 October 2026"
+    right: "Learning physical dynamics for control and optimization · Updated 18 October 2026"
 
 format:
   html:

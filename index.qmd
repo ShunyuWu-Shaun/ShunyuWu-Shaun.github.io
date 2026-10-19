@@ -184,9 +184,9 @@ body-classes: home-page
       <h2 class="section__title" id="thinking-title">Thinking</h2>
       <div class="notes">
         <article class="note">
-          <p class="note__meta"><time datetime="2026-10-06T17:38:53-04:00">6 October 2026, EDT (UTC−04:00)</time></p>
-          <h3 class="note__title"><a href="/thinking/#what-counts-as-intelligence">What counts as intelligence?</a></h3>
-          <p>I don't understand why people talk as if AI makes human intelligence irrelevant. Deriving equations and writing code matter, but what about handling several problems at once, learning quickly, and knowing which direction is worth pursuing? Don't these count as intelligence? I would call them a higher form of it, developed through broader experience than any single technical skill demands. These are exactly the abilities we need most when working with AI, whether in research or in making engineering ideas work.</p>
+          <p class="note__meta"><time datetime="2026-10-18T20:25:10-04:00">18 October 2026, EDT (UTC−04:00)</time></p>
+          <h3 class="note__title"><a href="/thinking/#interest-over-status">Interest over status</a></h3>
+          <p>I read "Working for Fun" on Rao Yi Science today and couldn't agree more. If AI can take over much of anyone's work, perhaps it can also give more people the freedom to follow what interests them, wherever it leads. Hierarchies keep drawing in new people who want to get ahead. When interest matters more than status, even deeply unfair structures may begin to lose the people who keep them in place.</p>
         </article>
       </div>
       <p class="section__more"><a href="/thinking/">All notes</a></p>

@@ -8,6 +8,10 @@ body-classes: news-page
 ```{=html}
 <div class="news-timeline">
   <article class="news-item">
+    <time datetime="2026-11">Nov 2026</time>
+    <div><h2>Claude credits for research</h2><p>I’m excited to have been awarded $20,000 in Claude credits through the MIT–Anthropic AI for Science Study.</p></div>
+  </article>
+  <article class="news-item">
     <time datetime="2026-08">Aug 2026</time>
     <div><h2>Invited to review for ICLR 2027!</h2><p>I reviewed for the International Conference on Learning Representations in the 2025 and 2026 cycles.</p></div>
   </article>

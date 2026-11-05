@@ -13,35 +13,35 @@ body-classes: news-page
   </article>
   <article class="news-item">
     <time datetime="2026-08">Aug 2026</time>
-    <div><h2>Invited to review for ICLR 2027!</h2><p>I reviewed for the International Conference on Learning Representations in the 2025 and 2026 cycles.</p></div>
+    <div><h2>Invited back to review for ICLR 2027</h2><p>I reviewed in the 2025 and 2026 cycles. I’m looking forward to seeing what people have been working on.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2026-08">Aug 2026</time>
-    <div><h2>Joined Cornell University as an Ezra Systems Postdoctoral Associate!</h2><p>I am in the Systems Engineering Program, working with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on dynamic modeling and optimization for precision materials manufacturing.</p></div>
+    <div><h2>Starting at Cornell</h2><p>I’ve joined Cornell University as an Ezra Systems Postdoctoral Associate in Systems Engineering. I’m happy to be working with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on dynamic modeling and optimization for precision materials manufacturing.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2026-07">Jul 2026</time>
-    <div><h2><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT appeared in Expert Systems with Applications</a></h2><p>DRIFT conditions recurrent diffusion-based trajectory generation on both the target and the local LiDAR geometry.</p></div>
+    <div><h2><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT in Expert Systems with Applications</a></h2><p>Good to see this one out! In DRIFT, we use both the target and local LiDAR geometry to guide a recurrent diffusion model as it generates trajectories.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2026-06">Jun 2026</time>
-    <div><h2>Received my Ph.D. from Shanghai Jiao Tong University!</h2><p>I thank my advisor, <a href="https://ieeexplore.ieee.org/author/37280547200">Professor Jingcheng Wang</a>, for six years of guidance, and my labmates for the arguments and the company.</p></div>
+    <div><h2>I finished my Ph.D. at Shanghai Jiao Tong University!</h2><p>Thank you to my advisor, <a href="https://ieeexplore.ieee.org/author/37280547200">Professor Jingcheng Wang</a>, for six years of guidance. And thanks to my labmates for the arguments and the company.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2026">2026</time>
-    <div><h2>Reviewing for the machine learning conferences</h2><p>I reviewed for ICML, the NeurIPS Position Paper Track, and the AAAI Main Technical and AI for Social Impact tracks.</p></div>
+    <div><h2>Conference reviewing</h2><p>I got to review for ICML, the NeurIPS Position Paper Track, and the AAAI Main Technical and AI for Social Impact tracks this year.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2025">2025</time>
-    <div><h2><a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO appeared in IEEE Transactions on Smart Grid</a></h2><p>SPTO trains a probabilistic electricity-cost forecast through the water-supply schedule it induces.</p></div>
+    <div><h2><a href="https://doi.org/10.1109/TSG.2025.3601238">SPTO in IEEE Transactions on Smart Grid</a></h2><p>I’m glad to share SPTO, our paper on water-supply scheduling. We train a probabilistic electricity-cost forecast through the schedule it leads to.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2024-12">Dec 2024</time>
-    <div><h2><a href="https://doi.org/10.1016/j.eswa.2024.124508">The Bi-correction model appeared in Expert Systems with Applications</a></h2><p>Lag-penalty attention and posterior error correction reduce the delayed response in daily urban water-demand forecasting.</p></div>
+    <div><h2><a href="https://doi.org/10.1016/j.eswa.2024.124508">Bi-correction in Expert Systems with Applications</a></h2><p>When urban water demand changes, how quickly can a forecast catch up? We use lag-penalty attention and posterior error correction to reduce that delay in daily forecasts.</p></div>
   </article>
   <article class="news-item">
     <time datetime="2024-04">Apr 2024</time>
-    <div><h2><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder appeared in IEEE TCSS</a></h2><p>CritiCoder separates the pressure response to observed inputs from the residual variation caused by unmeasured disturbances.</p></div>
+    <div><h2><a href="https://doi.org/10.1109/TCSS.2023.3272330">CritiCoder in IEEE TCSS</a></h2><p>Our paper on water network pressure has been published! CritiCoder separates the pressure response to observed inputs from variation due to unmeasured disturbances.</p></div>
   </article>
 </div>
 ```

@@ -108,8 +108,8 @@ body-classes: home-page
       <h2 class="section__title" id="news-title">News</h2>
       <ol class="news-list">
         <li><time datetime="2026-11">Nov 2026</time><div>I’m excited to have been awarded $20,000 in Claude credits through the MIT–Anthropic AI for Science Study.</div></li>
-        <li><time datetime="2026-08">Aug 2026</time><div>Joined Cornell University as an Ezra Systems Postdoctoral Associate! I work with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on dynamic modeling and optimization for precision materials manufacturing.</div></li>
-        <li><time datetime="2026-07">Jul 2026</time><div><a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT</a> appeared in <em>Expert Systems with Applications</em>.</div></li>
+        <li><time datetime="2026-08">Aug 2026</time><div>Hello from Cornell! I’ve joined the Systems Engineering Program as an Ezra Systems Postdoctoral Associate, working with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on precision materials manufacturing.</div></li>
+        <li><time datetime="2026-07">Jul 2026</time><div>Our <a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT</a> paper is out in <em>Expert Systems with Applications</em>!</div></li>
       </ol>
       <p class="section__more"><a href="/news/">All news</a></p>
     </section>

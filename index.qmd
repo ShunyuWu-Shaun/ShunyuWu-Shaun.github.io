@@ -107,6 +107,7 @@ body-classes: home-page
     <section class="home-section" id="news" aria-labelledby="news-title">
       <h2 class="section__title" id="news-title">News</h2>
       <ol class="news-list">
+        <li><time datetime="2026-11">Nov 2026</time><div>I’ve been invited back to review for ICML 2027!</div></li>
         <li><time datetime="2026-11">Nov 2026</time><div>I’m excited to have been awarded $20,000 in Claude credits through the MIT–Anthropic AI for Science Study.</div></li>
         <li><time datetime="2026-08">Aug 2026</time><div>Hello from Cornell! I’ve joined the Systems Engineering Program as an Ezra Systems Postdoctoral Associate, working with <a href="https://www.peese.org/professor/">Professor Fengqi You</a> on precision materials manufacturing.</div></li>
         <li><time datetime="2026-07">Jul 2026</time><div>Our <a href="https://doi.org/10.1016/j.eswa.2026.133261">DRIFT</a> paper is out in <em>Expert Systems with Applications</em>!</div></li>
@@ -163,7 +164,7 @@ body-classes: home-page
 
     <section class="home-section" id="service" aria-labelledby="service-title">
       <h2 class="section__title" id="service-title">Academic service</h2>
-      <p>I reviewed for ICLR in the 2025 and 2026 cycles and have been invited for 2027. I have also reviewed for ICML, NeurIPS, AAAI, and CDC, and for five IEEE Transactions journals, <em>Scientific Reports</em>, and <em>Socio-Economic Planning Sciences</em>.</p>
+      <p>I reviewed for ICML in 2026 and for ICLR in its 2025 and 2026 cycles. Both conferences have invited me back for 2027. I have also reviewed for NeurIPS, AAAI, and CDC. My journal reviewing includes five IEEE Transactions journals, <em>Scientific Reports</em>, and <em>Socio-Economic Planning Sciences</em>.</p>
       <p class="section__more"><a href="/service/">Reviewing, teaching, and mentoring</a></p>
     </section>
 
